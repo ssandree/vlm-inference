@@ -1,0 +1,180 @@
+{
+  "combinations": [
+    {
+      "temporal_threshold": 0.3,
+      "spatial_threshold": 0.1,
+      "n_temporal_eligible_pairs": 7,
+      "n_accepted_pairs": 4,
+      "n_spatial_rejected_pairs": 3,
+      "n_candidate_groups": 2,
+      "group_size_distribution": {
+        "2": 1,
+        "3": 1
+      },
+      "n_grouped_events": 5,
+      "n_ungrouped_events": 3,
+      "n_events_meeting_temporal_threshold": 8
+    },
+    {
+      "temporal_threshold": 0.3,
+      "spatial_threshold": 0.15,
+      "n_temporal_eligible_pairs": 7,
+      "n_accepted_pairs": 4,
+      "n_spatial_rejected_pairs": 3,
+      "n_candidate_groups": 2,
+      "group_size_distribution": {
+        "2": 1,
+        "3": 1
+      },
+      "n_grouped_events": 5,
+      "n_ungrouped_events": 3,
+      "n_events_meeting_temporal_threshold": 8
+    },
+    {
+      "temporal_threshold": 0.3,
+      "spatial_threshold": 0.2,
+      "n_temporal_eligible_pairs": 7,
+      "n_accepted_pairs": 5,
+      "n_spatial_rejected_pairs": 2,
+      "n_candidate_groups": 3,
+      "group_size_distribution": {
+        "2": 2,
+        "3": 1
+      },
+      "n_grouped_events": 7,
+      "n_ungrouped_events": 1,
+      "n_events_meeting_temporal_threshold": 8
+    },
+    {
+      "temporal_threshold": 0.3,
+      "spatial_threshold": 0.25,
+      "n_temporal_eligible_pairs": 7,
+      "n_accepted_pairs": 5,
+      "n_spatial_rejected_pairs": 2,
+      "n_candidate_groups": 3,
+      "group_size_distribution": {
+        "2": 2,
+        "3": 1
+      },
+      "n_grouped_events": 7,
+      "n_ungrouped_events": 1,
+      "n_events_meeting_temporal_threshold": 8
+    },
+    {
+      "temporal_threshold": 0.5,
+      "spatial_threshold": 0.1,
+      "n_temporal_eligible_pairs": 5,
+      "n_accepted_pairs": 3,
+      "n_spatial_rejected_pairs": 2,
+      "n_candidate_groups": 1,
+      "group_size_distribution": {
+        "3": 1
+      },
+      "n_grouped_events": 3,
+      "n_ungrouped_events": 3,
+      "n_events_meeting_temporal_threshold": 6
+    },
+    {
+      "temporal_threshold": 0.5,
+      "spatial_threshold": 0.15,
+      "n_temporal_eligible_pairs": 5,
+      "n_accepted_pairs": 3,
+      "n_spatial_rejected_pairs": 2,
+      "n_candidate_groups": 1,
+      "group_size_distribution": {
+        "3": 1
+      },
+      "n_grouped_events": 3,
+      "n_ungrouped_events": 3,
+      "n_events_meeting_temporal_threshold": 6
+    },
+    {
+      "temporal_threshold": 0.5,
+      "spatial_threshold": 0.2,
+      "n_temporal_eligible_pairs": 5,
+      "n_accepted_pairs": 4,
+      "n_spatial_rejected_pairs": 1,
+      "n_candidate_groups": 2,
+      "group_size_distribution": {
+        "2": 1,
+        "3": 1
+      },
+      "n_grouped_events": 5,
+      "n_ungrouped_events": 1,
+      "n_events_meeting_temporal_threshold": 6
+    },
+    {
+      "temporal_threshold": 0.5,
+      "spatial_threshold": 0.25,
+      "n_temporal_eligible_pairs": 5,
+      "n_accepted_pairs": 4,
+      "n_spatial_rejected_pairs": 1,
+      "n_candidate_groups": 2,
+      "group_size_distribution": {
+        "2": 1,
+        "3": 1
+      },
+      "n_grouped_events": 5,
+      "n_ungrouped_events": 1,
+      "n_events_meeting_temporal_threshold": 6
+    },
+    {
+      "temporal_threshold": 0.7,
+      "spatial_threshold": 0.1,
+      "n_temporal_eligible_pairs": 5,
+      "n_accepted_pairs": 3,
+      "n_spatial_rejected_pairs": 2,
+      "n_candidate_groups": 1,
+      "group_size_distribution": {
+        "3": 1
+      },
+      "n_grouped_events": 3,
+      "n_ungrouped_events": 3,
+      "n_events_meeting_temporal_threshold": 6
+    },
+    {
+      "temporal_threshold": 0.7,
+      "spatial_threshold": 0.15,
+      "n_temporal_eligible_pairs": 5,
+      "n_accepted_pairs": 3,
+      "n_spatial_rejected_pairs": 2,
+      "n_candidate_groups": 1,
+      "group_size_distribution": {
+        "3": 1
+      },
+      "n_grouped_events": 3,
+      "n_ungrouped_events": 3,
+      "n_events_meeting_temporal_threshold": 6
+    },
+    {
+      "temporal_threshold": 0.7,
+      "spatial_threshold": 0.2,
+      "n_temporal_eligible_pairs": 5,
+      "n_accepted_pairs": 4,
+      "n_spatial_rejected_pairs": 1,
+      "n_candidate_groups": 2,
+      "group_size_distribution": {
+        "2": 1,
+        "3": 1
+      },
+      "n_grouped_events": 5,
+      "n_ungrouped_events": 1,
+      "n_events_meeting_temporal_threshold": 6
+    },
+    {
+      "temporal_threshold": 0.7,
+      "spatial_threshold": 0.25,
+      "n_temporal_eligible_pairs": 5,
+      "n_accepted_pairs": 4,
+      "n_spatial_rejected_pairs": 1,
+      "n_candidate_groups": 2,
+      "group_size_distribution": {
+        "2": 1,
+        "3": 1
+      },
+      "n_grouped_events": 5,
+      "n_ungrouped_events": 1,
+      "n_events_meeting_temporal_threshold": 6
+    }
+  ]
+}

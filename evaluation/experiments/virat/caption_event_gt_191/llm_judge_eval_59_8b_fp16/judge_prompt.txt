@@ -1,0 +1,16 @@
+Evaluate the supplied 118 captions against the explicitly requested original caption_event_gt_191/gt.
+Read full captions and all matching caption_events.json. Manually author semantic judgments, never lexical/regex scoring.
+Use the prior original-GT semantic rubric: distinct dynamic action types, coalesced repeats; exact evidence excerpts.
+Do not infer facility crossing from stairs, approach, disappearance, or being at an entrance.
+Do not infer vehicle boarding from subsequent driving, trunk opening from an already open trunk, or conversation from unspecified interaction.
+Extract walking/running, carrying, cycling, scooter riding, vehicle driving, parking, talking, pushing a cart, object handling and explicit transitions. Static states, weather, OCR, counts, timestamps, scenery/birds are outside primary action scope.
+Uncertainty must be specific semantic ambiguity; save exact evidence. Confident GT-absent action = GT-unsupported, never visually verified false.
+Preserve fine-grained judgments, then merge walking/running into locomotion as requested in the previous human-review workflow. Keep other original actions distinct. Enter/exit remain distinct under this original-GT baseline.
+Evaluate directional units on the same action/actor; do not transfer another person's direction. Spatial position is not motion. Missing and contradictory are distinct. Do not call an opposite direction contradictory when unspecified other actors could satisfy the GT.
+Primary population: all paired videos with nonempty original GT. Report empty-GT videos separately and include them in a GT-existing sensitivity table. Missing GT is unscored; never empty negative ground truth.
+R = unique video/action-family coverage, P = GT-supported predicted family proportion, D = unique video/action-family/direction coverage, H = GT-unsupported proportion = 1-P. matched/correct/supported=1, uncertain=.5, others=0. Pool within condition.
+Score = 100*(.5R+.3P+.2D). Report w=0/1 sensitivity, not confidence intervals. Zero denominator is null; missing directions earn zero.
+Project decisions to every original event ID, label explicitly as semantic coverage, not per-track detection.
+Do not compare the score to the reviewed_v2 human factual-precision composite: different GT, populations, normalization and weights. Original GT is user-requested, not reviewed_v2.
+Retain complete input snapshots, hashes, exact excerpts, source index, all judgments, excluded/empty video lists, and replay code. No video verification/API/controlled temperature claim unless actually performed. Current runtime seed/temperature are unavailable.
+Build video-level yes/no/unsure review checklist for GT gaps, omitted GT actions, semantic ambiguity, directions, and narrative inconsistencies. Do not transfer prior yes/no answers to new caption assertions without checking their identical factual scope.

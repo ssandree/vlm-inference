@@ -1,0 +1,59 @@
+{
+  "video": "VIRAT_S_010204_03_000606_000632.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010204_03_000606_000632.mp4.json",
+  "source_caption_sha256": "131fb6b7b22a4d3fd5db0356e2600fd691182a061ffbddff8dc73212e8de6fbc",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 16.68752607425949,
+      "intermediate_caption": "A person wearing a black shirt and dark pants walks from the right side of the frame toward the lower left. Simultaneously, a woman in a patterned shirt and dark pants moves from the center of the frame toward the left. In the background, multiple individuals walk along a pathway adjacent to a building marked “STUDENT SERVICES,” including one descending stairs on the far right.  \n\nThe woman in the patterned shirt continues walking across a paved courtyard from right to left. Meanwhile, another individual ascends stairs on the far right. A blue trash can appears in the lower-left corner.  \n\nShe proceeds across the courtyard while others continue walking along a covered walkway connected to the “STUDENT SERVICES” building.  \n\nOn the sidewalk in front of the building, three pedestrians move independently: one in a red shirt travels from left to right; another in a white shirt approaches the camera; and a third in a dark shirt walks away from it. All maintain steady walking paces.  \n\nFurther back, two more people traverse the covered walkway from left to right, followed shortly after by a third person walking away from view. The area remains largely unchanged except for ongoing pedestrian movement through the outdoor space featuring pavement, lampposts, trash bins, and landscaping.  \n\nLater, a group passes along a paved path beneath the covered walkway beside the “STUDENT SERVICES” building, traveling from left to right. The setting includes additional details such as a tall dark pole topped with a heater, a nearby building entrance bearing a green awning and a sign reading “CHICANO,” a red directional sign pointing upward and to the right, a white box displaying “Spa Pouch” near steps, and the previously noted blue trash bin still present in the lower-left portion of the frame.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-16.68752607425949"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "In the foreground, a person wearing a black shirt and dark pants walks from the right side of the frame toward the lower left. In the middle ground, a woman in a patterned shirt and dark pants walks from the center of the frame toward the left. In the background, several other individuals are walking on a pathway near a building labeled \"STUDENT SERVICES.\" A person in a blue shirt walks down stairs on the far right."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A woman wearing a patterned shirt and dark pants walks from the right side of the frame towards the left across a paved courtyard.\n\nIn the background, several other people are walking on a pathway near a building labeled \"STUDENT SERVICES\".\n\nAnother person walks up a set of stairs on the far right of the frame.\n\nA blue trash can is visible in the lower-left corner."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "A person wearing a patterned shirt and dark pants walks from the right side of the frame towards the left across a paved courtyard.\n\nIn the background, several other people are walking along a covered walkway attached to a building labeled \"STUDENT SERVICES\"."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "Several people are walking on the sidewalk in front of a building labeled \"STUDENT SERVICES\". A person in a red shirt walks from left to right in the background. Another person in a white shirt walks towards the camera on the same sidewalk. A third person in a dark shirt walks away from the camera on the sidewalk. The people are moving at a normal walking pace. There are no other significant actions or movements observed."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "In the distance, two people walk from left to right along a covered walkway next to a building labeled \"STUDENT SERVICES.\" A third person walks away from the camera on the same walkway further down. The scene is otherwise static, showing a paved courtyard with a lamp post, trash cans, and a building entrance with a green awning."
+        },
+        {
+          "source_clip": "15-16.68752607425949",
+          "start_sec": 15.0,
+          "end_sec": 16.68752607425949,
+          "caption": "A group of people walks along a paved path in the background, moving from left to right. They are walking under a covered walkway attached to a building labeled \"STUDENT SERVICES\". The scene is outdoors on a campus with paved walkways, grassy areas, trees, and buildings. A tall, dark pole with a heater at the top stands in the foreground. To the right, there is a building entrance with a green awning and a sign that says \"CHICANO\". A red sign with white text and an arrow points up and to the right. A white box with a sign that says \"Spa Pouch\" sits near a set of stairs. A blue trash can is visible in the lower-left corner."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1555 @@
+{
+  "video_id": "VIRAT_S_010207_10_001549_001596",
+  "confirmed_walking": false,
+  "n_segments": 27,
+  "segments": [
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t1_s01",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "1",
+      "start_frame": 0,
+      "end_frame": 200,
+      "start_time": 0.0,
+      "end_time": 8.3438,
+      "duration_sec": 8.3438,
+      "displacement_px": 148.53,
+      "path_length_px": 177.29,
+      "normalized_displacement": 0.1011,
+      "dx_px": -139.5,
+      "dy_px": -51.0,
+      "direction_proposal": "right_to_left",
+      "motion_state": "moving",
+      "start_reason": "track_start",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 201,
+          "tracked_frames_inside_overlap": 201
+        },
+        {
+          "event_id": "5",
+          "activity_class": "person_carrying_object",
+          "role": "subject",
+          "overlap_frames": 201,
+          "tracked_frames_inside_overlap": 201
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 201,
+          "tracked_frames_inside_overlap": 201
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t1_s02",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "1",
+      "start_frame": 201,
+      "end_frame": 276,
+      "start_time": 8.3855,
+      "end_time": 11.5144,
+      "duration_sec": 3.1289,
+      "displacement_px": 19.01,
+      "path_length_px": 22.95,
+      "normalized_displacement": 0.0129,
+      "dx_px": -17.0,
+      "dy_px": -8.5,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "stationary_interval",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 76,
+          "tracked_frames_inside_overlap": 76
+        },
+        {
+          "event_id": "5",
+          "activity_class": "person_carrying_object",
+          "role": "subject",
+          "overlap_frames": 76,
+          "tracked_frames_inside_overlap": 76
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 76,
+          "tracked_frames_inside_overlap": 76
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t1_s03",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "1",
+      "start_frame": 277,
+      "end_frame": 594,
+      "start_time": 11.5561,
+      "end_time": 24.781,
+      "duration_sec": 13.2249,
+      "displacement_px": 128.98,
+      "path_length_px": 148.46,
+      "normalized_displacement": 0.0878,
+      "dx_px": -124.0,
+      "dy_px": -35.5,
+      "direction_proposal": "right_to_left",
+      "motion_state": "moving",
+      "start_reason": "coherent_movement",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 318,
+          "tracked_frames_inside_overlap": 318
+        },
+        {
+          "event_id": "5",
+          "activity_class": "person_carrying_object",
+          "role": "subject",
+          "overlap_frames": 318,
+          "tracked_frames_inside_overlap": 318
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 318,
+          "tracked_frames_inside_overlap": 318
+        },
+        {
+          "event_id": "7",
+          "activity_class": "person_exiting_facility",
+          "role": "temporal_only",
+          "overlap_frames": 50,
+          "tracked_frames_inside_overlap": 50
+        },
+        {
+          "event_id": "8",
+          "activity_class": "person_exiting_facility",
+          "role": "temporal_only",
+          "overlap_frames": 89,
+          "tracked_frames_inside_overlap": 89
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t1_s04",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "1",
+      "start_frame": 595,
+      "end_frame": 621,
+      "start_time": 24.8227,
+      "end_time": 25.9074,
+      "duration_sec": 1.0847,
+      "displacement_px": 2.83,
+      "path_length_px": 4.0,
+      "normalized_displacement": 0.0019,
+      "dx_px": -2.0,
+      "dy_px": -2.0,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 27,
+          "tracked_frames_inside_overlap": 27
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 25,
+          "tracked_frames_inside_overlap": 25
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t3_s01",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "3",
+      "start_frame": 0,
+      "end_frame": 621,
+      "start_time": 0.0,
+      "end_time": 25.9074,
+      "duration_sec": 25.9074,
+      "displacement_px": 104.25,
+      "path_length_px": 121.12,
+      "normalized_displacement": 0.071,
+      "dx_px": -103.5,
+      "dy_px": -12.5,
+      "direction_proposal": "right_to_left",
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 622,
+          "tracked_frames_inside_overlap": 622
+        },
+        {
+          "event_id": "5",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 595,
+          "tracked_frames_inside_overlap": 595
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 620,
+          "tracked_frames_inside_overlap": 620
+        },
+        {
+          "event_id": "7",
+          "activity_class": "person_exiting_facility",
+          "role": "temporal_only",
+          "overlap_frames": 50,
+          "tracked_frames_inside_overlap": 50
+        },
+        {
+          "event_id": "8",
+          "activity_class": "person_exiting_facility",
+          "role": "temporal_only",
+          "overlap_frames": 89,
+          "tracked_frames_inside_overlap": 89
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t6_s01",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "6",
+      "start_frame": 397,
+      "end_frame": 405,
+      "start_time": 16.5624,
+      "end_time": 16.8961,
+      "duration_sec": 0.3338,
+      "displacement_px": 1.8,
+      "path_length_px": 2.5,
+      "normalized_displacement": 0.0012,
+      "dx_px": 1.5,
+      "dy_px": 1.0,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 9,
+          "tracked_frames_inside_overlap": 9
+        },
+        {
+          "event_id": "5",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 9,
+          "tracked_frames_inside_overlap": 9
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 9,
+          "tracked_frames_inside_overlap": 9
+        },
+        {
+          "event_id": "8",
+          "activity_class": "person_exiting_facility",
+          "role": "subject",
+          "overlap_frames": 9,
+          "tracked_frames_inside_overlap": 9
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t6_s02",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "6",
+      "start_frame": 406,
+      "end_frame": 685,
+      "start_time": 16.9378,
+      "end_time": 28.5774,
+      "duration_sec": 11.6395,
+      "displacement_px": 48.84,
+      "path_length_px": 64.02,
+      "normalized_displacement": 0.0333,
+      "dx_px": 48.0,
+      "dy_px": 9.0,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 280,
+          "tracked_frames_inside_overlap": 280
+        },
+        {
+          "event_id": "5",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 189,
+          "tracked_frames_inside_overlap": 189
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 214,
+          "tracked_frames_inside_overlap": 214
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t6_s03",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "6",
+      "start_frame": 686,
+      "end_frame": 790,
+      "start_time": 28.6191,
+      "end_time": 32.9579,
+      "duration_sec": 4.3388,
+      "displacement_px": 39.05,
+      "path_length_px": 41.89,
+      "normalized_displacement": 0.0266,
+      "dx_px": 38.0,
+      "dy_px": 9.0,
+      "direction_proposal": null,
+      "motion_state": "moving",
+      "start_reason": "coherent_movement",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 30,
+          "tracked_frames_inside_overlap": 30
+        },
+        {
+          "event_id": "9",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 29,
+          "tracked_frames_inside_overlap": 29
+        },
+        {
+          "event_id": "11",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 10,
+          "tracked_frames_inside_overlap": 10
+        },
+        {
+          "event_id": "12",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 29,
+          "tracked_frames_inside_overlap": 29
+        },
+        {
+          "event_id": "13",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 29,
+          "tracked_frames_inside_overlap": 29
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t6_s04",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "6",
+      "start_frame": 791,
+      "end_frame": 853,
+      "start_time": 32.9996,
+      "end_time": 35.5861,
+      "duration_sec": 2.5866,
+      "displacement_px": 13.21,
+      "path_length_px": 15.07,
+      "normalized_displacement": 0.009,
+      "dx_px": 11.5,
+      "dy_px": 6.5,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "stationary_interval",
+      "overlapping_virat_events": [
+        {
+          "event_id": "9",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 63,
+          "tracked_frames_inside_overlap": 63
+        },
+        {
+          "event_id": "11",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 63,
+          "tracked_frames_inside_overlap": 63
+        },
+        {
+          "event_id": "12",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 63,
+          "tracked_frames_inside_overlap": 63
+        },
+        {
+          "event_id": "13",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 63,
+          "tracked_frames_inside_overlap": 63
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t6_s05",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "6",
+      "start_frame": 854,
+      "end_frame": 903,
+      "start_time": 35.6279,
+      "end_time": 37.6721,
+      "duration_sec": 2.0442,
+      "displacement_px": 17.41,
+      "path_length_px": 22.86,
+      "normalized_displacement": 0.0119,
+      "dx_px": 11.0,
+      "dy_px": 13.5,
+      "direction_proposal": null,
+      "motion_state": "moving",
+      "start_reason": "coherent_movement",
+      "overlapping_virat_events": [
+        {
+          "event_id": "9",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 50,
+          "tracked_frames_inside_overlap": 50
+        },
+        {
+          "event_id": "11",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 50,
+          "tracked_frames_inside_overlap": 50
+        },
+        {
+          "event_id": "12",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 50,
+          "tracked_frames_inside_overlap": 50
+        },
+        {
+          "event_id": "13",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 50,
+          "tracked_frames_inside_overlap": 50
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t6_s06",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "6",
+      "start_frame": 904,
+      "end_frame": 1006,
+      "start_time": 37.7138,
+      "end_time": 41.9691,
+      "duration_sec": 4.2553,
+      "displacement_px": 34.0,
+      "path_length_px": 38.8,
+      "normalized_displacement": 0.0232,
+      "dx_px": 32.0,
+      "dy_px": 11.5,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "stationary_interval",
+      "overlapping_virat_events": [
+        {
+          "event_id": "10",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 74,
+          "tracked_frames_inside_overlap": 74
+        },
+        {
+          "event_id": "11",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 103,
+          "tracked_frames_inside_overlap": 103
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t7_s01",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "7",
+      "start_frame": 600,
+      "end_frame": 646,
+      "start_time": 25.0313,
+      "end_time": 26.9504,
+      "duration_sec": 1.9191,
+      "displacement_px": 5.41,
+      "path_length_px": 8.15,
+      "normalized_displacement": 0.0037,
+      "dx_px": 4.5,
+      "dy_px": 3.0,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 47,
+          "tracked_frames_inside_overlap": 47
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 20,
+          "tracked_frames_inside_overlap": 20
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t7_s02",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "7",
+      "start_frame": 647,
+      "end_frame": 780,
+      "start_time": 26.9921,
+      "end_time": 32.5407,
+      "duration_sec": 5.5486,
+      "displacement_px": 45.19,
+      "path_length_px": 84.34,
+      "normalized_displacement": 0.0308,
+      "dx_px": 41.0,
+      "dy_px": 19.0,
+      "direction_proposal": null,
+      "motion_state": "moving",
+      "start_reason": "coherent_movement",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 69,
+          "tracked_frames_inside_overlap": 69
+        },
+        {
+          "event_id": "9",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 19,
+          "tracked_frames_inside_overlap": 19
+        },
+        {
+          "event_id": "12",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 19,
+          "tracked_frames_inside_overlap": 19
+        },
+        {
+          "event_id": "13",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 19,
+          "tracked_frames_inside_overlap": 19
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t7_s03",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "7",
+      "start_frame": 781,
+      "end_frame": 1006,
+      "start_time": 32.5824,
+      "end_time": 41.9691,
+      "duration_sec": 9.3867,
+      "displacement_px": 59.68,
+      "path_length_px": 127.63,
+      "normalized_displacement": 0.0406,
+      "dx_px": 51.0,
+      "dy_px": 31.0,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "overlapping_virat_events": [
+        {
+          "event_id": "9",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 123,
+          "tracked_frames_inside_overlap": 123
+        },
+        {
+          "event_id": "10",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 74,
+          "tracked_frames_inside_overlap": 74
+        },
+        {
+          "event_id": "11",
+          "activity_class": "person_carrying_object",
+          "role": "subject",
+          "overlap_frames": 226,
+          "tracked_frames_inside_overlap": 226
+        },
+        {
+          "event_id": "12",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 123,
+          "tracked_frames_inside_overlap": 123
+        },
+        {
+          "event_id": "13",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 123,
+          "tracked_frames_inside_overlap": 123
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t8_s01",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "8",
+      "start_frame": 900,
+      "end_frame": 932,
+      "start_time": 37.5469,
+      "end_time": 38.8819,
+      "duration_sec": 1.335,
+      "displacement_px": 144.19,
+      "path_length_px": 147.38,
+      "normalized_displacement": 0.0982,
+      "dx_px": -142.5,
+      "dy_px": 22.0,
+      "direction_proposal": "right_to_left",
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "overlapping_virat_events": [
+        {
+          "event_id": "9",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 4,
+          "tracked_frames_inside_overlap": 4
+        },
+        {
+          "event_id": "11",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 33,
+          "tracked_frames_inside_overlap": 33
+        },
+        {
+          "event_id": "12",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 4,
+          "tracked_frames_inside_overlap": 4
+        },
+        {
+          "event_id": "13",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 4,
+          "tracked_frames_inside_overlap": 4
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t8_s02",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "8",
+      "start_frame": 933,
+      "end_frame": 1006,
+      "start_time": 38.9237,
+      "end_time": 41.9691,
+      "duration_sec": 3.0455,
+      "displacement_px": 234.55,
+      "path_length_px": 238.7,
+      "normalized_displacement": 0.1597,
+      "dx_px": -232.0,
+      "dy_px": -34.5,
+      "direction_proposal": "right_to_left",
+      "motion_state": "moving",
+      "start_reason": "activity_boundary",
+      "overlapping_virat_events": [
+        {
+          "event_id": "10",
+          "activity_class": "person_carrying_object",
+          "role": "subject",
+          "overlap_frames": 74,
+          "tracked_frames_inside_overlap": 74
+        },
+        {
+          "event_id": "11",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 74,
+          "tracked_frames_inside_overlap": 74
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t14_s01",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "14",
+      "start_frame": 840,
+      "end_frame": 908,
+      "start_time": 35.0438,
+      "end_time": 37.8807,
+      "duration_sec": 2.8369,
+      "displacement_px": 141.35,
+      "path_length_px": 194.8,
+      "normalized_displacement": 0.0962,
+      "dx_px": -140.0,
+      "dy_px": 19.5,
+      "direction_proposal": "right_to_left",
+      "motion_state": "moving",
+      "start_reason": "track_start",
+      "overlapping_virat_events": [
+        {
+          "event_id": "9",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 64,
+          "tracked_frames_inside_overlap": 64
+        },
+        {
+          "event_id": "11",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 69,
+          "tracked_frames_inside_overlap": 69
+        },
+        {
+          "event_id": "12",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 64,
+          "tracked_frames_inside_overlap": 64
+        },
+        {
+          "event_id": "13",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 64,
+          "tracked_frames_inside_overlap": 64
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t15_s01",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "15",
+      "start_frame": 0,
+      "end_frame": 474,
+      "start_time": 0.0,
+      "end_time": 19.7747,
+      "duration_sec": 19.7747,
+      "displacement_px": 231.66,
+      "path_length_px": 278.23,
+      "normalized_displacement": 0.1577,
+      "dx_px": -215.5,
+      "dy_px": -85.0,
+      "direction_proposal": "right_to_left",
+      "motion_state": "moving",
+      "start_reason": "track_start",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "subject",
+          "overlap_frames": 475,
+          "tracked_frames_inside_overlap": 475
+        },
+        {
+          "event_id": "5",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 475,
+          "tracked_frames_inside_overlap": 475
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 475,
+          "tracked_frames_inside_overlap": 475
+        },
+        {
+          "event_id": "7",
+          "activity_class": "person_exiting_facility",
+          "role": "temporal_only",
+          "overlap_frames": 50,
+          "tracked_frames_inside_overlap": 50
+        },
+        {
+          "event_id": "8",
+          "activity_class": "person_exiting_facility",
+          "role": "temporal_only",
+          "overlap_frames": 89,
+          "tracked_frames_inside_overlap": 89
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t15_s02",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "15",
+      "start_frame": 475,
+      "end_frame": 715,
+      "start_time": 19.8164,
+      "end_time": 29.829,
+      "duration_sec": 10.0125,
+      "displacement_px": 31.4,
+      "path_length_px": 54.83,
+      "normalized_displacement": 0.0214,
+      "dx_px": -25.0,
+      "dy_px": -19.0,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "stationary_interval",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "subject",
+          "overlap_frames": 241,
+          "tracked_frames_inside_overlap": 241
+        },
+        {
+          "event_id": "5",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 120,
+          "tracked_frames_inside_overlap": 120
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 145,
+          "tracked_frames_inside_overlap": 145
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t15_s03",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "15",
+      "start_frame": 716,
+      "end_frame": 761,
+      "start_time": 29.8707,
+      "end_time": 31.748,
+      "duration_sec": 1.8773,
+      "displacement_px": 3.61,
+      "path_length_px": 5.0,
+      "normalized_displacement": 0.0025,
+      "dx_px": 3.0,
+      "dy_px": -2.0,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "overlapping_virat_events": [],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t15_s04",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "15",
+      "start_frame": 762,
+      "end_frame": 810,
+      "start_time": 31.7897,
+      "end_time": 33.7922,
+      "duration_sec": 2.0025,
+      "displacement_px": 4.0,
+      "path_length_px": 4.0,
+      "normalized_displacement": 0.0027,
+      "dx_px": 4.0,
+      "dy_px": 0.0,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "overlapping_virat_events": [
+        {
+          "event_id": "9",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 49,
+          "tracked_frames_inside_overlap": 49
+        },
+        {
+          "event_id": "11",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 30,
+          "tracked_frames_inside_overlap": 30
+        },
+        {
+          "event_id": "12",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 49,
+          "tracked_frames_inside_overlap": 49
+        },
+        {
+          "event_id": "13",
+          "activity_class": "person_entering_facility",
+          "role": "subject",
+          "overlap_frames": 49,
+          "tracked_frames_inside_overlap": 49
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t15_s05",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "15",
+      "start_frame": 811,
+      "end_frame": 896,
+      "start_time": 33.834,
+      "end_time": 37.3801,
+      "duration_sec": 3.5461,
+      "displacement_px": 41.0,
+      "path_length_px": 42.41,
+      "normalized_displacement": 0.0279,
+      "dx_px": 41.0,
+      "dy_px": 0.0,
+      "direction_proposal": null,
+      "motion_state": "moving",
+      "start_reason": "coherent_movement",
+      "overlapping_virat_events": [
+        {
+          "event_id": "9",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 86,
+          "tracked_frames_inside_overlap": 86
+        },
+        {
+          "event_id": "11",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 86,
+          "tracked_frames_inside_overlap": 86
+        },
+        {
+          "event_id": "12",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 86,
+          "tracked_frames_inside_overlap": 86
+        },
+        {
+          "event_id": "13",
+          "activity_class": "person_entering_facility",
+          "role": "subject",
+          "overlap_frames": 86,
+          "tracked_frames_inside_overlap": 86
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t16_s01",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "16",
+      "start_frame": 0,
+      "end_frame": 486,
+      "start_time": 0.0,
+      "end_time": 20.2753,
+      "duration_sec": 20.2753,
+      "displacement_px": 257.11,
+      "path_length_px": 302.77,
+      "normalized_displacement": 0.1751,
+      "dx_px": -243.0,
+      "dy_px": -84.0,
+      "direction_proposal": "right_to_left",
+      "motion_state": "moving",
+      "start_reason": "track_start",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 487,
+          "tracked_frames_inside_overlap": 487
+        },
+        {
+          "event_id": "5",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 487,
+          "tracked_frames_inside_overlap": 487
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_carrying_object",
+          "role": "subject",
+          "overlap_frames": 487,
+          "tracked_frames_inside_overlap": 487
+        },
+        {
+          "event_id": "7",
+          "activity_class": "person_exiting_facility",
+          "role": "temporal_only",
+          "overlap_frames": 50,
+          "tracked_frames_inside_overlap": 50
+        },
+        {
+          "event_id": "8",
+          "activity_class": "person_exiting_facility",
+          "role": "temporal_only",
+          "overlap_frames": 89,
+          "tracked_frames_inside_overlap": 89
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t16_s02",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "16",
+      "start_frame": 487,
+      "end_frame": 619,
+      "start_time": 20.3171,
+      "end_time": 25.8239,
+      "duration_sec": 5.5069,
+      "displacement_px": 27.28,
+      "path_length_px": 35.62,
+      "normalized_displacement": 0.0186,
+      "dx_px": -24.5,
+      "dy_px": -12.0,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "stationary_interval",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 133,
+          "tracked_frames_inside_overlap": 133
+        },
+        {
+          "event_id": "5",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 108,
+          "tracked_frames_inside_overlap": 108
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_carrying_object",
+          "role": "subject",
+          "overlap_frames": 133,
+          "tracked_frames_inside_overlap": 133
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t16_s03",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "16",
+      "start_frame": 620,
+      "end_frame": 761,
+      "start_time": 25.8657,
+      "end_time": 31.748,
+      "duration_sec": 5.8824,
+      "displacement_px": 5.7,
+      "path_length_px": 24.41,
+      "normalized_displacement": 0.0039,
+      "dx_px": 1.5,
+      "dy_px": -5.5,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "overlapping_virat_events": [
+        {
+          "event_id": "4",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 96,
+          "tracked_frames_inside_overlap": 96
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t16_s04",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "16",
+      "start_frame": 762,
+      "end_frame": 829,
+      "start_time": 31.7897,
+      "end_time": 34.5849,
+      "duration_sec": 2.7952,
+      "displacement_px": 18.82,
+      "path_length_px": 23.5,
+      "normalized_displacement": 0.0128,
+      "dx_px": 18.0,
+      "dy_px": -5.5,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "overlapping_virat_events": [
+        {
+          "event_id": "9",
+          "activity_class": "person_entering_facility",
+          "role": "subject",
+          "overlap_frames": 68,
+          "tracked_frames_inside_overlap": 68
+        },
+        {
+          "event_id": "11",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 49,
+          "tracked_frames_inside_overlap": 49
+        },
+        {
+          "event_id": "12",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 68,
+          "tracked_frames_inside_overlap": 68
+        },
+        {
+          "event_id": "13",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 68,
+          "tracked_frames_inside_overlap": 68
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t16_s05",
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "16",
+      "start_frame": 840,
+      "end_frame": 900,
+      "start_time": 35.0438,
+      "end_time": 37.5469,
+      "duration_sec": 2.5031,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0,
+      "normalized_displacement": 0.0,
+      "dx_px": 0.0,
+      "dy_px": 0.0,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "stationary_interval",
+      "overlapping_virat_events": [
+        {
+          "event_id": "9",
+          "activity_class": "person_entering_facility",
+          "role": "subject",
+          "overlap_frames": 61,
+          "tracked_frames_inside_overlap": 61
+        },
+        {
+          "event_id": "11",
+          "activity_class": "person_carrying_object",
+          "role": "temporal_only",
+          "overlap_frames": 61,
+          "tracked_frames_inside_overlap": 61
+        },
+        {
+          "event_id": "12",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 61,
+          "tracked_frames_inside_overlap": 61
+        },
+        {
+          "event_id": "13",
+          "activity_class": "person_entering_facility",
+          "role": "temporal_only",
+          "overlap_frames": 61,
+          "tracked_frames_inside_overlap": 61
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    }
+  ]
+}

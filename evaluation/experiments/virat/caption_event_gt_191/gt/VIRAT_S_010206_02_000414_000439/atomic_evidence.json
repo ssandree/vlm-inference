@@ -1,0 +1,91 @@
+{
+  "video_id": "VIRAT_S_010206_02_000414_000439",
+  "atomic_evidence": [
+    {
+      "atomic_evidence_id": "AE001",
+      "source": {
+        "type": "virat_activity",
+        "virat_event_ids": [
+          "2"
+        ],
+        "source_track_ids": [
+          "0"
+        ]
+      },
+      "start_frame": 189,
+      "end_frame": 251,
+      "start_time": 7.8849,
+      "end_time": 10.4714,
+      "subject": {
+        "category": "person",
+        "track_id": "0"
+      },
+      "action": "entering_facility",
+      "object": [],
+      "direction": null,
+      "screen_location": {
+        "source": "derived_from_track",
+        "value": "left_middle",
+        "track_id": "0",
+        "method": "median_centroid_3x3",
+        "median_centroid_norm": [
+          0.2348,
+          0.35
+        ],
+        "n_boxes": 43,
+        "reason": null
+      },
+      "semantic_location": null,
+      "caption_evaluable": true,
+      "activity_class": "person_entering_facility",
+      "duplicate_candidate": false,
+      "confirmed_caption_event": true,
+      "review": {
+        "human_verified": false,
+        "keep_as_caption_event": null,
+        "note": ""
+      }
+    },
+    {
+      "atomic_evidence_id": "AE002",
+      "source": {
+        "type": "person_track_review",
+        "virat_event_ids": [],
+        "source_track_ids": [
+          "4"
+        ]
+      },
+      "start_frame": 404,
+      "end_frame": 522,
+      "start_time": 16.8544,
+      "end_time": 21.7772,
+      "subject": {
+        "category": "person",
+        "track_id": "4"
+      },
+      "action": null,
+      "object": [],
+      "direction": "right_to_left",
+      "screen_location": {
+        "value": "left_top",
+        "source": "derived_from_track",
+        "is_semantic_location": false
+      },
+      "semantic_location": null,
+      "caption_evaluable": false,
+      "confirmed_caption_event": false,
+      "proposal": {
+        "action": "walking",
+        "direction": "right_to_left",
+        "confirmed": false,
+        "running_conflict": []
+      },
+      "review": {
+        "human_verified": false,
+        "is_walking": null,
+        "keep_as_caption_event": null,
+        "note": ""
+      }
+    }
+  ]
+}

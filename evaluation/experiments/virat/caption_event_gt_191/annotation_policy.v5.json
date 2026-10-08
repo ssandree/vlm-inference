@@ -1,0 +1,140 @@
+{
+  "name": "virat_caption_event_annotation_policy",
+  "version": 5,
+  "status": "annotation_framework",
+  "inherits": "annotation_policy.json",
+  "scope": "Additive extension of v4. Existing source annotations, dense_event_gt, ROI outputs, and v4 pilot outputs remain read-only.",
+  "policy_extensions": {
+    "annotation_layers": {
+      "source": "Immutable original VIRAT annotation provenance",
+      "atomic_caption_evidence": "Human-confirmed minimum visible actor/action evidence, independent of VIRAT taxonomy",
+      "caption_event": "Human-verified dense-caption evaluation unit composed from one or more atomic evidence records"
+    },
+    "human_added_evidence": {
+      "source_type": "human_added",
+      "role": "first-class evidence source; not merely a supplemental note",
+      "actions": "Extensible canonical snake_case labels; not a closed ontology",
+      "examples": ["walking", "riding_bicycle", "vehicle_moving", "crossing_road", "carrying_object"],
+      "confirmation": "A human must verify the visible action before it is emitted as atomic_caption_evidence",
+      "model_proposals": "Keep in candidate_suggestions; never promote to evidence or GT automatically",
+      "virat_event_ids": "Empty unless the evidence independently cites an original VIRAT event; human_added records do not rewrite source annotations",
+      "review_input": {
+        "human_added_event_id": "HA001",
+        "action": "vehicle_moving",
+        "subject": {"category": "vehicle", "track_id": null},
+        "object": [],
+        "source_track_ids": [],
+        "start_frame": null,
+        "end_frame": null,
+        "start_time": null,
+        "end_time": null,
+        "direction": null,
+        "semantic_location": null,
+        "review": {"human_verified": true, "reviewer_id": null, "reviewed_at": null, "note": ""}
+      }
+    },
+    "atomic_evidence_v5": {
+      "preserve_source_types": ["virat_activity", "person_track_review", "human_added"],
+      "source_type_is_provenance": true,
+      "grouping_deletes_evidence": false,
+      "action_vocabulary": "Extensible canonical string; review spelling consistency without rejecting unseen actions",
+      "human_added_event_fields": ["action", "subject", "object", "source_track_ids", "start_frame", "end_frame", "start_time", "end_time", "direction", "semantic_location", "review.human_verified"],
+      "candidate_suggestions_are_atomic_evidence": false,
+      "template": {
+        "atomic_evidence_id": "AE001",
+        "source": {"type": "virat_activity | person_track_review | human_added", "virat_event_ids": [], "source_track_ids": []},
+        "start_frame": null,
+        "end_frame": null,
+        "start_time": null,
+        "end_time": null,
+        "subject": {"category": null, "track_id": null},
+        "action": null,
+        "object": [],
+        "direction": null,
+        "screen_location": null,
+        "semantic_location": null,
+        "caption_evaluable": true,
+        "review": {"human_verified": false, "reviewer_id": null, "reviewed_at": null, "note": ""}
+      }
+    },
+    "caption_event_v5": {
+      "event_forms": ["individual", "group", "composite"],
+      "legacy_action_alias": "action equals event_semantics.primary_action",
+      "event_semantics": {
+        "primary_action": "Required canonical action for a verified caption event",
+        "supporting_actions": "Distinct constituent actions that support the primary semantic event; empty for individual and group events"
+      },
+      "importance_values": ["primary", "context"],
+      "importance_assignment": "Human review only; null while pending",
+      "reference_sentence": "Human-authored and human-verified; never accepted from a model proposal",
+      "backward_compatibility": "Retain action, object, direction, semantic_location, reference_sentence, source_atomic_evidence_ids, and source_track_ids; v5 fields are additive",
+      "template": {
+        "caption_event_id": "CE001",
+        "event_form": "individual | group | composite",
+        "source_atomic_evidence_ids": [],
+        "source_track_ids": [],
+        "start_frame": null,
+        "end_frame": null,
+        "start_time": null,
+        "end_time": null,
+        "subject": {"category": null, "group": false, "track_id": null},
+        "action": null,
+        "event_semantics": {"primary_action": null, "supporting_actions": []},
+        "importance": null,
+        "object": [],
+        "direction": null,
+        "semantic_location": null,
+        "reference_sentence": null,
+        "v5_review": {
+          "human_verified": false,
+          "reference_sentence_verified": false,
+          "temporal_bounds_verified": false,
+          "status": "pending_human_verification"
+        },
+        "evaluation_eligible": false
+      }
+    },
+    "composition": {
+      "individual": "Exactly one atomic evidence record; one actor and one atomic semantic action",
+      "group": "At least two actors performing the same canonical action; requires distinct linked tracks or explicit human-verified group membership when identities are untracked",
+      "composite": "At least two atomic evidence records connected by a shared actor/participant track or an explicit human-verified participant relation; primary_action must be a constituent action and supporting_actions describe the other constituent actions",
+      "temporal_overlap_alone": "Never sufficient for group or composite composition",
+      "unrelated_concurrent_events": "Remain separate caption events",
+      "constituent_evidence": "Always retained with every source AE ID and track ID"
+    },
+    "human_review": {
+      "final_gt_owner": "human",
+      "model_role": "Candidate suggestions only",
+      "verified_caption_event_requires": ["human_verified", "importance", "reference_sentence", "reference_sentence_verified", "temporal_bounds_verified", "validated_event_semantics"],
+      "composite_requires": "Human-verified participant relation when no shared source track proves the link"
+    },
+    "semantic_review": {
+      "default": {
+        "reviewed_for_visible_events": false,
+        "reviewed_by_human": false,
+        "review_version": 1,
+        "reviewed_at": null
+      },
+      "evaluation_gate": "A video is eligible only when reviewed_for_visible_events and reviewed_by_human are true, and each selected CE is human-verified with primary/context importance, an explicitly verified reference sentence, and explicitly verified temporal bounds",
+      "absence_from_gt_means_false": false,
+      "annotation_conversion_alone_completes_review": false
+    },
+    "vehicle_movement": {
+      "eligible_as_human_added_evidence": true,
+      "background_traffic": "May be represented by one human-authored collective/context CE instead of one CE per vehicle",
+      "automatic_per_vehicle_event_expansion": false
+    },
+    "walking_and_wandering": {
+      "preserve_existing_candidate_generation": true,
+      "preserve_direction_segmentation_reversal_stationary_split_minimum_duration_and_human_verification": true,
+      "preserve_grouping_and_wandering_candidate_logic": true,
+      "promotion_to_verified_gt": "Human review only"
+    },
+    "migration": {
+      "rewrite_existing_outputs": false,
+      "rewrite_source_annotations_dense_event_gt_or_roi_outputs": false,
+      "v4_records": "Read as legacy candidates; preserve their original fields and do not treat old generated status as v5 semantic verification",
+      "v5_output": "Separate versioned output root; one explicitly selected video per invocation"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "video_id": "VIRAT_S_010207_10_001549_001596",
+  "n_virat_source_events": 10,
+  "n_atomic_evidence": 16,
+  "n_caption_events": 14,
+  "n_individual_caption_events": 11,
+  "n_group_caption_events": 3,
+  "n_walking_candidates": 6,
+  "n_confirmed_walking": 6,
+  "n_wandering_candidates": 0,
+  "n_confirmed_wandering": 0,
+  "n_human_review_pending": 5,
+  "n_semantic_location_unset": 11,
+  "n_duplicate_candidates": 0,
+  "n_human_added_events": 0,
+  "n_carrying_without_object": 5,
+  "pending_human_review": [
+    {
+      "review_id": "RQ001",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "15"
+      ],
+      "start_time": 0.0,
+      "end_time": 29.829,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    },
+    {
+      "review_id": "RQ002",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "1"
+      ],
+      "start_time": 0.0,
+      "end_time": 24.781,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    },
+    {
+      "review_id": "RQ003",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "16"
+      ],
+      "start_time": 0.0,
+      "end_time": 25.8239,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    },
+    {
+      "review_id": "RQ004",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE007"
+      ],
+      "source_track_ids": [
+        "8"
+      ],
+      "start_time": 38.9237,
+      "end_time": 41.9691,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    },
+    {
+      "review_id": "RQ005",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE008"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_time": 32.5824,
+      "end_time": 41.9691,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    }
+  ]
+}

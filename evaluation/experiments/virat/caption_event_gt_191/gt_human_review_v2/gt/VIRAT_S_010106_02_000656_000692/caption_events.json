@@ -1,0 +1,635 @@
+{
+  "video_id": "VIRAT_S_010106_02_000656_000692",
+  "version": "human_review_v2",
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "5"
+      ],
+      "start_frame": 0,
+      "end_frame": 192,
+      "start_time": 0.0,
+      "end_time": 8.01,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "5"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE005"
+      ],
+      "source_track_ids": [
+        "10"
+      ],
+      "start_frame": 0,
+      "end_frame": 241,
+      "start_time": 0.0,
+      "end_time": 10.0542,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "10"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "2"
+      ],
+      "start_frame": 43,
+      "end_frame": 621,
+      "start_time": 1.7939,
+      "end_time": 25.9074,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "2"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE004",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "1"
+      ],
+      "start_frame": 53,
+      "end_frame": 621,
+      "start_time": 2.2111,
+      "end_time": 25.9074,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "1"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE005",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "10"
+      ],
+      "start_frame": 242,
+      "end_frame": 837,
+      "start_time": 10.096,
+      "end_time": 34.9186,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "10"
+      },
+      "action": "gesturing",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "gesturing",
+      "provenance_layer": "original_gt",
+      "review_links": [
+        "V06-16"
+      ]
+    },
+    {
+      "caption_event_id": "CE006",
+      "event_form": "group",
+      "source_atomic_evidence_ids": [
+        "AE003",
+        "AE002"
+      ],
+      "source_track_ids": [
+        "2",
+        "1"
+      ],
+      "start_frame": 53,
+      "end_frame": 621,
+      "start_time": 2.2111,
+      "end_time": 25.9074,
+      "subject": {
+        "category": "person",
+        "group": true
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "person_count_is_required_caption_slot": false,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "HE_V06-02",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": "right_to_left",
+      "object": [],
+      "reference_sentence": "함께 걷는 두 사람이 화면 오른쪽에서 왼쪽으로 이동한다.",
+      "review_links": [
+        "V06-02"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V06-05",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": "left_to_right",
+      "object": [],
+      "reference_sentence": "별도의 사람이 먼 쪽 통로에서 왼쪽→오른쪽으로 걷는다.",
+      "review_links": [
+        "V06-05"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V06-06",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 주차된 밴 근처의 열린 주차 공간을 가로질러 걷는다.",
+      "review_links": [
+        "V06-06"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V06-07",
+      "event_form": "human_review_semantic_event",
+      "action": "looking_around",
+      "action_family": "looking_around",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "그 사람이 걷다가 멈춰 주변을 둘러본다.",
+      "review_links": [
+        "V06-07"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V06-08",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "다른 사람이 화면 오른쪽에 나타나 서 있다가 다시 걸어간다.",
+      "review_links": [
+        "V06-08"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V06-09",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "두 사람이 주차 차량 옆 보도를 함께 걷는다.",
+      "review_links": [
+        "V06-09"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V06-10",
+      "event_form": "human_review_semantic_event",
+      "action": "cycling",
+      "action_family": "cycling",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "운동장 펜스 옆 길에서 실제 자전거 주행이 있다.",
+      "review_links": [
+        "V06-10"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V06-11",
+      "event_form": "human_review_semantic_event",
+      "action": "cycling",
+      "action_family": "cycling",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "먼 쪽 도로/모퉁이에서 추가 자전거 주행이 있다.",
+      "review_links": [
+        "V06-11"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V06-12",
+      "event_form": "human_review_semantic_event",
+      "action": "cycling",
+      "action_family": "cycling",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "전경 쪽에서도 자전거가 주행한다.",
+      "review_links": [
+        "V06-12"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    }
+  ],
+  "confirmed_attributes": [],
+  "confirmed_context": [],
+  "rejected_claims": [
+    {
+      "review_id": "V06-01",
+      "video_id": "VIRAT_S_010106_02_000656_000692",
+      "statement_ko": "함께 걷는 두 사람이 화면 오른쪽으로 이동한다.",
+      "review_hint_ko": "다른 설명의 오른쪽→왼쪽과 비교. 같은 그룹·같은 구간인지 기록.",
+      "source_record_ids": [
+        "R014",
+        "R032",
+        "R050"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V06-01 [core] 함께 걷는 두 사람이 화면 오른쪽으로 이동한다.\n  확인 포인트: 다른 설명의 오른쪽→왼쪽과 비교. 같은 그룹·같은 구간인지 기록.\n  출처: R014, R032, R050",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "direction",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V06-03",
+      "video_id": "VIRAT_S_010106_02_000656_000692",
+      "statement_ko": "함께 걷던 두 사람이 서로 갈라진다.",
+      "review_hint_ko": "한 명 정지/다른 한 명 계속 이동의 실제 여부 확인.",
+      "source_record_ids": [
+        "R014",
+        "R032",
+        "R050"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V06-03 [core] 함께 걷던 두 사람이 서로 갈라진다.\n  확인 포인트: 한 명 정지/다른 한 명 계속 이동의 실제 여부 확인.\n  출처: R014, R032, R050",
+      "semantic_kind": "event",
+      "action_family": "group_separation",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V06-04",
+      "video_id": "VIRAT_S_010106_02_000656_000692",
+      "statement_ko": "두 사람 중 한 사람이 주차 차량 근처에 멈춘다.",
+      "review_hint_ko": "그 사람이 gesturing GT 주체인지 확인.",
+      "source_record_ids": [
+        "R014",
+        "R032",
+        "R050"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V06-04 [core] 두 사람 중 한 사람이 주차 차량 근처에 멈춘다.\n  확인 포인트: 그 사람이 gesturing GT 주체인지 확인.\n  출처: R014, R032, R050",
+      "semantic_kind": "event",
+      "action_family": "stopping",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V06-14",
+      "video_id": "VIRAT_S_010106_02_000656_000692",
+      "statement_ko": "주차장 또는 인접 도로에서 차량이 움직인다.",
+      "review_hint_ko": "차량이 정지해 있다는 설명과 대조.",
+      "source_record_ids": [
+        "R014",
+        "R086"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V06-14 [core] 주차장 또는 인접 도로에서 차량이 움직인다.\n  확인 포인트: 차량이 정지해 있다는 설명과 대조.\n  출처: R014, R086",
+      "semantic_kind": "event",
+      "action_family": "driving",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V06-15",
+      "video_id": "VIRAT_S_010106_02_000656_000692",
+      "statement_ko": "파란 차량이 화면 오른쪽에서 왼쪽으로 이동한다.",
+      "review_hint_ko": "색이 다르면 수정. 이 방향을 보행자에게 전용하지 말 것.",
+      "source_record_ids": [
+        "R086"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V06-15 [core] 파란 차량이 화면 오른쪽에서 왼쪽으로 이동한다.\n  확인 포인트: 색이 다르면 수정. 이 방향을 보행자에게 전용하지 말 것.\n  출처: R086",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "direction",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "uncertain_claims": [
+    {
+      "review_id": "V06-13",
+      "video_id": "VIRAT_S_010106_02_000656_000692",
+      "statement_ko": "화면 오른쪽 차량에서 사람이 내린다.",
+      "review_hint_ko": "현재 GT에 없는 getting_out_of_vehicle 후보.",
+      "source_record_ids": [
+        "R050"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "no와 함께 \"뒤쪽에서 나오긴 했는데 내린다는 증거는 없음\"이라고 명시. 하차 부재 확정이 아니라 관측 증거 부족으로 처리.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "uncertain",
+      "resolution_ko": "no와 함께 \"뒤쪽에서 나오긴 했는데 내린다는 증거는 없음\"이라고 명시. 하차 부재 확정이 아니라 관측 증거 부족으로 처리.",
+      "review_block": "[no] V06-13 [core] 화면 오른쪽 차량에서 사람이 내린다. \n  확인 포인트: 현재 GT에 없는 getting_out_of_vehicle 후보. <- 뒤쪽에서 나오긴 했는데 내린다는 증거는 없음\n  출처: R050",
+      "semantic_kind": "event",
+      "action_family": "getting_out_of_vehicle",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "corrected_claims": [],
+  "exhaustive_for_all_visible_events": false,
+  "evaluation_scope": "human-reviewed semantic events, action families and reviewed claims; not temporally localized instance detection"
+}

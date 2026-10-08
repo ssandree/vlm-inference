@@ -1,0 +1,19 @@
+Describe all meaningful actions and events that are visually observable in this surveillance video clip.
+
+Focus on people, vehicles, their movements, and interactions.
+
+Be precise about:
+- how many people or vehicles are involved when clearly visible,
+- what they are doing,
+- relevant objects or interaction targets,
+- spatial location and movement direction when they are clearly observable.
+
+When describing movement or a change in state, compare the subject across multiple frames and verify that its position, pose, or state actually changes over time.
+Do not infer movement from the presence of an object in a single frame.
+If temporal change cannot be reliably confirmed across frames, describe it as uncertain or do not claim that movement occurred.
+
+Do not infer intentions, conversations, relationships, or events that are not visually supported.
+Do not describe static background details unless they are relevant to an action.
+Do not omit a clearly visible event just because another event is more visually prominent.
+
+Write concise factual sentences only.

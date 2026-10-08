@@ -1,0 +1,896 @@
+{
+  "video_id": "VIRAT_S_010114_01_000235_000311",
+  "version": "human_review_v2",
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_frame": 35,
+      "end_frame": 103,
+      "start_time": 1.4602,
+      "end_time": 4.297,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "7"
+      },
+      "action": "opening_vehicle_trunk",
+      "object": [
+        {
+          "track_id": "40",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "opening_vehicle_trunk",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_frame": 192,
+      "end_frame": 238,
+      "start_time": 8.01,
+      "end_time": 9.9291,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "7"
+      },
+      "action": "closing_vehicle_trunk",
+      "object": [
+        {
+          "track_id": "40",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "closing_vehicle_trunk",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_frame": 303,
+      "end_frame": 385,
+      "start_time": 12.6408,
+      "end_time": 16.0617,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "7"
+      },
+      "action": "getting_into_vehicle",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "getting_into_vehicle",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE004",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "35"
+      ],
+      "start_frame": 464,
+      "end_frame": 832,
+      "start_time": 19.3575,
+      "end_time": 34.7101,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "35"
+      },
+      "action": "running",
+      "object": [],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": [
+        "V07-24"
+      ]
+    },
+    {
+      "caption_event_id": "HE_V07-01",
+      "event_form": "human_review_semantic_event",
+      "action": "driving",
+      "action_family": "driving",
+      "subject": {
+        "category": "vehicle",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "흰색 세단이 주차장으로 들어온다.",
+      "review_links": [
+        "V07-01"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V07-06",
+      "event_form": "human_review_semantic_event",
+      "action": "driving",
+      "action_family": "driving",
+      "subject": {
+        "category": "vehicle",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "은색 세단이 화면 좌하단 쪽 주차장을 이동한다.",
+      "review_links": [
+        "V07-06"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V07-11",
+      "event_form": "human_review_semantic_event",
+      "action": "cycling",
+      "action_family": "cycling",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "주차장 중앙에서 실제 자전거 주행이 있다.",
+      "review_links": [
+        "V07-11"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V07-14",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 먼 쪽 건물/운동장 옆 보도를 걷는다.",
+      "review_links": [
+        "V07-14"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V07-15",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 화면 오른쪽 건물/흰 밴 근처 보도를 걷는다.",
+      "review_links": [
+        "V07-15"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V07-18",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 차량 쪽으로 다가간다.",
+      "review_links": [
+        "V07-18"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    }
+  ],
+  "confirmed_attributes": [
+    {
+      "review_id": "V07-07",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "그 은색 세단이 우회전한다.",
+      "review_hint_ko": "차량 회전과 화면 오른쪽 이동은 구분.",
+      "source_record_ids": [
+        "R037"
+      ],
+      "answer": "yes",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "detail",
+      "raw_answer": "yes",
+      "resolved_status": "yes",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[yes] V07-07 [detail] 그 은색 세단이 우회전한다.\n  확인 포인트: 차량 회전과 화면 오른쪽 이동은 구분.\n  출처: R037",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "turn",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-12",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "중앙 자전거는 화면 오른쪽→왼쪽으로 이동한다.",
+      "review_hint_ko": "반대 방향 주장과 같은 주체/구간인지 확인.",
+      "source_record_ids": [
+        "R001",
+        "R019",
+        "R037"
+      ],
+      "answer": "yes",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "yes",
+      "resolved_status": "yes",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[yes] V07-12 [core] 중앙 자전거는 화면 오른쪽→왼쪽으로 이동한다.\n  확인 포인트: 반대 방향 주장과 같은 주체/구간인지 확인.\n  출처: R001, R019, R037",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "direction",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "confirmed_context": [],
+  "rejected_claims": [
+    {
+      "review_id": "V07-02",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "흰색 세단이 다른 차량 근처에 주차한다.",
+      "review_hint_ko": "사용자가 사실로 확인함. 사건 시간 기록 필요.",
+      "source_record_ids": [
+        "R000",
+        "R018",
+        "R036"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "최신 체크리스트 no를 이전 대화의 주차 yes보다 우선 적용.",
+      "candidate_priority_at_generation": "confirmed",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "최신 체크리스트 no를 이전 대화의 주차 yes보다 우선 적용.",
+      "review_block": "[no] V07-02 [confirmed] 흰색 세단이 다른 차량 근처에 주차한다.\n  확인 포인트: 사용자가 사실로 확인함. 사건 시간 기록 필요.\n  출처: R000, R018, R036",
+      "semantic_kind": "event",
+      "action_family": "parking",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-03",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "그 흰색 세단이 주차 후 다시 움직여 화면 오른쪽으로 나간다.",
+      "review_hint_ko": "진입·주차 사실만으로 이 후속 출발까지 참으로 처리하지 말 것.",
+      "source_record_ids": [
+        "R000",
+        "R036"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V07-03 [core] 그 흰색 세단이 주차 후 다시 움직여 화면 오른쪽으로 나간다.\n  확인 포인트: 진입·주차 사실만으로 이 후속 출발까지 참으로 처리하지 말 것.\n  출처: R000, R036",
+      "semantic_kind": "event",
+      "action_family": "driving",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-08",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "다른 차량이 화면 우상단 쪽에서 들어와 주차 차량들 근처에 멈춘다.",
+      "review_hint_ko": "실제 경로·주체를 기록. 정차와 주차 구분.",
+      "source_record_ids": [
+        "R001",
+        "R037"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V07-08 [core] 다른 차량이 화면 우상단 쪽에서 들어와 주차 차량들 근처에 멈춘다.\n  확인 포인트: 실제 경로·주체를 기록. 정차와 주차 구분.\n  출처: R001, R037",
+      "semantic_kind": "event",
+      "action_family": "driving",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-09",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "검은 SUV가 화면 우하단 근처로 와서 멈춘다.",
+      "review_hint_ko": "서 있는 차량을 움직인 것으로 오인했는지 확인.",
+      "source_record_ids": [
+        "R018"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V07-09 [core] 검은 SUV가 화면 우하단 근처로 와서 멈춘다.\n  확인 포인트: 서 있는 차량을 움직인 것으로 오인했는지 확인.\n  출처: R018",
+      "semantic_kind": "event",
+      "action_family": "driving",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-10",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "앞서 언급한 차들 외에도 차량이 주차장/교차로를 통과한다.",
+      "review_hint_ko": "확인된 차량별로 분리. 일반적 교통 서술을 여러 사건에 반복 대응하지 말 것.",
+      "source_record_ids": [
+        "R019",
+        "R073"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V07-10 [core] 앞서 언급한 차들 외에도 차량이 주차장/교차로를 통과한다.\n  확인 포인트: 확인된 차량별로 분리. 일반적 교통 서술을 여러 사건에 반복 대응하지 말 것.\n  출처: R019, R073",
+      "semantic_kind": "event",
+      "action_family": "driving",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-13",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "중앙 자전거는 화면 왼쪽→오른쪽으로 이동한다.",
+      "review_hint_ko": "양방향이 모두 실제일 수 있으므로 시간 구간을 적을 것.",
+      "source_record_ids": [
+        "R055"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V07-13 [core] 중앙 자전거는 화면 왼쪽→오른쪽으로 이동한다.\n  확인 포인트: 양방향이 모두 실제일 수 있으므로 시간 구간을 적을 것.\n  출처: R055",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "direction",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-16",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "두 사람이 함께 주차장 중앙을 걷는다.",
+      "review_hint_ko": "상우/하우로 향한다는 설명은 실제 방향을 별도 기록.",
+      "source_record_ids": [
+        "R000",
+        "R036",
+        "R055"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V07-16 [core] 두 사람이 함께 주차장 중앙을 걷는다.\n  확인 포인트: 상우/하우로 향한다는 설명은 실제 방향을 별도 기록.\n  출처: R000, R036, R055",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "group_association",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-17",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "두 사람이 함께 외곽 보도를 걷는다.",
+      "review_hint_ko": "중앙 그룹과 동일인·동일 사건인지 확인.",
+      "source_record_ids": [
+        "R018",
+        "R019",
+        "R073"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V07-17 [core] 두 사람이 함께 외곽 보도를 걷는다.\n  확인 포인트: 중앙 그룹과 동일인·동일 사건인지 확인.\n  출처: R018, R019, R073",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "group_association",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-19",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "그 사람이 차량에서 멀어져 중앙 쪽으로 걷는다.",
+      "review_hint_ko": "접근과 이탈을 별도 구간으로 확인.",
+      "source_record_ids": [
+        "R000"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V07-19 [core] 그 사람이 차량에서 멀어져 중앙 쪽으로 걷는다.\n  확인 포인트: 접근과 이탈을 별도 구간으로 확인.\n  출처: R000",
+      "semantic_kind": "event",
+      "action_family": "locomotion",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-20",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "사람이 물건 또는 어깨에 멘 가방을 운반하며 걷는다.",
+      "review_hint_ko": "운반 자체를 확인하고 물건 종류·주체를 적을 것.",
+      "source_record_ids": [
+        "R000",
+        "R018"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V07-20 [core] 사람이 물건 또는 어깨에 멘 가방을 운반하며 걷는다.\n  확인 포인트: 운반 자체를 확인하고 물건 종류·주체를 적을 것.\n  출처: R000, R018",
+      "semantic_kind": "event",
+      "action_family": "carrying_object",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-21",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "사람이 건물 밖으로 나온다.",
+      "review_hint_ko": "문 근처에서 나타남이 아니라 실제 문 경계 통과인지 확인.",
+      "source_record_ids": [
+        "R018",
+        "R019"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V07-21 [core] 사람이 건물 밖으로 나온다.\n  확인 포인트: 문 근처에서 나타남이 아니라 실제 문 경계 통과인지 확인.\n  출처: R018, R019",
+      "semantic_kind": "event",
+      "action_family": "facility_transition",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-22",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "건물에서 나온 그 사람이 물건을 들고 이동한다.",
+      "review_hint_ko": "별도의 운반자와 혼동 금지.",
+      "source_record_ids": [
+        "R018"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V07-22 [core] 건물에서 나온 그 사람이 물건을 들고 이동한다.\n  확인 포인트: 별도의 운반자와 혼동 금지.\n  출처: R018",
+      "semantic_kind": "event",
+      "action_family": "carrying_object",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-23",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "사람이 건물 출입문 쪽으로 걸어간다.",
+      "review_hint_ko": "접근 자체만 확인. 건물 진입으로 확대하지 말 것.",
+      "source_record_ids": [
+        "R073"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V07-23 [core] 사람이 건물 출입문 쪽으로 걸어간다.\n  확인 포인트: 접근 자체만 확인. 건물 진입으로 확대하지 말 것.\n  출처: R073",
+      "semantic_kind": "event",
+      "action_family": "locomotion",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "uncertain_claims": [
+    {
+      "review_id": "V07-04",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "빨간 차량이 주차장 안을 이동한다.",
+      "review_hint_ko": "흰색 세단의 색상 오류인지 별도 차량인지 확인.",
+      "source_record_ids": [
+        "R054",
+        "R055",
+        "R073"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "빨간 차량 이동 no와 V07-05의 동일 차량 좌→우 이동 yes가 논리적으로 충돌. 색상/주체/위치 중 무엇이 틀렸는지 불명확.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "uncertain",
+      "resolution_ko": "빨간 차량 이동 no와 V07-05의 동일 차량 좌→우 이동 yes가 논리적으로 충돌. 색상/주체/위치 중 무엇이 틀렸는지 불명확.",
+      "review_block": "[no] V07-04 [core] 빨간 차량이 주차장 안을 이동한다.\n  확인 포인트: 흰색 세단의 색상 오류인지 별도 차량인지 확인.\n  출처: R054, R055, R073",
+      "semantic_kind": "event",
+      "action_family": "driving",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V07-05",
+      "video_id": "VIRAT_S_010114_01_000235_000311",
+      "statement_ko": "그 빨간 차량은 화면 왼쪽→오른쪽으로 이동한다.",
+      "review_hint_ko": "약 0:37은 모델 주장이지 검증된 탐색 시각이 아님.",
+      "source_record_ids": [
+        "R054",
+        "R073"
+      ],
+      "answer": "yes",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "V07-04와 함께 충돌 묶음으로 보류. 좌→우 차량 GT를 확정 생성하지 않음.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "yes",
+      "resolved_status": "uncertain",
+      "resolution_ko": "V07-04와 함께 충돌 묶음으로 보류. 좌→우 차량 GT를 확정 생성하지 않음.",
+      "review_block": "[yes] V07-05 [core] 그 빨간 차량은 화면 왼쪽→오른쪽으로 이동한다.\n  확인 포인트: 약 0:37은 모델 주장이지 검증된 탐색 시각이 아님.\n  출처: R054, R073",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "direction",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "corrected_claims": [],
+  "exhaustive_for_all_visible_events": false,
+  "evaluation_scope": "human-reviewed semantic events, action families and reviewed claims; not temporally localized instance detection"
+}

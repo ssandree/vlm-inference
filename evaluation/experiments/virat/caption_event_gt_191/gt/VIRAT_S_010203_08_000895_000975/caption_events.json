@@ -1,0 +1,92 @@
+{
+  "video_id": "VIRAT_S_010203_08_000895_000975",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE005"
+      ],
+      "source_track_ids": [
+        "25"
+      ],
+      "start_frame": 701,
+      "end_frame": 1221,
+      "start_time": 29.2449,
+      "end_time": 50.9387,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "25"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "24",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "bottom_to_top",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "38"
+      ],
+      "start_frame": 1092,
+      "end_frame": 1122,
+      "start_time": 45.5569,
+      "end_time": 46.8085,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "38"
+      },
+      "action": "gesturing",
+      "object": [],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE017"
+      ],
+      "source_track_ids": [
+        "21"
+      ],
+      "start_frame": 1200,
+      "end_frame": 1821,
+      "start_time": 50.0626,
+      "end_time": 75.97,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "21"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "24",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

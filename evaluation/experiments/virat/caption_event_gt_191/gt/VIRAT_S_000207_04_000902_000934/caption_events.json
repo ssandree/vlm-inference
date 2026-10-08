@@ -1,0 +1,37 @@
+{
+  "video_id": "VIRAT_S_000207_04_000902_000934",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "1"
+      ],
+      "start_frame": 594,
+      "end_frame": 722,
+      "start_time": 19.8,
+      "end_time": 24.0667,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "1"
+      },
+      "action": "getting_into_vehicle",
+      "object": [
+        {
+          "track_id": "2",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "videos": [
+    {
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "n_virat_source_events": 24,
+      "n_atomic_evidence": 57,
+      "n_caption_events": 61,
+      "n_individual_caption_events": 50,
+      "n_group_caption_events": 11,
+      "n_walking_candidates": 31,
+      "n_confirmed_walking": 31,
+      "n_wandering_candidates": 2,
+      "n_confirmed_wandering": 2,
+      "n_human_review_pending": 6,
+      "n_semantic_location_unset": 50,
+      "n_duplicate_candidates": 1,
+      "n_human_added_events": 0,
+      "n_carrying_without_object": 6,
+      "pending_human_review": [
+        {
+          "review_id": "RQ001",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE006"
+          ],
+          "source_track_ids": [
+            "16"
+          ],
+          "start_time": 148.6024,
+          "end_time": 179.0154,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        },
+        {
+          "review_id": "RQ002",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE008"
+          ],
+          "source_track_ids": [
+            "3"
+          ],
+          "start_time": 172.9245,
+          "end_time": 200.292,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        },
+        {
+          "review_id": "RQ003",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE018"
+          ],
+          "source_track_ids": [
+            "38"
+          ],
+          "start_time": 12.5156,
+          "end_time": 36.0033,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        },
+        {
+          "review_id": "RQ004",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE020"
+          ],
+          "source_track_ids": [
+            "17"
+          ],
+          "start_time": 151.3141,
+          "end_time": 197.3717,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        },
+        {
+          "review_id": "RQ005",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE021"
+          ],
+          "source_track_ids": [
+            "2"
+          ],
+          "start_time": 159.5327,
+          "end_time": 196.5373,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        },
+        {
+          "review_id": "RQ006",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE024"
+          ],
+          "source_track_ids": [
+            "47"
+          ],
+          "start_time": 250.3129,
+          "end_time": 260.4088,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        }
+      ]
+    },
+    {
+      "video_id": "VIRAT_S_010003_03_000219_000259",
+      "n_virat_source_events": 6,
+      "n_atomic_evidence": 18,
+      "n_caption_events": 18,
+      "n_individual_caption_events": 16,
+      "n_group_caption_events": 2,
+      "n_walking_candidates": 12,
+      "n_confirmed_walking": 12,
+      "n_wandering_candidates": 0,
+      "n_confirmed_wandering": 0,
+      "n_human_review_pending": 2,
+      "n_semantic_location_unset": 16,
+      "n_duplicate_candidates": 0,
+      "n_human_added_events": 0,
+      "n_carrying_without_object": 2,
+      "pending_human_review": [
+        {
+          "review_id": "RQ001",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE005"
+          ],
+          "source_track_ids": [
+            "16"
+          ],
+          "start_time": 0.0,
+          "end_time": 5.632,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        },
+        {
+          "review_id": "RQ002",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE006"
+          ],
+          "source_track_ids": [
+            "21"
+          ],
+          "start_time": 21.6938,
+          "end_time": 39.9666,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        }
+      ]
+    },
+    {
+      "video_id": "VIRAT_S_010106_02_000656_000692",
+      "n_virat_source_events": 1,
+      "n_atomic_evidence": 5,
+      "n_caption_events": 6,
+      "n_individual_caption_events": 5,
+      "n_group_caption_events": 1,
+      "n_walking_candidates": 4,
+      "n_confirmed_walking": 4,
+      "n_wandering_candidates": 0,
+      "n_confirmed_wandering": 0,
+      "n_human_review_pending": 0,
+      "n_semantic_location_unset": 5,
+      "n_duplicate_candidates": 0,
+      "n_human_added_events": 0,
+      "n_carrying_without_object": 0,
+      "pending_human_review": []
+    },
+    {
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "n_virat_source_events": 2,
+      "n_atomic_evidence": 9,
+      "n_caption_events": 10,
+      "n_individual_caption_events": 9,
+      "n_group_caption_events": 1,
+      "n_walking_candidates": 7,
+      "n_confirmed_walking": 7,
+      "n_wandering_candidates": 0,
+      "n_confirmed_wandering": 0,
+      "n_human_review_pending": 0,
+      "n_semantic_location_unset": 9,
+      "n_duplicate_candidates": 0,
+      "n_human_added_events": 0,
+      "n_carrying_without_object": 0,
+      "pending_human_review": []
+    },
+    {
+      "video_id": "VIRAT_S_010111_08_000920_000954",
+      "n_virat_source_events": 4,
+      "n_atomic_evidence": 6,
+      "n_caption_events": 5,
+      "n_individual_caption_events": 5,
+      "n_group_caption_events": 0,
+      "n_walking_candidates": 2,
+      "n_confirmed_walking": 2,
+      "n_wandering_candidates": 0,
+      "n_confirmed_wandering": 0,
+      "n_human_review_pending": 0,
+      "n_semantic_location_unset": 5,
+      "n_duplicate_candidates": 1,
+      "n_human_added_events": 0,
+      "n_carrying_without_object": 0,
+      "pending_human_review": []
+    },
+    {
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "n_virat_source_events": 10,
+      "n_atomic_evidence": 16,
+      "n_caption_events": 14,
+      "n_individual_caption_events": 11,
+      "n_group_caption_events": 3,
+      "n_walking_candidates": 6,
+      "n_confirmed_walking": 6,
+      "n_wandering_candidates": 0,
+      "n_confirmed_wandering": 0,
+      "n_human_review_pending": 5,
+      "n_semantic_location_unset": 11,
+      "n_duplicate_candidates": 0,
+      "n_human_added_events": 0,
+      "n_carrying_without_object": 5,
+      "pending_human_review": [
+        {
+          "review_id": "RQ001",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE001"
+          ],
+          "source_track_ids": [
+            "15"
+          ],
+          "start_time": 0.0,
+          "end_time": 29.829,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        },
+        {
+          "review_id": "RQ002",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE002"
+          ],
+          "source_track_ids": [
+            "1"
+          ],
+          "start_time": 0.0,
+          "end_time": 24.781,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        },
+        {
+          "review_id": "RQ003",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE003"
+          ],
+          "source_track_ids": [
+            "16"
+          ],
+          "start_time": 0.0,
+          "end_time": 25.8239,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        },
+        {
+          "review_id": "RQ004",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE007"
+          ],
+          "source_track_ids": [
+            "8"
+          ],
+          "start_time": 38.9237,
+          "end_time": 41.9691,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        },
+        {
+          "review_id": "RQ005",
+          "reason": "ambiguous_action",
+          "atomic_evidence_ids": [
+            "AE008"
+          ],
+          "source_track_ids": [
+            "7"
+          ],
+          "start_time": 32.5824,
+          "end_time": 41.9691,
+          "current_proposal": {
+            "action": null,
+            "reason": "carrying_without_mapped_object_track",
+            "auto_convert_to_walking": false
+          }
+        }
+      ]
+    }
+  ]
+}

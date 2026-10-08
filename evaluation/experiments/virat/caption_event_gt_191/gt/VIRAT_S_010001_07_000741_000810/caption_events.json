@@ -1,0 +1,183 @@
+{
+  "video_id": "VIRAT_S_010001_07_000741_000810",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "14"
+      ],
+      "start_frame": 309,
+      "end_frame": 321,
+      "start_time": 12.8911,
+      "end_time": 13.3917,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "14"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "0",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "4"
+      ],
+      "start_frame": 403,
+      "end_frame": 469,
+      "start_time": 16.8127,
+      "end_time": 19.5661,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "4"
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "5"
+      ],
+      "start_frame": 681,
+      "end_frame": 744,
+      "start_time": 28.4105,
+      "end_time": 31.0388,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "5"
+      },
+      "action": "entering_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE004",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "9"
+      ],
+      "start_frame": 1003,
+      "end_frame": 1049,
+      "start_time": 41.844,
+      "end_time": 43.763,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "9"
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE005",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE005"
+      ],
+      "source_track_ids": [
+        "8"
+      ],
+      "start_frame": 1029,
+      "end_frame": 1075,
+      "start_time": 42.9287,
+      "end_time": 44.8477,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "8"
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE006",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE006"
+      ],
+      "source_track_ids": [
+        "10"
+      ],
+      "start_frame": 1100,
+      "end_frame": 1168,
+      "start_time": 45.8907,
+      "end_time": 48.7276,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "10"
+      },
+      "action": "entering_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE007",
+      "event_form": "group",
+      "source_atomic_evidence_ids": [
+        "AE004",
+        "AE005"
+      ],
+      "source_track_ids": [
+        "9",
+        "8"
+      ],
+      "start_frame": 1029,
+      "end_frame": 1049,
+      "start_time": 42.9287,
+      "end_time": 43.763,
+      "subject": {
+        "category": "person",
+        "group": true
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "person_count_is_required_caption_slot": false
+    }
+  ]
+}

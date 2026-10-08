@@ -1,0 +1,901 @@
+{
+  "video_id": "VIRAT_S_010003_03_000219_000259",
+  "version": "human_review_v2",
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "13"
+      ],
+      "start_frame": 0,
+      "end_frame": 38,
+      "start_time": 0.0,
+      "end_time": 1.5853,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "13"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "14",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "carrying_object",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "3"
+      ],
+      "start_frame": 0,
+      "end_frame": 688,
+      "start_time": 0.0,
+      "end_time": 28.7025,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "3"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "15",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "carrying_object",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE007"
+      ],
+      "source_track_ids": [
+        "3"
+      ],
+      "start_frame": 0,
+      "end_frame": 159,
+      "start_time": 0.0,
+      "end_time": 6.6333,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "3"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "lower_left_to_upper_right",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE004",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE015"
+      ],
+      "source_track_ids": [
+        "16"
+      ],
+      "start_frame": 0,
+      "end_frame": 135,
+      "start_time": 0.0,
+      "end_time": 5.632,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "16"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE005",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "8"
+      ],
+      "start_frame": 25,
+      "end_frame": 319,
+      "start_time": 1.043,
+      "end_time": 13.3083,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "8"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "17",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "carrying_object",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE006",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE011"
+      ],
+      "source_track_ids": [
+        "8"
+      ],
+      "start_frame": 25,
+      "end_frame": 319,
+      "start_time": 1.043,
+      "end_time": 13.3083,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "8"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE007",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE016"
+      ],
+      "source_track_ids": [
+        "16"
+      ],
+      "start_frame": 136,
+      "end_frame": 321,
+      "start_time": 5.6738,
+      "end_time": 13.3917,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "16"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE008",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE008"
+      ],
+      "source_track_ids": [
+        "3"
+      ],
+      "start_frame": 208,
+      "end_frame": 688,
+      "start_time": 8.6775,
+      "end_time": 28.7025,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "3"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE009",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE017"
+      ],
+      "source_track_ids": [
+        "21"
+      ],
+      "start_frame": 232,
+      "end_frame": 519,
+      "start_time": 9.6788,
+      "end_time": 21.6521,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "21"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE010",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_frame": 276,
+      "end_frame": 322,
+      "start_time": 11.5144,
+      "end_time": 13.4335,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "7"
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "facility_transition",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE011",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE012"
+      ],
+      "source_track_ids": [
+        "9"
+      ],
+      "start_frame": 300,
+      "end_frame": 426,
+      "start_time": 12.5156,
+      "end_time": 17.7722,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "9"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE012",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE013"
+      ],
+      "source_track_ids": [
+        "10"
+      ],
+      "start_frame": 310,
+      "end_frame": 434,
+      "start_time": 12.9328,
+      "end_time": 18.106,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "10"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE013",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE010"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_frame": 323,
+      "end_frame": 541,
+      "start_time": 13.4752,
+      "end_time": 22.5699,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "7"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE014",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE018"
+      ],
+      "source_track_ids": [
+        "21"
+      ],
+      "start_frame": 520,
+      "end_frame": 958,
+      "start_time": 21.6938,
+      "end_time": 39.9666,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "21"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE015",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE014"
+      ],
+      "source_track_ids": [
+        "12"
+      ],
+      "start_frame": 741,
+      "end_frame": 958,
+      "start_time": 30.9136,
+      "end_time": 39.9666,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "12"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE016",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE009"
+      ],
+      "source_track_ids": [
+        "6"
+      ],
+      "start_frame": 770,
+      "end_frame": 958,
+      "start_time": 32.1235,
+      "end_time": 39.9666,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "6"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": []
+    },
+    {
+      "caption_event_id": "CE017",
+      "event_form": "group",
+      "source_atomic_evidence_ids": [
+        "AE014",
+        "AE009"
+      ],
+      "source_track_ids": [
+        "12",
+        "6"
+      ],
+      "start_frame": 770,
+      "end_frame": 958,
+      "start_time": 32.1235,
+      "end_time": 39.9666,
+      "subject": {
+        "category": "person",
+        "group": true
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "person_count_is_required_caption_slot": false,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": [],
+      "review_status": "conflict_requires_actor_alignment",
+      "review_note": "V03-07 rejects described pair; cannot decide which original group. Excluded from group-specific scoring; original kept."
+    },
+    {
+      "caption_event_id": "CE018",
+      "event_form": "group",
+      "source_atomic_evidence_ids": [
+        "AE012",
+        "AE013"
+      ],
+      "source_track_ids": [
+        "9",
+        "10"
+      ],
+      "start_frame": 310,
+      "end_frame": 426,
+      "start_time": 12.9328,
+      "end_time": 17.7722,
+      "subject": {
+        "category": "person",
+        "group": true
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "person_count_is_required_caption_slot": false,
+      "action_family": "locomotion",
+      "provenance_layer": "original_gt",
+      "review_links": [],
+      "review_status": "conflict_requires_actor_alignment",
+      "review_note": "V03-07 rejects described pair; cannot decide which original group. Excluded from group-specific scoring; original kept."
+    },
+    {
+      "caption_event_id": "HE_V03-01",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 왼쪽 계단을 내려간다.",
+      "review_links": [
+        "V03-01"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V03-02",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 왼쪽 계단을 올라간다.",
+      "review_links": [
+        "V03-02"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V03-03",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 잔디밭 또는 주변 보행로를 가로질러 걷는다.",
+      "review_links": [
+        "V03-03"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V03-04",
+      "event_form": "human_review_semantic_event",
+      "action": "carrying_object",
+      "action_family": "carrying_object",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 흰색 물건을 들고 앉아 있는 사람들 앞을 지나간다.",
+      "review_links": [
+        "V03-04"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V03-05",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 앉아 있는 두 사람 쪽으로 다가간다.",
+      "review_links": [
+        "V03-05"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V03-06",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": "left_to_right",
+      "object": [],
+      "reference_sentence": "그 사람이 앉아 있는 사람들에게서 멀어져 화면 오른쪽으로 걷는다.",
+      "review_links": [
+        "V03-06"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V03-08",
+      "event_form": "human_review_semantic_event",
+      "action": "facility_transition",
+      "action_family": "facility_transition",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "배경 출입문을 통과하는 사람이 있다.",
+      "review_links": [
+        "V03-08"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+      "transition_polarity": "exit"
+    },
+    {
+      "caption_event_id": "HE_V03-09",
+      "event_form": "human_review_semantic_event",
+      "action": "talking",
+      "action_family": "talking",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "테이블에 앉은 사람들이 대화하는 것으로 확인된다.",
+      "review_links": [
+        "V03-09"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V03-10",
+      "event_form": "human_review_semantic_event",
+      "action": "posture_change",
+      "action_family": "posture_change",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "앉아 있는 사람이 상체를 앞으로 기울인다.",
+      "review_links": [
+        "V03-10"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V03-11",
+      "event_form": "human_review_semantic_event",
+      "action": "manipulating_object",
+      "action_family": "manipulating_object",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "앉아 있는 사람이 옆 바닥의 물건을 만지거나 조정한다.",
+      "review_links": [
+        "V03-11"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V03-12",
+      "event_form": "human_review_semantic_event",
+      "action": "gesturing",
+      "action_family": "gesturing",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "앉아 있는 사람이 손/팔로 몸짓한다.",
+      "review_links": [
+        "V03-12"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    }
+  ],
+  "confirmed_attributes": [],
+  "confirmed_context": [
+    {
+      "review_id": "V03-13",
+      "video_id": "VIRAT_S_010003_03_000219_000259",
+      "statement_ko": "파라솔 아래 테이블에 두 사람이 함께 앉아 있다.",
+      "review_hint_ko": "대화/몸짓의 주체 확인용. 인원수는 메모 가능.",
+      "source_record_ids": [
+        "R009",
+        "R027",
+        "R045",
+        "R063",
+        "R080",
+        "R081"
+      ],
+      "answer": "yes",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "context",
+      "raw_answer": "yes",
+      "resolved_status": "yes",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[yes] V03-13 [context] 파라솔 아래 테이블에 두 사람이 함께 앉아 있다.\n  확인 포인트: 대화/몸짓의 주체 확인용. 인원수는 메모 가능.\n  출처: R009, R027, R045, R063, R080, R081",
+      "semantic_kind": "context",
+      "action_family": "context",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "rejected_claims": [
+    {
+      "review_id": "V03-07",
+      "video_id": "VIRAT_S_010003_03_000219_000259",
+      "statement_ko": "두 사람이 함께 화면 오른쪽에서 왼쪽으로 걷는다.",
+      "review_hint_ko": "기존 그룹 CE017/CE018 중 어떤 사건인지 확인. 한 구절을 두 그룹에 자동 대응 금지.",
+      "source_record_ids": [
+        "R062"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "이 설명의 함께 걷는 두 사람은 사용자가 부정. 기존 그룹 CE017/CE018 전체 삭제까지 의미한다고 확대 해석하지 않고 충돌 플래그를 남김.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "이 설명의 함께 걷는 두 사람은 사용자가 부정. 기존 그룹 CE017/CE018 전체 삭제까지 의미한다고 확대 해석하지 않고 충돌 플래그를 남김.",
+      "review_block": "[no] V03-07 [core] 두 사람이 함께 화면 오른쪽에서 왼쪽으로 걷는다.\n  확인 포인트: 기존 그룹 CE017/CE018 중 어떤 사건인지 확인. 한 구절을 두 그룹에 자동 대응 금지.\n  출처: R062",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "group_association",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "uncertain_claims": [],
+  "corrected_claims": [],
+  "exhaustive_for_all_visible_events": false,
+  "evaluation_scope": "human-reviewed semantic events, action families and reviewed claims; not temporally localized instance detection"
+}

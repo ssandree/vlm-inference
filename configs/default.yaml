@@ -1,0 +1,143 @@
+# Swap VLM: 8b | 30b | 8b-fp8 | 30b-fp8  (see configs/models.yaml)
+# Or keep a path mapping: {path, dtype, device_map, attn_implementation}
+model: 8b
+
+generation:
+  max_new_tokens: 384
+  do_sample: false
+  temperature: 0.7
+  top_p: 0.8
+  top_k: 20
+  repetition_penalty: 1.1
+
+# Video / frame preprocessing options passed into Qwen3-VL message content
+video:
+  fps: 2.0
+  # nframes: 32          # mutually exclusive with fps when set
+  min_pixels: 4096       # 4 * 32 * 32
+  max_pixels: 262144     # 256 * 32 * 32
+  total_pixels: 20971520 # 20480 * 32 * 32
+
+image:
+  min_pixels: 4096
+  max_pixels: 262144
+
+# Inference mode:
+#   default    - frames folder = one video sequence (current behavior)
+#   experiment - each frame is an image with a [Global]/ROI] t=... text label
+mode: experiment
+
+# Filename patterns for experiment mode (Python regex on file stem, named groups)
+experiment:
+  global_pattern: 'global_frame_(?P<frame>\d+)_t(?P<time>\d+(?:\.\d+)?)'
+  roi_pattern: 'tube(?P<roi>\d+)_frame_(?P<frame>\d+)_t(?P<time>\d+(?:\.\d+)?)'
+  global_label: '[Global] t={time}s'
+  roi_label: '[ROI{roi}] t={time}s'
+
+# Global default prompt (job-level prompt / prompt_file overrides this)
+prompt_file: prompts/frames.txt
+
+output:
+  dir: outputs
+  file: results.json
+
+# Fill in real paths before running. 
+# Types: video | video_dir | images | image_dir | image_dirs
+jobs:
+  # - name: video_623
+  #   type: video
+  #   path: /data/datasets/VIRAT/videos-00/VIRAT_S_000201_02_000590_000623.mp4
+  #   prompt_file: prompts/video.txt
+
+  # - name: video_623_detail
+  #   type: video
+  #   path: /data/datasets/VIRAT/videos-00/VIRAT_S_000201_02_000590_000623.mp4
+  #   prompt_file: prompts/video_detail.txt
+
+  # - name: example_video_dir
+  #   type: video_dir
+  #   path: /data/datasets/example/videos
+  #   glob: "*.mp4"
+
+  # - name: example_images
+  #   type: images
+  #   paths:
+  #     - /data/datasets/example/img1.jpg
+  #     - /data/datasets/example/img2.jpg
+  #   prompt: "Describe these images as a single scene."
+
+  - name: 0268
+    type: image_dir
+    path: /data/datasets/sporal/VIRAT_S_000200_01_000226_000268/fps_2_frames
+    glob: "*.jpg"
+    prompt_file: prompts/detail_0268.txt
+  - name: 0268
+    type: image_dir
+    path: /data/datasets/sporal/VIRAT_S_000200_01_000226_000268/proposed_frames_v2
+    glob: "*.jpg"
+    prompt_file: prompts/proposed_frames.txt
+  - name: 1397
+    type: image_dir
+    path: /data/datasets/sporal/VIRAT_S_000201_06_001354_001397/fps_2_frames
+    glob: "*.jpg"
+    prompt_file: prompts/detail_1397.txt
+  - name: 1397
+    type: image_dir
+    path: /data/datasets/sporal/VIRAT_S_000201_06_001354_001397/proposed_frames_v2
+    glob: "*.jpg"
+    prompt_file: prompts/proposed_frames.txt
+  # - name: 0778
+  #   type: image_dir
+  #   path: /data/datasets/sporal/VIRAT_S_010003_08_000739_000778/fps_2_frames
+  #   glob: "*.jpg"
+  #   prompt_file: prompts/detail_0778.txt
+  - name: 0778
+    type: image_dir
+    path: /data/datasets/sporal/VIRAT_S_010003_08_000739_000778/proposed_frames_v2
+    glob: "*.jpg"
+    prompt_file: prompts/proposed_frames.txt
+  # - name: 0100
+  #   type: image_dir
+  #   path: /data/datasets/sporal/VIRAT_S_010004_00_000064_000100/fps_2_frames
+  #   glob: "*.jpg"
+  #   prompt_file: prompts/detail_0100.txt
+  - name: 0100
+    type: image_dir
+    path: /data/datasets/sporal/VIRAT_S_010004_00_000064_000100/proposed_frames_v2
+    glob: "*.jpg"
+    prompt_file: prompts/proposed_frames.txt
+  - name: 0996
+    type: image_dir
+    path: /data/datasets/sporal/VIRAT_S_010106_05_000954_000996/fps_2_frames
+    glob: "*.jpg"
+    prompt_file: prompts/detail_0996.txt
+  - name: 0996
+    type: image_dir
+    path: /data/datasets/sporal/VIRAT_S_010106_05_000954_000996/proposed_frames_v2
+    glob: "*.jpg"
+    prompt_file: prompts/proposed_frames.txt
+  # - name: 0700
+  #   type: image_dir
+  #   path: /data/datasets/sporal/VIRAT_S_010200_05_000658_000700/fps_2_frames
+  #   glob: "*.jpg"
+  #   prompt_file: prompts/detail_0700.txt
+  - name: 0700
+    type: image_dir
+    path: /data/datasets/sporal/VIRAT_S_010200_05_000658_000700/proposed_frames_v2
+    glob: "*.jpg"
+    prompt_file: prompts/proposed_frames.txt
+  - name: 0145
+    type: image_dir
+    path: /data/datasets/sporal/VIRAT_S_040000_02_000111_000145/fps_2_frames
+    glob: "*.jpg"
+    prompt_file: prompts/detail_0145.txt
+  - name: 0145
+    type: image_dir
+    path: /data/datasets/sporal/VIRAT_S_040000_02_000111_000145/proposed_frames_v2
+    glob: "*.jpg"
+    prompt_file: prompts/proposed_frames.txt
+
+  # - name: example_image_dirs
+  #   type: image_dirs
+  #   path: /data/datasets/example/frame_roots
+  #   glob: "*.jpg"

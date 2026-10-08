@@ -1,0 +1,73 @@
+{
+  "video": "VIRAT_S_010205_04_000545_000576.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010205_04_000545_000576.mp4.json",
+  "source_caption_sha256": "898fc12659f77cc4028d8a52c5126656423e5668bc10257f5d0ee77a855ffea0",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 23.23738005840634,
+      "intermediate_caption": "A person in an orange shirt descends stairs on the right side of the frame, while another person carrying papers ascends the same staircase; simultaneously, a figure in dark clothing moves horizontally through the background near the “STUDENT SERVICES” entrance. Shortly after, a person bearing papers and a bag traverses the frame from right to left, followed by additional pedestrians crossing a grassy area and pathways nearby. A woman carrying documents and a bag crosses a paved courtyard from right to left, as multiple figures continue moving around the vicinity of the “STUDENT SERVICES” building. A tall white pole topped with a heater appears in the foreground, alongside directional signage pointing toward facilities such as “WOMEN’S,” “MEN’S,” “FRESH MEN,” “DINING HALL,” and “BANK.” A vertical “CHICANO” label adorns a green awning above a door, later joined by signs indicating locations like “REGISTRAR,” “BANK,” “CASHIER,” “FINANCIAL AID,” and “MILITARY AFFAIRS.” Individuals proceed along paths adjacent to the student services facility—some approaching its entrance, one departing down the walkway—and a person in a dark shirt exits the lower-left portion of the frame. Two distant walkers progress together from left to right along a pavement before being replaced by new movement patterns involving three persons traveling along a covered walkway connected to the building—one heading directly toward the viewer. Throughout this sequence, environmental features remain stable: a lamppost, a trash receptacle, a slender pole, a red directional sign, and a small kiosk near steps appear consistently within the setting. Finally, a man in a dark shirt and light trousers advances from the left edge of the screen toward the central area past the “STUDENT SERVICES” structure, trailed closely by someone in a light top and dark bottoms, while two more people maintain motion farther back along the entry path. No major disruptions occur during the entire duration.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-23.23738005840634"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "A person in an orange shirt walks down the stairs on the right side of the frame. Another person carrying papers walks up the stairs on the right side of the frame. A person in dark clothing walks from left to right in the background near the entrance of the building labeled \"STUDENT SERVICES\"."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A person walks from the right side of the frame toward the left, carrying papers and a bag. Another person walks in the background on the grassy area, moving from right to left. A third person is visible further in the background, walking on a pathway near the building entrance."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "A woman walks across a paved courtyard from right to left, carrying papers and a bag. In the background, several other people walk along a path near a building labeled \"STUDENT SERVICES.\" A tall, white pole with a heater at the top stands in the foreground. To the right, a sign points towards \"WOMEN'S,\" \"MEN'S,\" \"FRESH MEN,\" \"DINING HALL,\" and \"BANK.\" A green awning over a doorway has the word \"CHICANO\" written vertically."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "In the foreground, a person wearing a dark shirt and pants walks from the right side of the frame toward the bottom left, exiting the view. In the background, several other individuals are seen walking on a pathway near the entrance of a building labeled \"STUDENT SERVICES.\" One person walks away from the camera down the path, while others move in various directions near the building's entrance. A green awning with the word \"CHICANO\" is visible over a doorway. To the right, a sign with an upward-pointing arrow indicates directions for \"REGISTRAR,\" \"BANK,\" \"CASHIER,\" \"FINANCIAL AID,\" and \"MILITARY AFFAIRS.\" A trash can and a tall lamp post are also present in the scene."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "Several people are walking on the paved walkway in front of the Student Services building. One person walks from left to right in the distance, while others walk towards the building entrance. A person in a dark shirt walks away from the camera on the walkway. The scene remains otherwise static with no other significant actions or movements observed."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "In the distance, two people walk from left to right along a paved path in front of a building labeled \"STUDENT SERVICES\". A third person walks towards the camera on the same path, moving from the background toward the foreground."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "In the distance, two people walk from left to right along a covered walkway attached to a building labeled \"STUDENT SERVICES\". A third person walks towards the camera on the same walkway. The scene is outdoors on a paved area with grass and trees. A tall, thin pole stands in the foreground. To the right, there is a building entrance with a green awning and a sign that reads \"CHICANO\". A red sign with white text and an arrow points up and to the right. A small, light-colored kiosk is located near the stairs on the right side of the frame."
+        },
+        {
+          "source_clip": "21-23.23738005840634",
+          "start_sec": 21.0,
+          "end_sec": 23.23738005840634,
+          "caption": "In the video, several individuals are seen walking across a paved courtyard area on a college campus. A person wearing a dark shirt and light-colored pants walks from the left side of the frame toward the center, passing in front of a building labeled \"STUDENT SERVICES.\" Another individual, dressed in a light-colored top and dark pants, walks behind them in the same direction. Further in the background, two more people are visible walking along a pathway near the building's entrance. The scene remains consistent with no significant changes in activity or environment throughout the clip."
+        }
+      ]
+    }
+  ]
+}

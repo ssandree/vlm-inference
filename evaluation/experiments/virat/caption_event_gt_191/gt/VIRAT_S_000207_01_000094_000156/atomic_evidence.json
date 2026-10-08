@@ -1,0 +1,140 @@
+{
+  "video_id": "VIRAT_S_000207_01_000094_000156",
+  "atomic_evidence": [
+    {
+      "atomic_evidence_id": "AE001",
+      "source": {
+        "type": "virat_activity",
+        "virat_event_ids": [
+          "0"
+        ],
+        "source_track_ids": [
+          "2",
+          "1"
+        ]
+      },
+      "start_frame": 581,
+      "end_frame": 797,
+      "start_time": 19.3667,
+      "end_time": 26.5667,
+      "subject": {
+        "category": "person",
+        "track_id": "2"
+      },
+      "action": "getting_out_of_vehicle",
+      "object": [
+        {
+          "track_id": "1",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "screen_location": {
+        "source": "derived_from_track",
+        "value": "center_middle",
+        "track_id": "2",
+        "method": "median_centroid_3x3",
+        "median_centroid_norm": [
+          0.4348,
+          0.6014
+        ],
+        "n_boxes": 201,
+        "reason": null
+      },
+      "semantic_location": null,
+      "caption_evaluable": true,
+      "activity_class": "person_getting_out_of_vehicle",
+      "duplicate_candidate": false,
+      "confirmed_caption_event": true,
+      "review": {
+        "human_verified": false,
+        "keep_as_caption_event": null,
+        "note": ""
+      }
+    },
+    {
+      "atomic_evidence_id": "AE002",
+      "source": {
+        "type": "person_track_review",
+        "virat_event_ids": [],
+        "source_track_ids": [
+          "2"
+        ]
+      },
+      "start_frame": 995,
+      "end_frame": 1398,
+      "start_time": 33.1667,
+      "end_time": 46.6,
+      "subject": {
+        "category": "person",
+        "track_id": "2"
+      },
+      "action": null,
+      "object": [],
+      "direction": "upper_right_to_lower_left",
+      "screen_location": {
+        "value": "center_bottom",
+        "source": "derived_from_track",
+        "is_semantic_location": false
+      },
+      "semantic_location": null,
+      "caption_evaluable": false,
+      "confirmed_caption_event": false,
+      "proposal": {
+        "action": "walking",
+        "direction": "upper_right_to_lower_left",
+        "confirmed": false,
+        "running_conflict": []
+      },
+      "review": {
+        "human_verified": false,
+        "is_walking": null,
+        "keep_as_caption_event": null,
+        "note": ""
+      }
+    },
+    {
+      "atomic_evidence_id": "AE003",
+      "source": {
+        "type": "person_track_review",
+        "virat_event_ids": [],
+        "source_track_ids": [
+          "2"
+        ]
+      },
+      "start_frame": 1399,
+      "end_frame": 1637,
+      "start_time": 46.6333,
+      "end_time": 54.5667,
+      "subject": {
+        "category": "person",
+        "track_id": "2"
+      },
+      "action": null,
+      "object": [],
+      "direction": "upper_left_to_lower_right",
+      "screen_location": {
+        "value": "left_bottom",
+        "source": "derived_from_track",
+        "is_semantic_location": false
+      },
+      "semantic_location": null,
+      "caption_evaluable": false,
+      "confirmed_caption_event": false,
+      "proposal": {
+        "action": "walking",
+        "direction": "upper_left_to_lower_right",
+        "confirmed": false,
+        "running_conflict": []
+      },
+      "review": {
+        "human_verified": false,
+        "is_walking": null,
+        "keep_as_caption_event": null,
+        "note": ""
+      }
+    }
+  ]
+}

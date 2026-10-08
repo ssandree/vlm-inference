@@ -1,0 +1,12 @@
+# Text-only postprocessing; no video jobs and no video loading.
+model: 30b
+mode: default
+generation:
+  max_new_tokens: 2048
+  do_sample: false
+  repetition_penalty: 1.05
+prompt_file: ../prompts/virat_temporal_event_merge.txt
+output:
+  dir: outputs/virat_clip_caption_pilot/merged_events
+  file: results.json
+jobs: []

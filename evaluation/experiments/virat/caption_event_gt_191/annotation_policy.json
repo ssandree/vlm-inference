@@ -1,0 +1,560 @@
+{
+  "name": "virat_caption_event_annotation_policy",
+  "version": 4,
+  "status": "pilot",
+  "scope": "Same caption-event rules as the 6-video pilot, applied to 191 videos: 132 single-ROI with area < 0.90 and 59 multi-ROI. Walking and wandering stay unconfirmed except the six videos already reviewed in the pilot.",
+  "final_group_events_created": false,
+  "final_walking_events_created": false,
+  "reference_sentence": null,
+  "do_not_modify": [
+    "VIRAT annotation files",
+    "source videos",
+    "existing ROI outputs",
+    "experiments/virat/dense_event_gt"
+  ],
+  "annotation_layers": {
+    "source": "original VIRAT detection-oriented annotation",
+    "atomic_caption_evidence": "visually interpretable actor/action evidence before caption-level grouping",
+    "caption_event": "evaluation unit represented as an individual or grouped semantic event"
+  },
+  "layer_roles": {
+    "source": {
+      "role": "provenance",
+      "contents": [
+        "activity",
+        "event",
+        "track",
+        "mapping"
+      ],
+      "preserved_as_is": true,
+      "rewritten_by_caption_policy": false
+    },
+    "atomic_caption_evidence": {
+      "role": "actor/action evidence a VLM can be evaluated against, before grouping",
+      "includes": [
+        "semantic events derived from VIRAT activities",
+        "human-reviewed walking",
+        "human-reviewed wandering",
+        "human-added events"
+      ],
+      "grouping_deletes_atomic_evidence": false
+    },
+    "caption_event": {
+      "role": "caption evaluation unit",
+      "forms": [
+        "individual event",
+        "grouped event"
+      ],
+      "reference_sentence_attached_here": true,
+      "reference_sentence": null,
+      "person_count_is_required_caption_slot": false
+    }
+  },
+  "original_virat_fields": {
+    "preserve": [
+      "activity_class",
+      "activity_type_id",
+      "event_id",
+      "start_frame",
+      "end_frame",
+      "mapping_track_id",
+      "object_type"
+    ],
+    "time": {
+      "formula": "frame / fps",
+      "fps_source": "ffprobe avg_frame_rate of that video"
+    },
+    "filename_numbers_are_temporal_annotation": false,
+    "subject": {
+      "rule": "unique_type1_participant_only",
+      "object_type_person": 1,
+      "if_not_unique": "subject.track_id = null; do not infer a subject"
+    },
+    "object": {
+      "rule": "remaining_mapped_tracks_only_when_subject_is_unique_type1"
+    },
+    "missing_annotation": {
+      "annotation_status": "missing",
+      "invent_events": false
+    }
+  },
+  "derived_metadata": {
+    "screen_location": {
+      "method": "median_subject_centroid_3x3",
+      "edges": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "boundary": "value on an edge falls in the higher bin",
+      "is_semantic_location": false,
+      "used_as_grouping_criterion": false
+    },
+    "semantic_location": {
+      "source": "human_annotation_only",
+      "automatic_value": null
+    },
+    "track_motion": {
+      "method": "endpoint_displacement",
+      "axes": "+x right, +y down",
+      "threshold_px": "max(20, 0.05 * frame_width)",
+      "min_disp_px": 20,
+      "min_disp_frac_of_width": 0.05,
+      "dominant_axis_ratio": 2.0,
+      "below_threshold_value": null,
+      "infer_direction_from_activity_class": false,
+      "caption_required_semantic_slot": false,
+      "modified_by_direction_semantics": false
+    }
+  },
+  "event_preservation": {
+    "merge_on_temporal_overlap_alone": false,
+    "same_actor_different_activity": "separate_atomic_evidence",
+    "spatially_separated_concurrent_events": "separate_evidence",
+    "screen_bin_3x3_is_grouping_criterion": false
+  },
+  "duplicate_candidate": {
+    "same_subject_track": true,
+    "same_activity_class": true,
+    "overlap_over_shorter_duration_min": 0.8,
+    "overlap_over_shorter_duration": "intersection_frames / min(duration_i, duration_j)",
+    "auto_delete": false,
+    "auto_merge": false,
+    "canonical_event": "human_review",
+    "unselected_source_event_removed_from_provenance": false,
+    "pilot_human_decision": {
+      "selected_by": "human_review",
+      "rule": "keep_one_caption_event",
+      "canonical_choice": "longer_interval_when_the_shorter_is_fully_covered",
+      "unselected_atomic_evidence_retained": true
+    }
+  },
+  "carrying": {
+    "preserve_original_activity_class": true,
+    "original_activity_rewritten": false,
+    "without_mapped_object_track": {
+      "original_activity_class": "person_carrying_object",
+      "force_caption_action_carrying": false,
+      "caption_semantics": {
+        "carrying_evaluable": false,
+        "action": null
+      },
+      "subject_category": "person",
+      "auto_convert_to_walking": false,
+      "human_may_add_separate_walking_evidence": true,
+      "separate_walking_evidence": {
+        "original_carrying_event_preserved": true,
+        "walking_event_is_separate_atomic_caption_evidence": true,
+        "walking_event_links_source_track_id": true,
+        "original_carrying_rewritten_as_walking": false
+      }
+    },
+    "with_mapped_object_track": {
+      "caption_semantics": {
+        "action": "carrying_object",
+        "carrying_evaluable": true
+      },
+      "simultaneous_walking_requires_separate_human_review": true
+    }
+  },
+  "grouping_policy": {
+    "different_subject_track": true,
+    "same_caption_action": true,
+    "eligibility": "Any identical caption action can be a group candidate. There is no per-action whitelist or blacklist. entering, exiting, carrying, and walking use the same rule.",
+    "temporal_overlap_ratio": "intersection_duration / min(duration_i, duration_j)",
+    "temporal_overlap_ratio_min": 0.3,
+    "spatial_distance": "median over overlapping frames of euclidean(centroid_i, centroid_j) / frame_diagonal",
+    "median_normalized_distance_max": 0.15,
+    "groups_of_three_or_more": "complete_link",
+    "single_link_used_as_final_group": false,
+    "screen_bin_3x3_used": false,
+    "different_actions_grouped": false,
+    "grouping_deletes_atomic_evidence": false,
+    "group_event_preserves_constituent_event_ids": true,
+    "group_event_preserves_constituent_track_ids": true,
+    "final_group_events_created": false,
+    "threshold_selection_evidence": "experiments/virat/caption_event_pilot_6/grouping_threshold_selection.json"
+  },
+  "direction_semantics": {
+    "labels": [
+      "left_to_right",
+      "right_to_left",
+      "top_to_bottom",
+      "bottom_to_top",
+      "upper_left_to_lower_right",
+      "upper_right_to_lower_left",
+      "lower_left_to_upper_right",
+      "lower_right_to_upper_left",
+      null
+    ],
+    "collapse_diagonals_into_one_label": false,
+    "field": "caption semantic direction, separate from track_motion",
+    "track_motion_modified": false,
+    "not_inferred_from_activity_class": true,
+    "axes": "+x right, +y down",
+    "quantization": "eight 45-degree sectors",
+    "sector_half_width_deg": 22.5,
+    "sector_assignment": "angle = atan2(dy, dx) in degrees, 0 at +x. Sector index = floor((angle_360 + 22.5) / 45) mod 8. The lower boundary belongs to the sector; the upper boundary belongs to the next sector.",
+    "sector_centers_deg": {
+      "left_to_right": 0,
+      "upper_left_to_lower_right": 45,
+      "top_to_bottom": 90,
+      "upper_right_to_lower_left": 135,
+      "right_to_left": 180,
+      "lower_right_to_upper_left": 225,
+      "bottom_to_top": 270,
+      "lower_left_to_upper_right": 315
+    },
+    "dominant_axis_ratio_2_applied": false,
+    "below_meaningful_displacement": null,
+    "meaningful_displacement_px": "max(20, 0.05 * frame_width)"
+  },
+  "direction_evaluation": {
+    "required_for_directional_walking": true,
+    "wrong_direction_is_semantic_failure": true,
+    "missing_direction_is_wrong_direction": false,
+    "missing_direction_is_separate_omission": true,
+    "contradictory_direction_is_separate_error": true,
+    "outcomes": [
+      "direction_correct",
+      "direction_missing",
+      "direction_contradictory"
+    ],
+    "example": {
+      "gt": {
+        "subject": "person",
+        "action": "walking",
+        "direction": "left_to_right"
+      },
+      "prediction_without_direction": {
+        "action_match": true,
+        "direction_outcome": "direction_missing"
+      },
+      "prediction_with_opposite_direction": {
+        "action_match": true,
+        "direction_outcome": "direction_contradictory"
+      }
+    }
+  },
+  "walking": {
+    "source_layer": "atomic_caption_evidence",
+    "virat_original_class": false,
+    "added_by": "human review of person-track motion",
+    "meaning": "Meaningful movement with a coherent direction over a temporal interval, confirmed as walking by a person.",
+    "auto_confirm_from_displacement": false,
+    "whole_track_is_single_event": false,
+    "final_walking_events_created": false,
+    "reference_sentence": null,
+    "vlm_or_llm_judgment": false,
+    "running_subject_conflict": "flag_only",
+    "caption_semantics_example": {
+      "subject": "person",
+      "action": "walking",
+      "direction": "left_to_right"
+    },
+    "direction_is_caption_semantic_attribute": true,
+    "wrong_direction_is_semantic_failure": true,
+    "walking_temporal_unit": {
+      "unit": "directionally_coherent_motion_interval",
+      "whole_track_is_single_event": false,
+      "split_on_meaningful_direction_reversal": true,
+      "split_on_stationary_interval": true,
+      "split_on_short_term_bbox_jitter": false,
+      "minimum_segment_rule": {
+        "status": "human_confirmed",
+        "final_threshold_selected": true,
+        "selected_by": "human_review",
+        "minimum_segment_duration_sec": 1.0,
+        "meaning": "Minimum candidate segment duration. It removes short meaningless fragments created by motion segmentation. It is not a semantic minimum duration of the action walking.",
+        "why": [
+          "All 30 segments shorter than 1.0s have direction null.",
+          "Their maximum displacement is below the meaningful-displacement threshold.",
+          "The 1.0s cut removes none of the 62 directional movement segments.",
+          "Cuts of 1.5s and above start removing directional movement segments."
+        ],
+        "compared_duration_sec": [
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "evidence": "experiments/virat/caption_event_pilot_6/walking_analysis/motion_segment_pilot/minimum_duration_comparison.json"
+      }
+    },
+    "human_review": {
+      "is_walking": null,
+      "is_wandering": null,
+      "keep_as_caption_event": null,
+      "direction_override": null,
+      "review_note": ""
+    }
+  },
+  "walking_grouping": {
+    "uses_grouping_policy_temporal_and_spatial_thresholds": true,
+    "temporal_overlap_ratio_min": 0.3,
+    "median_normalized_distance_max": 0.15,
+    "groups_of_three_or_more": "complete_link",
+    "same_semantic_direction_required": true,
+    "different_8way_directions_grouped": false,
+    "examples": {
+      "left_to_right_with_left_to_right": "eligible",
+      "left_to_right_with_right_to_left": "not_eligible",
+      "upper_left_to_lower_right_with_upper_left_to_lower_right": "eligible"
+    },
+    "cosine_used_for_final_decision": false,
+    "cosine_stored_as_diagnostic": true,
+    "wandering_included": false,
+    "final_group_events_created": false
+  },
+  "wandering": {
+    "role": "wandering_candidate_detector",
+    "auto_confirms_semantic_label": false,
+    "auto_confirm_event": false,
+    "semantic_label_requires_human_review": true,
+    "trajectory_pattern_alone_confirms_wandering": false,
+    "one_out_and_back_confirms_wandering": false,
+    "out_and_back_may_be_two_walking_segments": true,
+    "single_global_direction_required": false,
+    "included_in_walking_directional_grouping": false,
+    "confirmed_only_as": {
+      "action": "wandering",
+      "direction": null
+    },
+    "candidate_features": [
+      "substantial path length",
+      "multiple meaningful direction changes",
+      "low global directional consistency",
+      "opposite-direction movement at or above the meaningful displacement threshold"
+    ],
+    "leg_displacement_threshold_px": "max(20, 0.05 * frame_width)",
+    "leg_rule": "Close a leg only after it has moved at least the threshold and the path then reverses by at least the same threshold.",
+    "opposite_directions": "cosine of two leg displacement vectors < 0",
+    "small_or_uncertain_displacement_is_a_wandering_candidate": false,
+    "pilot_examples_not_confirmed_labels": [
+      {
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "track_id": "7",
+        "endpoint_direction": "left_to_right",
+        "endpoint_displacement_px": 78.21,
+        "legs": [
+          {
+            "direction": "left_to_right",
+            "displacement_px": 153.04
+          },
+          {
+            "direction": "right_to_left",
+            "displacement_px": 152.62
+          },
+          {
+            "direction": "left_to_right",
+            "displacement_px": 78.2
+          }
+        ],
+        "why_candidate": "끝점은 왼쪽→오른쪽 78px이지만, 양방향으로 threshold 이상 이동한 뒤 방향이 바뀐다. 자동 wandering 확정이 아니다."
+      },
+      {
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "track_id": "52",
+        "endpoint_direction": null,
+        "endpoint_displacement_px": 11.85,
+        "legs": [
+          {
+            "direction": "left_to_right",
+            "displacement_px": 486.36
+          },
+          {
+            "direction": "right_to_left",
+            "displacement_px": 487.93
+          }
+        ],
+        "why_candidate": "순변위는 12px이지만 양쪽 이동이 각각 약 487px이다. 두 walking segment일 수 있다."
+      }
+    ],
+    "not_candidate_examples": [
+      {
+        "video_id": "VIRAT_S_010106_02_000656_000692",
+        "track_id": "5",
+        "why": "threshold를 넘는 반대 방향 구간이 없다."
+      },
+      {
+        "video_id": "VIRAT_S_010111_08_000920_000954",
+        "track_id": "88",
+        "why": "이동량이 작아 확정된 방향 구간이 없다."
+      }
+    ]
+  },
+  "visibility_and_inclusion": {
+    "visibility_automated": false,
+    "captionable_automated": false,
+    "include_primary_eval_automated": false,
+    "remove_event_because_small_in_full_frame": false,
+    "small_or_difficult_event_may_remain_if_present_in_source_video": true,
+    "visibility_may_be_future_difficulty_metadata": true,
+    "method_specific_visibility_is_gt_inclusion_criterion": false
+  },
+  "atomic_caption_evidence_schema": {
+    "id_pattern": "AE001",
+    "track_ids_are_strings": true,
+    "grouping_deletes_atomic_evidence": false,
+    "template": {
+      "atomic_evidence_id": "AE001",
+      "source": {
+        "type": "virat_activity | person_track_review | human_added",
+        "virat_event_ids": [],
+        "source_track_ids": []
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "start_time": null,
+      "end_time": null,
+      "subject": {
+        "category": null,
+        "track_id": null
+      },
+      "action": null,
+      "object": [],
+      "direction": null,
+      "screen_location": null,
+      "semantic_location": null,
+      "caption_evaluable": true,
+      "review": {
+        "human_verified": false,
+        "note": ""
+      }
+    },
+    "provenance": {
+      "virat_activity_keeps_original_event_ids": true,
+      "human_added_may_omit_virat_event_ids": true,
+      "walking_and_wandering_require_source_track_ids": true
+    },
+    "individual_example": {
+      "atomic_evidence_id": "AE014",
+      "source": {
+        "type": "person_track_review",
+        "virat_event_ids": [],
+        "source_track_ids": [
+          "12"
+        ]
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "start_time": null,
+      "end_time": null,
+      "subject": {
+        "category": "person",
+        "track_id": "12"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "left_to_right",
+      "screen_location": null,
+      "semantic_location": null,
+      "caption_evaluable": true,
+      "review": {
+        "human_verified": false,
+        "note": ""
+      }
+    }
+  },
+  "caption_event_schema": {
+    "id_pattern": "CE001",
+    "person_count_is_required_caption_slot": false,
+    "exact_person_count_need_not_match_for_event_to_be_correct": true,
+    "reference_sentence": null,
+    "template": {
+      "caption_event_id": "CE001",
+      "event_form": "individual | group",
+      "source_atomic_evidence_ids": [],
+      "source_track_ids": [],
+      "start_frame": null,
+      "end_frame": null,
+      "start_time": null,
+      "end_time": null,
+      "subject": {
+        "category": null,
+        "group": false
+      },
+      "action": null,
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    "provenance": {
+      "source_atomic_evidence_ids_required": true,
+      "source_track_ids_preserved": true,
+      "group_keeps_every_constituent_atomic_evidence_id": true,
+      "grouping_deletes_atomic_evidence": false
+    },
+    "individual_example": {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE014"
+      ],
+      "source_track_ids": [
+        "12"
+      ],
+      "start_frame": null,
+      "end_frame": null,
+      "start_time": null,
+      "end_time": null,
+      "subject": {
+        "category": "person",
+        "group": false
+      },
+      "action": "walking",
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    "group_example": {
+      "caption_event_id": "CE002",
+      "event_form": "group",
+      "source_atomic_evidence_ids": [
+        "AE021",
+        "AE022",
+        "AE025"
+      ],
+      "source_track_ids": [
+        "4",
+        "7",
+        "9"
+      ],
+      "start_frame": null,
+      "end_frame": null,
+      "start_time": null,
+      "end_time": null,
+      "subject": {
+        "category": "person",
+        "group": true
+      },
+      "action": "walking",
+      "direction": "upper_left_to_lower_right",
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  },
+  "evaluation_scope": {
+    "gt_is_exhaustive_for_all_visible_events": false,
+    "absence_from_gt_means_false": false,
+    "unsupported_prediction_requires_video_verification": true,
+    "known_gaps": [
+      "vehicle movement",
+      "some background activity",
+      "events outside the VIRAT activity taxonomy"
+    ]
+  },
+  "not_automated": [
+    "visibility",
+    "captionable",
+    "include_primary_eval",
+    "semantic_location",
+    "reference_sentence",
+    "final group events",
+    "final walking events",
+    "final wandering events",
+    "hallucination judgment from GT absence alone",
+    "VLM or LLM judgment"
+  ],
+  "applied_to": "experiments/virat/caption_event_gt_191"
+}

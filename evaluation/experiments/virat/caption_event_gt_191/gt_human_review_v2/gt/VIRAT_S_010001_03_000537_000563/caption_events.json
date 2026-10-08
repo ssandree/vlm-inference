@@ -1,0 +1,381 @@
+{
+  "video_id": "VIRAT_S_010001_03_000537_000563",
+  "version": "human_review_v2",
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "2"
+      ],
+      "start_frame": 152,
+      "end_frame": 198,
+      "start_time": 6.3413,
+      "end_time": 8.2603,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "2"
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "facility_transition",
+      "provenance_layer": "original_gt",
+      "review_links": [
+        "V02-08"
+      ]
+    },
+    {
+      "caption_event_id": "HE_V02-01",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 화면 왼쪽 계단을 내려온다.",
+      "review_links": [
+        "V02-01"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V02-03",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 건물 입구 주변 통로를 걸어간다.",
+      "review_links": [
+        "V02-03"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V02-06",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "그 보행자는 벽돌 화단 쪽으로 향한다.",
+      "review_links": [
+        "V02-06"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    }
+  ],
+  "confirmed_attributes": [],
+  "confirmed_context": [
+    {
+      "review_id": "V02-10",
+      "video_id": "VIRAT_S_010001_03_000537_000563",
+      "statement_ko": "전경 파라솔 아래에 앉아 있는 사람이 있다.",
+      "review_hint_ko": "정적 상태를 GT에 넣을지는 별도 정책. 행동으로 자동 편입하지 않음.",
+      "source_record_ids": [
+        "R006",
+        "R007",
+        "R024",
+        "R025",
+        "R042",
+        "R043",
+        "R060",
+        "R061",
+        "R078",
+        "R079"
+      ],
+      "answer": "yes",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "context",
+      "raw_answer": "yes",
+      "resolved_status": "yes",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[yes] V02-10 [context] 전경 파라솔 아래에 앉아 있는 사람이 있다.\n  확인 포인트: 정적 상태를 GT에 넣을지는 별도 정책. 행동으로 자동 편입하지 않음.\n  출처: R006, R007, R024, R025, R042, R043, R060, R061, R078, R079",
+      "semantic_kind": "context",
+      "action_family": "context",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V02-11",
+      "video_id": "VIRAT_S_010001_03_000537_000563",
+      "statement_ko": "그 사람은 휴대전화를 보고 있다.",
+      "review_hint_ko": "작아서 식별 안 되면 보류. 고개 숙임만으로 휴대전화 단정 금지.",
+      "source_record_ids": [
+        "R025",
+        "R043",
+        "R061",
+        "R079"
+      ],
+      "answer": "yes",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "context",
+      "raw_answer": "yes",
+      "resolved_status": "yes",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[yes] V02-11 [context] 그 사람은 휴대전화를 보고 있다.\n  확인 포인트: 작아서 식별 안 되면 보류. 고개 숙임만으로 휴대전화 단정 금지.\n  출처: R025, R043, R061, R079",
+      "semantic_kind": "context",
+      "action_family": "context",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "rejected_claims": [
+    {
+      "review_id": "V02-02",
+      "video_id": "VIRAT_S_010001_03_000537_000563",
+      "statement_ko": "사람이 계단을 올라간다.",
+      "review_hint_ko": "계단 오르기와 건물 내부 진입은 분리.",
+      "source_record_ids": [
+        "R006",
+        "R007",
+        "R024",
+        "R025",
+        "R042"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V02-02 [core] 사람이 계단을 올라간다.\n  확인 포인트: 계단 오르기와 건물 내부 진입은 분리.\n  출처: R006, R007, R024, R025, R042",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "stair_direction",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V02-04",
+      "video_id": "VIRAT_S_010001_03_000537_000563",
+      "statement_ko": "사람이 잔디밭 또는 그 주변 길을 가로질러 이동한다.",
+      "review_hint_ko": "잔디 위인지 포장 경로인지 수정 가능.",
+      "source_record_ids": [
+        "R007",
+        "R025",
+        "R043"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V02-04 [core] 사람이 잔디밭 또는 그 주변 길을 가로질러 이동한다.\n  확인 포인트: 잔디 위인지 포장 경로인지 수정 가능.\n  출처: R007, R025, R043",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "route",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V02-05",
+      "video_id": "VIRAT_S_010001_03_000537_000563",
+      "statement_ko": "그 보행자는 파라솔 테이블 쪽으로 향한다.",
+      "review_hint_ko": "같은 보행자의 목적지가 입구/화단인지 확인.",
+      "source_record_ids": [
+        "R007"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "detail",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V02-05 [detail] 그 보행자는 파라솔 테이블 쪽으로 향한다.\n  확인 포인트: 같은 보행자의 목적지가 입구/화단인지 확인.\n  출처: R007",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "destination",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V02-07",
+      "video_id": "VIRAT_S_010001_03_000537_000563",
+      "statement_ko": "그 보행자는 오른쪽 건물 입구 쪽으로 향한다.",
+      "review_hint_ko": "접근과 실제 건물 진입을 구분.",
+      "source_record_ids": [
+        "R043"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "detail",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V02-07 [detail] 그 보행자는 오른쪽 건물 입구 쪽으로 향한다.\n  확인 포인트: 접근과 실제 건물 진입을 구분.\n  출처: R043",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "destination",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V02-09",
+      "video_id": "VIRAT_S_010001_03_000537_000563",
+      "statement_ko": "유리문을 통해 밖으로 나오는 사람이 두 명이다.",
+      "review_hint_ko": "단순 인원 오류인지 별도 퇴장 사건 누락인지 확인.",
+      "source_record_ids": [
+        "R079"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "detail",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V02-09 [detail] 유리문을 통해 밖으로 나오는 사람이 두 명이다.\n  확인 포인트: 단순 인원 오류인지 별도 퇴장 사건 누락인지 확인.\n  출처: R079",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "count",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "uncertain_claims": [],
+  "corrected_claims": [],
+  "exhaustive_for_all_visible_events": false,
+  "evaluation_scope": "human-reviewed semantic events, action families and reviewed claims; not temporally localized instance detection"
+}

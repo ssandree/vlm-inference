@@ -1,0 +1,15 @@
+model: 30b
+mode: default
+generation:
+  max_new_tokens: 12288
+  do_sample: false
+  repetition_penalty: 1.05
+video:
+  fps: 2.0
+  min_pixels: 4096
+  max_pixels: 393216
+  total_pixels: 16777216
+prompt_file: prompts/virat_dense_events_pilot.txt
+output:
+  dir: outputs/virat_dense_events_pilot
+  file: results.json

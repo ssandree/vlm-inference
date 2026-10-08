@@ -1,0 +1,12 @@
+transformers>=4.57.0
+accelerate
+bitsandbytes>=0.50.1
+qwen-vl-utils
+PyYAML
+Pillow
+av
+torch
+torchvision
+matplotlib
+nltk
+sentence-transformers

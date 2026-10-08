@@ -1,0 +1,7 @@
+# Read existing centroid debug output only; no sampling or inference.
+experiment_config: configs/feasibility_global_roi_cross.yaml
+centroid_results_dir: outputs/global_roi_cross/centroid_2fps
+output_dir: outputs/centroid_displacement_analysis
+padding_seconds: [0.5, 1.0, 1.5, 2.0]
+histogram_bins: 60
+near_threshold_multipliers: [1.25, 1.5, 2.0]

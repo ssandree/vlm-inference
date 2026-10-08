@@ -1,0 +1,424 @@
+{
+  "video_id": "VIRAT_S_010003_06_000526_000560",
+  "version": "human_review_v2",
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "0"
+      ],
+      "start_frame": 59,
+      "end_frame": 111,
+      "start_time": 2.4614,
+      "end_time": 4.6308,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "0"
+      },
+      "action": "entering_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "facility_transition",
+      "provenance_layer": "original_gt",
+      "review_links": [
+        "V04-09"
+      ],
+      "visibility_note": "human_confirmed_but_very_small"
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "3"
+      ],
+      "start_frame": 126,
+      "end_frame": 172,
+      "start_time": 5.2566,
+      "end_time": 7.1756,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "3"
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "facility_transition",
+      "provenance_layer": "original_gt",
+      "review_links": [
+        "V04-10"
+      ]
+    },
+    {
+      "caption_event_id": "HE_V04-01",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 왼쪽 계단을 내려간다.",
+      "review_links": [
+        "V04-01"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V04-02",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": "right_to_left",
+      "object": [],
+      "reference_sentence": "사람이 위쪽 통로 또는 테이블 뒤에서 오른쪽→왼쪽으로 걷는다.",
+      "review_links": [
+        "V04-02"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V04-04",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 파라솔/테이블 주변 파티오를 걸어간다.",
+      "review_links": [
+        "V04-04"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V04-06",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 잔디 가장자리/화분 옆 길을 걷는다.",
+      "review_links": [
+        "V04-06"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V04-12",
+      "event_form": "human_review_semantic_event",
+      "action": "talking",
+      "action_family": "talking",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "테이블에 앉아 있는 사람들이 대화한다.",
+      "review_links": [
+        "V04-12"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    }
+  ],
+  "confirmed_attributes": [],
+  "confirmed_context": [
+    {
+      "review_id": "V04-13",
+      "video_id": "VIRAT_S_010003_06_000526_000560",
+      "statement_ko": "파라솔 아래에 앉아 있는 사람이 있다.",
+      "review_hint_ko": "정적 상태; 보행/출입 동작과 분리.",
+      "source_record_ids": [
+        "R012",
+        "R013",
+        "R030",
+        "R031",
+        "R048",
+        "R049",
+        "R066",
+        "R067",
+        "R084",
+        "R085"
+      ],
+      "answer": "yes",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "context",
+      "raw_answer": "yes",
+      "resolved_status": "yes",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[yes] V04-13 [context] 파라솔 아래에 앉아 있는 사람이 있다.\n  확인 포인트: 정적 상태; 보행/출입 동작과 분리.\n  출처: R012, R013, R030, R031, R048, R049, R066, R067, R084, R085",
+      "semantic_kind": "context",
+      "action_family": "context",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "rejected_claims": [
+    {
+      "review_id": "V04-03",
+      "video_id": "VIRAT_S_010003_06_000526_000560",
+      "statement_ko": "사람이 화면 좌하단에서 들어와 중앙 좌석 쪽으로 걷는다.",
+      "review_hint_ko": "화면 진입을 건물 진입으로 처리하지 말 것.",
+      "source_record_ids": [
+        "R012",
+        "R048"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V04-03 [core] 사람이 화면 좌하단에서 들어와 중앙 좌석 쪽으로 걷는다.\n  확인 포인트: 화면 진입을 건물 진입으로 처리하지 말 것.\n  출처: R012, R048",
+      "semantic_kind": "event",
+      "action_family": "locomotion",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V04-05",
+      "video_id": "VIRAT_S_010003_06_000526_000560",
+      "statement_ko": "파티오를 걷는 사람이 화면 오른쪽으로 이동한다.",
+      "review_hint_ko": "건물 퇴장 여부와는 별개.",
+      "source_record_ids": [
+        "R031",
+        "R049"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V04-05 [core] 파티오를 걷는 사람이 화면 오른쪽으로 이동한다.\n  확인 포인트: 건물 퇴장 여부와는 별개.\n  출처: R031, R049",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "direction",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V04-07",
+      "video_id": "VIRAT_S_010003_06_000526_000560",
+      "statement_ko": "잔디 가장자리의 사람이 화면 왼쪽으로 걷는다.",
+      "review_hint_ko": "이동 방향은 같은 주체에만 연결.",
+      "source_record_ids": [
+        "R031"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V04-07 [core] 잔디 가장자리의 사람이 화면 왼쪽으로 걷는다.\n  확인 포인트: 이동 방향은 같은 주체에만 연결.\n  출처: R031",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "direction",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V04-08",
+      "video_id": "VIRAT_S_010003_06_000526_000560",
+      "statement_ko": "파티오를 걷던 사람이 출입문 경계를 통과한다.",
+      "review_hint_ko": "원문 exiting through the doorway의 실제 극성 확인. 화면 밖 이탈과 구분.",
+      "source_record_ids": [
+        "R013"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V04-08 [core] 파티오를 걷던 사람이 출입문 경계를 통과한다.\n  확인 포인트: 원문 exiting through the doorway의 실제 극성 확인. 화면 밖 이탈과 구분.\n  출처: R013",
+      "semantic_kind": "event",
+      "action_family": "facility_transition",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V04-11",
+      "video_id": "VIRAT_S_010003_06_000526_000560",
+      "statement_ko": "건물에 들어간 사람과 곧이어 나온 사람이 동일인이다.",
+      "review_hint_ko": "진입·퇴장 각각 사실이어도 동일인 연결은 틀릴 수 있음.",
+      "source_record_ids": [
+        "R049"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "detail",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V04-11 [detail] 건물에 들어간 사람과 곧이어 나온 사람이 동일인이다.\n  확인 포인트: 진입·퇴장 각각 사실이어도 동일인 연결은 틀릴 수 있음.\n  출처: R049",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "identity",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "uncertain_claims": [],
+  "corrected_claims": [],
+  "exhaustive_for_all_visible_events": false,
+  "evaluation_scope": "human-reviewed semantic events, action families and reviewed claims; not temporally localized instance detection"
+}

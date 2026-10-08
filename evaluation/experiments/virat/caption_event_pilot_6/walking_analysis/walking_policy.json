@@ -1,0 +1,27 @@
+{
+  "does_not_modify": "experiments/virat/annotation_policy.json",
+  "existing_grouping_rule_unchanged": {
+    "temporal_overlap_ratio_min": 0.3,
+    "median_normalized_distance_max": 0.15,
+    "groups_of_three_or_more": "complete_link",
+    "different_actions_grouped": false,
+    "screen_bin_3x3_used": false
+  },
+  "walking_confirmed_automatically": false,
+  "direction_cosine": "cosine of the two net displacement vectors over the overlap interval",
+  "direction_thresholds_compared": [
+    0.5,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "direction_threshold_selected": false,
+  "wandering": {
+    "auto_confirm_event": false,
+    "excluded_from_directional_grouping": true,
+    "rule": "At least two sustained legs have opposite directions, and each leg displacement is >= max(20px, 0.05 * frame_width).",
+    "opposite": "cosine of the two leg displacement vectors < 0",
+    "not_sufficient": "A small net displacement or an uncommitted endpoint direction, without two clear opposing legs."
+  },
+  "reference_sentence": null
+}

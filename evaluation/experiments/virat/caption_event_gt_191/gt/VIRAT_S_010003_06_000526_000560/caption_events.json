@@ -1,0 +1,54 @@
+{
+  "video_id": "VIRAT_S_010003_06_000526_000560",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "0"
+      ],
+      "start_frame": 59,
+      "end_frame": 111,
+      "start_time": 2.4614,
+      "end_time": 4.6308,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "0"
+      },
+      "action": "entering_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "3"
+      ],
+      "start_frame": 126,
+      "end_frame": 172,
+      "start_time": 5.2566,
+      "end_time": 7.1756,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "3"
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

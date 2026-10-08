@@ -1,0 +1,85 @@
+{
+  "video_id": "VIRAT_S_010205_02_000301_000345",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE007"
+      ],
+      "source_track_ids": [
+        "0"
+      ],
+      "start_frame": 204,
+      "end_frame": 305,
+      "start_time": 8.5106,
+      "end_time": 12.7242,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "0"
+      },
+      "action": "running",
+      "object": [],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "0"
+      ],
+      "start_frame": 649,
+      "end_frame": 712,
+      "start_time": 27.0755,
+      "end_time": 29.7038,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "0"
+      },
+      "action": "gesturing",
+      "object": [],
+      "direction": "upper_left_to_lower_right",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE009"
+      ],
+      "source_track_ids": [
+        "3"
+      ],
+      "start_frame": 911,
+      "end_frame": 1019,
+      "start_time": 38.0058,
+      "end_time": 42.5115,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "3"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "2",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

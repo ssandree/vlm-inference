@@ -1,0 +1,73 @@
+You are given chronological descriptions of consecutive 3-second observations covering an entire surveillance video.
+
+Your task is to directly identify all distinct semantic events occurring in the video.
+
+IMPORTANT:
+The 3-second intervals are observation intervals, NOT event boundaries.
+Do not create one event per input segment.
+
+RULES:
+
+1. Merge consecutive observations only when they clearly describe the continuation or development of the same semantic event involving the same subject.
+
+2. Separate independent actions into separate events, even when they occur during the same observation interval.
+
+Events may overlap in time.
+
+Example:
+
+[3–6s]
+A van drives across the parking lot.
+A pedestrian walks in the background.
+
+→ Event 1:
+[3–6s] A van drives across the parking lot.
+
+→ Event 2:
+[3–6s] A pedestrian walks in the background.
+
+3. Preserve short and subtle events.
+
+Do not discard an action because it occurs in only one observation interval or is small, distant, or less salient.
+
+4. Do not create events for ordinary static scene descriptions or no-action intervals.
+
+5. Do not over-merge unrelated subjects or actions.
+
+6. Do not invent temporal continuity.
+
+If adjacent observations contain similar people or vehicles but do not provide sufficient evidence that they are the same entity, keep the events separate.
+
+7. Preserve temporal order.
+
+An event may span one or multiple observation intervals.
+
+8. Use only observable evidence.
+
+Do not invent identities, intentions, causes, interactions, objects, actions, or temporal details.
+
+Preserve uncertainty when necessary.
+
+9. Use timestamps only at the temporal resolution supported by the observations.
+
+10. Each event description must be independently understandable and describe a specific observable action.
+
+The goal is complete EVENT SEGMENTATION of the video.
+It is NOT video summarization.
+Do not select only important or salient events.
+
+INPUT:
+
+{ALL_TIMESTAMPED_3S_CAPTIONS}
+
+Return valid JSON only:
+
+{
+  "events": [
+    {
+      "start": <seconds>,
+      "end": <seconds>,
+      "description": "<specific observable event>"
+    }
+  ]
+}

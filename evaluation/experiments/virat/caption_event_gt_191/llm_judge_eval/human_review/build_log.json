@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "purpose": "Human fact review candidates, not new GT or hallucination verdicts",
+  "source_report_sha256": "5c1a363b41d1aee5428bcd15d8e3c5a5c0951dd65564726587c6cbee97d660f1",
+  "source_details_sha256": "c15896119475ecfd67b9879ae46de3ebf858ad612f243ceaf0d6e231c6c6e4d0",
+  "video_order": [
+    "VIRAT_S_000200_00_000100_000171",
+    "VIRAT_S_010001_03_000537_000563",
+    "VIRAT_S_010003_03_000219_000259",
+    "VIRAT_S_010003_06_000526_000560",
+    "VIRAT_S_010003_10_000901_000934",
+    "VIRAT_S_010106_02_000656_000692",
+    "VIRAT_S_010114_01_000235_000311",
+    "VIRAT_S_010207_04_000929_000954",
+    "VIRAT_S_040005_08_001225_001276"
+  ],
+  "n_claims": 140,
+  "n_prior_confirmed": 8,
+  "semantic_curation": "Current conversation LLM read full captions and selected/deduplicated action, direction, actor-link claims; no keyword scoring.",
+  "not_exhaustive": "Core dynamic claims plus selected contextual claims. Weather/OCR/scenery/general negative statements omitted. Review full video for events absent from every caption.",
+  "video_verified_by_assistant": false
+}
+Per video: {1: 30, 2: 11, 3: 13, 4: 13, 5: 14, 6: 16, 7: 24, 8: 9, 9: 10}

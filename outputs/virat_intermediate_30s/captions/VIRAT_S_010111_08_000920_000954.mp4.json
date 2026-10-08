@@ -1,0 +1,80 @@
+{
+  "video": "VIRAT_S_010111_08_000920_000954.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010111_08_000920_000954.mp4.json",
+  "source_caption_sha256": "d37cb025c1e5a33da8b2b029eb57a707e93b49f6f8c8b514422597ef8b0fcd9e",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 25.782227784730914,
+      "intermediate_caption": "A person walks across the parking lot from left to right in the middle ground, passing several parked cars and continuing toward the right side of the frame. In the following segment, another person walks in the central part of the parking lot from left to right while, simultaneously, one individual walks and another rides a bicycle in the far background on the right side of the lot, both moving from left to right. Shortly after, a cyclist crosses the upper portion of the frame from left to right, accompanied by a pedestrian moving in the same direction, while a white van with yellow markings travels slowly from right to left through the middle of the parking lot. Two more individuals appear in the upper right portion of the parking lot, walking from left to right along the edge near the buildings. During this period, a white box truck passes through the middle section of the lot from right to left and exits the frame. Later, a person in a blue shirt walks from the left side of the frame toward the right, passing behind a white van parked near the center of the lot. Meanwhile, two individuals stand briefly in the upper left portion of the frame near the edge of the paved area beside green fields before moving out of view to the right. At the same time, a white van enters from the far right, proceeds through the middle sections of the lot between parked cars, and makes a slight turn to the left. Additionally, another person walks across the top-left corner of the image, heading away from the camera toward the rear of the parking lot. Afterward, there is a brief interval where no people or moving vehicles are present—only parked cars, a white box truck, a small white trash bin, a larger white dumpster, and various structures such as a building, trees, and a sports field are visible. Finally, the entire scene becomes completely static, remaining so until the end of the recording, with only parked vehicles—including sedans, SUVs, vans, and trucks—and long shadows cast by surrounding structures and foliage observed under daylight conditions.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-25.782227784730914"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "A person is walking across the parking lot from left to right in the middle ground of the scene. The person walks past several parked cars. The person continues walking towards the right side of the frame."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A person is walking in the parking lot near the center of the frame, moving from left to right.\n\nAnother person is walking in the far background on the right side of the parking lot, also moving from left to right.\n\nA person is riding a bicycle in the far background on the right side of the parking lot, moving from left to right."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "In the parking lot, a person rides a bicycle from left to right across the upper portion of the frame. Another person walks in the same area, moving from left to right. A white van with yellow markings drives slowly from right to left through the middle of the parking lot. Several other cars remain parked throughout the scene."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "In the upper right portion of the parking lot, two individuals are walking from left to right across the frame. They are moving along the edge of the parking area near the buildings. The rest of the scene is static, with numerous cars parked in designated spaces throughout the lot. A white box truck is parked in the upper right section, and a yellow and white van is parked nearby. A large white dumpster is located in the lower left foreground, and a smaller white trash bin is in the lower right corner. The overall scene remains unchanged except for the two people walking."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "In the upper right portion of the parking lot, two individuals walk from left to right across the frame near the edge of the paved area.\n\nA white box truck drives slowly through the middle section of the parking lot, moving generally from right to left before exiting the view at the far left side of the scene."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "In the parking lot, a person wearing a blue shirt walks from the left side of the frame towards the right, passing behind a white van parked near the center of the lot. The person continues walking towards the right edge of the frame and exits the view."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "The scene shows a large outdoor parking lot filled with numerous parked cars under bright sunlight.\n\nIn the upper left portion of the frame, near the edge of the paved area adjacent to green fields, two individuals can be seen standing together for several moments before moving out of view towards the right side of the screen.\n\nA white van drives slowly from the far right into the middle section of the parking lot, then turns slightly to its left as it moves forward through the rows of parked cars.\n\nAnother person walks across the top-left corner of the image, walking away from the camera toward the back of the parking lot.\n\nNo other significant human activity or vehicle motion occurs during the duration of the clip; most vehicles remain stationary throughout."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "There are no visible people or moving vehicles in the parking lot. The scene is static, showing numerous parked cars, including sedans, SUVs, vans, and a white truck, arranged in marked spaces. A large building is visible in the background, along with trees and a sports field. The lighting suggests it is daytime."
+        },
+        {
+          "source_clip": "24-25.782227784730914",
+          "start_sec": 24.0,
+          "end_sec": 25.782227784730914,
+          "caption": "There are no discernible actions or events occurring in the video clip. The scene shows a large, mostly full parking lot with numerous parked cars and a few trucks under bright sunlight. The shadows of buildings and trees are cast across the pavement. There is no visible movement of people or vehicles. The image remains static throughout the clip."
+        }
+      ]
+    }
+  ]
+}

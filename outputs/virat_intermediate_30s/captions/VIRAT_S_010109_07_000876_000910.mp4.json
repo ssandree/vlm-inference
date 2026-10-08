@@ -1,0 +1,110 @@
+{
+  "video": "VIRAT_S_010109_07_000876_000910.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010109_07_000876_000910.mp4.json",
+  "source_caption_sha256": "572f2d52ba31b44f8d629f6b2cfacedcb7cdd6f80f7d58954fd94a159bc8b6d0",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 30.0,
+      "intermediate_caption": "At the beginning of the observation period, the parking lot is empty of any human activity or motion; it contains only stationary vehicles—sedans, SUVs, vans, and several white delivery trucks—arranged in orderly rows under clear daylight conditions. At 3 seconds, a person dressed in dark clothing appears on the far left edge of the frame, walking from right to left along the boundary between pavement and a nearby grassy field, then exits the scene shortly after. Around 6 seconds, another individual, again wearing dark clothes, traverses the background from left to right near a chain-link fence bordering a grassy area. By 9 seconds, a cyclist rides across the mid-ground of the parking lot from left to right, passing centrally in front of the viewer’s perspective; the bike features a light-colored frame. In the next segment (starting at 12 seconds), a pedestrian walks from the left side of the frame toward the right in the upper-left portion of the lot, receding slightly as they move further away from the camera. This pattern repeats at 15 seconds, where a figure crosses the middle ground from left to right. From 18 seconds onward, additional individuals continue crossing the space intermittently—the first appearing near the left-side fence line—and others walk across the central region of the lot between 21 and 24 seconds. During this interval, most areas of the lot remain visually unchanged except for minor foot traffic. Between 24 and 27 seconds, one person walks steadily from left to right near the center while simultaneously, a white van marked with yellow stripes pulls into the lot from the extreme right, advancing slowly toward the middle-left section before coming to a stop. Concurrently, a second vehicle—a dark SUV—is briefly visible entering from the lower-right quadrant, traveling diagonally upward and inward before leaving the frame. After 27 seconds, all movement ceases entirely; the final moments show complete stillness, with every object—including previously mentioned vehicles and structures—remaining immobile under consistent lighting. Throughout the entire duration, there are no signs of vehicular departure, acceleration, braking, door opening/closing, conversation, physical contact, or equipment use involving anyone present. The environment consistently displays a broad expanse of parked automobiles beneath open sky, viewed from a stable elevated vantage point overlooking both the asphalt surface and adjacent built environments.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-27",
+        "27-30"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "There are no visible people or moving vehicles in the parking lot. The scene is static, showing numerous parked cars, including sedans, SUVs, and vans, arranged in rows. A few white delivery trucks are also parked. The vehicles remain stationary throughout the clip. The camera position is fixed, providing a high-angle view of the parking area and surrounding buildings."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A person walks across the far left side of the parking lot, moving from right to left, near the edge of the paved area and the grassy field beyond. The person is wearing dark clothing and continues walking until they exit the frame. No other people or vehicle movements are visible in the scene."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "A person is walking in the background near a chain-link fence and a grassy field. The person walks from left to right across the frame. The rest of the scene is a large, mostly full parking lot with numerous parked cars and vans. There is no other discernible movement or interaction."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "A person on a bicycle is riding across the parking lot from left to right in the background. The person is wearing dark clothing and is visible near the center of the frame. The bicycle has a light-colored frame. The person continues moving across the lot and exits the frame on the right side. No other people or significant vehicle movements are observed."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A person is walking across the parking lot in the upper left area of the frame. The person walks from the left side of the frame towards the right, moving away from the camera's viewpoint. No other people or significant vehicle movements are visible in the scene."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "A person walks across the parking lot from left to right in the middle distance.\n\nThe scene is a large outdoor parking lot filled with numerous parked cars of various colors and models, including sedans, SUVs, and vans.\n\nThere are no other visible people or moving vehicles in the frame."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "The video shows a large, mostly full parking lot with numerous cars parked in designated spaces.\n\nA person is seen walking in the distance near the left side of the frame, close to a chain-link fence.\n\nThere is no significant movement of vehicles or people within the main area of the parking lot during the clip. The scene remains static throughout."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "A person walks across the parking lot from left to right in the middle distance."
+        },
+        {
+          "source_clip": "24-27",
+          "start_sec": 24.0,
+          "end_sec": 27.0,
+          "caption": "A person walks across the parking lot from left to right near the center of the frame at approximately 0:00. The same individual continues walking towards the right side of the scene through 0:02. A white van with yellow markings drives slowly into the parking area from the far right edge of the frame around 0:00 and moves toward the middle-left before stopping by 0:02. Another vehicle, possibly a dark SUV, enters the frame from the bottom-right corner between 0:01 and 0:02 and proceeds diagonally up and to the left, partially exiting the view. All other cars remain stationary throughout the sequence."
+        },
+        {
+          "source_clip": "27-30",
+          "start_sec": 27.0,
+          "end_sec": 30.0,
+          "caption": "There are no discernible actions or events occurring in the video clip. The scene shows a large, mostly full parking lot with numerous parked cars and a few trucks under bright sunlight. The vehicles remain stationary throughout the clip. There are no visible people or moving objects. The image is static, showing a wide view of the parking area and surrounding buildings."
+        }
+      ]
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 33.917396745932415,
+      "intermediate_caption": "A person walks across the parking lot from left to right in the middle ground during the initial part of the time window. Simultaneously, a white van drives from left to right across the upper portion of the parking lot, while a dark-colored SUV moves from right to left in the lower right corner. Later in the sequence, another individual walks across the parking lot from left to right near the center of the frame. During this period, all vehicles previously observed come to rest—no further movement occurs among them—and one additional white van with yellow markings enters slowly from the far right edge of the frame around mid-sequence, moving slightly forward without entering any designated spot before leaving the field of view. No other people appear or move through the area after their respective appearances.",
+      "source_clips": [
+        "30-33",
+        "33-33.917396745932415"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "30-33",
+          "start_sec": 30.0,
+          "end_sec": 33.0,
+          "caption": "A person walks across the parking lot from left to right in the middle ground.\n\nA white van drives from left to right across the upper portion of the parking lot.\n\nA dark-colored SUV drives from right to left in the lower right corner of the frame."
+        },
+        {
+          "source_clip": "33-33.917396745932415",
+          "start_sec": 33.0,
+          "end_sec": 33.917396745932415,
+          "caption": "A person walks across the parking lot from left to right near the center of the frame at 0:00. The scene remains otherwise unchanged throughout the clip; no other individuals move through the area, and there is no vehicle traffic within the main body of the parking lot. All cars remain stationary. A white van with yellow markings drives slowly into view from the far right side of the screen between 0:02 and 0:03 but does not enter any specific space before exiting the frame."
+        }
+      ]
+    }
+  ]
+}

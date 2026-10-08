@@ -1,0 +1,798 @@
+{
+  "video": "VIRAT_S_010001_02_000195_000498.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010001_02_000195_000498.mp4.json",
+  "source_caption_sha256": "f5c506401b150a3a10bd5fc0ffea0467f72e036f3ec907cda65650ef0b91ee5e",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 30.0,
+      "intermediate_caption": "A person remains seated at a table under a red umbrella in the foreground throughout the entire sequence. In the middle ground, multiple individuals walk up and down a set of stairs; one person ascends while another descends between 6 seconds and 9 seconds, and later others continue ascending toward the building entrance. At various points, different individuals wearing shirts of varying colors—pink, purple, white, and dark—are seen traversing the stairway and surrounding areas. \n\nNear the building’s entrance in the background, groups of people gather intermittently, including instances where two or more stand close together. Individuals also move through this zone, some approaching the entrance from either side of the frame. On the upper level of the structure, persons appear walking back and forth during the first half of the clip. Additionally, movement occurs along a grassy area adjacent to the building, with pedestrians crossing both from right to left and left to right. One individual appears to use a laptop while seated at the table under the red umbrella starting around 6 seconds. The activity involves continuous pedestrian motion across multiple zones within the environment.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-27",
+        "27-30"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person walks up the stairs in the middle ground.\n\nA third person walks across the upper level of the building in the background."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person is walking up the stairs in the middle ground.\n\nA third person is standing near the entrance of the building in the background."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground, appearing to be using a laptop.\n\nAnother person walks up the stairs in the middle ground, moving from left to right.\n\nA third person walks down the stairs in the middle ground, moving from right to left.\n\nIn the background, near the building entrance, a group of people are standing together."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "A person in a pink shirt walks up the stairs on the left side of the frame. Another person in a purple shirt walks down the same stairs. A person in a dark shirt sits at a table under a red umbrella in the lower-left area. A person in a white shirt walks from right to left in front of the building in the background."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame.\n\nAnother person is walking up the stairs in the center-left of the frame.\n\nA third person is standing near the entrance of the building in the upper middle of the frame.\n\nA fourth person is walking on the grassy area in the upper right of the frame."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nA person in a white shirt walks from right to left across the upper level of the scene.\n\nAnother person in a pink shirt walks from left to right across the upper level of the scene.\n\nA third person in a dark shirt walks from left to right across the upper level of the scene."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nIn the background, near the building entrance, several people are standing and walking around.\n\nOne person walks from the right side of the frame towards the building entrance.\n\nAnother person walks from the left side of the frame towards the building entrance."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person is walking up the stairs towards the building entrance in the middle ground.\n\nA group of three people are standing near the building entrance.\n\nA person in a white shirt is walking across the grassy area from right to left.\n\nA person in a dark shirt is walking across the grassy area from left to right."
+        },
+        {
+          "source_clip": "24-27",
+          "start_sec": 24.0,
+          "end_sec": 27.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person walks from right to left in the background near the building entrance.\n\nA third person walks from left to right in the background near the building entrance."
+        },
+        {
+          "source_clip": "27-30",
+          "start_sec": 27.0,
+          "end_sec": 30.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person walks from right to left in the background near the building entrance.\n\nA third person walks from left to right in the background near the building entrance.\n\nA fourth person walks from right to left in the background near the building entrance."
+        }
+      ]
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 60.0,
+      "intermediate_caption": "At the beginning of the time window, a person is sitting at a table under a red umbrella in the foreground. Two individuals are seen walking up a set of stairs in the middle ground, while another person stands near the entrance of a building in the background. \n\nShortly after, a person wearing a dark shirt and light-colored pants moves from the left to the right across the upper level of the courtyard, passing behind a large yellow sign. At the same time, another individual in a dark top takes a seat at a table beneath a red umbrella located in the lower-left area of the courtyard. Meanwhile, two more people move together from the right to the left along the staircase adjacent to the building’s entrance.\n\nFrom this point onward through several subsequent seconds, multiple individuals—mostly dressed in dark shirts—are observed walking from the right side of the frame toward the left. These include one person passing behind a large red umbrella in the foreground, others ascending the stairs near the building entrance, and additional figures traversing past red umbrellas positioned in the middle ground. One person continues to remain seated at the table under the red umbrella in the lower-left corner during this period.\n\nLater, only one person remains clearly visible—a figure still seated at the table under the red umbrella in the foreground—and they stay stationary for the remainder of the sequence. Other movement includes occasional appearances of pedestrians climbing the stairs in the background and brief visibility of someone standing near the building's entrance. By approximately 42 seconds, the scene becomes largely static; there are no further discernible motions until the end of the segment. Throughout the final moments (from about 48 seconds onwards), the sole ongoing action consists of a single person continuously seated at the table under the red umbrella in the lower-left section of the view, with no other persons or notable activities occurring.",
+      "source_clips": [
+        "30-33",
+        "33-36",
+        "36-39",
+        "39-42",
+        "42-45",
+        "45-48",
+        "48-51",
+        "51-54",
+        "54-57",
+        "57-60"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "30-33",
+          "start_sec": 30.0,
+          "end_sec": 33.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nTwo people are walking up a set of stairs in the middle ground.\n\nAnother person is standing near the entrance of a building in the background."
+        },
+        {
+          "source_clip": "33-36",
+          "start_sec": 33.0,
+          "end_sec": 36.0,
+          "caption": "A person wearing a dark shirt and light-colored pants walks from the left side of the frame toward the right across the upper level of the courtyard, passing behind a large yellow sign.\n\nAnother person, wearing a dark top, sits at a table under a red umbrella in the lower-left portion of the courtyard.\n\nTwo people walk together from the right side of the frame toward the left, moving up a set of stairs near the building entrance."
+        },
+        {
+          "source_clip": "36-39",
+          "start_sec": 36.0,
+          "end_sec": 39.0,
+          "caption": "A person wearing a dark top and light-colored pants walks from the right side of the frame towards the left, passing behind a large red umbrella in the foreground.\n\nAnother person in a white shirt walks from the right side of the frame towards the left, moving up a set of stairs near the building entrance.\n\nA third person in a dark shirt walks from the right side of the frame towards the left, passing behind a red umbrella in the middle ground.\n\nA fourth person in a dark shirt walks from the right side of the frame towards the left, moving up a set of stairs near the building entrance.\n\nA fifth person in a dark shirt walks from the right side of the frame towards the left, passing behind a red umbrella in the middle ground.\n\nA sixth person in a dark shirt walks from the right side of the frame towards the left, moving up a set of stairs near the building entrance.\n\nA seventh person in a dark shirt walks from the right side of the frame towards the left, passing behind a red umbrella in the middle ground.\n\nA person in a dark shirt sits at a table under a red umbrella in the lower-left portion of the frame, remaining seated throughout the clip."
+        },
+        {
+          "source_clip": "39-42",
+          "start_sec": 39.0,
+          "end_sec": 42.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person is walking up the stairs in the middle ground.\n\nA third person is standing near a table in the background on the right side of the frame."
+        },
+        {
+          "source_clip": "42-45",
+          "start_sec": 42.0,
+          "end_sec": 45.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the video clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "45-48",
+          "start_sec": 45.0,
+          "end_sec": 48.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person is walking up the stairs in the background.\n\nA third person is standing near the entrance of the building in the background."
+        },
+        {
+          "source_clip": "48-51",
+          "start_sec": 48.0,
+          "end_sec": 51.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. Another person walks from right to left in the background near the building entrance. A third person is briefly visible standing in the doorway of the building. All other activity is static."
+        },
+        {
+          "source_clip": "51-54",
+          "start_sec": 51.0,
+          "end_sec": 54.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. There are no other visible people or moving vehicles."
+        },
+        {
+          "source_clip": "54-57",
+          "start_sec": 54.0,
+          "end_sec": 57.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the video clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "57-60",
+          "start_sec": 57.0,
+          "end_sec": 60.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. No other people or vehicles are visible, and no significant movements occur."
+        }
+      ]
+    },
+    {
+      "start_sec": 60,
+      "end_sec": 90.0,
+      "intermediate_caption": "A person remains seated at a table under a red umbrella in the lower left of the frame for the entire duration. At 66 seconds, another person begins walking on a pathway in the background near a building entrance; this individual continues out of view shortly after. Between 69 seconds and 72 seconds, a second person walks from right to left across the upper right portion of the scene. From 84 seconds onward, a third person wearing a blue shirt appears and stands near a group of tables and umbrellas in the background. All individuals remain stationary except during their respective brief appearances. No other people or vehicles move through the scene, and aside from those moments, the environment stays largely unchanged.",
+      "source_clips": [
+        "60-63",
+        "63-66",
+        "66-69",
+        "69-72",
+        "72-75",
+        "75-78",
+        "78-81",
+        "81-84",
+        "84-87",
+        "87-90"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "60-63",
+          "start_sec": 60.0,
+          "end_sec": 63.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. No other people or vehicles are visible, and no significant movements occur."
+        },
+        {
+          "source_clip": "63-66",
+          "start_sec": 63.0,
+          "end_sec": 66.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "66-69",
+          "start_sec": 66.0,
+          "end_sec": 69.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person is walking on a pathway in the background near a building entrance."
+        },
+        {
+          "source_clip": "69-72",
+          "start_sec": 69.0,
+          "end_sec": 72.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. Another person walks from right to left across the upper right portion of the scene."
+        },
+        {
+          "source_clip": "72-75",
+          "start_sec": 72.0,
+          "end_sec": 75.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the video. There is no other visible movement or activity."
+        },
+        {
+          "source_clip": "75-78",
+          "start_sec": 75.0,
+          "end_sec": 78.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. No other people or vehicles are visible, and no significant movements occur."
+        },
+        {
+          "source_clip": "78-81",
+          "start_sec": 78.0,
+          "end_sec": 81.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the video clip. No other people or vehicles are visible, and no significant movements occur."
+        },
+        {
+          "source_clip": "81-84",
+          "start_sec": 81.0,
+          "end_sec": 84.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the courtyard. The person remains seated throughout the clip. No other people or vehicles are visible moving in the scene."
+        },
+        {
+          "source_clip": "84-87",
+          "start_sec": 84.0,
+          "end_sec": 87.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person in a blue shirt is standing near a group of tables and umbrellas in the background.\n\nThe scene is otherwise still, with no other visible movement."
+        },
+        {
+          "source_clip": "87-90",
+          "start_sec": 87.0,
+          "end_sec": 90.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the courtyard. The person remains seated throughout the clip. No other people or vehicles are visible moving in the scene."
+        }
+      ]
+    },
+    {
+      "start_sec": 90,
+      "end_sec": 120.0,
+      "intermediate_caption": "At the beginning of the time window, a person walks down the stairs on the left side of the frame while another person walks up the stairs on the right side; simultaneously, a third person is seated at a table under an umbrella in the lower-left area. By 93 seconds, one individual continues descending the stairs on the left, another now ascends the central staircase, and the seated person remains in place. From 96 seconds onward, a person in a dark shirt and light-colored pants descends the left-side stairs, and the individual at the table under the umbrella stays seated. At 99 seconds, the camera view shows someone still seated beneath a red umbrella in the foreground, another ascending the mid-ground stairs, and a third person walking along a pathway near the building’s entrance in the far background. Between 102 seconds and 114 seconds, only the person under the red umbrella remains visibly present—seated continuously—and there are no further appearances of others until 117 seconds, when a new figure begins walking across the background from right to left near the building entrance. This movement occurs as the seated person maintains their position without change through the remainder of the segment.",
+      "source_clips": [
+        "90-93",
+        "93-96",
+        "96-99",
+        "99-102",
+        "102-105",
+        "105-108",
+        "108-111",
+        "111-114",
+        "114-117",
+        "117-120"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "90-93",
+          "start_sec": 90.0,
+          "end_sec": 93.0,
+          "caption": "A person walks down the stairs on the left side of the frame. Another person walks up the stairs on the right side of the frame. A third person sits at a table under an umbrella in the lower-left area."
+        },
+        {
+          "source_clip": "93-96",
+          "start_sec": 93.0,
+          "end_sec": 96.0,
+          "caption": "A person walks down the stairs on the left side of the frame. Another person sits at a table under an umbrella in the lower-left area. A third person walks up the stairs in the center of the frame."
+        },
+        {
+          "source_clip": "96-99",
+          "start_sec": 96.0,
+          "end_sec": 99.0,
+          "caption": "A person wearing a dark shirt and light-colored pants walks down the stairs on the left side of the frame. Another person is sitting at a table under an umbrella in the lower-left area of the courtyard."
+        },
+        {
+          "source_clip": "99-102",
+          "start_sec": 99.0,
+          "end_sec": 102.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person is walking up a set of stairs in the middle ground.\n\nA third person is walking on a walkway near the building entrance in the background."
+        },
+        {
+          "source_clip": "102-105",
+          "start_sec": 102.0,
+          "end_sec": 105.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the video clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "105-108",
+          "start_sec": 105.0,
+          "end_sec": 108.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the video clip. No other people or vehicles are visible, and no significant movements occur."
+        },
+        {
+          "source_clip": "108-111",
+          "start_sec": 108.0,
+          "end_sec": 111.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "111-114",
+          "start_sec": 111.0,
+          "end_sec": 114.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip."
+        },
+        {
+          "source_clip": "114-117",
+          "start_sec": 114.0,
+          "end_sec": 117.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "117-120",
+          "start_sec": 117.0,
+          "end_sec": 120.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person walks from right to left in the background near the building entrance."
+        }
+      ]
+    },
+    {
+      "start_sec": 120,
+      "end_sec": 150.0,
+      "intermediate_caption": "From 120 seconds to approximately 147 seconds, multiple individuals move through different parts of an outdoor setting featuring a paved patio with tables and red umbrellas. Throughout this period, several persons dressed in dark clothing walk across various areas—some from left to right, others from right to left—and pass by seating arrangements where others remain stationary. One individual consistently sits at a table beneath a red umbrella located in the lower-left section of the frame; they do not change position during the entire sequence. At times, additional movement occurs in the background: starting around 138 seconds, a third person appears ascending a set of stairs in the distance, remaining partially visible until about 144 seconds before disappearing from view. By 147 seconds, only the seated person remains clearly present, as all motion ceases and no further activity takes place within the final three seconds.",
+      "source_clips": [
+        "120-123",
+        "123-126",
+        "126-129",
+        "129-132",
+        "132-135",
+        "135-138",
+        "138-141",
+        "141-144",
+        "144-147",
+        "147-150"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "120-123",
+          "start_sec": 120.0,
+          "end_sec": 123.0,
+          "caption": "A person wearing dark clothing walks from the left side of the frame towards the center, passing behind a table with red umbrellas. Another person is seated at a table under a red umbrella in the lower-left portion of the scene."
+        },
+        {
+          "source_clip": "123-126",
+          "start_sec": 123.0,
+          "end_sec": 126.0,
+          "caption": "A person wearing dark clothing walks from the left side of the frame towards the right across a paved area with tables and red umbrellas. Another person is seated at a table under one of the umbrellas. The scene is outdoors on a sunny day, with buildings, stairs, a grassy hill, and mountains in the background."
+        },
+        {
+          "source_clip": "126-129",
+          "start_sec": 126.0,
+          "end_sec": 129.0,
+          "caption": "A person walks from left to right across the lower-left portion of the frame, passing by a table with another person seated at it. The seated person remains still throughout the clip."
+        },
+        {
+          "source_clip": "129-132",
+          "start_sec": 129.0,
+          "end_sec": 132.0,
+          "caption": "A person wearing a dark shirt and pants walks from the left side of the frame towards the right across a paved outdoor area with tables and red umbrellas.\n\nAnother person is sitting at a table under a red umbrella on the left side of the frame."
+        },
+        {
+          "source_clip": "132-135",
+          "start_sec": 132.0,
+          "end_sec": 135.0,
+          "caption": "A person wearing a dark shirt and pants walks from the right side of the frame towards the left across the foreground patio area.\n\nAnother person is seated at a table under a red umbrella on the left side of the frame."
+        },
+        {
+          "source_clip": "135-138",
+          "start_sec": 135.0,
+          "end_sec": 138.0,
+          "caption": "A person wearing dark clothing walks from the left side of the frame towards the right across a paved outdoor area with tables and red umbrellas. Another person is seated at a table under an umbrella on the left side of the frame. The scene remains otherwise static."
+        },
+        {
+          "source_clip": "138-141",
+          "start_sec": 138.0,
+          "end_sec": 141.0,
+          "caption": "A person wearing dark clothing walks from the left side of the frame towards the right across the foreground patio area. Another person is seated at a table under an umbrella in the middle of the scene. A third person is briefly visible walking up the stairs in the background."
+        },
+        {
+          "source_clip": "141-144",
+          "start_sec": 141.0,
+          "end_sec": 144.0,
+          "caption": "A person walks from left to right across the lower-left portion of the frame. Another person is seated at a table under an umbrella in the center-left area. A third person is visible walking up the stairs in the background, moving away from the camera."
+        },
+        {
+          "source_clip": "144-147",
+          "start_sec": 144.0,
+          "end_sec": 147.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. Another person is standing near a table in the center-left area. A third person is walking up the stairs in the background on the left side of the frame. The scene remains otherwise still with no other discernible actions."
+        },
+        {
+          "source_clip": "147-150",
+          "start_sec": 147.0,
+          "end_sec": 150.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. No other people or vehicles are visible moving in the scene."
+        }
+      ]
+    },
+    {
+      "start_sec": 150,
+      "end_sec": 180.0,
+      "intermediate_caption": "A person remains seated at a table under a red umbrella in the foreground throughout the entire time period. On the left side of the frame, multiple individuals walk down the stairs—first one person (153s), then a person in a purple shirt (156s), followed later by others—and several more ascend those stairs during various intervals. At different times, additional pedestrians move up the central staircase as well. People also cross the upper level of the courtyard; specifically, someone in a blue shirt moves toward the building entrance around 171s, while another individual traverses this elevated space from right to left between 177s and 180s. Several groups gather near the building’s main entrance, including some seen standing there starting at 165s. Others pass through the entryway itself—a figure appears briefly entering the structure early in the sequence (150s). Throughout the segment, movement occurs primarily along staircases and pathways adjacent to the building, involving numerous individuals whose clothing colors vary but remain generally indistinct except where noted. One observer notes a person in a dark shirt using a handheld electronic device while seated at the table beginning at 171s. Movement continues consistently without notable pauses until the end of the recording.",
+      "source_clips": [
+        "150-153",
+        "153-156",
+        "156-159",
+        "159-162",
+        "162-165",
+        "165-168",
+        "168-171",
+        "171-174",
+        "174-177",
+        "177-180"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "150-153",
+          "start_sec": 150.0,
+          "end_sec": 153.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the clip. In the background, another person walks up the stairs on the left side of the frame. A third person is briefly visible walking through the entrance of the building in the background. No other significant actions or movements occur."
+        },
+        {
+          "source_clip": "153-156",
+          "start_sec": 153.0,
+          "end_sec": 156.0,
+          "caption": "A person walks down the stairs on the left side of the frame. Another person sits at a table under an umbrella in the lower-left area. A third person walks up the stairs on the right side of the frame."
+        },
+        {
+          "source_clip": "156-159",
+          "start_sec": 156.0,
+          "end_sec": 159.0,
+          "caption": "A person wearing a purple shirt walks down the stairs on the left side of the frame. Another person in a dark shirt sits at a table under an umbrella in the lower-left area. A third person in a blue shirt walks from right to left across the upper level of the building's entrance."
+        },
+        {
+          "source_clip": "159-162",
+          "start_sec": 159.0,
+          "end_sec": 162.0,
+          "caption": "Two people walk up the stairs on the left side of the frame. A person sits at a table under an umbrella in the lower-left area. Another person walks up the stairs in the center of the frame."
+        },
+        {
+          "source_clip": "162-165",
+          "start_sec": 162.0,
+          "end_sec": 165.0,
+          "caption": "In the foreground, a person sits at a table under a red umbrella. In the background, two people walk up a set of stairs. Another person walks down the same stairs. A fourth person walks across the grassy area in the background."
+        },
+        {
+          "source_clip": "165-168",
+          "start_sec": 165.0,
+          "end_sec": 168.0,
+          "caption": "Several people are walking up and down the stairs leading to the building entrance. A person is sitting at a table under an umbrella in the foreground. Another person walks across the grassy area in the middle of the scene. A group of people are standing near the building entrance on the right side."
+        },
+        {
+          "source_clip": "168-171",
+          "start_sec": 168.0,
+          "end_sec": 171.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nSeveral people are walking up a set of stairs leading to a building entrance in the middle ground.\n\nAnother group of people is standing near tables and umbrellas on a grassy area further back.\n\nThe scene remains static with no other significant movements or interactions observed."
+        },
+        {
+          "source_clip": "171-174",
+          "start_sec": 171.0,
+          "end_sec": 174.0,
+          "caption": "A person in a blue shirt walks from the right side of the frame towards the building entrance in the background.\n\nAnother person in a dark shirt walks from the left side of the frame towards the building entrance in the background.\n\nA person in a black shirt sits at a table under a red umbrella in the lower-left foreground, looking down at a device in their hands.\n\nA person in a light-colored shirt walks up the stairs in the middle of the frame, moving from the lower level towards the upper level.\n\nA person in a dark shirt walks up the stairs in the middle of the frame, moving from the lower level towards the upper level."
+        },
+        {
+          "source_clip": "174-177",
+          "start_sec": 174.0,
+          "end_sec": 177.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person is walking up the stairs in the middle ground.\n\nA group of people are standing near the entrance of the building in the background."
+        },
+        {
+          "source_clip": "177-180",
+          "start_sec": 177.0,
+          "end_sec": 180.0,
+          "caption": "A person in a dark shirt sits at a table under a red umbrella in the foreground.\n\nSeveral people walk up the stairs towards the building entrance in the background.\n\nAnother person walks from right to left across the upper level of the courtyard."
+        }
+      ]
+    },
+    {
+      "start_sec": 180,
+      "end_sec": 210.0,
+      "intermediate_caption": "At the beginning of the time window, a person in dark clothing is seated at a table beneath a red umbrella in the foreground courtyard. Simultaneously, another individual in blue ascends the stairs leading to the building’s entrance, which lies behind this seating area. In front of the building’s glass facade, two additional figures stand close together, facing rightward, with one appearing to hold a white object.\n\nFrom approximately 183 seconds onward, a person in a blue shirt begins descending the central staircase. This descent continues through multiple frames—first seen centrally, later shifting slightly to the left—as they move downward along the steps. During this period, the previously described figure in dark clothes remains seated at the table under the red umbrella in the lower-left corner. Meanwhile, another individual stands near the building entrance in the upper-middle section of the frame across several intervals.\n\nAround 192 seconds, a different person enters the scene walking from right to left in the background near the building entrance before exiting view. At about 198 seconds, someone else—a new individual—is observed approaching the stairway from the left edge of the frame, turning right, and ascending the stairs.\n\nBy 201 seconds, the person in the blue shirt has moved further into the mid-frame, now proceeding past a prominent yellow \"E\" sign as they walk toward the center. Concurrently, the seated person in dark attire persists at their table, seemingly engaged with a portable electronic device such as a laptop. Around the same moment, yet again, a person in a dark top climbs the stairs in the middle-left region, progressing upward.\n\nAfter 204 seconds, only the seated individual remains visibly active within the scene—the others have exited—and there is no detectable motion until the end of the segment. From 204 seconds through 210 seconds, the setting becomes entirely still: the person stays seated under the red umbrella without change, and no further movements occur among any persons or objects.",
+      "source_clips": [
+        "180-183",
+        "183-186",
+        "186-189",
+        "189-192",
+        "192-195",
+        "195-198",
+        "198-201",
+        "201-204",
+        "204-207",
+        "207-210"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "180-183",
+          "start_sec": 180.0,
+          "end_sec": 183.0,
+          "caption": "A person wearing dark clothing sits at a table under one of the red umbrellas in the foreground courtyard area.\n\nAnother individual dressed in blue walks up the stairs towards the building entrance located behind them.\n\nIn front of the main building's glass facade, two other individuals stand near each other; one appears to be holding something white while both face toward the right side of the frame."
+        },
+        {
+          "source_clip": "183-186",
+          "start_sec": 183.0,
+          "end_sec": 186.0,
+          "caption": "A person wearing a blue shirt walks down the stairs in the center of the frame. Another person is sitting at a table under an umbrella in the lower left portion of the frame. A third person is standing near the entrance of the building in the upper middle part of the frame."
+        },
+        {
+          "source_clip": "186-189",
+          "start_sec": 186.0,
+          "end_sec": 189.0,
+          "caption": "A person wearing a blue shirt walks down a set of stairs in the center-left of the frame. Another person is sitting at a table under an umbrella in the lower-left area. A third person is standing near the entrance of the building in the upper-center of the frame."
+        },
+        {
+          "source_clip": "189-192",
+          "start_sec": 189.0,
+          "end_sec": 192.0,
+          "caption": "A person wearing a blue shirt and dark pants walks down a set of outdoor stairs on the left side of the frame. The person moves from the top of the stairs towards the bottom, passing by a railing."
+        },
+        {
+          "source_clip": "192-195",
+          "start_sec": 192.0,
+          "end_sec": 195.0,
+          "caption": "A person wearing a blue shirt walks down the stairs on the left side of the frame. Another person sits at a table under an umbrella in the lower-left area. A third person walks from right to left in the background near the building entrance."
+        },
+        {
+          "source_clip": "195-198",
+          "start_sec": 195.0,
+          "end_sec": 198.0,
+          "caption": "A person wearing a blue shirt walks down the stairs on the left side of the frame. Another person is sitting at a table under an umbrella in the lower-left area. A third person is standing near the entrance of the building in the upper-middle part of the frame."
+        },
+        {
+          "source_clip": "198-201",
+          "start_sec": 198.0,
+          "end_sec": 201.0,
+          "caption": "A person wearing a blue shirt walks from the left side of the frame towards the stairs on the left, then turns right and walks up the stairs.\n\nAnother person is sitting at a table under an umbrella in the lower-left area of the courtyard."
+        },
+        {
+          "source_clip": "201-204",
+          "start_sec": 201.0,
+          "end_sec": 204.0,
+          "caption": "A person wearing a blue shirt walks from the left side of the frame towards the center, passing behind a large yellow letter 'E' sign.\n\nAnother person, wearing dark clothing, is seated at a table under a red umbrella in the lower-left area of the courtyard, appearing to be using a laptop or other device.\n\nA third person, wearing a dark top, walks up the stairs in the middle-left portion of the scene, moving from the lower level towards the upper level of the building entrance."
+        },
+        {
+          "source_clip": "204-207",
+          "start_sec": 204.0,
+          "end_sec": 207.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. No other people or vehicles are visible. There is no discernible movement of objects or changes in the scene."
+        },
+        {
+          "source_clip": "207-210",
+          "start_sec": 207.0,
+          "end_sec": 210.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the clip. No other people or vehicles are visible moving in the area. The scene is otherwise static."
+        }
+      ]
+    },
+    {
+      "start_sec": 210,
+      "end_sec": 240.0,
+      "intermediate_caption": "From 210 seconds to 240 seconds, a person remains seated at a table under a red umbrella located in the lower left portion of the scene. Throughout this period, the individual stays stationary without any noticeable movement. No other individuals or vehicles appear or move within the field of view; the rest of the environment remains unchanged and devoid of activity.",
+      "source_clips": [
+        "210-213",
+        "213-216",
+        "216-219",
+        "219-222",
+        "222-225",
+        "225-228",
+        "228-231",
+        "231-234",
+        "234-237",
+        "237-240"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "210-213",
+          "start_sec": 210.0,
+          "end_sec": 213.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the video clip. No other people or vehicles are visible moving in the scene."
+        },
+        {
+          "source_clip": "213-216",
+          "start_sec": 213.0,
+          "end_sec": 216.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. No other people or vehicles are visible moving in the scene."
+        },
+        {
+          "source_clip": "216-219",
+          "start_sec": 216.0,
+          "end_sec": 219.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower-left area of the courtyard. The person remains seated throughout the clip. No other people or vehicles are visible moving in the scene."
+        },
+        {
+          "source_clip": "219-222",
+          "start_sec": 219.0,
+          "end_sec": 222.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the video. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "222-225",
+          "start_sec": 222.0,
+          "end_sec": 225.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. No other people or vehicles are visible, and no significant movements occur."
+        },
+        {
+          "source_clip": "225-228",
+          "start_sec": 225.0,
+          "end_sec": 228.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "228-231",
+          "start_sec": 228.0,
+          "end_sec": 231.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "231-234",
+          "start_sec": 231.0,
+          "end_sec": 234.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "234-237",
+          "start_sec": 234.0,
+          "end_sec": 237.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left portion of the frame. The person remains seated throughout the video. No other people or vehicles are visible, and no significant movements occur."
+        },
+        {
+          "source_clip": "237-240",
+          "start_sec": 237.0,
+          "end_sec": 240.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left portion of the frame. The person remains seated throughout the video. No other people or vehicles are visible, and no significant movements occur."
+        }
+      ]
+    },
+    {
+      "start_sec": 240,
+      "end_sec": 270.0,
+      "intermediate_caption": "A person remains seated at a table under a red umbrella in the lower left portion of the scene for the entire duration. Initially, the scene is static with no other activity observed. Around 255 seconds, two individuals appear in the background near the building entrance—one walking from right to left and another from left to right—before disappearing shortly after. By 258 seconds, one individual stands near a cluster of tables and red umbrellas on the right side of the background while another moves across the background from left to right, passing behind those tables. At approximately 261 seconds, this second individual begins ascending a set of stairs in the background, continuing through 264 seconds as they move further along the staircase toward the right. After 267 seconds, the scene returns to stillness; only the seated person under the red umbrella remains visible, with no additional motion detected until the end of the segment.",
+      "source_clips": [
+        "240-243",
+        "243-246",
+        "246-249",
+        "249-252",
+        "252-255",
+        "255-258",
+        "258-261",
+        "261-264",
+        "264-267",
+        "267-270"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "240-243",
+          "start_sec": 240.0,
+          "end_sec": 243.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the clip. No other people or vehicles are visible moving in the frame."
+        },
+        {
+          "source_clip": "243-246",
+          "start_sec": 243.0,
+          "end_sec": 246.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "246-249",
+          "start_sec": 246.0,
+          "end_sec": 249.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. No other people or vehicles are visible, and no significant movements occur."
+        },
+        {
+          "source_clip": "249-252",
+          "start_sec": 249.0,
+          "end_sec": 252.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground of the scene. The person remains seated throughout the clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "252-255",
+          "start_sec": 252.0,
+          "end_sec": 255.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. No other people or vehicles are visible, and no significant movements occur."
+        },
+        {
+          "source_clip": "255-258",
+          "start_sec": 255.0,
+          "end_sec": 258.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. Another person walks from right to left in the background near the building entrance. A third person walks from left to right in the background near the building entrance."
+        },
+        {
+          "source_clip": "258-261",
+          "start_sec": 258.0,
+          "end_sec": 261.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person is standing near a group of tables and umbrellas in the background, to the right.\n\nA third person walks from left to right in the background, passing behind the tables and umbrellas."
+        },
+        {
+          "source_clip": "261-264",
+          "start_sec": 261.0,
+          "end_sec": 264.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person is standing near a table with red umbrellas in the background, to the right of the center.\n\nA third person is walking up the stairs in the background, moving from left to right."
+        },
+        {
+          "source_clip": "264-267",
+          "start_sec": 264.0,
+          "end_sec": 267.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nAnother person is standing near a table with red umbrellas in the background.\n\nA third person is walking up the stairs in the background."
+        },
+        {
+          "source_clip": "267-270",
+          "start_sec": 267.0,
+          "end_sec": 270.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. No other people or vehicles are visible. There is no discernible movement of objects or changes in the scene."
+        }
+      ]
+    },
+    {
+      "start_sec": 270,
+      "end_sec": 299.8748435544431,
+      "intermediate_caption": "A person is continuously seated at a table under a red umbrella located in the lower-left portion of the frame throughout the entire time period. In the background, various individuals appear intermittently: one person walks from right to left near the building entrance; two people walk together along a pathway near the building entrance; another individual ascends stairs in the background; a different person crosses the patio area; two people stand together near the building’s entrance; and someone walks from left to right in front of the building’s glass windows. These background activities occur sequentially and sometimes overlap, but there are no additional visible people or moving vehicles beyond those described. The overall setting appears stable aside from this limited pedestrian activity.",
+      "source_clips": [
+        "270-273",
+        "273-276",
+        "276-279",
+        "279-282",
+        "282-285",
+        "285-288",
+        "288-291",
+        "291-294",
+        "294-297",
+        "297-299.8748435544431"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "270-273",
+          "start_sec": 270.0,
+          "end_sec": 273.0,
+          "caption": "A person is sitting at a table under an umbrella in the foreground of the scene. The person remains seated throughout the video clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "273-276",
+          "start_sec": 273.0,
+          "end_sec": 276.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. There are no other visible people or moving vehicles. The scene is otherwise static."
+        },
+        {
+          "source_clip": "276-279",
+          "start_sec": 276.0,
+          "end_sec": 279.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. The person remains seated throughout the clip. No other people or vehicles are visible. There is no discernible movement of objects or changes in the scene."
+        },
+        {
+          "source_clip": "279-282",
+          "start_sec": 279.0,
+          "end_sec": 282.0,
+          "caption": "A person is sitting at a table under an umbrella in the foreground.\n\nAnother person walks from right to left in the background near the building entrance."
+        },
+        {
+          "source_clip": "282-285",
+          "start_sec": 282.0,
+          "end_sec": 285.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nTwo people are walking together on a pathway in the background near a building entrance."
+        },
+        {
+          "source_clip": "285-288",
+          "start_sec": 285.0,
+          "end_sec": 288.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame. Another person walks from right to left in the background near the building entrance. A third person walks from left to right in the background near the building entrance."
+        },
+        {
+          "source_clip": "288-291",
+          "start_sec": 288.0,
+          "end_sec": 291.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground. The person remains seated throughout the clip. Another person walks up the stairs in the background. A third person walks across the patio area in the background."
+        },
+        {
+          "source_clip": "291-294",
+          "start_sec": 291.0,
+          "end_sec": 294.0,
+          "caption": "A person is sitting at a table under a red umbrella in the foreground.\n\nTwo people are standing together near the entrance of the building in the background.\n\nAnother person walks from left to right in front of the building's glass windows."
+        },
+        {
+          "source_clip": "294-297",
+          "start_sec": 294.0,
+          "end_sec": 297.0,
+          "caption": "A person is sitting at a table under a red umbrella in the lower left of the frame.\n\nTwo people are walking together on a pathway near the building entrance in the upper middle of the frame."
+        },
+        {
+          "source_clip": "297-299.8748435544431",
+          "start_sec": 297.0,
+          "end_sec": 299.8748435544431,
+          "caption": "In the outdoor courtyard area, a person is sitting at a table under a red umbrella on the left side of the frame. Two other people are standing near the entrance of the building in the background. The scene remains static throughout the clip with no other discernible actions or movements."
+        }
+      ]
+    }
+  ]
+}

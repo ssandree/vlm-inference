@@ -1,0 +1,104 @@
+{
+  "video_id": "VIRAT_S_010005_07_000535_000584",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "11"
+      ],
+      "start_frame": 77,
+      "end_frame": 154,
+      "start_time": 3.2123,
+      "end_time": 6.4247,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "11"
+      },
+      "action": "entering_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "22"
+      ],
+      "start_frame": 290,
+      "end_frame": 383,
+      "start_time": 12.0985,
+      "end_time": 15.9783,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "22"
+      },
+      "action": "entering_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "21"
+      ],
+      "start_frame": 317,
+      "end_frame": 367,
+      "start_time": 13.2249,
+      "end_time": 15.3108,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "21"
+      },
+      "action": "entering_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE004",
+      "event_form": "group",
+      "source_atomic_evidence_ids": [
+        "AE003",
+        "AE002"
+      ],
+      "source_track_ids": [
+        "22",
+        "21"
+      ],
+      "start_frame": 317,
+      "end_frame": 367,
+      "start_time": 13.2249,
+      "end_time": 15.3108,
+      "subject": {
+        "category": "person",
+        "group": true
+      },
+      "action": "entering_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "person_count_is_required_caption_slot": false
+    }
+  ]
+}

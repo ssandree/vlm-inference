@@ -1,0 +1,56 @@
+{
+  "judge": "current conversation GPT-6 LLM",
+  "mode": "fresh direct semantic judgment, serialized then replayed; no external judge API invocation",
+  "temperature": null,
+  "seed": null,
+  "replay_deterministic": true,
+  "fresh_inference_determinism_guaranteed": false,
+  "checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+  "gt_manifest": {
+    "version": "human_review_v2",
+    "checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+    "raw_answers": {
+      "yes": 82,
+      "no": 58
+    },
+    "resolved_statuses": {
+      "yes": 81,
+      "no": 55,
+      "corrected": 1,
+      "uncertain": 3
+    },
+    "n_original_events": 36,
+    "n_added_semantic_events": 57,
+    "n_family_targets": 39,
+    "n_direction_targets": 15,
+    "n_polarity_targets": 7,
+    "original_gt_modified": false,
+    "source_review_modified": false,
+    "unknown_time_or_track_not_fabricated": true
+  },
+  "weights": {
+    "action_family_recall": 0.5,
+    "reviewed_factual_precision": 0.3,
+    "direction_recall": 0.1,
+    "facility_polarity_recall": 0.1
+  },
+  "uncertain_weight": 0.5,
+  "n_captions": 90,
+  "reviewed_assertion_count": 396,
+  "event_detail_rows": 930,
+  "validation": "all 90 model/condition/video combinations, GT target coverage, label consistency and exact full-caption evidence checked",
+  "limitations": [
+    "Single nonblind LLM judge; human review informed by these same captions, not held-out.",
+    "No source video independently inspected by assistant.",
+    "New event timestamps and track IDs unprovided; family recall is not localized instance recall.",
+    "Precision/hallucination apply only to reviewed propositions. Unreviewed scene detail is not silently marked correct.",
+    "Old and new scores not numerically comparable: GT, action-family policy, precision units, direction scope and weights changed."
+  ],
+  "sha256": {
+    "judge_prompt.txt": "724039725a14c1822c504555f2525915bc984a7f52fae3714112a807fe31d1b4",
+    "author_judge_v2.py": "72d10f17c18ec6b182ffcf4c3af994854c627d262b9d24b3974dd30423a7567e",
+    "build_gt_v2.py": "f36dcd53e81876f5b7e066eb1e88d3f0b800935a93624bb35cc3f88e4b43fa73",
+    "evaluate_v2.py": "1f145325502008cf19aa7e692097791f17bea3807a2cdf5dd0e83cf73598ab39",
+    "judge_results.json": "e4935f826c8e5c208f405d2ecd47a949585ca8088dafa1b932c221e6f78f459c"
+  }
+}

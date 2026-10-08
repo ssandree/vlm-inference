@@ -1,0 +1,46 @@
+{
+  "video": "VIRAT_S_010110_00_000000_000021.mp4",
+  "clip_duration_sec": 3,
+  "clips": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 3.0,
+      "caption": "A person wearing a red shirt walks from the right side of the frame toward the back of a black SUV parked in the lower right corner of the lot. The person gets into the driver's seat of the black SUV."
+    },
+    {
+      "start_sec": 3.0,
+      "end_sec": 6.0,
+      "caption": "A person wearing a patterned shirt and dark pants walks from the right side of the frame toward the lower right corner, passing behind a silver sedan parked near a white trash bin.\n\nThe scene is a large outdoor parking lot filled with numerous cars and vans, mostly stationary. A few vehicles, including a white van and a black SUV, are seen moving slowly through the parking area."
+    },
+    {
+      "start_sec": 6.0,
+      "end_sec": 9.0,
+      "caption": "A person wearing a pink shirt and dark pants walks from the right side of the frame toward the bottom right corner, carrying a white object.\n\nA silver sedan is parked in the lower right portion of the parking lot.\n\nA white van with blue and yellow markings is parked in the middle of the lot.\n\nA white box truck is parked near the back of the lot, to the right of the center.\n\nA black SUV drives across the parking lot from left to right in the upper left section of the frame.\n\nThe rest of the vehicles in the parking lot remain stationary throughout the clip."
+    },
+    {
+      "start_sec": 9.0,
+      "end_sec": 12.0,
+      "caption": "A white SUV drives from left to right across the parking lot in the middle ground.\n\nA person wearing pink walks from right to left at the bottom right edge of the frame."
+    },
+    {
+      "start_sec": 12.0,
+      "end_sec": 15.0,
+      "caption": "There are no discernible actions or movements of people or vehicles in the provided frames. The scene depicts a large, mostly full parking lot with numerous parked cars and a few trucks under bright sunlight. The vehicles remain stationary throughout the clip. There is no visible interaction between any individuals or vehicles. The camera position is fixed, providing a high-angle view of the parking area and surrounding buildings."
+    },
+    {
+      "start_sec": 15.0,
+      "end_sec": 18.0,
+      "caption": "There are no discernible actions or movements of people or vehicles in the provided frames. The scene is a static view of a large, mostly full parking lot with numerous parked cars and a few vans under bright sunlight. The shadows indicate the sun is high in the sky. No interactions or changes in the positions of any objects are observed."
+    },
+    {
+      "start_sec": 18.0,
+      "end_sec": 21.0,
+      "caption": "There are no discernible actions or events occurring in the video. The scene is a static view of a large, mostly full parking lot with numerous parked cars and a few buildings in the background. No people or moving vehicles are visible."
+    },
+    {
+      "start_sec": 21.0,
+      "end_sec": 21.02628285356696,
+      "caption": "There are no discernible actions or events occurring in the video clip. The scene shows a large, mostly empty parking lot with numerous parked cars under bright sunlight. The vehicles remain stationary throughout the clip. There are no visible people or moving objects. The camera remains fixed, providing a high-angle view of the area."
+    }
+  ]
+}

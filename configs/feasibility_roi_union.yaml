@@ -1,0 +1,79 @@
+# Separate vs Union ROI representation.
+# Detection / clustering / sampling timestamps / Global frames stay unchanged.
+# Only spatial packing of the same proposed tubes changes.
+#
+# Conditions:
+#   separate_roi  ROI1 and ROI2 as independent crop sequences (current default)
+#   union_roi     one crop sequence; overlap timestamps use enclosing bbox
+
+model: 8b
+
+generation:
+  max_new_tokens: 256
+  do_sample: false
+  temperature: 0.7
+  top_p: 0.8
+  top_k: 20
+  repetition_penalty: 1.2
+  no_repeat_ngram_size: 8
+
+video:
+  fps: 2.0
+  min_pixels: 4096
+  max_pixels: 262144
+  total_pixels: 20971520
+
+image:
+  min_pixels: 4096
+  max_pixels: 262144
+
+mode: experiment
+
+experiment:
+  global_pattern: 'global_frame_(?P<frame>\d+)_t(?P<time>\d+(?:\.\d+)?)'
+  roi_pattern: 'tube(?P<roi>\d+)_frame_(?P<frame>\d+)_t(?P<time>\d+(?:\.\d+)?)(?:_fps_\d+)?'
+  global_label: '[Global] t={time}s'
+  roi_label: '[ROI{roi}] t={time}s'
+  input_order: global_anchor
+  roi_frames: default
+  roi_repr: null
+  roi_repr_overwrite: false
+  save_vlm_inputs: true
+
+prompt_file: prompts/frames_roi.txt
+
+output:
+  dir: outputs/roi_union
+  file: feasibility_results_roi_union.json
+
+experiments:
+  - global_0.25fps_roi_separate
+  - global_0.25fps_roi_union
+
+feasibility:
+  method_prompts:
+    global_0.25fps_roi_separate: prompts/frames_roi.txt
+    global_0.25fps_roi_union: prompts/frames_roi.txt
+  videos:
+    - VIRAT_S_000201_02_000590_000623
+    - VIRAT_S_000200_01_000226_000268
+    - VIRAT_S_000201_06_001354_001397
+    - VIRAT_S_010003_08_000739_000778
+    - VIRAT_S_010004_00_000064_000100
+    - VIRAT_S_010106_05_000954_000996
+    - VIRAT_S_010200_05_000658_000700
+    - VIRAT_S_040000_02_000111_000145
+    - VIRAT_S_050000_05_000696_000732
+  datasets:
+    video_root: /data/datasets/virat_9vid
+    fps_0_25: /data/datasets/fps_sampling_frames/fps0_25
+    fps_1: /data/datasets/fps_sampling_frames/fps_1
+    fps_2: /data/datasets/fps_sampling_frames/fps_2
+    proposed_roi: /data/datasets/proposed_ROI/gaptype5_fps1
+    proposed_roi_w_fps: /data/datasets/proposed_ROI_w_fps/gaptype5_fps1
+    single_motion_roi: /data/datasets/single_motion_ROI/fps1
+    single_motion_roi_w_fps: /data/datasets/single_motion_ROI_w_fps/fps1
+  tracks_root: /home/ssandree/motion-detector/outputs/stage3/3_roi_tube/vlm_9vid_tg0.35_tm0.35
+  jpeg_quality: 95
+  cache_file: outputs/roi_union/feasibility_cache.json
+  resume: true

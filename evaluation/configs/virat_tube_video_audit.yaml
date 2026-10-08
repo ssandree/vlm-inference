@@ -1,0 +1,115 @@
+# Processor/token audit only. Reuses sample30_30b_start_centroid video set and
+# Qwen preprocessing. Does not run caption generation. Does not rewrite
+# outputs/sample30_30b_start_centroid.
+#
+# Conditions:
+# - global_roi_start_only_roi_centroid_2fps: existing VIRAT captioning experiment
+# - roi_fixed_1fps / roi_centroid: existing temporal samplers (roi_centroid maps
+#   to internal roi_centroid_trigger)
+
+model: 30b
+
+generation:
+  max_new_tokens: 256
+  do_sample: false
+  temperature: 0.7
+  top_p: 0.8
+  top_k: 20
+  repetition_penalty: 1.2
+  no_repeat_ngram_size: 8
+
+video:
+  fps: 2.0
+  min_pixels: 4096
+  max_pixels: 262144
+  total_pixels: 20971520
+
+image:
+  min_pixels: 4096
+  max_pixels: 262144
+
+mode: experiment
+
+experiment:
+  global_pattern: 'global_frame_(?P<frame>\d+)_t(?P<time>\d+(?:\.\d+)?)'
+  roi_pattern: 'tube(?P<roi>\d+)_frame_(?P<frame>\d+)_t(?P<time>\d+(?:\.\d+)?)(?:_fps_\d+)?'
+  global_label: '[Global] t={time}s'
+  roi_label: '[ROI{roi}] t={time}s'
+  input_order: global_anchor
+  roi_frames: default
+  global_insert: start_only
+  global_insert_source: fps_1
+  global_insert_dedup_eps: 0.5
+  roi_sampling: centroid_2fps
+  roi_sampling_tau: 8.0
+  roi_sampling_overwrite: false
+  save_vlm_inputs: false
+  centroid_motion:
+    centroid_displacement_threshold: 0.02
+    pad_sec: 0.5
+    base_fps: 1.0
+    high_fps: 2.0
+
+prompt_file: /home/ssandree/Motion-guided-ROI/vlm-inference/prompts/frames_roi.txt
+
+output:
+  dir: experiments/virat/tube_video_audit
+  file: summary.json
+
+experiments:
+  - global_roi_start_only_roi_centroid_2fps
+  - roi_fixed_1fps
+  - roi_centroid
+
+feasibility:
+  method_prompts:
+    global_roi_start_only_roi_centroid_2fps: /home/ssandree/Motion-guided-ROI/vlm-inference/prompts/frames_roi.txt
+  videos:
+    - VIRAT_S_000200_01_000226_000268
+    - VIRAT_S_000201_02_000590_000623
+    - VIRAT_S_000201_06_001354_001397
+    - VIRAT_S_000203_05_001122_001159
+    - VIRAT_S_010000_02_000388_000421
+    - VIRAT_S_010001_07_000741_000810
+    - VIRAT_S_010003_02_000165_000202
+    - VIRAT_S_010003_08_000739_000778
+    - VIRAT_S_010004_00_000064_000100
+    - VIRAT_S_010106_05_000954_000996
+    - VIRAT_S_010107_02_000282_000312
+    - VIRAT_S_010109_07_000876_000910
+    - VIRAT_S_010110_00_000000_000021
+    - VIRAT_S_010110_03_000712_000739
+    - VIRAT_S_010110_06_000953_001011
+    - VIRAT_S_010113_05_000776_000805
+    - VIRAT_S_010200_05_000658_000700
+    - VIRAT_S_010201_02_000167_000197
+    - VIRAT_S_010203_04_000457_000511
+    - VIRAT_S_010204_06_000913_000939
+    - VIRAT_S_010206_00_000007_000035
+    - VIRAT_S_010208_03_000201_000232
+    - VIRAT_S_010208_07_000768_000791
+    - VIRAT_S_040000_02_000111_000145
+    - VIRAT_S_040000_05_000668_000703
+    - VIRAT_S_040002_03_001525_001569
+    - VIRAT_S_050000_05_000696_000732
+    - VIRAT_S_050000_08_001235_001295
+    - VIRAT_S_050202_05_000857_000912
+    - VIRAT_S_050301_02_000544_000607
+  datasets:
+    video_root: /data/datasets/virat_9vid
+    video_roots:
+      - /data/datasets/VIRAT/videos-00
+      - /data/datasets/VIRAT/videos-01
+      - /data/datasets/VIRAT/videos-04
+      - /data/datasets/VIRAT/videos-05
+    fps_0_25: /data/datasets/fps_sampling_frames/fps0_25
+    fps_1: /data/datasets/fps_sampling_frames/fps_1
+    fps_2: /data/datasets/fps_sampling_frames/fps_2
+    proposed_roi: /data/datasets/proposed_ROI/gaptype5_fps1
+    proposed_roi_w_fps: /data/datasets/proposed_ROI_w_fps/gaptype5_fps1
+    single_motion_roi: /data/datasets/single_motion_ROI/fps1
+    single_motion_roi_w_fps: /data/datasets/single_motion_ROI_w_fps/fps1
+  tracks_root: /home/ssandree/Motion-guided-ROI/motion-detector/outputs/stage3/3_roi_tube/sample30_tg0.35_tm0.35
+  jpeg_quality: 95
+  cache_file: experiments/virat/tube_video_audit/processor_cache.json
+  resume: true

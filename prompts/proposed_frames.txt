@@ -1,0 +1,2 @@
+This is a group of frames from one video. Each image is provided with its timestamp. 
+Use the global frames as the primary context and use the ROI images only to refine important motion details. Describe what is happening in the video.

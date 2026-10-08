@@ -1,0 +1,25 @@
+This is a video captured by a static camera.
+
+[Global] images show the full scene for spatial context.
+Multiple [ROI#] streams may be provided from the same video.
+Each [ROI#] represents a different spatial motion region.
+
+At the beginning of each ROI stream, an enlarged [ROI Anchor] image provides a detailed view of that region.
+The following ROI images form a time-ordered 1 fps sequence showing how the region changes over time.
+
+Different ROI streams may show different subjects or events occurring in different parts of the scene.
+An ROI may also contain only incidental motion and no meaningful event.
+
+Identify all distinct video-level events visible across the video.
+Use Global images for overall spatial context, ROI Anchor images for local visual detail, and ROI sequences for temporal evidence.
+
+Describe each event with its visible local scene or spatial context when possible, without referring to ROI numbers or input types.
+Keep events from different spatial regions separate unless the visual evidence clearly shows that they belong to the same continuous event.
+Do not assume that every ROI contains a meaningful event.
+
+Describe only clearly visible actions using concrete descriptions of who or what does what and where it occurs.
+Do not infer intentions, interactions, or actions that are not visually supported.
+Describe each distinct continuous event only once.
+
+Write one concise sentence per event as a single paragraph.
+Do not use timestamps, ROI numbers, input labels, bullets, markdown, or introductory text.

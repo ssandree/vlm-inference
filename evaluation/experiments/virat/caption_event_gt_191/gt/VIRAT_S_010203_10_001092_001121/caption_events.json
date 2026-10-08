@@ -1,0 +1,30 @@
+{
+  "video_id": "VIRAT_S_010203_10_001092_001121",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "20"
+      ],
+      "start_frame": 147,
+      "end_frame": 174,
+      "start_time": 6.1327,
+      "end_time": 7.2591,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "20"
+      },
+      "action": "gesturing",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "language": "en",
+  "source": [
+    "configs/video9_gt_event.txt",
+    "configs/caption_refs_en_event_complete.json"
+  ],
+  "notes": "Event-complete paragraph references (3 paraphrases each). Same event set per video; chronological; one concise sentence per event; single paragraph. Includes frame-checked refinements: 010106 dumpster/cart detail, 040000 door-open boarding, 000201_06 red-car group.",
+  "references": {
+    "VIRAT_S_000200_01_000226_000268": [
+      "Vehicles travel in both directions on the road at the right. A red utility cart crosses the area and moves left along the road. A person in a white shirt gets out of a dark car on the left and walks left until leaving the frame. The red cart continues left and disappears into the bushes.",
+      "Cars pass both ways along the road on the right. A small red cart crosses through the scene and heads left along the road. A white-shirted person exits a black car on the left and walks out of view to the left. The red cart keeps moving left and vanishes into the vegetation.",
+      "Traffic moves in both directions on the road to the right. A red utility vehicle travels across the scene toward the left along the road. Someone wearing a white shirt steps out of a dark vehicle on the left and walks left out of the frame. The red utility vehicle continues left and disappears into the bushes."
+    ],
+    "VIRAT_S_000201_02_000590_000623": [
+      "A person near the upper left walks out of the frame. Vehicles continue passing in both directions on the road at the lower right. A person in a white shirt approaches from the right and gets into a parked silver car near the center. A silver SUV enters from the bottom and drives across the parking lot. Another pedestrian at the upper right walks toward the left.",
+      "A pedestrian in the upper-left area walks out of view. Traffic moves continuously in both directions along the road at the lower right. A white-shirted person comes from the right and enters a stationary silver car near the middle. A silver SUV appears from the bottom and travels across the parking lot. A separate person in the upper-right area walks left.",
+      "Someone at the upper left walks beyond the edge of the frame. Vehicles keep traveling both ways on the lower-right road. A person wearing a white shirt walks in from the right and gets into a parked silver vehicle near the center. A silver SUV comes up from the bottom and crosses the parking lot. Another pedestrian near the upper right moves to the left."
+    ],
+    "VIRAT_S_000201_06_001354_001397": [
+      "A person walks along the sidewalk from the upper right, crosses the scene, and exits to the left. Another person in the rear of the parking lot walks left. A person in a white shirt gets out of a dark car on the left. Several people remain gathered around a red car on the right side of the lot. White cars travel in both directions along the road.",
+      "A pedestrian comes from the upper-right sidewalk, continues across the view, and leaves the frame on the left. A separate pedestrian farther back in the parking lot moves left. Someone wearing a white shirt exits a black car on the left. A small group of people stands near a red car toward the right of the parking area. White vehicles pass both ways on the road.",
+      "A person approaches along the sidewalk at the upper right and walks across the scene until disappearing to the left. Another person behind the parking lot also walks toward the left. A white-shirted person steps out of a dark vehicle on the left. A few people stay clustered beside a red car on the right. White cars continue moving in both directions on the road."
+    ],
+    "VIRAT_S_010003_08_000739_000778": [
+      "A person in white walks down the stairs on the left while a person in dark clothing walks up them. A person remains seated under an umbrella at the lower right. People in the background enter the building or walk past it. Other people come out of the building in the background.",
+      "On the left staircase, a white-clothed person descends while a dark-clothed person climbs. Someone sits beneath an umbrella in the lower-right area. Pedestrians farther back either go into the building or pass in front of it. Other pedestrians exit the building in the background.",
+      "A person wearing white goes down the stairs at the left as another person wearing dark clothes goes up. A person is seated under an umbrella at the lower right. In the background, people enter the building or continue walking past it. Additional people emerge from the building."
+    ],
+    "VIRAT_S_010004_00_000064_000100": [
+      "People continuously move both up and down the stairs on the left. In the background, people open the building door and walk outside.",
+      "Pedestrians keep climbing and descending the staircase on the left. Farther back, other people open the door of the building and come out.",
+      "People continue traveling in both directions on the left-side stairs. In the background, pedestrians open a building door and exit outside."
+    ],
+    "VIRAT_S_010106_05_000954_000996": [
+      "A person beside a dark car near the center drags a cart toward a beige dumpster enclosure and throws something into the dumpster. In the background, a cyclist enters from the right and rides left along the road.",
+      "Someone next to a dark vehicle in the middle pulls a cart or bin toward a tan dumpster enclosure and puts something into the dumpster. Farther back, a person on a bicycle appears from the right and rides along the road toward the left.",
+      "A person near a dark car at the center drags a cart across the lot to a beige dumpster enclosure and throws an item into it. Behind this activity, a cyclist comes in from the right and travels left along the road."
+    ],
+    "VIRAT_S_010200_05_000658_000700": [
+      "People come out of the building in the background. Pedestrians move in both directions along the street. A person carrying a bag enters from the right side of the path and walks left past the building marked CHICANO.",
+      "Several people emerge from the building at the back. Other pedestrians come and go along the street. A bag-carrying person approaches from the right and continues walking left in front of the building labeled CHICANO.",
+      "People exit the rear building. Pedestrian traffic moves both ways along the street. A person with a bag walks in from the right side of the path and heads left past the CHICANO entrance."
+    ],
+    "VIRAT_S_040000_02_000111_000145": [
+      "A person in red appears from the left, opens the door of a dark car, gets in, and the car leaves the scene to the left.",
+      "A red-clothed person enters from the left, opens the driver-side door of a dark car, climbs in, and the car then departs toward the left.",
+      "Someone wearing red comes into view from the left, opens a dark vehicle's door, gets inside, and leaves to the left in the car."
+    ],
+    "VIRAT_S_050000_05_000696_000732": [
+      "Vehicles in one lane flow from the lower right toward the upper left while traffic farther left moves from the upper left toward the lower center. Heavy equipment, passenger cars, and vans travel along the road. A person in red walks down the sidewalk on the right and eventually steps into the roadway. Four or five pedestrians at the lower right cross the crosswalk toward the left.",
+      "Traffic moves from the lower right to the upper left, while a separate stream farther left travels from the upper left toward the lower middle. Heavy machinery and multiple cars and vans move on the road. A red-clothed pedestrian walks downward along the right sidewalk and later enters the street. A group of four or five people at the lower right crosses leftward at the crosswalk.",
+      "One flow of vehicles travels diagonally from the lower right toward the upper left as another flow to its left moves from the upper left toward the lower center. The roadway carries heavy equipment along with several passenger vehicles and vans. A person wearing red walks down the sidewalk on the right before stepping onto the road. Four or five pedestrians near the lower right walk left across the crosswalk."
+    ]
+  }
+}

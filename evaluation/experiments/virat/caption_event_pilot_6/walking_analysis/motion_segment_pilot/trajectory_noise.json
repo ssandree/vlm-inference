@@ -1,0 +1,18 @@
+{
+  "smoothing_applied": false,
+  "frame_step_px": {
+    "n": 30889,
+    "p50": 0.0,
+    "p90": 2.0,
+    "p99": 3.04,
+    "max": 37.5
+  },
+  "forward_1s_displacement_px": {
+    "n": 29447,
+    "p50": 12.82,
+    "p90": 39.0,
+    "p99": 54.49
+  },
+  "meaningful_displacement_px_on_1280_width": 64,
+  "note": "Per-frame centroid steps are a few pixels. The meaningful-displacement threshold is 64px, so bbox jitter does not by itself cross a reversal."
+}

@@ -1,0 +1,46 @@
+{
+  "video": "VIRAT_S_040000_00_000063_000085.mp4",
+  "clip_duration_sec": 3,
+  "clips": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 3.0,
+      "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A small structure with scaffolding is visible in the center background. The scene remains unchanged throughout the clip."
+    },
+    {
+      "start_sec": 3.0,
+      "end_sec": 6.0,
+      "caption": "A red car drives from left to right across the frame, passing through a parking lot area. A dark-colored vehicle is parked in the lot on the left side of the frame. Another dark-colored vehicle is parked further back in the same lot. A white van is visible in the distance, parked near a building on the right side of the frame. No people are visible in the scene."
+    },
+    {
+      "start_sec": 6.0,
+      "end_sec": 9.0,
+      "caption": "A red car drives from left to right across the frame, passing through an intersection. A dark-colored car is parked in the lot on the left side of the frame. Another dark-colored car is parked further back in the same lot. A white van is visible in the distance, parked near a building on the right side of the frame. No people are visible in the scene."
+    },
+    {
+      "start_sec": 9.0,
+      "end_sec": 12.0,
+      "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A red car is parked on the left side of the road, and other vehicles are parked in a lot to the far left. The scene remains unchanged throughout the clip."
+    },
+    {
+      "start_sec": 12.0,
+      "end_sec": 15.0,
+      "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A red car is parked in the lot on the left side of the frame. Another red car is parked further back near the center-left. Several other cars are parked in the lot on the far left. The scene remains unchanged throughout the clip."
+    },
+    {
+      "start_sec": 15.0,
+      "end_sec": 18.0,
+      "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A red car is parked in the lot on the left side of the frame. The scene remains unchanged throughout the clip."
+    },
+    {
+      "start_sec": 18.0,
+      "end_sec": 21.0,
+      "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A red car is parked in the lot on the left side of the frame. The scene remains unchanged throughout the clip."
+    },
+    {
+      "start_sec": 21.0,
+      "end_sec": 21.654966666666667,
+      "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A red car is parked on the left side of the road. A small white building with a steeple is on the right. The scene remains unchanged throughout the clip."
+    }
+  ]
+}

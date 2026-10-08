@@ -1,0 +1,333 @@
+{
+  "video_id": "VIRAT_S_010202_06_000784_000873",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "24"
+      ],
+      "start_frame": 119,
+      "end_frame": 621,
+      "start_time": 4.9645,
+      "end_time": 25.9074,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "24"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "3",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "lower_right_to_upper_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "26"
+      ],
+      "start_frame": 382,
+      "end_frame": 621,
+      "start_time": 15.9366,
+      "end_time": 25.9074,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "26"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "18",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "lower_right_to_upper_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "25"
+      ],
+      "start_frame": 387,
+      "end_frame": 621,
+      "start_time": 16.1452,
+      "end_time": 25.9074,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "25"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "1",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "lower_right_to_upper_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE004",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "10"
+      ],
+      "start_frame": 425,
+      "end_frame": 589,
+      "start_time": 17.7305,
+      "end_time": 24.5724,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "10"
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE005",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE011"
+      ],
+      "source_track_ids": [
+        "35"
+      ],
+      "start_frame": 600,
+      "end_frame": 1388,
+      "start_time": 25.0313,
+      "end_time": 57.9057,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "35"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "3",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "lower_right_to_upper_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE006",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE013"
+      ],
+      "source_track_ids": [
+        "12"
+      ],
+      "start_frame": 600,
+      "end_frame": 1809,
+      "start_time": 25.0313,
+      "end_time": 75.4693,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "12"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "1",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "lower_right_to_upper_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE007",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE014"
+      ],
+      "source_track_ids": [
+        "36"
+      ],
+      "start_frame": 600,
+      "end_frame": 1770,
+      "start_time": 25.0313,
+      "end_time": 73.8423,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "36"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "18",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "lower_right_to_upper_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE008",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE007"
+      ],
+      "source_track_ids": [
+        "10"
+      ],
+      "start_frame": 772,
+      "end_frame": 835,
+      "start_time": 32.2069,
+      "end_time": 34.8352,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "10"
+      },
+      "action": "getting_into_vehicle",
+      "object": [
+        {
+          "track_id": "13",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE009",
+      "event_form": "group",
+      "source_atomic_evidence_ids": [
+        "AE011",
+        "AE013",
+        "AE014"
+      ],
+      "source_track_ids": [
+        "35",
+        "12",
+        "36"
+      ],
+      "start_frame": 600,
+      "end_frame": 1388,
+      "start_time": 25.0313,
+      "end_time": 57.9057,
+      "subject": {
+        "category": "person",
+        "group": true
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "3",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        },
+        {
+          "track_id": "1",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        },
+        {
+          "track_id": "18",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "lower_right_to_upper_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "person_count_is_required_caption_slot": false
+    },
+    {
+      "caption_event_id": "CE010",
+      "event_form": "group",
+      "source_atomic_evidence_ids": [
+        "AE004",
+        "AE003"
+      ],
+      "source_track_ids": [
+        "26",
+        "25"
+      ],
+      "start_frame": 387,
+      "end_frame": 621,
+      "start_time": 16.1452,
+      "end_time": 25.9074,
+      "subject": {
+        "category": "person",
+        "group": true
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "18",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        },
+        {
+          "track_id": "1",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "lower_right_to_upper_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "person_count_is_required_caption_slot": false
+    }
+  ]
+}

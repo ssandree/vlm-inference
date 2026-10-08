@@ -1,0 +1,147 @@
+{
+  "video_id": "VIRAT_S_010111_08_000920_000954",
+  "confirmed_walking": false,
+  "n_segments": 3,
+  "segments": [
+    {
+      "segment_id": "VIRAT_S_010111_08_000920_000954_t84_s01",
+      "video_id": "VIRAT_S_010111_08_000920_000954",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010111_08_000920_000954.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "84",
+      "start_frame": 300,
+      "end_frame": 617,
+      "start_time": 12.5156,
+      "end_time": 25.7405,
+      "duration_sec": 13.2249,
+      "displacement_px": 232.76,
+      "path_length_px": 284.98,
+      "normalized_displacement": 0.1585,
+      "dx_px": -232.5,
+      "dy_px": 11.0,
+      "direction_proposal": "right_to_left",
+      "motion_state": "moving",
+      "start_reason": "track_start",
+      "overlapping_virat_events": [
+        {
+          "event_id": "3",
+          "activity_class": "person_getting_into_vehicle",
+          "role": "temporal_only",
+          "overlap_frames": 318,
+          "tracked_frames_inside_overlap": 318
+        },
+        {
+          "event_id": "4",
+          "activity_class": "person_getting_into_vehicle",
+          "role": "temporal_only",
+          "overlap_frames": 318,
+          "tracked_frames_inside_overlap": 318
+        },
+        {
+          "event_id": "5",
+          "activity_class": "person_opening_vehicle_trunk",
+          "role": "temporal_only",
+          "overlap_frames": 73,
+          "tracked_frames_inside_overlap": 73
+        },
+        {
+          "event_id": "6",
+          "activity_class": "person_closing_vehicle_trunk",
+          "role": "temporal_only",
+          "overlap_frames": 51,
+          "tracked_frames_inside_overlap": 51
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010111_08_000920_000954_t88_s01",
+      "video_id": "VIRAT_S_010111_08_000920_000954",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010111_08_000920_000954.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "88",
+      "start_frame": 0,
+      "end_frame": 152,
+      "start_time": 0.0,
+      "end_time": 6.3413,
+      "duration_sec": 6.3413,
+      "displacement_px": 81.94,
+      "path_length_px": 89.9,
+      "normalized_displacement": 0.0558,
+      "dx_px": -81.5,
+      "dy_px": -8.5,
+      "direction_proposal": "right_to_left",
+      "motion_state": "moving",
+      "start_reason": "track_start",
+      "overlapping_virat_events": [],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    },
+    {
+      "segment_id": "VIRAT_S_010111_08_000920_000954_t88_s02",
+      "video_id": "VIRAT_S_010111_08_000920_000954",
+      "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010111_08_000920_000954.mp4",
+      "fps": 23.97,
+      "frame_width": 1280,
+      "frame_height": 720,
+      "source_track_id": "88",
+      "start_frame": 153,
+      "end_frame": 321,
+      "start_time": 6.383,
+      "end_time": 13.3917,
+      "duration_sec": 7.0088,
+      "displacement_px": 22.14,
+      "path_length_px": 23.9,
+      "normalized_displacement": 0.0151,
+      "dx_px": 21.0,
+      "dy_px": 7.0,
+      "direction_proposal": null,
+      "motion_state": "stationary",
+      "start_reason": "stationary_interval",
+      "overlapping_virat_events": [
+        {
+          "event_id": "3",
+          "activity_class": "person_getting_into_vehicle",
+          "role": "temporal_only",
+          "overlap_frames": 36,
+          "tracked_frames_inside_overlap": 36
+        },
+        {
+          "event_id": "4",
+          "activity_class": "person_getting_into_vehicle",
+          "role": "temporal_only",
+          "overlap_frames": 22,
+          "tracked_frames_inside_overlap": 22
+        }
+      ],
+      "confirmed_walking": false,
+      "confirmed_wandering": false,
+      "human_review": {
+        "is_walking": null,
+        "is_wandering": null,
+        "keep_as_caption_event": null,
+        "direction_override": null,
+        "review_note": ""
+      }
+    }
+  ]
+}

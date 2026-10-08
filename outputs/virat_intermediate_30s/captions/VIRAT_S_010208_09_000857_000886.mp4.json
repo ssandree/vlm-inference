@@ -1,0 +1,66 @@
+{
+  "video": "VIRAT_S_010208_09_000857_000886.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010208_09_000857_000886.mp4.json",
+  "source_caption_sha256": "3f12f40b01f4c9f58cd98182bb088cadd92dcde9e2d51e17f5e60e03759cd24f",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 20.35878181059658,
+      "intermediate_caption": "Two individuals, one in a yellow top and dark pants and another in a light-colored top and dark pants, walk from left to right across the paved area in front of the building labeled \"STUDENT SERVICES\", passing behind a tall, thin pole. A person in a white shirt and dark pants exits the building through a glass door beneath a green awning and walks from right to left across the paved area. Two people approach the entrance of a building with a green awning from the right side of the frame; both enter the building, after which one individual exits and proceeds leftward, leaving the entrance. A person in a striped shirt walks from left to right in front of the \"STUDENT SERVICES\" building, passes a green awning marked \"CHICANO,\" and continues off-screen to the right. Another person, wearing a plaid shirt and blue jeans, walks from left to right in front of the \"STUDENT SERVICES\" building, also passing the \"CHICANO\"-marked awning before disappearing behind a pole. Subsequently, a different person in a striped shirt and dark pants walks from left to right in front of the \"STUDENT SERVICES\" building and continues down a paved path away from the camera. Finally, a person in a light-colored shirt and dark pants approaches the entrance of the \"STUDENT SERVICES\" building from the left, while simultaneously, another person wearing a red hat and a green shirt enters the frame from the lower right and begins walking toward the left.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-20.35878181059658"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "Two people walk from left to right across the paved area in front of a building labeled \"STUDENT SERVICES\". One person is wearing a yellow top and dark pants, and the other is wearing a light-colored top and dark pants. They move from the left side of the frame towards the center-right, passing behind a tall, thin pole. The scene remains otherwise static with no other visible movement."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A person wearing a white shirt and dark pants exits the building through a glass door under a green awning. They walk from right to left across the paved area in front of the building."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "Two people walk from the right side of the frame toward the entrance of a building with a green awning. They enter the building together. After they enter, one person exits the building and walks towards the left side of the frame, moving away from the entrance."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "A person wearing a striped shirt walks from left to right across the paved area in front of a building labeled \"STUDENT SERVICES\". They walk past a green awning with the word \"CHICANO\" written on it and continue towards the right side of the frame."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A person wearing a plaid shirt and blue jeans walks from the left side of the frame toward the right, passing in front of a building labeled \"STUDENT SERVICES\". They continue walking past a green awning with the word \"CHICANO\" on it and move out of view behind a pole. The scene remains otherwise static."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "A person wearing a striped shirt and dark pants walks from the left side of the frame toward the right, passing in front of a building labeled \"STUDENT SERVICES\". The person continues walking away from the camera along a paved walkway."
+        },
+        {
+          "source_clip": "18-20.35878181059658",
+          "start_sec": 18.0,
+          "end_sec": 20.35878181059658,
+          "caption": "A person wearing a light-colored shirt and dark pants walks from the left side of the frame towards the entrance of the building labeled \"STUDENT SERVICES\".\n\nAnother person wearing a red hat and a green shirt walks into the frame from the bottom right corner and moves towards the left."
+        }
+      ]
+    }
+  ]
+}

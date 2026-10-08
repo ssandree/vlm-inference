@@ -1,0 +1,116 @@
+{
+  "video_id": "VIRAT_S_010114_01_000235_000311",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_frame": 35,
+      "end_frame": 103,
+      "start_time": 1.4602,
+      "end_time": 4.297,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "7"
+      },
+      "action": "opening_vehicle_trunk",
+      "object": [
+        {
+          "track_id": "40",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_frame": 192,
+      "end_frame": 238,
+      "start_time": 8.01,
+      "end_time": 9.9291,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "7"
+      },
+      "action": "closing_vehicle_trunk",
+      "object": [
+        {
+          "track_id": "40",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_frame": 303,
+      "end_frame": 385,
+      "start_time": 12.6408,
+      "end_time": 16.0617,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "7"
+      },
+      "action": "getting_into_vehicle",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE004",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "35"
+      ],
+      "start_frame": 464,
+      "end_frame": 832,
+      "start_time": 19.3575,
+      "end_time": 34.7101,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "35"
+      },
+      "action": "running",
+      "object": [],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

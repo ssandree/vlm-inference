@@ -1,0 +1,73 @@
+{
+  "video": "VIRAT_S_010001_09_000921_000952.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010001_09_000921_000952.mp4.json",
+  "source_caption_sha256": "689645d503cd185eb23003f2adcd0323fd84e2b0ee309bbe512c75c12fcb52a2",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 23.779724655819777,
+      "intermediate_caption": "The scene depicts an outdoor plaza with multiple tables and red umbrellas arranged on a paved surface, situated near a grassy hill. Behind the plaza stands a building with large windows and stairs leading up to it, set against a backdrop of distant mountains under a clear sky. For most of the duration, the area remains completely devoid of people or vehicles. At approximately 21 seconds, a person wearing a white shirt appears on the upper-level walkway of the building on the left side of the frame and proceeds to walk across it toward the right.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-23.779724655819777"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "There are no people or vehicles visible in the scene. The area remains empty throughout the clip."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows a campus-like outdoor area with tables and red umbrellas on a paved surface. A grassy hill is in the center, with buildings and mountains in the background under a clear sky."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "There are no people or vehicles visible in the scene. The area is empty."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with numerous red umbrellas over tables and chairs, a grassy hill, stairs leading up to a building, and mountains in the background under a clear sky."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with numerous tables and red umbrellas arranged on a paved area. A grassy hill is located behind the plaza, with a building featuring large windows and stairs leading up to it. In the background, there are mountains under a clear blue sky. The scene remains static throughout the clip."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "There are no people or vehicles visible in the scene. The area is empty."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "There are no people or vehicles visible in the scene. The area is empty."
+        },
+        {
+          "source_clip": "21-23.779724655819777",
+          "start_sec": 21.0,
+          "end_sec": 23.779724655819777,
+          "caption": "A person in a white shirt walks from left to right on the upper-level walkway of the building on the left side of the frame."
+        }
+      ]
+    }
+  ]
+}

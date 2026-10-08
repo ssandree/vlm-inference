@@ -1,0 +1,17 @@
+{
+  "n_videos": 59,
+  "n_questions": 291,
+  "by_kind": {
+    "detail": 41,
+    "gt_omission": 52,
+    "predicted_claim": 177,
+    "direction": 21
+  },
+  "by_priority": {
+    "high": 181,
+    "normal": 110
+  },
+  "initial_answers": {
+    "unsure": 291
+  }
+}

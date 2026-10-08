@@ -1,0 +1,92 @@
+{
+  "video_id": "VIRAT_S_010106_00_000098_000315",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "26"
+      ],
+      "start_frame": 1937,
+      "end_frame": 2351,
+      "start_time": 80.8093,
+      "end_time": 98.0809,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "26"
+      },
+      "action": "getting_into_vehicle",
+      "object": [
+        {
+          "track_id": "32",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "38"
+      ],
+      "start_frame": 2675,
+      "end_frame": 2868,
+      "start_time": 111.5978,
+      "end_time": 119.6496,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "38"
+      },
+      "action": "getting_into_vehicle",
+      "object": [
+        {
+          "track_id": "60",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "67"
+      ],
+      "start_frame": 4572,
+      "end_frame": 4637,
+      "start_time": 190.7384,
+      "end_time": 193.4501,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "67"
+      },
+      "action": "getting_out_of_vehicle",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

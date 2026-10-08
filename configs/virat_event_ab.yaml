@@ -1,0 +1,11 @@
+# Shared model/decoding only. A and B have independent prompts/inputs/outputs.
+model: 30b
+mode: default
+generation:
+  max_new_tokens: 4096
+  do_sample: false
+  repetition_penalty: 1.2
+output:
+  dir: outputs/virat_event_ab_pilot
+  file: progress.json
+jobs: []

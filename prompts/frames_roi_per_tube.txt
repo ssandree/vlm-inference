@@ -1,0 +1,17 @@
+This is a video captured by a static camera.
+
+[Global] images show the full scene.
+Each [ROI#] is a time-ordered cropped video sequence showing a distinct motion region from the same video.
+A single ROI may contain different subjects or events over time.
+Each [Global] is inserted once at the start of a motion region.
+
+Identify all distinct video-level events in chronological order.
+Treat each spatial region as a separate source of visual evidence and preserve where each event occurs in the scene.
+When possible, describe an event   relative to its visible local scene, such as an area, structure, or surrounding context, without referring to ROI numbers.
+Treat different subjects or actions as separate events, and describe each continuous event only once.
+Use Global images for scene context and ROI video sequences for motion details.
+
+Describe only visible actions using concrete descriptions of who or what does what and where it occurs.
+Do not merge distinct actions from different regions into a general statement.
+Write one concise sentence per event as a single paragraph.
+Do not use timestamps, ROI numbers, labels, bullets, markdown, or introductory text.

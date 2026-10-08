@@ -1,0 +1,167 @@
+{
+  "video_id": "VIRAT_S_010106_02_000656_000692",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "5"
+      ],
+      "constituent_track_ids": [
+        "5"
+      ],
+      "start_frame": 0,
+      "end_frame": 192,
+      "start_time": 0.0,
+      "end_time": 8.01,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "5"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE005"
+      ],
+      "source_track_ids": [
+        "10"
+      ],
+      "constituent_track_ids": [
+        "10"
+      ],
+      "start_frame": 0,
+      "end_frame": 241,
+      "start_time": 0.0,
+      "end_time": 10.0542,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "10"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "2"
+      ],
+      "constituent_track_ids": [
+        "2"
+      ],
+      "start_frame": 43,
+      "end_frame": 621,
+      "start_time": 1.7939,
+      "end_time": 25.9074,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "2"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE004",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "1"
+      ],
+      "constituent_track_ids": [
+        "1"
+      ],
+      "start_frame": 53,
+      "end_frame": 621,
+      "start_time": 2.2111,
+      "end_time": 25.9074,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "1"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE005",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "10"
+      ],
+      "constituent_track_ids": [
+        "10"
+      ],
+      "start_frame": 242,
+      "end_frame": 837,
+      "start_time": 10.096,
+      "end_time": 34.9186,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "10"
+      },
+      "action": "gesturing",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE006",
+      "event_form": "group",
+      "source_atomic_evidence_ids": [
+        "AE003",
+        "AE002"
+      ],
+      "source_track_ids": [
+        "2",
+        "1"
+      ],
+      "start_frame": 53,
+      "end_frame": 621,
+      "start_time": 2.2111,
+      "end_time": 25.9074,
+      "subject": {
+        "category": "person",
+        "group": true
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null,
+      "person_count_is_required_caption_slot": false
+    }
+  ]
+}

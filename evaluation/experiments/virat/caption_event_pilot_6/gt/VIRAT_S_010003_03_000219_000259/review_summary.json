@@ -1,0 +1,53 @@
+{
+  "video_id": "VIRAT_S_010003_03_000219_000259",
+  "n_virat_source_events": 6,
+  "n_atomic_evidence": 18,
+  "n_caption_events": 18,
+  "n_individual_caption_events": 16,
+  "n_group_caption_events": 2,
+  "n_walking_candidates": 12,
+  "n_confirmed_walking": 12,
+  "n_wandering_candidates": 0,
+  "n_confirmed_wandering": 0,
+  "n_human_review_pending": 2,
+  "n_semantic_location_unset": 16,
+  "n_duplicate_candidates": 0,
+  "n_human_added_events": 0,
+  "n_carrying_without_object": 2,
+  "pending_human_review": [
+    {
+      "review_id": "RQ001",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE005"
+      ],
+      "source_track_ids": [
+        "16"
+      ],
+      "start_time": 0.0,
+      "end_time": 5.632,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    },
+    {
+      "review_id": "RQ002",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE006"
+      ],
+      "source_track_ids": [
+        "21"
+      ],
+      "start_time": 21.6938,
+      "end_time": 39.9666,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    }
+  ]
+}

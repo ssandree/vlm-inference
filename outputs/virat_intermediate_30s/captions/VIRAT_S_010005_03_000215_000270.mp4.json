@@ -1,0 +1,145 @@
+{
+  "video": "VIRAT_S_010005_03_000215_000270.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010005_03_000215_000270.mp4.json",
+  "source_caption_sha256": "81016c9504ab15e88e6739e5286746316443a954c6f30733cc6c866cf4d162ed",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 30.0,
+      "intermediate_caption": "Two individuals walk from left to right across a paved area near a building in the upper right portion of the frame.  \nA person sits at a table under an umbrella in the lower right corner of the frame.  \nAnother individual stands near the entrance of the building on the left side of the image.  \nA person walks from right to left through the lower right portion of the frame.  \nOne person walks from the right side of the frame toward the left, passing behind a row of tables with red umbrellas.  \nTwo people walk from left to right near a building entrance in the background.  \nSeveral people walk across the paved area from right to left in the foreground.  \nA person walks from left to right in the background near the building entrance while another walks from right to left in front of it.  \nA person ascends the stairs on the left side of the frame.  \nThe scene includes an outdoor plaza with tables, red umbrellas, a green lawn, a low stone wall, and buildings featuring brick and glass facades; distant mountains appear under a partly cloudy sky.  \nAt various times, one or more persons sit at tables under umbrellas in the lower right section.  \nLater, additional pedestrians move along different parts of the space—some ascending stairs, others traversing the grassy mid-ground from left to right—and some remain stationary near stairways or entrances.  \nFor brief intervals (e.g., between 6s–9s), the scene appears completely still with no detectable movement.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-27",
+        "27-30"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "In the upper right portion of the frame, two individuals walk from left to right across a paved area near a building.\n\nA person is partially visible at the bottom right edge of the frame, sitting at a table under an umbrella."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A person is sitting at a table under an umbrella in the lower right corner of the frame. Another person is walking in the background near the building on the right side of the image. A third person is standing near the entrance of the building on the left side of the image."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "There are no discernible actions or events occurring in the video clip. The scene is static, showing an outdoor plaza with tables, umbrellas, and buildings under a clear sky. No people or vehicles are visibly moving."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with multiple tables and red umbrellas arranged on a paved area. A large green lawn is situated behind the plaza, bordered by a low stone wall. In the background, there are buildings with brick and glass facades, stairs leading up to an entrance, and mountains under a partly cloudy sky. The scene remains static throughout the clip."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A person walks from the right side of the frame towards the left, passing behind a row of tables with red umbrellas. Another person is briefly visible walking in the background near the building entrance. A third person is seen sitting at a table in the lower right corner of the frame. The scene remains otherwise static throughout the clip."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "In the background, two people walk from left to right near a building entrance.\n\nA person walks from right to left across the lower right portion of the frame."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "In the foreground, several people walk across the paved area from right to left. In the background, near the building entrance, a person walks from left to right. Another person walks from right to left in front of the building. A person is visible walking up the stairs on the left side of the frame."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "A person walks from right to left across the upper right portion of the frame. Another person is sitting at a table in the lower right corner of the frame."
+        },
+        {
+          "source_clip": "24-27",
+          "start_sec": 24.0,
+          "end_sec": 27.0,
+          "caption": "In the upper right portion of the scene, two individuals walk from left to right across a paved area near a building entrance.\n\nA person walks from right to left in the lower right corner of the frame, partially obscured by a large umbrella."
+        },
+        {
+          "source_clip": "27-30",
+          "start_sec": 27.0,
+          "end_sec": 30.0,
+          "caption": "In the foreground, several people are sitting at tables under red umbrellas on a paved area.\n\nA person is walking up the stairs on the left side of the frame.\n\nAnother person is walking on the upper level near the building entrance in the background.\n\nA person is standing near the right edge of the frame, close to a set of stairs.\n\nA person is walking on the grassy area in the middle ground, moving from left to right."
+        }
+      ]
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 50.98039215686275,
+      "intermediate_caption": "Throughout the time period, multiple individuals move through various parts of the outdoor space surrounding a building. On the left side of the frame, two people repeatedly ascend and descend a staircase; they alternate between going up and coming down during different intervals. At times, both climb simultaneously—once moving upward and once downward—and there is overlap where one goes up as another comes down. \n\nNear the top-left portion of the scene, close to the building’s entrance, several people stand gathered intermittently, including some briefly positioned beneath the structure’s overhang. Additional movement occurs along the upper patio area, where a single person crosses from right to left. Meanwhile, within the central courtyard, someone traverses the grassy section.  \n\nOn the ground level, particularly toward the lower-right quadrant, a person consistently occupies a seated position at a table shaded by an umbrella. This individual remains present across most frames. Occasionally, others pass through this region—a figure moves across the lower right edge of the frame, sometimes approaching the seating area but without interacting with it. No new figures appear outside those already described, nor do any significant environmental changes occur beyond pedestrian motion. All observed activity unfolds continuously within the defined spatial layout.",
+      "source_clips": [
+        "30-33",
+        "33-36",
+        "36-39",
+        "39-42",
+        "42-45",
+        "45-48",
+        "48-50.98039215686275"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "30-33",
+          "start_sec": 30.0,
+          "end_sec": 33.0,
+          "caption": "In the upper left area of the scene, near the entrance of a building, a group of people are standing together. A few individuals are walking up and down the stairs leading to the building's entrance. In the lower right corner of the frame, a person is sitting at a table under an umbrella. Another person is walking across the grassy area in the middle of the courtyard. A person is also seen walking on the far right side of the image, near the building."
+        },
+        {
+          "source_clip": "33-36",
+          "start_sec": 33.0,
+          "end_sec": 36.0,
+          "caption": "A person walks from right to left across the upper patio area of the building complex. Another individual stands near the entrance of the main building under the overhang. A third person sits at one of the tables with red umbrellas in the foreground courtyard. The scene remains otherwise still throughout the clip."
+        },
+        {
+          "source_clip": "36-39",
+          "start_sec": 36.0,
+          "end_sec": 39.0,
+          "caption": "Two people are walking up the stairs on the left side of the frame. A person is sitting at a table in the lower right corner of the frame."
+        },
+        {
+          "source_clip": "39-42",
+          "start_sec": 39.0,
+          "end_sec": 42.0,
+          "caption": "Two people are walking down the stairs on the left side of the frame. One person is sitting at a table in the bottom right corner of the frame."
+        },
+        {
+          "source_clip": "42-45",
+          "start_sec": 42.0,
+          "end_sec": 45.0,
+          "caption": "Two people walk up the stairs on the left side of the frame. A person walks across the lower right corner of the frame."
+        },
+        {
+          "source_clip": "45-48",
+          "start_sec": 45.0,
+          "end_sec": 48.0,
+          "caption": "Two people walk down the stairs on the left side of the frame. One person walks towards the bottom of the stairs while the other walks up the stairs. A person is sitting at a table in the lower right corner of the frame."
+        },
+        {
+          "source_clip": "48-50.98039215686275",
+          "start_sec": 48.0,
+          "end_sec": 50.98039215686275,
+          "caption": "A person walks up the stairs on the left side of the frame. Another person walks down the same set of stairs. A third person is visible walking at the bottom right of the frame."
+        }
+      ]
+    }
+  ]
+}

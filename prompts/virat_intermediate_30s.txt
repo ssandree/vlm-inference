@@ -1,0 +1,22 @@
+You are given timestamped descriptions of consecutive 3-second segments from the same surveillance video.
+
+Your task is to consolidate these observations into an accurate event-level description of the full time window.
+
+Requirements:
+- Preserve all distinct observable events and actions.
+- Merge repeated descriptions of the same continuing event.
+- Preserve short or subtle actions, state changes, interactions, and temporal order.
+- Do not replace specific actions with vague summaries.
+- Do not add events, objects, identities, intentions, or causal relationships that are not supported by the provided descriptions.
+- If descriptions are uncertain or conflicting, preserve the uncertainty rather than inventing a resolution.
+- Focus on what happens, who or what is involved, and how the events develop over time.
+- Write separate sentences for distinct events when appropriate.
+- Do not mention the 3-second segmentation or the captioning process.
+- Do not produce a general summary. Produce a consolidated description that retains the event evidence contained in the input.
+
+Time window: {window_start}s–{window_end}s
+
+Segment descriptions:
+{timestamped_3s_captions}
+
+Consolidated event description:

@@ -1,0 +1,17 @@
+{
+  "date_kst": "2026-10-06",
+  "judge": "current assistant, explicit visual contact-sheet reasoning",
+  "sample_only": true,
+  "full_caption_factual_accuracy_scored": false,
+  "score": "provisional_action_family_F1",
+  "original_gt_unchanged": true,
+  "prior_human_gt_not_auto_merged": true,
+  "sha256": {
+    "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval_59_8b_fp16/inputs.json": "90fce5f0ec5b080059ba0c553301539a449ffe346255a02f793d06d985b3d804",
+    "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval_59_8b_fp16/judge_results.json": "7fbd01e44c057e57a7171c23316f6c36d0b782ba63391ac22129c70bd49194c4",
+    "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval_59_8b_fp16/review_candidates.json": "eda0a882ecda1022ed4a01b172673251ee6b4f337e68cc781a9c85b30af5b562",
+    "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/manifest.json": "0de6ec6b3c12dc4531c45a58a09025abb099b0e22f757931461e85fc3a4b1232",
+    "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/fullframe_proposed_roi_59_8b_fp16/manual_eval_59/frame_manifest.json": "4b19d7d3b67d998e61487f10414c4dc0293e42b0ed6e4330430c2cadfbfa50ac",
+    "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/fullframe_proposed_roi_59_8b_fp16/manual_eval_59/build_evaluation.py": "95d3caca63e17d5792da76ff1297a257ef60c2dfa790e2e1a544178042ac5b8a"
+  }
+}

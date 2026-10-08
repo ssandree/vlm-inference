@@ -1,0 +1,166 @@
+{
+  "video": "VIRAT_S_010001_08_000826_000893.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010001_08_000826_000893.mp4.json",
+  "source_caption_sha256": "38b9b1fad625c2da61a44357fd0f9ccb9be2c6a5b8bdd6470842acb5bb4c5119",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 30.0,
+      "intermediate_caption": "At the beginning of the sequence, a person descends the stairs on the left side of the frame. Shortly after, two people descend the stairs on the left while another individual ascends the stairs on the right. For several seconds following this activity, the scene becomes completely devoid of any human presence; during this period, the setting—a paved outdoor plaza surrounded by tables and red umbrellas—is shown without movement. This emptiness persists through multiple intervals as various parts of the environment become clearly visible, including a modern building with large windows, stairways ascending toward its entrance, a grassy hill, distant mountains, and later, a partial view of a large yellow sign marked with the letter \"E.\" During one interval, a single person moves horizontally across the upper patio area of the building from right to left. Then, shortly afterward, another person traverses the upper level of the courtyard from right to left, moving past a red umbrella. Later still, a different person crosses the upper entry area of the building also from right to left, while simultaneously, at least three others appear momentarily—two near the staircase on the left and one standing among the tables on the far right—all remaining isolated within their respective areas and showing no interaction. Afterward, the space returns again to complete vacancy until the end of the recording. Throughout the entire duration, the visual composition includes consistent features such as the arrangement of furniture, architectural details, natural landscape elements like hills and trees, and stable lighting conditions indicating daytime under a clear blue sky. No vehicle movements occur at any point.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-27",
+        "27-30"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "A person walks down the stairs on the left side of the frame."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "Two people walk down the stairs on the left side of the frame. One person walks up the stairs on the right side of the frame."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with numerous red umbrellas over tables and chairs. In the background, there is a modern building with large windows and stairs leading up to it, a grassy hill, and mountains in the distance under a clear blue sky. The scene remains static throughout the clip."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "A person walks from right to left across the upper patio area of the building."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A person walks from right to left across the upper level of the courtyard, passing behind a red umbrella."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "A person walks from right to left across the upper level of the building's entrance area. Another person is briefly visible walking near the stairs on the left side of the frame. A third person is seen standing near the tables on the far right side of the outdoor seating area. All individuals remain in the background and do not interact with each other or the foreground elements. The scene remains otherwise static throughout the clip."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with multiple tables and red umbrellas arranged on a paved area. A grassy hill is located behind the plaza, with a building featuring large windows and a covered walkway to the left. Stairs lead up from the plaza to the building entrance. In the background, there are trees and mountains under a clear blue sky. The scene remains static throughout the clip."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "There are no people or vehicles visible in the scene. The area is empty."
+        },
+        {
+          "source_clip": "24-27",
+          "start_sec": 24.0,
+          "end_sec": 27.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows a paved outdoor area with numerous tables and red umbrellas. In the background, there is a modern building with large glass windows, a set of stairs leading up to it, and a grassy hill. A large yellow sign with the letter 'E' is partially visible on the left side of the frame. The scene remains static throughout the clip."
+        },
+        {
+          "source_clip": "27-30",
+          "start_sec": 27.0,
+          "end_sec": 30.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows a stationary outdoor plaza with numerous tables and red umbrellas arranged on a paved area. In the background, there is a modern building with large glass windows, a set of stairs leading up to it, and a grassy hill. A few trees and potted plants are scattered throughout the area. The scene remains unchanged throughout the clip."
+        }
+      ]
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 58.65665415102212,
+      "intermediate_caption": "The scene depicts an outdoor plaza featuring numerous tables and red umbrellas arranged on a paved surface. A grassy hill lies between the plaza and a modern building with large glass windows and a staircase leading up to it; distant mountains are visible against a clear blue sky. Throughout the entire period, no people or vehicles are present. At one point, a person is briefly seen at the top of the stairs on the left side of the frame but does not engage in any identifiable action. Trees and palm trees are also visible across the area. The environment remains otherwise completely still and unchanged.",
+      "source_clips": [
+        "30-33",
+        "33-36",
+        "36-39",
+        "39-42",
+        "42-45",
+        "45-48",
+        "48-51",
+        "51-54",
+        "54-57",
+        "57-58.65665415102212"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "30-33",
+          "start_sec": 30.0,
+          "end_sec": 33.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with numerous red umbrellas over tables and chairs, a grassy hill, and buildings in the background under a clear sky."
+        },
+        {
+          "source_clip": "33-36",
+          "start_sec": 33.0,
+          "end_sec": 36.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with numerous red umbrellas over tables and chairs, a grassy hill, and buildings in the background under a clear sky."
+        },
+        {
+          "source_clip": "36-39",
+          "start_sec": 36.0,
+          "end_sec": 39.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with tables and red umbrellas, a grassy hill, stairs leading up to a building, and mountains in the background under a clear sky."
+        },
+        {
+          "source_clip": "39-42",
+          "start_sec": 39.0,
+          "end_sec": 42.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with tables and red umbrellas, a grassy hill, stairs leading up to a building, and mountains in the background under a clear sky."
+        },
+        {
+          "source_clip": "42-45",
+          "start_sec": 42.0,
+          "end_sec": 45.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with tables and red umbrellas, a grassy hill, and buildings under a clear sky. A person is briefly visible at the top of the stairs on the left side of the frame, but they do not perform any distinct actions within the clip."
+        },
+        {
+          "source_clip": "45-48",
+          "start_sec": 45.0,
+          "end_sec": 48.0,
+          "caption": "There are no people or vehicles visible in the scene. The area is empty."
+        },
+        {
+          "source_clip": "48-51",
+          "start_sec": 48.0,
+          "end_sec": 51.0,
+          "caption": "There are no people or vehicles visible in the scene. The area is empty."
+        },
+        {
+          "source_clip": "51-54",
+          "start_sec": 51.0,
+          "end_sec": 54.0,
+          "caption": "There are no people or vehicles visible in the scene. The area is empty."
+        },
+        {
+          "source_clip": "54-57",
+          "start_sec": 54.0,
+          "end_sec": 57.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with numerous tables and red umbrellas arranged on a paved area. In the background, there is a modern building with large glass windows and a set of stairs leading up to it. A grassy hill is situated between the plaza and the building. Mountains are visible in the far distance under a clear blue sky. The scene remains static throughout the clip."
+        },
+        {
+          "source_clip": "57-58.65665415102212",
+          "start_sec": 57.0,
+          "end_sec": 58.65665415102212,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with numerous tables and red umbrellas arranged on a paved area. In the background, there is a modern building with large glass windows, a set of stairs leading up to it, and a grassy hill. A few trees and palm trees are scattered throughout the area. The scene is static, with no discernible movement or activity."
+        }
+      ]
+    }
+  ]
+}

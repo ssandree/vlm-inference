@@ -1,0 +1,68 @@
+{
+  "video_id": "VIRAT_S_040003_05_001123_001437",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "3"
+      ],
+      "start_frame": 1082,
+      "end_frame": 1140,
+      "start_time": 36.1027,
+      "end_time": 38.038,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "3"
+      },
+      "action": "unloading_object_from_vehicle",
+      "object": [
+        {
+          "track_id": "36",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "20"
+      ],
+      "start_frame": 5707,
+      "end_frame": 5765,
+      "start_time": 190.4236,
+      "end_time": 192.3588,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "20"
+      },
+      "action": "unloading_object_from_vehicle",
+      "object": [
+        {
+          "track_id": "46",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

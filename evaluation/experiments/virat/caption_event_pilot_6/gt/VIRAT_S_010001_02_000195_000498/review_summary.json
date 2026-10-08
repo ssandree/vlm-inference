@@ -1,0 +1,121 @@
+{
+  "video_id": "VIRAT_S_010001_02_000195_000498",
+  "n_virat_source_events": 24,
+  "n_atomic_evidence": 57,
+  "n_caption_events": 61,
+  "n_individual_caption_events": 50,
+  "n_group_caption_events": 11,
+  "n_walking_candidates": 31,
+  "n_confirmed_walking": 31,
+  "n_wandering_candidates": 2,
+  "n_confirmed_wandering": 2,
+  "n_human_review_pending": 6,
+  "n_semantic_location_unset": 50,
+  "n_duplicate_candidates": 1,
+  "n_human_added_events": 0,
+  "n_carrying_without_object": 6,
+  "pending_human_review": [
+    {
+      "review_id": "RQ001",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE006"
+      ],
+      "source_track_ids": [
+        "16"
+      ],
+      "start_time": 148.6024,
+      "end_time": 179.0154,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    },
+    {
+      "review_id": "RQ002",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE008"
+      ],
+      "source_track_ids": [
+        "3"
+      ],
+      "start_time": 172.9245,
+      "end_time": 200.292,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    },
+    {
+      "review_id": "RQ003",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE018"
+      ],
+      "source_track_ids": [
+        "38"
+      ],
+      "start_time": 12.5156,
+      "end_time": 36.0033,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    },
+    {
+      "review_id": "RQ004",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE020"
+      ],
+      "source_track_ids": [
+        "17"
+      ],
+      "start_time": 151.3141,
+      "end_time": 197.3717,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    },
+    {
+      "review_id": "RQ005",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE021"
+      ],
+      "source_track_ids": [
+        "2"
+      ],
+      "start_time": 159.5327,
+      "end_time": 196.5373,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    },
+    {
+      "review_id": "RQ006",
+      "reason": "ambiguous_action",
+      "atomic_evidence_ids": [
+        "AE024"
+      ],
+      "source_track_ids": [
+        "47"
+      ],
+      "start_time": 250.3129,
+      "end_time": 260.4088,
+      "current_proposal": {
+        "action": null,
+        "reason": "carrying_without_mapped_object_track",
+        "auto_convert_to_walking": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+You are given event lists from different motion regions of the same static-camera video.
+Each list describes what was visible in one region. Regions may overlap in time and may mention the same action.
+
+Merge the lists into one video-level caption in chronological order.
+Treat the same action mentioned in more than one list as a single event.
+Keep different subjects or actions as separate events.
+
+Describe only the listed actions using concrete descriptions of who or what does what. Do not invent events that are not in the lists.
+Write one concise sentence per event as a single paragraph.
+Do not use timestamps, labels, bullets, markdown, or introductory text.
+
+{event_lists}

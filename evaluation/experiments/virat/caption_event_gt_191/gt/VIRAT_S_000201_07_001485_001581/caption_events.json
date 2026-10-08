@@ -1,0 +1,99 @@
+{
+  "video_id": "VIRAT_S_000201_07_001485_001581",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "1"
+      ],
+      "start_frame": 601,
+      "end_frame": 728,
+      "start_time": 20.0333,
+      "end_time": 24.2667,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "1"
+      },
+      "action": "getting_out_of_vehicle",
+      "object": [
+        {
+          "track_id": "3",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "2"
+      ],
+      "start_frame": 1580,
+      "end_frame": 1639,
+      "start_time": 52.6667,
+      "end_time": 54.6333,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "2"
+      },
+      "action": "opening_vehicle_trunk",
+      "object": [
+        {
+          "track_id": "4",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "2"
+      ],
+      "start_frame": 1732,
+      "end_frame": 1791,
+      "start_time": 57.7333,
+      "end_time": 59.7,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "2"
+      },
+      "action": "closing_vehicle_trunk",
+      "object": [
+        {
+          "track_id": "4",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "video_id": "VIRAT_S_000203_03_000736_000785",
+  "atomic_evidence": [
+    {
+      "atomic_evidence_id": "AE001",
+      "source": {
+        "type": "virat_activity",
+        "virat_event_ids": [
+          "0"
+        ],
+        "source_track_ids": [
+          "1",
+          "3"
+        ]
+      },
+      "start_frame": 560,
+      "end_frame": 659,
+      "start_time": 18.6667,
+      "end_time": 21.9667,
+      "subject": {
+        "category": "person",
+        "track_id": "1"
+      },
+      "action": "getting_out_of_vehicle",
+      "object": [
+        {
+          "track_id": "3",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "screen_location": {
+        "source": "derived_from_track",
+        "value": "right_middle",
+        "track_id": "1",
+        "method": "median_centroid_3x3",
+        "median_centroid_norm": [
+          0.7725,
+          0.5076
+        ],
+        "n_boxes": 40,
+        "reason": null
+      },
+      "semantic_location": null,
+      "caption_evaluable": true,
+      "activity_class": "person_getting_out_of_vehicle",
+      "duplicate_candidate": false,
+      "confirmed_caption_event": true,
+      "review": {
+        "human_verified": false,
+        "keep_as_caption_event": null,
+        "note": ""
+      }
+    },
+    {
+      "atomic_evidence_id": "AE002",
+      "source": {
+        "type": "virat_activity",
+        "virat_event_ids": [
+          "1"
+        ],
+        "source_track_ids": [
+          "2",
+          "3"
+        ]
+      },
+      "start_frame": 673,
+      "end_frame": 809,
+      "start_time": 22.4333,
+      "end_time": 26.9667,
+      "subject": {
+        "category": "person",
+        "track_id": "2"
+      },
+      "action": "getting_out_of_vehicle",
+      "object": [
+        {
+          "track_id": "3",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "screen_location": {
+        "source": "derived_from_track",
+        "value": "right_middle",
+        "track_id": "2",
+        "method": "median_centroid_3x3",
+        "median_centroid_norm": [
+          0.8133,
+          0.5285
+        ],
+        "n_boxes": 85,
+        "reason": null
+      },
+      "semantic_location": null,
+      "caption_evaluable": true,
+      "activity_class": "person_getting_out_of_vehicle",
+      "duplicate_candidate": false,
+      "confirmed_caption_event": true,
+      "review": {
+        "human_verified": false,
+        "keep_as_caption_event": null,
+        "note": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "VIRAT_S_010107_00_000019_000057",
+  "n_virat_source_events": 2,
+  "n_atomic_evidence": 9,
+  "n_caption_events": 10,
+  "n_individual_caption_events": 9,
+  "n_group_caption_events": 1,
+  "n_walking_candidates": 7,
+  "n_confirmed_walking": 7,
+  "n_wandering_candidates": 0,
+  "n_confirmed_wandering": 0,
+  "n_human_review_pending": 0,
+  "n_semantic_location_unset": 9,
+  "n_duplicate_candidates": 0,
+  "n_human_added_events": 0,
+  "n_carrying_without_object": 0,
+  "pending_human_review": []
+}

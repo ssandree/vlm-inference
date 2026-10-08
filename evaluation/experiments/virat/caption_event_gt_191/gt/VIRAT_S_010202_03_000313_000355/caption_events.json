@@ -1,0 +1,61 @@
+{
+  "video_id": "VIRAT_S_010202_03_000313_000355",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "6"
+      ],
+      "start_frame": 130,
+      "end_frame": 524,
+      "start_time": 5.4234,
+      "end_time": 21.8607,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "6"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "7",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "lower_right_to_upper_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "3"
+      ],
+      "start_frame": 606,
+      "end_frame": 654,
+      "start_time": 25.2816,
+      "end_time": 27.2841,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "3"
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

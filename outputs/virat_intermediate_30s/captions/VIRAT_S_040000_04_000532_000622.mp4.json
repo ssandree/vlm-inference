@@ -1,0 +1,245 @@
+{
+  "video": "VIRAT_S_040000_04_000532_000622.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_040000_04_000532_000622.mp4.json",
+  "source_caption_sha256": "c5f5d7643e784218ecd198400b22ce98195c5154ab2974bd14393a6b1761cdfc",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 30.0,
+      "intermediate_caption": "The scene depicts a quiet, unchanging outdoor environment consistent with a campus setting, featuring buildings, trees, paved roads, and parking areas. Throughout the entire duration, there are no people present and no moving vehicles observed. Three vehicles—two red cars and one blue pickup truck—are consistently parked in a lot located on the left side of the frame; both red cars remain stationary relative to each other and their positions do not change during observation. One red car is positioned directly adjacent to the blue pickup truck, while the second red car is situated farther back within the same lot toward the center-left portion of the frame. On the far right side of the frame, a small structure resembling a chapel is intermittently described as being visible at various points but does not move or otherwise interact with any elements in the scene. No motion occurs among the structures, vegetation, or background features across the sequence. The overall visual content remains entirely stable without detectable activity, transitions, or alterations between timestamps.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-27",
+        "27-30"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. Another red car is parked further back in the same lot. All vehicles remain stationary throughout the clip. There is no discernible movement or interaction."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. Another red car is parked further back in the same lot. A small building resembling a chapel is visible on the right side of the frame. The scene remains unchanged throughout the clip."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "There are no people visible in the scene.\n\nA blue pickup truck is parked in the lot on the left side of the frame.\n\nA red car is parked behind the blue pickup truck.\n\nAnother red car is parked further back in the lot, near the center-left.\n\nAll vehicles remain stationary throughout the clip."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. The rest of the scene remains still throughout the clip."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. The rest of the scene remains still throughout the clip."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. The rest of the scene remains still throughout the clip."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. Another red car is parked further back in the same lot. A small building resembling a chapel is visible on the right side of the frame. The scene remains unchanged throughout the clip."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. The rest of the scene remains still throughout the clip."
+        },
+        {
+          "source_clip": "24-27",
+          "start_sec": 24.0,
+          "end_sec": 27.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. The rest of the scene remains still throughout the clip."
+        },
+        {
+          "source_clip": "27-30",
+          "start_sec": 27.0,
+          "end_sec": 30.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. Another red car is parked further back in the same lot. A small building resembling a chapel is visible on the right side of the frame. The scene remains unchanged throughout the clip."
+        }
+      ]
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 60.0,
+      "intermediate_caption": "A blue pickup truck and two red cars are parked in a lot on the left side of the frame; one red car is positioned closer to the front while another is farther back. At approximately 36 seconds, a red car drives from left to right across the central intersection and exits the frame. This vehicle reappears at around 51 seconds, again traveling from left to right through the same intersection before exiting. Throughout most of the period, there are no people or moving vehicles present. Between 57 seconds and 60 seconds, a person wearing a white shirt enters from the right side of the frame, walks toward the center past a black lamppost, proceeds leftward, and then leaves the frame. All other elements remain stationary during this interval.",
+      "source_clips": [
+        "30-33",
+        "33-36",
+        "36-39",
+        "39-42",
+        "42-45",
+        "45-48",
+        "48-51",
+        "51-54",
+        "54-57",
+        "57-60"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "30-33",
+          "start_sec": 30.0,
+          "end_sec": 33.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. Another red car is parked further back in the same lot. All vehicles remain stationary throughout the clip. There is no discernible movement or interaction."
+        },
+        {
+          "source_clip": "33-36",
+          "start_sec": 33.0,
+          "end_sec": 36.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. The rest of the scene remains still throughout the clip."
+        },
+        {
+          "source_clip": "36-39",
+          "start_sec": 36.0,
+          "end_sec": 39.0,
+          "caption": "A blue pickup truck is parked in the lot on the left side of the frame. A red car drives from left to right across the intersection in the middle of the scene. The red car continues moving and exits the frame on the right. No other vehicles or people are visibly moving."
+        },
+        {
+          "source_clip": "39-42",
+          "start_sec": 39.0,
+          "end_sec": 42.0,
+          "caption": "A blue pickup truck is parked in the lot on the left side of the frame. A red car is also parked nearby. The scene is otherwise static with no other visible people or moving vehicles."
+        },
+        {
+          "source_clip": "42-45",
+          "start_sec": 42.0,
+          "end_sec": 45.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. The rest of the scene remains unchanged throughout the clip."
+        },
+        {
+          "source_clip": "45-48",
+          "start_sec": 45.0,
+          "end_sec": 48.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. Another red car is parked further back in the lot. All vehicles remain stationary throughout the clip. There is no discernible movement or interaction."
+        },
+        {
+          "source_clip": "48-51",
+          "start_sec": 48.0,
+          "end_sec": 51.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. The rest of the scene remains still throughout the clip."
+        },
+        {
+          "source_clip": "51-54",
+          "start_sec": 51.0,
+          "end_sec": 54.0,
+          "caption": "There are no people visible in the video.\n\nA blue pickup truck is parked in the lower-left corner of the frame.\n\nA red car is parked further back in the parking area, also on the left side.\n\nAnother red car is seen driving from left to right across the intersection in the middle of the frame.\n\nAll other vehicles remain stationary throughout the clip."
+        },
+        {
+          "source_clip": "54-57",
+          "start_sec": 54.0,
+          "end_sec": 57.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. The rest of the scene remains still throughout the clip."
+        },
+        {
+          "source_clip": "57-60",
+          "start_sec": 57.0,
+          "end_sec": 60.0,
+          "caption": "A blue pickup truck is parked in the lot on the left side of the frame. A red car is also parked nearby. A person wearing a white shirt walks from the right side of the frame towards the center, passing behind a black lamppost. The person continues walking towards the left and exits the frame. No other people or moving vehicles are visible."
+        }
+      ]
+    },
+    {
+      "start_sec": 60,
+      "end_sec": 89.7897,
+      "intermediate_caption": "From approximately 60 seconds to around 78 seconds, multiple individuals walk across the pavement near a parking lot; initially one person moves from left to right (60s–63s), followed by two people walking along the sidewalk on the left side of the frame between 63s and 75s, then another individual in a white shirt and dark pants proceeds from left to right in the lower-left portion at 75s–78s. During this period, several vehicles move intermittently: a red car drives slowly from left to right in the background starting at 60s, later reappearing as it travels through the intersection (66s) and again crossing the middle of the frame (72s); another red car appears briefly driving in the upper left at 69s. Throughout most of the sequence, a blue pickup truck and a red car remain parked in the lower-left section of the lot, while additional red cars appear either parked farther back or passing through the mid-frame. At various points—specifically during 66s–69s—a black car is partially visible on the far left edge of the frame. From about 78 seconds onward until 89.7897 seconds, there are no more observed human figures or moving vehicles present; only stationary elements such as parked vehicles—including the blue pickup truck and red cars—and surrounding structures like buildings, trees, roads, and grassy areas remain unchanged against a clear sky.",
+      "source_clips": [
+        "60-63",
+        "63-66",
+        "66-69",
+        "69-72",
+        "72-75",
+        "75-78",
+        "78-81",
+        "81-84",
+        "84-87",
+        "87-89.7897"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "60-63",
+          "start_sec": 60.0,
+          "end_sec": 63.0,
+          "caption": "A person walks from the left side of the frame toward the right across a paved area near a parking lot. A blue pickup truck is parked in the lower-left corner of the frame. A red car is parked further back in the same lot. Another red car is seen driving slowly from left to right in the background. A white vehicle is partially visible behind trees in the upper-right portion of the scene. All other vehicles and objects remain stationary throughout the clip."
+        },
+        {
+          "source_clip": "63-66",
+          "start_sec": 63.0,
+          "end_sec": 66.0,
+          "caption": "Two people are walking on the sidewalk in the parking lot area on the left side of the frame. A blue pickup truck is parked in the lot. A red car is also parked nearby. The scene is otherwise static."
+        },
+        {
+          "source_clip": "66-69",
+          "start_sec": 66.0,
+          "end_sec": 69.0,
+          "caption": "Two people are walking on the sidewalk in the parking lot area on the left side of the frame. A blue pickup truck is parked in the lot. A red car is driving through the intersection in the middle of the frame. Another red car is parked further back in the lot. A black car is partially visible on the far left. All vehicles and pedestrians remain within the scene for the duration of the clip."
+        },
+        {
+          "source_clip": "69-72",
+          "start_sec": 69.0,
+          "end_sec": 72.0,
+          "caption": "Two people are walking on the sidewalk in the parking lot area on the left side of the frame. A blue pickup truck is parked in the lot. A red car is driving on the road in the upper left portion of the frame."
+        },
+        {
+          "source_clip": "72-75",
+          "start_sec": 72.0,
+          "end_sec": 75.0,
+          "caption": "Two people are walking on the sidewalk in the lower-left portion of the frame, moving from left to right.\n\nA blue pickup truck is parked in the lot on the left side of the frame.\n\nA red car is parked further back in the same parking area.\n\nAnother red car is seen driving from left to right on the road in the middle of the frame."
+        },
+        {
+          "source_clip": "75-78",
+          "start_sec": 75.0,
+          "end_sec": 78.0,
+          "caption": "A person wearing a white shirt and dark pants walks from left to right across the lower-left portion of the frame, near a parking lot.\n\nA blue pickup truck is parked in the lower-left corner of the frame.\n\nA red car is parked further back in the same parking area.\n\nAnother red car is visible driving from left to right on the road in the middle of the scene.\n\nA black car is partially visible in the far-left background.\n\nThe scene is a wide shot of a campus-like area with buildings, trees, roads, and grassy areas under a clear sky. There are no other discernible actions or movements."
+        },
+        {
+          "source_clip": "78-81",
+          "start_sec": 78.0,
+          "end_sec": 81.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. The rest of the scene remains still throughout the clip."
+        },
+        {
+          "source_clip": "81-84",
+          "start_sec": 81.0,
+          "end_sec": 84.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. Another red car is parked further back in the same lot. All vehicles remain stationary throughout the clip."
+        },
+        {
+          "source_clip": "84-87",
+          "start_sec": 84.0,
+          "end_sec": 87.0,
+          "caption": "A blue pickup truck is parked in the lot on the left side of the frame. A red car is also parked nearby. The scene is otherwise static with no other visible people or moving vehicles."
+        },
+        {
+          "source_clip": "87-89.7897",
+          "start_sec": 87.0,
+          "end_sec": 89.7897,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A blue pickup truck and a red car are parked in a lot on the left side of the frame. The rest of the scene remains still throughout the clip."
+        }
+      ]
+    }
+  ]
+}

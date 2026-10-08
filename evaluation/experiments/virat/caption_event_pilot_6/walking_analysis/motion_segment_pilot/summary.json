@@ -1,0 +1,1088 @@
+{
+  "n_source_tracks": 57,
+  "n_segments": 165,
+  "segments_per_track": {
+    "1": 12,
+    "2": 18,
+    "3_or_more": 27,
+    "max": 8
+  },
+  "n_direction_reversal_segments": 1,
+  "n_stationary_segments": 21,
+  "n_activity_boundary_segments": 53,
+  "n_track_gap_segments": 7,
+  "n_segments_shorter_than_measurement_window": 30,
+  "short_segments": [
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t0_s03",
+      "duration_sec": 0.0417,
+      "motion_state": "moving",
+      "start_reason": "coherent_movement",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t0_s04",
+      "duration_sec": 0.9595,
+      "motion_state": "stationary",
+      "start_reason": "track_gap",
+      "direction_proposal": null,
+      "displacement_px": 16.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t2_s04",
+      "duration_sec": 0.0417,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t2_s05",
+      "duration_sec": 0.0,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t3_s01",
+      "duration_sec": 0.292,
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "direction_proposal": null,
+      "displacement_px": 8.14
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t3_s03",
+      "duration_sec": 0.4589,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "direction_proposal": null,
+      "displacement_px": 14.32
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t8_s06",
+      "duration_sec": 0.0,
+      "motion_state": "stationary",
+      "start_reason": "track_gap",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t9_s02",
+      "duration_sec": 0.0,
+      "motion_state": "stationary",
+      "start_reason": "track_gap",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t16_s01",
+      "duration_sec": 0.4172,
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "direction_proposal": null,
+      "displacement_px": 10.92
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t16_s03",
+      "duration_sec": 0.1252,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t17_s03",
+      "duration_sec": 0.3338,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "direction_proposal": null,
+      "displacement_px": 4.5
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t17_s04",
+      "duration_sec": 0.0834,
+      "motion_state": "stationary",
+      "start_reason": "stationary_interval",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t18_s07",
+      "duration_sec": 0.1252,
+      "motion_state": "moving",
+      "start_reason": "coherent_movement",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t18_s08",
+      "duration_sec": 0.7092,
+      "motion_state": "moving",
+      "start_reason": "coherent_movement",
+      "direction_proposal": null,
+      "displacement_px": 3.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t21_s01",
+      "duration_sec": 0.3755,
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "direction_proposal": null,
+      "displacement_px": 1.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t21_s04",
+      "duration_sec": 0.0417,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t37_s04",
+      "duration_sec": 0.5006,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t42_s03",
+      "duration_sec": 0.1252,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t47_s01",
+      "duration_sec": 0.4589,
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "direction_proposal": null,
+      "displacement_px": 20.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t47_s04",
+      "duration_sec": 0.8761,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t55_s01",
+      "duration_sec": 0.1669,
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "direction_proposal": null,
+      "displacement_px": 2.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t56_s01",
+      "duration_sec": 0.9595,
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "direction_proposal": null,
+      "displacement_px": 16.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t57_s01",
+      "duration_sec": 0.0,
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t58_s02",
+      "duration_sec": 0.1669,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "direction_proposal": null,
+      "displacement_px": 3.5
+    },
+    {
+      "segment_id": "VIRAT_S_010003_03_000219_000259_t3_s04",
+      "duration_sec": 0.0417,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "direction_proposal": null,
+      "displacement_px": 1.12
+    },
+    {
+      "segment_id": "VIRAT_S_010003_03_000219_000259_t8_s03",
+      "duration_sec": 0.9178,
+      "motion_state": "stationary",
+      "start_reason": "activity_boundary",
+      "direction_proposal": null,
+      "displacement_px": 28.0
+    },
+    {
+      "segment_id": "VIRAT_S_010003_03_000219_000259_t21_s01",
+      "duration_sec": 0.9595,
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "direction_proposal": null,
+      "displacement_px": 10.5
+    },
+    {
+      "segment_id": "VIRAT_S_010106_02_000656_000692_t5_s02",
+      "duration_sec": 0.0,
+      "motion_state": "stationary",
+      "start_reason": "track_gap",
+      "direction_proposal": null,
+      "displacement_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010107_00_000019_000057_t12_s01",
+      "duration_sec": 0.9595,
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "direction_proposal": null,
+      "displacement_px": 9.0
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t6_s01",
+      "duration_sec": 0.3338,
+      "motion_state": "stationary",
+      "start_reason": "track_start",
+      "direction_proposal": null,
+      "displacement_px": 1.8
+    }
+  ],
+  "direction_reversal_segments": [
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t52_s02",
+      "time": [
+        132.6658,
+        144.9729
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "right_to_left",
+      "displacement_px": 494.36,
+      "path_length_px": 524.42
+    }
+  ],
+  "stationary_segments": [
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t7_s02",
+      "time": [
+        7.8431,
+        28.2436
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 27.72,
+      "path_length_px": 34.51
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t7_s04",
+      "time": [
+        35.753,
+        37.3801
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 12.17,
+      "path_length_px": 14.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t7_s06",
+      "time": [
+        44.6391,
+        47.6846
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t8_s03",
+      "time": [
+        27.8264,
+        32.5824
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 28.5,
+      "path_length_px": 32.63
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t10_s02",
+      "time": [
+        7.718,
+        50.9387
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 34.0,
+      "path_length_px": 48.63
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t12_s03",
+      "time": [
+        19.1907,
+        31.6646
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 37.02,
+      "path_length_px": 46.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t17_s04",
+      "time": [
+        197.9141,
+        197.9975
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t18_s04",
+      "time": [
+        90.4881,
+        107.5928
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 5.32,
+      "path_length_px": 97.55
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t38_s04",
+      "time": [
+        29.5786,
+        32.9996
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 23.0,
+      "path_length_px": 23.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t43_s02",
+      "time": [
+        118.1477,
+        126.0325
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t51_s02",
+      "time": [
+        62.1193,
+        63.4543
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 1.0,
+      "path_length_px": 1.0
+    },
+    {
+      "segment_id": "VIRAT_S_010003_03_000219_000259_t3_s02",
+      "time": [
+        6.675,
+        8.6358
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 11.4,
+      "path_length_px": 16.0
+    },
+    {
+      "segment_id": "VIRAT_S_010107_00_000019_000057_t8_s02",
+      "time": [
+        9.5536,
+        16.8127
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 39.5,
+      "path_length_px": 59.83
+    },
+    {
+      "segment_id": "VIRAT_S_010107_00_000019_000057_t8_s04",
+      "time": [
+        22.7785,
+        36.1285
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 52.6,
+      "path_length_px": 74.5
+    },
+    {
+      "segment_id": "VIRAT_S_010111_08_000920_000954_t88_s02",
+      "time": [
+        6.383,
+        13.3917
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 22.14,
+      "path_length_px": 23.9
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t1_s02",
+      "time": [
+        8.3855,
+        11.5144
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 19.01,
+      "path_length_px": 22.95
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t6_s04",
+      "time": [
+        32.9996,
+        35.5861
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 13.21,
+      "path_length_px": 15.07
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t6_s06",
+      "time": [
+        37.7138,
+        41.9691
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 34.0,
+      "path_length_px": 38.8
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t15_s02",
+      "time": [
+        19.8164,
+        29.829
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 31.4,
+      "path_length_px": 54.83
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t16_s02",
+      "time": [
+        20.3171,
+        25.8239
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 27.28,
+      "path_length_px": 35.62
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t16_s05",
+      "time": [
+        35.0438,
+        37.5469
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    }
+  ],
+  "activity_boundary_segments": [
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t0_s02",
+      "time": [
+        158.6149,
+        203.6713
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "right_to_left",
+      "displacement_px": 1046.51,
+      "path_length_px": 1217.75
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t2_s02",
+      "time": [
+        159.5327,
+        193.8673
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "left_to_right",
+      "displacement_px": 940.24,
+      "path_length_px": 1058.34
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t2_s03",
+      "time": [
+        193.9091,
+        196.5373
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t2_s04",
+      "time": [
+        196.5791,
+        196.6208
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t2_s05",
+      "time": [
+        196.6625,
+        196.6625
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t3_s02",
+      "time": [
+        172.9245,
+        200.292
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "right_to_left",
+      "displacement_px": 1178.8,
+      "path_length_px": 1210.46
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t3_s03",
+      "time": [
+        200.3338,
+        200.7927
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 14.32,
+      "path_length_px": 15.24
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t8_s05",
+      "time": [
+        40.1752,
+        41.6771
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 14.43,
+      "path_length_px": 17.5
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t12_s02",
+      "time": [
+        11.0138,
+        19.1489
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "right_to_left",
+      "displacement_px": 180.06,
+      "path_length_px": 188.93
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t16_s02",
+      "time": [
+        148.6024,
+        179.0154
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "left_to_right",
+      "displacement_px": 1190.51,
+      "path_length_px": 1227.45
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t16_s03",
+      "time": [
+        179.0572,
+        179.1823
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t17_s02",
+      "time": [
+        151.3141,
+        197.3717
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "left_to_right",
+      "displacement_px": 1160.57,
+      "path_length_px": 1323.56
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t17_s03",
+      "time": [
+        197.4134,
+        197.7472
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 4.5,
+      "path_length_px": 4.5
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t21_s02",
+      "time": [
+        65.9574,
+        67.2924
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 19.5,
+      "path_length_px": 19.5
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t21_s03",
+      "time": [
+        67.3342,
+        73.0496
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "left_to_right",
+      "displacement_px": 232.07,
+      "path_length_px": 237.03
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t21_s04",
+      "time": [
+        73.0914,
+        73.1331
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t37_s02",
+      "time": [
+        16.6041,
+        29.1197
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "left_to_right",
+      "displacement_px": 534.8,
+      "path_length_px": 546.3
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t37_s03",
+      "time": [
+        29.1615,
+        32.2069
+      ],
+      "motion_state": "moving",
+      "direction_proposal": null,
+      "displacement_px": 25.5,
+      "path_length_px": 29.24
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t37_s04",
+      "time": [
+        32.2486,
+        32.7493
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t38_s03",
+      "time": [
+        12.5156,
+        29.5369
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "left_to_right",
+      "displacement_px": 259.13,
+      "path_length_px": 281.34
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t38_s06",
+      "time": [
+        36.0451,
+        37.839
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 1.5,
+      "path_length_px": 1.5
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t39_s02",
+      "time": [
+        38.0893,
+        39.8832
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 12.04,
+      "path_length_px": 12.41
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t42_s02",
+      "time": [
+        118.3563,
+        121.1514
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t42_s03",
+      "time": [
+        121.1932,
+        121.3183
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t47_s02",
+      "time": [
+        250.3129,
+        257.9892
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "right_to_left",
+      "displacement_px": 218.75,
+      "path_length_px": 229.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t47_s03",
+      "time": [
+        258.0309,
+        260.4088
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 12.02,
+      "path_length_px": 15.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t47_s04",
+      "time": [
+        260.4506,
+        261.3267
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t47_s05",
+      "time": [
+        261.3684,
+        263.7046
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 0.0,
+      "path_length_px": 0.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t55_s02",
+      "time": [
+        281.5186,
+        285.1481
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 10.12,
+      "path_length_px": 33.86
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t55_s03",
+      "time": [
+        285.1898,
+        290.9887
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "left_to_right",
+      "displacement_px": 227.82,
+      "path_length_px": 247.8
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t56_s02",
+      "time": [
+        279.6412,
+        282.3529
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 5.7,
+      "path_length_px": 27.0
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t56_s03",
+      "time": [
+        282.3947,
+        289.6955
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "left_to_right",
+      "displacement_px": 239.38,
+      "path_length_px": 248.85
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t57_s02",
+      "time": [
+        284.4389,
+        286.9837
+      ],
+      "motion_state": "moving",
+      "direction_proposal": null,
+      "displacement_px": 32.57,
+      "path_length_px": 41.09
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t57_s03",
+      "time": [
+        287.0254,
+        299.8331
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "right_to_left",
+      "displacement_px": 247.7,
+      "path_length_px": 256.74
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t58_s02",
+      "time": [
+        266.8753,
+        267.0421
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 3.5,
+      "path_length_px": 3.5
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t58_s03",
+      "time": [
+        267.0839,
+        269.0446
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 5.5,
+      "path_length_px": 5.5
+    },
+    {
+      "segment_id": "VIRAT_S_010001_02_000195_000498_t58_s05",
+      "time": [
+        288.4022,
+        299.8331
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "right_to_left",
+      "displacement_px": 229.14,
+      "path_length_px": 236.0
+    },
+    {
+      "segment_id": "VIRAT_S_010003_03_000219_000259_t3_s04",
+      "time": [
+        28.7443,
+        28.786
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 1.12,
+      "path_length_px": 1.12
+    },
+    {
+      "segment_id": "VIRAT_S_010003_03_000219_000259_t7_s02",
+      "time": [
+        13.4752,
+        22.5699
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "left_to_right",
+      "displacement_px": 286.71,
+      "path_length_px": 295.53
+    },
+    {
+      "segment_id": "VIRAT_S_010003_03_000219_000259_t8_s02",
+      "time": [
+        1.043,
+        13.3083
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "left_to_right",
+      "displacement_px": 433.37,
+      "path_length_px": 489.46
+    },
+    {
+      "segment_id": "VIRAT_S_010003_03_000219_000259_t8_s03",
+      "time": [
+        13.35,
+        14.2678
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 28.0,
+      "path_length_px": 28.83
+    },
+    {
+      "segment_id": "VIRAT_S_010003_03_000219_000259_t16_s02",
+      "time": [
+        5.6738,
+        13.3917
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "right_to_left",
+      "displacement_px": 224.16,
+      "path_length_px": 249.58
+    },
+    {
+      "segment_id": "VIRAT_S_010003_03_000219_000259_t21_s03",
+      "time": [
+        21.6938,
+        39.9666
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "right_to_left",
+      "displacement_px": 414.71,
+      "path_length_px": 464.74
+    },
+    {
+      "segment_id": "VIRAT_S_010106_02_000656_000692_t10_s02",
+      "time": [
+        10.096,
+        34.9186
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 17.1,
+      "path_length_px": 32.85
+    },
+    {
+      "segment_id": "VIRAT_S_010107_00_000019_000057_t7_s02",
+      "time": [
+        33.2082,
+        34.5849
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 6.08,
+      "path_length_px": 6.24
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t1_s04",
+      "time": [
+        24.8227,
+        25.9074
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 2.83,
+      "path_length_px": 4.0
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t6_s02",
+      "time": [
+        16.9378,
+        28.5774
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 48.84,
+      "path_length_px": 64.02
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t7_s03",
+      "time": [
+        32.5824,
+        41.9691
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 59.68,
+      "path_length_px": 127.63
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t8_s02",
+      "time": [
+        38.9237,
+        41.9691
+      ],
+      "motion_state": "moving",
+      "direction_proposal": "right_to_left",
+      "displacement_px": 234.55,
+      "path_length_px": 238.7
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t15_s03",
+      "time": [
+        29.8707,
+        31.748
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 3.61,
+      "path_length_px": 5.0
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t15_s04",
+      "time": [
+        31.7897,
+        33.7922
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 4.0,
+      "path_length_px": 4.0
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t16_s03",
+      "time": [
+        25.8657,
+        31.748
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 5.7,
+      "path_length_px": 24.41
+    },
+    {
+      "segment_id": "VIRAT_S_010207_10_001549_001596_t16_s04",
+      "time": [
+        31.7897,
+        34.5849
+      ],
+      "motion_state": "stationary",
+      "direction_proposal": null,
+      "displacement_px": 18.82,
+      "path_length_px": 23.5
+    }
+  ]
+}

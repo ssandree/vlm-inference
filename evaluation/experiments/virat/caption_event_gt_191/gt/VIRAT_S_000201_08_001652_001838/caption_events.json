@@ -1,0 +1,130 @@
+{
+  "video_id": "VIRAT_S_000201_08_001652_001838",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "2"
+      ],
+      "start_frame": 551,
+      "end_frame": 734,
+      "start_time": 18.3667,
+      "end_time": 24.4667,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "2"
+      },
+      "action": "getting_out_of_vehicle",
+      "object": [
+        {
+          "track_id": "1",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "5"
+      ],
+      "start_frame": 3174,
+      "end_frame": 3644,
+      "start_time": 105.8,
+      "end_time": 121.4667,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "5"
+      },
+      "action": "getting_out_of_vehicle",
+      "object": [
+        {
+          "track_id": "3",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "5"
+      ],
+      "start_frame": 3708,
+      "end_frame": 3816,
+      "start_time": 123.6,
+      "end_time": 127.2,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "5"
+      },
+      "action": "unloading_object_from_vehicle",
+      "object": [
+        {
+          "track_id": "3",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE004",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_frame": 5193,
+      "end_frame": 5369,
+      "start_time": 173.1,
+      "end_time": 178.9667,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "7"
+      },
+      "action": "getting_out_of_vehicle",
+      "object": [
+        {
+          "track_id": "6",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

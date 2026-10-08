@@ -1,0 +1,14 @@
+This is a short clip with little camera motion.
+
+[Global] images show the full scene. Each [Global] is inserted once at the start of a motion region.
+[ROI#] images are cropped views of that motion region from the same clip.
+ROI sampling is 1 fps by default and densifies to 2 fps when the motion centroid inside the crop jumps.
+A single ROI may contain different subjects or events over time.
+
+Identify all distinct events in chronological order.
+Treat different subjects or actions as separate events, and describe each continuous event only once.
+Use Global images for scene context and ROI images for motion details.
+
+Describe only visible actions using concrete descriptions of who or what does what. Do not summarize multiple distinct actions into a general statement when they can be described separately.
+Write one concise sentence per event as a single paragraph.
+Do not use timestamps, labels, bullets, markdown, or introductory text.

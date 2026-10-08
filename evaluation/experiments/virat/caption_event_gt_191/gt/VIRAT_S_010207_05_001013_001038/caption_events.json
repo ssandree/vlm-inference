@@ -1,0 +1,30 @@
+{
+  "video_id": "VIRAT_S_010207_05_001013_001038",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "0"
+      ],
+      "start_frame": 179,
+      "end_frame": 225,
+      "start_time": 7.4677,
+      "end_time": 9.3867,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "0"
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

@@ -1,0 +1,1204 @@
+{
+  "combinations": [
+    {
+      "temporal_threshold": 0.3,
+      "spatial_threshold": 0.1,
+      "closest_accepted": {
+        "role": "closest_accepted",
+        "temporal_threshold": 0.3,
+        "spatial_threshold": 0.1,
+        "accepted": true,
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010001_02_000195_000498.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "63",
+          "64"
+        ],
+        "subject_track_ids": [
+          "56",
+          "55"
+        ],
+        "activity_classes": [
+          "person_exiting_facility",
+          "person_exiting_facility"
+        ],
+        "caption_action": "exiting_facility",
+        "overlap_start_frame": 6748,
+        "overlap_end_frame": 6768,
+        "temporal_overlap_ratio": 0.3182,
+        "n_overlap_frames": 21,
+        "n_distance_frames": 21,
+        "median_normalized_distance": 0.0052,
+        "p90_normalized_distance": 0.009,
+        "max_normalized_distance": 0.009
+      },
+      "farthest_accepted": {
+        "role": "farthest_accepted",
+        "temporal_threshold": 0.3,
+        "spatial_threshold": 0.1,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "13"
+        ],
+        "subject_track_ids": [
+          "16",
+          "15"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 125,
+        "median_normalized_distance": 0.0184,
+        "p90_normalized_distance": 0.0238,
+        "max_normalized_distance": 0.0245
+      },
+      "nearest_rejected": {
+        "role": "nearest_rejected",
+        "temporal_threshold": 0.3,
+        "spatial_threshold": 0.1,
+        "accepted": false,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "6",
+          "7"
+        ],
+        "subject_track_ids": [
+          "13",
+          "3"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 38,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 39,
+        "n_distance_frames": 39,
+        "median_normalized_distance": 0.1578,
+        "p90_normalized_distance": 0.179,
+        "max_normalized_distance": 0.1792
+      }
+    },
+    {
+      "temporal_threshold": 0.3,
+      "spatial_threshold": 0.15,
+      "closest_accepted": {
+        "role": "closest_accepted",
+        "temporal_threshold": 0.3,
+        "spatial_threshold": 0.15,
+        "accepted": true,
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010001_02_000195_000498.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "63",
+          "64"
+        ],
+        "subject_track_ids": [
+          "56",
+          "55"
+        ],
+        "activity_classes": [
+          "person_exiting_facility",
+          "person_exiting_facility"
+        ],
+        "caption_action": "exiting_facility",
+        "overlap_start_frame": 6748,
+        "overlap_end_frame": 6768,
+        "temporal_overlap_ratio": 0.3182,
+        "n_overlap_frames": 21,
+        "n_distance_frames": 21,
+        "median_normalized_distance": 0.0052,
+        "p90_normalized_distance": 0.009,
+        "max_normalized_distance": 0.009
+      },
+      "farthest_accepted": {
+        "role": "farthest_accepted",
+        "temporal_threshold": 0.3,
+        "spatial_threshold": 0.15,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "13"
+        ],
+        "subject_track_ids": [
+          "16",
+          "15"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 125,
+        "median_normalized_distance": 0.0184,
+        "p90_normalized_distance": 0.0238,
+        "max_normalized_distance": 0.0245
+      },
+      "nearest_rejected": {
+        "role": "nearest_rejected",
+        "temporal_threshold": 0.3,
+        "spatial_threshold": 0.15,
+        "accepted": false,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "6",
+          "7"
+        ],
+        "subject_track_ids": [
+          "13",
+          "3"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 38,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 39,
+        "n_distance_frames": 39,
+        "median_normalized_distance": 0.1578,
+        "p90_normalized_distance": 0.179,
+        "max_normalized_distance": 0.1792
+      }
+    },
+    {
+      "temporal_threshold": 0.3,
+      "spatial_threshold": 0.2,
+      "closest_accepted": {
+        "role": "closest_accepted",
+        "temporal_threshold": 0.3,
+        "spatial_threshold": 0.2,
+        "accepted": true,
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010001_02_000195_000498.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "63",
+          "64"
+        ],
+        "subject_track_ids": [
+          "56",
+          "55"
+        ],
+        "activity_classes": [
+          "person_exiting_facility",
+          "person_exiting_facility"
+        ],
+        "caption_action": "exiting_facility",
+        "overlap_start_frame": 6748,
+        "overlap_end_frame": 6768,
+        "temporal_overlap_ratio": 0.3182,
+        "n_overlap_frames": 21,
+        "n_distance_frames": 21,
+        "median_normalized_distance": 0.0052,
+        "p90_normalized_distance": 0.009,
+        "max_normalized_distance": 0.009
+      },
+      "farthest_accepted": {
+        "role": "farthest_accepted",
+        "temporal_threshold": 0.3,
+        "spatial_threshold": 0.2,
+        "accepted": true,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "6",
+          "7"
+        ],
+        "subject_track_ids": [
+          "13",
+          "3"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 38,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 39,
+        "n_distance_frames": 39,
+        "median_normalized_distance": 0.1578,
+        "p90_normalized_distance": 0.179,
+        "max_normalized_distance": 0.1792
+      },
+      "nearest_rejected": {
+        "role": "nearest_rejected",
+        "temporal_threshold": 0.3,
+        "spatial_threshold": 0.2,
+        "accepted": false,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "7",
+          "8"
+        ],
+        "subject_track_ids": [
+          "3",
+          "8"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 25,
+        "overlap_end_frame": 319,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 295,
+        "n_distance_frames": 295,
+        "median_normalized_distance": 0.4767,
+        "p90_normalized_distance": 0.5848,
+        "max_normalized_distance": 0.6122
+      }
+    },
+    {
+      "temporal_threshold": 0.3,
+      "spatial_threshold": 0.25,
+      "closest_accepted": {
+        "role": "closest_accepted",
+        "temporal_threshold": 0.3,
+        "spatial_threshold": 0.25,
+        "accepted": true,
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010001_02_000195_000498.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "63",
+          "64"
+        ],
+        "subject_track_ids": [
+          "56",
+          "55"
+        ],
+        "activity_classes": [
+          "person_exiting_facility",
+          "person_exiting_facility"
+        ],
+        "caption_action": "exiting_facility",
+        "overlap_start_frame": 6748,
+        "overlap_end_frame": 6768,
+        "temporal_overlap_ratio": 0.3182,
+        "n_overlap_frames": 21,
+        "n_distance_frames": 21,
+        "median_normalized_distance": 0.0052,
+        "p90_normalized_distance": 0.009,
+        "max_normalized_distance": 0.009
+      },
+      "farthest_accepted": {
+        "role": "farthest_accepted",
+        "temporal_threshold": 0.3,
+        "spatial_threshold": 0.25,
+        "accepted": true,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "6",
+          "7"
+        ],
+        "subject_track_ids": [
+          "13",
+          "3"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 38,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 39,
+        "n_distance_frames": 39,
+        "median_normalized_distance": 0.1578,
+        "p90_normalized_distance": 0.179,
+        "max_normalized_distance": 0.1792
+      },
+      "nearest_rejected": {
+        "role": "nearest_rejected",
+        "temporal_threshold": 0.3,
+        "spatial_threshold": 0.25,
+        "accepted": false,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "7",
+          "8"
+        ],
+        "subject_track_ids": [
+          "3",
+          "8"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 25,
+        "overlap_end_frame": 319,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 295,
+        "n_distance_frames": 295,
+        "median_normalized_distance": 0.4767,
+        "p90_normalized_distance": 0.5848,
+        "max_normalized_distance": 0.6122
+      }
+    },
+    {
+      "temporal_threshold": 0.5,
+      "spatial_threshold": 0.1,
+      "closest_accepted": {
+        "role": "closest_accepted",
+        "temporal_threshold": 0.5,
+        "spatial_threshold": 0.1,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "12"
+        ],
+        "subject_track_ids": [
+          "16",
+          "17"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 88,
+        "median_normalized_distance": 0.0097,
+        "p90_normalized_distance": 0.0121,
+        "max_normalized_distance": 0.0121
+      },
+      "farthest_accepted": {
+        "role": "farthest_accepted",
+        "temporal_threshold": 0.5,
+        "spatial_threshold": 0.1,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "13"
+        ],
+        "subject_track_ids": [
+          "16",
+          "15"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 125,
+        "median_normalized_distance": 0.0184,
+        "p90_normalized_distance": 0.0238,
+        "max_normalized_distance": 0.0245
+      },
+      "nearest_rejected": {
+        "role": "nearest_rejected",
+        "temporal_threshold": 0.5,
+        "spatial_threshold": 0.1,
+        "accepted": false,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "6",
+          "7"
+        ],
+        "subject_track_ids": [
+          "13",
+          "3"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 38,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 39,
+        "n_distance_frames": 39,
+        "median_normalized_distance": 0.1578,
+        "p90_normalized_distance": 0.179,
+        "max_normalized_distance": 0.1792
+      }
+    },
+    {
+      "temporal_threshold": 0.5,
+      "spatial_threshold": 0.15,
+      "closest_accepted": {
+        "role": "closest_accepted",
+        "temporal_threshold": 0.5,
+        "spatial_threshold": 0.15,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "12"
+        ],
+        "subject_track_ids": [
+          "16",
+          "17"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 88,
+        "median_normalized_distance": 0.0097,
+        "p90_normalized_distance": 0.0121,
+        "max_normalized_distance": 0.0121
+      },
+      "farthest_accepted": {
+        "role": "farthest_accepted",
+        "temporal_threshold": 0.5,
+        "spatial_threshold": 0.15,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "13"
+        ],
+        "subject_track_ids": [
+          "16",
+          "15"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 125,
+        "median_normalized_distance": 0.0184,
+        "p90_normalized_distance": 0.0238,
+        "max_normalized_distance": 0.0245
+      },
+      "nearest_rejected": {
+        "role": "nearest_rejected",
+        "temporal_threshold": 0.5,
+        "spatial_threshold": 0.15,
+        "accepted": false,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "6",
+          "7"
+        ],
+        "subject_track_ids": [
+          "13",
+          "3"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 38,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 39,
+        "n_distance_frames": 39,
+        "median_normalized_distance": 0.1578,
+        "p90_normalized_distance": 0.179,
+        "max_normalized_distance": 0.1792
+      }
+    },
+    {
+      "temporal_threshold": 0.5,
+      "spatial_threshold": 0.2,
+      "closest_accepted": {
+        "role": "closest_accepted",
+        "temporal_threshold": 0.5,
+        "spatial_threshold": 0.2,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "12"
+        ],
+        "subject_track_ids": [
+          "16",
+          "17"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 88,
+        "median_normalized_distance": 0.0097,
+        "p90_normalized_distance": 0.0121,
+        "max_normalized_distance": 0.0121
+      },
+      "farthest_accepted": {
+        "role": "farthest_accepted",
+        "temporal_threshold": 0.5,
+        "spatial_threshold": 0.2,
+        "accepted": true,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "6",
+          "7"
+        ],
+        "subject_track_ids": [
+          "13",
+          "3"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 38,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 39,
+        "n_distance_frames": 39,
+        "median_normalized_distance": 0.1578,
+        "p90_normalized_distance": 0.179,
+        "max_normalized_distance": 0.1792
+      },
+      "nearest_rejected": {
+        "role": "nearest_rejected",
+        "temporal_threshold": 0.5,
+        "spatial_threshold": 0.2,
+        "accepted": false,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "7",
+          "8"
+        ],
+        "subject_track_ids": [
+          "3",
+          "8"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 25,
+        "overlap_end_frame": 319,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 295,
+        "n_distance_frames": 295,
+        "median_normalized_distance": 0.4767,
+        "p90_normalized_distance": 0.5848,
+        "max_normalized_distance": 0.6122
+      }
+    },
+    {
+      "temporal_threshold": 0.5,
+      "spatial_threshold": 0.25,
+      "closest_accepted": {
+        "role": "closest_accepted",
+        "temporal_threshold": 0.5,
+        "spatial_threshold": 0.25,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "12"
+        ],
+        "subject_track_ids": [
+          "16",
+          "17"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 88,
+        "median_normalized_distance": 0.0097,
+        "p90_normalized_distance": 0.0121,
+        "max_normalized_distance": 0.0121
+      },
+      "farthest_accepted": {
+        "role": "farthest_accepted",
+        "temporal_threshold": 0.5,
+        "spatial_threshold": 0.25,
+        "accepted": true,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "6",
+          "7"
+        ],
+        "subject_track_ids": [
+          "13",
+          "3"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 38,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 39,
+        "n_distance_frames": 39,
+        "median_normalized_distance": 0.1578,
+        "p90_normalized_distance": 0.179,
+        "max_normalized_distance": 0.1792
+      },
+      "nearest_rejected": {
+        "role": "nearest_rejected",
+        "temporal_threshold": 0.5,
+        "spatial_threshold": 0.25,
+        "accepted": false,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "7",
+          "8"
+        ],
+        "subject_track_ids": [
+          "3",
+          "8"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 25,
+        "overlap_end_frame": 319,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 295,
+        "n_distance_frames": 295,
+        "median_normalized_distance": 0.4767,
+        "p90_normalized_distance": 0.5848,
+        "max_normalized_distance": 0.6122
+      }
+    },
+    {
+      "temporal_threshold": 0.7,
+      "spatial_threshold": 0.1,
+      "closest_accepted": {
+        "role": "closest_accepted",
+        "temporal_threshold": 0.7,
+        "spatial_threshold": 0.1,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "12"
+        ],
+        "subject_track_ids": [
+          "16",
+          "17"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 88,
+        "median_normalized_distance": 0.0097,
+        "p90_normalized_distance": 0.0121,
+        "max_normalized_distance": 0.0121
+      },
+      "farthest_accepted": {
+        "role": "farthest_accepted",
+        "temporal_threshold": 0.7,
+        "spatial_threshold": 0.1,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "13"
+        ],
+        "subject_track_ids": [
+          "16",
+          "15"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 125,
+        "median_normalized_distance": 0.0184,
+        "p90_normalized_distance": 0.0238,
+        "max_normalized_distance": 0.0245
+      },
+      "nearest_rejected": {
+        "role": "nearest_rejected",
+        "temporal_threshold": 0.7,
+        "spatial_threshold": 0.1,
+        "accepted": false,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "6",
+          "7"
+        ],
+        "subject_track_ids": [
+          "13",
+          "3"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 38,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 39,
+        "n_distance_frames": 39,
+        "median_normalized_distance": 0.1578,
+        "p90_normalized_distance": 0.179,
+        "max_normalized_distance": 0.1792
+      }
+    },
+    {
+      "temporal_threshold": 0.7,
+      "spatial_threshold": 0.15,
+      "closest_accepted": {
+        "role": "closest_accepted",
+        "temporal_threshold": 0.7,
+        "spatial_threshold": 0.15,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "12"
+        ],
+        "subject_track_ids": [
+          "16",
+          "17"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 88,
+        "median_normalized_distance": 0.0097,
+        "p90_normalized_distance": 0.0121,
+        "max_normalized_distance": 0.0121
+      },
+      "farthest_accepted": {
+        "role": "farthest_accepted",
+        "temporal_threshold": 0.7,
+        "spatial_threshold": 0.15,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "13"
+        ],
+        "subject_track_ids": [
+          "16",
+          "15"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 125,
+        "median_normalized_distance": 0.0184,
+        "p90_normalized_distance": 0.0238,
+        "max_normalized_distance": 0.0245
+      },
+      "nearest_rejected": {
+        "role": "nearest_rejected",
+        "temporal_threshold": 0.7,
+        "spatial_threshold": 0.15,
+        "accepted": false,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "6",
+          "7"
+        ],
+        "subject_track_ids": [
+          "13",
+          "3"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 38,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 39,
+        "n_distance_frames": 39,
+        "median_normalized_distance": 0.1578,
+        "p90_normalized_distance": 0.179,
+        "max_normalized_distance": 0.1792
+      }
+    },
+    {
+      "temporal_threshold": 0.7,
+      "spatial_threshold": 0.2,
+      "closest_accepted": {
+        "role": "closest_accepted",
+        "temporal_threshold": 0.7,
+        "spatial_threshold": 0.2,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "12"
+        ],
+        "subject_track_ids": [
+          "16",
+          "17"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 88,
+        "median_normalized_distance": 0.0097,
+        "p90_normalized_distance": 0.0121,
+        "max_normalized_distance": 0.0121
+      },
+      "farthest_accepted": {
+        "role": "farthest_accepted",
+        "temporal_threshold": 0.7,
+        "spatial_threshold": 0.2,
+        "accepted": true,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "6",
+          "7"
+        ],
+        "subject_track_ids": [
+          "13",
+          "3"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 38,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 39,
+        "n_distance_frames": 39,
+        "median_normalized_distance": 0.1578,
+        "p90_normalized_distance": 0.179,
+        "max_normalized_distance": 0.1792
+      },
+      "nearest_rejected": {
+        "role": "nearest_rejected",
+        "temporal_threshold": 0.7,
+        "spatial_threshold": 0.2,
+        "accepted": false,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "7",
+          "8"
+        ],
+        "subject_track_ids": [
+          "3",
+          "8"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 25,
+        "overlap_end_frame": 319,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 295,
+        "n_distance_frames": 295,
+        "median_normalized_distance": 0.4767,
+        "p90_normalized_distance": 0.5848,
+        "max_normalized_distance": 0.6122
+      }
+    },
+    {
+      "temporal_threshold": 0.7,
+      "spatial_threshold": 0.25,
+      "closest_accepted": {
+        "role": "closest_accepted",
+        "temporal_threshold": 0.7,
+        "spatial_threshold": 0.25,
+        "accepted": true,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "9",
+          "12"
+        ],
+        "subject_track_ids": [
+          "16",
+          "17"
+        ],
+        "activity_classes": [
+          "person_entering_facility",
+          "person_entering_facility"
+        ],
+        "caption_action": "entering_facility",
+        "overlap_start_frame": 762,
+        "overlap_end_frame": 903,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 142,
+        "n_distance_frames": 88,
+        "median_normalized_distance": 0.0097,
+        "p90_normalized_distance": 0.0121,
+        "max_normalized_distance": 0.0121
+      },
+      "farthest_accepted": {
+        "role": "farthest_accepted",
+        "temporal_threshold": 0.7,
+        "spatial_threshold": 0.25,
+        "accepted": true,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "6",
+          "7"
+        ],
+        "subject_track_ids": [
+          "13",
+          "3"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 38,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 39,
+        "n_distance_frames": 39,
+        "median_normalized_distance": 0.1578,
+        "p90_normalized_distance": 0.179,
+        "max_normalized_distance": 0.1792
+      },
+      "nearest_rejected": {
+        "role": "nearest_rejected",
+        "temporal_threshold": 0.7,
+        "spatial_threshold": 0.25,
+        "accepted": false,
+        "video_id": "VIRAT_S_010003_03_000219_000259",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010003_03_000219_000259.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "event_ids": [
+          "7",
+          "8"
+        ],
+        "subject_track_ids": [
+          "3",
+          "8"
+        ],
+        "activity_classes": [
+          "person_carrying_object",
+          "person_carrying_object"
+        ],
+        "caption_action": "carrying_object",
+        "overlap_start_frame": 25,
+        "overlap_end_frame": 319,
+        "temporal_overlap_ratio": 1.0,
+        "n_overlap_frames": 295,
+        "n_distance_frames": 295,
+        "median_normalized_distance": 0.4767,
+        "p90_normalized_distance": 0.5848,
+        "max_normalized_distance": 0.6122
+      }
+    }
+  ]
+}

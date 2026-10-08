@@ -1,0 +1,531 @@
+{
+  "video_id": "VIRAT_S_010107_00_000019_000057",
+  "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010107_00_000019_000057.mp4",
+  "source_events_json": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/dense_event_gt/VIRAT_S_010107_00_000019_000057.events.json",
+  "fps": 23.97,
+  "frame_width": 1280,
+  "frame_height": 720,
+  "nb_frames": 867,
+  "duration_sec": 36.1702,
+  "roi_context": {
+    "source": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/fullframe_proposed_roi_59_8b_fp16/inputs/VIRAT_S_010107_00_000019_000057/manifest.json",
+    "n_rois": 3,
+    "rois": [
+      {
+        "roi_id": 1,
+        "bbox_px": [
+          192,
+          128,
+          640,
+          448
+        ],
+        "area_frac": 0.1556,
+        "centroid_norm": [
+          0.325,
+          0.4
+        ],
+        "n_frames": 37
+      },
+      {
+        "roi_id": 2,
+        "bbox_px": [
+          896,
+          0,
+          1024,
+          64
+        ],
+        "area_frac": 0.0089,
+        "centroid_norm": [
+          0.75,
+          0.0444
+        ],
+        "n_frames": 6
+      },
+      {
+        "roi_id": 3,
+        "bbox_px": [
+          960,
+          384,
+          1280,
+          512
+        ],
+        "area_frac": 0.0444,
+        "centroid_norm": [
+          0.875,
+          0.6222
+        ],
+        "n_frames": 10
+      }
+    ]
+  },
+  "field_guide": {
+    "candidate_events": "VIRAT annotation kept as candidate atomic events. Do not merge on temporal overlap alone.",
+    "review.decision": "null until reviewed. Then KEEP, EXCLUDE, or GROUP.",
+    "review.visibility": "unreviewed until a person sets high, medium, or low.",
+    "review.captionable": "null until a person sets true or false.",
+    "review.include_primary_eval": "null until a person sets true or false.",
+    "review.semantic_location": "Place name written by a person. screen_location is only a frame-grid bin.",
+    "track_motion": "Endpoint displacement of the subject track. Not a required caption slot.",
+    "duplicate_candidate": "Same subject track, same activity class, and overlap covering at least 80% of the shorter interval. Members stay as separate candidates. A person chooses which one to keep.",
+    "same_actor_different_activity": "Do not merge. Exit plus carry, or carry plus enter, remain separate events.",
+    "different_spatial_region": "Concurrent events in different regions stay separate. Do not merge them.",
+    "screen_bins": "left_bottom, left_middle, and the other 3x3 bins are screen_location only. They are not an event-grouping criterion.",
+    "grouping": "Do not create a group from 3x3 bins. A people-group, if a person adds one, is for a general action such as walking and must not absorb enter, exit, carry, run, or vehicle actions.",
+    "human_added_events": "Actions outside the VIRAT 12 classes are added here by a person. Leave empty until then.",
+    "reference_sentence": "Leave null.",
+    "carrying_without_object_track": "Carrying candidates with no mapped object track are captioned as person, not carrying. The VIRAT activity_class stays person_carrying_object. Carrying candidates that have an object track are unchanged."
+  },
+  "candidate_events": [
+    {
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "event_id": "0",
+      "activity_class": "person_opening_vehicle_trunk",
+      "activity_type_id": 3,
+      "start_frame": 796,
+      "end_frame": 844,
+      "start_time": 33.2082,
+      "end_time": 35.2107,
+      "time_unit": "seconds",
+      "temporal_source": "virat_annotation",
+      "annotated_duration_frames": 49,
+      "subject": {
+        "track_id": "7",
+        "category": "person",
+        "object_type_id": 1,
+        "source": "virat_mapping",
+        "status": "unique_person",
+        "role_rule": "unique_type1_participant_of_person_centric_activity"
+      },
+      "object": [
+        {
+          "track_id": "14",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "tracks": [
+        {
+          "track_id": "7",
+          "category": "person",
+          "object_type_id": 1,
+          "source": "virat_mapping",
+          "missing_from_objects_file": false,
+          "relation": "subject",
+          "start_frame": 796,
+          "end_frame": 844,
+          "n_boxes_in_interval": 34,
+          "interval_coverage": 0.6939,
+          "screen_location": {
+            "source": "derived_from_track",
+            "value": "right_middle",
+            "method": "median_centroid_3x3",
+            "median_centroid_norm": [
+              0.8078,
+              0.6326
+            ],
+            "n_boxes": 34
+          },
+          "track_motion": {
+            "source": "derived_from_track",
+            "method": "endpoint_displacement",
+            "dx_px": 6.0,
+            "dy_px": 1.0,
+            "displacement_px": 6.08,
+            "threshold_px": 64.0,
+            "first_frame": 796,
+            "last_frame": 829,
+            "n_boxes": 34,
+            "value": null,
+            "reason": "below_displacement_threshold"
+          }
+        },
+        {
+          "track_id": "14",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping",
+          "missing_from_objects_file": false,
+          "relation": "object",
+          "start_frame": 796,
+          "end_frame": 844,
+          "n_boxes_in_interval": 49,
+          "interval_coverage": 1.0,
+          "screen_location": {
+            "source": "derived_from_track",
+            "value": "right_bottom",
+            "method": "median_centroid_3x3",
+            "median_centroid_norm": [
+              0.8637,
+              0.7111
+            ],
+            "n_boxes": 49
+          },
+          "track_motion": {
+            "source": "derived_from_track",
+            "method": "endpoint_displacement",
+            "dx_px": 0.0,
+            "dy_px": 1.0,
+            "displacement_px": 1.0,
+            "threshold_px": 64.0,
+            "first_frame": 796,
+            "last_frame": 844,
+            "n_boxes": 49,
+            "value": null,
+            "reason": "below_displacement_threshold"
+          }
+        }
+      ],
+      "screen_location": {
+        "source": "derived_from_track",
+        "value": "right_middle",
+        "track_id": "7",
+        "method": "median_centroid_3x3",
+        "median_centroid_norm": [
+          0.8078,
+          0.6326
+        ],
+        "n_boxes": 34,
+        "reason": null
+      },
+      "track_motion": {
+        "source": "derived_from_track",
+        "value": null,
+        "track_id": "7",
+        "method": "endpoint_displacement",
+        "dx_px": 6.0,
+        "dy_px": 1.0,
+        "displacement_px": 6.08,
+        "threshold_px": 64.0,
+        "first_frame": 796,
+        "last_frame": 829,
+        "n_boxes": 34,
+        "reason": "below_displacement_threshold"
+      },
+      "source": "virat_annotation",
+      "reference_sentence": null,
+      "review": {
+        "decision": null,
+        "group_id": null,
+        "visibility": "unreviewed",
+        "captionable": null,
+        "include_primary_eval": null,
+        "semantic_location": null,
+        "review_note": ""
+      },
+      "duplicate_candidate": null
+    },
+    {
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "event_id": "1",
+      "activity_class": "person_carrying_object",
+      "activity_type_id": 9,
+      "start_frame": 0,
+      "end_frame": 866,
+      "start_time": 0.0,
+      "end_time": 36.1285,
+      "time_unit": "seconds",
+      "temporal_source": "virat_annotation",
+      "annotated_duration_frames": 867,
+      "subject": {
+        "track_id": "8",
+        "category": "person",
+        "object_type_id": 1,
+        "source": "virat_mapping",
+        "status": "unique_person",
+        "role_rule": "unique_type1_participant_of_person_centric_activity"
+      },
+      "object": [
+        {
+          "track_id": "9",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "tracks": [
+        {
+          "track_id": "8",
+          "category": "person",
+          "object_type_id": 1,
+          "source": "virat_mapping",
+          "missing_from_objects_file": false,
+          "relation": "subject",
+          "start_frame": 0,
+          "end_frame": 866,
+          "n_boxes_in_interval": 867,
+          "interval_coverage": 1.0,
+          "screen_location": {
+            "source": "derived_from_track",
+            "value": "left_middle",
+            "method": "median_centroid_3x3",
+            "median_centroid_norm": [
+              0.2254,
+              0.3972
+            ],
+            "n_boxes": 867
+          },
+          "track_motion": {
+            "source": "derived_from_track",
+            "method": "endpoint_displacement",
+            "dx_px": -25.5,
+            "dy_px": -172.0,
+            "displacement_px": 173.88,
+            "threshold_px": 64.0,
+            "first_frame": 0,
+            "last_frame": 866,
+            "n_boxes": 867,
+            "value": "up"
+          }
+        },
+        {
+          "track_id": "9",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping",
+          "missing_from_objects_file": false,
+          "relation": "object",
+          "start_frame": 0,
+          "end_frame": 866,
+          "n_boxes_in_interval": 867,
+          "interval_coverage": 1.0,
+          "screen_location": {
+            "source": "derived_from_track",
+            "value": "left_middle",
+            "method": "median_centroid_3x3",
+            "median_centroid_norm": [
+              0.2348,
+              0.4028
+            ],
+            "n_boxes": 867
+          },
+          "track_motion": {
+            "source": "derived_from_track",
+            "method": "endpoint_displacement",
+            "dx_px": -27.0,
+            "dy_px": -174.0,
+            "displacement_px": 176.08,
+            "threshold_px": 64.0,
+            "first_frame": 0,
+            "last_frame": 866,
+            "n_boxes": 867,
+            "value": "up"
+          }
+        }
+      ],
+      "screen_location": {
+        "source": "derived_from_track",
+        "value": "left_middle",
+        "track_id": "8",
+        "method": "median_centroid_3x3",
+        "median_centroid_norm": [
+          0.2254,
+          0.3972
+        ],
+        "n_boxes": 867,
+        "reason": null
+      },
+      "track_motion": {
+        "source": "derived_from_track",
+        "value": "up",
+        "track_id": "8",
+        "method": "endpoint_displacement",
+        "dx_px": -25.5,
+        "dy_px": -172.0,
+        "displacement_px": 173.88,
+        "threshold_px": 64.0,
+        "first_frame": 0,
+        "last_frame": 866,
+        "n_boxes": 867,
+        "reason": null
+      },
+      "source": "virat_annotation",
+      "reference_sentence": null,
+      "review": {
+        "decision": null,
+        "group_id": null,
+        "visibility": "unreviewed",
+        "captionable": null,
+        "include_primary_eval": null,
+        "semantic_location": null,
+        "review_note": ""
+      },
+      "duplicate_candidate": null
+    }
+  ],
+  "duplicate_candidate_groups": [],
+  "human_added_events": [],
+  "human_added_event_template": {
+    "event_id": "H1",
+    "start_time": null,
+    "end_time": null,
+    "subject": {
+      "category": null,
+      "group": false
+    },
+    "action": null,
+    "object": null,
+    "semantic_location": null,
+    "visibility": null,
+    "captionable": null,
+    "include_primary_eval": null,
+    "reference_sentence": null,
+    "source": "human_annotation",
+    "notes": ""
+  },
+  "possible_group_events": [],
+  "possible_group_event_template": {
+    "group_id": "G1",
+    "member_event_ids": [],
+    "action": null,
+    "subject": {
+      "category": "people",
+      "group": true
+    },
+    "start_time": null,
+    "end_time": null,
+    "semantic_location": null,
+    "review_note": ""
+  },
+  "ambiguous_cases": [],
+  "ambiguous_case_template": {
+    "case_id": "A1",
+    "related_event_ids": [],
+    "question": "",
+    "review_note": ""
+  },
+  "evidence": {
+    "note": "Computed from annotation time and track displacement. 3x3 screen bins are not a grouping criterion. Not a visibility or captionability label.",
+    "grouping_policy": {
+      "duplicate_rule": "same subject track, same activity class, shorter interval coverage >= 0.8",
+      "same_actor_different_activity_merged": false,
+      "different_spatial_region_merged": false,
+      "screen_bins_used_for_grouping": false
+    },
+    "n_candidate_events": 2,
+    "concurrent_windows": [
+      {
+        "start_frame": 796,
+        "end_frame": 844,
+        "event_ids": [
+          "0",
+          "1"
+        ],
+        "start_time": 33.2082,
+        "end_time": 35.2107,
+        "activity_classes": [
+          "person_opening_vehicle_trunk",
+          "person_carrying_object"
+        ],
+        "subject_track_ids": [
+          "7",
+          "8"
+        ],
+        "screen_locations": [
+          "right_middle",
+          "left_middle"
+        ],
+        "same_activity_class": false,
+        "left_and_right": true
+      }
+    ],
+    "same_action_multi_person": [],
+    "left_right_concurrent": [
+      {
+        "event_ids": [
+          "0",
+          "1"
+        ],
+        "activity_classes": [
+          "person_opening_vehicle_trunk",
+          "person_carrying_object"
+        ],
+        "subject_track_ids": [
+          "7",
+          "8"
+        ],
+        "overlap_start_time": 33.2082,
+        "overlap_end_time": 35.2107,
+        "screen_locations": [
+          "right_middle",
+          "left_middle"
+        ],
+        "decision": null
+      }
+    ],
+    "carrying_without_object_track": [],
+    "carrying_with_object_track": [
+      "1"
+    ],
+    "structural_visibility_review": [
+      {
+        "event_id": "0",
+        "activity_class": "person_opening_vehicle_trunk",
+        "reasons": [
+          "subject_displacement_below_threshold"
+        ],
+        "visibility": "unreviewed"
+      }
+    ],
+    "duplicate_candidate_groups": [],
+    "same_actor_different_activity_not_merged": [],
+    "unannotated_moving_person_tracks": [
+      {
+        "track_id": "0",
+        "category": "person",
+        "first_frame": 182,
+        "last_frame": 621,
+        "displacement_px": 589.6,
+        "threshold_px": 64.0,
+        "not_an_event": true,
+        "note": "Person track is outside every VIRAT event mapping and moves past the displacement threshold. Not labeled as walking."
+      },
+      {
+        "track_id": "13",
+        "category": "person",
+        "first_frame": 300,
+        "last_frame": 866,
+        "displacement_px": 224.1,
+        "threshold_px": 64.0,
+        "not_an_event": true,
+        "note": "Person track is outside every VIRAT event mapping and moves past the displacement threshold. Not labeled as walking."
+      },
+      {
+        "track_id": "12",
+        "category": "person",
+        "first_frame": 329,
+        "last_frame": 866,
+        "displacement_px": 216.7,
+        "threshold_px": 64.0,
+        "not_an_event": true,
+        "note": "Person track is outside every VIRAT event mapping and moves past the displacement threshold. Not labeled as walking."
+      },
+      {
+        "track_id": "11",
+        "category": "person",
+        "first_frame": 391,
+        "last_frame": 866,
+        "displacement_px": 196.7,
+        "threshold_px": 64.0,
+        "not_an_event": true,
+        "note": "Person track is outside every VIRAT event mapping and moves past the displacement threshold. Not labeled as walking."
+      },
+      {
+        "track_id": "10",
+        "category": "person",
+        "first_frame": 406,
+        "last_frame": 866,
+        "displacement_px": 192.4,
+        "threshold_px": 64.0,
+        "not_an_event": true,
+        "note": "Person track is outside every VIRAT event mapping and moves past the displacement threshold. Not labeled as walking."
+      }
+    ],
+    "annotated_car_tracks": {
+      "n_car_tracks": 31,
+      "n_car_tracks_above_displacement_threshold": 0,
+      "threshold_px": 64.0,
+      "note": "Endpoint displacement of annotated car tracks. A zero count does not prove that no vehicle moves on screen."
+    }
+  }
+}

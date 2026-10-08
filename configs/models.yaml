@@ -1,0 +1,55 @@
+# Named VLM presets. Experiment YAML can use `model: 8b` or `model: 30b`
+# instead of a full path block. CLI `--model` uses the same names.
+#
+# Swap in any experiment config:
+#   model: 8b
+#   model: 8b-fp16
+#   model: 8b-int8
+#   model: 30b
+#   model: 8b-fp8
+#   model: 30b-fp8
+# or keep the old mapping form:
+#   model:
+#     path: /data/models/...
+#     dtype: bfloat16
+
+8b:
+  path: /data/models/Qwen3-VL-8B-Instruct-BF16
+  dtype: bfloat16
+  device_map: auto
+  attn_implementation: sdpa
+
+# Same BF16 checkpoint, cast to float16 at load.
+8b-fp16:
+  path: /data/models/Qwen3-VL-8B-Instruct-BF16
+  dtype: float16
+  device_map: auto
+  attn_implementation: sdpa
+
+# Same BF16 checkpoint. Linear weights are quantized to INT8 at load time.
+# cuda:0 keeps every module on the GPU. device_map auto can park a few
+# layers on CPU, and bitsandbytes INT8 refuses that split.
+8b-int8:
+  path: /data/models/Qwen3-VL-8B-Instruct-BF16
+  dtype: bfloat16
+  device_map: cuda:0
+  attn_implementation: sdpa
+  load_in_8bit: true
+
+8b-fp8:
+  path: /data/models/Qwen3-VL-8B-Instruct-FP8
+  dtype: bfloat16
+  device_map: auto
+  attn_implementation: sdpa
+
+30b:
+  path: /data/models/Qwen3-VL-30B-A3B-Instruct
+  dtype: bfloat16
+  device_map: auto
+  attn_implementation: sdpa
+
+30b-fp8:
+  path: /data/models/Qwen3-VL-30B-A3B-Instruct-FP8
+  dtype: bfloat16
+  device_map: auto
+  attn_implementation: sdpa

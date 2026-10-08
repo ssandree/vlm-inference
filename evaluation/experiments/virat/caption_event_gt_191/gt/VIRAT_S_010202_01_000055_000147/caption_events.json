@@ -1,0 +1,186 @@
+{
+  "video_id": "VIRAT_S_010202_01_000055_000147",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "17"
+      ],
+      "start_frame": 400,
+      "end_frame": 462,
+      "start_time": 16.6875,
+      "end_time": 19.2741,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "17"
+      },
+      "action": "gesturing",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE008"
+      ],
+      "source_track_ids": [
+        "1"
+      ],
+      "start_frame": 470,
+      "end_frame": 1221,
+      "start_time": 19.6078,
+      "end_time": 50.9387,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "1"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "6",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE007"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_frame": 579,
+      "end_frame": 1375,
+      "start_time": 24.1552,
+      "end_time": 57.3634,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "7"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "5",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "upper_left_to_lower_right",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE004",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "16"
+      ],
+      "start_frame": 609,
+      "end_frame": 657,
+      "start_time": 25.4068,
+      "end_time": 27.4093,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "16"
+      },
+      "action": "gesturing",
+      "object": [],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE005",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE012"
+      ],
+      "source_track_ids": [
+        "12"
+      ],
+      "start_frame": 1200,
+      "end_frame": 1566,
+      "start_time": 50.0626,
+      "end_time": 65.3317,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "12"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "6",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "left_to_right",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE006",
+      "event_form": "group",
+      "source_atomic_evidence_ids": [
+        "AE008",
+        "AE007"
+      ],
+      "source_track_ids": [
+        "1",
+        "7"
+      ],
+      "start_frame": 579,
+      "end_frame": 1221,
+      "start_time": 24.1552,
+      "end_time": 50.9387,
+      "subject": {
+        "category": "person",
+        "group": true
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "6",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        },
+        {
+          "track_id": "5",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "person_count_is_required_caption_slot": false
+    }
+  ]
+}

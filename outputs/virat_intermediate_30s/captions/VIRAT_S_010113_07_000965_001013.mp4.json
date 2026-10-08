@@ -1,0 +1,117 @@
+{
+  "video": "VIRAT_S_010113_07_000965_001013.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010113_07_000965_001013.mp4.json",
+  "source_caption_sha256": "bfdedb9905063d25998898b047e96b50bec43804334cbdc4f07f1c76caecdd9c",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 30.0,
+      "intermediate_caption": "A person walks across the parking lot from left to right in the middle ground early in the timeframe. A silver sedan drives slowly through the parking lot from left to right in the foreground initially, then later moves from the lower center toward the upper center of the frame. Several vehicles—such as a black SUV, a white box truck, a white van, a red car, a white pickup truck, and various sedans—are consistently parked in fixed positions throughout the entire duration. \n\nAt multiple points, two individuals walk together from left to right across different areas of the parking lot: first in the background near the upper left (around 3 seconds), again in the middle ground around 6 seconds, then closer to the center starting at 9 seconds, followed by another instance near the center at 12 seconds, and finally again near the center at 27 seconds. One additional person wearing light-colored clothing walks from the left toward the center and exits the frame at the top edge around 15 seconds. Another person dressed in dark clothing follows a similar path, entering from the left and moving toward the center before leaving the frame around 18 seconds.\n\nLater in the segment, a white van travels from right to left in the background. At one point, a black sedan passes from the left side of the frame to the right, traveling behind a silver sedan. All other observed vehicles remain stationary except where noted. Long shadows stretch across the pavement due to low-angle sunlight, indicating it is either morning or late afternoon. Green fields bordered by fences appear in the background on the left, while buildings and trees form part of the backdrop surrounding the parking lot. Multiple white cars become visible among the parked vehicles in the final moments, particularly concentrated in the lower half of the lot. No new vehicles enter or leave the overall space outside those already described.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-27",
+        "27-30"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "A person is walking across the parking lot from left to right in the middle ground.\n\nA silver sedan is driving slowly through the parking lot from left to right in the foreground.\n\nA black SUV is parked on the far right side of the frame.\n\nA white box truck is parked on the right side of the frame.\n\nA white van is parked behind the white box truck.\n\nA dark-colored SUV is parked near the white van.\n\nA red car is parked in the upper left section of the lot.\n\nA white pickup truck is parked in the upper left section of the lot.\n\nA green field with a fence is visible in the background on the left.\n\nA multi-story building is visible in the background.\n\nA large tree is visible on the right side of the frame."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "The scene is a large outdoor parking lot with numerous parked cars under bright sunlight, casting long shadows.\n\nIn the upper left portion of the frame, near a chain-link fence bordering a grassy field, two individuals are walking together from left to right across the background.\n\nA white pickup truck is parked in the upper middle section of the lot.\n\nA black SUV is parked on the far right side of the frame, partially obscured by a tree.\n\nA silver sedan is parked in the lower center of the lot.\n\nA white van is parked in the upper right area, next to a larger white box truck.\n\nAnother white van is parked further back, near the center-right.\n\nA red car is parked in the upper left section.\n\nA dark-colored sedan is parked in the middle-left section.\n\nA silver SUV is parked in the middle-right section.\n\nA black sedan is parked in the upper right section, near the white van.\n\nA gray sedan is parked in the lower center of the lot.\n\nAll other vehicles remain stationary throughout the clip."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "In the parking lot, two individuals are walking together from left to right across the middle of the frame. They are moving between parked cars, heading towards the right side of the scene. The rest of the vehicles remain stationary throughout the clip."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "In the parking lot, two people are walking near the center of the frame, moving from left to right between parked cars.\n\nA silver sedan is driving slowly through the parking lot, moving from the lower center towards the upper center of the frame.\n\nA black SUV is parked on the far right side of the parking lot.\n\nSeveral other vehicles, including sedans, SUVs, and white vans, are parked throughout the lot."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "In the parking lot, two people walk from left to right near the center of the frame, moving behind a white pickup truck.\n\nA black sedan drives from the left side of the frame towards the right, passing behind a silver sedan.\n\nA dark-colored SUV is parked on the far right side of the frame."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "A person wearing light-colored clothing walks from the left side of the parking lot toward the center, moving between parked cars before exiting the frame at the top edge near the buildings.\n\nThe scene shows numerous stationary vehicles throughout the large outdoor parking area under bright sunlight with long shadows cast across the asphalt.\n\nNo other significant vehicle movements or human activities occur during the observation period."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "A person wearing dark clothing walks from the left side of the parking lot toward the center, moving between parked cars before exiting the frame.\n\nSeveral white vans and trucks are parked along the right edge of the lot near buildings.\n\nMultiple cars remain stationary throughout the sequence; no significant vehicle movement occurs beyond the walking individual."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "A person walks across the parking lot from left to right in the middle ground.\n\nA white van drives from right to left in the background.\n\nA black SUV is parked on the far right side of the frame.\n\nA silver sedan is parked in the foreground.\n\nA red car is parked in the middle-left area.\n\nA white pickup truck is parked in the upper-middle section.\n\nA white box truck is parked in the upper-right section.\n\nA white van is parked near the white box truck.\n\nA dark-colored SUV is parked in the middle-right area.\n\nA black sedan is parked in the middle-left area.\n\nA silver sedan is parked in the lower-middle area.\n\nA black sedan is parked in the lower-left area.\n\nA white car is parked in the upper-left area.\n\nA green field with a fence is visible in the background on the left.\n\nBuildings are visible in the background behind the parking lot.\n\nTrees line the edge of the parking lot and are scattered throughout the background.\n\nThe shadows indicate the sun is low in the sky, casting long shadows across the lot."
+        },
+        {
+          "source_clip": "24-27",
+          "start_sec": 24.0,
+          "end_sec": 27.0,
+          "caption": "Two people are walking across the parking lot from left to right in the upper-left area of the frame. The rest of the vehicles in the parking lot remain stationary throughout the clip."
+        },
+        {
+          "source_clip": "27-30",
+          "start_sec": 27.0,
+          "end_sec": 30.0,
+          "caption": "In the parking lot, two people walk from left to right near the center of the frame, moving between parked cars.\n\nA black SUV is parked on the far right side of the lot, next to some trees.\n\nA silver sedan is parked in the lower-center area of the lot.\n\nA white van is parked in the middle-right section of the lot.\n\nA white box truck is parked in the upper-right section of the lot.\n\nA red car is parked in the upper-left section of the lot.\n\nA dark-colored sedan is parked in the middle-left section of the lot.\n\nA white pickup truck is parked in the upper-middle section of the lot.\n\nA white minivan is parked in the middle-right section of the lot.\n\nA black sedan is parked in the middle-left section of the lot.\n\nA silver sedan is parked in the lower-center section of the lot.\n\nA black SUV is parked in the lower-right section of the lot.\n\nA white car is parked in the upper-left section of the lot.\n\nA white car is parked in the upper-middle section of the lot.\n\nA white car is parked in the upper-right section of the lot.\n\nA white car is parked in the middle-left section of the lot.\n\nA white car is parked in the middle-right section of the lot.\n\nA white car is parked in the lower-left section of the lot.\n\nA white car is parked in the lower-middle section of the lot.\n\nA white car is parked in the lower-right section of the lot.\n\nA white car is parked in the upper-left section of the lot.\n\nA white car is parked in the upper-middle section of the lot.\n\nA white car is parked in the upper-right section of the lot.\n\nA white car is parked in the middle-left section of the lot.\n\nA white car is parked in the middle-right section of the lot.\n\nA white car is parked in the lower-left section of the lot.\n\nA white car is parked in the lower-middle section of the lot.\n\nA white car is parked in the lower-right section of the lot."
+        }
+      ]
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 38.005840634125995,
+      "intermediate_caption": "A person walks from the right side of the frame toward a white dumpster in the bottom right corner of the parking lot and interacts with it, appearing to place items inside. The individual wears a brown shirt and dark pants. Another person, wearing red pants, later walks from the right side of the frame toward the bottom center near the same dumpster. In the upper left portion of the lot, two people walk together from left to right near a row of parked cars. A silver sedan remains parked in the lower central part of the lot, while several other vehicles—including a red car, a black car, a white van, a white truck, a black SUV, and additional sedans, SUVs, and vans—are present and stationary throughout the sequence. The setting is a large outdoor parking lot seen from an elevated perspective, featuring surrounding multi-story buildings, trees, and open fields under bright daylight conditions with long shadows cast across the ground. No movement involving entry or exit from vehicles occurs at any point.",
+      "source_clips": [
+        "30-33",
+        "33-36",
+        "36-38.005840634125995"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "30-33",
+          "start_sec": 30.0,
+          "end_sec": 33.0,
+          "caption": "In the parking lot, a person walks from the right side of the frame toward a white dumpster located in the bottom right corner.\n\nThe person reaches the dumpster and begins to interact with it, appearing to place items inside.\n\nA silver sedan is parked in the middle of the lot, near the center of the frame.\n\nSeveral other cars are parked throughout the lot, including a red car, a black car, a white van, and a white truck.\n\nThe scene is viewed from an elevated position, showing the entire parking area and surrounding buildings."
+        },
+        {
+          "source_clip": "33-36",
+          "start_sec": 33.0,
+          "end_sec": 36.0,
+          "caption": "A person wearing a brown shirt and dark pants walks from the right side of the frame towards the bottom right corner, passing behind a white dumpster.\n\nIn the upper left portion of the parking lot, two people walk together from left to right near a line of parked cars.\n\nThe scene is a wide shot of a large outdoor parking lot with numerous parked cars, including sedans, SUVs, and vans of various colors.\n\nA silver sedan is parked in the lower center of the lot.\n\nA black SUV is parked on the far right edge of the lot.\n\nA white box truck and a white van are parked in the upper right section of the lot.\n\nA large building with multiple stories and windows is visible in the background, along with trees and a green field."
+        },
+        {
+          "source_clip": "36-38.005840634125995",
+          "start_sec": 36.0,
+          "end_sec": 38.005840634125995,
+          "caption": "A person wearing red pants walks from the right side of the frame towards the bottom center near a white dumpster.\n\nThe scene shows a large parking lot with numerous parked cars under bright sunlight casting long shadows.\n\nSeveral vehicles remain stationary throughout the clip: multiple sedans (including silver, black, maroon), SUVs (silver, dark-colored), vans (white), and trucks (a white box truck).\n\nNo significant vehicle motion occurs; no one enters or exits any car during the recording period."
+        }
+      ]
+    }
+  ]
+}

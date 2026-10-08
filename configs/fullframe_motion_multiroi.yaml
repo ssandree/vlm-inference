@@ -1,0 +1,31 @@
+# Full-frame (1 fps) vs Motion Multi-ROI feasibility.
+# Both conditions share this prompt and generation block.
+# Model size is selected by the runner (8b, 30b, ...).
+
+model: 8b
+
+generation:
+  max_new_tokens: 256
+  do_sample: false
+  temperature: 0.7
+  top_p: 0.8
+  top_k: 20
+  repetition_penalty: 1.2
+
+video:
+  fps: 1.0
+  min_pixels: 4096
+  max_pixels: 262144
+  total_pixels: 20971520
+
+image:
+  min_pixels: 4096
+  max_pixels: 262144
+
+mode: default
+
+prompt_file: prompts/frames_roi_start_only.txt
+
+output:
+  dir: outputs/fullframe_motion_multiroi
+  file: results.json

@@ -1,0 +1,469 @@
+{
+  "video_id": "VIRAT_S_010107_00_000019_000057",
+  "queue": [
+    {
+      "review_id": "RQ001",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "0"
+      ],
+      "start_frame": 230,
+      "end_frame": 621,
+      "start_time": 9.5953,
+      "end_time": 25.9074,
+      "reason": "walking_candidate",
+      "current_proposal": {
+        "action": "walking",
+        "direction": "right_to_left",
+        "confirmed": true,
+        "running_conflict": []
+      },
+      "human_decision": {
+        "accept": true,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": true,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": "Confirmed by human review."
+      }
+    },
+    {
+      "review_id": "RQ002",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_frame": 690,
+      "end_frame": 795,
+      "start_time": 28.786,
+      "end_time": 33.1665,
+      "reason": "walking_candidate",
+      "current_proposal": {
+        "action": "walking",
+        "direction": "right_to_left",
+        "confirmed": true,
+        "running_conflict": []
+      },
+      "human_decision": {
+        "accept": true,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": true,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": "Confirmed by human review."
+      }
+    },
+    {
+      "review_id": "RQ003",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE005"
+      ],
+      "source_track_ids": [
+        "8"
+      ],
+      "start_frame": 0,
+      "end_frame": 228,
+      "start_time": 0.0,
+      "end_time": 9.5119,
+      "reason": "walking_candidate",
+      "current_proposal": {
+        "action": "walking",
+        "direction": "lower_right_to_upper_left",
+        "confirmed": true,
+        "running_conflict": []
+      },
+      "human_decision": {
+        "accept": true,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": true,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": "Confirmed by human review."
+      }
+    },
+    {
+      "review_id": "RQ004",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE006"
+      ],
+      "source_track_ids": [
+        "10"
+      ],
+      "start_frame": 406,
+      "end_frame": 866,
+      "start_time": 16.9378,
+      "end_time": 36.1285,
+      "reason": "walking_candidate",
+      "current_proposal": {
+        "action": "walking",
+        "direction": "right_to_left",
+        "confirmed": true,
+        "running_conflict": []
+      },
+      "human_decision": {
+        "accept": true,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": true,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": "Confirmed by human review."
+      }
+    },
+    {
+      "review_id": "RQ005",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE007"
+      ],
+      "source_track_ids": [
+        "11"
+      ],
+      "start_frame": 391,
+      "end_frame": 866,
+      "start_time": 16.3121,
+      "end_time": 36.1285,
+      "reason": "walking_candidate",
+      "current_proposal": {
+        "action": "walking",
+        "direction": "right_to_left",
+        "confirmed": true,
+        "running_conflict": []
+      },
+      "human_decision": {
+        "accept": true,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": true,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": "Confirmed by human review."
+      }
+    },
+    {
+      "review_id": "RQ006",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE008"
+      ],
+      "source_track_ids": [
+        "12"
+      ],
+      "start_frame": 353,
+      "end_frame": 866,
+      "start_time": 14.7267,
+      "end_time": 36.1285,
+      "reason": "walking_candidate",
+      "current_proposal": {
+        "action": "walking",
+        "direction": "right_to_left",
+        "confirmed": true,
+        "running_conflict": []
+      },
+      "human_decision": {
+        "accept": true,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": true,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": "Confirmed by human review."
+      }
+    },
+    {
+      "review_id": "RQ007",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE009"
+      ],
+      "source_track_ids": [
+        "13"
+      ],
+      "start_frame": 491,
+      "end_frame": 866,
+      "start_time": 20.4839,
+      "end_time": 36.1285,
+      "reason": "walking_candidate",
+      "current_proposal": {
+        "action": "walking",
+        "direction": "right_to_left",
+        "confirmed": true,
+        "running_conflict": []
+      },
+      "human_decision": {
+        "accept": true,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": true,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": "Confirmed by human review."
+      }
+    },
+    {
+      "review_id": "RQ008",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "7",
+        "14"
+      ],
+      "start_frame": 796,
+      "end_frame": 844,
+      "start_time": 33.2082,
+      "end_time": 35.2107,
+      "reason": "semantic_location",
+      "current_proposal": {
+        "semantic_location": null,
+        "blocks_caption_event": false
+      },
+      "human_decision": {
+        "accept": null,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": null,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": ""
+      }
+    },
+    {
+      "review_id": "RQ009",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE002"
+      ],
+      "source_track_ids": [
+        "8",
+        "9"
+      ],
+      "start_frame": 0,
+      "end_frame": 866,
+      "start_time": 0.0,
+      "end_time": 36.1285,
+      "reason": "semantic_location",
+      "current_proposal": {
+        "semantic_location": null,
+        "blocks_caption_event": false
+      },
+      "human_decision": {
+        "accept": null,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": null,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": ""
+      }
+    },
+    {
+      "review_id": "RQ010",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "0"
+      ],
+      "start_frame": 230,
+      "end_frame": 621,
+      "start_time": 9.5953,
+      "end_time": 25.9074,
+      "reason": "semantic_location",
+      "current_proposal": {
+        "semantic_location": null,
+        "blocks_caption_event": false
+      },
+      "human_decision": {
+        "accept": null,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": null,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": ""
+      }
+    },
+    {
+      "review_id": "RQ011",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "7"
+      ],
+      "start_frame": 690,
+      "end_frame": 795,
+      "start_time": 28.786,
+      "end_time": 33.1665,
+      "reason": "semantic_location",
+      "current_proposal": {
+        "semantic_location": null,
+        "blocks_caption_event": false
+      },
+      "human_decision": {
+        "accept": null,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": null,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": ""
+      }
+    },
+    {
+      "review_id": "RQ012",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE005"
+      ],
+      "source_track_ids": [
+        "8"
+      ],
+      "start_frame": 0,
+      "end_frame": 228,
+      "start_time": 0.0,
+      "end_time": 9.5119,
+      "reason": "semantic_location",
+      "current_proposal": {
+        "semantic_location": null,
+        "blocks_caption_event": false
+      },
+      "human_decision": {
+        "accept": null,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": null,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": ""
+      }
+    },
+    {
+      "review_id": "RQ013",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE006"
+      ],
+      "source_track_ids": [
+        "10"
+      ],
+      "start_frame": 406,
+      "end_frame": 866,
+      "start_time": 16.9378,
+      "end_time": 36.1285,
+      "reason": "semantic_location",
+      "current_proposal": {
+        "semantic_location": null,
+        "blocks_caption_event": false
+      },
+      "human_decision": {
+        "accept": null,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": null,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": ""
+      }
+    },
+    {
+      "review_id": "RQ014",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE007"
+      ],
+      "source_track_ids": [
+        "11"
+      ],
+      "start_frame": 391,
+      "end_frame": 866,
+      "start_time": 16.3121,
+      "end_time": 36.1285,
+      "reason": "semantic_location",
+      "current_proposal": {
+        "semantic_location": null,
+        "blocks_caption_event": false
+      },
+      "human_decision": {
+        "accept": null,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": null,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": ""
+      }
+    },
+    {
+      "review_id": "RQ015",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE008"
+      ],
+      "source_track_ids": [
+        "12"
+      ],
+      "start_frame": 353,
+      "end_frame": 866,
+      "start_time": 14.7267,
+      "end_time": 36.1285,
+      "reason": "semantic_location",
+      "current_proposal": {
+        "semantic_location": null,
+        "blocks_caption_event": false
+      },
+      "human_decision": {
+        "accept": null,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": null,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": ""
+      }
+    },
+    {
+      "review_id": "RQ016",
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "atomic_evidence_ids": [
+        "AE009"
+      ],
+      "source_track_ids": [
+        "13"
+      ],
+      "start_frame": 491,
+      "end_frame": 866,
+      "start_time": 20.4839,
+      "end_time": 36.1285,
+      "reason": "semantic_location",
+      "current_proposal": {
+        "semantic_location": null,
+        "blocks_caption_event": false
+      },
+      "human_decision": {
+        "accept": null,
+        "canonical_atomic_evidence_id": null,
+        "is_walking": null,
+        "is_wandering": null,
+        "direction_override": null,
+        "semantic_location": null,
+        "note": ""
+      }
+    }
+  ]
+}

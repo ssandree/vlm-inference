@@ -1,0 +1,46 @@
+{
+  "video": "VIRAT_S_010001_09_000921_000952.mp4",
+  "clip_duration_sec": 3,
+  "clips": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 3.0,
+      "caption": "There are no people or vehicles visible in the scene. The area remains empty throughout the clip."
+    },
+    {
+      "start_sec": 3.0,
+      "end_sec": 6.0,
+      "caption": "There are no people or vehicles visible in the scene. The image shows a campus-like outdoor area with tables and red umbrellas on a paved surface. A grassy hill is in the center, with buildings and mountains in the background under a clear sky."
+    },
+    {
+      "start_sec": 6.0,
+      "end_sec": 9.0,
+      "caption": "There are no people or vehicles visible in the scene. The area is empty."
+    },
+    {
+      "start_sec": 9.0,
+      "end_sec": 12.0,
+      "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with numerous red umbrellas over tables and chairs, a grassy hill, stairs leading up to a building, and mountains in the background under a clear sky."
+    },
+    {
+      "start_sec": 12.0,
+      "end_sec": 15.0,
+      "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with numerous tables and red umbrellas arranged on a paved area. A grassy hill is located behind the plaza, with a building featuring large windows and stairs leading up to it. In the background, there are mountains under a clear blue sky. The scene remains static throughout the clip."
+    },
+    {
+      "start_sec": 15.0,
+      "end_sec": 18.0,
+      "caption": "There are no people or vehicles visible in the scene. The area is empty."
+    },
+    {
+      "start_sec": 18.0,
+      "end_sec": 21.0,
+      "caption": "There are no people or vehicles visible in the scene. The area is empty."
+    },
+    {
+      "start_sec": 21.0,
+      "end_sec": 23.779724655819777,
+      "caption": "A person in a white shirt walks from left to right on the upper-level walkway of the building on the left side of the frame."
+    }
+  ]
+}

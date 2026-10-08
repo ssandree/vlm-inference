@@ -1,0 +1,76 @@
+{
+  "video": "VIRAT_S_010003_03_000219_000259.mp4",
+  "clip_duration_sec": 3,
+  "clips": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 3.0,
+      "caption": "A person walks down the stairs on the left side of the frame. Another person walks up the same stairs. A man and a woman sit at a table under an umbrella in the lower-left area. A person walks across the grassy area in the middle ground. A person walks from right to left in the upper-right background."
+    },
+    {
+      "start_sec": 3.0,
+      "end_sec": 6.0,
+      "caption": "A person walks down the stairs on the left side of the frame. Another person walks up the stairs on the right side of the frame. A third person walks across the grassy area in the middle ground from left to right. Two people are sitting at a table under an umbrella in the lower-left corner. A fourth person walks behind the tables in the center of the frame."
+    },
+    {
+      "start_sec": 6.0,
+      "end_sec": 9.0,
+      "caption": "A person in a white shirt walks down the stairs on the left side of the frame.\n\nAnother person in a dark shirt walks up the same set of stairs.\n\nTwo people are sitting at a table under a red umbrella in the lower-left corner.\n\nA person in a blue shirt walks from right to left across the upper grassy area."
+    },
+    {
+      "start_sec": 9.0,
+      "end_sec": 12.0,
+      "caption": "A person walks down the stairs on the left side of the frame. Another person walks up the same stairs. A person walks from right to left across the upper level of the courtyard. Two people sit at a table under an umbrella in the lower-left corner. A person sits at a table under an umbrella in the center of the frame. A person walks from right to left in the background near the building on the right."
+    },
+    {
+      "start_sec": 12.0,
+      "end_sec": 15.0,
+      "caption": "A person walks down the stairs on the left side of the frame. Another person walks up the stairs on the right side of the frame. A person holding a black umbrella walks from right to left across the upper right portion of the scene. Two people are sitting at a table under an umbrella in the lower left corner. A person is sitting at a table under an umbrella in the center of the scene. A person is sitting at a table under an umbrella in the lower right corner."
+    },
+    {
+      "start_sec": 15.0,
+      "end_sec": 18.0,
+      "caption": "In the foreground, two people are sitting at a table under a red umbrella on the left side of the patio area. In the background, near the building entrance, a person walks up a set of stairs. Another person is seen walking on the grassy area to the right. A person is standing near the red umbrellas on the far right side of the lawn. The scene remains largely static with no significant changes in activity throughout the clip."
+    },
+    {
+      "start_sec": 18.0,
+      "end_sec": 21.0,
+      "caption": "In the foreground, two people are sitting at a table under a red umbrella on the left side of the frame. In the background, near the building entrance, a person walks from right to left. Another person is standing near the center of the background area, next to a group of tables with red umbrellas. A person is walking up the stairs on the left side of the frame. The scene remains largely static throughout the clip."
+    },
+    {
+      "start_sec": 21.0,
+      "end_sec": 24.0,
+      "caption": "A person walks from the right side of the frame towards the building entrance in the background.\n\nTwo people are sitting at a table under an umbrella in the lower-left corner of the courtyard.\n\nAnother person is sitting at a table under an umbrella in the center of the courtyard.\n\nA person is walking up the stairs on the left side of the frame."
+    },
+    {
+      "start_sec": 24.0,
+      "end_sec": 27.0,
+      "caption": "In the foreground, two people are sitting at a table under a red umbrella on the left side of the frame. Another person is sitting at a table under a red umbrella on the right side of the frame. A person walks up the stairs on the left side of the frame. A person walks across the grassy area in the middle of the frame from left to right. A person walks across the grassy area in the middle of the frame from right to left."
+    },
+    {
+      "start_sec": 27.0,
+      "end_sec": 30.0,
+      "caption": "In the foreground, two people are sitting at a table under a red umbrella on the left side of the frame. A person is standing next to them, then sits down at the table. In the background, near the building entrance, a person walks from right to left. Another person is seen walking from left to right in the far background. The scene remains otherwise static with no other discernible movements."
+    },
+    {
+      "start_sec": 30.0,
+      "end_sec": 33.0,
+      "caption": "In the foreground, several people are sitting at tables under red umbrellas on a paved area.\n\nOn the left side of the frame, two individuals are seated at a table.\n\nAnother person is seated at a table further back in the center.\n\nA person is walking up the stairs on the left side of the building.\n\nMore people are visible walking near the entrance of the building in the background."
+    },
+    {
+      "start_sec": 33.0,
+      "end_sec": 36.0,
+      "caption": "In the foreground, two people are sitting at a table under a red umbrella. A person walks up the stairs on the left side of the frame. Another person walks across the grassy area in the middle of the scene. A person walks down the stairs on the right side of the frame. A person walks from right to left in the lower right corner of the frame."
+    },
+    {
+      "start_sec": 36.0,
+      "end_sec": 39.0,
+      "caption": "A person walks down the stairs on the left side of the frame. Another person walks up the same stairs. A third person walks across the upper right area of the courtyard. Two people sit at a table under an umbrella in the lower left corner. A fourth person sits at a table in the lower right corner."
+    },
+    {
+      "start_sec": 39.0,
+      "end_sec": 40.00834376303713,
+      "caption": "In the foreground, several people are sitting at tables under red umbrellas in a paved courtyard area.\n\nOn the left side of the frame, a person in a red shirt walks down a set of stairs.\n\nOn the right side of the frame, two people walk together from right to left across a paved area near a building entrance.\n\nA person is seated at a table in the lower-left corner, next to a child.\n\nAnother person is seated at a table in the center of the frame, partially obscured by an umbrella.\n\nA person is visible walking up the stairs on the far left.\n\nThe scene remains static otherwise, with no other discernible movements."
+    }
+  ]
+}

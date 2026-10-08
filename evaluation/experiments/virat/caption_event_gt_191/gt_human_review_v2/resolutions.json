@@ -1,0 +1,52 @@
+[
+  {
+    "review_id": "V04-09",
+    "status": "yes",
+    "reason_ko": "[no]보다 후속 구체 메모 \"들어가긴하는데 ... 작다\"를 우선: 실제 진입을 확인한 것으로 반영. visibility=small/difficult; GT 제외하지 않음."
+  },
+  {
+    "review_id": "V05-06",
+    "status": "corrected",
+    "reason_ko": "yes 표시는 왼쪽 이동을 확인하지만 메모는 접근/되돌아섬을 부정. 올바른 사실은 건물에서 나온 뒤 왼쪽으로 이동. 원래 문장의 주체 연결은 오서술."
+  },
+  {
+    "review_id": "V06-13",
+    "status": "uncertain",
+    "reason_ko": "no와 함께 \"뒤쪽에서 나오긴 했는데 내린다는 증거는 없음\"이라고 명시. 하차 부재 확정이 아니라 관측 증거 부족으로 처리."
+  },
+  {
+    "review_id": "V07-04",
+    "status": "uncertain",
+    "reason_ko": "빨간 차량 이동 no와 V07-05의 동일 차량 좌→우 이동 yes가 논리적으로 충돌. 색상/주체/위치 중 무엇이 틀렸는지 불명확."
+  },
+  {
+    "review_id": "V07-05",
+    "status": "uncertain",
+    "reason_ko": "V07-04와 함께 충돌 묶음으로 보류. 좌→우 차량 GT를 확정 생성하지 않음."
+  },
+  {
+    "review_id": "V07-02",
+    "status": "no",
+    "reason_ko": "최신 체크리스트 no를 이전 대화의 주차 yes보다 우선 적용."
+  },
+  {
+    "review_id": "V03-07",
+    "status": "no",
+    "reason_ko": "이 설명의 함께 걷는 두 사람은 사용자가 부정. 기존 그룹 CE017/CE018 전체 삭제까지 의미한다고 확대 해석하지 않고 충돌 플래그를 남김."
+  },
+  {
+    "review_id": "V01-28",
+    "status": "yes",
+    "reason_ko": "사용자가 픽업트럭과 같은 차량이라고 확인: V01-25와 동일 의미 사건으로 병합."
+  },
+  {
+    "review_id": "V02-06",
+    "status": "yes",
+    "reason_ko": "화단으로 향함은 yes, 잔디 횡단은 no. 화단 방향 이동만 반영하고 잔디 경로는 부여하지 않음."
+  },
+  {
+    "review_id": "V07-24",
+    "status": "yes",
+    "reason_ko": "사용자의 walking/running을 강하게 구분하지 말라는 지시 반영. 모든 영상에서 두 행동을 locomotion 계열로 통합하되 원본 action은 보존."
+  }
+]

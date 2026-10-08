@@ -1,0 +1,56 @@
+{
+  "video": "VIRAT_S_010111_05_000762_000799.mp4",
+  "clip_duration_sec": 3,
+  "clips": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 3.0,
+      "caption": "The video shows a large outdoor parking lot filled with numerous parked cars under bright sunlight.\n\nIn the upper left portion of the frame, near a building entrance, a group of people are standing together.\n\nA white van is parked in the middle-right section of the lot.\n\nA silver sedan is parked in the lower right corner.\n\nA white box truck is parked in the upper right area.\n\nA yellow and white van is parked next to the white box truck.\n\nA blue and white van is parked in the center of the lot.\n\nAll other vehicles remain stationary throughout the clip. There is no significant movement of any vehicle or person observed."
+    },
+    {
+      "start_sec": 3.0,
+      "end_sec": 6.0,
+      "caption": "The video shows a large outdoor parking lot filled with numerous parked cars and a few vans.\n\nIn the upper left portion of the frame, near the edge of the parking lot, two individuals are standing next to a white vehicle. They appear to be interacting with the vehicle, possibly loading or unloading items.\n\nA white van is parked in the middle-right section of the lot, and a white box truck is parked further back in the same area.\n\nThere is no significant movement of vehicles or people throughout the clip; the scene remains largely static, showing a typical day in a busy parking area."
+    },
+    {
+      "start_sec": 6.0,
+      "end_sec": 9.0,
+      "caption": "A person wearing a yellow shirt and dark pants walks from the right side of the frame toward the bottom left, moving through the parking lot. The person walks past a white dumpster and continues out of view."
+    },
+    {
+      "start_sec": 9.0,
+      "end_sec": 12.0,
+      "caption": "Two people walk from the right side of the parking lot towards the bottom right corner of the frame. One person wears a dark shirt and light pants, while the other wears a yellow shirt and dark pants. They walk together, moving away from the parked cars. The rest of the scene remains static, with numerous vehicles parked in the lot."
+    },
+    {
+      "start_sec": 12.0,
+      "end_sec": 15.0,
+      "caption": "In the lower right corner of the parking lot, two individuals stand next to a silver sedan. One person wears a yellow shirt and the other wears a dark shirt. They remain standing beside the car for the duration of the clip. The rest of the scene is static, with numerous cars parked throughout the lot and no other visible movement."
+    },
+    {
+      "start_sec": 15.0,
+      "end_sec": 18.0,
+      "caption": "In the upper right portion of the parking lot, two individuals are walking from left to right.\n\nA white van with yellow and black markings is parked in the middle-right section of the lot.\n\nA white box truck is parked in the upper right section of the lot.\n\nA silver sedan is parked in the lower right section of the lot.\n\nA dark-colored SUV is parked next to the silver sedan in the lower right.\n\nA person wearing a dark shirt and light pants is standing near the dark SUV in the lower right.\n\nA large white dumpster is located in the lower left foreground.\n\nA smaller white dumpster is located in the lower right corner.\n\nThe parking lot is filled with numerous cars, trucks, and vans of various colors, mostly parked."
+    },
+    {
+      "start_sec": 18.0,
+      "end_sec": 21.0,
+      "caption": "In the upper right portion of the parking lot, two individuals are walking from left to right across the frame. A person riding a bicycle is also visible in the same area, moving from left to right. The rest of the scene consists of numerous parked cars and trucks, with no other significant movement observed."
+    },
+    {
+      "start_sec": 21.0,
+      "end_sec": 24.0,
+      "caption": "A person walks from right to left across the far side of the parking lot, near the buildings."
+    },
+    {
+      "start_sec": 24.0,
+      "end_sec": 27.0,
+      "caption": "A person is walking in the upper right portion of the parking lot, moving from right to left across the frame. The person is wearing dark clothing and appears to be carrying something. The person walks past parked cars and continues toward the left side of the frame. No other people or significant vehicle movements are visible in the scene."
+    },
+    {
+      "start_sec": 27.0,
+      "end_sec": 27.24238631622862,
+      "caption": "A person walks across the parking lot from left to right in the upper left portion of the frame."
+    }
+  ]
+}

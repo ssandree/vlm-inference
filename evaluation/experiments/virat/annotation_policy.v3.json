@@ -1,0 +1,235 @@
+{
+  "name": "virat_caption_event_annotation_policy",
+  "version": 3,
+  "status": "pilot",
+  "final_group_events_created": false,
+  "reference_sentence": null,
+  "do_not_modify": [
+    "VIRAT annotation files",
+    "source videos",
+    "existing ROI outputs",
+    "experiments/virat/dense_event_gt"
+  ],
+
+  "original_virat_fields": {
+    "preserve": [
+      "activity_class",
+      "activity_type_id",
+      "event_id",
+      "start_frame",
+      "end_frame",
+      "mapping_track_id",
+      "object_type"
+    ],
+    "time": {
+      "formula": "frame / fps",
+      "fps_source": "ffprobe avg_frame_rate of that video"
+    },
+    "filename_numbers_are_temporal_annotation": false,
+    "subject": {
+      "rule": "unique_type1_participant_only",
+      "object_type_person": 1,
+      "if_not_unique": "subject.track_id = null; do not infer a subject"
+    },
+    "object": {
+      "rule": "remaining_mapped_tracks_only_when_subject_is_unique_type1"
+    },
+    "missing_annotation": {
+      "annotation_status": "missing",
+      "invent_events": false
+    }
+  },
+
+  "derived_metadata": {
+    "screen_location": {
+      "method": "median_subject_centroid_3x3",
+      "edges": [0.3333333333333333, 0.6666666666666666],
+      "boundary": "value on an edge falls in the higher bin",
+      "is_semantic_location": false,
+      "used_as_grouping_criterion": false
+    },
+    "semantic_location": {
+      "source": "human_annotation_only",
+      "automatic_value": null
+    },
+    "track_motion": {
+      "method": "endpoint_displacement",
+      "axes": "+x right, +y down",
+      "threshold_px": "max(20, 0.05 * frame_width)",
+      "min_disp_px": 20,
+      "min_disp_frac_of_width": 0.05,
+      "dominant_axis_ratio": 2.0,
+      "below_threshold_value": null,
+      "infer_direction_from_activity_class": false,
+      "caption_required_semantic_slot": false
+    }
+  },
+
+  "event_preservation": {
+    "merge_on_temporal_overlap_alone": false,
+    "same_actor_different_activity": "separate_atomic_events",
+    "spatially_separated_concurrent_events": "separate_events",
+    "screen_bin_3x3_is_grouping_criterion": false
+  },
+
+  "duplicate_candidate": {
+    "same_subject_track": true,
+    "same_activity_class": true,
+    "overlap_over_shorter_duration_min": 0.8,
+    "overlap_over_shorter_duration": "intersection_frames / min(duration_i, duration_j)",
+    "auto_delete": false,
+    "auto_merge": false,
+    "canonical_event": "human_review"
+  },
+
+  "carrying": {
+    "preserve_original_activity_class": true,
+    "without_mapped_object_track": {
+      "original_activity_class": "person_carrying_object",
+      "force_caption_action_carrying": false,
+      "caption_semantics": {
+        "carrying_evaluable": false,
+        "action": null
+      },
+      "subject_category": "person",
+      "auto_convert_to_walking": false
+    },
+    "with_mapped_object_track": {
+      "caption_semantics": {
+        "action": "carrying_object",
+        "carrying_evaluable": true
+      }
+    }
+  },
+
+  "grouping_analysis": {
+    "final_threshold_selected": true,
+    "selected_by": "human_review",
+    "different_actions_grouped": false,
+    "null_caption_action_eligible": false,
+    "screen_bin_3x3_used": false,
+    "pair": {
+      "different_subject_track": true,
+      "same_caption_action": true,
+      "temporal_overlap_ratio": "intersection_duration / min(duration_i, duration_j)",
+      "temporal_threshold": 0.3,
+      "spatial_distance": "median over overlapping frames of euclidean(centroid_i, centroid_j) / frame_diagonal",
+      "spatial_threshold": 0.15,
+      "also_acceptable_spatial_thresholds": [0.1],
+      "rejected_spatial_thresholds": [0.2, 0.25],
+      "thresholds_that_were_compared": {
+        "temporal": [0.3, 0.5, 0.7],
+        "spatial": [0.1, 0.15, 0.2, 0.25]
+      }
+    },
+    "accepted_pair": "temporal_overlap_ratio >= 0.3 and median_normalized_distance <= 0.15",
+    "rejection_example": {
+      "clip": "grouping_analysis/clips/T030_D015_nearest_rejected_VIRAT_S_010003_03_000219_000259_e6_e7.mp4",
+      "video_id": "VIRAT_S_010003_03_000219_000259",
+      "event_ids": ["6", "7"],
+      "median_normalized_distance": 0.1578,
+      "temporal_overlap_ratio": 1.0,
+      "why_rejected": "한 사람은 계단을 오르고 다른 사람은 반대로 이동한다. 같은 group이 아니다."
+    },
+    "why_spatial_0_20_is_rejected": "D=0.20은 위 e6/e7 pair를 farthest accepted로 통과시킨다. 그 장면은 rejected여야 한다.",
+    "groups_of_three_or_more": "complete_link_only",
+    "single_link_used_as_final_group": false,
+    "final_group_events_created": false
+  },
+
+  "walking_caption_event": {
+    "separate_from_grouping_analysis": true,
+    "modifies_grouping_analysis": false,
+    "modifies_virat_activity_events": false,
+    "source": "person_track_review",
+    "object_type_person": 1,
+    "pilot_videos_only": "experiments/virat/caption_event_pilot_6",
+    "auto_confirm_from_displacement": false,
+    "final_walking_events_created": false,
+    "reference_sentence": null,
+    "vlm_or_llm_judgment": false,
+    "track_motion_modified": false,
+    "person_count_is_required_caption_slot": false,
+    "meaningful_displacement": "max(endpoint displacement, max distance from start) >= max(20, 0.05 * frame_width)",
+    "overlap_with_virat_events": "record event id, activity class, and subject or temporal role",
+    "running_subject_conflict": "flag_only",
+    "human_review": {
+      "is_walking": null,
+      "keep_as_caption_event": null,
+      "motion_pattern": null,
+      "review_note": ""
+    },
+    "directional_grouping": {
+      "temporal_overlap_ratio_min": 0.3,
+      "median_normalized_distance_max": 0.15,
+      "direction_cosine": "cosine of the two net displacement vectors over the overlap interval",
+      "direction_thresholds_compared": [0.5, 0.7, 0.8, 0.9],
+      "direction_threshold_selected": false,
+      "groups_of_three_or_more": "complete_link",
+      "complete_link_requires": ["temporal", "spatial", "direction"],
+      "final_group_events_created": false
+    },
+    "wandering": {
+      "final_rule_selected": true,
+      "selected_by": "human_review",
+      "action": "wandering",
+      "single_direction_assigned": false,
+      "excluded_from_directional_grouping": true,
+      "auto_confirm_event": false,
+      "leg_displacement_threshold_px": "max(20, 0.05 * frame_width)",
+      "leg_rule": "Close a leg only after it has moved at least the threshold and the path then reverses by at least the same threshold.",
+      "opposite_directions": "cosine of two leg displacement vectors < 0",
+      "requires_clear_movement_in_each_direction": true,
+      "small_or_uncertain_displacement_is_wandering": false,
+      "examples": [
+        {
+          "video_id": "VIRAT_S_010001_02_000195_000498",
+          "track_id": "7",
+          "endpoint_direction": "left_to_right",
+          "endpoint_displacement_px": 78.21,
+          "legs": [
+            {"direction": "left_to_right", "displacement_px": 153.04},
+            {"direction": "right_to_left", "displacement_px": 152.62},
+            {"direction": "left_to_right", "displacement_px": 78.2}
+          ],
+          "why": "끝점은 왼쪽→오른쪽 78px이지만, 양방향으로 threshold 이상 이동한 뒤 방향이 바뀐다."
+        },
+        {
+          "video_id": "VIRAT_S_010001_02_000195_000498",
+          "track_id": "52",
+          "endpoint_direction": null,
+          "endpoint_displacement_px": 11.85,
+          "legs": [
+            {"direction": "left_to_right", "displacement_px": 486.36},
+            {"direction": "right_to_left", "displacement_px": 487.93}
+          ],
+          "why": "순변위는 12px이지만 양쪽 이동이 각각 약 487px이다."
+        }
+      ],
+      "not_wandering_examples": [
+        {
+          "video_id": "VIRAT_S_010106_02_000656_000692",
+          "track_id": "5",
+          "why": "threshold를 넘는 반대 방향 구간이 없다."
+        },
+        {
+          "video_id": "VIRAT_S_010111_08_000920_000954",
+          "track_id": "88",
+          "why": "이동량이 작아 확정된 방향 구간이 없다."
+        }
+      ]
+    }
+  },
+
+  "not_automated": [
+    "visibility",
+    "captionable",
+    "include_primary_eval",
+    "semantic_location",
+    "reference_sentence",
+    "final group events",
+    "final walking or wandering events",
+    "walking direction-cosine threshold",
+    "VLM or LLM judgment"
+  ]
+}

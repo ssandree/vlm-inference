@@ -1,0 +1,73 @@
+{
+  "video": "VIRAT_S_010113_05_000776_000805.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010113_05_000776_000805.mp4.json",
+  "source_caption_sha256": "51e00ba7b065daa803f3e0705c35e9ab933f247612e313e30e9c4f32718b142c",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 22.778473091364205,
+      "intermediate_caption": "A silver sedan drives through the parking lot from left to right between 0 seconds and 3 seconds. At the start of this interval, a black SUV is parked on the right side of the lot, a white box truck is parked near the center-right, a white van is parked behind the box truck, a red car is parked in the upper-left, and a dark-colored sedan is parked in the lower-left. A person walks in the background near the buildings at the far end of the parking lot.\n\nBetween 3 seconds and 6 seconds, a person rides a bicycle from right to left across the upper portion of the frame. Simultaneously, a white van drives from right to left in the background. The black SUV remains parked on the right side of the lot, while a silver sedan appears parked in the lower center. Other cars stay parked throughout the lot, and a large shadow moves slowly across the pavement from right to left.\n\nFrom 6 seconds to 9 seconds, two individuals walk from left to right across the upper right portion of the parking lot near several parked white vans. Meanwhile, another person walks along the sidewalk at the far edge of the parking area, moving from left to right behind the line of trees. No other notable movement occurs.\n\nAt 9 seconds, two individuals begin riding bicycles from the right side of the frame toward the left. One cyclist travels in the lower right portion of the parking lot, while the second cycles farther back, both heading leftward. During this period, a black SUV is parked on the far right edge, a silver sedan faces left in the middle of the lot, a white box truck and a white van are positioned near the top right, a red car occupies the upper left, a dark-colored sedan sits in the middle-left, a white pickup truck parks in the upper center, and a white minivan rests in the upper right. A green sports field is visible beyond the parking lot.\n\nBy 12 seconds, one individual continues cycling from the bottom right toward the center of the parking lot, passing behind a parked black SUV and proceeding toward the left side of the frame.\n\nBetween 15 seconds and 18 seconds, a white van drives from the right side of the parking lot toward the left, exiting the frame at the top center. Two individuals walk across the far end of the parking lot from right to left behind parked cars. All other elements remain static.\n\nDuring 18 seconds to 21 seconds, two individuals walk from right to left along the edge of the parking area in the upper left, close to a chain-link fence bordering a grassy field. A white pickup truck drives slowly across the middle section of the parking lot from left to right, eventually leaving the frame at the top center. Most vehicles—such as various sedans, SUVs, vans, and trucks—are stationary throughout.\n\nFinally, between 21 seconds and 22.778 seconds, a white pickup truck reappears in the upper left, driving again from left to right across the rear of the parking lot. A black sedan enters from the left side of the frame, moves toward the center, then turns right and heads deeper into the lot. Another black sedan enters from the bottom right corner and advances toward the central part of the lot. A silver sedan remains parked in the middle of the lot, and a dark-colored SUV stays parked on the right side. Numerous other cars—including a red car, a white car, and a white box truck—are present but do not move. There are no visibly clear persons in the final moments of the recording.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-22.778473091364205"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "A silver sedan drives through the parking lot from left to right, moving across the frame.\n\nA black SUV is parked on the right side of the lot.\n\nA white box truck is parked near the center-right of the lot.\n\nA white van is parked behind the white box truck.\n\nA red car is parked in the upper-left section of the lot.\n\nA dark-colored sedan is parked in the lower-left section of the lot.\n\nA person walks in the background near the buildings at the far end of the parking lot."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "In the parking lot, a person rides a bicycle from right to left across the upper portion of the frame. A white van drives from right to left in the background. A black SUV is parked on the right side of the lot. A silver sedan is parked in the lower center of the lot. Several other cars are parked throughout the lot. A large shadow moves slowly across the parking lot from right to left."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "In the upper right portion of the parking lot, two individuals walk from left to right across the frame near several parked white vans.\n\nA person walks along the sidewalk at the far edge of the parking area, moving from left to right behind the line of trees.\n\nThe scene remains otherwise unchanged throughout the clip; no other significant human activity or vehicle motion occurs. The cars remain stationary in their respective spaces."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "In the parking lot, two individuals are riding bicycles from the right side of the frame towards the left.\n\nOne person rides a bicycle in the lower right portion of the parking lot, moving from right to left across the frame.\n\nAnother person rides a bicycle further back, also moving from the right side of the frame toward the left.\n\nA black SUV is parked on the far right edge of the parking lot.\n\nA silver sedan is parked in the middle of the lot, facing left.\n\nA white box truck is parked near the top right of the lot, with a white van parked behind it.\n\nA red car is parked in the upper left section of the lot.\n\nA dark-colored sedan is parked in the middle-left area of the lot.\n\nA white pickup truck is parked in the upper center of the lot.\n\nA white minivan is parked in the upper right section of the lot.\n\nA green sports field is visible in the background, beyond the parking lot."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A person is riding a bicycle from the bottom right of the frame towards the center of the parking lot.\n\nThe bicycle rider moves across the paved surface, passing behind a parked black SUV.\n\nThe person continues moving towards the left side of the frame, remaining visible in the lower portion of the scene."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "A white van drives from the right side of the parking lot towards the left, exiting the frame at the top edge near the center.\n\nTwo individuals walk across the far end of the parking lot, moving from right to left behind parked cars.\n\nThe rest of the scene remains stationary throughout the clip; no other significant vehicle movements or person activities occur."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "The scene shows a large outdoor parking lot with numerous parked cars under bright sunlight casting long shadows.\n\nIn the upper left portion of the frame, near a chain-link fence bordering a grassy field, two individuals can be seen walking from right to left along the edge of the parking area.\n\nA white pickup truck drives slowly across the middle section of the parking lot, moving generally from left to right before exiting the view at the top center.\n\nSeveral other vehicles remain stationary throughout the sequence: various sedans (including red, silver, black), SUVs, vans, and trucks occupy designated spaces.\n\nNo significant changes occur within the rest of the environment during the duration of the clip; most activity consists of the single vehicle's passage and the pedestrians' walk."
+        },
+        {
+          "source_clip": "21-22.778473091364205",
+          "start_sec": 21.0,
+          "end_sec": 22.778473091364205,
+          "caption": "The video shows a wide shot of a large outdoor parking lot with numerous parked cars and a few moving vehicles.\n\nIn the upper left portion of the frame, a white pickup truck drives from left to right across the back of the parking lot.\n\nA black sedan is seen driving from the left side of the frame towards the center, then turns right and proceeds toward the back of the lot.\n\nAnother black sedan enters the frame from the bottom right corner and drives towards the center of the lot.\n\nA silver sedan is parked in the middle of the lot, and a dark-colored SUV is parked on the right side.\n\nSeveral other cars are parked throughout the lot, including a red car, a white car, and a white box truck.\n\nThere are no people clearly visible in the scene."
+        }
+      ]
+    }
+  ]
+}

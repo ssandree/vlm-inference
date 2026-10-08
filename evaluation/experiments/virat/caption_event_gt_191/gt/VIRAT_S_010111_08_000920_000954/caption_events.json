@@ -1,0 +1,133 @@
+{
+  "video_id": "VIRAT_S_010111_08_000920_000954",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE006"
+      ],
+      "source_track_ids": [
+        "88"
+      ],
+      "start_frame": 0,
+      "end_frame": 152,
+      "start_time": 0.0,
+      "end_time": 6.3413,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "88"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "85"
+      ],
+      "start_frame": 286,
+      "end_frame": 618,
+      "start_time": 11.9316,
+      "end_time": 25.7822,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "85"
+      },
+      "action": "getting_into_vehicle",
+      "object": [
+        {
+          "track_id": "33",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE003",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE005"
+      ],
+      "source_track_ids": [
+        "84"
+      ],
+      "start_frame": 300,
+      "end_frame": 617,
+      "start_time": 12.5156,
+      "end_time": 25.7405,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "84"
+      },
+      "action": "walking",
+      "object": [],
+      "direction": "right_to_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE004",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "83"
+      ],
+      "start_frame": 347,
+      "end_frame": 419,
+      "start_time": 14.4764,
+      "end_time": 17.4802,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "83"
+      },
+      "action": "opening_vehicle_trunk",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    },
+    {
+      "caption_event_id": "CE005",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "83"
+      ],
+      "start_frame": 453,
+      "end_frame": 503,
+      "start_time": 18.8986,
+      "end_time": 20.9846,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "83"
+      },
+      "action": "closing_vehicle_trunk",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "video_id": "VIRAT_S_040005_08_001225_001276",
+  "version": "human_review_v2",
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "1"
+      ],
+      "start_frame": 416,
+      "end_frame": 518,
+      "start_time": 13.8805,
+      "end_time": 17.2839,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "1"
+      },
+      "action": "getting_into_vehicle",
+      "object": [
+        {
+          "track_id": "2",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "getting_into_vehicle",
+      "provenance_layer": "original_gt",
+      "review_links": [
+        "V09-04"
+      ]
+    },
+    {
+      "caption_event_id": "HE_V09-01",
+      "event_form": "human_review_semantic_event",
+      "action": "driving",
+      "action_family": "driving",
+      "subject": {
+        "category": "vehicle",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "검은색/어두운 차량이 교차로를 통과한다.",
+      "review_links": [
+        "V09-01"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V09-03",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 주차 차량 쪽으로 걸어간다.",
+      "review_links": [
+        "V09-03"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V09-06",
+      "event_form": "human_review_semantic_event",
+      "action": "driving",
+      "action_family": "driving",
+      "subject": {
+        "category": "vehicle",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "그 차량이 주차 위치에서 출발한다.",
+      "review_links": [
+        "V09-06"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    }
+  ],
+  "confirmed_attributes": [
+    {
+      "review_id": "V09-02",
+      "video_id": "VIRAT_S_040005_08_001225_001276",
+      "statement_ko": "교차로를 지나는 차량은 화면 왼쪽→오른쪽으로 이동한다.",
+      "review_hint_ko": "차량 식별 후 방향 확인.",
+      "source_record_ids": [
+        "R070",
+        "R088"
+      ],
+      "answer": "yes",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "detail",
+      "raw_answer": "yes",
+      "resolved_status": "yes",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[yes] V09-02 [detail] 교차로를 지나는 차량은 화면 왼쪽→오른쪽으로 이동한다.\n  확인 포인트: 차량 식별 후 방향 확인.\n  출처: R070, R088",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "direction",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "confirmed_context": [],
+  "rejected_claims": [
+    {
+      "review_id": "V09-05",
+      "video_id": "VIRAT_S_040005_08_001225_001276",
+      "statement_ko": "차량에 접근한 사람이 차량에서 물러나는 움직임을 보인다.",
+      "review_hint_ko": "탑승 전 잠깐 물러나는 것인지 끝내 타지 않는 것인지 수정란에 구분.",
+      "source_record_ids": [
+        "R017"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V09-05 [core] 차량에 접근한 사람이 차량에서 물러나는 움직임을 보인다.\n  확인 포인트: 탑승 전 잠깐 물러나는 것인지 끝내 타지 않는 것인지 수정란에 구분.\n  출처: R017",
+      "semantic_kind": "event",
+      "action_family": "locomotion",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V09-07",
+      "video_id": "VIRAT_S_040005_08_001225_001276",
+      "statement_ko": "출발한 차량이 도로로 우회전한다.",
+      "review_hint_ko": "직진/좌회전과 혼동 여부 확인.",
+      "source_record_ids": [
+        "R071",
+        "R089"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "detail",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V09-07 [detail] 출발한 차량이 도로로 우회전한다.\n  확인 포인트: 직진/좌회전과 혼동 여부 확인.\n  출처: R071, R089",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "turn",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V09-08",
+      "video_id": "VIRAT_S_040005_08_001225_001276",
+      "statement_ko": "사람이 주차 차량/중앙 녹지 옆을 걸어 화면 밖으로 나간다.",
+      "review_hint_ko": "탑승하는 사람을 잘못 추적한 설명일 수도 있음. 실제 주체 기록.",
+      "source_record_ids": [
+        "R035"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V09-08 [core] 사람이 주차 차량/중앙 녹지 옆을 걸어 화면 밖으로 나간다.\n  확인 포인트: 탑승하는 사람을 잘못 추적한 설명일 수도 있음. 실제 주체 기록.\n  출처: R035",
+      "semantic_kind": "event",
+      "action_family": "locomotion",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V09-09",
+      "video_id": "VIRAT_S_040005_08_001225_001276",
+      "statement_ko": "펜스 옆 잔디밭을 가로질러 달리는 사람이 있다.",
+      "review_hint_ko": "그림자나 영상 전환을 사람의 달리기로 오인했는지 우선 확인.",
+      "source_record_ids": [
+        "R053"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V09-09 [core] 펜스 옆 잔디밭을 가로질러 달리는 사람이 있다.\n  확인 포인트: 그림자나 영상 전환을 사람의 달리기로 오인했는지 우선 확인.\n  출처: R053",
+      "semantic_kind": "event",
+      "action_family": "locomotion",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V09-10",
+      "video_id": "VIRAT_S_040005_08_001225_001276",
+      "statement_ko": "배경 나무/건물 위로 새가 날아간다.",
+      "review_hint_ko": "기존 핵심 사람·차량 평가 밖의 선택 항목. 포함 여부를 별도 결정.",
+      "source_record_ids": [
+        "R071",
+        "R089"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "context",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V09-10 [context] 배경 나무/건물 위로 새가 날아간다.\n  확인 포인트: 기존 핵심 사람·차량 평가 밖의 선택 항목. 포함 여부를 별도 결정.\n  출처: R071, R089",
+      "semantic_kind": "context",
+      "action_family": "context",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "uncertain_claims": [],
+  "corrected_claims": [],
+  "exhaustive_for_all_visible_events": false,
+  "evaluation_scope": "human-reviewed semantic events, action families and reviewed claims; not temporally localized instance detection"
+}

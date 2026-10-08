@@ -1,0 +1,145 @@
+{
+  "video": "VIRAT_S_040005_08_001225_001276.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_040005_08_001225_001276.mp4.json",
+  "source_caption_sha256": "43495531eb75a41c6d83eac411b79bb3aa07fb00c8ce12c3797d9d6bf67f49ae",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 30.0,
+      "intermediate_caption": "The scene depicts a quiet campus-like environment with buildings, trees, roads, and multiple parked vehicles. Initially, there are no people or moving vehicles; only parked cars—including a blue sedan, a dark green sedan, and a red car—are present. A green lawn appears in the foreground during several early moments. At approximately 18 seconds, a small white vehicle becomes visible, parked near a building on the right side. From 21 seconds onward, activity begins as a dark-colored car moves from left to right across the frame, traversing a parking lot area. This motion continues into the next segment, where it passes through an intersection while another dark-colored car remains parked in the lot on the left alongside a blue car and a red car. In the final segment, a black car follows the same path—driving from left to right across the frame—and passes through the intersection. Throughout the sequence, most elements remain static, with consistent visibility of parked vehicles, structures, vegetation, and open spaces under a clear sky. No individuals appear in any part of the footage.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-27",
+        "27-30"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A black object briefly enters the frame from the bottom right corner at the end of the clip."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. The cars, including a blue sedan, a dark green sedan, and a red car, remain parked throughout the clip. There is no discernible movement or interaction."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A green lawn occupies the foreground."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A few cars are parked in a lot on the left side of the frame. The scene remains unchanged throughout the clip."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A green lawn occupies the foreground."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A green lawn occupies the foreground."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. A small white vehicle is parked near a building on the right side of the frame. All other vehicles are stationary. There is no discernible movement or interaction occurring."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "A dark-colored car drives from left to right across the frame, passing through a parking lot area."
+        },
+        {
+          "source_clip": "24-27",
+          "start_sec": 24.0,
+          "end_sec": 27.0,
+          "caption": "A dark-colored car drives from left to right across the frame, passing through an intersection. Another dark-colored car is parked in the lot on the left side of the frame. A blue car is also parked in the lot on the left. A red car is parked in the lot on the far left. All vehicles remain stationary except for the one driving through the intersection."
+        },
+        {
+          "source_clip": "27-30",
+          "start_sec": 27.0,
+          "end_sec": 30.0,
+          "caption": "A black car drives from left to right across the frame, passing through an intersection. A blue car is parked in the lot on the left side of the frame. Another red car is also parked in the lot on the far left. The scene is otherwise static, showing a campus-like area with buildings, trees, and grassy areas under a clear sky."
+        }
+      ]
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 50.68396666666667,
+      "intermediate_caption": "A dark-colored sedan drives from left to right across the frame, passing through an intersection. Shortly afterward, a dark green car moves from left to right through a paved intersection. This is followed by a black car driving from left to right across the frame, passing through a crosswalk area. During this sequence, multiple vehicles—specifically a blue car and a red car—are observed parked on the left side of the road; they remain stationary throughout the entire period. After the last vehicle passes, there is a continuous interval during which no people or moving vehicles appear in the scene. The setting remains consistent as a campus-like outdoor environment featuring buildings, trees, roads, grassy areas, and parking lots under a clear sky. All described elements persist without change until the end of the observation window.",
+      "source_clips": [
+        "30-33",
+        "33-36",
+        "36-39",
+        "39-42",
+        "42-45",
+        "45-48",
+        "48-50.68396666666667"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "30-33",
+          "start_sec": 30.0,
+          "end_sec": 33.0,
+          "caption": "A dark-colored sedan drives from left to right across the frame, passing through an intersection. A blue car is parked in the lot on the left side of the frame. Another dark-colored car is also parked in the lot, further back on the left. The scene is otherwise static, showing a campus-like environment with buildings, trees, roads, and grassy areas under a clear sky."
+        },
+        {
+          "source_clip": "33-36",
+          "start_sec": 33.0,
+          "end_sec": 36.0,
+          "caption": "A dark green car drives from left to right across the frame, moving through a paved intersection. The car is seen entering the intersection from the left side of the screen and exits on the right. No other vehicles or people are visibly moving in the scene."
+        },
+        {
+          "source_clip": "36-39",
+          "start_sec": 36.0,
+          "end_sec": 39.0,
+          "caption": "A black car drives from left to right across the frame, passing through a crosswalk area. A blue car is parked on the left side of the road. Another red car is also parked on the left side of the road. The scene is a wide view of a campus-like area with buildings, trees, roads, and grassy areas. There are no people visible in the video."
+        },
+        {
+          "source_clip": "39-42",
+          "start_sec": 39.0,
+          "end_sec": 42.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. The cars, including a blue sedan and a red car, remain stationary throughout the clip. There is no discernible movement or interaction occurring."
+        },
+        {
+          "source_clip": "42-45",
+          "start_sec": 42.0,
+          "end_sec": 45.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a stationary view of a campus-like area with buildings, trees, roads, and parked cars. The cars, including a blue sedan and a red car, remain stationary throughout the clip. There is no discernible movement or interaction."
+        },
+        {
+          "source_clip": "45-48",
+          "start_sec": 45.0,
+          "end_sec": 48.0,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, trees, roads, and parking lots under a clear sky. A few cars are parked in the lot on the left side of the frame."
+        },
+        {
+          "source_clip": "48-50.68396666666667",
+          "start_sec": 48.0,
+          "end_sec": 50.68396666666667,
+          "caption": "There are no people or moving vehicles visible in the scene. The image shows a static view of a campus-like area with buildings, roads, parking lots, and green spaces under a clear sky."
+        }
+      ]
+    }
+  ]
+}

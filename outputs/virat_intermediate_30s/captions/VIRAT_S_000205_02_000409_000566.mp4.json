@@ -1,0 +1,433 @@
+{
+  "video": "VIRAT_S_000205_02_000409_000566.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_000205_02_000409_000566.mp4.json",
+  "source_caption_sha256": "afa2f3588441518b5301f2b7a78201904d148727059901a59553b58d39a0dcff",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 30.0,
+      "intermediate_caption": "Two individuals stand near a white car located on the right side of the parking lot between 0 seconds and 3 seconds, remaining stationary through multiple intervals. At various points—specifically around 0:00–0:03, 0:06–0:09, 0:15–0:18, 0:18–0:21, and again from 0:27–0:30—the pair continue to stand nearby the white car without noticeable change in their positioning. In one segment (0:09–0:12), however, the group is described as being adjacent to a silver car instead, which has its driver’s side door open, and one individual seems to enter or exit the vehicle. This suggests either a shift in location or inconsistency in object identification among frames. During another interval (0:12–0:15), both individuals appear engaged with the rear passenger side of the silver car, though they later return to proximity with the white car.\n\nAt several moments—a single instance each—at 0:03–0:06, 0:06–0:09, 0:15–0:18, and 0:27–0:30, a dark-colored sedan moves from left to right along the roadway in front of the parking lot. Another dark-colored car passes similarly in the distant background at 0:03–0:06 but does not reappear afterward. Additionally, a person crosses the central portion of the parking lot walking from left to right at 0:03–0:06 and again at 0:24–0:27. Around 0:21–0:24, someone wearing a yellow shirt approaches a white car on the far right, interacts briefly—possibly attempting to open a door—and then disappears behind the vehicle. \n\nThroughout most periods, many cars—including a black sedan positioned prominently in the foreground—are parked and do not move. Other fixed elements include a red SUV situated mid-lot after 0:27. Overhead conditions suggest consistent lighting typical of overcast weather. Despite minor discrepancies regarding whether the primary interaction involves a white or silver car, the core observation includes recurring presence of two individuals near a light-colored vehicle on the right side of the lot, occasional pedestrian crossings, periodic traffic flow on the access road, and minimal overall dynamic activity beyond those instances.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-27",
+        "27-30"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "In the parking lot, two individuals are standing near a white car on the right side of the frame. The individuals remain stationary throughout the clip. A black sedan is parked in the foreground on the right. Several other cars are parked in designated spaces across the lot. No vehicles are seen moving, and no other people are visible."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A person walks across the parking lot from left to right near the center of the frame.\n\nA dark-colored car drives from left to right along the road in the foreground.\n\nAnother dark-colored car drives from left to right in the far background, behind the main parking area.\n\nA white car is parked in the upper right section of the lot, with a person standing next to it."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "In the parking lot, two individuals are standing near a white car parked in the right-hand row of spaces.\n\nA dark-colored sedan is driving on the road in the foreground from left to right.\n\nThe white car with the two individuals remains stationary for the duration of the clip."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "In the parking lot, two individuals are standing next to a silver car parked in a space near the right edge of the frame. The car's driver-side door is open. One person appears to be getting into or out of the vehicle while the other stands beside it. The scene remains static otherwise, with no other people or moving vehicles visible."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "In the parking lot, two individuals are standing next to a silver car parked in a space near the right edge of the frame. The person on the left, wearing dark clothing, appears to be interacting with the vehicle's rear passenger side. The second individual, wearing lighter-colored clothing, stands slightly behind and to the right of the first person. The silver car remains stationary throughout the clip. All other vehicles in the parking lot are parked and remain stationary."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "In the parking lot, two individuals are standing near a white car parked in the right-hand row of spaces.\n\nA dark-colored sedan is driving on the road in the foreground from left to right.\n\nThe white car with the two individuals remains stationary throughout the clip."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "In the parking lot, two individuals are standing near a white car on the right side of the frame. The individuals remain stationary throughout the clip. A black sedan is parked in the foreground on the right. Several other cars are parked in designated spaces across the lot. No vehicles are seen moving, and no other people are visible."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "A person wearing a yellow shirt walks from the right side of the parking lot towards a white car parked in the far-right row.\n\nThe person reaches the white car and appears to interact with it, possibly opening a door, before moving out of view behind the vehicle.\n\nNo other people or significant vehicle movements are observed in the frame."
+        },
+        {
+          "source_clip": "24-27",
+          "start_sec": 24.0,
+          "end_sec": 27.0,
+          "caption": "A person walks across the parking lot from left to right near the center of the frame at approximately 0:00.\n\nAnother individual stands next to a silver car parked along the far-right edge of the lot; no significant movement occurs with them during the clip.\n\nThe scene remains otherwise unchanged throughout the duration, showing numerous stationary cars within marked spaces under overcast skies. No other vehicle motion or human activity is observed."
+        },
+        {
+          "source_clip": "27-30",
+          "start_sec": 27.0,
+          "end_sec": 30.0,
+          "caption": "In the parking lot, two individuals are standing near a white car parked in a space on the right side of the frame. The person on the left is wearing dark clothing and appears to be facing the car, while the person on the right is wearing lighter-colored clothing and is also facing the vehicle. They remain in this position throughout the clip. A black sedan is driving on the road in the foreground from left to right. Several other cars are parked in the lot, including a red SUV parked in the middle section. The scene remains largely static with no significant changes in the positions of the vehicles or people."
+        }
+      ]
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 60.0,
+      "intermediate_caption": "A dark-colored SUV drives from left to right across the bottom of the frame. A person walks from right to left along the far edge of the parking lot near the parked cars.  \n\nA dark-colored pickup truck drives from the bottom left of the frame toward the right along a road at the edge of the parking lot. In the lower-left corner, near the entrance/exit ramp, two individuals stand together briefly before one walks away toward the center-right of the scene.  \n\nA black sedan drives from right to left along the road at the bottom of the frame, followed closely by a dark-colored pickup truck traveling in the same direction. On the right side of the frame, a person walks on the sidewalk away from the camera while another individual stands near the entrance to the parking lot. Several vehicles are parked in the lot, including two cars located in the far back near the trees.  \n\nA black pickup truck continues driving from right to left on the road in the foreground. At the same time, a person walks on the sidewalk on the far right, initially moving away from the camera then turning and walking toward it. Another person stands near a white car in the central part of the parking lot. A dark-colored sedan passes behind the black pickup truck, also heading leftward.  \n\nOn the right side of the frame, two people run on the sidewalk from right to left. Simultaneously, a dark-colored pickup truck drives on the road nearby, moving from right to left. One person remains standing near a white car in the upper right portion of the parking lot.  \n\nTwo pedestrians walk from right to left across the foreground near the road’s edge, close to where the earlier runners were observed. A gold-colored sedan drives along the road at the bottom right, moving away from the camera toward the lower-left corner.  \n\nTwo pedestrians walk from left to right along the sidewalk at the bottom of the frame, with one carrying a bag over their shoulder. A silver car drives past from right to left on the road at the bottom right. A dark-colored SUV enters the scene from the bottom right and progresses toward the center-left across the intersection. The two pedestrians continue walking toward the far side of the parking lot entrance.  \n\nTwo more pedestrians walk from left to right across the foreground near a grassy median. A dark red SUV drives from right to left along the road bordering the parking lot and exits the frame. Behind it, another vehicle—possibly a minivan—travels in the same direction but stays mostly hidden. The pair of pedestrians move further right and eventually leave the field of view.  \n\nA person wearing a backpack walks from the left side of the frame toward the right across a paved area beside a grassy island. A red car drives from the bottom right corner upward toward the top right along a road adjacent to the parking lot. Meanwhile, another person walks in the distant background on a path behind the parked cars, moving from left to right. Some additional cars appear to be in motion in the far background.  \n\nFinally, a person wearing a backpack walks from the left side of the frame diagonally down toward the bottom right along a paved pathway. Another person walks through the middle ground of the parking lot, moving from left to right. A third person stands still on the far right edge of the parking lot near a parked car. Throughout this final segment, all previously parked cars within the main lot remain stationary.",
+      "source_clips": [
+        "30-33",
+        "33-36",
+        "36-39",
+        "39-42",
+        "42-45",
+        "45-48",
+        "48-51",
+        "51-54",
+        "54-57",
+        "57-60"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "30-33",
+          "start_sec": 30.0,
+          "end_sec": 33.0,
+          "caption": "A dark-colored SUV drives from left to right across the bottom of the frame. A person walks from right to left along the far edge of the parking lot near the parked cars."
+        },
+        {
+          "source_clip": "33-36",
+          "start_sec": 33.0,
+          "end_sec": 36.0,
+          "caption": "A dark-colored pickup truck drives from the bottom left of the frame towards the right along a road at the edge of the parking lot.\n\nIn the lower-left corner, near the entrance/exit ramp, two individuals stand next to each other for several frames before one walks away toward the center-right of the scene.\n\nThe camera remains stationary throughout the sequence, providing a high-angle view of the large outdoor parking area with numerous parked cars. The sky appears overcast."
+        },
+        {
+          "source_clip": "36-39",
+          "start_sec": 36.0,
+          "end_sec": 39.0,
+          "caption": "A black sedan drives from right to left along the road at the bottom of the frame. A dark-colored pickup truck follows behind the sedan, also moving from right to left. A person walks on the sidewalk on the right side of the frame, moving away from the camera. Another person stands near the entrance to the parking lot on the right. Several cars are parked in the large lot. Two cars are parked in the far back of the lot, near the trees."
+        },
+        {
+          "source_clip": "39-42",
+          "start_sec": 39.0,
+          "end_sec": 42.0,
+          "caption": "A black pickup truck drives from right to left on the road in the foreground.\n\nA person walks on the sidewalk on the far right, moving away from the camera.\n\nAnother person stands near the center of the parking lot, next to a white car.\n\nA dark-colored sedan drives from right to left on the road in the foreground, passing behind the black pickup truck.\n\nA person walks on the sidewalk on the far right, moving toward the camera."
+        },
+        {
+          "source_clip": "42-45",
+          "start_sec": 42.0,
+          "end_sec": 45.0,
+          "caption": "Two people are running on the sidewalk on the right side of the frame, moving from right to left.\n\nA dark-colored pickup truck is driving on the road on the right, moving from right to left.\n\nSeveral cars are parked in the large lot.\n\nOne person is standing near a white car in the upper right section of the parking lot."
+        },
+        {
+          "source_clip": "45-48",
+          "start_sec": 45.0,
+          "end_sec": 48.0,
+          "caption": "In the parking lot, two pedestrians walk from right to left across the foreground near the road's edge; one person walks ahead of the other.\n\nA gold-colored sedan drives along the road at the bottom right of the frame, moving away from the camera toward the lower-left corner.\n\nThe scene remains otherwise unchanged with numerous parked cars throughout the lot under overcast skies."
+        },
+        {
+          "source_clip": "48-51",
+          "start_sec": 48.0,
+          "end_sec": 51.0,
+          "caption": "Two pedestrians walk from left to right along the sidewalk at the bottom of the frame; one carries a bag over their shoulder.\n\nA silver car drives past from right to left on the road at the bottom right.\n\nAnother dark-colored SUV enters the scene from the bottom right corner and proceeds towards the center-left across the intersection.\n\nThe two pedestrians continue walking toward the far side of the parking lot entrance as other cars remain parked throughout the large lot."
+        },
+        {
+          "source_clip": "51-54",
+          "start_sec": 51.0,
+          "end_sec": 54.0,
+          "caption": "Two pedestrians walk from left to right across the foreground near a grassy median at 0:00.\n\nA dark red SUV drives from right to left along the road bordering the parking lot throughout the clip; it moves out of frame by 0:02.\n\nAnother vehicle, possibly a minivan, also travels from right to left behind the first car but remains partially obscured for most of the duration.\n\nThe two individuals continue walking towards the right side of the scene until they exit the view around 0:02."
+        },
+        {
+          "source_clip": "54-57",
+          "start_sec": 54.0,
+          "end_sec": 57.0,
+          "caption": "A person wearing a backpack walks from the left side of the frame towards the right across a paved area near a grassy island.\n\nA red car drives from the bottom right corner of the frame towards the top right, moving along a road adjacent to the parking lot.\n\nAnother person is visible walking in the distance on a path behind the parked cars, moving from left to right.\n\nSeveral other cars are parked in the large lot, with some appearing to be in motion in the far background."
+        },
+        {
+          "source_clip": "57-60",
+          "start_sec": 57.0,
+          "end_sec": 60.0,
+          "caption": "A person wearing a backpack walks from the left side of the frame towards the bottom right along a paved path.\n\nAnother person is seen walking in the background near the center of the parking lot, moving from left to right.\n\nA third person is standing still on the far right edge of the parking lot, near a parked car.\n\nThe cars in the parking lot remain stationary throughout the clip."
+        }
+      ]
+    },
+    {
+      "start_sec": 60,
+      "end_sec": 90.0,
+      "intermediate_caption": "Two people walk across the parking lot from left to right in the middle ground during the early part of the segment. A black car drives on the road in the foreground from left to right, followed later by another black car entering from the bottom right and traveling leftward, accompanied by a second dark-colored car further ahead. At various points, additional drivers move their vehicles—specifically, a silver sedan, a black sedan, and a red pickup truck—all crossing the parking lot from left to right. \n\nThroughout the period, several individuals traverse different areas: two people continue walking across the central portion of the lot from left to right; a person stands adjacent to a dark-colored car on the far right side of the lot around mid-segment; then shifts to being seen again near a car at the far end of the lot on the right before reappearing as someone else joins nearby. On the far right, a pedestrian moves from right to left along the sidewalk, joined briefly by another such figure. Later, a single person walks up the sidewalk from bottom to top on the right side of the frame. Toward the final moments, two individuals appear near a dark-colored car parked at the far end of the lot on the left—one seemingly opens the rear passenger door while the other stands close by—and simultaneously, another person crosses the parking area heading toward the center-left region.\n\nMultiple vehicles remain parked throughout: a black car initially visible on the far right becomes located on the far left by 66 seconds; a red pickup truck parks centrally in the lot starting at 69 seconds but disappears afterward; numerous other cars—including white, black, silver, and gray models—are consistently present in assigned spaces. Two white sedans park parallel to each other near the roadside on the right, separated by yellow bollards. No major structural or environmental changes occur aside from consistent overcast daylight illumination. All observed movements take place without apparent interaction among participants.",
+      "source_clips": [
+        "60-63",
+        "63-66",
+        "66-69",
+        "69-72",
+        "72-75",
+        "75-78",
+        "78-81",
+        "81-84",
+        "84-87",
+        "87-90"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "60-63",
+          "start_sec": 60.0,
+          "end_sec": 63.0,
+          "caption": "Two people are walking across the parking lot from left to right in the middle ground. A black car is driving on the road in the foreground from left to right. Another black car is parked in the far right of the frame."
+        },
+        {
+          "source_clip": "63-66",
+          "start_sec": 63.0,
+          "end_sec": 66.0,
+          "caption": "A person walks across the parking lot from left to right near the center of the frame at approximately 0:00.\n\nAt least two other individuals walk together through the same area shortly after, moving towards the far side of the lot.\n\nSeveral cars remain parked throughout the sequence; no significant vehicle movement occurs beyond these pedestrians walking within the lot."
+        },
+        {
+          "source_clip": "66-69",
+          "start_sec": 66.0,
+          "end_sec": 69.0,
+          "caption": "Two people are walking across the parking lot from left to right in the middle ground. A black car is driving on the road in the foreground from left to right. Another black car is parked in the lot on the far left. A red pickup truck is parked in the lot on the right side. Several other cars are parked in the lot."
+        },
+        {
+          "source_clip": "69-72",
+          "start_sec": 69.0,
+          "end_sec": 72.0,
+          "caption": "In the center of the parking lot, two people are walking together from left to right.\n\nA person is standing next to a dark-colored car parked on the far right side of the lot.\n\nA red pickup truck is parked in the middle of the lot, near the center line.\n\nSeveral cars are parked in designated spaces throughout the lot, including white, black, silver, and gray vehicles.\n\nThe scene is a wide view of a large outdoor parking lot with multiple buildings and trees in the background."
+        },
+        {
+          "source_clip": "72-75",
+          "start_sec": 72.0,
+          "end_sec": 75.0,
+          "caption": "Two people are walking across the parking lot from left to right in the middle of the frame. A person is standing next to a car on the far right side of the parking lot. The cars in the parking lot remain stationary throughout the clip."
+        },
+        {
+          "source_clip": "75-78",
+          "start_sec": 75.0,
+          "end_sec": 78.0,
+          "caption": "In the parking lot, two people are walking near the center of the frame, moving from left to right.\n\nA dark-colored sedan enters the frame from the bottom right and drives along the road, moving towards the left side of the screen.\n\nAnother dark-colored car is already on the road, positioned ahead of the first car, also moving from right to left.\n\nThe cars in the parking lot remain stationary throughout the clip."
+        },
+        {
+          "source_clip": "78-81",
+          "start_sec": 78.0,
+          "end_sec": 81.0,
+          "caption": "Two people are walking across the parking lot from left to right in the middle distance.\n\nA dark-colored car is driving on the road in the bottom right corner of the frame, moving from right to left.\n\nA light-colored car is driving on the road in the bottom right corner of the frame, moving from right to left, behind the dark car."
+        },
+        {
+          "source_clip": "81-84",
+          "start_sec": 81.0,
+          "end_sec": 84.0,
+          "caption": "A silver sedan drives from left to right across the parking lot.\n\nA black sedan drives from left to right across the parking lot.\n\nA red pickup truck drives from left to right across the parking lot.\n\nTwo people walk from left to right in the middle of the parking lot.\n\nA person walks from right to left on the sidewalk on the far right of the frame.\n\nAnother person walks from right to left on the sidewalk on the far right of the frame."
+        },
+        {
+          "source_clip": "84-87",
+          "start_sec": 84.0,
+          "end_sec": 87.0,
+          "caption": "A person walks along the sidewalk on the right side of the frame from left to right.\n\nAnother individual stands near a car at the far end of the parking lot on the right.\n\nCars remain parked throughout the sequence with no significant changes in position."
+        },
+        {
+          "source_clip": "87-90",
+          "start_sec": 87.0,
+          "end_sec": 90.0,
+          "caption": "A person walks along the sidewalk on the right side of the frame from bottom to top.\n\nTwo individuals stand near a dark-colored car parked at the far end of the lot on the left side; one appears to be opening the rear passenger door while the other stands beside it.\n\nAnother individual walks across the parking area toward the center-left section of the lot.\n\nSeveral cars remain stationary throughout the sequence: some are parked in designated spaces within the main lot, others occupy spots closer to the road on the right-hand edge, including two white sedans parked parallel to each other with yellow bollards between them.\n\nThe scene remains otherwise unchanged under overcast lighting conditions."
+        }
+      ]
+    },
+    {
+      "start_sec": 90,
+      "end_sec": 120.0,
+      "intermediate_caption": "Throughout the 90s–120s timeframe, multiple vehicles travel along roads at the bottom of the frame—mostly moving from right to left—with occasional exceptions such as a white car driving from left to right between 111s and 114s. The traffic includes various models: sedans (silver, black), SUVs (silver, dark-colored), vans (gray minivan), and trucks (red pickup). These vehicles pass sequentially or follow each other closely, often appearing in pairs or small groups.  \n\nOn sidewalks and pathways adjacent to the parking lot, numerous individuals walk either alone or in pairs. Some persons enter the frame from the sides—left or right—and proceed toward the central areas of the parking lot or exit via the edges. One group of two people walks together near the entrance/exit ramp around 93s–96s. Others appear individually: some walk from the right side of the frame toward the center, others approach from the left, and a few traverse diagonally across the lot. At least three different locations show static presence: one person remains near a parked car in the upper-middle part of the lot early in the sequence; another stays near the entrance gate on the far side during later frames; and yet another stands beside a parked car on the sidewalk near the main entrance after 111s.  \n\nSeveral people are seen standing motionless at key points—for example, near the entrance gate on the far right starting at 102s, or close to a parked car on the far right at 96s. Meanwhile, many cars remain parked throughout the entire period in designated spots scattered across the lot—including sections labeled upper left, upper right, middle, lower left, lower right, middle right, and lower middle—all described consistently as dark-colored except where specified otherwise (e.g., red pickup, white sedan, black sedan). \n\nPedestrian movement occurs primarily along the periphery of the parking lot and its access routes, sometimes parallel to the roadway below. Individuals occasionally cross paths or overlap spatially but do not interact visibly. No new entities enter or leave permanently without being observed entering or departing the field of view. All movements occur continuously under consistent lighting conditions, suggesting uninterrupted observation. There is no indication of conflict, assistance, or coordinated activity among any visible subjects.",
+      "source_clips": [
+        "90-93",
+        "93-96",
+        "96-99",
+        "99-102",
+        "102-105",
+        "105-108",
+        "108-111",
+        "111-114",
+        "114-117",
+        "117-120"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "90-93",
+          "start_sec": 90.0,
+          "end_sec": 93.0,
+          "caption": "A person walks along the sidewalk at the bottom right of the frame from left to right.\n\nAnother individual stands near a car parked in the lot towards the upper middle section of the image; two other figures stand nearby further back.\n\nCars move through the scene: one black sedan drives across the lower-left corner into view, while several cars remain stationary throughout the clip within marked parking spaces."
+        },
+        {
+          "source_clip": "93-96",
+          "start_sec": 93.0,
+          "end_sec": 96.0,
+          "caption": "A silver car drives from left to right across the bottom of the frame.\n\nTwo individuals walk together near the entrance/exit ramp at the far end of the parking lot; one person appears to be wearing white pants.\n\nThe remaining cars remain stationary throughout the clip."
+        },
+        {
+          "source_clip": "96-99",
+          "start_sec": 96.0,
+          "end_sec": 99.0,
+          "caption": "A white car drives from right to left along the road at the bottom of the frame. A silver car follows behind it, also moving from right to left. In the parking lot, several cars are parked. A person walks from the right side of the frame towards the center of the parking lot. Another person is standing near a parked car on the far right."
+        },
+        {
+          "source_clip": "99-102",
+          "start_sec": 99.0,
+          "end_sec": 102.0,
+          "caption": "A silver sedan drives from right to left along the road at the bottom of the frame. A white SUV follows behind it, also moving from right to left. A gray minivan moves in the same direction, following the white SUV. A person walks from right to left along the edge of the parking lot near the front row of parked cars. Another person stands near the entrance gate on the far side of the parking lot. Several cars are parked in the lot, including a red pickup truck, a white sedan, and a black sedan. A dark-colored car is parked in the upper left section of the lot. A dark-colored car is parked in the upper right section of the lot. A dark-colored car is parked in the middle of the lot. A dark-colored car is parked in the lower left section of the lot. A dark-colored car is parked in the lower right section of the lot. A dark-colored car is parked in the middle right section of the lot. A dark-colored car is parked in the upper middle section of the lot. A dark-colored car is parked in the lower middle section of the lot. A dark-colored car is parked in the upper left section of the lot. A dark-colored car is parked in the upper right section of the lot. A dark-colored car is parked in the middle of the lot. A dark-colored car is parked in the lower left section of the lot. A dark-colored car is parked in the lower right section of the lot. A dark-colored car is parked in the middle right section of the lot. A dark-colored car is parked in the upper middle section of the lot. A dark-colored car is parked in the lower middle section of the lot."
+        },
+        {
+          "source_clip": "102-105",
+          "start_sec": 102.0,
+          "end_sec": 105.0,
+          "caption": "A silver SUV drives from right to left along the road in the foreground.\n\nA dark-colored sedan follows behind the silver SUV, also moving from right to left.\n\nA person walks from the right side of the parking lot towards the center, near the row of parked cars.\n\nAnother person is standing still near the entrance gate on the far right side of the parking lot."
+        },
+        {
+          "source_clip": "105-108",
+          "start_sec": 105.0,
+          "end_sec": 108.0,
+          "caption": "A silver sedan drives from the bottom left of the frame towards the right, exiting the scene.\n\nA person walks from the left side of the frame toward the center, passing behind a parked white car.\n\nAnother person walks from the right side of the frame toward the center, moving along the edge of the parking lot.\n\nA dark-colored SUV drives from the bottom right of the frame toward the left, exiting the scene."
+        },
+        {
+          "source_clip": "108-111",
+          "start_sec": 108.0,
+          "end_sec": 111.0,
+          "caption": "Two individuals walk from the left side of the frame toward the center near parked cars.\n\nA silver sedan drives through the foreground from right to left along a curved road at the bottom of the image.\n\nAnother dark-colored car moves across the lower portion of the screen from right to left behind the first vehicle.\n\nThe two pedestrians continue walking towards the parking lot area before moving out of view."
+        },
+        {
+          "source_clip": "111-114",
+          "start_sec": 111.0,
+          "end_sec": 114.0,
+          "caption": "A white car drives from left to right across the bottom of the frame on a road in front of a parking lot.\n\nA silver sedan drives from left to right on the same road, following the white car.\n\nA person walks from right to left along the sidewalk at the edge of the parking lot, near the parked cars.\n\nAnother person stands still on the sidewalk near the entrance to the parking lot, next to a parked car.\n\nThe white car and the silver sedan are both moving in the same direction on the road in the foreground."
+        },
+        {
+          "source_clip": "114-117",
+          "start_sec": 114.0,
+          "end_sec": 117.0,
+          "caption": "A person walks across the parking lot from left to right near the center of the frame.\n\nA silver car drives from right to left on the road in the foreground.\n\nA dark-colored SUV drives from right to left on the road in the foreground, following the silver car.\n\nA person walks on the sidewalk on the far right side of the frame, moving away from the camera."
+        },
+        {
+          "source_clip": "117-120",
+          "start_sec": 117.0,
+          "end_sec": 120.0,
+          "caption": "Two people are walking in the parking lot near the center of the frame.\n\nA black SUV drives from right to left on the road in the foreground.\n\nA silver car drives from right to left on the road in the foreground, following the black SUV.\n\nA dark-colored car drives from right to left on the road in the foreground, following the silver car.\n\nA person walks on the sidewalk on the far right side of the frame, moving away from the camera."
+        }
+      ]
+    },
+    {
+      "start_sec": 120,
+      "end_sec": 150.0,
+      "intermediate_caption": "Throughout the 120s–150s timeframe, multiple vehicles travel consistently from right to left along the road adjacent to the parking lot, including a series of dark sedans, red cars, silver pickups, black cars, and a white car. At various points, different combinations of these vehicles appear sequentially—some follow each other closely—and some pass behind others already in motion. \n\nOn the sidewalks, numerous individuals walk both toward and away from the camera. On the far right sidewalk, persons alternate between approaching and receding from the viewpoint. One individual walks continuously from the bottom right toward the center along this path during 144s–147s. Near the end of the segment (147s–150s), another person begins walking toward the camera on the far right sidewalk after previously having moved away.\n\nWithin the parking lot itself, groups of people traverse the space primarily from left to right. Two individuals frequently walk together in the central region of the lot, sometimes seen crossing paths with those going in opposite directions. During 120s–123s, two people begin their movement across the lot toward the left before later reappearing as they proceed back across the field from left to right starting around 123s. This pattern repeats intermittently until the final moments, where again two people walk together in the upper-center part of the lot heading rightward.\n\nAt times, single pedestrians enter the scene via the crosswalk in the lower-left quadrant, such as at 138s–141s, joining ongoing foot traffic within the lot’s perimeter. Meanwhile, certain areas show static elements like parked cars remaining unmoved throughout most of the clip, particularly visible in the background and upper portions of the frame. No significant environmental shifts occur—the lighting appears consistent, and no new structures or major disruptions emerge. All activity unfolds under steady conditions without apparent interaction among participants beyond shared use of pathways and roads.",
+      "source_clips": [
+        "120-123",
+        "123-126",
+        "126-129",
+        "129-132",
+        "132-135",
+        "135-138",
+        "138-141",
+        "141-144",
+        "144-147",
+        "147-150"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "120-123",
+          "start_sec": 120.0,
+          "end_sec": 123.0,
+          "caption": "Two people are walking in the parking lot near the center of the frame.\n\nA dark SUV is driving on the road on the right side of the frame, moving from right to left.\n\nA person is walking on the sidewalk on the far right side of the frame, also moving from right to left.\n\nThe dark SUV continues to move along the road, passing behind a parked car.\n\nThe two people continue walking across the parking lot towards the left side of the frame."
+        },
+        {
+          "source_clip": "123-126",
+          "start_sec": 123.0,
+          "end_sec": 126.0,
+          "caption": "Two people walk across the parking lot from left to right in the middle section.\n\nA person walks on the sidewalk on the far right of the frame, moving away from the camera.\n\nA red car drives on the road along the bottom right edge of the frame, moving from right to left.\n\nAnother person walks on the sidewalk on the far right, moving toward the camera."
+        },
+        {
+          "source_clip": "126-129",
+          "start_sec": 126.0,
+          "end_sec": 129.0,
+          "caption": "In the parking lot, two people walk from left to right across the middle of the frame. A dark-colored car drives from right to left along the road at the bottom right of the scene. Another person walks from right to left on the sidewalk at the far right edge of the frame."
+        },
+        {
+          "source_clip": "129-132",
+          "start_sec": 129.0,
+          "end_sec": 132.0,
+          "caption": "A person walks across the parking lot from left to right in the middle of the frame.\n\nA dark-colored car drives from right to left on the road in the foreground.\n\nAnother dark-colored car drives from right to left on the road in the foreground, following the first car.\n\nA red car drives from right to left on the road in the foreground, following the second car.\n\nA person stands near the entrance to the parking lot on the right side of the frame."
+        },
+        {
+          "source_clip": "132-135",
+          "start_sec": 132.0,
+          "end_sec": 135.0,
+          "caption": "Two people are walking across the parking lot from left to right.\n\nA red car is driving on the road from right to left.\n\nA black car is driving on the road from right to left, following behind the red car.\n\nAnother black car is driving on the road from right to left, following behind the first black car.\n\nA white car is parked in the lot."
+        },
+        {
+          "source_clip": "135-138",
+          "start_sec": 135.0,
+          "end_sec": 138.0,
+          "caption": "Two people walk across the parking lot from left to right.\n\nA red car drives on the road from right to left.\n\nA black car drives on the road from right to left.\n\nA silver car drives on the road from right to left.\n\nA white car drives on the road from right to left.\n\nA person walks on the sidewalk at the bottom of the frame from right to left."
+        },
+        {
+          "source_clip": "138-141",
+          "start_sec": 138.0,
+          "end_sec": 141.0,
+          "caption": "A red car drives from right to left along the road at the bottom of the frame. A silver sedan follows behind it, also moving from right to left. In the lower-left corner, two pedestrians walk across a crosswalk towards the center of the parking lot. Another pedestrian walks near the middle-right edge of the parking area. Several cars remain parked throughout the scene. The camera remains stationary, providing a high-angle view of the entire scene."
+        },
+        {
+          "source_clip": "141-144",
+          "start_sec": 141.0,
+          "end_sec": 144.0,
+          "caption": "A man walks from the bottom center of the frame towards the right along a sidewalk bordering a road.\n\nTwo pedestrians walk across the parking lot near its center; one moves toward the left side while the other proceeds forward.\n\nVehicles move through traffic: a red car travels down the street at the bottom right corner, followed by a silver pickup truck moving in the same direction.\n\nAnother vehicle drives past behind the first two cars.\n\nIn the upper portion of the scene, several parked cars remain stationary throughout the sequence."
+        },
+        {
+          "source_clip": "144-147",
+          "start_sec": 144.0,
+          "end_sec": 147.0,
+          "caption": "A person walks from the bottom right of the frame toward the center along the sidewalk next to the road.\n\nTwo cars drive down the road: one silver pickup truck moves leftward across the foreground, followed by a red SUV moving behind it.\n\nIn the parking lot, two individuals walk together near its middle section; one wears dark clothing while the other wears light-colored pants.\n\nSeveral parked cars remain stationary throughout the scene. A white car drives into the upper-left portion of the parking area but does not stop."
+        },
+        {
+          "source_clip": "147-150",
+          "start_sec": 147.0,
+          "end_sec": 150.0,
+          "caption": "A person walks across the parking lot from left to right in the middle of the frame.\n\nAnother person walks on the sidewalk along the road on the right side of the frame, moving away from the camera.\n\nA silver pickup truck drives on the road from right to left.\n\nA red SUV drives on the road from right to left, following behind the silver pickup truck.\n\nA dark-colored sedan drives on the road from right to left, passing behind the red SUV.\n\nA white car drives on the road from right to left, passing behind the dark-colored sedan.\n\nA person walks on the sidewalk on the far right side of the frame, moving away from the camera.\n\nTwo people walk together in the upper center of the parking lot, moving from left to right.\n\nA person walks on the sidewalk on the far right side of the frame, moving toward the camera."
+        }
+      ]
+    },
+    {
+      "start_sec": 150,
+      "end_sec": 156.33333333333334,
+      "intermediate_caption": "A person walks across the parking lot from left to right near the center of the frame. Another person remains standing still at the edge of the road on the far side of the intersection. Several vehicles—starting with a silver pickup truck followed by a red SUV and then two dark-colored sedans—are seen driving forward along the road in front of the camera. On the opposite side of the street, three additional cars travel away from the camera’s perspective. Throughout this period, multiple parked cars remain stationary in the large paved area between the roads.\n\nLater, a red SUV enters the frame from the bottom right and proceeds toward the center of the frame along a road beside the parking lot. A dark-colored pickup truck follows closely behind the red SUV as both move leftward across the screen. Meanwhile, another individual begins walking away from the camera toward the far side of the parking lot. Two people come to stand together at the back-right corner of the large paved area. Some parked cars stay motionless while others exhibit slow movement within their assigned spots.\n\nTowards the end of the sequence, a person walks from the right side of the frame toward the left along the edge of the parking lot. The dark-colored pickup truck continues its path, now traveling from the bottom right toward the top right along the road next to the parking lot. At the same moment, one person stands near the rear of a silver car located in the upper right portion of the lot. Additionally, a red vehicle appears briefly at the lower central part of the frame, seemingly advancing slowly forward.",
+      "source_clips": [
+        "150-153",
+        "153-156",
+        "156-156.33333333333334"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "150-153",
+          "start_sec": 150.0,
+          "end_sec": 153.0,
+          "caption": "A person walks across the parking lot from left to right near the center of the frame.\n\nAnother person stands still at the edge of the road on the far side of the intersection.\n\nSeveral cars drive along the road in front of the camera: a silver pickup truck moves forward; behind it, a red SUV drives forward; further back, two dark-colored sedans move forward together.\n\nOn the opposite side of the street, three other cars travel away from the camera's viewpoint.\n\nIn the large paved area between these roads, numerous parked cars remain stationary throughout the clip."
+        },
+        {
+          "source_clip": "153-156",
+          "start_sec": 153.0,
+          "end_sec": 156.0,
+          "caption": "A red SUV drives from the bottom right towards the center of the frame along a road bordering a parking lot.\n\nA dark-colored pickup truck follows behind the red SUV, also moving leftward across the screen.\n\nAnother person walks away from the camera toward the far side of the parking lot near its edge.\n\nTwo individuals stand together at the back-right corner of the large paved area.\n\nSeveral cars remain parked throughout the scene; some appear stationary while others move slowly within designated spaces."
+        },
+        {
+          "source_clip": "156-156.33333333333334",
+          "start_sec": 156.0,
+          "end_sec": 156.33333333333334,
+          "caption": "A person walks from the right side of the frame towards the left along the edge of the parking lot.\n\nA dark-colored pickup truck drives from the bottom right of the frame towards the top right, moving along the road adjacent to the parking lot.\n\nAnother person stands near the rear of a silver car parked in the upper right section of the lot.\n\nA red vehicle is partially visible at the very bottom center of the frame, appearing to be moving slowly forward."
+        }
+      ]
+    }
+  ]
+}

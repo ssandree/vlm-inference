@@ -1,0 +1,803 @@
+{
+  "video_id": "VIRAT_S_010111_08_000920_000954",
+  "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010111_08_000920_000954.mp4",
+  "source_events_json": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/dense_event_gt/VIRAT_S_010111_08_000920_000954.events.json",
+  "fps": 23.97,
+  "frame_width": 1280,
+  "frame_height": 720,
+  "nb_frames": 618,
+  "duration_sec": 25.7822,
+  "roi_context": {
+    "source": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/fullframe_proposed_roi_59_8b_fp16/inputs/VIRAT_S_010111_08_000920_000954/manifest.json",
+    "n_rois": 3,
+    "rois": [
+      {
+        "roi_id": 1,
+        "bbox_px": [
+          832,
+          0,
+          1280,
+          320
+        ],
+        "area_frac": 0.1556,
+        "centroid_norm": [
+          0.825,
+          0.2222
+        ],
+        "n_frames": 27
+      },
+      {
+        "roi_id": 2,
+        "bbox_px": [
+          704,
+          0,
+          896,
+          320
+        ],
+        "area_frac": 0.0667,
+        "centroid_norm": [
+          0.625,
+          0.2222
+        ],
+        "n_frames": 20
+      },
+      {
+        "roi_id": 3,
+        "bbox_px": [
+          0,
+          0,
+          256,
+          320
+        ],
+        "area_frac": 0.0889,
+        "centroid_norm": [
+          0.1,
+          0.2222
+        ],
+        "n_frames": 22
+      }
+    ]
+  },
+  "field_guide": {
+    "candidate_events": "VIRAT annotation kept as candidate atomic events. Do not merge on temporal overlap alone.",
+    "review.decision": "null until reviewed. Then KEEP, EXCLUDE, or GROUP.",
+    "review.visibility": "unreviewed until a person sets high, medium, or low.",
+    "review.captionable": "null until a person sets true or false.",
+    "review.include_primary_eval": "null until a person sets true or false.",
+    "review.semantic_location": "Place name written by a person. screen_location is only a frame-grid bin.",
+    "track_motion": "Endpoint displacement of the subject track. Not a required caption slot.",
+    "duplicate_candidate": "Same subject track, same activity class, and overlap covering at least 80% of the shorter interval. Members stay as separate candidates. A person chooses which one to keep.",
+    "same_actor_different_activity": "Do not merge. Exit plus carry, or carry plus enter, remain separate events.",
+    "different_spatial_region": "Concurrent events in different regions stay separate. Do not merge them.",
+    "screen_bins": "left_bottom, left_middle, and the other 3x3 bins are screen_location only. They are not an event-grouping criterion.",
+    "grouping": "Do not create a group from 3x3 bins. A people-group, if a person adds one, is for a general action such as walking and must not absorb enter, exit, carry, run, or vehicle actions.",
+    "human_added_events": "Actions outside the VIRAT 12 classes are added here by a person. Leave empty until then.",
+    "reference_sentence": "Leave null.",
+    "carrying_without_object_track": "Carrying candidates with no mapped object track are captioned as person, not carrying. The VIRAT activity_class stays person_carrying_object. Carrying candidates that have an object track are unchanged."
+  },
+  "candidate_events": [
+    {
+      "video_id": "VIRAT_S_010111_08_000920_000954",
+      "event_id": "3",
+      "activity_class": "person_getting_into_vehicle",
+      "activity_type_id": 5,
+      "start_frame": 286,
+      "end_frame": 618,
+      "start_time": 11.9316,
+      "end_time": 25.7822,
+      "time_unit": "seconds",
+      "temporal_source": "virat_annotation",
+      "annotated_duration_frames": 333,
+      "subject": {
+        "track_id": "85",
+        "category": "person",
+        "object_type_id": 1,
+        "source": "virat_mapping",
+        "status": "unique_person",
+        "role_rule": "unique_type1_participant_of_person_centric_activity"
+      },
+      "object": [
+        {
+          "track_id": "33",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "tracks": [
+        {
+          "track_id": "33",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping",
+          "missing_from_objects_file": false,
+          "relation": "object",
+          "start_frame": 286,
+          "end_frame": 618,
+          "n_boxes_in_interval": 332,
+          "interval_coverage": 0.997,
+          "screen_location": {
+            "source": "derived_from_track",
+            "value": "center_middle",
+            "method": "median_centroid_3x3",
+            "median_centroid_norm": [
+              0.5801,
+              0.3333
+            ],
+            "n_boxes": 332
+          },
+          "track_motion": {
+            "source": "derived_from_track",
+            "method": "endpoint_displacement",
+            "dx_px": 6.5,
+            "dy_px": 0.0,
+            "displacement_px": 6.5,
+            "threshold_px": 64.0,
+            "first_frame": 286,
+            "last_frame": 617,
+            "n_boxes": 332,
+            "value": null,
+            "reason": "below_displacement_threshold"
+          }
+        },
+        {
+          "track_id": "85",
+          "category": "person",
+          "object_type_id": 1,
+          "source": "virat_mapping",
+          "missing_from_objects_file": false,
+          "relation": "subject",
+          "start_frame": 286,
+          "end_frame": 618,
+          "n_boxes_in_interval": 318,
+          "interval_coverage": 0.955,
+          "screen_location": {
+            "source": "derived_from_track",
+            "value": "center_top",
+            "method": "median_centroid_3x3",
+            "median_centroid_norm": [
+              0.5699,
+              0.3319
+            ],
+            "n_boxes": 318
+          },
+          "track_motion": {
+            "source": "derived_from_track",
+            "method": "endpoint_displacement",
+            "dx_px": 5.5,
+            "dy_px": 0.0,
+            "displacement_px": 5.5,
+            "threshold_px": 64.0,
+            "first_frame": 300,
+            "last_frame": 617,
+            "n_boxes": 318,
+            "value": null,
+            "reason": "below_displacement_threshold"
+          }
+        }
+      ],
+      "screen_location": {
+        "source": "derived_from_track",
+        "value": "center_top",
+        "track_id": "85",
+        "method": "median_centroid_3x3",
+        "median_centroid_norm": [
+          0.5699,
+          0.3319
+        ],
+        "n_boxes": 318,
+        "reason": null
+      },
+      "track_motion": {
+        "source": "derived_from_track",
+        "value": null,
+        "track_id": "85",
+        "method": "endpoint_displacement",
+        "dx_px": 5.5,
+        "dy_px": 0.0,
+        "displacement_px": 5.5,
+        "threshold_px": 64.0,
+        "first_frame": 300,
+        "last_frame": 617,
+        "n_boxes": 318,
+        "reason": "below_displacement_threshold"
+      },
+      "source": "virat_annotation",
+      "reference_sentence": null,
+      "review": {
+        "decision": null,
+        "group_id": null,
+        "visibility": "unreviewed",
+        "captionable": null,
+        "include_primary_eval": null,
+        "semantic_location": null,
+        "review_note": ""
+      },
+      "duplicate_candidate": {
+        "group_id": "D1",
+        "member_event_ids": [
+          "3",
+          "4"
+        ],
+        "rule": "same_actor_same_activity_shorter_coverage>=0.8",
+        "temporal_iou": 0.958,
+        "shorter_coverage": 1.0,
+        "merged": false
+      }
+    },
+    {
+      "video_id": "VIRAT_S_010111_08_000920_000954",
+      "event_id": "4",
+      "activity_class": "person_getting_into_vehicle",
+      "activity_type_id": 5,
+      "start_frame": 300,
+      "end_frame": 618,
+      "start_time": 12.5156,
+      "end_time": 25.7822,
+      "time_unit": "seconds",
+      "temporal_source": "virat_annotation",
+      "annotated_duration_frames": 319,
+      "subject": {
+        "track_id": "85",
+        "category": "person",
+        "object_type_id": 1,
+        "source": "virat_mapping",
+        "status": "unique_person",
+        "role_rule": "unique_type1_participant_of_person_centric_activity"
+      },
+      "object": [],
+      "tracks": [
+        {
+          "track_id": "85",
+          "category": "person",
+          "object_type_id": 1,
+          "source": "virat_mapping",
+          "missing_from_objects_file": false,
+          "relation": "subject",
+          "start_frame": 300,
+          "end_frame": 618,
+          "n_boxes_in_interval": 318,
+          "interval_coverage": 0.9969,
+          "screen_location": {
+            "source": "derived_from_track",
+            "value": "center_top",
+            "method": "median_centroid_3x3",
+            "median_centroid_norm": [
+              0.5699,
+              0.3319
+            ],
+            "n_boxes": 318
+          },
+          "track_motion": {
+            "source": "derived_from_track",
+            "method": "endpoint_displacement",
+            "dx_px": 5.5,
+            "dy_px": 0.0,
+            "displacement_px": 5.5,
+            "threshold_px": 64.0,
+            "first_frame": 300,
+            "last_frame": 617,
+            "n_boxes": 318,
+            "value": null,
+            "reason": "below_displacement_threshold"
+          }
+        }
+      ],
+      "screen_location": {
+        "source": "derived_from_track",
+        "value": "center_top",
+        "track_id": "85",
+        "method": "median_centroid_3x3",
+        "median_centroid_norm": [
+          0.5699,
+          0.3319
+        ],
+        "n_boxes": 318,
+        "reason": null
+      },
+      "track_motion": {
+        "source": "derived_from_track",
+        "value": null,
+        "track_id": "85",
+        "method": "endpoint_displacement",
+        "dx_px": 5.5,
+        "dy_px": 0.0,
+        "displacement_px": 5.5,
+        "threshold_px": 64.0,
+        "first_frame": 300,
+        "last_frame": 617,
+        "n_boxes": 318,
+        "reason": "below_displacement_threshold"
+      },
+      "source": "virat_annotation",
+      "reference_sentence": null,
+      "review": {
+        "decision": null,
+        "group_id": null,
+        "visibility": "unreviewed",
+        "captionable": null,
+        "include_primary_eval": null,
+        "semantic_location": null,
+        "review_note": ""
+      },
+      "duplicate_candidate": {
+        "group_id": "D1",
+        "member_event_ids": [
+          "3",
+          "4"
+        ],
+        "rule": "same_actor_same_activity_shorter_coverage>=0.8",
+        "temporal_iou": 0.958,
+        "shorter_coverage": 1.0,
+        "merged": false
+      }
+    },
+    {
+      "video_id": "VIRAT_S_010111_08_000920_000954",
+      "event_id": "5",
+      "activity_class": "person_opening_vehicle_trunk",
+      "activity_type_id": 3,
+      "start_frame": 347,
+      "end_frame": 419,
+      "start_time": 14.4764,
+      "end_time": 17.4802,
+      "time_unit": "seconds",
+      "temporal_source": "virat_annotation",
+      "annotated_duration_frames": 73,
+      "subject": {
+        "track_id": "83",
+        "category": "person",
+        "object_type_id": 1,
+        "source": "virat_mapping",
+        "status": "unique_person",
+        "role_rule": "unique_type1_participant_of_person_centric_activity"
+      },
+      "object": [],
+      "tracks": [
+        {
+          "track_id": "83",
+          "category": "person",
+          "object_type_id": 1,
+          "source": "virat_mapping",
+          "missing_from_objects_file": false,
+          "relation": "subject",
+          "start_frame": 347,
+          "end_frame": 419,
+          "n_boxes_in_interval": 73,
+          "interval_coverage": 1.0,
+          "screen_location": {
+            "source": "derived_from_track",
+            "value": "left_middle",
+            "method": "median_centroid_3x3",
+            "median_centroid_norm": [
+              0.0145,
+              0.3368
+            ],
+            "n_boxes": 73
+          },
+          "track_motion": {
+            "source": "derived_from_track",
+            "method": "endpoint_displacement",
+            "dx_px": -20.0,
+            "dy_px": 0.0,
+            "displacement_px": 20.0,
+            "threshold_px": 64.0,
+            "first_frame": 347,
+            "last_frame": 419,
+            "n_boxes": 73,
+            "value": null,
+            "reason": "below_displacement_threshold"
+          }
+        }
+      ],
+      "screen_location": {
+        "source": "derived_from_track",
+        "value": "left_middle",
+        "track_id": "83",
+        "method": "median_centroid_3x3",
+        "median_centroid_norm": [
+          0.0145,
+          0.3368
+        ],
+        "n_boxes": 73,
+        "reason": null
+      },
+      "track_motion": {
+        "source": "derived_from_track",
+        "value": null,
+        "track_id": "83",
+        "method": "endpoint_displacement",
+        "dx_px": -20.0,
+        "dy_px": 0.0,
+        "displacement_px": 20.0,
+        "threshold_px": 64.0,
+        "first_frame": 347,
+        "last_frame": 419,
+        "n_boxes": 73,
+        "reason": "below_displacement_threshold"
+      },
+      "source": "virat_annotation",
+      "reference_sentence": null,
+      "review": {
+        "decision": null,
+        "group_id": null,
+        "visibility": "unreviewed",
+        "captionable": null,
+        "include_primary_eval": null,
+        "semantic_location": null,
+        "review_note": ""
+      },
+      "duplicate_candidate": null
+    },
+    {
+      "video_id": "VIRAT_S_010111_08_000920_000954",
+      "event_id": "6",
+      "activity_class": "person_closing_vehicle_trunk",
+      "activity_type_id": 4,
+      "start_frame": 453,
+      "end_frame": 503,
+      "start_time": 18.8986,
+      "end_time": 20.9846,
+      "time_unit": "seconds",
+      "temporal_source": "virat_annotation",
+      "annotated_duration_frames": 51,
+      "subject": {
+        "track_id": "83",
+        "category": "person",
+        "object_type_id": 1,
+        "source": "virat_mapping",
+        "status": "unique_person",
+        "role_rule": "unique_type1_participant_of_person_centric_activity"
+      },
+      "object": [],
+      "tracks": [
+        {
+          "track_id": "83",
+          "category": "person",
+          "object_type_id": 1,
+          "source": "virat_mapping",
+          "missing_from_objects_file": false,
+          "relation": "subject",
+          "start_frame": 453,
+          "end_frame": 503,
+          "n_boxes_in_interval": 43,
+          "interval_coverage": 0.8431,
+          "screen_location": {
+            "source": "derived_from_track",
+            "value": "left_middle",
+            "method": "median_centroid_3x3",
+            "median_centroid_norm": [
+              0.0047,
+              0.3368
+            ],
+            "n_boxes": 43
+          },
+          "track_motion": {
+            "source": "derived_from_track",
+            "method": "endpoint_displacement",
+            "dx_px": -4.5,
+            "dy_px": 0.0,
+            "displacement_px": 4.5,
+            "threshold_px": 64.0,
+            "first_frame": 453,
+            "last_frame": 495,
+            "n_boxes": 43,
+            "value": null,
+            "reason": "below_displacement_threshold"
+          }
+        }
+      ],
+      "screen_location": {
+        "source": "derived_from_track",
+        "value": "left_middle",
+        "track_id": "83",
+        "method": "median_centroid_3x3",
+        "median_centroid_norm": [
+          0.0047,
+          0.3368
+        ],
+        "n_boxes": 43,
+        "reason": null
+      },
+      "track_motion": {
+        "source": "derived_from_track",
+        "value": null,
+        "track_id": "83",
+        "method": "endpoint_displacement",
+        "dx_px": -4.5,
+        "dy_px": 0.0,
+        "displacement_px": 4.5,
+        "threshold_px": 64.0,
+        "first_frame": 453,
+        "last_frame": 495,
+        "n_boxes": 43,
+        "reason": "below_displacement_threshold"
+      },
+      "source": "virat_annotation",
+      "reference_sentence": null,
+      "review": {
+        "decision": null,
+        "group_id": null,
+        "visibility": "unreviewed",
+        "captionable": null,
+        "include_primary_eval": null,
+        "semantic_location": null,
+        "review_note": ""
+      },
+      "duplicate_candidate": null
+    }
+  ],
+  "duplicate_candidate_groups": [
+    {
+      "group_id": "D1",
+      "rule": "same_actor_same_activity_shorter_coverage>=0.8",
+      "subject_track_id": "85",
+      "activity_class": "person_getting_into_vehicle",
+      "member_event_ids": [
+        "3",
+        "4"
+      ],
+      "temporal_iou": 0.958,
+      "shorter_coverage": 1.0,
+      "overlap_start_time": 12.5156,
+      "overlap_end_time": 25.7822,
+      "merged": false,
+      "review_decision": null
+    }
+  ],
+  "human_added_events": [],
+  "human_added_event_template": {
+    "event_id": "H1",
+    "start_time": null,
+    "end_time": null,
+    "subject": {
+      "category": null,
+      "group": false
+    },
+    "action": null,
+    "object": null,
+    "semantic_location": null,
+    "visibility": null,
+    "captionable": null,
+    "include_primary_eval": null,
+    "reference_sentence": null,
+    "source": "human_annotation",
+    "notes": ""
+  },
+  "possible_group_events": [],
+  "possible_group_event_template": {
+    "group_id": "G1",
+    "member_event_ids": [],
+    "action": null,
+    "subject": {
+      "category": "people",
+      "group": true
+    },
+    "start_time": null,
+    "end_time": null,
+    "semantic_location": null,
+    "review_note": ""
+  },
+  "ambiguous_cases": [],
+  "ambiguous_case_template": {
+    "case_id": "A1",
+    "related_event_ids": [],
+    "question": "",
+    "review_note": ""
+  },
+  "evidence": {
+    "note": "Computed from annotation time and track displacement. 3x3 screen bins are not a grouping criterion. Not a visibility or captionability label.",
+    "grouping_policy": {
+      "duplicate_rule": "same subject track, same activity class, shorter interval coverage >= 0.8",
+      "same_actor_different_activity_merged": false,
+      "different_spatial_region_merged": false,
+      "screen_bins_used_for_grouping": false
+    },
+    "n_candidate_events": 4,
+    "concurrent_windows": [
+      {
+        "start_frame": 300,
+        "end_frame": 346,
+        "event_ids": [
+          "3",
+          "4"
+        ],
+        "start_time": 12.5156,
+        "end_time": 14.4347,
+        "activity_classes": [
+          "person_getting_into_vehicle",
+          "person_getting_into_vehicle"
+        ],
+        "subject_track_ids": [
+          "85",
+          "85"
+        ],
+        "screen_locations": [
+          "center_top",
+          "center_top"
+        ],
+        "same_activity_class": true,
+        "left_and_right": false
+      },
+      {
+        "start_frame": 347,
+        "end_frame": 419,
+        "event_ids": [
+          "3",
+          "4",
+          "5"
+        ],
+        "start_time": 14.4764,
+        "end_time": 17.4802,
+        "activity_classes": [
+          "person_getting_into_vehicle",
+          "person_getting_into_vehicle",
+          "person_opening_vehicle_trunk"
+        ],
+        "subject_track_ids": [
+          "85",
+          "85",
+          "83"
+        ],
+        "screen_locations": [
+          "center_top",
+          "center_top",
+          "left_middle"
+        ],
+        "same_activity_class": false,
+        "left_and_right": false
+      },
+      {
+        "start_frame": 420,
+        "end_frame": 452,
+        "event_ids": [
+          "3",
+          "4"
+        ],
+        "start_time": 17.5219,
+        "end_time": 18.8569,
+        "activity_classes": [
+          "person_getting_into_vehicle",
+          "person_getting_into_vehicle"
+        ],
+        "subject_track_ids": [
+          "85",
+          "85"
+        ],
+        "screen_locations": [
+          "center_top",
+          "center_top"
+        ],
+        "same_activity_class": true,
+        "left_and_right": false
+      },
+      {
+        "start_frame": 453,
+        "end_frame": 503,
+        "event_ids": [
+          "3",
+          "4",
+          "6"
+        ],
+        "start_time": 18.8986,
+        "end_time": 20.9846,
+        "activity_classes": [
+          "person_getting_into_vehicle",
+          "person_getting_into_vehicle",
+          "person_closing_vehicle_trunk"
+        ],
+        "subject_track_ids": [
+          "85",
+          "85",
+          "83"
+        ],
+        "screen_locations": [
+          "center_top",
+          "center_top",
+          "left_middle"
+        ],
+        "same_activity_class": false,
+        "left_and_right": false
+      },
+      {
+        "start_frame": 504,
+        "end_frame": 618,
+        "event_ids": [
+          "3",
+          "4"
+        ],
+        "start_time": 21.0263,
+        "end_time": 25.7822,
+        "activity_classes": [
+          "person_getting_into_vehicle",
+          "person_getting_into_vehicle"
+        ],
+        "subject_track_ids": [
+          "85",
+          "85"
+        ],
+        "screen_locations": [
+          "center_top",
+          "center_top"
+        ],
+        "same_activity_class": true,
+        "left_and_right": false
+      }
+    ],
+    "same_action_multi_person": [],
+    "left_right_concurrent": [],
+    "carrying_without_object_track": [],
+    "carrying_with_object_track": [],
+    "structural_visibility_review": [
+      {
+        "event_id": "3",
+        "activity_class": "person_getting_into_vehicle",
+        "reasons": [
+          "subject_displacement_below_threshold"
+        ],
+        "visibility": "unreviewed"
+      },
+      {
+        "event_id": "4",
+        "activity_class": "person_getting_into_vehicle",
+        "reasons": [
+          "subject_displacement_below_threshold"
+        ],
+        "visibility": "unreviewed"
+      },
+      {
+        "event_id": "5",
+        "activity_class": "person_opening_vehicle_trunk",
+        "reasons": [
+          "subject_displacement_below_threshold"
+        ],
+        "visibility": "unreviewed"
+      },
+      {
+        "event_id": "6",
+        "activity_class": "person_closing_vehicle_trunk",
+        "reasons": [
+          "subject_displacement_below_threshold"
+        ],
+        "visibility": "unreviewed"
+      }
+    ],
+    "duplicate_candidate_groups": [
+      {
+        "group_id": "D1",
+        "rule": "same_actor_same_activity_shorter_coverage>=0.8",
+        "subject_track_id": "85",
+        "activity_class": "person_getting_into_vehicle",
+        "member_event_ids": [
+          "3",
+          "4"
+        ],
+        "temporal_iou": 0.958,
+        "shorter_coverage": 1.0,
+        "overlap_start_time": 12.5156,
+        "overlap_end_time": 25.7822,
+        "merged": false,
+        "review_decision": null
+      }
+    ],
+    "same_actor_different_activity_not_merged": [],
+    "unannotated_moving_person_tracks": [
+      {
+        "track_id": "84",
+        "category": "person",
+        "first_frame": 300,
+        "last_frame": 617,
+        "displacement_px": 232.8,
+        "threshold_px": 64.0,
+        "not_an_event": true,
+        "note": "Person track is outside every VIRAT event mapping and moves past the displacement threshold. Not labeled as walking."
+      }
+    ],
+    "annotated_car_tracks": {
+      "n_car_tracks": 82,
+      "n_car_tracks_above_displacement_threshold": 0,
+      "threshold_px": 64.0,
+      "note": "Endpoint displacement of annotated car tracks. A zero count does not prove that no vehicle moves on screen."
+    }
+  }
+}

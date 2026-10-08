@@ -1,0 +1,13 @@
+{
+  "finalized_in_annotation_policy": false,
+  "smoothing": null,
+  "why_no_smoothing": "Per-frame centroid steps are a few pixels. The meaningful-displacement threshold is 64px, so bbox jitter does not by itself cross a reversal.",
+  "speed_window_sec": 1.0,
+  "stationary_if_past_or_future_window_displacement_px_below": 8.0,
+  "why_stationary_probe": "1초 변위는 대체로 5px 이하이거나 20px 이상이다. 8px은 그 사이에 둔 pilot probe이며 policy threshold가 아니다.",
+  "runs_shorter_than_the_measurement_window_are_merged": true,
+  "reversal_rule": "raw centroid leg closes when displacement and the reversal both reach max(20, 0.05 * frame_width) and the leg cosine is negative",
+  "activity_boundary": "split where this track is the VIRAT subject and the event start or end falls inside the piece",
+  "auto_confirm_walking": false,
+  "auto_confirm_wandering": false
+}

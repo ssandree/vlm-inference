@@ -1,0 +1,475 @@
+{
+  "video_id": "VIRAT_S_010003_10_000901_000934",
+  "version": "human_review_v2",
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE003"
+      ],
+      "source_track_ids": [
+        "11"
+      ],
+      "start_frame": 87,
+      "end_frame": 133,
+      "start_time": 3.6295,
+      "end_time": 5.5486,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "11"
+      },
+      "action": "entering_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "facility_transition",
+      "provenance_layer": "original_gt",
+      "review_links": [
+        "V05-08"
+      ]
+    },
+    {
+      "caption_event_id": "CE002",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE004"
+      ],
+      "source_track_ids": [
+        "4"
+      ],
+      "start_frame": 344,
+      "end_frame": 390,
+      "start_time": 14.3513,
+      "end_time": 16.2703,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "4"
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "facility_transition",
+      "provenance_layer": "original_gt",
+      "review_links": [
+        "V05-07"
+      ]
+    },
+    {
+      "caption_event_id": "HE_V05-02",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 계단을 올라간다.",
+      "review_links": [
+        "V05-02"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V05-03",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": "left_to_right",
+      "object": [],
+      "reference_sentence": "사람이 테이블 근처를 화면 왼쪽→오른쪽으로 걷는다.",
+      "review_links": [
+        "V05-03"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V05-04",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 잔디 옆 보행로/마당을 걷는다.",
+      "review_links": [
+        "V05-04"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V05-05",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 건물의 유리문 쪽으로 접근한다.",
+      "review_links": [
+        "V05-05"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V05-06",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": "right_to_left",
+      "object": [],
+      "reference_sentence": "사람이 건물에서 나온 뒤 화면 왼쪽으로 걸어간다.",
+      "review_links": [
+        "V05-06"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V05-12",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 계단 옆 쓰레기통 쪽으로 접근한다.",
+      "review_links": [
+        "V05-12"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V05-14",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 화분 뒤쪽을 지나간다.",
+      "review_links": [
+        "V05-14"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    }
+  ],
+  "confirmed_attributes": [
+    {
+      "review_id": "V05-09",
+      "video_id": "VIRAT_S_010003_10_000901_000934",
+      "statement_ko": "한 사람이 문으로 나온 뒤 다른 사람들이 건물 안으로 들어간다.",
+      "review_hint_ko": "entering the space가 실제 건물 진입인지 확인. 인원/순서는 메모.",
+      "source_record_ids": [
+        "R029"
+      ],
+      "answer": "yes",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "detail",
+      "raw_answer": "yes",
+      "resolved_status": "yes",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[yes] V05-09 [detail] 한 사람이 문으로 나온 뒤 다른 사람들이 건물 안으로 들어간다.\n  확인 포인트: entering the space가 실제 건물 진입인지 확인. 인원/순서는 메모.\n  출처: R029",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "sequence",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "confirmed_context": [],
+  "rejected_claims": [
+    {
+      "review_id": "V05-01",
+      "video_id": "VIRAT_S_010003_10_000901_000934",
+      "statement_ko": "사람이 계단을 내려간다.",
+      "review_hint_ko": "GT 진입/퇴장 외 보행 누락 후보.",
+      "source_record_ids": [
+        "R010",
+        "R028",
+        "R029",
+        "R046",
+        "R064",
+        "R065",
+        "R082",
+        "R083"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V05-01 [core] 사람이 계단을 내려간다.\n  확인 포인트: GT 진입/퇴장 외 보행 누락 후보.\n  출처: R010, R028, R029, R046, R064, R065, R082, R083",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "stair_direction",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V05-10",
+      "video_id": "VIRAT_S_010003_10_000901_000934",
+      "statement_ko": "건물에서 나온 사람이 앞서 건물에 들어갔던 동일인이다.",
+      "review_hint_ko": "두 GT 주체가 다르므로 특히 확인. 동일인으로 자동 연결 금지.",
+      "source_record_ids": [
+        "R047"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "detail",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V05-10 [detail] 건물에서 나온 사람이 앞서 건물에 들어갔던 동일인이다.\n  확인 포인트: 두 GT 주체가 다르므로 특히 확인. 동일인으로 자동 연결 금지.\n  출처: R047",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "identity",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V05-11",
+      "video_id": "VIRAT_S_010003_10_000901_000934",
+      "statement_ko": "계단을 올라간 사람이 꼭대기에서 되돌아 내려온다.",
+      "review_hint_ko": "서로 다른 보행자를 왕복으로 묶은 것은 아닌지 확인.",
+      "source_record_ids": [
+        "R029"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V05-11 [core] 계단을 올라간 사람이 꼭대기에서 되돌아 내려온다.\n  확인 포인트: 서로 다른 보행자를 왕복으로 묶은 것은 아닌지 확인.\n  출처: R029",
+      "semantic_kind": "event",
+      "action_family": "locomotion",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V05-13",
+      "video_id": "VIRAT_S_010003_10_000901_000934",
+      "statement_ko": "쓰레기통에 접근한 사람이 다시 멀어진다.",
+      "review_hint_ko": "실제 물체 조작이 있는지도 자유 메모.",
+      "source_record_ids": [
+        "R047"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V05-13 [core] 쓰레기통에 접근한 사람이 다시 멀어진다.\n  확인 포인트: 실제 물체 조작이 있는지도 자유 메모.\n  출처: R047",
+      "semantic_kind": "event",
+      "action_family": "locomotion",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "uncertain_claims": [],
+  "corrected_claims": [
+    {
+      "review_id": "V05-06",
+      "video_id": "VIRAT_S_010003_10_000901_000934",
+      "statement_ko": "유리문에 접근한 사람이 돌아서 화면 왼쪽으로 걸어간다.",
+      "review_hint_ko": "진입 없이 되돌아오는 사건인지 확인.",
+      "source_record_ids": [
+        "R011"
+      ],
+      "answer": "yes",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "yes 표시는 왼쪽 이동을 확인하지만 메모는 접근/되돌아섬을 부정. 올바른 사실은 건물에서 나온 뒤 왼쪽으로 이동. 원래 문장의 주체 연결은 오서술.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "yes",
+      "resolved_status": "corrected",
+      "resolution_ko": "yes 표시는 왼쪽 이동을 확인하지만 메모는 접근/되돌아섬을 부정. 올바른 사실은 건물에서 나온 뒤 왼쪽으로 이동. 원래 문장의 주체 연결은 오서술.",
+      "review_block": "[yes] V05-06 [core] 유리문에 접근한 사람이 돌아서 화면 왼쪽으로 걸어간다.\n  확인 포인트: 진입 없이 되돌아오는 사건인지 확인. <- 이건 접근이 아니라 나와서 왼쪽으로 가는거임\n  출처: R011",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "sequence",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      },
+      "corrected_fact_ko": "사람이 건물에서 나온 뒤 화면 왼쪽으로 걸어간다."
+    }
+  ],
+  "exhaustive_for_all_visible_events": false,
+  "evaluation_scope": "human-reviewed semantic events, action families and reviewed claims; not temporally localized instance detection"
+}

@@ -1,0 +1,239 @@
+{
+  "videos": [
+    {
+      "video_id": "VIRAT_S_010003_03_000219_000259",
+      "duration_sec": 40.0083,
+      "n_events": 6,
+      "activity_class_counts": {
+        "person_carrying_object": 5,
+        "person_exiting_facility": 1
+      },
+      "n_concurrent_windows": 7,
+      "max_concurrent": 4,
+      "n_same_action_pairs": 7,
+      "n_duplicate_candidate_groups": 0,
+      "duplicate_candidate_groups": [],
+      "n_same_actor_different_activity_not_merged": 0,
+      "n_same_bin_same_action_pairs": 0,
+      "n_left_right_pairs": 3,
+      "carrying_without_object_track": [
+        "10",
+        "11"
+      ],
+      "carrying_with_object_track": [
+        "6",
+        "7",
+        "8"
+      ],
+      "n_structural_visibility_review": 4,
+      "n_unannotated_moving_person_tracks": 4,
+      "annotated_car_tracks": {
+        "n_car_tracks": 0,
+        "n_car_tracks_above_displacement_threshold": 0,
+        "threshold_px": 64.0,
+        "note": "Endpoint displacement of annotated car tracks. A zero count does not prove that no vehicle moves on screen."
+      },
+      "n_rois": 5,
+      "review_json": "experiments/virat/caption_event_pilot_6/VIRAT_S_010003_03_000219_000259/review.json"
+    },
+    {
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "duration_sec": 42.0108,
+      "n_events": 10,
+      "activity_class_counts": {
+        "person_carrying_object": 5,
+        "person_exiting_facility": 2,
+        "person_entering_facility": 3
+      },
+      "n_concurrent_windows": 9,
+      "max_concurrent": 5,
+      "n_same_action_pairs": 8,
+      "n_duplicate_candidate_groups": 0,
+      "duplicate_candidate_groups": [],
+      "n_same_actor_different_activity_not_merged": 0,
+      "n_same_bin_same_action_pairs": 7,
+      "n_left_right_pairs": 1,
+      "carrying_without_object_track": [
+        "4",
+        "5",
+        "6",
+        "10",
+        "11"
+      ],
+      "carrying_with_object_track": [],
+      "n_structural_visibility_review": 10,
+      "n_unannotated_moving_person_tracks": 2,
+      "annotated_car_tracks": {
+        "n_car_tracks": 0,
+        "n_car_tracks_above_displacement_threshold": 0,
+        "threshold_px": 64.0,
+        "note": "Endpoint displacement of annotated car tracks. A zero count does not prove that no vehicle moves on screen."
+      },
+      "n_rois": 2,
+      "review_json": "experiments/virat/caption_event_pilot_6/VIRAT_S_010207_10_001549_001596/review.json"
+    },
+    {
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "duration_sec": 299.8748,
+      "n_events": 24,
+      "activity_class_counts": {
+        "person_exiting_facility": 7,
+        "person_entering_facility": 9,
+        "person_carrying_object": 7,
+        "person_running": 1
+      },
+      "n_concurrent_windows": 19,
+      "max_concurrent": 4,
+      "n_same_action_pairs": 10,
+      "n_duplicate_candidate_groups": 1,
+      "duplicate_candidate_groups": [
+        {
+          "group_id": "D1",
+          "rule": "same_actor_same_activity_shorter_coverage>=0.8",
+          "subject_track_id": "58",
+          "activity_class": "person_entering_facility",
+          "member_event_ids": [
+            "62",
+            "65"
+          ],
+          "temporal_iou": 0.8219,
+          "shorter_coverage": 1.0,
+          "overlap_start_time": 267.0839,
+          "overlap_end_time": 269.5453,
+          "merged": false,
+          "review_decision": null
+        }
+      ],
+      "n_same_actor_different_activity_not_merged": 3,
+      "n_same_bin_same_action_pairs": 6,
+      "n_left_right_pairs": 1,
+      "carrying_without_object_track": [
+        "58",
+        "60",
+        "70",
+        "72",
+        "73",
+        "76"
+      ],
+      "carrying_with_object_track": [
+        "57"
+      ],
+      "n_structural_visibility_review": 22,
+      "n_unannotated_moving_person_tracks": 9,
+      "annotated_car_tracks": {
+        "n_car_tracks": 0,
+        "n_car_tracks_above_displacement_threshold": 0,
+        "threshold_px": 64.0,
+        "note": "Endpoint displacement of annotated car tracks. A zero count does not prove that no vehicle moves on screen."
+      },
+      "n_rois": 5,
+      "review_json": "experiments/virat/caption_event_pilot_6/VIRAT_S_010001_02_000195_000498/review.json"
+    },
+    {
+      "video_id": "VIRAT_S_010111_08_000920_000954",
+      "duration_sec": 25.7822,
+      "n_events": 4,
+      "activity_class_counts": {
+        "person_getting_into_vehicle": 2,
+        "person_opening_vehicle_trunk": 1,
+        "person_closing_vehicle_trunk": 1
+      },
+      "n_concurrent_windows": 5,
+      "max_concurrent": 3,
+      "n_same_action_pairs": 0,
+      "n_duplicate_candidate_groups": 1,
+      "duplicate_candidate_groups": [
+        {
+          "group_id": "D1",
+          "rule": "same_actor_same_activity_shorter_coverage>=0.8",
+          "subject_track_id": "85",
+          "activity_class": "person_getting_into_vehicle",
+          "member_event_ids": [
+            "3",
+            "4"
+          ],
+          "temporal_iou": 0.958,
+          "shorter_coverage": 1.0,
+          "overlap_start_time": 12.5156,
+          "overlap_end_time": 25.7822,
+          "merged": false,
+          "review_decision": null
+        }
+      ],
+      "n_same_actor_different_activity_not_merged": 0,
+      "n_same_bin_same_action_pairs": 0,
+      "n_left_right_pairs": 0,
+      "carrying_without_object_track": [],
+      "carrying_with_object_track": [],
+      "n_structural_visibility_review": 4,
+      "n_unannotated_moving_person_tracks": 1,
+      "annotated_car_tracks": {
+        "n_car_tracks": 82,
+        "n_car_tracks_above_displacement_threshold": 0,
+        "threshold_px": 64.0,
+        "note": "Endpoint displacement of annotated car tracks. A zero count does not prove that no vehicle moves on screen."
+      },
+      "n_rois": 3,
+      "review_json": "experiments/virat/caption_event_pilot_6/VIRAT_S_010111_08_000920_000954/review.json"
+    },
+    {
+      "video_id": "VIRAT_S_010107_00_000019_000057",
+      "duration_sec": 36.1702,
+      "n_events": 2,
+      "activity_class_counts": {
+        "person_opening_vehicle_trunk": 1,
+        "person_carrying_object": 1
+      },
+      "n_concurrent_windows": 1,
+      "max_concurrent": 2,
+      "n_same_action_pairs": 0,
+      "n_duplicate_candidate_groups": 0,
+      "duplicate_candidate_groups": [],
+      "n_same_actor_different_activity_not_merged": 0,
+      "n_same_bin_same_action_pairs": 0,
+      "n_left_right_pairs": 1,
+      "carrying_without_object_track": [],
+      "carrying_with_object_track": [
+        "1"
+      ],
+      "n_structural_visibility_review": 1,
+      "n_unannotated_moving_person_tracks": 5,
+      "annotated_car_tracks": {
+        "n_car_tracks": 31,
+        "n_car_tracks_above_displacement_threshold": 0,
+        "threshold_px": 64.0,
+        "note": "Endpoint displacement of annotated car tracks. A zero count does not prove that no vehicle moves on screen."
+      },
+      "n_rois": 3,
+      "review_json": "experiments/virat/caption_event_pilot_6/VIRAT_S_010107_00_000019_000057/review.json"
+    },
+    {
+      "video_id": "VIRAT_S_010106_02_000656_000692",
+      "duration_sec": 34.9604,
+      "n_events": 1,
+      "activity_class_counts": {
+        "person_gesturing": 1
+      },
+      "n_concurrent_windows": 0,
+      "max_concurrent": 1,
+      "n_same_action_pairs": 0,
+      "n_duplicate_candidate_groups": 0,
+      "duplicate_candidate_groups": [],
+      "n_same_actor_different_activity_not_merged": 0,
+      "n_same_bin_same_action_pairs": 0,
+      "n_left_right_pairs": 0,
+      "carrying_without_object_track": [],
+      "carrying_with_object_track": [],
+      "n_structural_visibility_review": 1,
+      "n_unannotated_moving_person_tracks": 2,
+      "annotated_car_tracks": {
+        "n_car_tracks": 29,
+        "n_car_tracks_above_displacement_threshold": 0,
+        "threshold_px": 64.0,
+        "note": "Endpoint displacement of annotated car tracks. A zero count does not prove that no vehicle moves on screen."
+      },
+      "n_rois": 4,
+      "review_json": "experiments/virat/caption_event_pilot_6/VIRAT_S_010106_02_000656_000692/review.json"
+    }
+  ]
+}

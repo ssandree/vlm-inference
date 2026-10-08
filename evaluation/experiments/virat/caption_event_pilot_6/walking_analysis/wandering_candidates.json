@@ -1,0 +1,62 @@
+{
+  "n_wandering": 2,
+  "confirmed": false,
+  "candidates": [
+    {
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_id": "7",
+      "direction_legs": [
+        {
+          "start_frame": 0,
+          "end_frame": 688,
+          "direction": "left_to_right",
+          "displacement_px": 153.04,
+          "dx_px": 152.8,
+          "dy_px": -8.43
+        },
+        {
+          "start_frame": 688,
+          "end_frame": 899,
+          "direction": "right_to_left",
+          "displacement_px": 152.62,
+          "dx_px": -152.55,
+          "dy_px": 4.64
+        },
+        {
+          "start_frame": 899,
+          "end_frame": 1221,
+          "direction": "left_to_right",
+          "displacement_px": 78.2,
+          "dx_px": 77.91,
+          "dy_px": -6.7
+        }
+      ],
+      "endpoint_direction": "left_to_right",
+      "trajectory_displacement_px": 78.21
+    },
+    {
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_id": "52",
+      "direction_legs": [
+        {
+          "start_frame": 2825,
+          "end_frame": 3179,
+          "direction": "left_to_right",
+          "displacement_px": 486.36,
+          "dx_px": 460.52,
+          "dy_px": 156.41
+        },
+        {
+          "start_frame": 3179,
+          "end_frame": 3475,
+          "direction": "right_to_left",
+          "displacement_px": 487.93,
+          "dx_px": -465.61,
+          "dy_px": -145.91
+        }
+      ],
+      "endpoint_direction": null,
+      "trajectory_displacement_px": 11.85
+    }
+  ]
+}

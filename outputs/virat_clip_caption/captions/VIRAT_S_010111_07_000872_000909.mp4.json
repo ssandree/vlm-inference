@@ -1,0 +1,61 @@
+{
+  "video": "VIRAT_S_010111_07_000872_000909.mp4",
+  "clip_duration_sec": 3,
+  "clips": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 3.0,
+      "caption": "There are no visible people or moving vehicles in the parking lot. The scene is static, showing numerous parked cars, including sedans, SUVs, vans, and trucks, arranged in rows. A large building is visible in the background, along with trees and a chain-link fence. The shadows indicate it is daytime."
+    },
+    {
+      "start_sec": 3.0,
+      "end_sec": 6.0,
+      "caption": "There are no visible people or moving vehicles in the parking lot. The scene is static, showing numerous parked cars, vans, and trucks under bright sunlight. A large building is visible in the background, along with trees and a sports field. The shadows of nearby structures are cast across the pavement."
+    },
+    {
+      "start_sec": 6.0,
+      "end_sec": 9.0,
+      "caption": "There are no discernible actions or movements of people or vehicles in the provided frames. The scene shows a large, mostly full parking lot with numerous parked cars, vans, and a few trucks. The vehicles remain stationary throughout the clip. The lighting suggests it is daytime, and shadows are cast across the pavement. No interactions between people or vehicles are visible."
+    },
+    {
+      "start_sec": 9.0,
+      "end_sec": 12.0,
+      "caption": "There are no discernible actions or movements of people or vehicles in the provided frames. The scene shows a large, mostly full parking lot with numerous parked cars, vans, and trucks under bright sunlight. The shadows indicate the sun is high in the sky. The camera position is static, providing a high-angle view of the parking area and adjacent buildings. No individuals are visible walking or interacting with vehicles. There is no evidence of any vehicle starting, driving, or parking during the clip."
+    },
+    {
+      "start_sec": 12.0,
+      "end_sec": 15.0,
+      "caption": "There are no visible people or moving vehicles in the parking lot. The scene is static, showing numerous parked cars, vans, and trucks of various colors, including white, black, silver, red, blue, and yellow. A large white box truck is parked near the center-right. A white van with a blue stripe is parked in the middle of the lot. A white van with a yellow stripe is parked near the right edge. Two large white dumpsters are visible in the foreground. The buildings and trees in the background remain stationary throughout the clip."
+    },
+    {
+      "start_sec": 15.0,
+      "end_sec": 18.0,
+      "caption": "A white truck drives from left to right across the upper portion of the parking lot."
+    },
+    {
+      "start_sec": 18.0,
+      "end_sec": 21.0,
+      "caption": "A white car drives from right to left across the background of the parking lot."
+    },
+    {
+      "start_sec": 21.0,
+      "end_sec": 24.0,
+      "caption": "A white van drives from right to left across the upper portion of the parking lot. A white car also drives from right to left in the background, behind the parked vehicles. The rest of the scene is static, showing numerous cars parked in the lot."
+    },
+    {
+      "start_sec": 24.0,
+      "end_sec": 27.0,
+      "caption": "There are no discernible actions or movements of people or vehicles in the provided frames. The scene is a static view of a large outdoor parking lot filled with numerous parked cars, vans, and a few trucks. The vehicles remain stationary throughout the clip. There is no visible interaction between any individuals or objects. The environment includes buildings, trees, and a sports field in the background, but no activity occurs within them."
+    },
+    {
+      "start_sec": 27.0,
+      "end_sec": 30.0,
+      "caption": "Two individuals walk across the parking lot from left to right near the center of the frame at approximately 0:02. The rest of the scene consists of numerous parked cars with no other discernible activity."
+    },
+    {
+      "start_sec": 30.0,
+      "end_sec": 32.91614518147685,
+      "caption": "Two people are walking across the parking lot from left to right in the middle of the frame. One person is wearing a dark top and light-colored pants, and the other is wearing a light-colored top and dark pants. They walk from the left side of the frame towards the center. A white van with a blue stripe is parked in the middle of the lot. A white box truck is parked near the back of the lot. Several cars are parked throughout the lot, including a silver sedan in the foreground on the right and a black SUV next to it. The scene is viewed from an elevated position, showing a large parking area with buildings in the background."
+    }
+  ]
+}

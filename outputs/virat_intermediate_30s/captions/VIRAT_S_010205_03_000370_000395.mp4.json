@@ -1,0 +1,66 @@
+{
+  "video": "VIRAT_S_010205_03_000370_000395.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010205_03_000370_000395.mp4.json",
+  "source_caption_sha256": "4adf3fda6348ef5f3690b49cb2567e96a4a0683d9852fcca43ccfa77680f68f5",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 19.566124322069253,
+      "intermediate_caption": "Two individuals walk from left to right on a paved path in the background, approaching the entrance of a building labeled \"STUDENT SERVICES.\" Simultaneously, a third individual descends a set of stairs on the far right side of the frame.  \n\nThe pair continues walking toward the building entrance before exiting the frame on the right; shortly afterward, another person enters from the right and walks leftward near the same entrance, eventually leaving the frame on the left.  \n\nSubsequently, multiple pedestrians traverse the area from left to right at various points in the sequence. One person passes through the mid-ground, walking along a pathway in front of the \"STUDENT SERVICES\" building. Later, another pedestrian crosses the foreground, moving behind a central pole and proceeding past a building entrance marked by a green awning. This movement repeats as additional individuals pass in succession—each walking from left to right—in front of the structure featuring the green awning. Among them, one wears a backpack while others wear varied clothing including dark tops and light-colored pants. Each proceeds beyond the building’s entrance and exits the field of view on the right.  \n\nIn the final segment, a person dressed in a dark top and light-colored pants again walks from left to right in front of a building bearing a sign reading “CHICANO.” In the background, another figure walks away from the camera along a nearby path to the left, followed closely by a second distant person doing likewise. Throughout this period, the setting remains consistent—an outdoor environment composed of paved pathways, surrounding buildings, scattered trees, and decorative planters.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-19.566124322069253"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "Two people walk from left to right on a paved path in the background, moving toward the entrance of a building labeled \"STUDENT SERVICES\". A third person walks down a set of stairs on the far right side of the frame."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "Two people walk from left to right on a paved path in the background, moving away from the camera toward a building entrance. A third person walks in the opposite direction, from right to left, further in the background near the same building entrance. The two people walking together continue across the frame and exit on the right side. The third person also moves out of view on the left. No other people or vehicles are visible."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "A person walks from left to right across the background of the scene, moving along a pathway in front of a building labeled \"STUDENT SERVICES\"."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "A person walks from the left side of the frame towards the right, passing behind a tall, thin pole in the center of the scene. They continue walking past a building entrance with a green awning and then move out of view behind the building. Another person is briefly visible in the background, standing near the entrance of the building labeled \"STUDENT SERVICES\"."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A person wearing a dark top and light-colored pants walks from the left side of the frame toward the right, passing in front of a building with a green awning. They continue walking past the entrance and move out of view behind a pole. Another person is visible in the background, standing near a tree on the far left."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "A person wearing a backpack walks from the left side of the frame towards the right, passing in front of a building with a green awning. They continue walking past the building's entrance and move out of view on the right side of the frame."
+        },
+        {
+          "source_clip": "18-19.566124322069253",
+          "start_sec": 18.0,
+          "end_sec": 19.566124322069253,
+          "caption": "A person wearing a dark top and light-colored pants walks from the left side of the frame toward the right, passing in front of a building with a green awning labeled \"CHICANO\". Another person is visible in the background, walking away from the camera on a path to the left. A third person is seen briefly in the far background, also walking away. The scene is outdoors on a paved walkway with buildings, trees, and planters."
+        }
+      ]
+    }
+  ]
+}

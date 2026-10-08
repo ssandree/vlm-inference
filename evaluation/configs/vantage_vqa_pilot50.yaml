@@ -1,0 +1,54 @@
+# VANTAGE VQA pilot50: reuse existing Qwen3-VL-8B decoding / pixel settings.
+# Generation, video, image, and experiment blocks match configs/sovabench_pilot121.yaml.
+# Does not retune motion, ROI, sampling, or Qwen preprocessing.
+
+model: 8b
+
+generation:
+  max_new_tokens: 1024
+  do_sample: false
+  temperature: 0.7
+  top_p: 0.8
+  top_k: 20
+  repetition_penalty: 1.2
+
+video:
+  fps: 1.0
+  min_pixels: 4096
+  max_pixels: 262144
+  total_pixels: 20971520
+
+image:
+  min_pixels: 4096
+  max_pixels: 262144
+
+mode: default
+
+experiment:
+  input_order: global_anchor
+  global_insert: start_only
+  global_insert_source: fps_1
+  global_insert_dedup_eps: 0.5
+  save_vlm_inputs: false
+
+output:
+  dir: experiments/vantage/vqa_pilot50
+  file: predictions.json
+
+experiments:
+  - full_2fps
+  - full_1fps
+  - full_05fps
+  - roi_fixed_1fps
+  - roi_centroid
+
+feasibility:
+  videos:
+    - concat_wh_52_910_0
+  datasets:
+    video_root: /data/datasets/VANTAGE-Bench/data/vqa/videos
+  tracks_root: experiments/vantage/vqa_pilot50/motion_cache/tracks
+  jpeg_quality: 95
+  cache_file: experiments/vantage/vqa_pilot50/inference_cache.json
+  resume: true
+

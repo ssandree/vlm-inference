@@ -1,0 +1,11 @@
+model: 30b
+mode: default
+generation:
+  max_new_tokens: 2048
+  do_sample: false
+  repetition_penalty: 1.2
+prompt_file: ../prompts/virat_intermediate_30s.txt
+output:
+  dir: outputs/virat_intermediate_30s
+  file: progress.json
+jobs: []

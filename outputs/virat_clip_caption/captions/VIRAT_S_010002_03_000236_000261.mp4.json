@@ -1,0 +1,46 @@
+{
+  "video": "VIRAT_S_010002_03_000236_000261.mp4",
+  "clip_duration_sec": 3,
+  "clips": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 3.0,
+      "caption": "A person walks up the stairs on the left side of the frame. Another person walks down the stairs on the right side of the frame. A third person walks across the upper level near the building entrance. All individuals move from one side of the frame to the other."
+    },
+    {
+      "start_sec": 3.0,
+      "end_sec": 6.0,
+      "caption": "A person walks up the stairs on the left side of the frame. Another person walks down the stairs on the right side of the frame. A third person walks across the upper level near the building entrance."
+    },
+    {
+      "start_sec": 6.0,
+      "end_sec": 9.0,
+      "caption": "A group of four people stand near the entrance of a building in the background. A person walks from right to left across the upper level of the building's entrance area. Another person walks from left to right on the lower level, passing behind a set of stairs. The scene remains otherwise static with no other visible movement."
+    },
+    {
+      "start_sec": 9.0,
+      "end_sec": 12.0,
+      "caption": "A person walks up the stairs on the left side of the frame. Another person walks down the stairs on the right side of the frame. A third person walks across the upper level near the building entrance. A fourth person walks from right to left in the background near the building entrance."
+    },
+    {
+      "start_sec": 12.0,
+      "end_sec": 15.0,
+      "caption": "A person walks from right to left across the upper patio area of the building. Another person is standing near the entrance of the building. A third person is visible walking up the stairs on the left side of the frame."
+    },
+    {
+      "start_sec": 15.0,
+      "end_sec": 18.0,
+      "caption": "A person walks down the stairs on the left side of the frame. Another person walks up the stairs on the right side of the frame. A third person walks across the lower-left area of the frame."
+    },
+    {
+      "start_sec": 18.0,
+      "end_sec": 21.0,
+      "caption": "Two people are walking down the stairs on the left side of the frame. One person is wearing a red shirt and the other is wearing a white shirt. They walk from the top of the stairs towards the bottom."
+    },
+    {
+      "start_sec": 21.0,
+      "end_sec": 21.151439299123904,
+      "caption": "There are no people or vehicles visible in the frame."
+    }
+  ]
+}

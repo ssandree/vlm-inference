@@ -1,0 +1,87 @@
+{
+  "video": "VIRAT_S_010106_05_000954_000996.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010106_05_000954_000996.mp4.json",
+  "source_caption_sha256": "231e7fda622c8262132f93e40e9d25957a39c57ea11c0f3b78a6fbb82df751a1",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 27.409261576971215,
+      "intermediate_caption": "A person in dark clothing pushes a dark cart across the parking lot from right to left during the initial moments. A blue hatchback drives from right to left, initially passing behind a white van, then later reappearing and again traveling from right to left through the central part of the lot. Several vehicles—dark sedan, black SUV, white van, white box truck—are consistently parked at different locations around the perimeter and within the lot; some appear intermittently due to camera angle shifts but maintain their positions otherwise. \n\nAt one point, two individuals stand motionless beside a dark blue sedan parked in a marked space, remaining there until it disappears from view as another individual takes their place nearby. Later, this single person stands still beside the same dark blue sedan positioned in the lower-left section of the lot. Meanwhile, multiple instances show movement among certain vehicles: a white van travels from right to left early on, followed by additional appearances of such travel patterns involving both white vans and a blue hatchback. At times, groups of vehicles—including white vans and a following dark-colored vehicle—move slowly together along the upper region of the lot heading toward the right. Additionally, a dark blue sedan briefly appears driving diagonally from lower left to upper right, and a black sedan crosses horizontally from left to right late in the recording. Other observed motions include a cyclist riding past in the distant background and occasional slow-moving traffic like a white van entering the midsection of the lot.\n\nThroughout the entire period, many parked cars (sedans, pickups, SUVs) stay fixed without change. White containers—one in the lower-left foreground and another in the lower-right—are present continuously. Green fields bordered by fences lie beyond the edges of the lot, particularly noticeable in the upper-left quadrant. From above, the layout includes marked parking spots, adjacent buildings, trees, and open areas resembling a sports field. For brief intervals, especially between 21 seconds and 24 seconds, no human figures are detectable. By 24 seconds onward, activity ceases entirely—the final segment shows complete stasis: no further vehicular motion occurs, nor do any new entities enter the scene. All elements remain unchanged under consistent daylight conditions producing elongated shadows.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-27",
+        "27-27.409261576971215"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "In the parking lot, a person wearing dark clothing walks from the right side of the frame toward the center, pushing a dark-colored cart.\n\nA blue hatchback car drives from the right side of the parking lot toward the left, passing behind a white van.\n\nA black SUV is parked on the right side of the frame.\n\nA dark sedan is parked in the lower center of the frame.\n\nSeveral other cars, including sedans and vans, are parked throughout the lot.\n\nA white box truck is parked on the right side of the lot.\n\nA white container is located in the lower-left foreground.\n\nA green field with a fence is visible in the upper-left background."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "In the parking lot, two individuals stand next to a dark blue sedan parked in a marked space.\n\nThe two people remain together beside the car for the duration of the clip.\n\nA white van drives from right to left across the middle of the parking lot.\n\nA person on a bicycle rides from right to left in the background, near the far edge of the parking area.\n\nOther vehicles, including cars, a black pickup truck, and a white box truck, are parked throughout the lot."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "Two people walk across the parking lot from left to right, passing in front of a dark sedan parked in the foreground.\n\nThe two individuals continue walking towards the right side of the frame.\n\nA blue hatchback is parked in the middle of the lot.\n\nSeveral other cars are parked throughout the lot, including white vans and a white box truck near the building in the background.\n\nA black SUV is parked on the right side of the frame.\n\nA green field with a fence is visible in the upper left background."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "In the parking lot, two individuals are standing next to a dark blue sedan parked in a marked space.\n\nThe person on the left is wearing a light-colored top and dark pants, while the person on the right is wearing a dark top and dark pants.\n\nThey remain stationary beside the car for the duration of the clip.\n\nOther vehicles, including cars, vans, and trucks, are parked throughout the lot or moving slowly.\n\nA white van is seen driving from the right side of the frame towards the center.\n\nA black SUV is parked on the right side of the frame.\n\nA blue hatchback is parked in the middle of the lot.\n\nA white box truck is parked near the back of the lot.\n\nA large white container is located in the foreground on the left.\n\nAnother white container is in the bottom right corner.\n\nThe scene is viewed from an elevated perspective, showing the parking lot with marked spaces, surrounding buildings, trees, and a sports field in the background."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A person is standing next to a dark blue sedan parked in the lower-left portion of the parking lot.\n\nThe person remains stationary beside the car for the duration of the clip.\n\nAll other vehicles in the parking lot are parked and remain stationary."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "The scene is a wide shot of a large outdoor parking lot with several cars parked and others moving.\n\nA dark blue sedan is driving through the parking lot from the lower left towards the upper right.\n\nA black SUV is parked on the right side of the frame.\n\nA white van and a white box truck are parked together on the right side of the lot.\n\nA blue hatchback is parked in the middle-right area.\n\nSeveral other cars, including sedans and a black pickup truck, are parked throughout the lot.\n\nIn the background, near the top edge of the frame, a few people can be seen walking near a building."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "The scene is a wide shot of a large outdoor parking lot with several cars parked and others moving.\n\nA blue hatchback car drives from the right side of the frame towards the left, passing through the center of the lot.\n\nA black SUV is parked on the far right side of the frame.\n\nA dark-colored sedan is parked in the lower-center of the frame.\n\nIn the upper portion of the lot, a white van and a white box truck are parked near each other.\n\nOther vehicles, including sedans and a pickup truck, are parked in various spaces throughout the lot.\n\nNo people are clearly visible in the scene."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "There are no visible people in the parking lot.\n\nA blue car is driving through the parking lot from right to left.\n\nA black SUV is parked on the right side of the frame.\n\nA white van is parked on the right side of the frame.\n\nA white box truck is parked on the right side of the frame.\n\nA dark-colored pickup truck is parked near the center of the frame.\n\nSeveral other cars are parked throughout the lot.\n\nA white container is located in the lower-left foreground.\n\nAnother white container is located in the lower-right foreground.\n\nThe scene is viewed from an elevated position, looking down on the parking lot."
+        },
+        {
+          "source_clip": "24-27",
+          "start_sec": 24.0,
+          "end_sec": 27.0,
+          "caption": "There are no discernible actions or movements of people or vehicles in the parking lot. The scene is static, showing numerous parked cars, including sedans, SUVs, vans, and trucks, under bright sunlight casting long shadows. Two white, box-like structures are visible in the foreground. The background consists of buildings, trees, and a sports field. No interactions or changes occur throughout the clip."
+        },
+        {
+          "source_clip": "27-27.409261576971215",
+          "start_sec": 27.0,
+          "end_sec": 27.409261576971215,
+          "caption": "In the parking lot, several cars are parked while others move through the area.\n\nA black sedan drives from left to right across the middle of the frame. A blue hatchback moves forward toward the center of the lot before turning slightly to its right. In the upper portion of the scene, near the buildings, two white vans drive slowly together towards the right side of the screen. Another dark-colored vehicle follows behind them. The other cars remain stationary throughout the sequence. No individuals are visibly interacting with any of the vehicles."
+        }
+      ]
+    }
+  ]
+}

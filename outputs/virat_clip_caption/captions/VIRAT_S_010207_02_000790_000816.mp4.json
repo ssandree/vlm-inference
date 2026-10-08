@@ -1,0 +1,46 @@
+{
+  "video": "VIRAT_S_010207_02_000790_000816.mp4",
+  "clip_duration_sec": 3,
+  "clips": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 3.0,
+      "caption": "Three people are walking on a paved path in the background, moving from left to right towards the entrance of a building labeled \"STUDENT SERVICES\". A fourth person is standing near the entrance. The scene is outdoors on a campus with buildings, trees, and a paved walkway. A tall, thin pole stands in the foreground. To the right, there is a building with a green awning over a doorway marked \"CHICANO\" and a red wall with directional signs. A trash can and a recycling bin are visible in the lower-left corner. A small, white, box-like structure sits near the stairs on the right."
+    },
+    {
+      "start_sec": 3.0,
+      "end_sec": 6.0,
+      "caption": "Three people are walking on a paved path in the background, moving from left to right. One person is wearing a dark top and light-colored pants, another is wearing a white top and dark pants, and the third is wearing a dark top and dark pants. They are walking away from the camera towards the entrance of the building labeled \"STUDENT SERVICES\"."
+    },
+    {
+      "start_sec": 6.0,
+      "end_sec": 9.0,
+      "caption": "Three people are walking on a paved pathway in the background, moving from left to right. One person is wearing a white shirt and dark pants, another is wearing a dark top and light-colored pants, and the third person is further behind them. They are walking towards the entrance of the building labeled \"STUDENT SERVICES\"."
+    },
+    {
+      "start_sec": 9.0,
+      "end_sec": 12.0,
+      "caption": "Three people are walking on a paved pathway in the distance, moving from left to right across the frame. One person is wearing a dark top and light-colored pants, another is wearing a white top and dark pants, and the third person is wearing a dark top and dark pants. They are walking away from the camera towards the entrance of the building labeled \"STUDENT SERVICES\"."
+    },
+    {
+      "start_sec": 12.0,
+      "end_sec": 15.0,
+      "caption": "Two people are walking on a paved pathway towards the left side of the frame, moving away from the camera. They are walking side-by-side. The person on the left is wearing dark clothing, and the person on the right is wearing a light-colored top and dark pants. They continue walking along the path, passing under a covered walkway attached to a building labeled \"STUDENT SERVICES\"."
+    },
+    {
+      "start_sec": 15.0,
+      "end_sec": 18.0,
+      "caption": "Three people are walking on a paved path in the background, moving from left to right. A fourth person, wearing a backpack, walks into the frame from the right side and proceeds towards the left."
+    },
+    {
+      "start_sec": 18.0,
+      "end_sec": 21.0,
+      "caption": "A person wearing a white shirt, light-colored shorts, and a backpack walks from the right side of the frame toward the left across a paved courtyard.\n\nAnother person is sitting on a bench in the grassy area on the far left of the scene."
+    },
+    {
+      "start_sec": 21.0,
+      "end_sec": 23.362536503963288,
+      "caption": "A person wearing a white shirt, light-colored shorts, and a dark backpack walks from the right side of the frame toward the left across a paved courtyard.\n\nThe person walks past a tall, black outdoor heater and continues walking towards the entrance of a building with a green awning labeled \"CHICANO\".\n\nIn the background, another person is sitting on a bench in a grassy area to the far left."
+    }
+  ]
+}

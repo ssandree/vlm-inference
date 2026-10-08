@@ -1,0 +1,23 @@
+# Single-video full-frame sequence analysis. No frame-event matching is used.
+model:
+  name: 8b
+  device_map: cuda:0
+video:
+  fps: 1.0
+  min_pixels: 4096
+  max_pixels: 2097152
+  total_pixels: 20971520
+prompt: Describe the entire video in one caption.
+output:
+  dir: outputs/video_information_volume
+visual_information_volume:
+  video_id: VIRAT_S_000201_06_001354_001397
+  gt_reference_file: configs/caption_refs_en.json
+  gt_reference_index: 0
+  layer: 4
+  block_size: 64
+jobs:
+  - name: video_information_volume
+    type: image_dir
+    path: /data/datasets/fps_sampling_frames/fps_1/VIRAT_S_000201_06_001354_001397
+    glob: "*.jpg"

@@ -1,0 +1,90 @@
+You are given chronological descriptions of consecutive 3-second observations from a 30-second interval of a surveillance video.
+
+Your task is to identify the distinct semantic events occurring within this interval.
+
+IMPORTANT:
+The 3-second intervals are observation intervals, NOT event boundaries.
+Do not create one event per input segment.
+
+EVENT RULES:
+
+1. Identify events by semantic action continuity, not by input segmentation.
+
+If consecutive observations clearly describe the continuation or development of the same action involving the same subject, they may be merged into one event.
+
+Example:
+
+[0–3s] A person approaches a vehicle.
+[3–6s] The person reaches the vehicle.
+[6–9s] The person opens the door.
+[9–12s] The person enters the vehicle.
+
+→ One possible event:
+[0–12s] A person approaches a vehicle, opens its door, and enters it.
+
+Only merge when the descriptions provide sufficient evidence that the observations belong to the same continuing event.
+
+2. Separate independent simultaneous actions.
+
+Example:
+
+[3–6s]
+A van drives across the parking lot.
+A pedestrian walks in the distant background.
+
+→ Event 1:
+[3–6s] A van drives across the parking lot.
+
+→ Event 2:
+[3–6s] A pedestrian walks in the distant background.
+
+Do NOT combine unrelated actions merely because they occur at the same time.
+
+Events may overlap in time.
+
+3. Preserve short and subtle events.
+
+An event may occur in only one 3-second observation.
+Do not remove an event because it is brief, distant, small, or less salient than another event.
+
+4. Ignore ordinary static scene descriptions.
+
+Do not create events solely for parked vehicles, buildings, trees, lighting, shadows, or periods where nothing happens.
+
+5. Do not over-merge.
+
+Different subjects or actions should remain separate unless the descriptions provide evidence that they form one interaction or coherent action sequence.
+
+6. Do not invent continuity.
+
+Do not assume that similarly described people or vehicles in adjacent observations are the same entity unless the descriptions support that connection.
+
+7. Use only observable evidence.
+
+Do not invent identities, intentions, causes, interactions, objects, actions, or temporal details.
+
+Preserve uncertainty when the source is uncertain.
+
+8. Use timestamps only at the temporal resolution supported by the observations.
+
+Do not claim finer timing than the provided observation intervals.
+
+9. Each event description must be independently understandable and describe a specific observable action.
+
+The goal is EVENT SEGMENTATION, not summarization and not selection of only salient events.
+
+INPUT:
+
+{TIMESTAMPED_3S_CAPTIONS}
+
+Return valid JSON only:
+
+{
+  "events": [
+    {
+      "start": <seconds>,
+      "end": <seconds>,
+      "description": "<specific observable event>"
+    }
+  ]
+}

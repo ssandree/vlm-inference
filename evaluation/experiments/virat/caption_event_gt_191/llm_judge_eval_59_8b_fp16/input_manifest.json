@@ -1,0 +1,188 @@
+{
+  "source_files": [
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/fullframe_proposed_roi_59_8b_fp16/results.json",
+      "sha256": "ae9e7fcb991157c1ed3bd9f2105e7ed8b4adfecdac98bbdb2d85077e90afad37"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/annotation_policy.json",
+      "sha256": "d124215ecaf3f472ccb0793ecd2f9863dc390b3c752a7e793af4e6143cd0542b"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_000001/caption_events.json",
+      "sha256": "22284a01d58e74da58b61ff3b1fc999fab1a23d9339284fd1775ac467ef79a7d"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_000205_02_000409_000566/caption_events.json",
+      "sha256": "a3a7083759f2100f8576049d965e33a00e3e384c8ae4066baf9bab022b8ca964"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010000_07_000827_000860/caption_events.json",
+      "sha256": "7dc1473a477a0970151cad2202164b7457845b7081bbbe6161b57068dfc2af17"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010001_02_000195_000498/caption_events.json",
+      "sha256": "095ed8c65a6440a1a4b5dc75a8907a94d21292aaad13f18c2a4085e973a42fdf"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010001_03_000537_000563/caption_events.json",
+      "sha256": "e050c50ebf6cdd78436d177a2873073902755f45fcd4b9bcbe59765260a21b89"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010001_05_000649_000684/caption_events.json",
+      "sha256": "8570ec0486b14cb3dea0521f2d72805e558f5f2e0052cad37f1fd069fcb3ac5c"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010001_08_000826_000893/caption_events.json",
+      "sha256": "a9d2bb0c79470ec4a7543d5a5c789415b28e84a32dd78995c3a6129ad668be0b"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010001_09_000921_000952/caption_events.json",
+      "sha256": "d34f9dec571539b24dee2a324584557e6f7aaf9b36bcd207a95f69a03248207f"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010001_10_000962_001005/caption_events.json",
+      "sha256": "c3aed45f0102cee3ab62e62a782502fe5673db3115e9dd874e8a0e01178232ca"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010002_02_000174_000204/caption_events.json",
+      "sha256": "8f830fbce3cefc7f56fd453ee6d96147a6092b111071e1f6cf4febdc32720a7a"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010002_03_000236_000261/caption_events.json",
+      "sha256": "02b9eba628c8fe793fc54ce755228e866237fcfcc927e5594d466031eff9700a"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010002_06_000441_000467/caption_events.json",
+      "sha256": "001d3073b22d22398a44a7eeae936d5bb737899aaab7043bc5edbbaded89e893"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010002_07_000522_000547/caption_events.json",
+      "sha256": "16b68ef9cb99043f9ab482f6441bb726e7685485a6926df7006c8fb77a0f6e1d"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010003_02_000165_000202/caption_events.json",
+      "sha256": "e931177e787dfd5741a1382dca30ed7f3aa056c4edf03bc3a887c41c780b1b7a"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010003_03_000219_000259/caption_events.json",
+      "sha256": "e097abca6a70ad33195ee4d3618df7f0508bd89114e5c7c002d56d5d0126a1ad"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010003_06_000526_000560/caption_events.json",
+      "sha256": "c5d19daf0c1a89a8db2925e2f6189ebd8f7df9492f2516ee2e35eb529629f498"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010003_07_000608_000636/caption_events.json",
+      "sha256": "3e409918bfb33b7d7c59bcf82849a4ea80cdb47045b62cb1b78a4a54b895ec5c"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010003_10_000901_000934/caption_events.json",
+      "sha256": "a67ebf7ad94c07111388cd3220c1f089784080932c61b585403a1eca971c51e1"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010005_03_000215_000270/caption_events.json",
+      "sha256": "1779ecb2f5ad64a5a1d47c4b9f492aae60b9bda65d57707e97a1953078eb3aeb"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010005_05_000397_000430/caption_events.json",
+      "sha256": "894d03b0f10222257a6b606bd6809ae42587ddf757f92ba27e3b76d109f820ff"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010106_00_000098_000315/caption_events.json",
+      "sha256": "c8fce761155f41305c83f45efff3a9488b5e6ee0c23e8f1062e826699e867707"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010106_02_000656_000692/caption_events.json",
+      "sha256": "f3a616596f0eac44fa2da41e3f555679607c3254a2a059a66393a3779675965b"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010106_05_000954_000996/caption_events.json",
+      "sha256": "4efbc7217717e138f9224309758f6d5195ee5a7d5dbe5b90371768094103d2e3"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010107_00_000019_000057/caption_events.json",
+      "sha256": "c7b4f16914c411dba995c58dce88f2f56550a15a23c934ef5badf2bb0574a284"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010107_02_000282_000312/caption_events.json",
+      "sha256": "d9641828fd34c84b5f4e28faa637027e5ee36ec6bbe921507420d03c8bd5ade1"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010110_00_000000_000021/caption_events.json",
+      "sha256": "f7a4c3093cd1e6b34c002da3b2a12acf7f0ba0ca1bed624847a1461cadd50f8e"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010110_02_000513_000566/caption_events.json",
+      "sha256": "f3525ed5f6cc7b2ed8cc54c0697c99bcebc5a581f279c668e3aa236b79b8429e"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010110_05_000899_000935/caption_events.json",
+      "sha256": "12dcc32daf4ad35091824cf767096d1600eaaa8b5a51d5968ca844e83593971f"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010111_05_000762_000799/caption_events.json",
+      "sha256": "543654064d6ab9f8c55ba43b636f515155f6656be0fb93cdfe45a8832a854a7a"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010111_07_000872_000909/caption_events.json",
+      "sha256": "8316577b927d10af8b3232504082680ff8a36cd4f637ee94745aa3d5f65f5d9b"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010111_08_000920_000954/caption_events.json",
+      "sha256": "ac1449e9d17c203958de097c606200496e478d8a679285a0f8ef70462189a983"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010113_07_000965_001013/caption_events.json",
+      "sha256": "240c65d61b9a664e12032cf0a74d86bd0b06a8c8b4b11df71765ebe59ae6d797"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010200_02_000349_000398/caption_events.json",
+      "sha256": "fe5a0830f98fa7b7e59d38c73ac25ca989396a3af395aaf278e4bb948d34c4c7"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010201_02_000167_000197/caption_events.json",
+      "sha256": "7bbb2d2f3a290185c34f2b149c3d78f54026e9cd1fd01c71475cd04d709b140a"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010204_03_000606_000632/caption_events.json",
+      "sha256": "eb7972f26384a5181f149f82e774d28641dc48d429f047c680784bed8dcb3f56"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010205_03_000370_000395/caption_events.json",
+      "sha256": "4b81f5fe389a7bf8d40c8fe56dd06bb34d248d1c4a12fb33505f57939bbf05f1"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010205_04_000545_000576/caption_events.json",
+      "sha256": "8fa4bc61c2ee2ccf31e8ead46e871899a9625162df9400bce1cb39d443651862"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010207_02_000790_000816/caption_events.json",
+      "sha256": "d3a97ebe5a2609b4944f36a645453daf68db3531bfd890ce06baaf8cd0342df0"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010207_09_001484_001510/caption_events.json",
+      "sha256": "483181bf5a8c47a94e4ed03fd71a12b2de8b07595687e4cd8a8c8acfa3c5ec89"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010207_10_001549_001596/caption_events.json",
+      "sha256": "7dac268b56c1c4d8d8da2dc5588dbd160a419e4d1d16ba53478ef554f7a985ef"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_010208_09_000857_000886/caption_events.json",
+      "sha256": "b0fc300c0a127cdb22d261e8110f273aaa017ef92eb9ea17fda737d469f17818"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_040000_04_000532_000622/caption_events.json",
+      "sha256": "c9dbbd5e1ce4af2c8888808ef7a4d03e1695317ad5c252b52098423fade9b196"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_040005_00_000003_000058/caption_events.json",
+      "sha256": "ed3eeec5536a7e01fb2e3e0a30492ce26a07a8819fbdbc76b991d5631a32e5d1"
+    },
+    {
+      "path": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt/VIRAT_S_040005_08_001225_001276/caption_events.json",
+      "sha256": "512e0f202180718f421bc379354ec4494cb3785ca11f44786e84b7432980ce81"
+    }
+  ]
+}

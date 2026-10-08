@@ -1,0 +1,124 @@
+{
+  "video": "VIRAT_S_010111_04_000718_000760.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010111_04_000718_000760.mp4.json",
+  "source_caption_sha256": "3c27ce20d0475ec65a8bd98001e3fbbffa70432df61c4bb32cb5754af98b2ad6",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 30.0,
+      "intermediate_caption": "At the beginning of the sequence, a person wearing dark clothing walks from the right side of the frame toward the center of the parking lot, moving away from the camera’s perspective. This individual proceeds across the paved surface before turning and walking back toward the right, eventually exiting the frame after passing behind a white van marked with blue and red stripes. During this movement, they pass behind a silver sedan and a black SUV while navigating between parked vehicles.\n\nShortly afterward, another person—wearing a dark top and light-colored pants—is seen entering from the right side of the frame and walking toward the left, traversing the central part of the parking lot. This person passes behind a silver sedan positioned in the lower-right section of the frame and continues moving until leaving the field of view on the far left.\n\nLater, two individuals appear together in the lower right portion of the parking lot; one wears dark clothes and leads slightly ahead of the second person, who is dressed more lightly. Both move from right to left across the frame, passing several parked vehicles—including a silver sedan and a black SUV—and continue their path without further interaction.\n\nAfterward, there is a period during which no human activity occurs—the parking lot remains empty except for its many stationary vehicles, including sedans, SUVs, vans, and a white truck. For approximately six seconds (from 21s to 27s), the entire scene becomes completely still, with only minor environmental details such as shadows shifting subtly due to lighting conditions. From 27s onward, the visual content remains unchanged: the expansive parking lot stays fully occupied but motionless, with no detectable presence of people or any form of vehicular movement. Throughout the duration, the setting consistently features multiple parked automobiles arranged around open spaces, bordered by structures like a prominent building in the distance.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-27",
+        "27-30"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "A person walks from the right side of the frame toward the center of the parking lot, moving away from the camera's viewpoint. The person is wearing dark clothing and continues walking across the paved area. No other people or vehicle movements are observed."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A person walks from the right side of the frame toward the center of the parking lot, moving between parked cars.\n\nThe person continues walking toward the left side of the frame, passing behind a silver sedan and a black SUV.\n\nThe person then moves out of view behind a white dumpster located in the lower-left foreground."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "A person wearing a dark top and light-colored pants walks from the right side of the parking lot towards the center, moving between parked cars.\n\nThe person continues walking towards the left side of the frame, passing behind a silver sedan and a black SUV.\n\nThe person then turns and walks back towards the right side of the frame, moving behind a white van with blue and red markings.\n\nThe person exits the frame on the right side."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "A person wearing a dark top and light-colored pants walks from the right side of the frame toward the left, moving through the parking lot near the bottom right corner.\n\nThe person continues walking towards the left, passing behind a silver sedan parked in the foreground.\n\nThe person walks past the silver sedan and continues moving toward the left side of the parking lot, remaining visible in the lower right portion of the frame."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A person wearing a dark top and light-colored pants walks from the right side of the frame toward the left across the parking lot.\n\nThe person walks in front of a silver sedan parked in the lower right portion of the frame.\n\nThe person continues walking towards the left, passing behind the silver sedan.\n\nThe person walks out of the frame on the left side.\n\nThe scene is a large outdoor parking lot filled with numerous cars and a few trucks, mostly stationary.\n\nThere are no other visible people or moving vehicles in the scene."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "Two people are walking in the lower right portion of the parking lot, moving from right to left across the frame. The person in front is wearing dark clothing, and the person behind is wearing lighter-colored clothing. They walk past parked cars, including a silver sedan and a black SUV. The rest of the scene is static, showing a large parking lot filled with various parked vehicles, including sedans, SUVs, vans, and a white truck. A large building is visible in the background."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "Two people are walking in the lower right corner of the parking lot, moving from right to left across the frame. The rest of the scene is static, showing a large parking lot filled with numerous parked cars and a few white vans. A large building is visible in the background."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "There are no visible people or moving vehicles in the parking lot. The scene is static, showing numerous parked cars, vans, and a white truck. A large shadow covers the lower left portion of the frame."
+        },
+        {
+          "source_clip": "24-27",
+          "start_sec": 24.0,
+          "end_sec": 27.0,
+          "caption": "There are no discernible actions or events occurring in the video clip. The scene shows a large, mostly full parking lot with numerous parked cars, vans, and trucks under bright sunlight. The vehicles remain stationary throughout the clip. There are no visible people or moving objects. The image is static, showing a wide view of the parking area and surrounding buildings."
+        },
+        {
+          "source_clip": "27-30",
+          "start_sec": 27.0,
+          "end_sec": 30.0,
+          "caption": "There are no discernible actions or events occurring in the video clip. The scene shows a large, mostly full parking lot with numerous parked cars and a few trucks under bright sunlight. The vehicles remain stationary throughout the clip. There are no visible people or moving objects. The image is static, showing a wide view of the parking area and surrounding buildings."
+        }
+      ]
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 40.38381309970797,
+      "intermediate_caption": "A person walks across the parking lot from left to right in the middle ground. The scene consists of a large outdoor parking lot containing numerous parked cars of various colors and models, including sedans, SUVs, vans, and a white truck; all vehicles remain stationary throughout. In the background, several distant figures are briefly observed walking near buildings, though their actions are indistinct. No further movement or interaction involving people or vehicles occurs after this initial walk. The setting also includes surrounding elements such as trees, additional structures, and a sports field, none of which show detectable change during the period. The lighting remains consistently bright daylight.",
+      "source_clips": [
+        "30-33",
+        "33-36",
+        "36-39",
+        "39-40.38381309970797"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "30-33",
+          "start_sec": 30.0,
+          "end_sec": 33.0,
+          "caption": "A person walks across the parking lot from left to right in the middle ground.\n\nThe scene is a large outdoor parking lot filled with numerous parked cars of various colors and models, including sedans, SUVs, vans, and a white truck.\n\nThe vehicles remain stationary throughout the clip.\n\nThere are no other discernible actions or movements."
+        },
+        {
+          "source_clip": "33-36",
+          "start_sec": 33.0,
+          "end_sec": 36.0,
+          "caption": "There are no discernible actions or movements of people or vehicles in the provided frames. The scene is a static view of a large outdoor parking lot filled with numerous parked cars, vans, and a few trucks. The vehicles remain stationary throughout the clip. There is no visible interaction between any individuals or objects. The environment includes buildings, trees, and a sports field in the background, but no activity occurs within them."
+        },
+        {
+          "source_clip": "36-39",
+          "start_sec": 36.0,
+          "end_sec": 39.0,
+          "caption": "There are no discernible actions or movements of people or vehicles in the provided frames. The scene shows a large, mostly full parking lot with numerous parked cars, vans, and trucks under bright sunlight. A few individuals can be seen walking in the distance near the buildings in the background, but their specific actions are indistinct. The overall scene remains static throughout the clip."
+        },
+        {
+          "source_clip": "39-40.38381309970797",
+          "start_sec": 39.0,
+          "end_sec": 40.38381309970797,
+          "caption": "There are no discernible actions or events occurring in the video clip. The scene shows a large, mostly full parking lot with numerous parked cars and a few trucks under bright sunlight. The vehicles remain stationary throughout the clip. There are no visible people or moving objects. The image is static."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "video": "VIRAT_S_010114_02_000765_000802.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010114_02_000765_000802.mp4.json",
+  "source_caption_sha256": "5686b254e7bcb84cd93328d7bfca64b849e1427c05288c34663d8ac812177b87",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 30.0,
+      "intermediate_caption": "A person walks across the parking lot from left to right near the center of the frame at the start of the recording. Shortly after, a dark-colored sedan drives slowly through the middle section of the parking lot, moving forward and slightly toward the right before leaving the frame. At approximately three seconds, a person wearing red begins walking from the right side of the frame toward the center. Around six seconds, a different individual—wearing red shorts—is seen walking across the parking lot from right to left near the center. This pattern continues with several individuals crossing the lot from right to left between nine and thirty seconds, each appearing briefly in the central or lower portions of the frame. One such person wears a red shirt and dark pants, while later, another appears in a pink shirt.\n\nThroughout the entire duration, numerous vehicles remain parked in place—including white vans, black sedans, red hatchbacks, silver SUVs, a black SUV, a red car, a white pickup truck, a dark minivan, and a large white truck with a cargo container—and their positions do not change significantly except where noted. Several vehicles exhibit movement: a white van travels from right to left through the midsection of the lot; two white vans pass through the upper part of the lot going from right to left; a white pickup truck crosses the upper region from left to right; a dark-colored sedan proceeds slowly from the lower-center upward toward the upper-center; another dark-colored sedan approaches the top-left of the lot from the edge; and a second dark-colored sedan parks temporarily on the right side near trees. Additionally, a black car arrives from the bottom-right and pulls into a spot partially obscured by foliage. \n\nMultiple fixed elements persist throughout: two large trash receptacles stand empty in the foreground; marked parking spaces define the pavement layout; trees line parts of the perimeter; and distant buildings appear in the background under consistently visible daylight conditions suggesting early morning or late afternoon due to long shadows. An elevated camera angle provides a wide overview of this active but routine outdoor environment.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-27",
+        "27-30"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "A person walks across the parking lot from left to right near the center of the frame at the beginning of the clip.\n\nSeveral cars remain parked throughout the clip; these include white vans, black sedans, red hatchbacks, silver SUVs, and other various models.\n\nOne dark-colored sedan drives slowly through the middle section of the parking lot, moving generally forward and slightly toward the right side of the frame before exiting the view."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A person wearing red walks from the right side of the frame toward the center of the parking lot.\n\nA white van drives from the right side of the frame toward the left, moving through the parking lot.\n\nA black SUV is parked on the right side of the frame."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "A person wearing red shorts walks across the parking lot from right to left near the center of the frame.\n\nSeveral cars remain parked throughout the sequence: a black sedan at 4 o'clock position; two white vans further back; multiple sedans including silver, dark gray, maroon, and blue ones scattered around the middle section; a red car towards the top-left area; and a large white truck with a cargo container also toward the upper-right side.\n\nThe scene remains largely unchanged as no other significant vehicle motion occurs during these frames. The shadows cast by buildings indicate it's either early morning or late afternoon. There’s minimal activity apart from the single pedestrian walking through the space."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "A person walks across the parking lot from right to left near the center of the frame.\n\nSeveral cars are parked throughout the lot; some remain stationary while others move slowly within designated spaces.\n\nTwo white vans are present: one remains parked at the far end of the lot, and the other moves slightly forward before stopping.\n\nIn the foreground, two large trash receptacles sit empty. A black car drives into view from the bottom-right corner and parks partially out of sight behind trees. Another dark-colored sedan enters the scene by driving along the edge of the parking area toward the top-left portion of the lot. The shadows cast suggest it's either early morning or late afternoon with low sunlight angles. No significant activity occurs beyond these vehicle movements and pedestrian passage."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A person walks across the parking lot from right to left near the center of the frame.\n\nSeveral cars are parked throughout the lot; some remain stationary while others move slowly within designated spaces.\n\nTwo white vans drive through the upper portion of the parking area: one moves from right to left, followed by another moving slightly behind it in the same direction.\n\nThe scene remains consistent with no significant changes over time."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "A person wearing red walks across the parking lot from right to left near the center of the frame.\n\nSeveral cars are parked throughout the lot; some remain stationary while others move slowly through the area.\n\nIn the upper portion of the scene, a white pickup truck drives from left to right.\n\nAnother vehicle moves from the lower-left towards the middle-right of the frame.\n\nThe shadows cast by buildings indicate it is daytime with bright sunlight."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "A person walks across the parking lot from right to left in the middle of the frame.\n\nSeveral cars are parked throughout the lot, including a red car, a white van, a black SUV, and a silver sedan.\n\nA dark-colored sedan is driving slowly through the parking lot, moving from the lower center towards the upper center of the frame.\n\nAnother dark-colored sedan is parked on the right side of the lot, near some trees.\n\nA white truck is parked in the upper right section of the lot.\n\nThe scene is viewed from an elevated perspective, showing a large paved area with marked parking spaces."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "A person wearing a red shirt and dark pants walks across the parking lot from right to left in the middle of the frame.\n\nSeveral cars are parked throughout the lot, including a red car, a white van, a black SUV, and a silver sedan.\n\nA white truck is parked near the back of the lot.\n\nThe scene is viewed from an elevated perspective, showing the parking lot with marked spaces, some trees, and buildings in the background."
+        },
+        {
+          "source_clip": "24-27",
+          "start_sec": 24.0,
+          "end_sec": 27.0,
+          "caption": "A person walks across the parking lot from right to left in the lower right quadrant of the frame.\n\nSeveral cars are parked throughout the lot, including a red car, a white pickup truck, a black SUV, a silver sedan, a white van, and a dark minivan.\n\nA black SUV is parked in the lower right corner of the frame.\n\nThe scene is viewed from an elevated position, showing a large paved area with marked parking spaces."
+        },
+        {
+          "source_clip": "27-30",
+          "start_sec": 27.0,
+          "end_sec": 30.0,
+          "caption": "A person wearing a pink shirt walks across the parking lot from right to left in the lower center of the frame.\n\nSeveral cars are parked throughout the lot, including a red car, a white pickup truck, a black SUV, a silver sedan, a white van, and a dark minivan.\n\nA black SUV is parked on the right side of the frame.\n\nThe scene is viewed from an elevated position, showing a large paved area with marked parking spaces, some trees, and buildings in the background."
+        }
+      ]
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 30.20442219440968,
+      "intermediate_caption": "A person walks across the parking lot from right to left near the center of the frame. Another person remains stationary at the far right edge of the scene, adjacent to some trees. Several cars are parked in the lot, including a dark-colored sedan that starts moving forward slowly from its spot toward the bottom-left corner of the frame.",
+      "source_clips": [
+        "30-30.20442219440968"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "30-30.20442219440968",
+          "start_sec": 30.0,
+          "end_sec": 30.20442219440968,
+          "caption": "A person walks across the parking lot from right to left near the center of the frame.\n\nAnother person stands still at the far right edge of the scene, next to some trees.\n\nSeveral cars are parked throughout the lot; one dark-colored sedan begins moving forward slowly from its space towards the bottom-left corner of the frame around 0:02."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "video_id": "VIRAT_S_010003_07_000608_000636",
+  "reference_sentence": null,
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "6"
+      ],
+      "start_frame": 0,
+      "end_frame": 404,
+      "start_time": 0.0,
+      "end_time": 16.8544,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "6"
+      },
+      "action": "carrying_object",
+      "object": [
+        {
+          "track_id": "2",
+          "category": "object",
+          "object_type_id": 4,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": "upper_right_to_lower_left",
+      "semantic_location": null,
+      "reference_sentence": null
+    }
+  ]
+}

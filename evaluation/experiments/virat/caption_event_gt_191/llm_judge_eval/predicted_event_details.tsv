@@ -1,0 +1,202 @@
+record_id	model	condition	video_id	action	label	evidence	reason_ko	factual_status
+R000	8b	full_frame	VIRAT_S_010114_01_000235_000311	driving	hallucinated_gt	A white sedan drives into the parking lot	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R000	8b	full_frame	VIRAT_S_010114_01_000235_000311	parking	hallucinated_gt	parks near other vehicles	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R000	8b	full_frame	VIRAT_S_010114_01_000235_000311	walking	hallucinated_gt	Two individuals walk together	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R000	8b	full_frame	VIRAT_S_010114_01_000235_000311	carrying_object	hallucinated_gt	carrying an object	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R001	8b	motion_roi	VIRAT_S_010114_01_000235_000311	cycling	hallucinated_gt	Two cyclists ride across the parking lot	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R001	8b	motion_roi	VIRAT_S_010114_01_000235_000311	driving	hallucinated_gt	A silver sedan drives through	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R001	8b	motion_roi	VIRAT_S_010114_01_000235_000311	walking	hallucinated_gt	Two pedestrians walk along the sidewalk	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R002	8b	full_frame	VIRAT_S_010207_04_000929_000954	walking	hallucinated_gt	A person walks along a paved pathway toward a building	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R003	8b	motion_roi	VIRAT_S_010207_04_000929_000954	walking	hallucinated_gt	A person walks toward the entrance	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R003	8b	motion_roi	VIRAT_S_010207_04_000929_000954	entering_facility	hallucinated_gt	before entering	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R004	8b	full_frame	VIRAT_S_000200_00_000100_000171	driving	hallucinated_gt	A silver sedan drives into view	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R004	8b	full_frame	VIRAT_S_000200_00_000100_000171	parking	hallucinated_gt	stops at an empty parking space	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R004	8b	full_frame	VIRAT_S_000200_00_000100_000171	walking	hallucinated_gt	two individuals walk past the parked car	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R005	8b	motion_roi	VIRAT_S_000200_00_000100_000171	driving	hallucinated_gt	A silver sedan drives up the entrance ramp	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R005	8b	motion_roi	VIRAT_S_000200_00_000100_000171	parking	hallucinated_gt	parks parallel to other spaces	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R005	8b	motion_roi	VIRAT_S_000200_00_000100_000171	getting_out_of_vehicle	supported	A person wearing light-colored clothing steps out of the parked car	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R005	8b	motion_roi	VIRAT_S_000200_00_000100_000171	walking	hallucinated_gt	walks around to the driver’s side door	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R005	8b	motion_roi	VIRAT_S_000200_00_000100_000171	opening_vehicle_door	hallucinated_gt	opens it	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R005	8b	motion_roi	VIRAT_S_000200_00_000100_000171	retrieving_object	hallucinated_gt	retrieves something inside	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R005	8b	motion_roi	VIRAT_S_000200_00_000100_000171	closing_vehicle_door	hallucinated_gt	closes the door	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R005	8b	motion_roi	VIRAT_S_000200_00_000100_000171	carrying_object	hallucinated_gt	carrying a bag slung across their shoulder	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R006	8b	full_frame	VIRAT_S_010001_03_000537_000563	walking	hallucinated_gt	A person walks down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R007	8b	motion_roi	VIRAT_S_010001_03_000537_000563	walking	hallucinated_gt	others walk up and down nearby stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R008	8b	full_frame	VIRAT_S_010003_03_000219_000259	walking	supported	A person walks down the stairs	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R008	8b	full_frame	VIRAT_S_010003_03_000219_000259	facility_transition_unspecified	uncertain	passing through doorways	출입문 통과는 있으나 건물 안/밖 방향을 특정할 수 없다.	uncertain_unverified
+R009	8b	motion_roi	VIRAT_S_010003_03_000219_000259	walking	supported	People walk up and down stairs	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R009	8b	motion_roi	VIRAT_S_010003_03_000219_000259	carrying_object	supported	A person walks past them carrying something white	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R009	8b	motion_roi	VIRAT_S_010003_03_000219_000259	talking	hallucinated_gt	engaged in conversation	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R010	8b	full_frame	VIRAT_S_010003_10_000901_000934	walking	hallucinated_gt	A person walks down stairs toward an entrance	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R011	8b	motion_roi	VIRAT_S_010003_10_000901_000934	walking	hallucinated_gt	People walk across the paved courtyard	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R012	8b	full_frame	VIRAT_S_010003_06_000526_000560	walking	hallucinated_gt	A person walks down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R013	8b	motion_roi	VIRAT_S_010003_06_000526_000560	walking	hallucinated_gt	people walk past them	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R013	8b	motion_roi	VIRAT_S_010003_06_000526_000560	talking	hallucinated_gt	engaged in conversation	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R013	8b	motion_roi	VIRAT_S_010003_06_000526_000560	facility_transition_unspecified	uncertain	before exiting through the doorway	야외에서 출입문으로 이동하는 문맥에서 exiting의 기준 공간이 모호하다. 하나의 모호한 출입 사건이며 진입/퇴장 둘을 별도 예측으로 세지 않는다.	uncertain_unverified
+R014	8b	full_frame	VIRAT_S_010106_02_000656_000692	walking	supported	Two individuals walk together through an empty parking lot toward the right side	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R014	8b	full_frame	VIRAT_S_010106_02_000656_000692	driving	hallucinated_gt	A few cars drive past	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R015	8b	motion_roi	VIRAT_S_010106_02_000656_000692	walking	supported	A person walks across the parking lot	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R015	8b	motion_roi	VIRAT_S_010106_02_000656_000692	cycling	hallucinated_gt	another individual rides a bicycle	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R016	8b	full_frame	VIRAT_S_040005_08_001225_001276	driving	hallucinated_gt	A black car drives through an intersection	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R017	8b	motion_roi	VIRAT_S_040005_08_001225_001276	walking	hallucinated_gt	A person walks toward a parked green car	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R017	8b	motion_roi	VIRAT_S_040005_08_001225_001276	driving	hallucinated_gt	the car drives off	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R018	8b-int8	full_frame	VIRAT_S_010114_01_000235_000311	driving	hallucinated_gt	A white car drives into the parking lot	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R018	8b-int8	full_frame	VIRAT_S_010114_01_000235_000311	parking	hallucinated_gt	parks near other vehicles	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R018	8b-int8	full_frame	VIRAT_S_010114_01_000235_000311	walking	hallucinated_gt	A person walks through the parking area	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R018	8b-int8	full_frame	VIRAT_S_010114_01_000235_000311	carrying_object	hallucinated_gt	carrying something on their shoulder	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R018	8b-int8	full_frame	VIRAT_S_010114_01_000235_000311	exiting_facility	hallucinated_gt	Another individual exits a building nearby	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R019	8b-int8	motion_roi	VIRAT_S_010114_01_000235_000311	cycling	hallucinated_gt	Two cyclists ride across the parking lot	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R019	8b-int8	motion_roi	VIRAT_S_010114_01_000235_000311	walking	hallucinated_gt	A person walks along the sidewalk	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R019	8b-int8	motion_roi	VIRAT_S_010114_01_000235_000311	exiting_facility	hallucinated_gt	Another individual exits a building entrance	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R019	8b-int8	motion_roi	VIRAT_S_010114_01_000235_000311	driving	hallucinated_gt	Several cars drive through the intersection	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R020	8b-int8	full_frame	VIRAT_S_010207_04_000929_000954	walking	hallucinated_gt	A person walks along a paved pathway toward a building	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R021	8b-int8	motion_roi	VIRAT_S_010207_04_000929_000954	walking	hallucinated_gt	A person walks toward the entrance	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R021	8b-int8	motion_roi	VIRAT_S_010207_04_000929_000954	entering_facility	hallucinated_gt	before entering	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R022	8b-int8	full_frame	VIRAT_S_000200_00_000100_000171	driving	hallucinated_gt	A silver sedan drives into view	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R022	8b-int8	full_frame	VIRAT_S_000200_00_000100_000171	parking	hallucinated_gt	parks briefly next to another vehicle	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R023	8b-int8	motion_roi	VIRAT_S_000200_00_000100_000171	driving	hallucinated_gt	A silver sedan drives up to the parking lot entrance	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R023	8b-int8	motion_roi	VIRAT_S_000200_00_000100_000171	parking	hallucinated_gt	parks parallel to other cars	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R023	8b-int8	motion_roi	VIRAT_S_000200_00_000100_000171	getting_out_of_vehicle	supported	A person exits the parked car	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R023	8b-int8	motion_roi	VIRAT_S_000200_00_000100_000171	walking	hallucinated_gt	walks around to the driver’s side door	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R023	8b-int8	motion_roi	VIRAT_S_000200_00_000100_000171	opening_vehicle_door	hallucinated_gt	opens it	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R023	8b-int8	motion_roi	VIRAT_S_000200_00_000100_000171	carrying_object	hallucinated_gt	gets out carrying a bag	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R023	8b-int8	motion_roi	VIRAT_S_000200_00_000100_000171	closing_vehicle_door	hallucinated_gt	closes the door behind them	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R024	8b-int8	full_frame	VIRAT_S_010001_03_000537_000563	walking	hallucinated_gt	A person walks down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R025	8b-int8	motion_roi	VIRAT_S_010001_03_000537_000563	walking	hallucinated_gt	others walk up and down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R026	8b-int8	full_frame	VIRAT_S_010003_03_000219_000259	walking	supported	A person walks down stairs near a building	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R027	8b-int8	motion_roi	VIRAT_S_010003_03_000219_000259	walking	supported	People walk up and down stairs	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R027	8b-int8	motion_roi	VIRAT_S_010003_03_000219_000259	talking	hallucinated_gt	during their conversation	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R027	8b-int8	motion_roi	VIRAT_S_010003_03_000219_000259	manipulating_object	hallucinated_gt	adjusting something on the ground beside them	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R028	8b-int8	full_frame	VIRAT_S_010003_10_000901_000934	walking	hallucinated_gt	People walk through an outdoor plaza	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R029	8b-int8	motion_roi	VIRAT_S_010003_10_000901_000934	walking	hallucinated_gt	People walk across the paved courtyard	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R029	8b-int8	motion_roi	VIRAT_S_010003_10_000901_000934	exiting_facility	supported	One person exits through the doorway	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R029	8b-int8	motion_roi	VIRAT_S_010003_10_000901_000934	entering_facility	uncertain	two more individuals entering the space	space가 건물 내부인지 야외 장면인지 불분명하다.	uncertain_unverified
+R030	8b-int8	full_frame	VIRAT_S_010003_06_000526_000560	walking	hallucinated_gt	A person walks down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R031	8b-int8	motion_roi	VIRAT_S_010003_06_000526_000560	walking	hallucinated_gt	pedestrians walk past them	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R031	8b-int8	motion_roi	VIRAT_S_010003_06_000526_000560	talking	hallucinated_gt	engaged in conversation	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R032	8b-int8	full_frame	VIRAT_S_010106_02_000656_000692	walking	supported	Two individuals walk together through an empty parking lot toward the right side	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R033	8b-int8	motion_roi	VIRAT_S_010106_02_000656_000692	walking	supported	a person walks across the open space	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R033	8b-int8	motion_roi	VIRAT_S_010106_02_000656_000692	cycling	hallucinated_gt	two individuals ride bicycles	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R034	8b-int8	full_frame	VIRAT_S_040005_08_001225_001276	driving	hallucinated_gt	A black car drives through an intersection	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R035	8b-int8	motion_roi	VIRAT_S_040005_08_001225_001276	walking	hallucinated_gt	A person walks toward parked cars	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R035	8b-int8	motion_roi	VIRAT_S_040005_08_001225_001276	driving	hallucinated_gt	A dark sedan drives through the intersection	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R036	8b-fp8	full_frame	VIRAT_S_010114_01_000235_000311	driving	hallucinated_gt	A white car drives into view	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R036	8b-fp8	full_frame	VIRAT_S_010114_01_000235_000311	parking	hallucinated_gt	parks near other vehicles	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R036	8b-fp8	full_frame	VIRAT_S_010114_01_000235_000311	walking	hallucinated_gt	A person walks along the sidewalk	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R037	8b-fp8	motion_roi	VIRAT_S_010114_01_000235_000311	cycling	hallucinated_gt	Two cyclists ride across the parking lot	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R037	8b-fp8	motion_roi	VIRAT_S_010114_01_000235_000311	driving	hallucinated_gt	A silver sedan drives through	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R037	8b-fp8	motion_roi	VIRAT_S_010114_01_000235_000311	walking	hallucinated_gt	Two pedestrians walk along the sidewalk	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R038	8b-fp8	full_frame	VIRAT_S_010207_04_000929_000954	walking	hallucinated_gt	A person walks along a paved pathway toward a building	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R039	8b-fp8	motion_roi	VIRAT_S_010207_04_000929_000954	walking	hallucinated_gt	A person walks toward the entrance	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R039	8b-fp8	motion_roi	VIRAT_S_010207_04_000929_000954	carrying_object	hallucinated_gt	carrying multiple bags	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R040	8b-fp8	full_frame	VIRAT_S_000200_00_000100_000171	driving	hallucinated_gt	A silver sedan drives into view	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R040	8b-fp8	full_frame	VIRAT_S_000200_00_000100_000171	getting_out_of_vehicle	uncertain	two individuals emerge from within the parked cars	차량 내부에서 하차인지 주차된 차들 사이에서 나타난 것인지 모호하다.	uncertain_unverified
+R040	8b-fp8	full_frame	VIRAT_S_000200_00_000100_000171	walking	hallucinated_gt	both walking together towards the center-left portion	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R041	8b-fp8	motion_roi	VIRAT_S_000200_00_000100_000171	driving	hallucinated_gt	A silver sedan drives onto the parking lot entrance ramp	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R041	8b-fp8	motion_roi	VIRAT_S_000200_00_000100_000171	parking	hallucinated_gt	parks, and remains stationary	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R041	8b-fp8	motion_roi	VIRAT_S_000200_00_000100_000171	getting_out_of_vehicle	supported	A person exits the parked car	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R041	8b-fp8	motion_roi	VIRAT_S_000200_00_000100_000171	walking	hallucinated_gt	walks around to the driver’s side door	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R041	8b-fp8	motion_roi	VIRAT_S_000200_00_000100_000171	opening_vehicle_door	hallucinated_gt	opens it	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R041	8b-fp8	motion_roi	VIRAT_S_000200_00_000100_000171	retrieving_object	hallucinated_gt	retrieves items including a backpack	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R041	8b-fp8	motion_roi	VIRAT_S_000200_00_000100_000171	closing_vehicle_door	hallucinated_gt	closes the door	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R042	8b-fp8	full_frame	VIRAT_S_010001_03_000537_000563	walking	hallucinated_gt	A person walks down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R043	8b-fp8	motion_roi	VIRAT_S_010001_03_000537_000563	walking	hallucinated_gt	People walk down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R044	8b-fp8	full_frame	VIRAT_S_010003_03_000219_000259	walking	supported	A person walks down the stairs	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R045	8b-fp8	motion_roi	VIRAT_S_010003_03_000219_000259	walking	supported	People walk up and down stairs	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R045	8b-fp8	motion_roi	VIRAT_S_010003_03_000219_000259	carrying_object	supported	A person walks past them carrying something white	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R045	8b-fp8	motion_roi	VIRAT_S_010003_03_000219_000259	talking	hallucinated_gt	engaged in conversation	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R045	8b-fp8	motion_roi	VIRAT_S_010003_03_000219_000259	gesturing	hallucinated_gt	occasional gestures	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R046	8b-fp8	full_frame	VIRAT_S_010003_10_000901_000934	walking	hallucinated_gt	People walk up and down stairs leading into a building	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R047	8b-fp8	motion_roi	VIRAT_S_010003_10_000901_000934	walking	hallucinated_gt	People walk across the courtyard	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R047	8b-fp8	motion_roi	VIRAT_S_010003_10_000901_000934	exiting_facility	supported	Another individual exits through the doorway	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R047	8b-fp8	motion_roi	VIRAT_S_010003_10_000901_000934	entering_facility	supported	after entering earlier	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R048	8b-fp8	full_frame	VIRAT_S_010003_06_000526_000560	walking	hallucinated_gt	A person walks down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R049	8b-fp8	motion_roi	VIRAT_S_010003_06_000526_000560	walking	hallucinated_gt	people walk past them	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R049	8b-fp8	motion_roi	VIRAT_S_010003_06_000526_000560	talking	hallucinated_gt	engaged in conversation	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R049	8b-fp8	motion_roi	VIRAT_S_010003_06_000526_000560	entering_facility	supported	someone enters through glass doors	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R049	8b-fp8	motion_roi	VIRAT_S_010003_06_000526_000560	exiting_facility	supported	then exits shortly after	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R050	8b-fp8	full_frame	VIRAT_S_010106_02_000656_000692	walking	supported	Two individuals walk together through an empty parking lot toward the right side	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R050	8b-fp8	full_frame	VIRAT_S_010106_02_000656_000692	getting_out_of_vehicle	hallucinated_gt	Another individual exits a vehicle	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R051	8b-fp8	motion_roi	VIRAT_S_010106_02_000656_000692	walking	supported	A person walks across the parking lot	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R051	8b-fp8	motion_roi	VIRAT_S_010106_02_000656_000692	cycling	hallucinated_gt	another individual rides a bicycle	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R052	8b-fp8	full_frame	VIRAT_S_040005_08_001225_001276	driving	hallucinated_gt	A black car drives through an intersection	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R053	8b-fp8	motion_roi	VIRAT_S_040005_08_001225_001276	walking	hallucinated_gt	A person walks toward a parked green car	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R053	8b-fp8	motion_roi	VIRAT_S_040005_08_001225_001276	getting_into_vehicle	supported	before getting inside	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R053	8b-fp8	motion_roi	VIRAT_S_040005_08_001225_001276	driving	hallucinated_gt	driving away through a landscaped intersection	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R053	8b-fp8	motion_roi	VIRAT_S_040005_08_001225_001276	running	hallucinated_gt	another individual runs across a grassy field	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R054	30b	full_frame	VIRAT_S_010114_01_000235_000311	driving	hallucinated_gt	A red car drives through the parking lot	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R054	30b	full_frame	VIRAT_S_010114_01_000235_000311	walking	hallucinated_gt	people walk along the sidewalk	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R055	30b	motion_roi	VIRAT_S_010114_01_000235_000311	driving	hallucinated_gt	a red car that drives across the lot	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R055	30b	motion_roi	VIRAT_S_010114_01_000235_000311	walking	hallucinated_gt	two individuals appear walking together	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R055	30b	motion_roi	VIRAT_S_010114_01_000235_000311	cycling	hallucinated_gt	A person riding a bicycle	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R056	30b	full_frame	VIRAT_S_010207_04_000929_000954	walking	hallucinated_gt	A person walks along a pathway	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R056	30b	full_frame	VIRAT_S_010207_04_000929_000954	driving	hallucinated_gt	A white van drives past	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R056	30b	full_frame	VIRAT_S_010207_04_000929_000954	exiting_facility	uncertain	another individual briefly appears at the entrance	입구에서 나타남이 퇴장을 암시할 수 있지만 경계 통과가 확인되지 않는다.	uncertain_unverified
+R057	30b	motion_roi	VIRAT_S_010207_04_000929_000954	walking	hallucinated_gt	A person walks across the paved courtyard	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R057	30b	motion_roi	VIRAT_S_010207_04_000929_000954	entering_facility	hallucinated_gt	before entering through glass doors	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R058	30b	full_frame	VIRAT_S_000200_00_000100_000171	driving	hallucinated_gt	A silver sedan drives into an empty parking lot	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R058	30b	full_frame	VIRAT_S_000200_00_000100_000171	parking	hallucinated_gt	parks near the center-right edge	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R058	30b	full_frame	VIRAT_S_000200_00_000100_000171	getting_out_of_vehicle	supported	two people exit the vehicle	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R058	30b	full_frame	VIRAT_S_000200_00_000100_000171	walking	hallucinated_gt	walk toward the bottom-left corner	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R059	30b	motion_roi	VIRAT_S_000200_00_000100_000171	driving	hallucinated_gt	A silver sedan enters the frame from the bottom right	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R059	30b	motion_roi	VIRAT_S_000200_00_000100_000171	parking	hallucinated_gt	parks diagonally across two spaces	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R059	30b	motion_roi	VIRAT_S_000200_00_000100_000171	getting_out_of_vehicle	supported	a person exits the driver's side of the parked sedan	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R059	30b	motion_roi	VIRAT_S_000200_00_000100_000171	walking	hallucinated_gt	walks along the curb away from the vehicle	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R060	30b	full_frame	VIRAT_S_010001_03_000537_000563	walking	hallucinated_gt	A person walks down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R061	30b	motion_roi	VIRAT_S_010001_03_000537_000563	walking	hallucinated_gt	two people walk down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R061	30b	motion_roi	VIRAT_S_010001_03_000537_000563	exiting_facility	supported	someone exits through glass doors	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R062	30b	full_frame	VIRAT_S_010003_03_000219_000259	walking	supported	two people walk together from right to left	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R063	30b	motion_roi	VIRAT_S_010003_03_000219_000259	walking	supported	people walk across the grassy lawn	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R063	30b	motion_roi	VIRAT_S_010003_03_000219_000259	talking	hallucinated_gt	engaging in conversation	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R064	30b	full_frame	VIRAT_S_010003_10_000901_000934	walking	hallucinated_gt	People walk down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R064	30b	full_frame	VIRAT_S_010003_10_000901_000934	entering_facility	supported	some individuals enter and exit through doors	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R064	30b	full_frame	VIRAT_S_010003_10_000901_000934	exiting_facility	supported	some individuals enter and exit through doors	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R065	30b	motion_roi	VIRAT_S_010003_10_000901_000934	walking	hallucinated_gt	People walk up and down a set of stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R066	30b	full_frame	VIRAT_S_010003_06_000526_000560	walking	hallucinated_gt	A person walks down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R067	30b	motion_roi	VIRAT_S_010003_06_000526_000560	walking	hallucinated_gt	another person walks down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R068	30b	full_frame	VIRAT_S_010106_02_000656_000692	walking	supported	Two people walk from right to left through the parking lot	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R069	30b	motion_roi	VIRAT_S_010106_02_000656_000692	walking	supported	a person walks across the paved area	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R069	30b	motion_roi	VIRAT_S_010106_02_000656_000692	cycling	hallucinated_gt	another individual rides a bicycle	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R070	30b	full_frame	VIRAT_S_040005_08_001225_001276	driving	hallucinated_gt	A black car drives from left to right through an intersection	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R071	30b	motion_roi	VIRAT_S_040005_08_001225_001276	walking	hallucinated_gt	a person wearing red walks past parked cars	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R071	30b	motion_roi	VIRAT_S_040005_08_001225_001276	getting_into_vehicle	supported	before getting into a dark green sedan	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R071	30b	motion_roi	VIRAT_S_040005_08_001225_001276	driving	hallucinated_gt	the car then drives out of the parking space	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R072	30b-fp8	full_frame	VIRAT_S_010114_01_000235_000311	walking	hallucinated_gt	A person walks from left to right	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R073	30b-fp8	motion_roi	VIRAT_S_010114_01_000235_000311	driving	hallucinated_gt	a red car drives across the middle section	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R073	30b-fp8	motion_roi	VIRAT_S_010114_01_000235_000311	walking	hallucinated_gt	two people walk together along the sidewalk	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R074	30b-fp8	full_frame	VIRAT_S_010207_04_000929_000954	walking	hallucinated_gt	A person walks along a pathway	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R074	30b-fp8	full_frame	VIRAT_S_010207_04_000929_000954	exiting_facility	uncertain	another individual briefly appears at an entrance further back under the overhang before moving out of view	입구에서 나타난 후 화면 밖으로 이동하지만 건물 밖으로 나왔는지는 명확하지 않다.	uncertain_unverified
+R075	30b-fp8	motion_roi	VIRAT_S_010207_04_000929_000954	walking	hallucinated_gt	A person walks along a covered walkway	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R075	30b-fp8	motion_roi	VIRAT_S_010207_04_000929_000954	carrying_object	hallucinated_gt	while carrying items	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R076	30b-fp8	full_frame	VIRAT_S_000200_00_000100_000171	driving	hallucinated_gt	A silver sedan drives into an empty parking lot	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R076	30b-fp8	full_frame	VIRAT_S_000200_00_000100_000171	parking	hallucinated_gt	parks near the center-right edge	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R076	30b-fp8	full_frame	VIRAT_S_000200_00_000100_000171	getting_out_of_vehicle	supported	two people then exit the vehicle	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R076	30b-fp8	full_frame	VIRAT_S_000200_00_000100_000171	walking	hallucinated_gt	walk toward the bottom-left corner	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R077	30b-fp8	motion_roi	VIRAT_S_000200_00_000100_000171	driving	hallucinated_gt	A silver sedan enters the frame from the right on a road	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R077	30b-fp8	motion_roi	VIRAT_S_000200_00_000100_000171	parking	hallucinated_gt	parks diagonally across two spaces	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R077	30b-fp8	motion_roi	VIRAT_S_000200_00_000100_000171	getting_out_of_vehicle	supported	a person exits the driver's side door	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R077	30b-fp8	motion_roi	VIRAT_S_000200_00_000100_000171	walking	hallucinated_gt	walks along the curb away from the vehicle	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R077	30b-fp8	motion_roi	VIRAT_S_000200_00_000100_000171	carrying_object	hallucinated_gt	while holding a white object	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R078	30b-fp8	full_frame	VIRAT_S_010001_03_000537_000563	walking	hallucinated_gt	A person walks down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R079	30b-fp8	motion_roi	VIRAT_S_010001_03_000537_000563	walking	hallucinated_gt	Two people walk down a set of stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R079	30b-fp8	motion_roi	VIRAT_S_010001_03_000537_000563	exiting_facility	supported	two individuals exit through glass doors	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R080	30b-fp8	full_frame	VIRAT_S_010003_03_000219_000259	walking	supported	A person walks down the stairs	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R081	30b-fp8	motion_roi	VIRAT_S_010003_03_000219_000259	walking	supported	people walk across the grassy lawn	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R081	30b-fp8	motion_roi	VIRAT_S_010003_03_000219_000259	talking	hallucinated_gt	engaged in conversation	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R082	30b-fp8	full_frame	VIRAT_S_010003_10_000901_000934	walking	hallucinated_gt	People walk down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R082	30b-fp8	full_frame	VIRAT_S_010003_10_000901_000934	entering_facility	supported	some individuals enter and exit through doors	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R082	30b-fp8	full_frame	VIRAT_S_010003_10_000901_000934	exiting_facility	supported	some individuals enter and exit through doors	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R083	30b-fp8	motion_roi	VIRAT_S_010003_10_000901_000934	walking	hallucinated_gt	People walk up and down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R084	30b-fp8	full_frame	VIRAT_S_010003_06_000526_000560	walking	hallucinated_gt	A person walks down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R085	30b-fp8	motion_roi	VIRAT_S_010003_06_000526_000560	walking	hallucinated_gt	another person walks down the stairs	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R085	30b-fp8	motion_roi	VIRAT_S_010003_06_000526_000560	entering_facility	supported	several individuals enter and exit the doorway	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R085	30b-fp8	motion_roi	VIRAT_S_010003_06_000526_000560	exiting_facility	supported	several individuals enter and exit the doorway	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R086	30b-fp8	full_frame	VIRAT_S_010106_02_000656_000692	driving	hallucinated_gt	A blue car drives through the parking lot from right to left	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R086	30b-fp8	full_frame	VIRAT_S_010106_02_000656_000692	walking	supported	two people walk on the far side near white vans	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R087	30b-fp8	motion_roi	VIRAT_S_010106_02_000656_000692	walking	supported	a person walks across the paved area	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R087	30b-fp8	motion_roi	VIRAT_S_010106_02_000656_000692	gesturing	uncertain	another individual stands still holding their head	머리를 잡는 자세가 GT의 몸짓일 수 있지만 정적 자세만으로 동작을 확정할 수 없다.	uncertain_unverified
+R087	30b-fp8	motion_roi	VIRAT_S_010106_02_000656_000692	cycling	hallucinated_gt	two people ride bicycles	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R088	30b-fp8	full_frame	VIRAT_S_040005_08_001225_001276	driving	hallucinated_gt	A black car drives from left to right through an intersection	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R089	30b-fp8	motion_roi	VIRAT_S_040005_08_001225_001276	walking	hallucinated_gt	a person wearing red walks past parked cars	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified
+R089	30b-fp8	motion_roi	VIRAT_S_040005_08_001225_001276	getting_into_vehicle	supported	before getting into a dark green sedan	GT 행동을 의미적으로 명시한다.	supported_by_gt_action_only
+R089	30b-fp8	motion_roi	VIRAT_S_040005_08_001225_001276	driving	hallucinated_gt	the car then drives out of the parking space	확신적으로 서술하지만 이 영상의 GT에는 해당 핵심 행동이 없다.	uncertain_unverified

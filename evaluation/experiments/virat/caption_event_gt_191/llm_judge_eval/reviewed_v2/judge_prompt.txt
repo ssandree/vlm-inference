@@ -1,0 +1,88 @@
+You are the LLM semantic judge for a re-evaluation of 90 VIRAT captions against
+human-reviewed GT v2. Read each full caption, the original GT, the latest user
+CHECKLIST_ko.txt answers AND free-text corrections. Never score by keywords,
+regex, lexical overlap, or synonym lookup. Code may parse IDs and aggregate
+already-authored judgments, but it must not infer meaning from caption text.
+
+Authority and resolutions:
+- Latest checkbox overrides an earlier conversation answer. More explicit free
+  text overrides a stale checkbox: V04-09 really enters but is very small -> true.
+- V05-06 describes exiting then walking left, NOT approaching then turning away.
+  Score the leftward movement separately from the false narrative connection.
+- V06-13 says no evidence of alighting -> uncertain, not verified hallucination.
+- V07-04 and V07-05 conflict about the same red vehicle -> uncertain together.
+- V01-25 and V01-28 are the same white pickup; merge them for each caption.
+- V03-07 rejects the described pair. Do not delete unrelated original individual
+  walking events or assume which original group it contradicts. Flag both groups.
+- Walking and running share locomotion action family, per explicit user request.
+  Preserve original fine-grained labels in provenance. Cycling remains separate.
+
+GT storage:
+Keep original GT intact. Build versioned GT including confirmed human events,
+confirmed attributes/context, rejected propositions, conflicts, corrections,
+and original links. Unknown times/tracks stay null/empty. Do not invent track IDs
+or precise timing. Human event descriptions are not necessarily unique instances;
+primary action recall uses unique (video, action family), NOT raw event counts.
+Retain a separate context-sensitive event coverage table, and all raw original GT.
+
+Semantic judging:
+1. Explicitly author for each caption which review propositions it asserts. Audit
+   old source links: e.g. R028 only ascends, so do NOT inherit V05-01 (descending).
+   Accept synonyms and reordering; do not transfer a claim from another caption.
+   Include proposition IDs for confident facts, and uncertainty on ambiguous text.
+   Quote the full exact caption as evidence if finer excerpting is not supplied;
+   mark evidence_scope=full_caption so this is not presented as a localized quote.
+2. For action-family coverage, count an actual event family described by the caption.
+   Mere existence of that family elsewhere in GT is insufficient: do not credit
+   R013's human-rejected patio door crossing as a real facility transition.
+   Wrong direction/polarity/actor count does not erase underlying action-family
+   detection when the reviewed counterpart exists. Approaching a door is NOT a
+   crossing; appearing at a door is uncertain crossing at most. The user-confirmed
+   entry-vs-exit error can receive facility_transition detection credit, but zero
+   polarity credit. Do not create recall credit for false parking when GT lacks it.
+3. Direction is attached to the same action and actor. Use human-confirmed direction
+   facts, and report the explicit narrower scope (15 targets: 12 human-review facts plus 3 retained original directional facts). Do not transfer a
+   group's rightward claim to a different lone walker's left-to-right GT. Human
+   'toward bottom' facts are coarse downward half-plane facts; they do not prove
+   a precise eight-way sector or a diagonal. Do not infer directions for missing
+   human facts. Missing directions count zero; contradictions are separate errors.
+4. Facility enter/exit polarity is separate from screen direction (7 targets).
+   Correct directions do not repair false actor identity or an invented sequence.
+5. Evaluate human-reviewed predicted propositions as supported, human_rejected_event,
+   attribute_error, context_error, or uncertain. No GT absence is a hallucination.
+   A rejected turn/direction/count/identity/route is an attribute error, not a
+   nonexistent whole event. Some rejected extra actions are hallucinated events
+   despite another true action of the same family (e.g. a parked sedan departing).
+   Include event errors and attribute errors in factual precision, but report
+   their rates separately. Context states/birds are supplementary, outside the
+   primary dynamic/attribute score. Unreviewed source details are not implicitly
+   verified and remain out of scope; do not label the whole caption verified.
+6. For every GT action family, save matched/missed/uncertain and exact evidence.
+   Save original-event coverage as a semantic family projection, NOT per-track
+   detection. For every review claim, save source answer, correction, assertion
+   label, error class and evidence. Make all 90 captions reviewable.
+
+Metrics, fixed before aggregation:
+Action recall R: unique GT action families across 9 videos (39 targets per model
+and condition). matched=1, missed=0, uncertain=0.5.
+Reviewed factual precision P: (supported + 0.5*uncertain) / all reviewed asserted
+non-context propositions. This is NOT classic instance-level action precision.
+Event precision additionally uses only reviewed event propositions and reports
+its denominator. False-attribute propositions never masquerade as extra events.
+Verified-event hallucination rate H: human_rejected_event / reviewed resolved
+event assertions; uncertain event assertions are excluded and their count shown.
+Direction recall D: correct / 15 directional facts (12 reviewed plus 3 retained original GT) (uncertain=.5).
+Polarity recall Q: correct / 7 GT enter/exit facts (uncertain=.5).
+Score = 100 * (0.50*R + 0.30*P + 0.10*D + 0.10*Q).
+Do not add a second hallucination penalty on top of precision. All metrics are
+micro-pooled within model and condition. Rank models by equal mean of two scores.
+Provide w=0 and w=1 uncertainty sensitivity, not confidence intervals. GT content,
+normalization, denominator and weights changed: do NOT compare scores numerically
+with the old evaluation. The reviewed data were informed by these same captions;
+these results are not a held-out/generalization benchmark.
+
+Execution transparency:
+Current session LLM performs judgments directly. No external API run or temperature
+0 is claimed. Runtime temperature/seed are unavailable/null; deterministic replay
+of saved judgments is possible, fresh LLM judgments need not be identical. Store
+full prompt, exact input snapshot/hashes, semantic decision source and replay code.

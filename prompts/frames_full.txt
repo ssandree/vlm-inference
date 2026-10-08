@@ -1,0 +1,15 @@
+This is a video captured by a static camera.
+
+The input is a time-ordered full-scene video sequence.
+
+Identify all distinct video-level events visible across the video.
+
+Describe each event with its visible local scene or spatial context when possible.
+Keep events occurring in different spatial regions separate unless the visual evidence clearly shows that they belong to the same continuous event.
+
+Describe only clearly visible actions using concrete descriptions of who or what does what and where it occurs.
+Do not infer intentions, interactions, or actions that are not visually supported.
+Describe each distinct continuous event only once.
+
+Write one concise sentence per event as a single paragraph.
+Do not use timestamps, labels, bullets, markdown, or introductory text.

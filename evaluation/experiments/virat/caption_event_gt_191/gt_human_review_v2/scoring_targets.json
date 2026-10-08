@@ -1,0 +1,248 @@
+{
+  "VIRAT_S_000200_00_000100_000171": {
+    "action_families": [
+      "carrying_object",
+      "closing_vehicle_door",
+      "driving",
+      "getting_out_of_vehicle",
+      "locomotion",
+      "opening_vehicle_door",
+      "parking",
+      "retrieving_object"
+    ],
+    "direction_targets": [
+      {
+        "review_id": "V01-17",
+        "action_family": "locomotion",
+        "direction": "rightward_halfplane",
+        "anchor": "V01-17",
+        "note": "separate confirmed direction statements; do not synthesize diagonal"
+      },
+      {
+        "review_id": "V01-18",
+        "action_family": "locomotion",
+        "direction": "downward_halfplane",
+        "anchor": "V01-17",
+        "note": "separate confirmed direction statements; do not synthesize diagonal"
+      }
+    ],
+    "polarity_targets": []
+  },
+  "VIRAT_S_010001_03_000537_000563": {
+    "action_families": [
+      "facility_transition",
+      "locomotion"
+    ],
+    "direction_targets": [],
+    "polarity_targets": [
+      {
+        "review_id": "V02-08",
+        "action_family": "facility_transition",
+        "polarity": "exit"
+      }
+    ]
+  },
+  "VIRAT_S_010003_03_000219_000259": {
+    "action_families": [
+      "carrying_object",
+      "facility_transition",
+      "gesturing",
+      "locomotion",
+      "manipulating_object",
+      "posture_change",
+      "talking"
+    ],
+    "direction_targets": [
+      {
+        "review_id": "V03-06",
+        "action_family": "locomotion",
+        "direction": "left_to_right",
+        "anchor": "V03-06",
+        "note": "separate confirmed direction statements; do not synthesize diagonal"
+      },
+      {
+        "review_id": "GT03_carry_ltr",
+        "action_family": "carrying_object",
+        "direction": "left_to_right",
+        "anchor": "original_individual_GT",
+        "note": "기존 개인 GT의 방향 보존. 거부된 그룹 설명을 개인 GT로 대체 매칭하지 않음."
+      },
+      {
+        "review_id": "GT03_walk_diagonal",
+        "action_family": "locomotion",
+        "direction": "lower_left_to_upper_right",
+        "anchor": "original_individual_GT",
+        "note": "기존 개인 GT의 방향 보존. 거부된 그룹 설명을 개인 GT로 대체 매칭하지 않음."
+      },
+      {
+        "review_id": "GT03_walk_rtl",
+        "action_family": "locomotion",
+        "direction": "right_to_left",
+        "anchor": "original_individual_GT",
+        "note": "기존 개인 GT의 방향 보존. 거부된 그룹 설명을 개인 GT로 대체 매칭하지 않음."
+      }
+    ],
+    "polarity_targets": [
+      {
+        "review_id": "V03-08",
+        "action_family": "facility_transition",
+        "polarity": "exit"
+      }
+    ]
+  },
+  "VIRAT_S_010003_06_000526_000560": {
+    "action_families": [
+      "facility_transition",
+      "locomotion",
+      "talking"
+    ],
+    "direction_targets": [
+      {
+        "review_id": "V04-02",
+        "action_family": "locomotion",
+        "direction": "right_to_left",
+        "anchor": "V04-02",
+        "note": "separate confirmed direction statements; do not synthesize diagonal"
+      }
+    ],
+    "polarity_targets": [
+      {
+        "review_id": "V04-09",
+        "action_family": "facility_transition",
+        "polarity": "enter"
+      },
+      {
+        "review_id": "V04-10",
+        "action_family": "facility_transition",
+        "polarity": "exit"
+      }
+    ]
+  },
+  "VIRAT_S_010003_10_000901_000934": {
+    "action_families": [
+      "facility_transition",
+      "locomotion"
+    ],
+    "direction_targets": [
+      {
+        "review_id": "V05-03",
+        "action_family": "locomotion",
+        "direction": "left_to_right",
+        "anchor": "V05-03",
+        "note": "separate confirmed direction statements; do not synthesize diagonal"
+      },
+      {
+        "review_id": "V05-06",
+        "action_family": "locomotion",
+        "direction": "right_to_left",
+        "anchor": "V05-06",
+        "note": "separate confirmed direction statements; do not synthesize diagonal"
+      }
+    ],
+    "polarity_targets": [
+      {
+        "review_id": "V05-07",
+        "action_family": "facility_transition",
+        "polarity": "exit"
+      },
+      {
+        "review_id": "V05-08",
+        "action_family": "facility_transition",
+        "polarity": "enter"
+      }
+    ]
+  },
+  "VIRAT_S_010106_02_000656_000692": {
+    "action_families": [
+      "cycling",
+      "gesturing",
+      "locomotion",
+      "looking_around"
+    ],
+    "direction_targets": [
+      {
+        "review_id": "V06-02",
+        "action_family": "locomotion",
+        "direction": "right_to_left",
+        "anchor": "V06-02",
+        "note": "separate confirmed direction statements; do not synthesize diagonal"
+      },
+      {
+        "review_id": "V06-05",
+        "action_family": "locomotion",
+        "direction": "left_to_right",
+        "anchor": "V06-05",
+        "note": "separate confirmed direction statements; do not synthesize diagonal"
+      }
+    ],
+    "polarity_targets": []
+  },
+  "VIRAT_S_010114_01_000235_000311": {
+    "action_families": [
+      "closing_vehicle_trunk",
+      "cycling",
+      "driving",
+      "getting_into_vehicle",
+      "locomotion",
+      "opening_vehicle_trunk"
+    ],
+    "direction_targets": [
+      {
+        "review_id": "V07-12",
+        "action_family": "cycling",
+        "direction": "right_to_left",
+        "anchor": "V07-11",
+        "note": "separate confirmed direction statements; do not synthesize diagonal"
+      },
+      {
+        "review_id": "V07-24",
+        "action_family": "locomotion",
+        "direction": "left_to_right",
+        "anchor": "V07-24",
+        "note": "separate confirmed direction statements; do not synthesize diagonal"
+      }
+    ],
+    "polarity_targets": []
+  },
+  "VIRAT_S_010207_04_000929_000954": {
+    "action_families": [
+      "carrying_object",
+      "driving",
+      "facility_transition",
+      "locomotion"
+    ],
+    "direction_targets": [
+      {
+        "review_id": "V08-08",
+        "action_family": "driving",
+        "direction": "right_to_left",
+        "anchor": "V08-07",
+        "note": "separate confirmed direction statements; do not synthesize diagonal"
+      }
+    ],
+    "polarity_targets": [
+      {
+        "review_id": "V08-04",
+        "action_family": "facility_transition",
+        "polarity": "exit"
+      }
+    ]
+  },
+  "VIRAT_S_040005_08_001225_001276": {
+    "action_families": [
+      "driving",
+      "getting_into_vehicle",
+      "locomotion"
+    ],
+    "direction_targets": [
+      {
+        "review_id": "V09-02",
+        "action_family": "driving",
+        "direction": "left_to_right",
+        "anchor": "V09-01",
+        "note": "separate confirmed direction statements; do not synthesize diagonal"
+      }
+    ],
+    "polarity_targets": []
+  }
+}

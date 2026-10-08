@@ -1,0 +1,373 @@
+record_id	video_id	condition	gt_status	gt_event_id	original_action	action_family	gt_direction	source_track_ids	start_time	end_time	action_label	direction_label	joint_label	action_evidence	direction_evidence
+R000	VIRAT_S_000001	full_frame	nonempty_gt	CE001	getting_into_vehicle	getting_into_vehicle		1	122.4557	128.1614	missed	not_applicable	missed		
+R000	VIRAT_S_000001	full_frame	nonempty_gt	CE002	loading_object_to_vehicle	loading_object_to_vehicle		1	122.6559	124.5911	missed	not_applicable	missed		
+R000	VIRAT_S_000001	full_frame	nonempty_gt	CE003	getting_out_of_vehicle	getting_out_of_vehicle		10	320.7871	325.1248	matched	not_applicable	matched	One man exits his own vehicle	
+R000	VIRAT_S_000001	full_frame	nonempty_gt	CE004	unloading_object_from_vehicle	unloading_object_from_vehicle		10	335.9356	338.1044	missed	not_applicable	missed		
+R000	VIRAT_S_000001	full_frame	nonempty_gt	CE005	getting_into_vehicle	getting_into_vehicle		10	347.4471	354.6543	missed	not_applicable	missed		
+R000	VIRAT_S_000001	full_frame	nonempty_gt	CE006	getting_out_of_vehicle	getting_out_of_vehicle		13	527.5937	531.2974	matched	not_applicable	matched	One man exits his own vehicle	
+R000	VIRAT_S_000001	full_frame	nonempty_gt	CE007	getting_into_vehicle	getting_into_vehicle		13	584.6507	589.6557	missed	not_applicable	missed		
+R001	VIRAT_S_000001	motion_roi	nonempty_gt	CE001	getting_into_vehicle	getting_into_vehicle		1	122.4557	128.1614	missed	not_applicable	missed		
+R001	VIRAT_S_000001	motion_roi	nonempty_gt	CE002	loading_object_to_vehicle	loading_object_to_vehicle		1	122.6559	124.5911	missed	not_applicable	missed		
+R001	VIRAT_S_000001	motion_roi	nonempty_gt	CE003	getting_out_of_vehicle	getting_out_of_vehicle		10	320.7871	325.1248	missed	not_applicable	missed		
+R001	VIRAT_S_000001	motion_roi	nonempty_gt	CE004	unloading_object_from_vehicle	unloading_object_from_vehicle		10	335.9356	338.1044	missed	not_applicable	missed		
+R001	VIRAT_S_000001	motion_roi	nonempty_gt	CE005	getting_into_vehicle	getting_into_vehicle		10	347.4471	354.6543	missed	not_applicable	missed		
+R001	VIRAT_S_000001	motion_roi	nonempty_gt	CE006	getting_out_of_vehicle	getting_out_of_vehicle		13	527.5937	531.2974	missed	not_applicable	missed		
+R001	VIRAT_S_000001	motion_roi	nonempty_gt	CE007	getting_into_vehicle	getting_into_vehicle		13	584.6507	589.6557	missed	not_applicable	missed		
+R004	VIRAT_S_000205_02_000409_000566	full_frame	nonempty_gt	CE001	getting_into_vehicle	getting_into_vehicle		1	144.4667	148.0333	missed	not_applicable	missed		
+R005	VIRAT_S_000205_02_000409_000566	motion_roi	nonempty_gt	CE001	getting_into_vehicle	getting_into_vehicle		1	144.4667	148.0333	missed	not_applicable	missed		
+R008	VIRAT_S_010000_07_000827_000860	full_frame	nonempty_gt	CE001	entering_facility	entering_facility		4	12.0985	14.0175	missed	not_applicable	missed		
+R009	VIRAT_S_010000_07_000827_000860	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility		4	12.0985	14.0175	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE001	walking	locomotion	left_to_right	7	0.0	7.8014	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE002	walking	locomotion	left_to_right	10	0.0	7.6763	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE003	wandering	wandering		7	0.0	44.5974	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE004	walking	locomotion	top_to_bottom	14	6.7167	14.9353	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE005	running	locomotion	lower_left_to_upper_right	37	7.1339	16.5624	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE006	walking	locomotion	lower_left_to_upper_right	37	7.1339	16.5624	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE007	walking	locomotion	left_to_right	39	7.5511	38.0476	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE008	exiting_facility	exiting_facility		12	8.761	10.972	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE009	walking	locomotion	right_to_left	12	11.0138	19.1489	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE010	walking	locomotion	left_to_right	38	12.5156	29.5369	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE011	walking	locomotion	left_to_right	37	16.6041	29.1197	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE012	walking	locomotion	right_to_left	9	25.8657	45.849	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE013	walking	locomotion	right_to_left	7	28.2854	35.7113	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE014	entering_facility	entering_facility		37	29.1615	32.2069	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE015	walking	locomotion	left_to_right	35	32.3321	38.423	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE016	walking	locomotion	left_to_right	8	32.6241	40.1335	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE017	walking	locomotion	left_to_right	7	37.4218	44.5974	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE018	entering_facility	entering_facility		39	38.0893	40.3421	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE019	walking	locomotion	left_to_right	51	38.7985	62.0776	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE020	entering_facility	entering_facility		8	40.1752	42.0943	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE021	exiting_facility	exiting_facility		21	65.3734	67.2924	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE022	carrying_object	carrying_object	left_to_right	21	65.9574	73.0496	missed	missing	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE023	walking	locomotion	left_to_right	21	67.3342	73.0496	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE024	walking	locomotion	left_to_right	42	86.3997	118.3146	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE025	walking	locomotion	left_to_right	43	112.6408	118.106	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE026	walking	locomotion	left_to_right	52	117.8557	132.6241	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE027	wandering	wandering		52	117.8557	144.9729	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE028	entering_facility	entering_facility		42	118.3563	121.1514	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE029	walking	locomotion	right_to_left	52	132.6658	144.9729	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE030	walking	locomotion	left_to_right	16	148.6024	179.0154	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE031	walking	locomotion	left_to_right	17	149.0613	151.2724	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE032	walking	locomotion	left_to_right	17	151.3141	197.3717	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE033	exiting_facility	exiting_facility		0	155.9866	158.5732	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE034	walking	locomotion	right_to_left	0	158.6149	203.6713	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE035	walking	locomotion	left_to_right	2	159.5327	193.8673	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE036	walking	locomotion	right_to_left	3	172.9245	200.292	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE037	entering_facility	entering_facility		2	193.9091	196.6208	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE038	entering_facility	entering_facility		30	232.8744	236.4622	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE039	walking	locomotion	right_to_left	47	250.3129	257.9892	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE040	entering_facility	entering_facility		47	258.0309	261.3267	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE041	entering_facility	entering_facility		58	266.8753	269.879	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE042	exiting_facility	exiting_facility		56	279.6412	282.3529	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE043	exiting_facility	exiting_facility		55	281.5186	285.1481	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE044	walking	locomotion	left_to_right	56	282.3947	289.6955	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE045	exiting_facility	exiting_facility		57	284.4389	286.9837	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE046	walking	locomotion	left_to_right	55	285.1898	290.9887	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE047	exiting_facility	exiting_facility		58	286.4414	288.3605	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE048	walking	locomotion	right_to_left	57	287.0254	299.8331	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE049	walking	locomotion	right_to_left	58	288.4022	299.8331	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE050	walking	locomotion	right_to_left	59	291.8648	299.8331	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE051	exiting_facility	exiting_facility		56,55	281.5186	282.3529	missed	not_applicable	missed		
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE052	walking	locomotion	left_to_right	39,8	32.6241	38.0476	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE053	walking	locomotion	right_to_left	57,58	288.4022	299.8331	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE054	walking	locomotion	right_to_left	9,7	28.2854	35.7113	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE055	walking	locomotion	left_to_right	17,2	159.5327	193.8673	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE056	walking	locomotion	left_to_right	16,17	149.0613	151.2724	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE057	walking	locomotion	left_to_right	39,37	16.6041	29.1197	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE058	walking	locomotion	left_to_right	38,37	16.6041	29.1197	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE059	walking	locomotion	left_to_right	7,10	0.0	7.6763	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE060	walking	locomotion	left_to_right	56,55	285.1898	289.6955	matched	missing	missed	others walk around the plaza	
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	CE061	walking	locomotion	left_to_right	7,51	38.7985	44.5974	matched	missing	missed	others walk around the plaza	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE001	walking	locomotion	left_to_right	7	0.0	7.8014	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE002	walking	locomotion	left_to_right	10	0.0	7.6763	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE003	wandering	wandering		7	0.0	44.5974	missed	not_applicable	missed		
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE004	walking	locomotion	top_to_bottom	14	6.7167	14.9353	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE005	running	locomotion	lower_left_to_upper_right	37	7.1339	16.5624	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE006	walking	locomotion	lower_left_to_upper_right	37	7.1339	16.5624	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE007	walking	locomotion	left_to_right	39	7.5511	38.0476	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE008	exiting_facility	exiting_facility		12	8.761	10.972	matched	not_applicable	matched	someone exits through glass doors onto the patio	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE009	walking	locomotion	right_to_left	12	11.0138	19.1489	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE010	walking	locomotion	left_to_right	38	12.5156	29.5369	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE011	walking	locomotion	left_to_right	37	16.6041	29.1197	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE012	walking	locomotion	right_to_left	9	25.8657	45.849	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE013	walking	locomotion	right_to_left	7	28.2854	35.7113	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE014	entering_facility	entering_facility		37	29.1615	32.2069	matched	not_applicable	matched	two more individuals entering the building entrance nearby	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE015	walking	locomotion	left_to_right	35	32.3321	38.423	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE016	walking	locomotion	left_to_right	8	32.6241	40.1335	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE017	walking	locomotion	left_to_right	7	37.4218	44.5974	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE018	entering_facility	entering_facility		39	38.0893	40.3421	matched	not_applicable	matched	two more individuals entering the building entrance nearby	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE019	walking	locomotion	left_to_right	51	38.7985	62.0776	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE020	entering_facility	entering_facility		8	40.1752	42.0943	matched	not_applicable	matched	two more individuals entering the building entrance nearby	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE021	exiting_facility	exiting_facility		21	65.3734	67.2924	matched	not_applicable	matched	someone exits through glass doors onto the patio	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE022	carrying_object	carrying_object	left_to_right	21	65.9574	73.0496	missed	missing	missed		
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE023	walking	locomotion	left_to_right	21	67.3342	73.0496	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE024	walking	locomotion	left_to_right	42	86.3997	118.3146	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE025	walking	locomotion	left_to_right	43	112.6408	118.106	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE026	walking	locomotion	left_to_right	52	117.8557	132.6241	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE027	wandering	wandering		52	117.8557	144.9729	missed	not_applicable	missed		
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE028	entering_facility	entering_facility		42	118.3563	121.1514	matched	not_applicable	matched	two more individuals entering the building entrance nearby	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE029	walking	locomotion	right_to_left	52	132.6658	144.9729	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE030	walking	locomotion	left_to_right	16	148.6024	179.0154	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE031	walking	locomotion	left_to_right	17	149.0613	151.2724	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE032	walking	locomotion	left_to_right	17	151.3141	197.3717	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE033	exiting_facility	exiting_facility		0	155.9866	158.5732	matched	not_applicable	matched	someone exits through glass doors onto the patio	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE034	walking	locomotion	right_to_left	0	158.6149	203.6713	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE035	walking	locomotion	left_to_right	2	159.5327	193.8673	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE036	walking	locomotion	right_to_left	3	172.9245	200.292	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE037	entering_facility	entering_facility		2	193.9091	196.6208	matched	not_applicable	matched	two more individuals entering the building entrance nearby	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE038	entering_facility	entering_facility		30	232.8744	236.4622	matched	not_applicable	matched	two more individuals entering the building entrance nearby	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE039	walking	locomotion	right_to_left	47	250.3129	257.9892	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE040	entering_facility	entering_facility		47	258.0309	261.3267	matched	not_applicable	matched	two more individuals entering the building entrance nearby	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE041	entering_facility	entering_facility		58	266.8753	269.879	matched	not_applicable	matched	two more individuals entering the building entrance nearby	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE042	exiting_facility	exiting_facility		56	279.6412	282.3529	matched	not_applicable	matched	someone exits through glass doors onto the patio	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE043	exiting_facility	exiting_facility		55	281.5186	285.1481	matched	not_applicable	matched	someone exits through glass doors onto the patio	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE044	walking	locomotion	left_to_right	56	282.3947	289.6955	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE045	exiting_facility	exiting_facility		57	284.4389	286.9837	matched	not_applicable	matched	someone exits through glass doors onto the patio	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE046	walking	locomotion	left_to_right	55	285.1898	290.9887	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE047	exiting_facility	exiting_facility		58	286.4414	288.3605	matched	not_applicable	matched	someone exits through glass doors onto the patio	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE048	walking	locomotion	right_to_left	57	287.0254	299.8331	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE049	walking	locomotion	right_to_left	58	288.4022	299.8331	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE050	walking	locomotion	right_to_left	59	291.8648	299.8331	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE051	exiting_facility	exiting_facility		56,55	281.5186	282.3529	matched	not_applicable	matched	someone exits through glass doors onto the patio	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE052	walking	locomotion	left_to_right	39,8	32.6241	38.0476	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE053	walking	locomotion	right_to_left	57,58	288.4022	299.8331	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE054	walking	locomotion	right_to_left	9,7	28.2854	35.7113	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE055	walking	locomotion	left_to_right	17,2	159.5327	193.8673	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE056	walking	locomotion	left_to_right	16,17	149.0613	151.2724	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE057	walking	locomotion	left_to_right	39,37	16.6041	29.1197	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE058	walking	locomotion	left_to_right	38,37	16.6041	29.1197	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE059	walking	locomotion	left_to_right	7,10	0.0	7.6763	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE060	walking	locomotion	left_to_right	56,55	285.1898	289.6955	matched	missing	missed	A person walks across the foreground	
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	CE061	walking	locomotion	left_to_right	7,51	38.7985	44.5974	matched	missing	missed	A person walks across the foreground	
+R012	VIRAT_S_010001_03_000537_000563	full_frame	nonempty_gt	CE001	exiting_facility	exiting_facility		2	6.3413	8.2603	missed	not_applicable	missed		
+R013	VIRAT_S_010001_03_000537_000563	motion_roi	nonempty_gt	CE001	exiting_facility	exiting_facility		2	6.3413	8.2603	missed	not_applicable	missed		
+R014	VIRAT_S_010001_05_000649_000684	full_frame	nonempty_gt	CE001	exiting_facility	exiting_facility		0	4.4639	6.383	matched	not_applicable	matched	Another individual exits through the glass doors into the courtyard space	
+R014	VIRAT_S_010001_05_000649_000684	full_frame	nonempty_gt	CE002	exiting_facility	exiting_facility		4	12.2236	15.7697	matched	not_applicable	matched	Another individual exits through the glass doors into the courtyard space	
+R015	VIRAT_S_010001_05_000649_000684	motion_roi	nonempty_gt	CE001	exiting_facility	exiting_facility		0	4.4639	6.383	matched	not_applicable	matched	while others exit toward the left	
+R015	VIRAT_S_010001_05_000649_000684	motion_roi	nonempty_gt	CE002	exiting_facility	exiting_facility		4	12.2236	15.7697	matched	not_applicable	matched	while others exit toward the left	
+R016	VIRAT_S_010001_08_000826_000893	full_frame	nonempty_gt	CE001	entering_facility	entering_facility		4	4.8394	6.967	missed	not_applicable	missed		
+R016	VIRAT_S_010001_08_000826_000893	full_frame	nonempty_gt	CE002	entering_facility	entering_facility		3	5.6738	9.4285	missed	not_applicable	missed		
+R016	VIRAT_S_010001_08_000826_000893	full_frame	nonempty_gt	CE003	entering_facility	entering_facility		0	16.0617	18.8986	missed	not_applicable	missed		
+R016	VIRAT_S_010001_08_000826_000893	full_frame	nonempty_gt	CE004	exiting_facility	exiting_facility		11	33.5836	35.5027	missed	not_applicable	missed		
+R016	VIRAT_S_010001_08_000826_000893	full_frame	nonempty_gt	CE005	exiting_facility	exiting_facility		8	39.1322	42.9704	missed	not_applicable	missed		
+R016	VIRAT_S_010001_08_000826_000893	full_frame	nonempty_gt	CE006	entering_facility	entering_facility		8	42.8452	44.7643	missed	not_applicable	missed		
+R016	VIRAT_S_010001_08_000826_000893	full_frame	nonempty_gt	CE007	entering_facility	entering_facility		6	45.3901	47.3091	missed	not_applicable	missed		
+R016	VIRAT_S_010001_08_000826_000893	full_frame	nonempty_gt	CE008	entering_facility	entering_facility		4,3	5.6738	6.967	missed	not_applicable	missed		
+R017	VIRAT_S_010001_08_000826_000893	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility		4	4.8394	6.967	missed	not_applicable	missed		
+R017	VIRAT_S_010001_08_000826_000893	motion_roi	nonempty_gt	CE002	entering_facility	entering_facility		3	5.6738	9.4285	missed	not_applicable	missed		
+R017	VIRAT_S_010001_08_000826_000893	motion_roi	nonempty_gt	CE003	entering_facility	entering_facility		0	16.0617	18.8986	missed	not_applicable	missed		
+R017	VIRAT_S_010001_08_000826_000893	motion_roi	nonempty_gt	CE004	exiting_facility	exiting_facility		11	33.5836	35.5027	matched	not_applicable	matched	another individual exits a building entrance nearby	
+R017	VIRAT_S_010001_08_000826_000893	motion_roi	nonempty_gt	CE005	exiting_facility	exiting_facility		8	39.1322	42.9704	matched	not_applicable	matched	another individual exits a building entrance nearby	
+R017	VIRAT_S_010001_08_000826_000893	motion_roi	nonempty_gt	CE006	entering_facility	entering_facility		8	42.8452	44.7643	missed	not_applicable	missed		
+R017	VIRAT_S_010001_08_000826_000893	motion_roi	nonempty_gt	CE007	entering_facility	entering_facility		6	45.3901	47.3091	missed	not_applicable	missed		
+R017	VIRAT_S_010001_08_000826_000893	motion_roi	nonempty_gt	CE008	entering_facility	entering_facility		4,3	5.6738	6.967	missed	not_applicable	missed		
+R018	VIRAT_S_010001_09_000921_000952	full_frame	nonempty_gt	CE001	entering_facility	entering_facility		2	5.7572	7.6763	missed	not_applicable	missed		
+R018	VIRAT_S_010001_09_000921_000952	full_frame	nonempty_gt	CE002	entering_facility	entering_facility		3	8.1352	11.5561	missed	not_applicable	missed		
+R018	VIRAT_S_010001_09_000921_000952	full_frame	nonempty_gt	CE003	entering_facility	entering_facility		4	10.2211	12.1402	missed	not_applicable	missed		
+R018	VIRAT_S_010001_09_000921_000952	full_frame	nonempty_gt	CE004	entering_facility	entering_facility		3,4	10.2211	11.5561	missed	not_applicable	missed		
+R019	VIRAT_S_010001_09_000921_000952	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility		2	5.7572	7.6763	missed	not_applicable	missed		
+R019	VIRAT_S_010001_09_000921_000952	motion_roi	nonempty_gt	CE002	entering_facility	entering_facility		3	8.1352	11.5561	missed	not_applicable	missed		
+R019	VIRAT_S_010001_09_000921_000952	motion_roi	nonempty_gt	CE003	entering_facility	entering_facility		4	10.2211	12.1402	missed	not_applicable	missed		
+R019	VIRAT_S_010001_09_000921_000952	motion_roi	nonempty_gt	CE004	entering_facility	entering_facility		3,4	10.2211	11.5561	missed	not_applicable	missed		
+R020	VIRAT_S_010001_10_000962_001005	full_frame	nonempty_gt	CE001	exiting_facility	exiting_facility		1	2.2111	6.9253	missed	not_applicable	missed		
+R020	VIRAT_S_010001_10_000962_001005	full_frame	nonempty_gt	CE002	exiting_facility	exiting_facility		4	2.7534	5.632	missed	not_applicable	missed		
+R020	VIRAT_S_010001_10_000962_001005	full_frame	nonempty_gt	CE003	entering_facility	entering_facility		2	5.048	8.1352	missed	not_applicable	missed		
+R020	VIRAT_S_010001_10_000962_001005	full_frame	nonempty_gt	CE004	entering_facility	entering_facility		7	21.8189	23.9466	missed	not_applicable	missed		
+R020	VIRAT_S_010001_10_000962_001005	full_frame	nonempty_gt	CE005	carrying_object	carrying_object	right_to_left	8	32.1235	35.0438	missed	missing	missed		
+R020	VIRAT_S_010001_10_000962_001005	full_frame	nonempty_gt	CE006	exiting_facility	exiting_facility		1,4	2.7534	5.632	missed	not_applicable	missed		
+R021	VIRAT_S_010001_10_000962_001005	motion_roi	nonempty_gt	CE001	exiting_facility	exiting_facility		1	2.2111	6.9253	missed	not_applicable	missed		
+R021	VIRAT_S_010001_10_000962_001005	motion_roi	nonempty_gt	CE002	exiting_facility	exiting_facility		4	2.7534	5.632	missed	not_applicable	missed		
+R021	VIRAT_S_010001_10_000962_001005	motion_roi	nonempty_gt	CE003	entering_facility	entering_facility		2	5.048	8.1352	missed	not_applicable	missed		
+R021	VIRAT_S_010001_10_000962_001005	motion_roi	nonempty_gt	CE004	entering_facility	entering_facility		7	21.8189	23.9466	missed	not_applicable	missed		
+R021	VIRAT_S_010001_10_000962_001005	motion_roi	nonempty_gt	CE005	carrying_object	carrying_object	right_to_left	8	32.1235	35.0438	missed	missing	missed		
+R021	VIRAT_S_010001_10_000962_001005	motion_roi	nonempty_gt	CE006	exiting_facility	exiting_facility		1,4	2.7534	5.632	missed	not_applicable	missed		
+R022	VIRAT_S_010002_02_000174_000204	full_frame	nonempty_gt	CE001	entering_facility	entering_facility		10	8.6358	10.5549	missed	not_applicable	missed		
+R022	VIRAT_S_010002_02_000174_000204	full_frame	nonempty_gt	CE002	entering_facility	entering_facility		6	9.7205	13.6421	missed	not_applicable	missed		
+R022	VIRAT_S_010002_02_000174_000204	full_frame	nonempty_gt	CE003	entering_facility	entering_facility		10,6	9.7205	10.5549	missed	not_applicable	missed		
+R023	VIRAT_S_010002_02_000174_000204	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility		10	8.6358	10.5549	matched	not_applicable	matched	someone enters the building’s main entrance	
+R023	VIRAT_S_010002_02_000174_000204	motion_roi	nonempty_gt	CE002	entering_facility	entering_facility		6	9.7205	13.6421	matched	not_applicable	matched	someone enters the building’s main entrance	
+R023	VIRAT_S_010002_02_000174_000204	motion_roi	nonempty_gt	CE003	entering_facility	entering_facility		10,6	9.7205	10.5549	matched	not_applicable	matched	someone enters the building’s main entrance	
+R024	VIRAT_S_010002_03_000236_000261	full_frame	nonempty_gt	CE001	carrying_object	carrying_object	left_to_right	1	0.0	21.1097	missed	missing	missed		
+R024	VIRAT_S_010002_03_000236_000261	full_frame	nonempty_gt	CE002	exiting_facility	exiting_facility		0	7.2174	9.2616	missed	not_applicable	missed		
+R025	VIRAT_S_010002_03_000236_000261	motion_roi	nonempty_gt	CE001	carrying_object	carrying_object	left_to_right	1	0.0	21.1097	missed	missing	missed		
+R025	VIRAT_S_010002_03_000236_000261	motion_roi	nonempty_gt	CE002	exiting_facility	exiting_facility		0	7.2174	9.2616	missed	not_applicable	missed		
+R026	VIRAT_S_010002_06_000441_000467	full_frame	nonempty_gt	CE001	exiting_facility	exiting_facility		1	4.7559	6.675	missed	not_applicable	missed		
+R027	VIRAT_S_010002_06_000441_000467	motion_roi	nonempty_gt	CE001	exiting_facility	exiting_facility		1	4.7559	6.675	missed	not_applicable	missed		
+R028	VIRAT_S_010002_07_000522_000547	full_frame	nonempty_gt	CE001	exiting_facility	exiting_facility		0	0.5841	2.5031	missed	not_applicable	missed		
+R028	VIRAT_S_010002_07_000522_000547	full_frame	nonempty_gt	CE002	exiting_facility	exiting_facility		1	2.4614	4.3805	missed	not_applicable	missed		
+R029	VIRAT_S_010002_07_000522_000547	motion_roi	nonempty_gt	CE001	exiting_facility	exiting_facility		0	0.5841	2.5031	missed	not_applicable	missed		
+R029	VIRAT_S_010002_07_000522_000547	motion_roi	nonempty_gt	CE002	exiting_facility	exiting_facility		1	2.4614	4.3805	missed	not_applicable	missed		
+R030	VIRAT_S_010003_02_000165_000202	full_frame	nonempty_gt	CE001	entering_facility	entering_facility		11	0.0	3.7547	missed	not_applicable	missed		
+R030	VIRAT_S_010003_02_000165_000202	full_frame	nonempty_gt	CE002	exiting_facility	exiting_facility		5	8.9278	10.8469	missed	not_applicable	missed		
+R030	VIRAT_S_010003_02_000165_000202	full_frame	nonempty_gt	CE003	entering_facility	entering_facility		2	22.4447	24.3638	missed	not_applicable	missed		
+R030	VIRAT_S_010003_02_000165_000202	full_frame	nonempty_gt	CE004	entering_facility	entering_facility		3	23.0288	24.9479	missed	not_applicable	missed		
+R030	VIRAT_S_010003_02_000165_000202	full_frame	nonempty_gt	CE005	entering_facility	entering_facility		2,3	23.0288	24.3638	missed	not_applicable	missed		
+R031	VIRAT_S_010003_02_000165_000202	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility		11	0.0	3.7547	missed	not_applicable	missed		
+R031	VIRAT_S_010003_02_000165_000202	motion_roi	nonempty_gt	CE002	exiting_facility	exiting_facility		5	8.9278	10.8469	missed	not_applicable	missed		
+R031	VIRAT_S_010003_02_000165_000202	motion_roi	nonempty_gt	CE003	entering_facility	entering_facility		2	22.4447	24.3638	missed	not_applicable	missed		
+R031	VIRAT_S_010003_02_000165_000202	motion_roi	nonempty_gt	CE004	entering_facility	entering_facility		3	23.0288	24.9479	missed	not_applicable	missed		
+R031	VIRAT_S_010003_02_000165_000202	motion_roi	nonempty_gt	CE005	entering_facility	entering_facility		2,3	23.0288	24.3638	missed	not_applicable	missed		
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE001	carrying_object	carrying_object		13	0.0	1.5853	missed	not_applicable	missed		
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE002	carrying_object	carrying_object	left_to_right	3	0.0	28.7025	missed	missing	missed		
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE003	walking	locomotion	lower_left_to_upper_right	3	0.0	6.6333	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE004	walking	locomotion	right_to_left	16	0.0	5.632	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE005	carrying_object	carrying_object	left_to_right	8	1.043	13.3083	missed	missing	missed		
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE006	walking	locomotion	left_to_right	8	1.043	13.3083	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE007	walking	locomotion	right_to_left	16	5.6738	13.3917	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE008	walking	locomotion	left_to_right	3	8.6775	28.7025	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE009	walking	locomotion	right_to_left	21	9.6788	21.6521	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE010	exiting_facility	exiting_facility		7	11.5144	13.4335	uncertain	not_applicable	uncertain	passing through doorways within the building complex	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE011	walking	locomotion	right_to_left	9	12.5156	17.7722	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE012	walking	locomotion	right_to_left	10	12.9328	18.106	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE013	walking	locomotion	left_to_right	7	13.4752	22.5699	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE014	walking	locomotion	right_to_left	21	21.6938	39.9666	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE015	walking	locomotion	right_to_left	12	30.9136	39.9666	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE016	walking	locomotion	right_to_left	6	32.1235	39.9666	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE017	walking	locomotion	right_to_left	12,6	32.1235	39.9666	matched	missing	missed	A person walks down the stairs	
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	CE018	walking	locomotion	right_to_left	9,10	12.9328	17.7722	matched	missing	missed	A person walks down the stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE001	carrying_object	carrying_object		13	0.0	1.5853	missed	not_applicable	missed		
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE002	carrying_object	carrying_object	left_to_right	3	0.0	28.7025	missed	missing	missed		
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE003	walking	locomotion	lower_left_to_upper_right	3	0.0	6.6333	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE004	walking	locomotion	right_to_left	16	0.0	5.632	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE005	carrying_object	carrying_object	left_to_right	8	1.043	13.3083	missed	missing	missed		
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE006	walking	locomotion	left_to_right	8	1.043	13.3083	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE007	walking	locomotion	right_to_left	16	5.6738	13.3917	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE008	walking	locomotion	left_to_right	3	8.6775	28.7025	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE009	walking	locomotion	right_to_left	21	9.6788	21.6521	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE010	exiting_facility	exiting_facility		7	11.5144	13.4335	missed	not_applicable	missed		
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE011	walking	locomotion	right_to_left	9	12.5156	17.7722	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE012	walking	locomotion	right_to_left	10	12.9328	18.106	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE013	walking	locomotion	left_to_right	7	13.4752	22.5699	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE014	walking	locomotion	right_to_left	21	21.6938	39.9666	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE015	walking	locomotion	right_to_left	12	30.9136	39.9666	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE016	walking	locomotion	right_to_left	6	32.1235	39.9666	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE017	walking	locomotion	right_to_left	12,6	32.1235	39.9666	matched	missing	missed	People walk up and down stairs	
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	CE018	walking	locomotion	right_to_left	9,10	12.9328	17.7722	matched	missing	missed	People walk up and down stairs	
+R034	VIRAT_S_010003_06_000526_000560	full_frame	nonempty_gt	CE001	entering_facility	entering_facility		0	2.4614	4.6308	missed	not_applicable	missed		
+R034	VIRAT_S_010003_06_000526_000560	full_frame	nonempty_gt	CE002	exiting_facility	exiting_facility		3	5.2566	7.1756	missed	not_applicable	missed		
+R035	VIRAT_S_010003_06_000526_000560	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility		0	2.4614	4.6308	missed	not_applicable	missed		
+R035	VIRAT_S_010003_06_000526_000560	motion_roi	nonempty_gt	CE002	exiting_facility	exiting_facility		3	5.2566	7.1756	missed	not_applicable	missed		
+R036	VIRAT_S_010003_07_000608_000636	full_frame	nonempty_gt	CE001	carrying_object	carrying_object	upper_right_to_lower_left	6	0.0	16.8544	missed	missing	missed		
+R037	VIRAT_S_010003_07_000608_000636	motion_roi	nonempty_gt	CE001	carrying_object	carrying_object	upper_right_to_lower_left	6	0.0	16.8544	missed	missing	missed		
+R038	VIRAT_S_010003_10_000901_000934	full_frame	nonempty_gt	CE001	entering_facility	entering_facility		11	3.6295	5.5486	missed	not_applicable	missed		
+R038	VIRAT_S_010003_10_000901_000934	full_frame	nonempty_gt	CE002	exiting_facility	exiting_facility		4	14.3513	16.2703	missed	not_applicable	missed		
+R039	VIRAT_S_010003_10_000901_000934	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility		11	3.6295	5.5486	missed	not_applicable	missed		
+R039	VIRAT_S_010003_10_000901_000934	motion_roi	nonempty_gt	CE002	exiting_facility	exiting_facility		4	14.3513	16.2703	missed	not_applicable	missed		
+R040	VIRAT_S_010005_03_000215_000270	full_frame	nonempty_gt	CE001	entering_facility	entering_facility		8	8.0935	10.388	missed	not_applicable	missed		
+R040	VIRAT_S_010005_03_000215_000270	full_frame	nonempty_gt	CE002	entering_facility	entering_facility		9	9.3033	11.9316	missed	not_applicable	missed		
+R040	VIRAT_S_010005_03_000215_000270	full_frame	nonempty_gt	CE003	exiting_facility	exiting_facility		6	12.8077	16.4372	missed	not_applicable	missed		
+R040	VIRAT_S_010005_03_000215_000270	full_frame	nonempty_gt	CE004	exiting_facility	exiting_facility		7	12.8077	17.355	missed	not_applicable	missed		
+R040	VIRAT_S_010005_03_000215_000270	full_frame	nonempty_gt	CE005	exiting_facility	exiting_facility		19	17.1464	19.0655	missed	not_applicable	missed		
+R040	VIRAT_S_010005_03_000215_000270	full_frame	nonempty_gt	CE006	exiting_facility	exiting_facility		5	18.2311	20.1502	missed	not_applicable	missed		
+R040	VIRAT_S_010005_03_000215_000270	full_frame	nonempty_gt	CE007	exiting_facility	exiting_facility		19,5	18.2311	19.0655	missed	not_applicable	missed		
+R040	VIRAT_S_010005_03_000215_000270	full_frame	nonempty_gt	CE008	entering_facility	entering_facility		8,9	9.3033	10.388	missed	not_applicable	missed		
+R040	VIRAT_S_010005_03_000215_000270	full_frame	nonempty_gt	CE009	exiting_facility	exiting_facility		6,7	12.8077	16.4372	missed	not_applicable	missed		
+R041	VIRAT_S_010005_03_000215_000270	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility		8	8.0935	10.388	missed	not_applicable	missed		
+R041	VIRAT_S_010005_03_000215_000270	motion_roi	nonempty_gt	CE002	entering_facility	entering_facility		9	9.3033	11.9316	missed	not_applicable	missed		
+R041	VIRAT_S_010005_03_000215_000270	motion_roi	nonempty_gt	CE003	exiting_facility	exiting_facility		6	12.8077	16.4372	missed	not_applicable	missed		
+R041	VIRAT_S_010005_03_000215_000270	motion_roi	nonempty_gt	CE004	exiting_facility	exiting_facility		7	12.8077	17.355	missed	not_applicable	missed		
+R041	VIRAT_S_010005_03_000215_000270	motion_roi	nonempty_gt	CE005	exiting_facility	exiting_facility		19	17.1464	19.0655	missed	not_applicable	missed		
+R041	VIRAT_S_010005_03_000215_000270	motion_roi	nonempty_gt	CE006	exiting_facility	exiting_facility		5	18.2311	20.1502	missed	not_applicable	missed		
+R041	VIRAT_S_010005_03_000215_000270	motion_roi	nonempty_gt	CE007	exiting_facility	exiting_facility		19,5	18.2311	19.0655	missed	not_applicable	missed		
+R041	VIRAT_S_010005_03_000215_000270	motion_roi	nonempty_gt	CE008	entering_facility	entering_facility		8,9	9.3033	10.388	missed	not_applicable	missed		
+R041	VIRAT_S_010005_03_000215_000270	motion_roi	nonempty_gt	CE009	exiting_facility	exiting_facility		6,7	12.8077	16.4372	missed	not_applicable	missed		
+R042	VIRAT_S_010005_05_000397_000430	full_frame	nonempty_gt	CE001	entering_facility	entering_facility	left_to_right	3	9.0947	12.2653	missed	missing	missed		
+R043	VIRAT_S_010005_05_000397_000430	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility	left_to_right	3	9.0947	12.2653	missed	missing	missed		
+R044	VIRAT_S_010106_00_000098_000315	full_frame	nonempty_gt	CE001	getting_into_vehicle	getting_into_vehicle		26	80.8093	98.0809	missed	not_applicable	missed		
+R044	VIRAT_S_010106_00_000098_000315	full_frame	nonempty_gt	CE002	getting_into_vehicle	getting_into_vehicle		38	111.5978	119.6496	missed	not_applicable	missed		
+R044	VIRAT_S_010106_00_000098_000315	full_frame	nonempty_gt	CE003	getting_out_of_vehicle	getting_out_of_vehicle		67	190.7384	193.4501	missed	not_applicable	missed		
+R045	VIRAT_S_010106_00_000098_000315	motion_roi	nonempty_gt	CE001	getting_into_vehicle	getting_into_vehicle		26	80.8093	98.0809	missed	not_applicable	missed		
+R045	VIRAT_S_010106_00_000098_000315	motion_roi	nonempty_gt	CE002	getting_into_vehicle	getting_into_vehicle		38	111.5978	119.6496	missed	not_applicable	missed		
+R045	VIRAT_S_010106_00_000098_000315	motion_roi	nonempty_gt	CE003	getting_out_of_vehicle	getting_out_of_vehicle		67	190.7384	193.4501	missed	not_applicable	missed		
+R046	VIRAT_S_010106_02_000656_000692	full_frame	nonempty_gt	CE001	walking	locomotion	right_to_left	5	0.0	8.01	matched	missing	missed	Two individuals walk together through an empty parking lot toward the right side	
+R046	VIRAT_S_010106_02_000656_000692	full_frame	nonempty_gt	CE002	walking	locomotion	left_to_right	10	0.0	10.0542	matched	correct	matched	Two individuals walk together through an empty parking lot toward the right side	Two individuals walk together through an empty parking lot toward the right side
+R046	VIRAT_S_010106_02_000656_000692	full_frame	nonempty_gt	CE003	walking	locomotion	right_to_left	2	1.7939	25.9074	matched	missing	missed	Two individuals walk together through an empty parking lot toward the right side	
+R046	VIRAT_S_010106_02_000656_000692	full_frame	nonempty_gt	CE004	walking	locomotion	right_to_left	1	2.2111	25.9074	matched	missing	missed	Two individuals walk together through an empty parking lot toward the right side	
+R046	VIRAT_S_010106_02_000656_000692	full_frame	nonempty_gt	CE005	gesturing	gesturing		10	10.096	34.9186	missed	not_applicable	missed		
+R046	VIRAT_S_010106_02_000656_000692	full_frame	nonempty_gt	CE006	walking	locomotion	right_to_left	2,1	2.2111	25.9074	matched	missing	missed	Two individuals walk together through an empty parking lot toward the right side	
+R047	VIRAT_S_010106_02_000656_000692	motion_roi	nonempty_gt	CE001	walking	locomotion	right_to_left	5	0.0	8.01	matched	missing	missed	A person walks across the parking lot	
+R047	VIRAT_S_010106_02_000656_000692	motion_roi	nonempty_gt	CE002	walking	locomotion	left_to_right	10	0.0	10.0542	matched	missing	missed	A person walks across the parking lot	
+R047	VIRAT_S_010106_02_000656_000692	motion_roi	nonempty_gt	CE003	walking	locomotion	right_to_left	2	1.7939	25.9074	matched	missing	missed	A person walks across the parking lot	
+R047	VIRAT_S_010106_02_000656_000692	motion_roi	nonempty_gt	CE004	walking	locomotion	right_to_left	1	2.2111	25.9074	matched	missing	missed	A person walks across the parking lot	
+R047	VIRAT_S_010106_02_000656_000692	motion_roi	nonempty_gt	CE005	gesturing	gesturing		10	10.096	34.9186	missed	not_applicable	missed		
+R047	VIRAT_S_010106_02_000656_000692	motion_roi	nonempty_gt	CE006	walking	locomotion	right_to_left	2,1	2.2111	25.9074	matched	missing	missed	A person walks across the parking lot	
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	CE001	carrying_object	carrying_object	bottom_to_top	8	0.0	36.1285	missed	missing	missed		
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	CE002	walking	locomotion	lower_right_to_upper_left	8	0.0	9.5119	matched	contradictory	missed	another individual walks nearby	both moving from left to right
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	CE003	walking	locomotion	right_to_left	0	9.5953	25.9074	matched	contradictory	missed	another individual walks nearby	both moving from left to right
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	CE004	walking	locomotion	right_to_left	12	14.7267	36.1285	matched	contradictory	missed	another individual walks nearby	both moving from left to right
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	CE005	walking	locomotion	right_to_left	11	16.3121	36.1285	matched	contradictory	missed	another individual walks nearby	both moving from left to right
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	CE006	walking	locomotion	right_to_left	10	16.9378	36.1285	matched	contradictory	missed	another individual walks nearby	both moving from left to right
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	CE007	walking	locomotion	right_to_left	13	20.4839	36.1285	matched	contradictory	missed	another individual walks nearby	both moving from left to right
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	CE008	walking	locomotion	right_to_left	7	28.786	33.1665	matched	contradictory	missed	another individual walks nearby	both moving from left to right
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	CE009	opening_vehicle_trunk	opening_vehicle_trunk		7	33.2082	35.2107	missed	not_applicable	missed		
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	CE010	walking	locomotion	right_to_left	12,11,10,13	20.4839	36.1285	matched	contradictory	missed	another individual walks nearby	both moving from left to right
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	CE001	carrying_object	carrying_object	bottom_to_top	8	0.0	36.1285	missed	missing	missed		
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	CE002	walking	locomotion	lower_right_to_upper_left	8	0.0	9.5119	matched	missing	missed	people walk along a sidewalk	
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	CE003	walking	locomotion	right_to_left	0	9.5953	25.9074	matched	missing	missed	people walk along a sidewalk	
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	CE004	walking	locomotion	right_to_left	12	14.7267	36.1285	matched	missing	missed	people walk along a sidewalk	
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	CE005	walking	locomotion	right_to_left	11	16.3121	36.1285	matched	missing	missed	people walk along a sidewalk	
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	CE006	walking	locomotion	right_to_left	10	16.9378	36.1285	matched	missing	missed	people walk along a sidewalk	
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	CE007	walking	locomotion	right_to_left	13	20.4839	36.1285	matched	missing	missed	people walk along a sidewalk	
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	CE008	walking	locomotion	right_to_left	7	28.786	33.1665	matched	missing	missed	people walk along a sidewalk	
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	CE009	opening_vehicle_trunk	opening_vehicle_trunk		7	33.2082	35.2107	missed	not_applicable	missed		
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	CE010	walking	locomotion	right_to_left	12,11,10,13	20.4839	36.1285	matched	missing	missed	people walk along a sidewalk	
+R070	VIRAT_S_010111_08_000920_000954	full_frame	nonempty_gt	CE001	walking	locomotion	right_to_left	88	0.0	6.3413	matched	missing	missed	A person walks from left to right	
+R070	VIRAT_S_010111_08_000920_000954	full_frame	nonempty_gt	CE002	getting_into_vehicle	getting_into_vehicle		85	11.9316	25.7822	missed	not_applicable	missed		
+R070	VIRAT_S_010111_08_000920_000954	full_frame	nonempty_gt	CE003	walking	locomotion	right_to_left	84	12.5156	25.7405	matched	missing	missed	A person walks from left to right	
+R070	VIRAT_S_010111_08_000920_000954	full_frame	nonempty_gt	CE004	opening_vehicle_trunk	opening_vehicle_trunk		83	14.4764	17.4802	missed	not_applicable	missed		
+R070	VIRAT_S_010111_08_000920_000954	full_frame	nonempty_gt	CE005	closing_vehicle_trunk	closing_vehicle_trunk		83	18.8986	20.9846	missed	not_applicable	missed		
+R071	VIRAT_S_010111_08_000920_000954	motion_roi	nonempty_gt	CE001	walking	locomotion	right_to_left	88	0.0	6.3413	matched	correct	matched	two individuals walk across the asphalt	two people stroll past parked cars heading towards the left edge of the frame
+R071	VIRAT_S_010111_08_000920_000954	motion_roi	nonempty_gt	CE002	getting_into_vehicle	getting_into_vehicle		85	11.9316	25.7822	missed	not_applicable	missed		
+R071	VIRAT_S_010111_08_000920_000954	motion_roi	nonempty_gt	CE003	walking	locomotion	right_to_left	84	12.5156	25.7405	matched	correct	matched	two individuals walk across the asphalt	two people stroll past parked cars heading towards the left edge of the frame
+R071	VIRAT_S_010111_08_000920_000954	motion_roi	nonempty_gt	CE004	opening_vehicle_trunk	opening_vehicle_trunk		83	14.4764	17.4802	missed	not_applicable	missed		
+R071	VIRAT_S_010111_08_000920_000954	motion_roi	nonempty_gt	CE005	closing_vehicle_trunk	closing_vehicle_trunk		83	18.8986	20.9846	missed	not_applicable	missed		
+R084	VIRAT_S_010200_02_000349_000398	full_frame	nonempty_gt	CE001	entering_facility	entering_facility		1	4.4222	11.5144	missed	not_applicable	missed		
+R084	VIRAT_S_010200_02_000349_000398	full_frame	nonempty_gt	CE002	exiting_facility	exiting_facility		2	27.5761	31.0388	missed	not_applicable	missed		
+R085	VIRAT_S_010200_02_000349_000398	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility		1	4.4222	11.5144	missed	not_applicable	missed		
+R085	VIRAT_S_010200_02_000349_000398	motion_roi	nonempty_gt	CE002	exiting_facility	exiting_facility		2	27.5761	31.0388	missed	not_applicable	missed		
+R086	VIRAT_S_010201_02_000167_000197	full_frame	nonempty_gt	CE001	entering_facility	entering_facility		10	7.1339	13.6838	missed	not_applicable	missed		
+R086	VIRAT_S_010201_02_000167_000197	full_frame	nonempty_gt	CE002	entering_facility	entering_facility		7	7.1339	13.6838	missed	not_applicable	missed		
+R086	VIRAT_S_010201_02_000167_000197	full_frame	nonempty_gt	CE003	entering_facility	entering_facility		10,7	7.1339	13.6838	missed	not_applicable	missed		
+R087	VIRAT_S_010201_02_000167_000197	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility		10	7.1339	13.6838	missed	not_applicable	missed		
+R087	VIRAT_S_010201_02_000167_000197	motion_roi	nonempty_gt	CE002	entering_facility	entering_facility		7	7.1339	13.6838	missed	not_applicable	missed		
+R087	VIRAT_S_010201_02_000167_000197	motion_roi	nonempty_gt	CE003	entering_facility	entering_facility		10,7	7.1339	13.6838	missed	not_applicable	missed		
+R096	VIRAT_S_010205_04_000545_000576	full_frame	nonempty_gt	CE001	entering_facility	entering_facility		5	0.0	5.2149	missed	not_applicable	missed		
+R097	VIRAT_S_010205_04_000545_000576	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility		5	0.0	5.2149	missed	not_applicable	missed		
+R098	VIRAT_S_010207_02_000790_000816	full_frame	nonempty_gt	CE001	entering_facility	entering_facility		2	14.7685	18.1477	missed	not_applicable	missed		
+R099	VIRAT_S_010207_02_000790_000816	motion_roi	nonempty_gt	CE001	entering_facility	entering_facility		2	14.7685	18.1477	missed	not_applicable	missed		
+R100	VIRAT_S_010207_09_001484_001510	full_frame	nonempty_gt	CE001	exiting_facility	exiting_facility		2	10.972	13.9341	missed	not_applicable	missed		
+R101	VIRAT_S_010207_09_001484_001510	motion_roi	nonempty_gt	CE001	exiting_facility	exiting_facility		2	10.972	13.9341	missed	not_applicable	missed		
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE001	walking	locomotion	right_to_left	1	0.0	8.3438	matched	missing	missed	People walk along a paved pathway	
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE002	walking	locomotion	right_to_left	15	0.0	19.7747	matched	missing	missed	People walk along a paved pathway	
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE003	walking	locomotion	right_to_left	16	0.0	20.2753	matched	missing	missed	People walk along a paved pathway	
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE004	walking	locomotion	right_to_left	1	11.5561	24.781	matched	missing	missed	People walk along a paved pathway	
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE005	exiting_facility	exiting_facility		2	11.7647	13.8089	missed	not_applicable	missed		
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE006	exiting_facility	exiting_facility		6	13.2249	16.8961	missed	not_applicable	missed		
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE007	entering_facility	entering_facility		16	31.7897	37.6721	missed	not_applicable	missed		
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE008	entering_facility	entering_facility		17	31.7897	37.6721	missed	not_applicable	missed		
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE009	entering_facility	entering_facility		15	31.7897	37.6721	missed	not_applicable	missed		
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE010	walking	locomotion	right_to_left	14	35.0438	37.8807	matched	missing	missed	People walk along a paved pathway	
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE011	walking	locomotion	right_to_left	8	38.9237	41.9691	matched	missing	missed	People walk along a paved pathway	
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE012	walking	locomotion	right_to_left	15,16,1	11.5561	19.7747	matched	missing	missed	People walk along a paved pathway	
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE013	walking	locomotion	right_to_left	1,15,16	0.0	8.3438	matched	missing	missed	People walk along a paved pathway	
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	CE014	entering_facility	entering_facility		16,17,15	31.7897	37.6721	missed	not_applicable	missed		
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE001	walking	locomotion	right_to_left	1	0.0	8.3438	matched	missing	missed	Students walk across the campus courtyard	
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE002	walking	locomotion	right_to_left	15	0.0	19.7747	matched	missing	missed	Students walk across the campus courtyard	
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE003	walking	locomotion	right_to_left	16	0.0	20.2753	matched	missing	missed	Students walk across the campus courtyard	
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE004	walking	locomotion	right_to_left	1	11.5561	24.781	matched	missing	missed	Students walk across the campus courtyard	
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE005	exiting_facility	exiting_facility		2	11.7647	13.8089	missed	not_applicable	missed		
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE006	exiting_facility	exiting_facility		6	13.2249	16.8961	missed	not_applicable	missed		
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE007	entering_facility	entering_facility		16	31.7897	37.6721	missed	not_applicable	missed		
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE008	entering_facility	entering_facility		17	31.7897	37.6721	missed	not_applicable	missed		
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE009	entering_facility	entering_facility		15	31.7897	37.6721	missed	not_applicable	missed		
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE010	walking	locomotion	right_to_left	14	35.0438	37.8807	matched	missing	missed	Students walk across the campus courtyard	
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE011	walking	locomotion	right_to_left	8	38.9237	41.9691	matched	missing	missed	Students walk across the campus courtyard	
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE012	walking	locomotion	right_to_left	15,16,1	11.5561	19.7747	matched	missing	missed	Students walk across the campus courtyard	
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE013	walking	locomotion	right_to_left	1,15,16	0.0	8.3438	matched	missing	missed	Students walk across the campus courtyard	
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	CE014	entering_facility	entering_facility		16,17,15	31.7897	37.6721	missed	not_applicable	missed		
+R104	VIRAT_S_010208_09_000857_000886	full_frame	nonempty_gt	CE001	exiting_facility	exiting_facility	right_to_left	3	3.3375	6.0492	matched	missing	missed	then exits shortly after	
+R105	VIRAT_S_010208_09_000857_000886	motion_roi	nonempty_gt	CE001	exiting_facility	exiting_facility	right_to_left	3	3.3375	6.0492	matched	missing	missed	Another individual exits through the same doorway carrying bags	
+R114	VIRAT_S_040005_00_000003_000058	full_frame	nonempty_gt	CE001	getting_into_vehicle	getting_into_vehicle		8	16.383	20.1535	missed	not_applicable	missed		
+R115	VIRAT_S_040005_00_000003_000058	motion_roi	nonempty_gt	CE001	getting_into_vehicle	getting_into_vehicle		8	16.383	20.1535	missed	not_applicable	missed		
+R116	VIRAT_S_040005_08_001225_001276	full_frame	nonempty_gt	CE001	getting_into_vehicle	getting_into_vehicle		1	13.8805	17.2839	missed	not_applicable	missed		
+R117	VIRAT_S_040005_08_001225_001276	motion_roi	nonempty_gt	CE001	getting_into_vehicle	getting_into_vehicle		1	13.8805	17.2839	missed	not_applicable	missed		

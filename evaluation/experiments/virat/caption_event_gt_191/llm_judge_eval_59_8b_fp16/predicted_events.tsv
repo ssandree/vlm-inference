@@ -1,0 +1,204 @@
+record_id	video_id	condition	gt_status	action	label	evidence	reason_ko	semantic_uncertain	factual_status
+R000	VIRAT_S_000001	full_frame	nonempty_gt	driving	hallucinated_gt	another vehicle drives past	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R000	VIRAT_S_000001	full_frame	nonempty_gt	locomotion	hallucinated_gt	pedestrians walk along sidewalks nearby	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R000	VIRAT_S_000001	full_frame	nonempty_gt	getting_out_of_vehicle	supported	One man exits his own vehicle	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R001	VIRAT_S_000001	motion_roi	nonempty_gt	talking	hallucinated_gt	engaging in conversation	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R001	VIRAT_S_000001	motion_roi	nonempty_gt	locomotion	hallucinated_gt	walk away together toward the right side of the frame	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R001	VIRAT_S_000001	motion_roi	nonempty_gt	driving	uncertain	both vehicles and people navigating through the open space	문맥상 행동/출입 극성이 불확실.	True	uncertain_unverified
+R002	VIRAT_S_000201_04_000682_000822	full_frame	missing_gt	driving	unscored_missing_gt	A silver sedan drives into the parking lot	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R002	VIRAT_S_000201_04_000682_000822	full_frame	missing_gt	parking	unscored_missing_gt	parks near the center-left section	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R002	VIRAT_S_000201_04_000682_000822	full_frame	missing_gt	getting_out_of_vehicle	unscored_missing_gt	A person exits the vehicle	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R002	VIRAT_S_000201_04_000682_000822	full_frame	missing_gt	locomotion	unscored_missing_gt	walks toward the right side of the frame	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R002	VIRAT_S_000201_04_000682_000822	full_frame	missing_gt	getting_into_vehicle	unscored_missing_gt	entering and exiting their parked automobiles	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R003	VIRAT_S_000201_04_000682_000822	motion_roi	missing_gt	driving	unscored_missing_gt	A silver sedan drives through the parking lot entrance	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R003	VIRAT_S_000201_04_000682_000822	motion_roi	missing_gt	locomotion	unscored_missing_gt	pedestrians walk along the sidewalk	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R003	VIRAT_S_000201_04_000682_000822	motion_roi	missing_gt	talking	unscored_missing_gt	appearing engaged in conversation	GT 파일이 없어 채점 제외.	True	uncertain_unverified
+R003	VIRAT_S_000201_04_000682_000822	motion_roi	missing_gt	exiting_facility	unscored_missing_gt	Another individual exits this same building shortly after entering	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R003	VIRAT_S_000201_04_000682_000822	motion_roi	missing_gt	entering_facility	unscored_missing_gt	Another individual exits this same building shortly after entering	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R004	VIRAT_S_000205_02_000409_000566	full_frame	nonempty_gt	driving	hallucinated_gt	A black pickup truck drives past	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R004	VIRAT_S_000205_02_000409_000566	full_frame	nonempty_gt	locomotion	hallucinated_gt	pedestrians walk along the sidewalk	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R005	VIRAT_S_000205_02_000409_000566	motion_roi	nonempty_gt	driving	hallucinated_gt	A black pickup truck drives past	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R005	VIRAT_S_000205_02_000409_000566	motion_roi	nonempty_gt	locomotion	hallucinated_gt	pedestrians walk along the sidewalk	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R006	VIRAT_S_000205_05_001092_001124	full_frame	missing_gt	driving	unscored_missing_gt	A black car drives past	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R006	VIRAT_S_000205_05_001092_001124	full_frame	missing_gt	locomotion	unscored_missing_gt	pedestrians can be seen walking	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R007	VIRAT_S_000205_05_001092_001124	motion_roi	missing_gt	driving	unscored_missing_gt	A black car drives along the road	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R007	VIRAT_S_000205_05_001092_001124	motion_roi	missing_gt	locomotion	unscored_missing_gt	Two individuals walk across the parking lot’s open space	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R008	VIRAT_S_010000_07_000827_000860	full_frame	nonempty_gt	locomotion	hallucinated_gt	others walk along pathways	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R009	VIRAT_S_010000_07_000827_000860	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A person walks across the lower patio	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R009	VIRAT_S_010000_07_000827_000860	motion_roi	nonempty_gt	carrying_object	hallucinated_gt	A person walks across the lower patio carrying something	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	locomotion	supported	others walk around the plaza	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	locomotion	supported	A person walks across the foreground	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	exiting_facility	supported	someone exits through glass doors onto the patio	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	entering_facility	supported	two more individuals entering the building entrance nearby	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R012	VIRAT_S_010001_03_000537_000563	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks down the stairs	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R013	VIRAT_S_010001_03_000537_000563	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A woman walks across a grassy lawn	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R014	VIRAT_S_010001_05_000649_000684	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks from left to right	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R014	VIRAT_S_010001_05_000649_000684	full_frame	nonempty_gt	exiting_facility	supported	Another individual exits through the glass doors into the courtyard space	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R014	VIRAT_S_010001_05_000649_000684	full_frame	nonempty_gt	talking	hallucinated_gt	some engaged in conversation	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R015	VIRAT_S_010001_05_000649_000684	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A person walks down a set of outdoor stairs	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R015	VIRAT_S_010001_05_000649_000684	motion_roi	nonempty_gt	entering_facility	hallucinated_gt	A few individuals enter through glass doors	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R015	VIRAT_S_010001_05_000649_000684	motion_roi	nonempty_gt	exiting_facility	supported	while others exit toward the left	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R017	VIRAT_S_010001_08_000826_000893	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A person walks down a set of outdoor stairs	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R017	VIRAT_S_010001_08_000826_000893	motion_roi	nonempty_gt	exiting_facility	supported	another individual exits a building entrance nearby	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R018	VIRAT_S_010001_09_000921_000952	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks down the stairs	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R019	VIRAT_S_010001_09_000921_000952	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A person wearing a pink shirt walks across the patio	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R019	VIRAT_S_010001_09_000921_000952	motion_roi	nonempty_gt	exiting_facility	hallucinated_gt	another individual exits through glass doors nearby	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R020	VIRAT_S_010001_10_000962_001005	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks from left to right across the foreground plaza	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R021	VIRAT_S_010001_10_000962_001005	motion_roi	nonempty_gt	locomotion	hallucinated_gt	people walk around near tables and buildings	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R022	VIRAT_S_010002_02_000174_000204	full_frame	nonempty_gt	locomotion	hallucinated_gt	people walking through the area	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R023	VIRAT_S_010002_02_000174_000204	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A person walks briskly past several tables	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R023	VIRAT_S_010002_02_000174_000204	motion_roi	nonempty_gt	entering_facility	supported	someone enters the building’s main entrance	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R023	VIRAT_S_010002_02_000174_000204	motion_roi	nonempty_gt	exiting_facility	hallucinated_gt	others entering and leaving the facility's doors	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R024	VIRAT_S_010002_03_000236_000261	full_frame	nonempty_gt	locomotion	hallucinated_gt	A few people walk up and down the stairs	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R025	VIRAT_S_010002_03_000236_000261	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A person walks across the paved patio area	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R025	VIRAT_S_010002_03_000236_000261	motion_roi	nonempty_gt	entering_facility	hallucinated_gt	People walk toward and enter the building entrance	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R026	VIRAT_S_010002_06_000441_000467	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks down the stairs	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R027	VIRAT_S_010002_06_000441_000467	motion_roi	nonempty_gt	locomotion	hallucinated_gt	people walk across the paved areas	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R028	VIRAT_S_010002_07_000522_000547	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks from left to right along the pathway	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R029	VIRAT_S_010002_07_000522_000547	motion_roi	nonempty_gt	locomotion	hallucinated_gt	two individuals walk across the paved area	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R029	VIRAT_S_010002_07_000522_000547	motion_roi	nonempty_gt	carrying_object	hallucinated_gt	another person walks past on the far side of the lawn toward the building entrance while carrying something blue	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R030	VIRAT_S_010003_02_000165_000202	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks down the stairs	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R031	VIRAT_S_010003_02_000165_000202	motion_roi	nonempty_gt	locomotion	hallucinated_gt	People walk up and down the stairs	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	locomotion	supported	A person walks down the stairs	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	exiting_facility	uncertain	passing through doorways within the building complex	문맥상 행동/출입 극성이 불확실.	True	uncertain_unverified
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	entering_facility	uncertain	passing through doorways within the building complex	문맥상 행동/출입 극성이 불확실.	True	uncertain_unverified
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	locomotion	supported	People walk up and down stairs	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	talking	hallucinated_gt	engaged in conversation	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R034	VIRAT_S_010003_06_000526_000560	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks down the stairs	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R035	VIRAT_S_010003_06_000526_000560	motion_roi	nonempty_gt	locomotion	hallucinated_gt	people walk past them	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R035	VIRAT_S_010003_06_000526_000560	motion_roi	nonempty_gt	talking	hallucinated_gt	engaged in conversation	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R036	VIRAT_S_010003_07_000608_000636	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks down the stairs	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R037	VIRAT_S_010003_07_000608_000636	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A person walks down the steps	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R037	VIRAT_S_010003_07_000608_000636	motion_roi	nonempty_gt	talking	hallucinated_gt	engaged in conversation	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R037	VIRAT_S_010003_07_000608_000636	motion_roi	nonempty_gt	exiting_facility	hallucinated_gt	someone exits through a doorway located beside the staircase	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R038	VIRAT_S_010003_10_000901_000934	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks down stairs	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R039	VIRAT_S_010003_10_000901_000934	motion_roi	nonempty_gt	locomotion	hallucinated_gt	People walk across the paved courtyard	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R040	VIRAT_S_010005_03_000215_000270	full_frame	nonempty_gt	locomotion	hallucinated_gt	People walk up and down stairs	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R041	VIRAT_S_010005_03_000215_000270	motion_roi	nonempty_gt	locomotion	hallucinated_gt	People walk across the courtyard	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R042	VIRAT_S_010005_05_000397_000430	full_frame	nonempty_gt	locomotion	hallucinated_gt	others walk along the pathways	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R043	VIRAT_S_010005_05_000397_000430	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A person walks across the foreground	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R044	VIRAT_S_010106_00_000098_000315	full_frame	nonempty_gt	driving	hallucinated_gt	A black sedan drives through a parking lot	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R044	VIRAT_S_010106_00_000098_000315	full_frame	nonempty_gt	locomotion	hallucinated_gt	Two individuals walk together	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R044	VIRAT_S_010106_00_000098_000315	full_frame	nonempty_gt	parking	hallucinated_gt	stopping among other parked vehicles without any further movement observed after their arrival	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R045	VIRAT_S_010106_00_000098_000315	motion_roi	nonempty_gt	locomotion	hallucinated_gt	Two individuals walk across the lower left corner	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R045	VIRAT_S_010106_00_000098_000315	motion_roi	nonempty_gt	driving	hallucinated_gt	several cars are seen driving along the road	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R046	VIRAT_S_010106_02_000656_000692	full_frame	nonempty_gt	locomotion	supported	Two individuals walk together through an empty parking lot toward the right side	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R047	VIRAT_S_010106_02_000656_000692	motion_roi	nonempty_gt	locomotion	supported	A person walks across the parking lot	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R047	VIRAT_S_010106_02_000656_000692	motion_roi	nonempty_gt	cycling	hallucinated_gt	another individual rides a bicycle	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R048	VIRAT_S_010106_05_000954_000996	full_frame	empty_gt	locomotion	hallucinated_gt	then steps back away from the vehicle	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R049	VIRAT_S_010106_05_000954_000996	motion_roi	empty_gt	unloading_object_from_vehicle	hallucinated_gt	retrieves items from the trunk	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R049	VIRAT_S_010106_05_000954_000996	motion_roi	empty_gt	putting_object_down	hallucinated_gt	places them on the ground beside the vehicle	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R049	VIRAT_S_010106_05_000954_000996	motion_roi	empty_gt	locomotion	hallucinated_gt	then walks away toward the left side of the frame	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R049	VIRAT_S_010106_05_000954_000996	motion_roi	empty_gt	cycling	hallucinated_gt	two individuals are seen riding bicycles	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	cycling	hallucinated_gt	A person rides a bicycle	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	locomotion	supported	another individual walks nearby	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	pushing_cart	hallucinated_gt	a person pushes a cart across the asphalt	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	locomotion	supported	people walk along a sidewalk	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R052	VIRAT_S_010107_02_000282_000312	full_frame	empty_gt	cycling	hallucinated_gt	A person rides a bicycle	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R052	VIRAT_S_010107_02_000282_000312	full_frame	empty_gt	locomotion	hallucinated_gt	two individuals walk together	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R053	VIRAT_S_010107_02_000282_000312	motion_roi	empty_gt	cycling	hallucinated_gt	a person rides a bicycle	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R053	VIRAT_S_010107_02_000282_000312	motion_roi	empty_gt	locomotion	hallucinated_gt	two individuals walk together	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R053	VIRAT_S_010107_02_000282_000312	motion_roi	empty_gt	pushing_cart	hallucinated_gt	pushing a cart with items	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R054	VIRAT_S_010109_07_000876_000910	full_frame	missing_gt	locomotion	unscored_missing_gt	A person walks along the sidewalk	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R054	VIRAT_S_010109_07_000876_000910	full_frame	missing_gt	driving	unscored_missing_gt	A white van drives through an intersection	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R055	VIRAT_S_010109_07_000876_000910	motion_roi	missing_gt	locomotion	unscored_missing_gt	two individuals walk along the sidewalk	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R055	VIRAT_S_010109_07_000876_000910	motion_roi	missing_gt	cycling	unscored_missing_gt	another person rides a bicycle	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R056	VIRAT_S_010110_00_000000_000021	full_frame	empty_gt	locomotion	hallucinated_gt	A person walks from right to left	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R057	VIRAT_S_010110_00_000000_000021	motion_roi	empty_gt	locomotion	hallucinated_gt	a person walking past it	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R057	VIRAT_S_010110_00_000000_000021	motion_roi	empty_gt	carrying_object	hallucinated_gt	a person walking past it carrying bags	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R057	VIRAT_S_010110_00_000000_000021	motion_roi	empty_gt	driving	hallucinated_gt	A gray SUV drives through the parking lot	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R059	VIRAT_S_010110_02_000513_000566	motion_roi	empty_gt	cycling	hallucinated_gt	several people are seen riding bicycles	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R059	VIRAT_S_010110_02_000513_000566	motion_roi	empty_gt	locomotion	hallucinated_gt	walking away together toward the right side of the frame	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R060	VIRAT_S_010110_05_000899_000935	full_frame	empty_gt	riding_scooter	hallucinated_gt	A person on a scooter moves from left to right	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R061	VIRAT_S_010110_05_000899_000935	motion_roi	empty_gt	locomotion	hallucinated_gt	two individuals are seen walking across parked cars	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R062	VIRAT_S_010111_04_000718_000760	full_frame	missing_gt	locomotion	unscored_missing_gt	A person walks from right to left	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R063	VIRAT_S_010111_04_000718_000760	motion_roi	missing_gt	locomotion	unscored_missing_gt	A person walks across a parking lot	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R063	VIRAT_S_010111_04_000718_000760	motion_roi	missing_gt	cycling	unscored_missing_gt	another individual rides a bicycle	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R064	VIRAT_S_010111_05_000762_000799	full_frame	empty_gt	locomotion	hallucinated_gt	A person walks from the bottom right corner	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R065	VIRAT_S_010111_05_000762_000799	motion_roi	empty_gt	locomotion	hallucinated_gt	two individuals walk across the asphalt	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R065	VIRAT_S_010111_05_000762_000799	motion_roi	empty_gt	carrying_object	hallucinated_gt	A person carrying a yellow object walks past a white dumpster	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R066	VIRAT_S_010111_06_000820_000860	full_frame	missing_gt	locomotion	unscored_missing_gt	A person walks from left to right	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R067	VIRAT_S_010111_06_000820_000860	motion_roi	missing_gt	locomotion	unscored_missing_gt	Two individuals walk across the parking lot	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R067	VIRAT_S_010111_06_000820_000860	motion_roi	missing_gt	carrying_object	unscored_missing_gt	walking diagonally towards the upper-right section of the parking lot while carrying something dark-colored	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R068	VIRAT_S_010111_07_000872_000909	full_frame	empty_gt	driving	hallucinated_gt	A white van drives through the parking lot	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R068	VIRAT_S_010111_07_000872_000909	full_frame	empty_gt	locomotion	hallucinated_gt	Two pedestrians walk along the sidewalk	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R069	VIRAT_S_010111_07_000872_000909	motion_roi	empty_gt	driving	hallucinated_gt	A white van drives through the parking lot entrance	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R069	VIRAT_S_010111_07_000872_000909	motion_roi	empty_gt	locomotion	hallucinated_gt	A person walks across the foreground	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R070	VIRAT_S_010111_08_000920_000954	full_frame	nonempty_gt	locomotion	supported	A person walks from left to right	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R071	VIRAT_S_010111_08_000920_000954	motion_roi	nonempty_gt	locomotion	supported	two individuals walk across the asphalt	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R072	VIRAT_S_010111_09_000981_001014	full_frame	missing_gt	driving	unscored_missing_gt	A silver sedan drives into the parking lot	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R072	VIRAT_S_010111_09_000981_001014	full_frame	missing_gt	parking	unscored_missing_gt	parks near other vehicles	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R073	VIRAT_S_010111_09_000981_001014	motion_roi	missing_gt	driving	unscored_missing_gt	several cars are seen moving through designated lanes	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R074	VIRAT_S_010113_02_000434_000479	full_frame	missing_gt	driving	unscored_missing_gt	A red car drives slowly through the parking lot	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R075	VIRAT_S_010113_02_000434_000479	motion_roi	missing_gt	driving	unscored_missing_gt	A red car drives through the parking lot	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R075	VIRAT_S_010113_02_000434_000479	motion_roi	missing_gt	locomotion	unscored_missing_gt	A person walks away from the edge of the frame	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R076	VIRAT_S_010113_05_000776_000805	full_frame	missing_gt	cycling	unscored_missing_gt	A person rides a bicycle	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R076	VIRAT_S_010113_05_000776_000805	full_frame	missing_gt	locomotion	unscored_missing_gt	another individual walks briskly	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R077	VIRAT_S_010113_05_000776_000805	motion_roi	missing_gt	locomotion	unscored_missing_gt	two individuals walk across the asphalt	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R077	VIRAT_S_010113_05_000776_000805	motion_roi	missing_gt	cycling	unscored_missing_gt	another person rides a bicycle	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R078	VIRAT_S_010113_07_000965_001013	full_frame	empty_gt	locomotion	hallucinated_gt	A person walks from left to right	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R078	VIRAT_S_010113_07_000965_001013	full_frame	empty_gt	getting_out_of_vehicle	hallucinated_gt	another individual exits a vehicle	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R079	VIRAT_S_010113_07_000965_001013	motion_roi	empty_gt	locomotion	hallucinated_gt	two individuals walk across the asphalt	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R079	VIRAT_S_010113_07_000965_001013	motion_roi	empty_gt	getting_out_of_vehicle	hallucinated_gt	another person exits a vehicle nearby	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R079	VIRAT_S_010113_07_000965_001013	motion_roi	empty_gt	driving	hallucinated_gt	A silver sedan drives through the central lanes	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R079	VIRAT_S_010113_07_000965_001013	motion_roi	empty_gt	pushing_cart	hallucinated_gt	someone pushes a cart with items	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R079	VIRAT_S_010113_07_000965_001013	motion_roi	empty_gt	carrying_object	hallucinated_gt	Another individual approaches the dumpster carrying boxes	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R079	VIRAT_S_010113_07_000965_001013	motion_roi	empty_gt	putting_object_down	hallucinated_gt	then turns away after placing them down	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R080	VIRAT_S_010114_02_000765_000802	full_frame	missing_gt	locomotion	unscored_missing_gt	A person walks steadily	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R081	VIRAT_S_010114_02_000765_000802	motion_roi	missing_gt	locomotion	unscored_missing_gt	A person walks across the parking lot	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R081	VIRAT_S_010114_02_000765_000802	motion_roi	missing_gt	cycling	unscored_missing_gt	another individual rides a bicycle	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R081	VIRAT_S_010114_02_000765_000802	motion_roi	missing_gt	driving	unscored_missing_gt	A white van drives past	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R082	VIRAT_S_010116_00_000061_000121	full_frame	missing_gt	cycling	unscored_missing_gt	A person rides a bicycle	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R083	VIRAT_S_010116_00_000061_000121	motion_roi	missing_gt	locomotion	unscored_missing_gt	two individuals are seen walking along the sidewalk	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R083	VIRAT_S_010116_00_000061_000121	motion_roi	missing_gt	cycling	unscored_missing_gt	A cyclist rides across the open space	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R084	VIRAT_S_010200_02_000349_000398	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks past the Student Services building	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R085	VIRAT_S_010200_02_000349_000398	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A person wearing a green shirt walks across the paved courtyard	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R085	VIRAT_S_010200_02_000349_000398	motion_roi	nonempty_gt	carrying_object	hallucinated_gt	someone else moves past while carrying something that appears dark-colored	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R086	VIRAT_S_010201_02_000167_000197	full_frame	nonempty_gt	locomotion	hallucinated_gt	People walk along a paved pathway	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R087	VIRAT_S_010201_02_000167_000197	motion_roi	nonempty_gt	locomotion	hallucinated_gt	Students walk along paved pathways	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R088	VIRAT_S_010203_09_001010_001036	full_frame	missing_gt	locomotion	unscored_missing_gt	A person walks along a paved pathway	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R089	VIRAT_S_010203_09_001010_001036	motion_roi	missing_gt	locomotion	unscored_missing_gt	People walk along a paved pathway	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R089	VIRAT_S_010203_09_001010_001036	motion_roi	missing_gt	entering_facility	unscored_missing_gt	some entering through glass doors	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R090	VIRAT_S_010204_03_000606_000632	full_frame	empty_gt	locomotion	hallucinated_gt	A woman walks from right to left	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R090	VIRAT_S_010204_03_000606_000632	full_frame	empty_gt	exiting_facility	hallucinated_gt	another person exits the building's entrance nearby	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R091	VIRAT_S_010204_03_000606_000632	motion_roi	empty_gt	locomotion	hallucinated_gt	People walk along a paved pathway	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R091	VIRAT_S_010204_03_000606_000632	motion_roi	empty_gt	entering_facility	hallucinated_gt	some pass through the entrance	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R092	VIRAT_S_010204_10_001372_001395	full_frame	missing_gt	locomotion	unscored_missing_gt	A person walks along a paved pathway	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R093	VIRAT_S_010204_10_001372_001395	motion_roi	missing_gt	locomotion	unscored_missing_gt	A person walks along a paved pathway	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R094	VIRAT_S_010205_03_000370_000395	full_frame	empty_gt	locomotion	hallucinated_gt	A person walks along a paved pathway	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R095	VIRAT_S_010205_03_000370_000395	motion_roi	empty_gt	locomotion	hallucinated_gt	Two individuals walk along a paved pathway	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R096	VIRAT_S_010205_04_000545_000576	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks from right to left	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R096	VIRAT_S_010205_04_000545_000576	full_frame	nonempty_gt	carrying_object	hallucinated_gt	while carrying bags	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R097	VIRAT_S_010205_04_000545_000576	motion_roi	nonempty_gt	locomotion	hallucinated_gt	a person runs past a beige kiosk	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R098	VIRAT_S_010207_02_000790_000816	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks away from the building entrance	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R098	VIRAT_S_010207_02_000790_000816	full_frame	nonempty_gt	carrying_object	hallucinated_gt	another individual approaches from the left carrying a backpack	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R099	VIRAT_S_010207_02_000790_000816	motion_roi	nonempty_gt	locomotion	hallucinated_gt	Three individuals walk along a paved pathway	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R099	VIRAT_S_010207_02_000790_000816	motion_roi	nonempty_gt	carrying_object	hallucinated_gt	A person wearing shorts and carrying a backpack walks past a beige utility box	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R100	VIRAT_S_010207_09_001484_001510	full_frame	nonempty_gt	locomotion	hallucinated_gt	A person walks along a paved pathway	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R101	VIRAT_S_010207_09_001484_001510	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A person walks along a paved pathway	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	locomotion	supported	People walk along a paved pathway	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	talking	hallucinated_gt	others stand nearby conversing	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	locomotion	supported	Students walk across the campus courtyard	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	talking	hallucinated_gt	others stand conversing nearby	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R104	VIRAT_S_010208_09_000857_000886	full_frame	nonempty_gt	locomotion	hallucinated_gt	walking away from the building along a paved pathway	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R104	VIRAT_S_010208_09_000857_000886	full_frame	nonempty_gt	entering_facility	hallucinated_gt	enters through the glass doors	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R104	VIRAT_S_010208_09_000857_000886	full_frame	nonempty_gt	exiting_facility	supported	then exits shortly after	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R105	VIRAT_S_010208_09_000857_000886	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A person walks away from the entrance	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R105	VIRAT_S_010208_09_000857_000886	motion_roi	nonempty_gt	exiting_facility	supported	Another individual exits through the same doorway carrying bags	원본 GT의 동일 행동 의미에 대응.	False	gt_action_supported_only
+R105	VIRAT_S_010208_09_000857_000886	motion_roi	nonempty_gt	carrying_object	hallucinated_gt	Another individual exits through the same doorway carrying bags	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R106	VIRAT_S_040000_00_000063_000085	full_frame	missing_gt	driving	unscored_missing_gt	A red car drives through an intersection	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R107	VIRAT_S_040000_00_000063_000085	motion_roi	missing_gt	driving	unscored_missing_gt	two red cars drive past parked vehicles	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R108	VIRAT_S_040000_01_000042_000099	full_frame	missing_gt	driving	unscored_missing_gt	A red car drives through an intersection	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R109	VIRAT_S_040000_01_000042_000099	motion_roi	missing_gt	driving	unscored_missing_gt	A red convertible drives through a parking lot intersection	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R109	VIRAT_S_040000_01_000042_000099	motion_roi	missing_gt	locomotion	unscored_missing_gt	A person walks along a sidewalk	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R111	VIRAT_S_040000_02_000111_000145	motion_roi	missing_gt	locomotion	unscored_missing_gt	A person wearing red walks past a parked green car	GT 파일이 없어 채점 제외.	False	uncertain_unverified
+R112	VIRAT_S_040000_04_000532_000622	full_frame	empty_gt	locomotion	hallucinated_gt	two individuals walk from right to left	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R113	VIRAT_S_040000_04_000532_000622	motion_roi	empty_gt	locomotion	hallucinated_gt	A person walks across a paved parking lot	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R113	VIRAT_S_040000_04_000532_000622	motion_roi	empty_gt	carrying_object	hallucinated_gt	while carrying a bag	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R114	VIRAT_S_040005_00_000003_000058	full_frame	nonempty_gt	driving	hallucinated_gt	A blue car drives through an intersection	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R115	VIRAT_S_040005_00_000003_000058	motion_roi	nonempty_gt	getting_out_of_vehicle	hallucinated_gt	two individuals exit the vehicle	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R115	VIRAT_S_040005_00_000003_000058	motion_roi	nonempty_gt	driving	hallucinated_gt	then drive away through a landscaped roundabout	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R115	VIRAT_S_040005_00_000003_000058	motion_roi	nonempty_gt	locomotion	hallucinated_gt	pedestrians walk nearby	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R116	VIRAT_S_040005_08_001225_001276	full_frame	nonempty_gt	driving	hallucinated_gt	A black car drives through an intersection	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R117	VIRAT_S_040005_08_001225_001276	motion_roi	nonempty_gt	locomotion	hallucinated_gt	A person walks toward a parked green car	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified
+R117	VIRAT_S_040005_08_001225_001276	motion_roi	nonempty_gt	driving	hallucinated_gt	the car drives off through a landscaped roundabout	원본 GT에 이 행동이 없음. 실제 오류인지는 영상 검토 필요.	False	uncertain_unverified

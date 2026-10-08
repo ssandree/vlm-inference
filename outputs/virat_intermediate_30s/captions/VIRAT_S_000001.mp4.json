@@ -1,0 +1,1825 @@
+{
+  "video": "VIRAT_S_000001.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_000001.mp4.json",
+  "source_caption_sha256": "71734f7ce058da351627f1e5e518d8e2cc9495618feabaa89d737dc2b1c9475d",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 30.0,
+      "intermediate_caption": "A silver sedan is parked in a designated parking space adjacent to a brick building for the entire duration from 0 seconds to 30 seconds. Initially described as being in a parking lot, the vehicle's position shifts slightly between frames—specifically appearing angled in the driveway area around 18 seconds before returning to a standard parking spot alignment. Throughout the sequence, the car remains completely stationary without any movement observed. No people or other vehicles appear in the scene at any point. The environment consists of an empty parking lot with marked spaces, a sidewalk, and a small grassy patch near the building; this setting is consistently present across all timestamps. All visual details remain unchanged except for minor variations in positioning relative to the parking lines.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-27",
+        "27-30"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "A silver sedan is parked in a parking lot next to a brick building. The car remains stationary throughout the clip. There are no people or other vehicles visible in the scene."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the clip. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A silver sedan is parked in a parking lot next to a brick building. The car remains stationary throughout the video. There are no people or other vehicles visible in the scene."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "A silver sedan is parked in a parking lot next to a brick building. The car remains stationary throughout the clip. No people or other vehicles are visible in the scene."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "A silver sedan is parked at an angle in the driveway area next to a brick building. The car remains stationary throughout the clip. No people or other vehicles are visible in the scene."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "24-27",
+          "start_sec": 24.0,
+          "end_sec": 27.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "27-30",
+          "start_sec": 27.0,
+          "end_sec": 30.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the clip. The surrounding area includes an empty parking lot with marked spaces, a sidewalk, and a small grassy patch. No people or other vehicles are visible in the scene."
+        }
+      ]
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 60.0,
+      "intermediate_caption": "A silver sedan is parked in a designated parking space next to a brick building throughout the entire period. Initially described as being angled in the driveway, it is later consistently observed occupying a clearly defined parking spot. The vehicle remains completely stationary during this interval. Surrounding features include an empty parking lot with marked spaces, a sidewalk, and a small grassy patch; however, there are no people or other vehicles present at any point within the timeframe.",
+      "source_clips": [
+        "30-33",
+        "33-36",
+        "36-39",
+        "39-42",
+        "42-45",
+        "45-48",
+        "48-51",
+        "51-54",
+        "54-57",
+        "57-60"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "30-33",
+          "start_sec": 30.0,
+          "end_sec": 33.0,
+          "caption": "A silver sedan is parked in a parking lot next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible."
+        },
+        {
+          "source_clip": "33-36",
+          "start_sec": 33.0,
+          "end_sec": 36.0,
+          "caption": "A silver sedan is parked at an angle in the driveway next to a brick building. The car remains stationary throughout the clip. No people or other vehicles are visible."
+        },
+        {
+          "source_clip": "36-39",
+          "start_sec": 36.0,
+          "end_sec": 39.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video clip. No people or other vehicles are visible in the scene."
+        },
+        {
+          "source_clip": "39-42",
+          "start_sec": 39.0,
+          "end_sec": 42.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the clip. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "42-45",
+          "start_sec": 42.0,
+          "end_sec": 45.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the clip. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "45-48",
+          "start_sec": 45.0,
+          "end_sec": 48.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the clip. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "48-51",
+          "start_sec": 48.0,
+          "end_sec": 51.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the clip. The surrounding area includes an empty parking lot with marked spaces, a sidewalk, and a small grassy patch. There are no people or other moving vehicles visible."
+        },
+        {
+          "source_clip": "51-54",
+          "start_sec": 51.0,
+          "end_sec": 54.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. The surrounding area includes an empty parking lot with marked spaces, a sidewalk, and a small grassy patch. There are no people or other moving vehicles visible in the scene."
+        },
+        {
+          "source_clip": "54-57",
+          "start_sec": 54.0,
+          "end_sec": 57.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the clip. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "57-60",
+          "start_sec": 57.0,
+          "end_sec": 60.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the clip. The surrounding area includes an empty parking lot with marked spaces, a sidewalk, and a small grassy patch. No people or other vehicles are visible in the scene."
+        }
+      ]
+    },
+    {
+      "start_sec": 60,
+      "end_sec": 90.0,
+      "intermediate_caption": "A silver sedan is parked in a designated parking space adjacent to a brick building throughout the entire period from 60 seconds to 90 seconds. The vehicle remains completely stationary during this time. The surroundings include several empty parking spaces, a sidewalk, and a small grassy patch; however, there is no visible activity involving people or any other vehicles at any point within the observed timeframe. The scene remains consistently static across all moments described.",
+      "source_clips": [
+        "60-63",
+        "63-66",
+        "66-69",
+        "69-72",
+        "72-75",
+        "75-78",
+        "78-81",
+        "81-84",
+        "84-87",
+        "87-90"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "60-63",
+          "start_sec": 60.0,
+          "end_sec": 63.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. The surrounding area includes empty parking spaces, a sidewalk, and a small grassy patch. There is no visible movement of people or other vehicles."
+        },
+        {
+          "source_clip": "63-66",
+          "start_sec": 63.0,
+          "end_sec": 66.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the scene."
+        },
+        {
+          "source_clip": "66-69",
+          "start_sec": 66.0,
+          "end_sec": 69.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the clip. No people or other vehicles are visible in the frame. The scene is static, with no discernible actions occurring."
+        },
+        {
+          "source_clip": "69-72",
+          "start_sec": 69.0,
+          "end_sec": 72.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the scene."
+        },
+        {
+          "source_clip": "72-75",
+          "start_sec": 72.0,
+          "end_sec": 75.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. The surrounding area includes an empty parking lot with marked spaces, a sidewalk, and a small grassy patch. There are no people or other moving vehicles visible in the scene."
+        },
+        {
+          "source_clip": "75-78",
+          "start_sec": 75.0,
+          "end_sec": 78.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "78-81",
+          "start_sec": 78.0,
+          "end_sec": 81.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "81-84",
+          "start_sec": 81.0,
+          "end_sec": 84.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the clip. No people or other vehicles are visible in the scene."
+        },
+        {
+          "source_clip": "84-87",
+          "start_sec": 84.0,
+          "end_sec": 87.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the scene."
+        },
+        {
+          "source_clip": "87-90",
+          "start_sec": 87.0,
+          "end_sec": 90.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the frame."
+        }
+      ]
+    },
+    {
+      "start_sec": 90,
+      "end_sec": 120.0,
+      "intermediate_caption": "A silver sedan is parked in a designated parking space next to a brick building throughout the entire period. Initially, the car remains stationary with no people or other vehicles present. At approximately 0:02 within this timeframe (corresponding to around 114 seconds), a single individual wearing dark clothing enters the frame from the lower-left portion of the view, walking along a concrete sidewalk towards the right before exiting the field of vision. Later, two people enter the frame from the left side, approaching the driver’s side of the silver sedan. One person opens the driver’s door while the second waits beside them; shortly after, the first person enters the vehicle and shuts the door behind them. Both individuals subsequently move together away from the car toward the left edge of the frame. Throughout the sequence, the surroundings include a paved parking lot with clearly marked spaces, a sidewalk, and a small grassy area adjacent to the building. The sedan does not move during any part of the observation interval.",
+      "source_clips": [
+        "90-93",
+        "93-96",
+        "96-99",
+        "99-102",
+        "102-105",
+        "105-108",
+        "108-111",
+        "111-114",
+        "114-117",
+        "117-120"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "90-93",
+          "start_sec": 90.0,
+          "end_sec": 93.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the scene."
+        },
+        {
+          "source_clip": "93-96",
+          "start_sec": 93.0,
+          "end_sec": 96.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the clip. The surrounding parking lot is empty, with no other vehicles or people visible."
+        },
+        {
+          "source_clip": "96-99",
+          "start_sec": 96.0,
+          "end_sec": 99.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "99-102",
+          "start_sec": 99.0,
+          "end_sec": 102.0,
+          "caption": "A silver sedan is parked at an angle in a parking lot next to a brick building. The car remains stationary throughout the clip. There are no people or other moving vehicles visible."
+        },
+        {
+          "source_clip": "102-105",
+          "start_sec": 102.0,
+          "end_sec": 105.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "105-108",
+          "start_sec": 105.0,
+          "end_sec": 108.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video clip. No people or other vehicles are visible in the scene."
+        },
+        {
+          "source_clip": "108-111",
+          "start_sec": 108.0,
+          "end_sec": 111.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the clip. No people or other vehicles are visible in the frame."
+        },
+        {
+          "source_clip": "111-114",
+          "start_sec": 111.0,
+          "end_sec": 114.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building. The car remains stationary throughout the video. The surrounding area includes a paved parking lot with marked spaces, a sidewalk, and a small grassy patch. No people or other vehicles are visible in the scene."
+        },
+        {
+          "source_clip": "114-117",
+          "start_sec": 114.0,
+          "end_sec": 117.0,
+          "caption": "A silver sedan is parked in a designated parking space next to a brick building.\n\nAt 0:02, a person wearing dark clothing walks into the frame from the bottom left corner.\n\nThe person walks across the concrete sidewalk, moving from left to right, and exits the frame on the right side."
+        },
+        {
+          "source_clip": "117-120",
+          "start_sec": 117.0,
+          "end_sec": 120.0,
+          "caption": "Two people walk from the left side of the frame toward the front of a silver sedan parked in a lot. They approach the driver's side door, where one person opens it. The other person stands nearby as the first person gets into the car. After a moment, the person who entered the car closes the door, and both individuals then walk away from the vehicle toward the left side of the frame."
+        }
+      ]
+    },
+    {
+      "start_sec": 120,
+      "end_sec": 150.0,
+      "intermediate_caption": "A silver sedan is parked at an angle in front of a brick building with its driver’s side door open. A person in dark clothing stands beside the open door, appearing to get into or out of the vehicle. Meanwhile, another individual wearing a light-colored shirt and dark pants walks across a concrete sidewalk from left to right. Two additional individuals later appear on the sidewalk in the lower-left portion of the frame, also moving from left to right—among them, one carries a child. \n\nLater, two people stand together on the sidewalk near the parking lot entrance—one wearing a red and black jacket (later seen in a red and blue striped shirt) and the other in a light-colored shirt and dark pants. This pair interacts briefly, with gesturing observed between them. At some point during this interaction, the person in the light-colored shirt extends both arms outward before taking several small steps forward and backward. Another person in a red top joins them on the sidewalk but remains largely motionless.\n\nThroughout the sequence, the silver sedan initially remains parked with its door open. It eventually starts to move forward, driving slowly away from the building toward the right, partially leaving the frame. Later, the car reappears reversed out of a nearby parking spot, turning slightly to the right as it exits. Finally, the sedan returns to the parking lot, makes a sharp turn, and successfully pulls into a marked parking space where it comes to rest. All movements occur within view of a parking lot bordered by a grassy area, a sidewalk, and a brick building, captured from an elevated perspective under clear daylight conditions.",
+      "source_clips": [
+        "120-123",
+        "123-126",
+        "126-129",
+        "129-132",
+        "132-135",
+        "135-138",
+        "138-141",
+        "141-144",
+        "144-147",
+        "147-150"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "120-123",
+          "start_sec": 120.0,
+          "end_sec": 123.0,
+          "caption": "A silver sedan is parked at an angle in front of a brick building, with its driver's side door open.\n\nA person wearing dark clothing stands next to the open car door, appearing to be getting into or out of the vehicle.\n\nAnother person, wearing a light-colored shirt and dark pants, walks from the left side of the frame across a concrete sidewalk in the foreground."
+        },
+        {
+          "source_clip": "123-126",
+          "start_sec": 123.0,
+          "end_sec": 126.0,
+          "caption": "A silver sedan is parked at the edge of a paved area next to a brick building, with its driver's side door open.\n\nA person wearing dark clothing stands beside the open car door, appearing to be getting into or out of the vehicle.\n\nTwo other people walk on a sidewalk in the lower-left corner of the frame, moving from left to right.\n\nThe scene is viewed from an elevated angle, showing a parking lot with marked spaces, a grassy area, and a sidewalk."
+        },
+        {
+          "source_clip": "126-129",
+          "start_sec": 126.0,
+          "end_sec": 129.0,
+          "caption": "Three people are walking on a sidewalk in the lower-left corner of the frame. One person is carrying a child. They walk from left to right across the sidewalk. A silver sedan is parked in a parking space with its driver's side door open. The car remains stationary throughout the clip."
+        },
+        {
+          "source_clip": "129-132",
+          "start_sec": 129.0,
+          "end_sec": 132.0,
+          "caption": "Two people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a red and black jacket, stands still while holding a long, thin object.\n\nThe other person, wearing a light-colored shirt and dark pants, walks away from the first person, moving towards the right side of the frame along the sidewalk.\n\nA silver sedan is parked in a marked space in the asphalt lot, positioned near the brick building."
+        },
+        {
+          "source_clip": "132-135",
+          "start_sec": 132.0,
+          "end_sec": 135.0,
+          "caption": "There are two people standing on the sidewalk near the entrance to a parking lot.\n\nOne person, wearing a red and blue striped shirt, stands still.\n\nThe other person, wearing a light-colored shirt and dark pants, stands facing the first person and gestures with their right arm.\n\nA silver sedan is parked in a space adjacent to the building."
+        },
+        {
+          "source_clip": "135-138",
+          "start_sec": 135.0,
+          "end_sec": 138.0,
+          "caption": "Two people are standing on a concrete sidewalk near the entrance to a parking lot.\n\nOne person, wearing a light-colored shirt and dark pants, stands facing the other person, who is wearing a dark jacket with red and blue stripes and dark pants.\n\nThe person in the striped jacket remains mostly stationary, while the person in the light shirt takes a few small steps forward and then back, appearing to gesture with their hands.\n\nA silver sedan is parked in a marked space in the asphalt lot, positioned next to a brick building.\n\nThe scene is viewed from an elevated angle, showing the parking lot, sidewalk, grassy areas, and the building under bright sunlight."
+        },
+        {
+          "source_clip": "138-141",
+          "start_sec": 138.0,
+          "end_sec": 141.0,
+          "caption": "A silver sedan is parked in a parking lot next to a brick building. The car begins to move forward slowly, turning slightly as it drives away from the building. In the foreground, two people stand on a concrete sidewalk. One person, wearing a red top, stands still. The other person, wearing a light-colored shirt, stands with their arms outstretched to their sides. The car continues to drive forward and turns right, exiting the frame. The two people remain standing in the same positions throughout the clip."
+        },
+        {
+          "source_clip": "141-144",
+          "start_sec": 141.0,
+          "end_sec": 144.0,
+          "caption": "A silver car is parked in a parking lot next to a brick building.\n\nTwo people are standing on the sidewalk in the lower-left corner of the frame.\n\nOne person, wearing a red top, stands still.\n\nThe other person, wearing a light-colored shirt, takes a few steps forward on the sidewalk."
+        },
+        {
+          "source_clip": "144-147",
+          "start_sec": 144.0,
+          "end_sec": 147.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot next to a brick building.\n\nThe car begins to move forward, reversing out of the parking space.\n\nAs the car reverses, it turns slightly to its right, beginning to exit the parking area.\n\nTwo people are standing on the sidewalk near the entrance to the parking lot; one person is wearing a red shirt and the other is wearing a light-colored shirt.\n\nThe two people remain stationary on the sidewalk as the car moves."
+        },
+        {
+          "source_clip": "147-150",
+          "start_sec": 147.0,
+          "end_sec": 150.0,
+          "caption": "A silver sedan drives through a parking lot from left to right, making a turn into a parking space.\n\nTwo people stand on the sidewalk in the lower-left corner of the frame; one person wears a red top and the other wears a light-colored shirt.\n\nThe car completes its turn and parks in a marked space."
+        }
+      ]
+    },
+    {
+      "start_sec": 150,
+      "end_sec": 180.0,
+      "intermediate_caption": "Three people are standing on a concrete sidewalk adjacent to a parking lot during the entire observed period. Initially, one individual in a red shirt faces two others—one in a light-colored shirt and one in a dark shirt—while they converse near the lower-left edge of the frame. At around 150 seconds, the person in the light-colored shirt turns and begins walking toward the center of the frame before stopping again shortly after. Throughout the sequence, there are variations in attire described across different timestamps (e.g., \"red shirt,\" \"red and black striped shirt\"), suggesting either inconsistent observation or possible movement/changes within the group, though no clear identity change can be confirmed. \n\nAt various times, the person in the red/red-and-black-striped shirt makes movements such as raising both arms or gesturing upward with their right arm while pointing skyward. These motions occur while the other two individuals face them and look in the indicated direction. There are moments where the person in the light-colored shirt has their back partially turned to the camera, and another instance shows someone in dark clothes holding or examining an object in their hands. Despite slight positional adjustments and postural shifts among the trio, including repositioning relative to one another, they generally maintain proximity and continue interacting through apparent conversation without significant physical separation.\n\nIn addition to this interaction, vehicles move intermittently through the background: a silver car drives past in the upper-right area early in the segment, followed later by brief appearances of a red-parked car further along the lot and occasional passing traffic seen at the top right of the frame. All activity occurs outdoors under bright daylight conditions, captured from an elevated vantage point overlooking the sidewalk and surrounding structures. No new participants enter the scene nor do any depart entirely; only continuous presence and evolving body language characterize the unfolding situation.",
+      "source_clips": [
+        "150-153",
+        "153-156",
+        "156-159",
+        "159-162",
+        "162-165",
+        "165-168",
+        "168-171",
+        "171-174",
+        "174-177",
+        "177-180"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "150-153",
+          "start_sec": 150.0,
+          "end_sec": 153.0,
+          "caption": "Three people are standing on a sidewalk in the lower-left corner of the frame. One person in a red shirt stands facing two others, one in a light-colored shirt and one in a dark shirt. The person in the light-colored shirt turns and walks away from the other two, moving towards the center of the frame. A silver car is driving in the parking lot in the upper-right portion of the frame, moving away from the camera."
+        },
+        {
+          "source_clip": "153-156",
+          "start_sec": 153.0,
+          "end_sec": 156.0,
+          "caption": "Three people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a light-colored top and dark pants, stands with their back mostly toward the camera and moves slightly.\n\nTo their left, two other people stand close together; one wears a red shirt and the other a dark shirt.\n\nA red car is parked in a space at the far end of the parking lot.\n\nThe scene is viewed from an elevated angle, showing the building, parking lot, and sidewalk under bright sunlight."
+        },
+        {
+          "source_clip": "156-159",
+          "start_sec": 156.0,
+          "end_sec": 159.0,
+          "caption": "Three people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a light-colored shirt and dark pants, stands facing the other two individuals.\n\nThe other two people, one in a red shirt and one in a dark shirt, stand close together, facing the person in the light-colored shirt.\n\nAll three individuals remain relatively stationary throughout the clip, appearing to be engaged in a conversation.\n\nA vehicle is briefly visible driving in the street at the top right of the frame."
+        },
+        {
+          "source_clip": "159-162",
+          "start_sec": 159.0,
+          "end_sec": 162.0,
+          "caption": "Three people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a red and black striped shirt, stands facing two other people.\n\nThe person in the middle, wearing a light-colored shirt, turns slightly towards the person on the right.\n\nThe person on the right, wearing a dark top, stands with their back mostly to the camera.\n\nAll three individuals remain relatively stationary throughout the clip."
+        },
+        {
+          "source_clip": "162-165",
+          "start_sec": 162.0,
+          "end_sec": 165.0,
+          "caption": "Three people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a red shirt, stands facing two other people.\n\nThe person in the red shirt raises their right arm and points upwards.\n\nThe other two people, one in a light-colored shirt and one in a dark shirt, stand facing the person in the red shirt, looking up in the direction of the pointing gesture.\n\nAll three individuals remain in approximately the same position throughout the clip."
+        },
+        {
+          "source_clip": "165-168",
+          "start_sec": 165.0,
+          "end_sec": 168.0,
+          "caption": "Three people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a red and black striped shirt, stands with their arms raised.\n\nAnother person, wearing a light-colored top, stands facing the first person.\n\nA third person, wearing dark clothing, stands between them, also facing the person in the striped shirt.\n\nThe three individuals remain in roughly the same positions throughout the clip."
+        },
+        {
+          "source_clip": "168-171",
+          "start_sec": 168.0,
+          "end_sec": 171.0,
+          "caption": "Three people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a red and black striped shirt, stands facing two other people.\n\nThe second person, wearing a light-colored shirt and dark pants, stands with their back mostly towards the camera.\n\nThe third person, wearing a dark top and dark pants, stands between the other two, facing the person in the striped shirt.\n\nAll three individuals remain relatively stationary throughout the clip."
+        },
+        {
+          "source_clip": "171-174",
+          "start_sec": 171.0,
+          "end_sec": 174.0,
+          "caption": "Three people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a red and black striped shirt, stands still.\n\nAnother person, wearing a light-colored shirt and dark pants, stands facing the first person and gestures with their right hand.\n\nA third person, wearing a dark top, stands behind the first person and appears to be looking down at something in their hands.\n\nThe three individuals remain in approximately the same positions throughout the clip."
+        },
+        {
+          "source_clip": "174-177",
+          "start_sec": 174.0,
+          "end_sec": 177.0,
+          "caption": "Three people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a red shirt, stands on the left side of the group.\n\nAnother person, wearing a dark shirt, stands in the middle of the group.\n\nA third person, wearing a light-colored shirt, stands on the right side of the group.\n\nThe three individuals are facing each other and appear to be engaged in a conversation.\n\nThey remain in approximately the same positions throughout the clip, with minor shifts in posture."
+        },
+        {
+          "source_clip": "177-180",
+          "start_sec": 177.0,
+          "end_sec": 180.0,
+          "caption": "Three people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a red shirt and dark pants, stands on the left side of the group.\n\nAnother person, wearing a dark top and light-colored pants, stands in the middle of the group.\n\nA third person, wearing a light-colored shirt and dark pants, stands on the right side of the group.\n\nThe three individuals remain relatively stationary throughout the clip, standing close together on the sidewalk."
+        }
+      ]
+    },
+    {
+      "start_sec": 180,
+      "end_sec": 210.0,
+      "intermediate_caption": "Five people are standing on a concrete sidewalk adjacent to a parking lot, forming a cluster primarily located in the lower-left section of the view. Among them, one individual consistently wears a red shirt and appears central to the interaction; they face the remaining members of the group, which includes several others dressed in varied attire such as light-colored tops, dark shirts, and blue garments. Throughout the sequence, the core group remains largely stationary, maintaining close proximity and orientation toward one another, suggesting ongoing conversation or engagement.\n\nAt approximately 186 seconds, a fourth person enters the scene from the far left, crossing the sidewalk toward the right before exiting the frame. By 189 seconds, a total of five people are present—three original figures plus two new arrivals—and shortly after, two individuals begin walking away from the main group along the sidewalk to the left. At least six people become part of the broader visual context during the interval: additional persons are observed in the periphery, including someone walking distantly in the upper-right quadrant starting around 192 seconds, followed later by more pedestrians traversing sidewalks in both directions—one heading away from the camera on the right-side path, and eventually a second pedestrian approaching the camera’s direction from the far right.\n\nBy 201 seconds, the primary group has shifted its spatial positioning within the frame but continues to stay grouped together, now situated closer to the bottom-left corner. Their configuration persists through subsequent frames, though slight repositionings occur without significant movement. Meanwhile, multiple distant walkers continue passing through various parts of the environment—a figure moves steadily away from the camera in the upper-right region, while elsewhere, two individuals move parallel to the parking lot boundary, and finally, a lone walker approaches the foreground from the extreme right.\n\nThroughout the entire duration, no physical contact occurs among those directly engaging in the gathering. All participants maintain consistent postures indicative of social interaction. Shadows stretch clearly across the pavement under strong daylight conditions, confirming clear weather. The surrounding setting features a paved surface bordered by a vacant asphalt parking lot, greenery, and a nearby brick structure with a sloped roof, partially visible on the left. No vehicles enter or exit the space, nor do any notable environmental disturbances arise. The overall activity centers on sustained human presence and minimal motion beyond gradual shifts in posture and peripheral foot traffic.",
+      "source_clips": [
+        "180-183",
+        "183-186",
+        "186-189",
+        "189-192",
+        "192-195",
+        "195-198",
+        "198-201",
+        "201-204",
+        "204-207",
+        "207-210"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "180-183",
+          "start_sec": 180.0,
+          "end_sec": 183.0,
+          "caption": "Three people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a red shirt and dark pants, stands facing the other two individuals.\n\nAnother person, wearing a light-colored top and dark pants, stands with their back mostly towards the camera, facing the person in the red shirt.\n\nA third person, wearing a dark shirt and dark pants, stands between the other two, also facing them.\n\nThe three individuals remain relatively stationary throughout the clip, appearing to be engaged in a conversation."
+        },
+        {
+          "source_clip": "183-186",
+          "start_sec": 183.0,
+          "end_sec": 186.0,
+          "caption": "Three people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a red shirt and dark pants, stands in the middle of the group holding a long, thin object vertically.\n\nTo the left, another person in a maroon shirt and blue jeans stands facing the person with the object.\n\nTo the right, a third person in a light-colored top and dark pants stands facing the other two.\n\nThe three individuals remain relatively stationary throughout the clip, appearing to be engaged in a conversation."
+        },
+        {
+          "source_clip": "186-189",
+          "start_sec": 186.0,
+          "end_sec": 189.0,
+          "caption": "Three people are standing on a sidewalk next to a parking lot. One person in a red shirt stands near the center of the group, while two others stand slightly behind and to the left. A fourth person walks into the frame from the far left and walks across the sidewalk toward the right. The three people who were initially standing remain in place."
+        },
+        {
+          "source_clip": "189-192",
+          "start_sec": 189.0,
+          "end_sec": 192.0,
+          "caption": "A group of five people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a red shirt, stands near the center of the group holding a long, thin object vertically.\n\nTo the left, two people walk away from the group along the sidewalk.\n\nAnother person, wearing a light-colored shirt, stands facing the person with the object.\n\nThe fifth person stands behind the person in the red shirt.\n\nAll individuals cast long shadows on the ground, indicating bright sunlight."
+        },
+        {
+          "source_clip": "192-195",
+          "start_sec": 192.0,
+          "end_sec": 195.0,
+          "caption": "A group of five people are standing on a concrete sidewalk next to a parking lot. They are clustered together, facing each other, and appear to be talking. The group consists of three men and two women. One man wears a red shirt, one wears a blue shirt, and one wears a light-colored shirt. One woman wears a dark top, and the other wears a reddish top. They remain in this general area throughout the clip. A sixth person is visible in the distance, walking on a sidewalk at the far right edge of the frame. The scene is viewed from an elevated angle, showing a brick building with a shingled roof to the left and an empty asphalt parking lot with marked spaces. The shadows indicate it is a sunny day."
+        },
+        {
+          "source_clip": "195-198",
+          "start_sec": 195.0,
+          "end_sec": 198.0,
+          "caption": "A group of five people are standing on a concrete sidewalk next to a parking lot. They are gathered together, facing each other, and appear to be interacting. One person in the group is wearing a red shirt. The group remains in roughly the same position throughout the clip. In the background, a person can be seen walking on a sidewalk in the upper right corner of the frame."
+        },
+        {
+          "source_clip": "198-201",
+          "start_sec": 198.0,
+          "end_sec": 201.0,
+          "caption": "In the lower-left corner of the frame, a group of five people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a red shirt and dark pants, stands with their back mostly to the camera, facing the other four individuals.\n\nThe other four people are standing together, facing the person in the red shirt.\n\nAll five people remain relatively stationary throughout the clip.\n\nIn the upper-right portion of the frame, a single person is walking away from the camera on a sidewalk in the distance."
+        },
+        {
+          "source_clip": "201-204",
+          "start_sec": 201.0,
+          "end_sec": 204.0,
+          "caption": "In the upper left of the frame, a group of four people stand on a concrete sidewalk next to a brick building. One person wears a red shirt, another a blue shirt, one a dark top, and the fourth a light-colored shirt. They remain relatively stationary throughout the clip. In the upper right, a single person walks away from the camera along a sidewalk bordering a parking lot. The parking lot is empty. The scene is viewed from a high angle."
+        },
+        {
+          "source_clip": "204-207",
+          "start_sec": 204.0,
+          "end_sec": 207.0,
+          "caption": "In the lower-left corner of the frame, a group of five people are standing together on a concrete sidewalk next to a grassy area.\n\nOne person in a red shirt stands facing the others, who are positioned around them.\n\nTo the right, a person wearing dark clothing walks away from the camera along a sidewalk bordering a parking lot.\n\nFurther in the distance, near the top-right corner, another person walks away from the camera on a separate sidewalk."
+        },
+        {
+          "source_clip": "207-210",
+          "start_sec": 207.0,
+          "end_sec": 210.0,
+          "caption": "In the upper left of the frame, a group of five people stand together on a concrete sidewalk next to a brick building.\n\nOn the right side of the frame, two individuals walk away from the camera along a sidewalk bordering a parking lot.\n\nA third person walks toward the camera on the same sidewalk, moving from the far right edge of the frame toward the center."
+        }
+      ]
+    },
+    {
+      "start_sec": 210,
+      "end_sec": 240.0,
+      "intermediate_caption": "A group of five people stands together on a concrete sidewalk adjacent to a brick building in the upper left portion of the frame. Simultaneously, two individuals walk away from the camera along a separate sidewalk on the right side of the frame, which runs parallel to an empty parking lot. From an elevated viewpoint, the scene includes visible pavement markings within the parking lot and surrounding structures. Throughout several seconds, the original pair continues their path while another individual enters the frame from the lower right, walking upward toward the center-right; shortly after, a second pedestrian moves downward from the mid-right edge onto the same sidewalk. A third new figure appears at around 225 seconds, crossing diagonally through a grassy space between the main sidewalk and the parking lot, heading from the right toward the left. At 228 seconds, one member of the initial group begins walking toward the right side of the frame, leaving the cluster, while another approaches the group from the far-left edge. By 231 seconds, the number of people gathered has increased to about eight, forming a loosely grouped assembly where most members appear to engage in conversation. One person then departs the group toward the left side of the frame. In subsequent frames, the size reduces again—by 234 seconds there are seven people—and they continue to interact in place without major repositioning. These individuals maintain proximity to the corner of the brick building, with varying distances from its wall. Their positions shift minimally during the final segment, though small movements such as turning heads or minor shifts in stance occur. Shadows stretch across the ground beneath them, suggesting late afternoon lighting conditions. No vehicles enter or exit the parking lot, nor do any cars move elsewhere in view. All observed motion consists solely of pedestrians either approaching, departing, or traversing sidewalks and open areas under consistent environmental visibility.",
+      "source_clips": [
+        "210-213",
+        "213-216",
+        "216-219",
+        "219-222",
+        "222-225",
+        "225-228",
+        "228-231",
+        "231-234",
+        "234-237",
+        "237-240"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "210-213",
+          "start_sec": 210.0,
+          "end_sec": 213.0,
+          "caption": "In the upper left of the frame, a group of five people stand together on a concrete sidewalk next to a brick building.\n\nOn the right side of the frame, two people walk away from the camera along a separate sidewalk that runs parallel to a parking lot.\n\nThe parking lot is empty of vehicles."
+        },
+        {
+          "source_clip": "213-216",
+          "start_sec": 213.0,
+          "end_sec": 216.0,
+          "caption": "In the upper left of the frame, a group of five people stand together on a concrete sidewalk next to a brick building.\n\nOn the right side of the frame, two individuals walk away from the camera along a separate sidewalk that runs parallel to a parking lot.\n\nThe scene is viewed from a high angle, showing the people, the parking lot with marked spaces, and the surrounding buildings and landscaping."
+        },
+        {
+          "source_clip": "216-219",
+          "start_sec": 216.0,
+          "end_sec": 219.0,
+          "caption": "From an elevated perspective, a group of five people stand together on a concrete sidewalk next to a brick building. They remain clustered in the same area throughout the clip. On the opposite side of the parking lot, two other individuals walk along a separate sidewalk, moving away from the camera's position. The scene remains static with no significant changes in activity."
+        },
+        {
+          "source_clip": "219-222",
+          "start_sec": 219.0,
+          "end_sec": 222.0,
+          "caption": "In the upper left of the frame, a group of five people stand together on a concrete sidewalk next to a brick building.\n\nOn the right side of the frame, two individuals walk along a separate sidewalk that runs parallel to a paved parking area.\n\nOne person walks from the bottom right towards the top right of the frame.\n\nAnother person walks from the middle right towards the bottom right of the frame.\n\nAll individuals are walking or standing still. The scene is viewed from a high angle."
+        },
+        {
+          "source_clip": "222-225",
+          "start_sec": 222.0,
+          "end_sec": 225.0,
+          "caption": "A group of five people stand together on a concrete sidewalk next to a brick building.\n\nAnother person walks on the sidewalk on the right side of the frame, moving away from the camera towards the bottom right corner.\n\nA second person walks on the sidewalk on the left side of the frame, moving away from the camera towards the top left corner."
+        },
+        {
+          "source_clip": "225-228",
+          "start_sec": 225.0,
+          "end_sec": 228.0,
+          "caption": "A group of five people stand together on a concrete sidewalk next to a brick building.\n\nAt the same time, a sixth person walks across a grassy area from the right side of the frame toward the left, moving between the sidewalk and the parking lot."
+        },
+        {
+          "source_clip": "228-231",
+          "start_sec": 228.0,
+          "end_sec": 231.0,
+          "caption": "A group of people are standing on a concrete sidewalk next to a brick building.\n\nOne person walks from the group towards the right side of the frame, moving across the sidewalk.\n\nAnother person walks from the left side of the frame towards the group.\n\nThe remaining individuals in the group stand relatively still, with some slight shifting in position."
+        },
+        {
+          "source_clip": "231-234",
+          "start_sec": 231.0,
+          "end_sec": 234.0,
+          "caption": "A group of approximately eight people are standing on a concrete sidewalk next to a parking lot.\n\nOne person walks away from the group towards the left side of the frame.\n\nThe remaining individuals stand in a loose cluster, with some facing each other as if in conversation.\n\nThe group remains in roughly the same position throughout the clip."
+        },
+        {
+          "source_clip": "234-237",
+          "start_sec": 234.0,
+          "end_sec": 237.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nOne person, wearing a dark jacket, walks from the left side of the frame towards the group.\n\nThe remaining six people stand together in a loose cluster, facing each other and appearing to be engaged in conversation.\n\nThey remain in this general area for the duration of the clip, with minimal movement."
+        },
+        {
+          "source_clip": "237-240",
+          "start_sec": 237.0,
+          "end_sec": 240.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are positioned near the corner of a brick building, with some individuals standing closer to the building and others further out on the sidewalk.\n\nThe group remains relatively stationary throughout the clip, appearing to be engaged in conversation.\n\nTheir shadows are cast on the ground, indicating a low sun angle.\n\nNo vehicles are present in the parking lot or moving in the scene."
+        }
+      ]
+    },
+    {
+      "start_sec": 240,
+      "end_sec": 270.0,
+      "intermediate_caption": "A group of people stand on a concrete sidewalk beside an empty parking lot, near the corner where the sidewalk meets the asphalt. The group size varies during the period—starting at six, then changing to five, returning to six, increasing to seven, and ending again at six—with members occasionally shifting positions but remaining largely stationary as they cluster together. They face toward the left side of the frame initially, later turning more inward toward each other, suggesting ongoing conversation. Some individuals hold long, thin objects resembling skateboards; one such item is described as being orange and black. A few wear distinctive clothing items, including a dark jacket and backpack, a light-colored top and dark pants, a red vest, a red and black striped shirt (or safety vest), a blue shirt, and a light-colored long-sleeved shirt. One person wears a dark top while another has a dark shirt. At times, two individuals simultaneously hold long, thin objects. The setting includes a long brick building with a gray or dark roof, white-lined parking spots—including a marked accessible space—and a narrow strip of green grass separating the sidewalk from the pavement. Bright daylight casts clear shadows across the ground, which grow longer through the sequence, indicating the sun's lowering angle. No vehicles appear in the parking lot or nearby roadway at any point. Minor postural adjustments occur continuously among the participants without notable physical interaction beyond verbal engagement implied by body positioning.",
+      "source_clips": [
+        "240-243",
+        "243-246",
+        "246-249",
+        "249-252",
+        "252-255",
+        "255-258",
+        "258-261",
+        "261-264",
+        "264-267",
+        "267-270"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "240-243",
+          "start_sec": 240.0,
+          "end_sec": 243.0,
+          "caption": "A group of six people are standing on a concrete sidewalk next to a parking lot.\n\nThey are positioned near the corner where the sidewalk meets the edge of the asphalt lot.\n\nThe individuals are clustered together, facing generally towards the left side of the frame.\n\nThey remain relatively stationary throughout the clip, with minor shifts in posture and slight movements.\n\nOne person in the center of the group is wearing a dark jacket and carrying a backpack.\n\nAnother person, further to the right, is wearing a light-colored top and dark pants.\n\nThe group is located in front of a long brick building with a gray roof.\n\nThe parking lot is empty, with white lines marking individual spaces, including a designated accessible parking spot.\n\nThe scene is illuminated by bright sunlight, casting distinct shadows of the people and surrounding objects onto the ground."
+        },
+        {
+          "source_clip": "243-246",
+          "start_sec": 243.0,
+          "end_sec": 246.0,
+          "caption": "A group of six people are standing on a concrete sidewalk next to a parking lot.\n\nThey are positioned near the corner where the sidewalk meets the edge of the asphalt lot.\n\nThe individuals are clustered together, facing generally towards the left side of the frame.\n\nThey remain relatively stationary throughout the clip, with minor shifts in posture and slight movements.\n\nThe group is located in front of a long brick building with a dark roof.\n\nThe parking lot is empty, with white lines marking spaces, including a designated accessible space.\n\nA small patch of green grass is situated between the sidewalk and the parking lot."
+        },
+        {
+          "source_clip": "246-249",
+          "start_sec": 246.0,
+          "end_sec": 249.0,
+          "caption": "A group of six people are standing on a concrete sidewalk next to a parking lot.\n\nThey are gathered near the corner of a brick building, with some individuals holding skateboards.\n\nThe group remains relatively stationary throughout the clip, standing close together."
+        },
+        {
+          "source_clip": "249-252",
+          "start_sec": 249.0,
+          "end_sec": 252.0,
+          "caption": "A group of five people are standing on a concrete sidewalk next to a parking lot.\n\nThey are positioned near the corner of a brick building, with one person wearing a red vest.\n\nThe group remains mostly stationary throughout the clip, with slight shifts in posture and minor movements.\n\nNo vehicles are visible in the parking lot or on the adjacent road."
+        },
+        {
+          "source_clip": "252-255",
+          "start_sec": 252.0,
+          "end_sec": 255.0,
+          "caption": "A group of six people are standing on a concrete sidewalk next to a parking lot.\n\nThey are clustered together, facing each other, and appear to be engaged in conversation.\n\nThe group remains relatively stationary throughout the clip.\n\nOne person in the center of the group is wearing a red and black striped shirt.\n\nAnother person is wearing a light-colored long-sleeved shirt.\n\nThe people cast long shadows on the ground, indicating the sun is low in the sky."
+        },
+        {
+          "source_clip": "255-258",
+          "start_sec": 255.0,
+          "end_sec": 258.0,
+          "caption": "A group of five people are standing on a concrete sidewalk next to a parking lot.\n\nOne person in a red and black striped shirt stands with their back mostly to the camera, facing the other four individuals.\n\nTo their left, a person in a blue shirt holds a long, thin object.\n\nAnother person in a dark shirt stands near them, also holding a similar long, thin object.\n\nA fourth person in a light-colored shirt stands slightly apart from the group.\n\nThe fifth person, wearing a dark top, stands behind the person in the light-colored shirt.\n\nAll five individuals remain relatively stationary throughout the clip, appearing to be engaged in a conversation."
+        },
+        {
+          "source_clip": "258-261",
+          "start_sec": 258.0,
+          "end_sec": 261.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a brick building and an empty parking lot.\n\nOne person in the center of the group is wearing a red and black striped safety vest.\n\nThe group is clustered together, facing each other, and appears to be engaged in a conversation.\n\nThey remain mostly stationary throughout the clip, with minor shifts in posture and head orientation.\n\nNo vehicles are present in the scene."
+        },
+        {
+          "source_clip": "261-264",
+          "start_sec": 261.0,
+          "end_sec": 264.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are gathered near the corner of a brick building, with some individuals holding long, thin objects that appear to be skateboards or similar boards.\n\nThe group remains relatively stationary throughout the clip, positioned on the sidewalk adjacent to the empty parking lot."
+        },
+        {
+          "source_clip": "264-267",
+          "start_sec": 264.0,
+          "end_sec": 267.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are gathered near the corner of a brick building, with some individuals holding long, thin objects that appear to be skateboards.\n\nThe group remains clustered together in the same general area throughout the clip, with no significant movement or interaction observed."
+        },
+        {
+          "source_clip": "267-270",
+          "start_sec": 267.0,
+          "end_sec": 270.0,
+          "caption": "A group of six people are standing on a concrete sidewalk next to a parking lot.\n\nThey are clustered together near the corner where the sidewalk meets the edge of the asphalt lot.\n\nThe individuals are mostly facing each other, appearing to be engaged in a conversation.\n\nOne person in the center of the group is holding a long, thin object that is orange and black.\n\nThe group remains relatively stationary throughout the clip, with minor shifts in posture and position."
+        }
+      ]
+    },
+    {
+      "start_sec": 270,
+      "end_sec": 300.0,
+      "intermediate_caption": "A group of seven people stand on a concrete sidewalk beside a parking lot, remaining largely stationary across the entire period. They gather near the corner where the sidewalk meets the asphalt lot, close to a brick building, forming a loosely clustered arrangement. The individuals face one another at various points, suggesting ongoing interaction or conversation. One person consistently holds a long, thin object; initially described as yellow and black, it later becomes clear this item resembles either a flag or banner, though its exact nature remains ambiguous. At times, one individual wears a red and white striped shirt, while another wears a dark jacket and holds what may be a skateboard—though visual details do not confirm definitively whether any object is being used or manipulated beyond simple possession. Minor postural adjustments occur intermittently among members of the group, but overall positioning does not shift significantly. Shadows stretch across the pavement during parts of the sequence, varying between elongated (indicating lower sun) and more defined (suggesting higher light), reflecting changing lighting conditions despite consistent environmental features such as absence of traffic, pedestrians, or moving elements elsewhere in view. No new participants enter the scene, nor do existing ones leave before the end of the observed interval.",
+      "source_clips": [
+        "270-273",
+        "273-276",
+        "276-279",
+        "279-282",
+        "282-285",
+        "285-288",
+        "288-291",
+        "291-294",
+        "294-297",
+        "297-300"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "270-273",
+          "start_sec": 270.0,
+          "end_sec": 273.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are gathered together, facing each other, and appear to be interacting.\n\nOne person in the center of the group is holding a long, thin object that is yellow and black.\n\nThe group remains clustered in the same area throughout the clip, with no significant movement."
+        },
+        {
+          "source_clip": "273-276",
+          "start_sec": 273.0,
+          "end_sec": 276.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are clustered together near the corner where the sidewalk meets the edge of the asphalt lot.\n\nThe individuals are mostly facing each other, appearing to be engaged in conversation.\n\nOne person in the center of the group is holding a long, thin object that is yellow and black.\n\nThe group remains relatively stationary throughout the clip, with minor shifts in posture and position.\n\nThe scene is viewed from an elevated angle, showing the group, the parking lot, and a brick building in the background."
+        },
+        {
+          "source_clip": "276-279",
+          "start_sec": 276.0,
+          "end_sec": 279.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are gathered together, facing each other, and appear to be engaged in conversation.\n\nThe group is positioned on the left side of the frame, near the corner of a brick building.\n\nAll individuals remain relatively stationary throughout the clip, with minor shifts in posture and head orientation.\n\nNo vehicles are present in the parking lot or on the adjacent road."
+        },
+        {
+          "source_clip": "279-282",
+          "start_sec": 279.0,
+          "end_sec": 282.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are positioned near the corner of a brick building, with some individuals facing the building and others facing the parking area.\n\nThe people remain relatively stationary throughout the clip, with minor shifts in posture and slight movements.\n\nTheir shadows are cast long on the ground, indicating the sun is low in the sky."
+        },
+        {
+          "source_clip": "282-285",
+          "start_sec": 282.0,
+          "end_sec": 285.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are positioned near the corner of a brick building, with some individuals facing the building and others facing the parking area.\n\nThe people remain mostly stationary throughout the clip, with minor shifts in posture and slight movements.\n\nTheir shadows are cast long on the ground, indicating the sun is low in the sky."
+        },
+        {
+          "source_clip": "285-288",
+          "start_sec": 285.0,
+          "end_sec": 288.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are gathered together, facing each other, and appear to be engaged in conversation.\n\nThe group is positioned on the left side of the frame, near the corner of a brick building.\n\nAll individuals remain relatively stationary throughout the clip, with minor shifts in posture and head orientation."
+        },
+        {
+          "source_clip": "288-291",
+          "start_sec": 288.0,
+          "end_sec": 291.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are gathered near the corner where the sidewalk meets the edge of the asphalt lot.\n\nThe individuals are mostly stationary, appearing to be engaged in conversation.\n\nOne person in the center of the group is wearing a red and white striped shirt.\n\nAnother person is holding a long, thin object that appears to be a yellow and black flag or banner.\n\nThe group casts distinct shadows on the ground, indicating bright sunlight from a high angle.\n\nThere is no significant movement or change in the scene throughout the clip."
+        },
+        {
+          "source_clip": "291-294",
+          "start_sec": 291.0,
+          "end_sec": 294.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are gathered near the corner where the sidewalk meets the edge of the asphalt lot.\n\nThe individuals are mostly stationary, appearing to be engaged in conversation.\n\nOne person, wearing a red and white striped shirt, stands slightly apart from the main cluster.\n\nAnother person, wearing a dark jacket, holds a long, thin object that appears to be a skateboard.\n\nThe group casts distinct shadows on the ground, indicating bright sunlight.\n\nThere is no significant movement or change in the scene throughout the clip."
+        },
+        {
+          "source_clip": "294-297",
+          "start_sec": 294.0,
+          "end_sec": 297.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are gathered in a loose cluster, facing each other and appear to be engaged in conversation.\n\nThe group is positioned on the left side of the frame, near the corner of a brick building.\n\nAll individuals remain relatively stationary throughout the clip, with minor shifts in posture and head orientation.\n\nNo vehicles are present in the parking lot or on the adjacent road."
+        },
+        {
+          "source_clip": "297-300",
+          "start_sec": 297.0,
+          "end_sec": 300.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThey are clustered together near the corner of a brick building, with some individuals facing each other as if in conversation.\n\nThe group remains mostly stationary throughout the clip.\n\nThe parking lot is empty, and there are no vehicles or other people visible."
+        }
+      ]
+    },
+    {
+      "start_sec": 300,
+      "end_sec": 330.0,
+      "intermediate_caption": "Six people are initially seen standing on a concrete sidewalk next to a parking lot, grouped loosely near the corner of a brick building, facing each other as though conversing. They remain largely motionless during this initial period. A seventh individual joins the group shortly after, increasing their number to seven. During this phase, a dark-colored car passes through the upper-right section of the frame, traveling from right to left before exiting the view.\n\nLater, a silver car enters the scene, driving from the right side of the frame toward the left through the parking lot. As the car approaches, several members of the original group begin to disperse—specifically, one person in a red shirt and another in a dark jacket move separately from the rest, heading respectively toward the building and the parking lot. Five people are observed walking together on the sidewalk in the lower-left quadrant, progressing from right to left, led by the person in the red shirt.\n\nEventually, the silver sedan comes to a stop and parks within a designated spot in the lot. At this point, two people approach the vehicle from the left, joining those already nearby. Meanwhile, three additional individuals remain stationed on the sidewalk near a wooden post—one in a red shirt, one in a blue shirt, and one in a tan shirt—all standing close together. \n\nAs the sequence progresses, the driver’s side door of the silver sedan opens. Two people proceed directly toward the back of the car, while another heads toward the front. A person in a red shirt positions themselves adjacent to the open door, and someone else in a dark jacket remains near the rear passenger side. Simultaneously, one person departs from the small gathering on the sidewalk, walking toward the central part of the frame.\n\nFurther activity includes two more individuals approaching the rear of the now-parked car, both turning away from the camera. An observer notes a person carrying a long pole standing on the sidewalk in the lower-left region, dressed in a blue shirt and red pants. This individual appears briefly but does not engage further. Concurrently, another pedestrian advances toward the front of the car from the right side of the frame, only to turn later and cross the parking lot toward the left.\n\nBy the final moments, two people have congregated at the front of the parked silver sedan, engaging face-to-face in apparent interaction. A new figure begins walking toward them from the left side of the frame. On the far left, two observers stay fixed near a pole, watching the unfolding situation. In the distant background, three figures traverse parallel to the edge of the parking lot, receding toward the upper-right corner of the field of vision. All movements occur under consistent daylight conditions casting elongated shadows, suggesting late afternoon timing. No audio cues or identifiable facial features accompany any action described.",
+      "source_clips": [
+        "300-303",
+        "303-306",
+        "306-309",
+        "309-312",
+        "312-315",
+        "315-318",
+        "318-321",
+        "321-324",
+        "324-327",
+        "327-330"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "300-303",
+          "start_sec": 300.0,
+          "end_sec": 303.0,
+          "caption": "A group of six people are standing on a concrete sidewalk next to a parking lot.\n\nThey are gathered in a loose cluster, facing each other as if in conversation.\n\nThe group is positioned on the left side of the frame, near the corner of a brick building.\n\nAll individuals are standing still throughout the clip.\n\nThe scene is viewed from an elevated angle, looking down on the people and the surrounding area."
+        },
+        {
+          "source_clip": "303-306",
+          "start_sec": 303.0,
+          "end_sec": 306.0,
+          "caption": "A group of six people are standing on a concrete sidewalk next to a parking lot.\n\nThey are positioned near the corner of a brick building, with one person standing slightly apart from the main group.\n\nThe individuals are mostly stationary, appearing to be engaged in conversation.\n\nTheir shadows are cast long on the ground, indicating the sun is low in the sky.\n\nThere is no significant movement or change in the scene throughout the clip."
+        },
+        {
+          "source_clip": "306-309",
+          "start_sec": 306.0,
+          "end_sec": 309.0,
+          "caption": "A group of seven people are standing on a concrete sidewalk next to a parking lot.\n\nThe people are clustered together, facing generally towards the left side of the frame.\n\nA dark-colored car is driving on the road at the top right of the frame, moving from right to left.\n\nThe car continues moving across the top of the frame and exits the view."
+        },
+        {
+          "source_clip": "309-312",
+          "start_sec": 309.0,
+          "end_sec": 312.0,
+          "caption": "A silver car drives from the right side of the frame towards the left, moving through a parking lot.\n\nOn the sidewalk to the left, a group of five people stand together. One person in a red shirt walks away from the group towards the building. Another person in a dark jacket walks away from the group towards the parking lot. The remaining three people remain standing on the sidewalk."
+        },
+        {
+          "source_clip": "312-315",
+          "start_sec": 312.0,
+          "end_sec": 315.0,
+          "caption": "A silver sedan drives slowly through a parking lot from the right side of the frame toward the left.\n\nFive people are walking on a sidewalk in the lower-left portion of the frame, moving generally from right to left.\n\nOne person in a red shirt walks ahead of the group, while four others follow behind.\n\nThe car continues driving past the group of people and moves out of the frame on the left."
+        },
+        {
+          "source_clip": "315-318",
+          "start_sec": 315.0,
+          "end_sec": 318.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot.\n\nTwo people are walking together from the left side of the frame toward the right, passing behind the parked car.\n\nOn the sidewalk in the lower-left corner, three other people are standing near a wooden post.\n\nOne person in a red shirt stands next to the post, another in a blue shirt stands beside them, and a third person in a tan shirt stands a few feet away, facing the other two."
+        },
+        {
+          "source_clip": "318-321",
+          "start_sec": 318.0,
+          "end_sec": 321.0,
+          "caption": "A silver sedan is parked in a marked space in a paved lot.\n\nThree people are walking towards the car from the left side of the frame; one person is closer to the vehicle than the other two.\n\nOn the sidewalk in the lower-left corner, three other people are standing together.\n\nThe people near the car continue to walk towards it."
+        },
+        {
+          "source_clip": "321-324",
+          "start_sec": 321.0,
+          "end_sec": 324.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot next to a brick building.\n\nThe driver's side door of the car opens.\n\nTwo people walk from the sidewalk towards the rear of the car.\n\nOne person walks from the sidewalk towards the front of the car.\n\nA person wearing a red shirt stands near the open driver's side door.\n\nAnother person in a dark jacket stands behind the car, near the rear passenger side.\n\nOn the sidewalk to the left, two people stand together, and one person walks away from them towards the center of the frame."
+        },
+        {
+          "source_clip": "324-327",
+          "start_sec": 324.0,
+          "end_sec": 327.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot, with its driver's side door open.\n\nTwo people are standing near the rear of the car, facing away from the camera.\n\nOne person is walking towards the front of the car from the right side of the frame.\n\nAnother person is walking on the sidewalk in the lower left, moving from right to left.\n\nA person wearing a blue shirt and red pants is standing on the sidewalk in the lower left, holding a long pole.\n\nThe person walking towards the car continues moving forward and then turns to walk across the parking lot towards the left."
+        },
+        {
+          "source_clip": "327-330",
+          "start_sec": 327.0,
+          "end_sec": 330.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot.\n\nTwo people are standing next to the front of the car, facing each other and appearing to interact.\n\nAnother person is walking towards the two people at the car from the left side of the frame.\n\nOn the sidewalk to the left, two people are standing together near a pole.\n\nIn the background, three people are walking away from the camera along the edge of the parking lot, moving towards the top right of the frame."
+        }
+      ]
+    },
+    {
+      "start_sec": 330,
+      "end_sec": 360.0,
+      "intermediate_caption": "A silver sedan is parked in a marked space in a parking lot throughout the entire period. Its driver’s side door remains open during most of the sequence, starting around 333 seconds. Two men initially stand beside the car— one at the front passenger side in a dark jacket, and another near the driver’s side in a light-colored shirt—and appear to interact. One individual then begins entering or exiting the vehicle through the open driver’s side door, assisted or observed by another person nearby. This interaction continues intermittently, with multiple instances indicating someone either getting into or out of the car between 333 seconds and 354 seconds.\n\nThroughout the segment, several groups of pedestrians move within the environment. Initially, two distant figures walk across the parking lot toward the right. Later, a larger group of three to four people moves away from the camera across the parking lot in the upper-right background. At various points, additional individuals enter the frame: some approach the car from different directions (left and right), others cross behind the vehicle, and more continue moving along sidewalks bordering the lot. \n\nOn the sidewalk to the left, activity evolves over time. Early on, a single person holds a long pole-like object. By later frames, this becomes two people standing close together near a pole—one in a red top and blue pants, later seen also in a blue shirt and red pants—facing each other and engaging in conversation. Around 342 seconds, a new figure carrying a blue umbrella enters the scene briefly before leaving. Further along, two people begin walking away from the camera on the left-side sidewalk, remaining visible until about 354 seconds. Near the end, two people again pass farther back along the sidewalk, heading away from the camera.\n\nAn observer notes details such as a brick building, a grassy area, and a paved walkway surrounding the lot, suggesting an urban outdoor setting under consistent lighting conditions. No significant environmental changes occur beyond movement patterns and ongoing human presence. All described activities involve only those present in the visual field without indication of external influences or unobserved causes.",
+      "source_clips": [
+        "330-333",
+        "333-336",
+        "336-339",
+        "339-342",
+        "342-345",
+        "345-348",
+        "348-351",
+        "351-354",
+        "354-357",
+        "357-360"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "330-333",
+          "start_sec": 330.0,
+          "end_sec": 333.0,
+          "caption": "In a parking lot adjacent to a brick building, a silver sedan is parked with two men standing beside it.\n\nOne man, wearing a dark jacket, stands at the front passenger side of the car, while the other man, in a light-colored shirt, stands near the driver's side.\n\nThe two men appear to be interacting, possibly talking, as they stand next to the vehicle.\n\nFurther away, two other individuals are walking across the parking lot towards the right side of the frame.\n\nOn the sidewalk to the left, one person in a red top and blue pants stands still, holding a long pole-like object."
+        },
+        {
+          "source_clip": "333-336",
+          "start_sec": 333.0,
+          "end_sec": 336.0,
+          "caption": "In the parking lot, a silver sedan is parked with its driver's side door open. A person is standing next to the open door, appearing to be getting into or out of the car. Another person is standing beside them near the vehicle. In the background, a group of three people are walking away from the camera across the parking lot. On the sidewalk to the left, a person wearing a blue shirt and red pants is standing still, holding a long pole vertically."
+        },
+        {
+          "source_clip": "336-339",
+          "start_sec": 336.0,
+          "end_sec": 339.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot, with its driver's side door open.\n\nTwo individuals are standing next to the open car door; one appears to be getting into or out of the vehicle while the other stands beside them.\n\nIn the upper right portion of the frame, a group of four people are walking away from the camera across the parking lot.\n\nOn the lower left sidewalk, two people are standing together near a pole."
+        },
+        {
+          "source_clip": "339-342",
+          "start_sec": 339.0,
+          "end_sec": 342.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot.\n\nTwo people are standing next to the driver's side of the car; one person is opening the door while the other stands beside them.\n\nIn the upper right portion of the frame, a group of four people are walking away from the camera across the parking lot.\n\nOn the sidewalk in the lower left corner, two people are standing together, facing each other."
+        },
+        {
+          "source_clip": "342-345",
+          "start_sec": 342.0,
+          "end_sec": 345.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot.\n\nTwo people are walking towards the front of the car from the left side of the frame.\n\nOne person walks from the right side of the frame toward the rear of the car.\n\nAnother person stands on the sidewalk near the bottom left corner, holding a blue umbrella.\n\nIn the upper right background, a group of three people walk away from the camera along a sidewalk."
+        },
+        {
+          "source_clip": "345-348",
+          "start_sec": 345.0,
+          "end_sec": 348.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot. A person wearing dark clothing walks from the right side of the frame towards the driver's side of the car. The person opens the driver's door and gets into the vehicle. On the sidewalk to the left, two other people stand near a pole; one is holding a long object. In the background, a group of three people walk away from the camera along the far edge of the parking lot."
+        },
+        {
+          "source_clip": "348-351",
+          "start_sec": 348.0,
+          "end_sec": 351.0,
+          "caption": "A silver car is parked in a marked space in a parking lot with its driver's side door open.\n\nTwo people are standing on the sidewalk near the front of the car; one person is holding a white object.\n\nA third person walks from the left side of the frame toward the two people on the sidewalk.\n\nIn the background, three people walk away from the camera along a sidewalk."
+        },
+        {
+          "source_clip": "351-354",
+          "start_sec": 351.0,
+          "end_sec": 354.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot with its driver's side door open.\n\nA person is standing outside the car, next to the open door, appearing to be getting into or out of the vehicle.\n\nOn the sidewalk to the left, two people are walking away from the camera.\n\nIn the upper right background, two other people are walking away from the camera along a sidewalk.\n\nThe scene is viewed from an elevated angle, showing a brick building, a grassy area, and a paved walkway."
+        },
+        {
+          "source_clip": "354-357",
+          "start_sec": 354.0,
+          "end_sec": 357.0,
+          "caption": "A silver sedan is parked in a marked space in a paved lot, with its driver's side door open.\n\nTwo people are standing on the sidewalk near the front of the car.\n\nOne person, wearing a blue shirt and red pants, stands facing the other person, who is wearing a dark top and dark pants.\n\nThe two people remain standing and appear to be interacting on the sidewalk.\n\nIn the background, further up the parking lot, three other people are walking away from the camera along the edge of the lot."
+        },
+        {
+          "source_clip": "357-360",
+          "start_sec": 357.0,
+          "end_sec": 360.0,
+          "caption": "A silver sedan is parked in a marked space in a paved lot.\n\nTwo people are standing on the sidewalk near the left edge of the frame, next to a pole.\n\nIn the background, further down the sidewalk, two other people are walking away from the camera."
+        }
+      ]
+    },
+    {
+      "start_sec": 360,
+      "end_sec": 390.0,
+      "intermediate_caption": "A silver sedan is initially parked in a marked space in a paved lot. Two people— one wearing a blue shirt and dark pants, the other wearing a red shirt and dark pants—are standing on the sidewalk near a pole in the lower-left portion of the frame; they stand close together, facing each other, and appear to be interacting. The person in the blue shirt extends their left arm toward the individual in the red shirt at some point during this period. Throughout multiple intervals, the sedan remains stationary before beginning to move around 375 seconds, driving across the parking lot from the right side of the frame toward the left. It continues its movement until it makes a turn into an empty parking spot between 384 seconds and 387 seconds, then proceeds out of view. In the background, starting earlier (from approximately 360 seconds), a pair of pedestrians walks away from the camera along the sidewalk. Later, another group of three people appears in the upper-right background, also walking away from the camera along the sidewalk. This second group transitions onto a crosswalk after about 387 seconds. A consistent elevated perspective shows the surrounding environment including buildings, pavement, and greenery adjacent to the sidewalks. All described movements occur within the observed timeframe without any indication of additional participants entering or leaving the visible areas beyond those noted.",
+      "source_clips": [
+        "360-363",
+        "363-366",
+        "366-369",
+        "369-372",
+        "372-375",
+        "375-378",
+        "378-381",
+        "381-384",
+        "384-387",
+        "387-390"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "360-363",
+          "start_sec": 360.0,
+          "end_sec": 363.0,
+          "caption": "A silver sedan is parked in a marked space in a paved lot.\n\nTwo people are standing on the sidewalk to the left of the frame, near a pole.\n\nIn the background, further up the sidewalk, two other people are walking away from the camera."
+        },
+        {
+          "source_clip": "363-366",
+          "start_sec": 363.0,
+          "end_sec": 366.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot.\n\nTwo people are standing on the sidewalk next to a grassy area.\n\nOne person is wearing a blue jacket and dark pants, while the other is wearing a red shirt and dark pants.\n\nThe two people are standing close together, facing each other, and appear to be interacting.\n\nThe person in the blue jacket has their hands near their face.\n\nThe car remains stationary throughout the clip.\n\nThe people remain in the same general location on the sidewalk."
+        },
+        {
+          "source_clip": "366-369",
+          "start_sec": 366.0,
+          "end_sec": 369.0,
+          "caption": "A silver sedan is parked in a marked space in a paved lot.\n\nTwo people are standing on a concrete sidewalk next to the parking area.\n\nOne person is wearing a blue shirt and dark pants, while the other is wearing a red shirt and dark pants.\n\nThe two people are standing close together, facing each other, and appear to be interacting.\n\nThe person in the blue shirt has their left arm extended towards the person in the red shirt.\n\nThe car remains stationary throughout the clip.\n\nThe scene is viewed from an elevated angle, showing the building, parking lot, and sidewalk."
+        },
+        {
+          "source_clip": "369-372",
+          "start_sec": 369.0,
+          "end_sec": 372.0,
+          "caption": "A silver sedan is parked in a marked space in a paved lot.\n\nTwo people are standing on the sidewalk near the left edge of the frame, next to a pole.\n\nIn the upper right background, a group of three people are walking away from the camera along a sidewalk."
+        },
+        {
+          "source_clip": "372-375",
+          "start_sec": 372.0,
+          "end_sec": 375.0,
+          "caption": "A silver sedan is parked in a marked space in a paved lot.\n\nTwo people are standing on the sidewalk near the left edge of the frame, next to a pole.\n\nIn the upper right background, three people are walking away from the camera along a sidewalk."
+        },
+        {
+          "source_clip": "375-378",
+          "start_sec": 375.0,
+          "end_sec": 378.0,
+          "caption": "A silver sedan is driving through a parking lot, moving from the right side of the frame towards the left.\n\nOn the sidewalk in the lower-left corner, two individuals are standing next to a pole.\n\nIn the upper-right background, three people are walking away from the camera along a sidewalk."
+        },
+        {
+          "source_clip": "378-381",
+          "start_sec": 378.0,
+          "end_sec": 381.0,
+          "caption": "A silver car is parked in a marked space in a parking lot.\n\nTwo people are standing on the sidewalk next to the parking lot, near a small grassy area.\n\nOne person is wearing a blue shirt and dark pants, while the other is wearing a red shirt and dark pants.\n\nThe two people are standing close together, facing each other, and appear to be interacting.\n\nIn the background, further down the sidewalk, three other people are walking away from the camera."
+        },
+        {
+          "source_clip": "381-384",
+          "start_sec": 381.0,
+          "end_sec": 384.0,
+          "caption": "A silver sedan is driving through a parking lot, moving from the upper right area of the frame towards the lower left.\n\nOn the sidewalk in the lower left corner, two people are standing together near a pole.\n\nIn the upper right background, a group of three people are walking away from the camera along a sidewalk."
+        },
+        {
+          "source_clip": "384-387",
+          "start_sec": 384.0,
+          "end_sec": 387.0,
+          "caption": "A silver sedan drives through a parking lot from the right side of the frame towards the left, making a turn into an empty parking space.\n\nOn the sidewalk in the lower-left corner, two people stand together near a pole.\n\nIn the upper-right background, three people walk away from the camera along a sidewalk."
+        },
+        {
+          "source_clip": "387-390",
+          "start_sec": 387.0,
+          "end_sec": 390.0,
+          "caption": "A silver car drives through the parking lot from right to left, moving away from the camera's viewpoint.\n\nOn the sidewalk in the lower-left corner, two people stand together near a pole.\n\nIn the upper-right background, three people walk along a crosswalk."
+        }
+      ]
+    },
+    {
+      "start_sec": 390,
+      "end_sec": 420.0,
+      "intermediate_caption": "Two people, one wearing a blue shirt and dark pants and the other wearing a red shirt and dark pants, stand on a concrete sidewalk adjacent to a parking lot, facing each other and interacting; they hold a long, thin object together during their interaction. At various points within the timeframe, it becomes clear that the individual in the blue shirt holds the object vertically, later seen as a long pole with a yellow tip. This pair remains mostly stationary throughout the sequence. Meanwhile, in the background, groups of pedestrians move across the scene—initially, three people walk away from the camera toward the upper right, then reduce to two, also proceeding along the sidewalk. A silver car drives through the parking lot early in the segment before exiting view, and a dark-colored vehicle appears briefly parked at the far right edge of the frame. The setting features a brick building, marked parking spaces, a grassy area bordered by a low rope fence, and is observed from an elevated perspective. By the end of the period, the person in the blue shirt continues to stand still, now clearly visible wearing red pants instead of dark ones, maintaining possession of the pole-like object.",
+      "source_clips": [
+        "390-393",
+        "393-396",
+        "396-399",
+        "399-402",
+        "402-405",
+        "405-408",
+        "408-411",
+        "411-414",
+        "414-417",
+        "417-420"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "390-393",
+          "start_sec": 390.0,
+          "end_sec": 393.0,
+          "caption": "Two people are standing on the sidewalk next to a building, facing each other and appearing to interact.\n\nA silver car is driving in the parking lot, moving away from the camera towards the top right of the frame.\n\nIn the distance, near the top right corner, a group of three people are walking on the sidewalk."
+        },
+        {
+          "source_clip": "393-396",
+          "start_sec": 393.0,
+          "end_sec": 396.0,
+          "caption": "Two people are standing on the sidewalk next to a building, facing each other. One person is wearing a blue shirt and the other is wearing a red shirt. They remain stationary throughout the clip. In the background, a car is parked in a parking lot. Further in the distance, two other people are walking on the sidewalk. The scene is viewed from an elevated angle."
+        },
+        {
+          "source_clip": "396-399",
+          "start_sec": 396.0,
+          "end_sec": 399.0,
+          "caption": "Two people stand together on the sidewalk near the bottom left of the frame, next to a pole.\n\nIn the upper right portion of the frame, three people walk away from the camera along a sidewalk.\n\nA dark-colored vehicle is parked at the top right edge of the frame."
+        },
+        {
+          "source_clip": "399-402",
+          "start_sec": 399.0,
+          "end_sec": 402.0,
+          "caption": "Two people are standing on the sidewalk next to a building, facing each other. One person is wearing a blue shirt and the other is wearing a red shirt. They remain in this position throughout the clip. In the background, further down the sidewalk, three other people are walking away from the camera. The scene is a parking lot with marked spaces and a grassy area."
+        },
+        {
+          "source_clip": "402-405",
+          "start_sec": 402.0,
+          "end_sec": 405.0,
+          "caption": "Two people stand together on a concrete sidewalk next to a parking lot. One person wears a red shirt and dark pants, while the other wears a blue shirt and dark pants. They are holding a long, thin object between them. The two individuals remain stationary throughout the clip. In the background, further down the sidewalk, three other people are walking away from the camera. The scene is viewed from an elevated angle, showing a brick building, a paved parking area with marked spaces, and a small grassy patch."
+        },
+        {
+          "source_clip": "405-408",
+          "start_sec": 405.0,
+          "end_sec": 408.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person is wearing a blue shirt and the other is wearing a red shirt. They are holding a long, thin object together. In the background, further down the sidewalk, three other people are walking away from the camera. The scene is viewed from an elevated angle."
+        },
+        {
+          "source_clip": "408-411",
+          "start_sec": 408.0,
+          "end_sec": 411.0,
+          "caption": "Two people stand together on the sidewalk next to a parking lot. One person wears a blue shirt and dark pants, while the other wears a red shirt and dark pants. They remain stationary throughout the clip. In the background, further down the sidewalk, three other people walk away from the camera. The scene is viewed from an elevated angle, showing a brick building, a paved parking area with marked spaces, and a grassy section separated by a low rope fence."
+        },
+        {
+          "source_clip": "411-414",
+          "start_sec": 411.0,
+          "end_sec": 414.0,
+          "caption": "Two people are standing on the sidewalk next to a building, facing each other and appearing to talk. One person is wearing a blue shirt and dark pants, while the other is wearing a red shirt and dark pants. They remain in the same general area throughout the clip. In the background, further down the sidewalk, two other people are walking away from the camera. The scene includes a parking lot with marked spaces and a grassy area separated by a low rope fence."
+        },
+        {
+          "source_clip": "414-417",
+          "start_sec": 414.0,
+          "end_sec": 417.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person, wearing a blue shirt and dark pants, is holding a long, thin object vertically. The other person, wearing a red shirt and dark pants, stands beside them. They remain relatively stationary throughout the clip. In the background, further down the sidewalk, two other people are walking away from the camera. The scene is viewed from an elevated angle, showing a brick building, a paved parking area with marked spaces, and a small grassy patch."
+        },
+        {
+          "source_clip": "417-420",
+          "start_sec": 417.0,
+          "end_sec": 420.0,
+          "caption": "A person wearing a blue shirt and red pants stands on a concrete sidewalk next to a parking lot, holding a long pole with a yellow tip.\n\nThe person remains stationary throughout the clip.\n\nIn the background, two other individuals are walking away from the camera on a sidewalk in the upper right corner of the frame."
+        }
+      ]
+    },
+    {
+      "start_sec": 420,
+      "end_sec": 450.0,
+      "intermediate_caption": "Two individuals stand on a concrete sidewalk adjacent to a paved parking lot; one wears a red shirt and holds a long, thin object—described as either a pole or stick—vertically, while the other, wearing a blue shirt, remains nearby, sometimes directly behind the first individual. Throughout the sequence, both stay largely stationary. At various points, they appear to hold the object jointly or maintain close proximity to it. Background activity includes multiple pedestrians walking away along the sidewalk, varying slightly in number across frames (three initially observed, later reduced to two). The setting features a brick building, marked parking spaces, a small grassy strip between the walkway and pavement, and consistent daylight conditions casting clear shadows. The perspective is consistently elevated, offering a view encompassing the sidewalk, parking area, and surrounding structures. No significant environmental shifts occur beyond minor variations in pedestrian presence.",
+      "source_clips": [
+        "420-423",
+        "423-426",
+        "426-429",
+        "429-432",
+        "432-435",
+        "435-438",
+        "438-441",
+        "441-444",
+        "444-447",
+        "447-450"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "420-423",
+          "start_sec": 420.0,
+          "end_sec": 423.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person, wearing a blue shirt and a helmet, is holding a long pole vertically. The other person, wearing a red shirt, stands beside them. In the background, further down the sidewalk, three other people are walking away from the camera. The scene is viewed from an elevated angle, showing a brick building, a paved parking area with marked spaces, and a small grassy patch."
+        },
+        {
+          "source_clip": "423-426",
+          "start_sec": 423.0,
+          "end_sec": 426.0,
+          "caption": "Two individuals are standing on the sidewalk next to a parking lot. One person is wearing a red shirt and dark pants, while the other is wearing a blue shirt and dark pants. They are positioned near a series of short, yellow-topped posts. The two individuals remain relatively stationary throughout the clip. In the background, further down the sidewalk, three other people are walking away from the camera. The scene is viewed from an elevated angle, showing a brick building with a shingled roof to the left and an empty asphalt parking lot with marked spaces. A small patch of grass is located between the sidewalk and the parking lot."
+        },
+        {
+          "source_clip": "426-429",
+          "start_sec": 426.0,
+          "end_sec": 429.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person, wearing a red shirt and dark pants, is holding onto a vertical pole. The other person, wearing a blue shirt and dark pants, stands behind them, also near the pole. In the background, further down the sidewalk, three other people are walking away from the camera. The scene is viewed from an elevated angle, showing a brick building, a paved parking area with marked spaces, and a small grassy patch."
+        },
+        {
+          "source_clip": "429-432",
+          "start_sec": 429.0,
+          "end_sec": 432.0,
+          "caption": "Two people are standing on a concrete sidewalk next to a parking lot. One person is wearing a blue shirt and dark pants, while the other is wearing a red shirt and dark pants. They are holding a long, thin object together. In the background, several other people are walking on a sidewalk further away from the camera. The scene is outdoors during the day, with shadows cast by the sun."
+        },
+        {
+          "source_clip": "432-435",
+          "start_sec": 432.0,
+          "end_sec": 435.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person, wearing a blue shirt and dark pants, is holding a long, thin object vertically. The other person, wearing a red shirt and dark pants, stands beside them. They remain relatively stationary throughout the clip. In the background, further down the sidewalk, two other people are walking away from the camera. The scene is viewed from an elevated angle, showing a brick building, a paved parking area with marked spaces, and a small grassy patch."
+        },
+        {
+          "source_clip": "435-438",
+          "start_sec": 435.0,
+          "end_sec": 438.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person, wearing a blue shirt, stands behind another person who is wearing a red shirt and holding a long, dark pole vertically. The two remain stationary throughout the clip. In the background, further down the sidewalk, three other people are walking away from the camera. The scene is viewed from an elevated angle, showing a brick building, a paved parking area with marked spaces, and a small grassy patch."
+        },
+        {
+          "source_clip": "438-441",
+          "start_sec": 438.0,
+          "end_sec": 441.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a grassy area. One person, wearing a blue shirt, is holding a long, thin object vertically. The other person, wearing a red shirt, stands beside them. They remain relatively stationary throughout the clip. In the background, a paved parking lot with marked spaces is visible, bordered by a brick building. A few other people can be seen walking in the distance at the top right of the frame."
+        },
+        {
+          "source_clip": "441-444",
+          "start_sec": 441.0,
+          "end_sec": 444.0,
+          "caption": "Two people are standing on a concrete sidewalk next to a parking lot. One person, wearing a blue shirt and dark pants, is holding a long, thin object vertically. The other person, wearing a red shirt and dark pants, stands beside them. They remain stationary throughout the clip. In the background, further down the sidewalk, two other people are walking away from the camera. The scene is viewed from an elevated angle, showing a brick building, a paved parking area with marked spaces, and a small grassy patch."
+        },
+        {
+          "source_clip": "444-447",
+          "start_sec": 444.0,
+          "end_sec": 447.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person, wearing a blue shirt, stands behind another person who is wearing a red shirt and holding a long, thin object vertically. The two remain stationary throughout the clip. In the background, further down the sidewalk, three other people are walking away from the camera. The scene is viewed from an elevated angle, showing a brick building, a paved parking area with marked spaces, and a grassy section."
+        },
+        {
+          "source_clip": "447-450",
+          "start_sec": 447.0,
+          "end_sec": 450.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person, wearing a blue shirt and dark pants, stands behind the other person, who is wearing a red shirt and dark pants. The person in the red shirt is holding a long, thin object vertically. Both individuals remain stationary throughout the clip. In the background, further down the sidewalk, two other people are walking away from the camera. The scene is viewed from an elevated angle, showing a brick building, a paved parking area with marked spaces, and a small grassy patch."
+        }
+      ]
+    },
+    {
+      "start_sec": 450,
+      "end_sec": 480.0,
+      "intermediate_caption": "Two individuals, one wearing a blue shirt and the other wearing a red shirt, stand on a concrete sidewalk adjacent to a parking lot across multiple timestamps. Initially, they are positioned near a grassy area; later frames show proximity to a brick building. At various points, the individual in the red shirt holds a long, thin vertical object—described as either a stick, rod, or pole—and sometimes both individuals hold or interact with the object. Around 468 seconds, the person in the blue shirt places their left arm around the shoulder of the person in the red shirt, indicating physical contact during interaction. Throughout most of the sequence, the pair faces each other or stands side-by-side, remaining largely stationary. Background activity consistently shows two distant figures walking away along the sidewalk, occasionally joined briefly by others. An empty parking lot with marked spaces and a small grassy section separated by a low rope fence are present nearby. The setting features consistent elements including a paved walkway, surrounding structures such as buildings and fencing, and ambient daylight conditions producing noticeable shadows. No significant movement occurs beyond minor shifts in posture or positioning within the group.",
+      "source_clips": [
+        "450-453",
+        "453-456",
+        "456-459",
+        "459-462",
+        "462-465",
+        "465-468",
+        "468-471",
+        "471-474",
+        "474-477",
+        "477-480"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "450-453",
+          "start_sec": 450.0,
+          "end_sec": 453.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person, wearing a blue shirt, stands behind another person who is wearing a red shirt and appears to be holding a long, thin object. The two remain stationary in the same position throughout the clip. In the background, further down the sidewalk, three other people are walking away from the camera. The scene is viewed from an elevated angle."
+        },
+        {
+          "source_clip": "453-456",
+          "start_sec": 453.0,
+          "end_sec": 456.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a grassy area. One person, wearing a blue shirt, is holding the handlebars of a bicycle while the other person, wearing a red shirt, stands beside them. They remain stationary throughout the clip. In the background, a brick building with a shingled roof is visible. To the right, there is an empty parking lot with marked spaces and a sidewalk running alongside it. A few people can be seen walking in the distance at the top right of the frame. The scene is illuminated by bright sunlight, casting long shadows."
+        },
+        {
+          "source_clip": "456-459",
+          "start_sec": 456.0,
+          "end_sec": 459.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person, wearing a blue shirt, stands behind the other person, who is wearing a red shirt. The person in the red shirt is holding a long, thin object vertically. Both individuals remain stationary throughout the clip. In the background, further down the sidewalk, two other people are walking away from the camera. The scene is viewed from an elevated angle."
+        },
+        {
+          "source_clip": "459-462",
+          "start_sec": 459.0,
+          "end_sec": 462.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person, wearing a blue shirt, is holding a long, dark pole vertically. The other person, wearing a red shirt, stands beside them, facing the first person. They remain in this position throughout the clip. In the background, further down the sidewalk, two other people are walking away from the camera. The scene is viewed from an elevated angle."
+        },
+        {
+          "source_clip": "462-465",
+          "start_sec": 462.0,
+          "end_sec": 465.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person is wearing a blue shirt and the other is wearing a red shirt. They are holding onto a long, thin object together. The two individuals remain stationary throughout the clip. In the background, further down the sidewalk, two other people are walking away from the camera. The scene is viewed from an elevated angle."
+        },
+        {
+          "source_clip": "465-468",
+          "start_sec": 465.0,
+          "end_sec": 468.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person is wearing a blue shirt and the other is wearing a red shirt. They are standing close together, facing each other, and appear to be interacting. The person in the red shirt is holding a long, thin object. In the background, a brick building with windows is visible. The parking lot is mostly empty with white lines marking the spaces. A few people can be seen walking in the distance at the top right of the frame. The scene is viewed from an elevated angle."
+        },
+        {
+          "source_clip": "468-471",
+          "start_sec": 468.0,
+          "end_sec": 471.0,
+          "caption": "Two people are standing on a concrete sidewalk next to a brick building. One person is wearing a blue shirt and the other is wearing a red shirt. They are facing each other and appear to be talking. The person in the blue shirt has their left arm around the other person's shoulder. They remain in this position for the duration of the clip. A parking lot with marked spaces is visible to the right of the people. A small patch of grass is between the sidewalk and the parking lot. In the background, a few other people can be seen walking in the distance."
+        },
+        {
+          "source_clip": "471-474",
+          "start_sec": 471.0,
+          "end_sec": 474.0,
+          "caption": "Two people are standing on a concrete sidewalk next to a brick building, facing each other and appearing to be in conversation. One person is wearing a blue shirt and the other is wearing a red shirt. They remain in this position throughout the clip. In the background, further down the sidewalk, two other people are walking away from the camera. The scene includes an empty parking lot with marked spaces and a small grassy area bordered by a low rope fence."
+        },
+        {
+          "source_clip": "474-477",
+          "start_sec": 474.0,
+          "end_sec": 477.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person, wearing a red shirt, is holding a long, thin object vertically. The other person, wearing a blue shirt, stands beside them. In the background, further down the sidewalk, two other people are walking away from the camera. The scene remains static throughout the clip."
+        },
+        {
+          "source_clip": "477-480",
+          "start_sec": 477.0,
+          "end_sec": 480.0,
+          "caption": "Two individuals are standing on a concrete sidewalk next to a parking lot. One person, wearing a blue shirt, is holding a long, dark pole vertically. The other person, wearing a red shirt, stands beside them, facing the same direction. They remain stationary throughout the clip. In the background, further down the sidewalk, two other people are walking away from the camera. The scene is viewed from an elevated angle."
+        }
+      ]
+    },
+    {
+      "start_sec": 480,
+      "end_sec": 510.0,
+      "intermediate_caption": "At the beginning of the time window, two people—one in a blue shirt and the other in a red shirt—stand motionless on a concrete sidewalk next to a parking lot, holding a long, thin pole between them. This pair remains stationary through several frames as three others walk away from the camera along the sidewalk behind them. By mid-segment, the two individuals continue standing face-to-face near a grassy area bordering the pavement, maintaining their positions without movement. Later, both begin walking together toward the right side of the frame within the lower-left quadrant, now carrying elongated objects. During this transition, another trio walks across the parking lot in the opposite direction—from right to left—and then later shifts to move toward the right again. Throughout the sequence, the setting features a parked-lot with clearly marked spaces—including a handicap spot—a nearby brick building with a shingled roof, and consistent views from an elevated perspective. The original pair reappears at times standing still once more, positioned close to the edge of the grassy zone, occasionally seen holding vertical poles. Meanwhile, groups of pedestrians traverse various parts of the scene, primarily observed either departing up the path or crossing the asphalt surface. All movements occur under stable lighting conditions, suggesting continuous observation during daylight hours.",
+      "source_clips": [
+        "480-483",
+        "483-486",
+        "486-489",
+        "489-492",
+        "492-495",
+        "495-498",
+        "498-501",
+        "501-504",
+        "504-507",
+        "507-510"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "480-483",
+          "start_sec": 480.0,
+          "end_sec": 483.0,
+          "caption": "Two people stand on the sidewalk next to a parking lot, holding a long pole between them.\n\nOne person wears a blue shirt and dark pants, while the other wears a red shirt and dark pants.\n\nThey remain stationary throughout the clip.\n\nIn the background, further down the sidewalk, three other people are walking away from the camera."
+        },
+        {
+          "source_clip": "483-486",
+          "start_sec": 483.0,
+          "end_sec": 486.0,
+          "caption": "Two people stand on a concrete sidewalk next to a parking lot, holding a long, thin object between them. They remain stationary throughout the clip. In the background, further down the sidewalk, three other people walk away from the camera. The scene is viewed from an elevated angle."
+        },
+        {
+          "source_clip": "486-489",
+          "start_sec": 486.0,
+          "end_sec": 489.0,
+          "caption": "Two people are standing on a concrete sidewalk next to a grassy area, facing each other and appearing to interact. One person wears a blue shirt and the other wears a red shirt. They remain in this position throughout the clip. In the background, further down the sidewalk, two other people are walking away from the camera. The scene includes a parking lot with marked spaces and a brick building."
+        },
+        {
+          "source_clip": "489-492",
+          "start_sec": 489.0,
+          "end_sec": 492.0,
+          "caption": "Two people are standing on a concrete sidewalk next to a parking lot. One person is wearing a blue shirt and the other is wearing a red shirt. They remain stationary throughout the clip. In the background, further down the sidewalk, two other people are walking away from the camera. The scene is viewed from an elevated angle."
+        },
+        {
+          "source_clip": "492-495",
+          "start_sec": 492.0,
+          "end_sec": 495.0,
+          "caption": "Two people are walking on the sidewalk in the lower-left portion of the frame, moving from left to right. One person is wearing a blue shirt and the other is wearing a red shirt. In the upper-right background, a group of three people are walking away from the camera on a distant sidewalk. The scene is otherwise static."
+        },
+        {
+          "source_clip": "495-498",
+          "start_sec": 495.0,
+          "end_sec": 498.0,
+          "caption": "Two people are walking together on the sidewalk in the lower-left portion of the frame, moving from left to right. One person is wearing a blue shirt and the other is wearing a red shirt. In the upper-right background, three people are walking away from the camera on the sidewalk. The scene is viewed from an elevated angle, showing a parking lot with marked spaces, a brick building, and a grassy area."
+        },
+        {
+          "source_clip": "498-501",
+          "start_sec": 498.0,
+          "end_sec": 501.0,
+          "caption": "Two people are walking on the sidewalk in the lower-left portion of the frame, moving from left to right. They are carrying long, thin objects. In the upper-right portion of the frame, three other people are walking together on the sidewalk, also moving from left to right. The scene is a parking lot adjacent to a brick building."
+        },
+        {
+          "source_clip": "501-504",
+          "start_sec": 501.0,
+          "end_sec": 504.0,
+          "caption": "In the foreground, two individuals stand on a concrete sidewalk next to a grassy area. One person, wearing a blue shirt, holds a long, thin object vertically. The other person, wearing a red shirt, stands beside them. In the background, three people walk together across a paved parking lot towards the right side of the frame. The scene is viewed from an elevated angle."
+        },
+        {
+          "source_clip": "504-507",
+          "start_sec": 504.0,
+          "end_sec": 507.0,
+          "caption": "In the lower-left corner of the frame, two people stand on a concrete sidewalk next to a grassy area. One person wears a blue shirt and dark pants, while the other wears a red top and dark pants; they appear to be standing still. In the upper-right portion of the frame, three people walk together across a paved parking lot, moving from right to left. The parking lot has white lines marking spaces, including one designated for handicapped access. A brick building with a shingled roof is visible on the left side of the scene."
+        },
+        {
+          "source_clip": "507-510",
+          "start_sec": 507.0,
+          "end_sec": 510.0,
+          "caption": "In the foreground, two people stand on a concrete sidewalk next to a grassy area. One person wears a blue shirt and holds a long, thin object, while the other, wearing a red shirt, stands beside them. In the background, three people walk across a paved parking lot towards the right side of the frame. The parking lot has white lines marking spaces, including one designated for handicapped access. A brick building with a shingled roof is visible on the left. The scene is viewed from an elevated angle."
+        }
+      ]
+    },
+    {
+      "start_sec": 510,
+      "end_sec": 540.0,
+      "intermediate_caption": "At the beginning of the sequence, two individuals—one in a blue top and one in a red top—stand on a concrete sidewalk beside a grassy area in the lower-left corner, appearing to interact with a vertical pole. Simultaneously, three people walk together across a paved parking lot toward the right side of the frame, while a white car enters from the top right and moves downward, away from the camera. Long shadows stretch to the left, suggesting the sun is low in the sky on the right.\n\nShortly after, a silver car begins driving through the parking lot from right to left. Three people move alongside it in the same direction. Meanwhile, the pair in the lower-left remains engaged at the pole. As the segment progresses, another silver sedan appears entering from the upper right and travels toward the center of the frame before turning slightly to park. Two additional pedestrians begin walking on the sidewalk near a building in the upper-middle section, moving away from the camera.\n\nBy mid-sequence, the first pair—the individual in the blue shirt and the one in the red—are seen again on the sidewalk, now separated as the latter walks away to the right. At this point, the silver sedan has stopped and is fully parked in a designated spot in the central-right region of the frame. On the opposite side, two others walk together on the sidewalk near the building but change direction, now proceeding from left to right.\n\nLater, the number of people increases to five within the scene. The original duo in blue and red shirts reappear walking together past yellow and black bollards on the lower-left sidewalk. Near the building’s upper-right edge, three more people gather and stay mostly stationary. During this period, the silver sedan remains fixed in place.\n\nThen, attention shifts back to the vehicle: a pedestrian approaches the parked silver sedan, opens the driver-side door, and climbs inside. Concurrently, three people continue walking along the sidewalk parallel to the brick structure, progressing away from the car. Another individual departs from the cluster near the building entrance and heads directly toward the parked automobile.\n\nAs the final moments unfold, the silver sedan stays motionless in its assigned space on the right side of the lot. Five total people populate the environment: three proceed steadily from left to right across the pavement close to the building, followed by a smaller group of two farther up and advancing in tandem. All maintain consistent movement patterns until the end, casting elongated shadows under continued low sunlight conditions.",
+      "source_clips": [
+        "510-513",
+        "513-516",
+        "516-519",
+        "519-522",
+        "522-525",
+        "525-528",
+        "528-531",
+        "531-534",
+        "534-537",
+        "537-540"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "510-513",
+          "start_sec": 510.0,
+          "end_sec": 513.0,
+          "caption": "In the lower-left corner of the frame, two individuals stand on a concrete sidewalk next to a grassy area. One person wears a blue top and dark pants, while the other wears a red top and dark pants; they appear to be interacting with a vertical pole. In the upper-right portion of the frame, three people walk together across a paved parking lot towards the right side of the scene. A white car drives into view from the top right and proceeds down the road, moving away from the camera. The shadows of the people and objects are long and cast towards the left, indicating the sun is low in the sky on the right."
+        },
+        {
+          "source_clip": "513-516",
+          "start_sec": 513.0,
+          "end_sec": 516.0,
+          "caption": "A silver car drives through the parking lot from right to left.\n\nThree people walk together in the parking lot, moving from right to left.\n\nTwo people stand on the sidewalk near the bottom left of the frame, facing each other."
+        },
+        {
+          "source_clip": "516-519",
+          "start_sec": 516.0,
+          "end_sec": 519.0,
+          "caption": "A silver sedan drives through a parking lot from the upper right towards the center of the frame.\n\nThree people stand together on a sidewalk in the lower left corner of the frame.\n\nTwo other people walk on the sidewalk near the building in the upper middle part of the frame, moving away from the camera."
+        },
+        {
+          "source_clip": "519-522",
+          "start_sec": 519.0,
+          "end_sec": 522.0,
+          "caption": "A silver sedan drives through a parking lot from the top right towards the center of the frame.\n\nTwo people stand together on the sidewalk in the bottom left corner.\n\nTwo other people walk on the sidewalk along the side of the brick building in the upper middle part of the frame.\n\nThe car continues moving forward and then turns slightly to its right, heading toward a parking space."
+        },
+        {
+          "source_clip": "522-525",
+          "start_sec": 522.0,
+          "end_sec": 525.0,
+          "caption": "There are four people and one car visible in the scene.\n\nOn the left side of the frame, two men are standing on a concrete sidewalk next to a grassy area. One man, wearing a blue shirt, stands still while holding a long, thin object. The other man, wearing a red shirt, walks away from him towards the right.\n\nIn the upper middle part of the frame, near the building, two other people are walking together on the sidewalk, moving from left to right.\n\nA silver sedan is parked in a marked parking space in the center-right of the frame. The car remains stationary throughout the clip."
+        },
+        {
+          "source_clip": "525-528",
+          "start_sec": 525.0,
+          "end_sec": 528.0,
+          "caption": "There are five people and one car visible in the scene.\n\nTwo people, one wearing a blue shirt and the other a red shirt, are walking together on the sidewalk in the lower-left portion of the frame. They are moving from left to right, passing by a series of yellow and black bollards.\n\nIn the upper-right area, near the building, three other people are standing together on the sidewalk. They remain relatively stationary throughout the clip.\n\nA silver sedan is parked in a parking space in the middle-right of the frame. The car remains stationary for the duration of the clip."
+        },
+        {
+          "source_clip": "528-531",
+          "start_sec": 528.0,
+          "end_sec": 531.0,
+          "caption": "Three people are walking on the sidewalk next to a brick building. A fourth person walks towards a silver sedan parked in a marked space in the lot. This person opens the driver's side door and gets into the car. The three people continue walking along the sidewalk away from the car."
+        },
+        {
+          "source_clip": "531-534",
+          "start_sec": 531.0,
+          "end_sec": 534.0,
+          "caption": "There are five people and one car visible in the scene.\n\nA silver sedan is parked in a marked space in the asphalt lot.\n\nThree people are walking together on the sidewalk along the side of the brick building, moving from left to right across the frame.\n\nTwo other people are standing near the entrance of the building, also on the sidewalk.\n\nOne person walks from the group near the building entrance towards the parked car."
+        },
+        {
+          "source_clip": "534-537",
+          "start_sec": 534.0,
+          "end_sec": 537.0,
+          "caption": "There are five people visible in the parking lot area.\n\nThree people are walking together from left to right across the paved surface, near the brick building.\n\nTwo other people are walking together further away, also moving from left to right, towards the upper right of the frame.\n\nA silver sedan is parked in a marked space in the lower right portion of the parking lot.\n\nThe people continue walking throughout the clip, maintaining their relative positions and direction."
+        },
+        {
+          "source_clip": "537-540",
+          "start_sec": 537.0,
+          "end_sec": 540.0,
+          "caption": "In a parking lot adjacent to a brick building, a group of five people are walking.\n\nThree individuals are walking together from the left side of the frame towards the right, moving across the paved area.\n\nA second group of two people are walking further ahead, also moving from left to right.\n\nA silver sedan is parked in a marked space on the right side of the lot.\n\nThe people cast long shadows on the ground, indicating the sun is low in the sky."
+        }
+      ]
+    },
+    {
+      "start_sec": 540,
+      "end_sec": 570.0,
+      "intermediate_caption": "In a parking lot adjacent to a brick building under bright sunlight, multiple groups of people move through the area while a silver sedan remains parked in a marked space throughout. Initially, a group of five people walk across the lot—three together from left to right along the edge, and two others slightly behind them doing the same. By mid-sequence, movement patterns shift: some individuals begin walking from the right side of the frame toward the left, including two persons traveling together along the far edge of the lot. A single pedestrian moves from the right toward the parked vehicle, while several others become stationary at various points within the lot. At least four different positions show static figures—one near the central area, one near the building’s entrance, one beside the car, and a trio gathered on the sidewalk to the right. The group on the sidewalk consists of three people wearing distinctive shirts (red, blue, and dark), remaining largely still during their observation period. Meanwhile, additional pedestrians appear intermittently in the background, either walking away from the camera toward the building or proceeding down the sidewalk. One person approaches the front passenger door of the sedan but does not enter. Throughout the sequence, no significant interaction occurs among any of the individuals observed. All movements occur against a consistent backdrop featuring the parked car, the brick structure, and surrounding pavement and greenery as seen from an elevated vantage point.",
+      "source_clips": [
+        "540-543",
+        "543-546",
+        "546-549",
+        "549-552",
+        "552-555",
+        "555-558",
+        "558-561",
+        "561-564",
+        "564-567",
+        "567-570"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "540-543",
+          "start_sec": 540.0,
+          "end_sec": 543.0,
+          "caption": "In a parking lot adjacent to a brick building, a group of five people are walking.\n\nThree individuals are walking together from the left side of the frame towards the right, moving along the edge of the parking area.\n\nA second group of two people walks separately, also from left to right, further into the parking lot.\n\nA silver sedan is parked in a marked space on the right side of the lot.\n\nAll individuals cast long shadows, indicating bright sunlight."
+        },
+        {
+          "source_clip": "543-546",
+          "start_sec": 543.0,
+          "end_sec": 546.0,
+          "caption": "In a parking lot adjacent to a brick building, a group of people are walking.\n\nA silver sedan is parked in a marked space.\n\nTwo individuals walk from the left side of the frame toward the right, moving away from the building.\n\nAnother person walks from the right side of the frame toward the left, approaching the parked car.\n\nA third individual stands near the center of the parking lot, facing the two people who are walking away from the building."
+        },
+        {
+          "source_clip": "546-549",
+          "start_sec": 546.0,
+          "end_sec": 549.0,
+          "caption": "There are six people and one car visible in the scene.\n\nA silver sedan is parked in a marked space in the asphalt lot.\n\nTwo individuals are walking together from the right side of the frame toward the left along the edge of the parking lot.\n\nAnother two individuals are walking together from the left side of the frame toward the right, moving away from the building.\n\nA fifth person stands stationary near the center of the parking lot, facing the group walking from the left.\n\nA sixth person stands stationary near the building's entrance, also facing the group walking from the left."
+        },
+        {
+          "source_clip": "549-552",
+          "start_sec": 549.0,
+          "end_sec": 552.0,
+          "caption": "There are five people and one car visible in the scene.\n\nA silver sedan is parked in a marked parking space in the middle of the lot.\n\nOn the sidewalk to the right, three people are walking together from left to right.\n\nNear the building on the left, two people are standing and talking.\n\nAnother person is standing alone in the parking lot, between the group near the building and the group on the sidewalk."
+        },
+        {
+          "source_clip": "552-555",
+          "start_sec": 552.0,
+          "end_sec": 555.0,
+          "caption": "A silver sedan is parked in a marked space in a paved lot.\n\nOn the sidewalk to the right of the car, three people are standing together; one person in a red shirt is facing the other two.\n\nFurther back in the lot, near the building, two people are walking away from the camera.\n\nAnother person is standing alone in the middle of the parking area, facing towards the group of three on the sidewalk."
+        },
+        {
+          "source_clip": "555-558",
+          "start_sec": 555.0,
+          "end_sec": 558.0,
+          "caption": "There are six people and one car visible in the scene.\n\nA silver sedan is parked in a marked space in the asphalt lot.\n\nOne person stands in the middle of the parking lot, facing away from the camera towards the building.\n\nTwo people stand together near the top right of the frame, close to the building's entrance.\n\nThree people walk along the sidewalk on the right side of the frame, moving from the bottom right toward the top right."
+        },
+        {
+          "source_clip": "558-561",
+          "start_sec": 558.0,
+          "end_sec": 561.0,
+          "caption": "In the parking lot, a silver sedan is parked in a marked space.\n\nA person in a dark jacket stands near the rear of the car, facing away from it.\n\nOn the sidewalk to the right, three people stand together; one wears a red shirt, another a blue shirt, and the third a dark jacket.\n\nFurther up the parking lot, two other people walk side-by-side toward the top right corner of the frame.\n\nAll individuals remain relatively stationary throughout the clip."
+        },
+        {
+          "source_clip": "561-564",
+          "start_sec": 561.0,
+          "end_sec": 564.0,
+          "caption": "A silver sedan is parked in a marked space in a paved lot.\n\nA person in dark clothing stands in the parking lot near the center of the frame.\n\nOn the sidewalk to the right, three people stand together; one wears a red shirt, one a blue shirt, and one a dark jacket.\n\nIn the upper right background, two people walk away from the camera toward a crosswalk.\n\nThe scene is viewed from an elevated angle, showing a brick building to the left and a grassy area with a sidewalk in the foreground."
+        },
+        {
+          "source_clip": "564-567",
+          "start_sec": 564.0,
+          "end_sec": 567.0,
+          "caption": "A silver sedan is parked in a marked space in a paved lot.\n\nA person in a dark jacket stands near the rear of the car.\n\nThree people stand together on the sidewalk to the right of the parking area; one wears a red shirt, one a blue shirt, and one a dark jacket.\n\nTwo other people walk away from the camera in the background, further up the parking lot.\n\nThe scene is viewed from an elevated angle, showing a brick building to the left and a grassy area with a sidewalk in the foreground."
+        },
+        {
+          "source_clip": "567-570",
+          "start_sec": 567.0,
+          "end_sec": 570.0,
+          "caption": "A silver sedan is parked in a marked space in a paved lot.\n\nA person in a dark jacket stands next to the driver's side of the car.\n\nOn the sidewalk to the right, three people stand together; one wears a red shirt, one a blue shirt, and one a dark jacket.\n\nAnother person walks away from the group towards the upper right of the frame.\n\nIn the background, two people walk together near the entrance of a brick building.\n\nThe scene is viewed from an elevated angle, showing the parking lot, sidewalk, and part of the building."
+        }
+      ]
+    },
+    {
+      "start_sec": 570,
+      "end_sec": 600.0,
+      "intermediate_caption": "A silver sedan is parked in a marked space in a parking lot adjacent to a brick building and a grassy area, as seen from an elevated perspective. At the beginning of the sequence, a person wearing a dark top approaches the vehicle from the sidewalk, opens the driver’s side door, and enters the car. On the sidewalk to the right, three people—two later identified as wearing a red shirt, a blue shirt, and a dark jacket—are initially present and remain largely stationary through much of the timeframe. In the early moments, another pair of pedestrians moves away from the camera along the far edge of the parking lot. \n\nShortly after, two individuals appear near the rear of the car—one carrying a white object—and then move closer to the front where they engage in conversation. A new figure arrives from the left, joining the gathering around the vehicle. By mid-sequence, five people have congregated nearby, including someone holding a white box who walks toward the car, prompting interaction among several bystanders. Later, a person in a light-colored shirt walks across the lot away from the car, while another remains near the rear passenger side. During this period, some figures shift slightly but most stay in place.  \n\nAt approximately 585 seconds, a person beside the open driver’s side door begins closing it, completing the action shortly thereafter. Afterward, only minor movements occur—a pedestrian continues walking farther up the sidewalk, and occasionally shifts happen among those gathered—but overall activity diminishes. Throughout the final minutes, the sedan remains parked, and the trio on the sidewalk stays grouped without significant change until the end of the observed interval.",
+      "source_clips": [
+        "570-573",
+        "573-576",
+        "576-579",
+        "579-582",
+        "582-585",
+        "585-588",
+        "588-591",
+        "591-594",
+        "594-597",
+        "597-600"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "570-573",
+          "start_sec": 570.0,
+          "end_sec": 573.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot.\n\nA person wearing a dark top walks from the sidewalk towards the driver's side of the car, opens the door, and gets inside.\n\nOn the sidewalk to the right, three people stand together. One person in a red shirt stands facing the car, while two others stand behind them.\n\nIn the background, near the top right of the frame, two people walk away from the camera along the edge of the parking lot.\n\nThe scene is viewed from an elevated angle, showing the parking lot, a brick building, and a grassy area."
+        },
+        {
+          "source_clip": "573-576",
+          "start_sec": 573.0,
+          "end_sec": 576.0,
+          "caption": "A silver sedan is parked in a marked space in a paved lot.\n\nTwo people stand near the rear of the car; one person is holding a white object.\n\nOn the sidewalk to the right, three people are standing together.\n\nIn the background, two people walk away from the camera toward the top right corner of the frame.\n\nAnother person walks from the left side of the frame toward the center, approaching the group near the car."
+        },
+        {
+          "source_clip": "576-579",
+          "start_sec": 576.0,
+          "end_sec": 579.0,
+          "caption": "In a parking lot next to a brick building, a silver sedan is parked in a marked space.\n\nTwo men stand near the front of the car, facing each other and appearing to talk. One man wears a dark shirt and pants, while the other wears a light-colored shirt and dark pants.\n\nTo the right of the car, three people stand on the sidewalk: one person in a red shirt, one in a blue shirt, and one in a dark jacket.\n\nFurther in the background, two more people are walking away from the camera along the sidewalk.\n\nAll individuals remain relatively stationary throughout the clip. The scene is viewed from an elevated angle."
+        },
+        {
+          "source_clip": "579-582",
+          "start_sec": 579.0,
+          "end_sec": 582.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot.\n\nFive people are standing in the parking lot near the car.\n\nOne person, holding a white box, walks from the sidewalk towards the car.\n\nAnother person stands facing the person with the box.\n\nTwo other people stand together further down the sidewalk, observing the scene.\n\nA fifth person stands between the two groups, facing the person with the box.\n\nThe people remain relatively stationary throughout the clip."
+        },
+        {
+          "source_clip": "582-585",
+          "start_sec": 582.0,
+          "end_sec": 585.0,
+          "caption": "In a parking lot next to a brick building, a silver sedan is parked in a marked space.\n\nA person in a light-colored shirt and dark pants walks from the right side of the frame toward the center of the lot, moving away from the car.\n\nAnother person in a dark shirt stands near the rear of the car.\n\nOn the sidewalk to the right, three people stand together: one in a red shirt, one in a blue shirt, and one in a dark jacket. They remain relatively stationary throughout the clip."
+        },
+        {
+          "source_clip": "585-588",
+          "start_sec": 585.0,
+          "end_sec": 588.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot.\n\nA person stands next to the open driver's side door of the car.\n\nThree other people are standing on the sidewalk to the right of the car.\n\nOne person walks away from the group towards the top right of the frame.\n\nThe person at the car door closes it."
+        },
+        {
+          "source_clip": "588-591",
+          "start_sec": 588.0,
+          "end_sec": 591.0,
+          "caption": "In the parking lot, a silver sedan is parked with its driver-side door open.\n\nThree individuals are standing on the sidewalk near the car: one person in a red shirt, one in a dark jacket, and one in a dark top.\n\nA fourth individual walks from the right side of the frame toward the left along the sidewalk in the background.\n\nThe three people near the car remain relatively stationary throughout the clip."
+        },
+        {
+          "source_clip": "591-594",
+          "start_sec": 591.0,
+          "end_sec": 594.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot.\n\nThree people are standing together on the sidewalk to the right of the car.\n\nA fourth person is walking on the sidewalk further down the street, away from the other three.\n\nAll individuals remain relatively stationary throughout the clip."
+        },
+        {
+          "source_clip": "594-597",
+          "start_sec": 594.0,
+          "end_sec": 597.0,
+          "caption": "Three people are standing on the sidewalk next to a parking lot.\n\nA silver sedan is parked in a marked space within the lot.\n\nThe three individuals remain stationary on the sidewalk throughout the clip."
+        },
+        {
+          "source_clip": "597-600",
+          "start_sec": 597.0,
+          "end_sec": 600.0,
+          "caption": "Three people are standing on the sidewalk next to a parking lot.\n\nA silver sedan is parked in a marked space within the lot.\n\nThe three people remain standing together on the sidewalk for the duration of the clip."
+        }
+      ]
+    },
+    {
+      "start_sec": 600,
+      "end_sec": 630.0,
+      "intermediate_caption": "A silver sedan is initially parked in a marked space in a parking lot. Three people are standing on the sidewalk to the right of the vehicle. The sedan then moves forward slowly, turning slightly as it exits the parking space; the three people watch. The car proceeds through the parking lot, making a right turn and continuing across the area from the left side of the frame toward the right. As the sedan passes, the three people—distinguished by clothing including a red top, a dark jacket, and another dark top with a backpack—remain standing on the sidewalk without movement until the car exits the scene. \n\nLater, a white car enters the frame from the top right and travels toward the upper edge of the view while the group remains visible on the sidewalk. At this point, one individual wearing a dark jacket stays still, another in a red jacket also remains stationary, but a third person in a dark jacket begins walking away from the pair toward the lower right portion of the frame. Subsequently, the remaining trio repositions themselves so they are again grouped closely on the sidewalk. Now, one person in a red shirt leads the way as the three walk together toward the right side of the frame. Afterward, the group stops and regroups: the person in the red shirt faces the other two, who stand side-by-side. This configuration persists briefly before the person in the red shirt steps slightly closer to the other two. For several seconds afterward, the three stay mostly motionless, positioned such that the person in the red shirt appears to face the other two, suggesting interaction. Throughout the final moments, their positions shift subtly—the person in the red shirt now stands somewhat apart from the other two, who have moved farther down the sidewalk—but no significant action occurs beyond minor adjustments in stance. No new vehicles enter during the last segment.",
+      "source_clips": [
+        "600-603",
+        "603-606",
+        "606-609",
+        "609-612",
+        "612-615",
+        "615-618",
+        "618-621",
+        "621-624",
+        "624-627",
+        "627-630"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "600-603",
+          "start_sec": 600.0,
+          "end_sec": 603.0,
+          "caption": "A silver sedan is parked in a marked space in a parking lot.\n\nThree people are standing on the sidewalk to the right of the car.\n\nThe car begins to move forward slowly, turning slightly as it exits the parking space.\n\nThe three people remain standing on the sidewalk, watching the car."
+        },
+        {
+          "source_clip": "603-606",
+          "start_sec": 603.0,
+          "end_sec": 606.0,
+          "caption": "A silver sedan is driving slowly through a parking lot, making a right turn.\n\nOn the sidewalk to the right, three people are standing together.\n\nThe car continues moving forward after completing its turn."
+        },
+        {
+          "source_clip": "606-609",
+          "start_sec": 606.0,
+          "end_sec": 609.0,
+          "caption": "A silver sedan is driving slowly through a parking lot, moving from the left side of the frame toward the right.\n\nOn the sidewalk on the right side of the frame, three people are standing together. They remain stationary as the car passes by."
+        },
+        {
+          "source_clip": "609-612",
+          "start_sec": 609.0,
+          "end_sec": 612.0,
+          "caption": "A silver sedan drives through a parking lot from the left side of the frame toward the right, exiting the scene.\n\nOn the sidewalk on the right, three people stand together. One person wears a red top, one wears a dark jacket, and one wears a dark top with a backpack. They remain standing in place throughout the clip."
+        },
+        {
+          "source_clip": "612-615",
+          "start_sec": 612.0,
+          "end_sec": 615.0,
+          "caption": "A white car drives through the parking lot from the top right of the frame towards the top edge.\n\nThree people stand on the sidewalk on the right side of the frame.\n\nOne person, wearing a dark jacket, stands still.\n\nAnother person, wearing a red jacket, stands next to them and remains stationary.\n\nA third person, wearing a dark jacket, walks away from the other two along the sidewalk towards the bottom right of the frame."
+        },
+        {
+          "source_clip": "615-618",
+          "start_sec": 615.0,
+          "end_sec": 618.0,
+          "caption": "Three people are walking on the sidewalk next to a parking lot. One person in a red shirt walks ahead of two others. A yellow car is parked at the far end of the parking lot. The people continue walking along the sidewalk towards the right side of the frame."
+        },
+        {
+          "source_clip": "618-621",
+          "start_sec": 618.0,
+          "end_sec": 621.0,
+          "caption": "Three people are standing on the sidewalk next to a parking lot. One person, wearing a red shirt, stands facing two other people. The two other people stand side-by-side, facing the person in the red shirt. A dark-colored car is parked at the far end of the parking lot. The scene remains static throughout the clip."
+        },
+        {
+          "source_clip": "621-624",
+          "start_sec": 621.0,
+          "end_sec": 624.0,
+          "caption": "Three people are standing on the sidewalk next to a parking lot.\n\nOne person, wearing a red shirt, stands facing two other people who are standing side-by-side.\n\nThe person in the red shirt takes a small step forward towards the other two individuals.\n\nAll three remain relatively stationary for the duration of the clip."
+        },
+        {
+          "source_clip": "624-627",
+          "start_sec": 624.0,
+          "end_sec": 627.0,
+          "caption": "Three people are standing on a sidewalk next to a parking lot.\n\nOne person, wearing a red shirt, stands facing two other people who are standing side-by-side.\n\nThe three individuals remain relatively stationary throughout the clip, appearing to be engaged in a conversation."
+        },
+        {
+          "source_clip": "627-630",
+          "start_sec": 627.0,
+          "end_sec": 630.0,
+          "caption": "Three people are standing on a sidewalk next to a parking lot.\n\nOne person, wearing a red shirt, stands facing two other people who are further down the sidewalk.\n\nThe three individuals remain relatively stationary throughout the clip."
+        }
+      ]
+    },
+    {
+      "start_sec": 630,
+      "end_sec": 660.0,
+      "intermediate_caption": "At 630 seconds, three people are standing on a sidewalk adjacent to a parking lot. One individual, wearing a red and black striped shirt, faces the other two, who stand side-by-side and face him. All three remain mostly still through 633 seconds. By 633 seconds, their positions shift slightly—now described as one person in a red shirt and dark pants facing two others—one in a dark jacket and light pants, the other in a dark jacket and dark pants—and they maintain this arrangement until 636 seconds. At 636 seconds, the configuration remains similar: one person in a red shirt faces two others standing side-by-side, all remaining largely motionless. This static posture persists at least until 639 seconds.\n\nStarting around 642 seconds, the trio begins to move. They start walking from right to left along the sidewalk beside the parking lot, maintaining close proximity. From 642 to 645 seconds, the movement becomes clear—the central figure now appears to be wearing a red shirt while the others wear darker clothes. Between 645 and 648 seconds, the person in the red and black striped shirt leads, followed closely by the other two walking side-by-side. Their progression toward the left continues through 648 to 651 seconds, during which the lead walker (in a red shirt) moves forward relative to the pair following behind. \n\nBy 651 seconds, the pattern holds: one person in a red shirt walks ahead, flanked by two companions walking side-by-side, all heading leftward. However, starting at 654 seconds, there’s a directional change—they begin moving from left to right instead, approaching the camera. In this segment, the leading person again wears a red shirt and dark pants, trailed by another in a dark jacket and someone else in a lighter-colored top. Finally, between 657 and 660 seconds, the group stops once more. Now standing still, the person in the red shirt occupies the center position, with two others dressed in dark clothing positioned to his right, one closer and one slightly farther back. No additional movements occur after 660 seconds within the observed timeframe.",
+      "source_clips": [
+        "630-633",
+        "633-636",
+        "636-639",
+        "639-642",
+        "642-645",
+        "645-648",
+        "648-651",
+        "651-654",
+        "654-657",
+        "657-660"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "630-633",
+          "start_sec": 630.0,
+          "end_sec": 633.0,
+          "caption": "Three people are standing on a sidewalk next to a parking lot.\n\nOne person, wearing a red and black striped shirt, stands facing two other people.\n\nThe two other people stand side-by-side, facing the person in the striped shirt.\n\nAll three individuals remain relatively stationary throughout the clip."
+        },
+        {
+          "source_clip": "633-636",
+          "start_sec": 633.0,
+          "end_sec": 636.0,
+          "caption": "Three people are standing on the sidewalk next to a parking lot.\n\nOne person, wearing a red shirt and dark pants, stands facing two other individuals.\n\nThe second person, wearing a dark jacket and light-colored pants, stands facing the first person.\n\nThe third person, wearing a dark jacket and dark pants, stands slightly behind the second person, also facing the first person.\n\nAll three individuals remain relatively stationary throughout the clip."
+        },
+        {
+          "source_clip": "636-639",
+          "start_sec": 636.0,
+          "end_sec": 639.0,
+          "caption": "Three people are standing on a sidewalk next to a parking lot.\n\nOne person, wearing a red shirt, stands facing two other people who are standing side-by-side.\n\nThe three individuals remain relatively stationary throughout the clip."
+        },
+        {
+          "source_clip": "639-642",
+          "start_sec": 639.0,
+          "end_sec": 642.0,
+          "caption": "Three people are standing on the sidewalk next to a parking lot.\n\nOne person, wearing a red and black striped shirt, stands facing two other people.\n\nThe two other people stand side-by-side, facing the person in the striped shirt.\n\nAll three individuals remain relatively stationary throughout the clip."
+        },
+        {
+          "source_clip": "642-645",
+          "start_sec": 642.0,
+          "end_sec": 645.0,
+          "caption": "Three people are walking on the sidewalk next to a parking lot. They are moving from right to left across the frame. The person in the middle is wearing a red shirt. The other two people are wearing dark clothing. The group walks along the edge of the paved area, staying on the concrete sidewalk. There are no other people or vehicles visible in the scene."
+        },
+        {
+          "source_clip": "645-648",
+          "start_sec": 645.0,
+          "end_sec": 648.0,
+          "caption": "Three people are walking on a sidewalk next to a parking lot.\n\nOne person, wearing a red and black striped shirt, walks ahead of the other two.\n\nThe other two people walk side-by-side behind the first person.\n\nAll three individuals are moving from the right side of the frame towards the left side."
+        },
+        {
+          "source_clip": "648-651",
+          "start_sec": 648.0,
+          "end_sec": 651.0,
+          "caption": "Three people are walking on the sidewalk next to a parking lot.\n\nOne person in a red shirt and dark pants walks in the foreground, moving from right to left.\n\nBehind them, two other people walk together, also moving from right to left along the sidewalk.\n\nThe group continues walking along the sidewalk, moving away from the camera's viewpoint."
+        },
+        {
+          "source_clip": "651-654",
+          "start_sec": 651.0,
+          "end_sec": 654.0,
+          "caption": "Three people are walking on the sidewalk next to a parking lot.\n\nOne person, wearing a red shirt, walks ahead of the other two.\n\nThe other two people walk side-by-side behind the first person.\n\nAll three individuals are moving from the right side of the frame towards the left."
+        },
+        {
+          "source_clip": "654-657",
+          "start_sec": 654.0,
+          "end_sec": 657.0,
+          "caption": "Three people are walking on a sidewalk next to a parking lot.\n\nOne person wearing a red shirt and dark pants walks towards the camera on the right side of the frame.\n\nBehind them, two other people walk in the same direction; one wears a dark jacket and the other wears a lighter-colored top.\n\nAll three individuals continue walking along the sidewalk from left to right across the scene."
+        },
+        {
+          "source_clip": "657-660",
+          "start_sec": 657.0,
+          "end_sec": 660.0,
+          "caption": "Three people are standing on a sidewalk next to a parking lot.\n\nOne person, wearing a red shirt, stands near the center of the group.\n\nAnother person, wearing dark clothing, stands to the right of the person in red.\n\nA third person, also in dark clothing, stands further to the right, slightly behind the other two.\n\nAll three individuals remain relatively stationary throughout the clip."
+        }
+      ]
+    },
+    {
+      "start_sec": 660,
+      "end_sec": 689.1885,
+      "intermediate_caption": "At 660 seconds, three people begin walking on a sidewalk adjacent to a parking lot, moving from right to left; one individual in a red shirt and dark pants leads, followed closely by two others walking side-by-side. By 663 seconds, only two individuals remain on screen—now stationary—and appear to engage in conversation; one wears a red-and-black striped shirt, and the other wears a dark top and carries a backpack. This pairing continues through 666 seconds, though the companion’s clothing shifts to a light-colored top and dark pants between frames. At 669 seconds, two people resume movement on the sidewalk, again heading leftward—the lead figure now clearly in a red shirt and dark pants, accompanied by someone in a light-colored top and dark pants—as they pass parked vehicles. \n\nBy 672 seconds, another scene shows two pedestrians walking together along the sidewalk’s edge, both headed left—one in a dark jacket with a backpack, the other in a red shirt—with a brief appearance of a third distant walker in the upper-right corner. Then, starting at 675 seconds, three figures cross the parking lot from right to left—a central figure in a dark top and light pants, flanked by those previously seen (one in a red shirt and dark pants, the other in a light top and dark pants)—moving collectively across marked spaces. Around 678 seconds, this trio halts beside a brick structure within the lot; one remains fixed in place in a red shirt, while two others approach from the left—one in a dark jacket, the other in a dark top and light pants—who stop upon arrival and turn toward their companions. From 681 seconds onward, the three stand grouped centrally in the lot, where two—wearing a dark jacket and a red shirt respectively—are observed interacting face-to-face, while the third, similarly dressed in a dark jacket, positions himself just behind them, remaining oriented toward the pair. Their cluster persists until approximately 684 seconds, after which only two persons remain visible—still positioned nearby, maintaining proximity and orientation toward one another. Finally, beginning around 687 seconds, the two individuals—again identified as one in a dark jacket and the other in a red shirt—begin walking jointly across the parking lot but now move from left to right, progressing toward the periphery near a sidewalk, casting long shadows behind them due to lighting conditions, and staying close during transit.",
+      "source_clips": [
+        "660-663",
+        "663-666",
+        "666-669",
+        "669-672",
+        "672-675",
+        "675-678",
+        "678-681",
+        "681-684",
+        "684-687",
+        "687-689.1885"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "660-663",
+          "start_sec": 660.0,
+          "end_sec": 663.0,
+          "caption": "Three people are walking on a sidewalk next to a parking lot.\n\nOne person wearing a red shirt and dark pants walks ahead of the other two.\n\nThe other two people walk side-by-side behind the first person.\n\nAll three individuals are moving from the right side of the frame towards the left side."
+        },
+        {
+          "source_clip": "663-666",
+          "start_sec": 663.0,
+          "end_sec": 666.0,
+          "caption": "Two individuals are standing on a sidewalk next to a parking lot.\n\nOne person, wearing a red and black striped shirt, stands facing the other person, who is wearing a dark top and carrying a backpack.\n\nThey remain stationary throughout the clip, appearing to be engaged in a conversation."
+        },
+        {
+          "source_clip": "666-669",
+          "start_sec": 666.0,
+          "end_sec": 669.0,
+          "caption": "Two individuals are standing on a sidewalk next to a parking lot. One person, wearing a red and black striped shirt, stands facing the other person, who is wearing a light-colored top and dark pants and carrying a backpack. They remain stationary throughout the clip."
+        },
+        {
+          "source_clip": "669-672",
+          "start_sec": 669.0,
+          "end_sec": 672.0,
+          "caption": "Two people are walking on a sidewalk next to a parking lot. One person is wearing a red shirt and dark pants, and the other is wearing a light-colored top and dark pants. They walk from the right side of the frame towards the left, moving away from the camera's perspective. The person in the red shirt walks slightly ahead of the other person. They continue walking along the sidewalk, passing by marked parking spaces."
+        },
+        {
+          "source_clip": "672-675",
+          "start_sec": 672.0,
+          "end_sec": 675.0,
+          "caption": "Two people are walking together on a paved sidewalk next to a parking lot.\n\nOne person is wearing a dark jacket and carrying a backpack, while the other is wearing a red shirt.\n\nThey walk from the right side of the frame towards the left, moving along the edge of the parking lot.\n\nA third person is briefly visible in the background at the top right, walking away from the camera."
+        },
+        {
+          "source_clip": "675-678",
+          "start_sec": 675.0,
+          "end_sec": 678.0,
+          "caption": "Three people are walking across a paved parking lot from right to left.\n\nOne person in the front wears a dark top and light-colored pants.\n\nA second person follows, wearing a red shirt and dark pants.\n\nA third person walks behind them, wearing a light-colored top and dark pants.\n\nThey walk together in a group, moving from the right side of the frame toward the left, across the marked parking spaces."
+        },
+        {
+          "source_clip": "678-681",
+          "start_sec": 678.0,
+          "end_sec": 681.0,
+          "caption": "Three people are standing in a parking lot next to a brick building.\n\nOne person, wearing a red shirt, stands still on the right side of the group.\n\nAnother person, wearing a dark jacket, walks from the left towards the other two people.\n\nThe third person, wearing a dark top and light pants, walks from the left towards the other two people, then stops and turns to face them."
+        },
+        {
+          "source_clip": "681-684",
+          "start_sec": 681.0,
+          "end_sec": 684.0,
+          "caption": "Three people are standing in a parking lot near the center of the frame. Two individuals, one wearing a dark jacket and the other in a red shirt, are facing each other and appear to be talking. A third person, wearing a dark jacket, stands slightly behind them, also facing the pair. The three remain clustered together in the same general area throughout the clip."
+        },
+        {
+          "source_clip": "684-687",
+          "start_sec": 684.0,
+          "end_sec": 687.0,
+          "caption": "Two people are standing in a parking lot next to a brick building.\n\nOne person, wearing a dark jacket, stands facing the other person, who is wearing a red shirt.\n\nThe two individuals remain relatively stationary in the same spot throughout the clip."
+        },
+        {
+          "source_clip": "687-689.1885",
+          "start_sec": 687.0,
+          "end_sec": 689.1885,
+          "caption": "Two people are walking together across a paved parking lot.\n\nOne person is wearing a dark jacket and the other is wearing a red shirt.\n\nThey are walking from the left side of the frame towards the right, moving from the center of the lot toward the edge near a sidewalk.\n\nTheir shadows are cast on the pavement behind them, indicating the light source is in front of them.\n\nThe two individuals remain close together as they walk."
+        }
+      ]
+    }
+  ]
+}

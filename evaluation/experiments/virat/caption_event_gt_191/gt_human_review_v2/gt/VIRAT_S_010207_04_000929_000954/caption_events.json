@@ -1,0 +1,305 @@
+{
+  "video_id": "VIRAT_S_010207_04_000929_000954",
+  "version": "human_review_v2",
+  "caption_events": [
+    {
+      "caption_event_id": "CE001",
+      "event_form": "individual",
+      "source_atomic_evidence_ids": [
+        "AE001"
+      ],
+      "source_track_ids": [
+        "1"
+      ],
+      "start_frame": 153,
+      "end_frame": 215,
+      "start_time": 6.383,
+      "end_time": 8.9695,
+      "subject": {
+        "category": "person",
+        "group": false,
+        "track_id": "1"
+      },
+      "action": "exiting_facility",
+      "object": [],
+      "direction": null,
+      "semantic_location": null,
+      "reference_sentence": null,
+      "action_family": "facility_transition",
+      "provenance_layer": "original_gt",
+      "review_links": [
+        "V08-04"
+      ]
+    },
+    {
+      "caption_event_id": "HE_V08-01",
+      "event_form": "human_review_semantic_event",
+      "action": "locomotion",
+      "action_family": "locomotion",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "사람이 건물 앞 통로/차양 아래를 걷는다.",
+      "review_links": [
+        "V08-01"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V08-05",
+      "event_form": "human_review_semantic_event",
+      "action": "carrying_object",
+      "action_family": "carrying_object",
+      "subject": {
+        "category": "person",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "걷는 사람이 물건/가방을 운반한다.",
+      "review_links": [
+        "V08-05"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    },
+    {
+      "caption_event_id": "HE_V08-07",
+      "event_form": "human_review_semantic_event",
+      "action": "driving",
+      "action_family": "driving",
+      "subject": {
+        "category": "vehicle",
+        "track_id": null,
+        "identity_verified": false
+      },
+      "source_track_ids": [],
+      "start_time": null,
+      "end_time": null,
+      "start_frame": null,
+      "end_frame": null,
+      "direction": null,
+      "object": [],
+      "reference_sentence": "건물 뒤 배경 도로에서 흰색 밴이 움직인다.",
+      "review_links": [
+        "V08-07"
+      ],
+      "provenance_layer": "user_video_review",
+      "review_status": "confirmed",
+      "temporal_localization": "not_provided",
+      "deduplication_status": "semantic_context_known_actor_time_unresolved",
+      "source_checklist_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6"
+    }
+  ],
+  "confirmed_attributes": [
+    {
+      "review_id": "V08-08",
+      "video_id": "VIRAT_S_010207_04_000929_000954",
+      "statement_ko": "그 흰색 밴은 화면 오른쪽→왼쪽으로 이동한다.",
+      "review_hint_ko": "차량 움직임이 실제일 때만 방향 판정.",
+      "source_record_ids": [
+        "R056"
+      ],
+      "answer": "yes",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "detail",
+      "raw_answer": "yes",
+      "resolved_status": "yes",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[yes] V08-08 [detail] 그 흰색 밴은 화면 오른쪽→왼쪽으로 이동한다.\n  확인 포인트: 차량 움직임이 실제일 때만 방향 판정.\n  출처: R056",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "direction",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "confirmed_context": [],
+  "rejected_claims": [
+    {
+      "review_id": "V08-02",
+      "video_id": "VIRAT_S_010207_04_000929_000954",
+      "statement_ko": "그 사람은 건물 입구 쪽으로 접근한다.",
+      "review_hint_ko": "문을 향해 가는지 이미 나온 뒤 멀어지는지 구분.",
+      "source_record_ids": [
+        "R002",
+        "R003",
+        "R020",
+        "R021",
+        "R038",
+        "R039",
+        "R057"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V08-02 [core] 그 사람은 건물 입구 쪽으로 접근한다.\n  확인 포인트: 문을 향해 가는지 이미 나온 뒤 멀어지는지 구분.\n  출처: R002, R003, R020, R021, R038, R039, R057",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "destination",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V08-03",
+      "video_id": "VIRAT_S_010207_04_000929_000954",
+      "statement_ko": "사람이 출입문을 통과해 건물 안으로 들어간다.",
+      "review_hint_ko": "현재 GT는 exiting. 반대 극성 오인인지 실제 별도 진입도 있는지 확인.",
+      "source_record_ids": [
+        "R003",
+        "R021",
+        "R057"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V08-03 [core] 사람이 출입문을 통과해 건물 안으로 들어간다.\n  확인 포인트: 현재 GT는 exiting. 반대 극성 오인인지 실제 별도 진입도 있는지 확인.\n  출처: R003, R021, R057",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "polarity",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V08-06",
+      "video_id": "VIRAT_S_010207_04_000929_000954",
+      "statement_ko": "그 사람이 카메라에서 멀어져 화면 배경 쪽으로 걷는다.",
+      "review_hint_ko": "원근 방향과 좌우 화면 방향은 별도 기록.",
+      "source_record_ids": [
+        "R075"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "core",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V08-06 [core] 그 사람이 카메라에서 멀어져 화면 배경 쪽으로 걷는다.\n  확인 포인트: 원근 방향과 좌우 화면 방향은 별도 기록.\n  출처: R075",
+      "semantic_kind": "attribute",
+      "action_family": null,
+      "attribute_type": "direction",
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    },
+    {
+      "review_id": "V08-09",
+      "video_id": "VIRAT_S_010207_04_000929_000954",
+      "statement_ko": "통로 옆에 서 있는 다른 사람들이 있다.",
+      "review_hint_ko": "주인공과 별도 사람인지 확인. 정적 상태는 선택 검토.",
+      "source_record_ids": [
+        "R002",
+        "R020",
+        "R038"
+      ],
+      "answer": "no",
+      "answer_source": "user_edited_CHECKLIST_ko.txt",
+      "start_sec": "",
+      "end_sec": "",
+      "actor_id": "",
+      "actual_action": "",
+      "actual_screen_direction": "",
+      "actual_transition_polarity": "",
+      "existing_gt_event_ids": "",
+      "same_event_as": "",
+      "correction_or_evidence": "사용자의 체크리스트 답변을 그대로 반영.",
+      "candidate_priority_at_generation": "context",
+      "raw_answer": "no",
+      "resolved_status": "no",
+      "resolution_ko": "사용자의 체크리스트 답변을 그대로 반영.",
+      "review_block": "[no] V08-09 [context] 통로 옆에 서 있는 다른 사람들이 있다.\n  확인 포인트: 주인공과 별도 사람인지 확인. 정적 상태는 선택 검토.\n  출처: R002, R020, R038",
+      "semantic_kind": "context",
+      "action_family": "context",
+      "attribute_type": null,
+      "provenance": {
+        "source_file": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/human_review/CHECKLIST_ko.txt",
+        "source_sha256": "87d511f21dde2f02f27f9c2b5d540029e2185662abb5ea8d631d5ed96f037ed6",
+        "reviewer": "user",
+        "assistant_video_verification": false
+      }
+    }
+  ],
+  "uncertain_claims": [],
+  "corrected_claims": [],
+  "exhaustive_for_all_visible_events": false,
+  "evaluation_scope": "human-reviewed semantic events, action families and reviewed claims; not temporally localized instance detection"
+}

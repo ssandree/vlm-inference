@@ -1,0 +1,40 @@
+[
+  {
+    "record_id": "R001",
+    "kind": "predicted_events",
+    "action": "driving",
+    "label": "uncertain",
+    "evidence": "both vehicles and people navigating through the open space",
+    "reason_ko": "문맥상 행동/출입 극성이 불확실.",
+    "semantic_uncertain": true,
+    "factual_status": "uncertain_unverified"
+  },
+  {
+    "record_id": "R032",
+    "kind": "action_judgments",
+    "action": "exiting_facility",
+    "label": "uncertain",
+    "evidence": "passing through doorways within the building complex",
+    "reason_ko": "해당 행동 또는 출입 극성의 문맥이 불명확."
+  },
+  {
+    "record_id": "R032",
+    "kind": "predicted_events",
+    "action": "exiting_facility",
+    "label": "uncertain",
+    "evidence": "passing through doorways within the building complex",
+    "reason_ko": "문맥상 행동/출입 극성이 불확실.",
+    "semantic_uncertain": true,
+    "factual_status": "uncertain_unverified"
+  },
+  {
+    "record_id": "R032",
+    "kind": "predicted_events",
+    "action": "entering_facility",
+    "label": "uncertain",
+    "evidence": "passing through doorways within the building complex",
+    "reason_ko": "문맥상 행동/출입 극성이 불확실.",
+    "semantic_uncertain": true,
+    "factual_status": "uncertain_unverified"
+  }
+]

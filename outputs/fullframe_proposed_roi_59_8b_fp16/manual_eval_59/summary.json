@@ -1,0 +1,24 @@
+[
+  {
+    "condition": "full_frame",
+    "n_videos": 59,
+    "mean_provisional_score": 69.12110986388154,
+    "mean_lower": 66.25100887812752,
+    "mean_upper": 71.3276836158192,
+    "reference_pending": 0,
+    "n_yes": 68,
+    "n_unsure": 15,
+    "n_predicted_families": 83
+  },
+  {
+    "condition": "motion_roi",
+    "n_videos": 59,
+    "mean_provisional_score": 71.31022018858509,
+    "mean_lower": 62.79391982781814,
+    "mean_upper": 77.43744955609363,
+    "reference_pending": 0,
+    "n_yes": 74,
+    "n_unsure": 46,
+    "n_predicted_families": 120
+  }
+]

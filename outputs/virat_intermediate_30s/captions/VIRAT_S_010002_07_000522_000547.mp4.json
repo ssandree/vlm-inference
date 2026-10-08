@@ -1,0 +1,59 @@
+{
+  "video": "VIRAT_S_010002_07_000522_000547.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010002_07_000522_000547.mp4.json",
+  "source_caption_sha256": "e18771f9f37d27b22ac5b32b7b354b932d77baaf3abbcc9b7165a155d8471ada",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 15.10221109720484,
+      "intermediate_caption": "At the beginning of the sequence, a person walks from the right side of the frame toward the building entrance in the background. During this period, another individual is briefly visible walking near the building entrance before exiting the frame, while a third person stands nearby on the right side; none of them interact with one another or enter the foreground. For several seconds afterward, there are no people or vehicles present—only a quiet outdoor setting featuring a paved plaza with tables and red umbrellas, a central grassy hill, stairways with railings on the left, distant buildings, and mountainous terrain under a clear blue sky. Later, a new group of movements occurs: again, someone enters from the right and moves toward the building entrance, followed shortly by another brief appearance of a person near the entrance before they move out of sight. At approximately the same moment, a different person appears seated at a table located on the grassy slope in the background. Afterward, the entire scene becomes still once more—the plaza, furniture, landscape features, and surrounding structures remaining motionless until the end of the recording. No further activity takes place after the final segment ends.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-15.10221109720484"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "A person walks from the right side of the frame towards the entrance of the building in the background."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A person walks from the right side of the frame towards the building entrance in the background. Another person is briefly visible walking near the building entrance before moving out of view. A third person is seen standing near the building entrance on the right side of the frame. All individuals remain at a distance and do not interact with each other or the foreground area."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows a campus-like outdoor area with tables and red umbrellas on a paved plaza. A grassy hill is in the center, leading up to buildings. Stairs with railings are on the left side of the frame. In the background, mountains are visible under a clear blue sky. The scene remains static throughout the clip."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with tables and red umbrellas, a grassy hill, stairs leading up to a building, and mountains in the background under a clear sky."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A person walks from the right side of the frame towards the building entrance in the background. Another person is briefly visible walking near the building entrance before moving out of view. A third person is seen sitting at a table on the grassy area in the background. The scene remains otherwise static with no other discernible actions."
+        },
+        {
+          "source_clip": "15-15.10221109720484",
+          "start_sec": 15.0,
+          "end_sec": 15.10221109720484,
+          "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with tables and red umbrellas, a grassy hill, stairs leading up to a building, and mountains in the background under a clear sky. All elements are stationary."
+        }
+      ]
+    }
+  ]
+}

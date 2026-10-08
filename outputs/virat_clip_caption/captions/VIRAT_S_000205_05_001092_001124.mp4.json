@@ -1,0 +1,61 @@
+{
+  "video": "VIRAT_S_000205_05_001092_001124.mp4",
+  "clip_duration_sec": 3,
+  "clips": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 3.0,
+      "caption": "A black car drives from right to left on the road in the foreground.\n\nA dark-colored car drives from right to left on the road in the foreground.\n\nA person walks from right to left across the parking lot near the center of the frame.\n\nTwo people stand together in the middle of the parking lot, near the entrance to a multi-story building.\n\nAnother person walks from right to left along the edge of the parking lot, near the center of the frame."
+    },
+    {
+      "start_sec": 3.0,
+      "end_sec": 6.0,
+      "caption": "A person walks across the parking lot from right to left near the center of the frame.\n\nA dark-colored car drives from right to left along the road in the foreground.\n\nAnother person is standing still in the parking lot near the right edge of the frame.\n\nA second person is visible walking in the background near the entrance to the parking garage on the right side of the frame."
+    },
+    {
+      "start_sec": 6.0,
+      "end_sec": 9.0,
+      "caption": "A person walks across the parking lot from right to left near the center of the frame.\n\nA black car drives from right to left along the road in the foreground.\n\nAnother black car is parked in the far-left background, next to a small white building."
+    },
+    {
+      "start_sec": 9.0,
+      "end_sec": 12.0,
+      "caption": "A person walks across the parking lot from right to left near the center of the frame. Another person walks in the same direction further to the right, closer to the edge of the frame. A third person walks from right to left near the far end of the parking lot, close to a white building. All three individuals are walking at a steady pace. The cars in the parking lot remain stationary throughout the clip."
+    },
+    {
+      "start_sec": 12.0,
+      "end_sec": 15.0,
+      "caption": "A person walks across the parking lot from right to left near the center of the frame.\n\nA silver car drives from right to left on the road in the foreground.\n\nA dark-colored car drives from right to left on the road in the foreground, following the silver car.\n\nA white car drives from right to left on the road in the foreground, following the dark-colored car."
+    },
+    {
+      "start_sec": 15.0,
+      "end_sec": 18.0,
+      "caption": "A person walks across the parking lot from right to left near the far end of the lot.\n\nA dark-colored SUV drives from right to left along the road in the foreground.\n\nA silver minivan drives from right to left along the road in the foreground, following the SUV.\n\nA dark-colored sedan drives from right to left along the road in the foreground, following the minivan.\n\nA dark-colored van drives from right to left along the road in the foreground, following the sedan."
+    },
+    {
+      "start_sec": 18.0,
+      "end_sec": 21.0,
+      "caption": "A person walks across the parking lot from right to left near the center of the frame.\n\nTwo cars drive on the road in the foreground, moving from right to left: a dark minivan followed by a silver minivan.\n\nThe scene is a large outdoor parking lot with numerous parked cars. The background consists of buildings and trees under an overcast sky."
+    },
+    {
+      "start_sec": 21.0,
+      "end_sec": 24.0,
+      "caption": "A dark minivan drives from the right side of the frame towards the left along a road in the foreground.\n\nA silver minivan drives from the right side of the frame towards the left along a road in the foreground, passing behind the first vehicle.\n\nA person wearing dark clothing walks from the right side of the parking lot towards the left, moving between parked cars.\n\nThe scene is a large outdoor parking lot with numerous parked cars. The background consists of brick buildings and trees under an overcast sky."
+    },
+    {
+      "start_sec": 24.0,
+      "end_sec": 27.0,
+      "caption": "A person walks across the parking lot from right to left near the center of the frame.\n\nA silver minivan drives from the bottom right towards the bottom left of the frame, moving along the road in front of the parking lot."
+    },
+    {
+      "start_sec": 27.0,
+      "end_sec": 30.0,
+      "caption": "A person walks across the parking lot from right to left near the center of the frame.\n\nA silver SUV drives from right to left on the road in the foreground.\n\nA dark-colored car drives from right to left on the road in the foreground, following the silver SUV.\n\nA dark-colored car drives from right to left on the road in the foreground, following the silver SUV."
+    },
+    {
+      "start_sec": 30.0,
+      "end_sec": 31.933333333333334,
+      "caption": "A person is standing in the parking lot near the right edge of the frame.\n\nSeveral cars are driving on the road in the foreground: a dark SUV, a silver SUV, and a dark sedan are moving from left to right.\n\nThe parking lot contains numerous parked cars of various colors, including white, black, silver, red, and blue.\n\nA few cars are seen driving within the parking lot, including a dark car turning into a space and a white car driving away from the camera."
+    }
+  ]
+}

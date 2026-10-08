@@ -1,0 +1,17 @@
+{
+  "n_candidates": 140,
+  "n_prior_confirmed": 8,
+  "n_pending": 132,
+  "all_candidate_ids_unique": true,
+  "all_source_records_in_correct_video": true,
+  "source_report_unchanged": true,
+  "all_90_original_captions_available": true,
+  "tsv_json_counts_match": true,
+  "priority_counts": {
+    "confirmed": 8,
+    "core": 110,
+    "detail": 16,
+    "context": 6
+  },
+  "note": "Content/provenance validation and JS syntax check; browser rendering not exercised."
+}

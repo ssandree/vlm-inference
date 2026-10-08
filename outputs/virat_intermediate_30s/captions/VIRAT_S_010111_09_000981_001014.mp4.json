@@ -1,0 +1,52 @@
+{
+  "video": "VIRAT_S_010111_09_000981_001014.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010111_09_000981_001014.mp4.json",
+  "source_caption_sha256": "a3e4e467686e24d7202c56bcc3ccace3554a1c28c0a07e50e89d1ecf95e4475f",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 13.642052565707134,
+      "intermediate_caption": "The scene depicts a large, mostly full outdoor parking lot during daylight hours under clear weather conditions. Numerous parked vehicles—including sedans, SUVs, vans, and trucks—are arranged in rows across the lot; among them, a white truck is present. A large white dumpster is located in the foreground on the left side of the frame. Several small white boxes appear briefly in the foreground at one point but do not move. Buildings and trees line the perimeter of the parking area, with a sports field also visible in the distance. Throughout the entire duration, no people are seen, and no vehicles exhibit movement. All observed activity—such as vehicle placement, object positions, and environmental features—is consistent and unchanged. The camera maintains a fixed, high-angle perspective without panning, zooming, or shifting focus. No interactions, motions, or behavioral changes involving any entities occur at any point within the timeframe.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-13.642052565707134"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "There are no visible people or moving vehicles in the parking lot. The scene is static, showing numerous parked cars, including sedans, SUVs, vans, and trucks, arranged in rows. A large white dumpster is positioned in the foreground on the left side of the frame. In the background, there are buildings and trees. The lighting suggests it is daytime with clear weather."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "There are no discernible actions or movements of people or vehicles in the provided frames. The scene shows a large, mostly full parking lot with numerous cars and a few trucks parked in designated spaces. The vehicles are stationary. In the background, there are buildings and trees. The lighting suggests it is daytime. No specific interactions between individuals or vehicles are visible."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "There are no discernible actions or events occurring in the video. The scene is a static view of a large, mostly full parking lot with numerous parked cars, including sedans, SUVs, vans, and a white truck. A few small white boxes are visible in the foreground. The background consists of buildings and trees under bright sunlight. No people are visible, and no vehicles are moving."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "There are no discernible actions or movements of people or vehicles in the provided frames. The scene is static, showing a large parking lot filled with various parked cars, vans, and trucks under bright sunlight. A large building is visible in the background, along with trees and a sports field. No interactions or changes occur between the frames."
+        },
+        {
+          "source_clip": "12-13.642052565707134",
+          "start_sec": 12.0,
+          "end_sec": 13.642052565707134,
+          "caption": "There are no discernible actions or events occurring in the video clip. The scene shows a large, mostly full parking lot with numerous parked cars under bright sunlight. The vehicles remain stationary throughout the clip. There are no visible people or moving objects. The camera remains fixed, providing a high-angle view of the parking area and surrounding buildings."
+        }
+      ]
+    }
+  ]
+}

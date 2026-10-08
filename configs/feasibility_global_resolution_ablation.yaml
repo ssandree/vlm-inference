@@ -1,0 +1,77 @@
+# Global-resolution ablation on the existing Motion-guided ROI → VLM pipeline.
+# Does not change ROI generation/sampling, Global timestamps, prompt, or eval.
+# Only experiment.global_scale (and the derived Global max_pixels) varies.
+# Isolated output dir: never overwrites previous experiment results.
+
+model: 8b
+
+generation:
+  max_new_tokens: 256
+  do_sample: false
+  temperature: 0.7
+  top_p: 0.8
+  top_k: 20
+  repetition_penalty: 1.2
+  no_repeat_ngram_size: 8
+
+video:
+  fps: 2.0
+  min_pixels: 4096
+  max_pixels: 262144
+  total_pixels: 20971520
+
+image:
+  min_pixels: 4096
+  max_pixels: 262144
+
+mode: experiment
+
+experiment:
+  global_pattern: 'global_frame_(?P<frame>\d+)_t(?P<time>\d+(?:\.\d+)?)'
+  roi_pattern: 'tube(?P<roi>\d+)_frame_(?P<frame>\d+)_t(?P<time>\d+(?:\.\d+)?)(?:_fps_\d+)?'
+  global_label: '[Global] t={time}s'
+  roi_label: '[ROI{roi}] t={time}s'
+  input_order: global_anchor
+  roi_frames: default
+  global_insert: start_only
+  global_insert_source: fps_1
+  global_insert_dedup_eps: 0.5
+  roi_sampling_tau: 8.0
+  save_vlm_inputs: true
+  global_scale: 1.0
+
+prompt_file: prompts/frames_roi.txt
+
+output:
+  dir: outputs/global_resolution_ablation
+  file: results.json
+
+experiments:
+  - global_roi_start_only_roi_accumulated_motion
+
+feasibility:
+  method_prompts:
+    global_roi_start_only_roi_accumulated_motion: prompts/frames_roi.txt
+  videos:
+    - VIRAT_S_000201_02_000590_000623
+    - VIRAT_S_000200_01_000226_000268
+    - VIRAT_S_000201_06_001354_001397
+    - VIRAT_S_010003_08_000739_000778
+    - VIRAT_S_010004_00_000064_000100
+    - VIRAT_S_010106_05_000954_000996
+    - VIRAT_S_010200_05_000658_000700
+    - VIRAT_S_040000_02_000111_000145
+    - VIRAT_S_050000_05_000696_000732
+  datasets:
+    video_root: /data/datasets/virat_9vid
+    fps_0_25: /data/datasets/fps_sampling_frames/fps0_25
+    fps_1: /data/datasets/fps_sampling_frames/fps_1
+    fps_2: /data/datasets/fps_sampling_frames/fps_2
+    proposed_roi: /data/datasets/proposed_ROI/gaptype5_fps1
+    proposed_roi_w_fps: /data/datasets/proposed_ROI_w_fps/gaptype5_fps1
+    single_motion_roi: /data/datasets/single_motion_ROI/fps1
+    single_motion_roi_w_fps: /data/datasets/single_motion_ROI_w_fps/fps1
+  tracks_root: /home/ssandree/motion-detector/outputs/stage3/3_roi_tube/vlm_9vid_tg0.35_tm0.35
+  jpeg_quality: 95
+  cache_file: outputs/global_resolution_ablation/inference_cache.json
+  resume: true

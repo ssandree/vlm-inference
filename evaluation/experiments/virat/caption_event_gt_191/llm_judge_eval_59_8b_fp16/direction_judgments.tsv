@@ -1,0 +1,43 @@
+record_id	video_id	condition	gt_status	action	gt_direction	label	evidence	reason_ko
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	carrying_object	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	locomotion	lower_left_to_upper_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	locomotion	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	locomotion	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R010	VIRAT_S_010001_02_000195_000498	full_frame	nonempty_gt	locomotion	top_to_bottom	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	carrying_object	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	locomotion	lower_left_to_upper_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	locomotion	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	locomotion	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R011	VIRAT_S_010001_02_000195_000498	motion_roi	nonempty_gt	locomotion	top_to_bottom	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R020	VIRAT_S_010001_10_000962_001005	full_frame	nonempty_gt	carrying_object	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R021	VIRAT_S_010001_10_000962_001005	motion_roi	nonempty_gt	carrying_object	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R024	VIRAT_S_010002_03_000236_000261	full_frame	nonempty_gt	carrying_object	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R025	VIRAT_S_010002_03_000236_000261	motion_roi	nonempty_gt	carrying_object	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	carrying_object	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	locomotion	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	locomotion	lower_left_to_upper_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R032	VIRAT_S_010003_03_000219_000259	full_frame	nonempty_gt	locomotion	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	carrying_object	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	locomotion	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	locomotion	lower_left_to_upper_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R033	VIRAT_S_010003_03_000219_000259	motion_roi	nonempty_gt	locomotion	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R036	VIRAT_S_010003_07_000608_000636	full_frame	nonempty_gt	carrying_object	upper_right_to_lower_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R037	VIRAT_S_010003_07_000608_000636	motion_roi	nonempty_gt	carrying_object	upper_right_to_lower_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R042	VIRAT_S_010005_05_000397_000430	full_frame	nonempty_gt	entering_facility	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R043	VIRAT_S_010005_05_000397_000430	motion_roi	nonempty_gt	entering_facility	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R046	VIRAT_S_010106_02_000656_000692	full_frame	nonempty_gt	locomotion	left_to_right	correct	Two individuals walk together through an empty parking lot toward the right side	보행의 오른쪽 이동이 명시됨.
+R046	VIRAT_S_010106_02_000656_000692	full_frame	nonempty_gt	locomotion	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R047	VIRAT_S_010106_02_000656_000692	motion_roi	nonempty_gt	locomotion	left_to_right	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R047	VIRAT_S_010106_02_000656_000692	motion_roi	nonempty_gt	locomotion	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	carrying_object	bottom_to_top	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	locomotion	lower_right_to_upper_left	contradictory	both moving from left to right	서술된 보행은 좌→우이며 GT 우하→좌상과 불일치.
+R050	VIRAT_S_010107_00_000019_000057	full_frame	nonempty_gt	locomotion	right_to_left	contradictory	both moving from left to right	보행자를 포함한 두 주체가 좌→우로 이동한다고 명시하여 반대 방향.
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	carrying_object	bottom_to_top	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	locomotion	lower_right_to_upper_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R051	VIRAT_S_010107_00_000019_000057	motion_roi	nonempty_gt	locomotion	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R070	VIRAT_S_010111_08_000920_000954	full_frame	nonempty_gt	locomotion	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R071	VIRAT_S_010111_08_000920_000954	motion_roi	nonempty_gt	locomotion	right_to_left	correct	two people stroll past parked cars heading towards the left edge of the frame	좌측을 향한 보행이 명시됨.
+R102	VIRAT_S_010207_10_001549_001596	full_frame	nonempty_gt	locomotion	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R103	VIRAT_S_010207_10_001549_001596	motion_roi	nonempty_gt	locomotion	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R104	VIRAT_S_010208_09_000857_000886	full_frame	nonempty_gt	exiting_facility	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.
+R105	VIRAT_S_010208_09_000857_000886	motion_roi	nonempty_gt	exiting_facility	right_to_left	missing		동일 행동에 연결된 해당 화면 이동 방향이 명시되지 않음.

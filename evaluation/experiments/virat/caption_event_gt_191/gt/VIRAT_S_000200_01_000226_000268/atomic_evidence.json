@@ -1,0 +1,58 @@
+{
+  "video_id": "VIRAT_S_000200_01_000226_000268",
+  "atomic_evidence": [
+    {
+      "atomic_evidence_id": "AE001",
+      "source": {
+        "type": "virat_activity",
+        "virat_event_ids": [
+          "0"
+        ],
+        "source_track_ids": [
+          "9",
+          "10"
+        ]
+      },
+      "start_frame": 674,
+      "end_frame": 804,
+      "start_time": 22.4667,
+      "end_time": 26.8,
+      "subject": {
+        "category": "person",
+        "track_id": "9"
+      },
+      "action": "getting_out_of_vehicle",
+      "object": [
+        {
+          "track_id": "10",
+          "category": "car",
+          "object_type_id": 2,
+          "source": "virat_mapping"
+        }
+      ],
+      "direction": null,
+      "screen_location": {
+        "source": "derived_from_track",
+        "value": "left_middle",
+        "track_id": "9",
+        "method": "median_centroid_3x3",
+        "median_centroid_norm": [
+          0.1367,
+          0.5476
+        ],
+        "n_boxes": 130,
+        "reason": null
+      },
+      "semantic_location": null,
+      "caption_evaluable": true,
+      "activity_class": "person_getting_out_of_vehicle",
+      "duplicate_candidate": false,
+      "confirmed_caption_event": true,
+      "review": {
+        "human_verified": false,
+        "keep_as_caption_event": null,
+        "note": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,648 @@
+{
+  "combinations": [
+    {
+      "direction_threshold": 0.5,
+      "lowest_coherence_accepted": {
+        "role": "lowest_coherence_accepted",
+        "direction_threshold": 0.5,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "7",
+          "15"
+        ],
+        "directions": [
+          "diagonal_left_to_right_down",
+          "diagonal_right_to_left_up"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 600,
+        "overlap_end_frame": 896,
+        "temporal_overlap_ratio": 0.7297,
+        "median_normalized_distance": 0.067,
+        "p90_normalized_distance": 0.0819,
+        "max_normalized_distance": 0.0847,
+        "direction_cosine": 0.6754,
+        "passes_temporal": true,
+        "passes_spatial": true,
+        "opposite_direction": false,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 그룹에 남은 쌍 중에서, 방향이 가장 덜 비슷한 쌍",
+          "둘은 시간이 겹치고 거리도 가깝습니다. 방향 유사도도 기준을 넘어서 같은 그룹 후보로 남았습니다.",
+          "시간 겹침 0.73 (0.30 이상이면 통과), 거리 0.067 (0.15 이하면 통과), 방향 유사도 0.68 (1이면 같은 방향, 음수면 반대, 이번 기준 0.5 이상).",
+          "track 7 (왼쪽위→오른쪽아래) / track 15 (오른쪽아래→왼쪽위). 사람이 walking인지 확인하기 전인 후보입니다."
+        ]
+      },
+      "highest_coherence_rejected": {
+        "role": "highest_coherence_rejected",
+        "direction_threshold": 0.5,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "7",
+          "16"
+        ],
+        "directions": [
+          "diagonal_left_to_right_down",
+          "right_to_left"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 600,
+        "overlap_end_frame": 900,
+        "temporal_overlap_ratio": 0.7396,
+        "median_normalized_distance": 0.0541,
+        "p90_normalized_distance": 0.0628,
+        "max_normalized_distance": 0.067,
+        "direction_cosine": 0.4741,
+        "passes_temporal": true,
+        "passes_spatial": true,
+        "opposite_direction": false,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 그룹에서 빠진 쌍 중에서, 방향이 가장 비슷한 쌍",
+          "시간과 거리는 통과했습니다. 방향 유사도가 기준보다 낮아 같은 그룹에서 빠졌습니다.",
+          "같은 기준의 '가장 덜 비슷한 통과 쌍'과 나란히 보면 방향 기준의 경계가 보입니다.",
+          "시간 겹침 0.74 (0.30 이상이면 통과), 거리 0.054 (0.15 이하면 통과), 방향 유사도 0.47 (1이면 같은 방향, 음수면 반대, 이번 기준 0.5 이상).",
+          "track 7 (왼쪽위→오른쪽아래) / track 16 (오른쪽→왼쪽)."
+        ]
+      },
+      "opposite_direction_rejected": {
+        "role": "opposite_direction_rejected",
+        "direction_threshold": 0.5,
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010001_02_000195_000498.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "8",
+          "9"
+        ],
+        "directions": [
+          "left_to_right",
+          "right_to_left"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 620,
+        "overlap_end_frame": 1221,
+        "temporal_overlap_ratio": 1.0,
+        "median_normalized_distance": 0.0511,
+        "p90_normalized_distance": 0.1567,
+        "max_normalized_distance": 0.2003,
+        "direction_cosine": -1.0,
+        "passes_temporal": true,
+        "passes_spatial": true,
+        "opposite_direction": true,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 가까이 있고 시간도 겹치지만, 반대 방향으로 지나가는 쌍",
+          "시간과 거리는 통과했습니다. 방향이 반대라 한 그룹으로 보지 않습니다.",
+          "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.051 (0.15 이하면 통과), 방향 유사도 -1.00 (1이면 같은 방향, 음수면 반대, 이번 기준 0.5 이상).",
+          "track 8 (왼쪽→오른쪽) / track 9 (오른쪽→왼쪽)."
+        ]
+      },
+      "same_direction_spatial_rejected": {
+        "role": "same_direction_spatial_rejected",
+        "direction_threshold": 0.5,
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010001_02_000195_000498.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "8",
+          "37"
+        ],
+        "directions": [
+          "left_to_right",
+          "left_to_right"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 171,
+        "overlap_end_frame": 785,
+        "temporal_overlap_ratio": 1.0,
+        "median_normalized_distance": 0.1672,
+        "p90_normalized_distance": 0.3138,
+        "max_normalized_distance": 0.4174,
+        "direction_cosine": 0.9814,
+        "passes_temporal": true,
+        "passes_spatial": false,
+        "opposite_direction": false,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 방향은 비슷한데, 화면에서 멀리 떨어져 빠진 쌍",
+          "시간과 방향은 통과했습니다. 두 사람 사이 거리가 0.15보다 커서 같은 그룹에서 빠졌습니다.",
+          "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.167 (0.15 이하면 통과), 방향 유사도 0.98 (1이면 같은 방향, 음수면 반대, 이번 기준 0.5 이상).",
+          "track 8 (왼쪽→오른쪽) / track 37 (왼쪽→오른쪽).",
+          "track 37은 기존 VIRAT 주석에서 running인 사람입니다. walking으로 확정하지 않았습니다."
+        ]
+      }
+    },
+    {
+      "direction_threshold": 0.7,
+      "lowest_coherence_accepted": {
+        "role": "lowest_coherence_accepted",
+        "direction_threshold": 0.7,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "3",
+          "15"
+        ],
+        "directions": [
+          "right_to_left",
+          "diagonal_right_to_left_up"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 621,
+        "temporal_overlap_ratio": 1.0,
+        "median_normalized_distance": 0.0628,
+        "p90_normalized_distance": 0.1078,
+        "max_normalized_distance": 0.1356,
+        "direction_cosine": 0.9654,
+        "passes_temporal": true,
+        "passes_spatial": true,
+        "opposite_direction": false,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 그룹에 남은 쌍 중에서, 방향이 가장 덜 비슷한 쌍",
+          "둘은 시간이 겹치고 거리도 가깝습니다. 방향 유사도도 기준을 넘어서 같은 그룹 후보로 남았습니다.",
+          "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.063 (0.15 이하면 통과), 방향 유사도 0.97 (1이면 같은 방향, 음수면 반대, 이번 기준 0.7 이상).",
+          "track 3 (오른쪽→왼쪽) / track 15 (오른쪽아래→왼쪽위). 사람이 walking인지 확인하기 전인 후보입니다."
+        ]
+      },
+      "highest_coherence_rejected": {
+        "role": "highest_coherence_rejected",
+        "direction_threshold": 0.7,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "7",
+          "15"
+        ],
+        "directions": [
+          "diagonal_left_to_right_down",
+          "diagonal_right_to_left_up"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 600,
+        "overlap_end_frame": 896,
+        "temporal_overlap_ratio": 0.7297,
+        "median_normalized_distance": 0.067,
+        "p90_normalized_distance": 0.0819,
+        "max_normalized_distance": 0.0847,
+        "direction_cosine": 0.6754,
+        "passes_temporal": true,
+        "passes_spatial": true,
+        "opposite_direction": false,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 그룹에서 빠진 쌍 중에서, 방향이 가장 비슷한 쌍",
+          "시간과 거리는 통과했습니다. 방향 유사도가 기준보다 낮아 같은 그룹에서 빠졌습니다.",
+          "같은 기준의 '가장 덜 비슷한 통과 쌍'과 나란히 보면 방향 기준의 경계가 보입니다.",
+          "시간 겹침 0.73 (0.30 이상이면 통과), 거리 0.067 (0.15 이하면 통과), 방향 유사도 0.68 (1이면 같은 방향, 음수면 반대, 이번 기준 0.7 이상).",
+          "track 7 (왼쪽위→오른쪽아래) / track 15 (오른쪽아래→왼쪽위)."
+        ]
+      },
+      "opposite_direction_rejected": {
+        "role": "opposite_direction_rejected",
+        "direction_threshold": 0.7,
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010001_02_000195_000498.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "8",
+          "9"
+        ],
+        "directions": [
+          "left_to_right",
+          "right_to_left"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 620,
+        "overlap_end_frame": 1221,
+        "temporal_overlap_ratio": 1.0,
+        "median_normalized_distance": 0.0511,
+        "p90_normalized_distance": 0.1567,
+        "max_normalized_distance": 0.2003,
+        "direction_cosine": -1.0,
+        "passes_temporal": true,
+        "passes_spatial": true,
+        "opposite_direction": true,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 가까이 있고 시간도 겹치지만, 반대 방향으로 지나가는 쌍",
+          "시간과 거리는 통과했습니다. 방향이 반대라 한 그룹으로 보지 않습니다.",
+          "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.051 (0.15 이하면 통과), 방향 유사도 -1.00 (1이면 같은 방향, 음수면 반대, 이번 기준 0.7 이상).",
+          "track 8 (왼쪽→오른쪽) / track 9 (오른쪽→왼쪽)."
+        ]
+      },
+      "same_direction_spatial_rejected": {
+        "role": "same_direction_spatial_rejected",
+        "direction_threshold": 0.7,
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010001_02_000195_000498.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "8",
+          "37"
+        ],
+        "directions": [
+          "left_to_right",
+          "left_to_right"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 171,
+        "overlap_end_frame": 785,
+        "temporal_overlap_ratio": 1.0,
+        "median_normalized_distance": 0.1672,
+        "p90_normalized_distance": 0.3138,
+        "max_normalized_distance": 0.4174,
+        "direction_cosine": 0.9814,
+        "passes_temporal": true,
+        "passes_spatial": false,
+        "opposite_direction": false,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 방향은 비슷한데, 화면에서 멀리 떨어져 빠진 쌍",
+          "시간과 방향은 통과했습니다. 두 사람 사이 거리가 0.15보다 커서 같은 그룹에서 빠졌습니다.",
+          "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.167 (0.15 이하면 통과), 방향 유사도 0.98 (1이면 같은 방향, 음수면 반대, 이번 기준 0.7 이상).",
+          "track 8 (왼쪽→오른쪽) / track 37 (왼쪽→오른쪽).",
+          "track 37은 기존 VIRAT 주석에서 running인 사람입니다. walking으로 확정하지 않았습니다."
+        ]
+      }
+    },
+    {
+      "direction_threshold": 0.8,
+      "lowest_coherence_accepted": {
+        "role": "lowest_coherence_accepted",
+        "direction_threshold": 0.8,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "3",
+          "15"
+        ],
+        "directions": [
+          "right_to_left",
+          "diagonal_right_to_left_up"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 621,
+        "temporal_overlap_ratio": 1.0,
+        "median_normalized_distance": 0.0628,
+        "p90_normalized_distance": 0.1078,
+        "max_normalized_distance": 0.1356,
+        "direction_cosine": 0.9654,
+        "passes_temporal": true,
+        "passes_spatial": true,
+        "opposite_direction": false,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 그룹에 남은 쌍 중에서, 방향이 가장 덜 비슷한 쌍",
+          "둘은 시간이 겹치고 거리도 가깝습니다. 방향 유사도도 기준을 넘어서 같은 그룹 후보로 남았습니다.",
+          "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.063 (0.15 이하면 통과), 방향 유사도 0.97 (1이면 같은 방향, 음수면 반대, 이번 기준 0.8 이상).",
+          "track 3 (오른쪽→왼쪽) / track 15 (오른쪽아래→왼쪽위). 사람이 walking인지 확인하기 전인 후보입니다."
+        ]
+      },
+      "highest_coherence_rejected": {
+        "role": "highest_coherence_rejected",
+        "direction_threshold": 0.8,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "7",
+          "15"
+        ],
+        "directions": [
+          "diagonal_left_to_right_down",
+          "diagonal_right_to_left_up"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 600,
+        "overlap_end_frame": 896,
+        "temporal_overlap_ratio": 0.7297,
+        "median_normalized_distance": 0.067,
+        "p90_normalized_distance": 0.0819,
+        "max_normalized_distance": 0.0847,
+        "direction_cosine": 0.6754,
+        "passes_temporal": true,
+        "passes_spatial": true,
+        "opposite_direction": false,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 그룹에서 빠진 쌍 중에서, 방향이 가장 비슷한 쌍",
+          "시간과 거리는 통과했습니다. 방향 유사도가 기준보다 낮아 같은 그룹에서 빠졌습니다.",
+          "같은 기준의 '가장 덜 비슷한 통과 쌍'과 나란히 보면 방향 기준의 경계가 보입니다.",
+          "시간 겹침 0.73 (0.30 이상이면 통과), 거리 0.067 (0.15 이하면 통과), 방향 유사도 0.68 (1이면 같은 방향, 음수면 반대, 이번 기준 0.8 이상).",
+          "track 7 (왼쪽위→오른쪽아래) / track 15 (오른쪽아래→왼쪽위)."
+        ]
+      },
+      "opposite_direction_rejected": {
+        "role": "opposite_direction_rejected",
+        "direction_threshold": 0.8,
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010001_02_000195_000498.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "8",
+          "9"
+        ],
+        "directions": [
+          "left_to_right",
+          "right_to_left"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 620,
+        "overlap_end_frame": 1221,
+        "temporal_overlap_ratio": 1.0,
+        "median_normalized_distance": 0.0511,
+        "p90_normalized_distance": 0.1567,
+        "max_normalized_distance": 0.2003,
+        "direction_cosine": -1.0,
+        "passes_temporal": true,
+        "passes_spatial": true,
+        "opposite_direction": true,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 가까이 있고 시간도 겹치지만, 반대 방향으로 지나가는 쌍",
+          "시간과 거리는 통과했습니다. 방향이 반대라 한 그룹으로 보지 않습니다.",
+          "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.051 (0.15 이하면 통과), 방향 유사도 -1.00 (1이면 같은 방향, 음수면 반대, 이번 기준 0.8 이상).",
+          "track 8 (왼쪽→오른쪽) / track 9 (오른쪽→왼쪽)."
+        ]
+      },
+      "same_direction_spatial_rejected": {
+        "role": "same_direction_spatial_rejected",
+        "direction_threshold": 0.8,
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010001_02_000195_000498.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "8",
+          "37"
+        ],
+        "directions": [
+          "left_to_right",
+          "left_to_right"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 171,
+        "overlap_end_frame": 785,
+        "temporal_overlap_ratio": 1.0,
+        "median_normalized_distance": 0.1672,
+        "p90_normalized_distance": 0.3138,
+        "max_normalized_distance": 0.4174,
+        "direction_cosine": 0.9814,
+        "passes_temporal": true,
+        "passes_spatial": false,
+        "opposite_direction": false,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 방향은 비슷한데, 화면에서 멀리 떨어져 빠진 쌍",
+          "시간과 방향은 통과했습니다. 두 사람 사이 거리가 0.15보다 커서 같은 그룹에서 빠졌습니다.",
+          "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.167 (0.15 이하면 통과), 방향 유사도 0.98 (1이면 같은 방향, 음수면 반대, 이번 기준 0.8 이상).",
+          "track 8 (왼쪽→오른쪽) / track 37 (왼쪽→오른쪽).",
+          "track 37은 기존 VIRAT 주석에서 running인 사람입니다. walking으로 확정하지 않았습니다."
+        ]
+      }
+    },
+    {
+      "direction_threshold": 0.9,
+      "lowest_coherence_accepted": {
+        "role": "lowest_coherence_accepted",
+        "direction_threshold": 0.9,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "3",
+          "15"
+        ],
+        "directions": [
+          "right_to_left",
+          "diagonal_right_to_left_up"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 0,
+        "overlap_end_frame": 621,
+        "temporal_overlap_ratio": 1.0,
+        "median_normalized_distance": 0.0628,
+        "p90_normalized_distance": 0.1078,
+        "max_normalized_distance": 0.1356,
+        "direction_cosine": 0.9654,
+        "passes_temporal": true,
+        "passes_spatial": true,
+        "opposite_direction": false,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 그룹에 남은 쌍 중에서, 방향이 가장 덜 비슷한 쌍",
+          "둘은 시간이 겹치고 거리도 가깝습니다. 방향 유사도도 기준을 넘어서 같은 그룹 후보로 남았습니다.",
+          "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.063 (0.15 이하면 통과), 방향 유사도 0.97 (1이면 같은 방향, 음수면 반대, 이번 기준 0.9 이상).",
+          "track 3 (오른쪽→왼쪽) / track 15 (오른쪽아래→왼쪽위). 사람이 walking인지 확인하기 전인 후보입니다."
+        ]
+      },
+      "highest_coherence_rejected": {
+        "role": "highest_coherence_rejected",
+        "direction_threshold": 0.9,
+        "video_id": "VIRAT_S_010207_10_001549_001596",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010207_10_001549_001596.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "7",
+          "15"
+        ],
+        "directions": [
+          "diagonal_left_to_right_down",
+          "diagonal_right_to_left_up"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 600,
+        "overlap_end_frame": 896,
+        "temporal_overlap_ratio": 0.7297,
+        "median_normalized_distance": 0.067,
+        "p90_normalized_distance": 0.0819,
+        "max_normalized_distance": 0.0847,
+        "direction_cosine": 0.6754,
+        "passes_temporal": true,
+        "passes_spatial": true,
+        "opposite_direction": false,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 그룹에서 빠진 쌍 중에서, 방향이 가장 비슷한 쌍",
+          "시간과 거리는 통과했습니다. 방향 유사도가 기준보다 낮아 같은 그룹에서 빠졌습니다.",
+          "같은 기준의 '가장 덜 비슷한 통과 쌍'과 나란히 보면 방향 기준의 경계가 보입니다.",
+          "시간 겹침 0.73 (0.30 이상이면 통과), 거리 0.067 (0.15 이하면 통과), 방향 유사도 0.68 (1이면 같은 방향, 음수면 반대, 이번 기준 0.9 이상).",
+          "track 7 (왼쪽위→오른쪽아래) / track 15 (오른쪽아래→왼쪽위)."
+        ]
+      },
+      "opposite_direction_rejected": {
+        "role": "opposite_direction_rejected",
+        "direction_threshold": 0.9,
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010001_02_000195_000498.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "8",
+          "9"
+        ],
+        "directions": [
+          "left_to_right",
+          "right_to_left"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 620,
+        "overlap_end_frame": 1221,
+        "temporal_overlap_ratio": 1.0,
+        "median_normalized_distance": 0.0511,
+        "p90_normalized_distance": 0.1567,
+        "max_normalized_distance": 0.2003,
+        "direction_cosine": -1.0,
+        "passes_temporal": true,
+        "passes_spatial": true,
+        "opposite_direction": true,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 가까이 있고 시간도 겹치지만, 반대 방향으로 지나가는 쌍",
+          "시간과 거리는 통과했습니다. 방향이 반대라 한 그룹으로 보지 않습니다.",
+          "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.051 (0.15 이하면 통과), 방향 유사도 -1.00 (1이면 같은 방향, 음수면 반대, 이번 기준 0.9 이상).",
+          "track 8 (왼쪽→오른쪽) / track 9 (오른쪽→왼쪽)."
+        ]
+      },
+      "same_direction_spatial_rejected": {
+        "role": "same_direction_spatial_rejected",
+        "direction_threshold": 0.9,
+        "video_id": "VIRAT_S_010001_02_000195_000498",
+        "video_path": "/data/datasets/VIRAT/videos-01/VIRAT_S_010001_02_000195_000498.mp4",
+        "fps": 23.97,
+        "frame_width": 1280,
+        "frame_height": 720,
+        "track_ids": [
+          "8",
+          "37"
+        ],
+        "directions": [
+          "left_to_right",
+          "left_to_right"
+        ],
+        "motion_patterns": [
+          "directional",
+          "directional"
+        ],
+        "overlap_start_frame": 171,
+        "overlap_end_frame": 785,
+        "temporal_overlap_ratio": 1.0,
+        "median_normalized_distance": 0.1672,
+        "p90_normalized_distance": 0.3138,
+        "max_normalized_distance": 0.4174,
+        "direction_cosine": 0.9814,
+        "passes_temporal": true,
+        "passes_spatial": false,
+        "opposite_direction": false,
+        "provisional": true,
+        "is_walking_confirmed": false,
+        "overlay_lines": [
+          "이 영상: 방향은 비슷한데, 화면에서 멀리 떨어져 빠진 쌍",
+          "시간과 방향은 통과했습니다. 두 사람 사이 거리가 0.15보다 커서 같은 그룹에서 빠졌습니다.",
+          "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.167 (0.15 이하면 통과), 방향 유사도 0.98 (1이면 같은 방향, 음수면 반대, 이번 기준 0.9 이상).",
+          "track 8 (왼쪽→오른쪽) / track 37 (왼쪽→오른쪽).",
+          "track 37은 기존 VIRAT 주석에서 running인 사람입니다. walking으로 확정하지 않았습니다."
+        ]
+      }
+    }
+  ]
+}

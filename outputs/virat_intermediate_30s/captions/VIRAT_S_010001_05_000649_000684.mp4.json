@@ -1,0 +1,80 @@
+{
+  "video": "VIRAT_S_010001_05_000649_000684.mp4",
+  "window_duration_sec": 30,
+  "source_caption_json": "/home/ssandree/Motion-guided-ROI/vlm-inference/outputs/virat_clip_caption/captions/VIRAT_S_010001_05_000649_000684.mp4.json",
+  "source_caption_sha256": "6ae20bcfc3a462b5c77f238deaca771b499ca0f69d890effa4fedcc44171b3ce",
+  "windows": [
+    {
+      "start_sec": 0,
+      "end_sec": 26.95035460992908,
+      "intermediate_caption": "A person walks down the stairs on the left side of the frame early in the sequence. Simultaneously, another person moves from right to left across the upper level of the building’s entrance area, followed shortly after by a third person walking from left to right along the upper level near the right edge of the frame. On the next segment, someone descends the stairs again on the left, while another ascends the stairs on the right; meanwhile, a third individual crosses the upper level near the building entrance. Two people then walk together across a grassy mid-ground area from right to left, passing behind a small tree. \n\nLater, within the courtyard, several individuals are observed moving about. Near the building entrance on the upper level, two people interact—first, one in a light-colored shirt walks from left to right, then another in a blue shirt passes from right to left behind them. Further uphill, a trio gathers near a table where one person wears a white shirt with their back turned, flanked by two others seemingly conversing. Red-umbrella-covered tables occupy the foreground without any occupants.  \n\nSubsequently, a person approaches the central building entrance from the right, while another stands nearby momentarily before departing leftward; a brief appearance occurs of yet another figure close to the doorway. Then, three more figures approach the building entrance—one from each direction (left, right, and further left)—all dressed differently, including those in light and dark shirts. Shortly afterward, a person in a light-colored shirt and dark pants enters the building via its glass doors after approaching from the right. Meanwhile, earlier movements include a fleeting presence ascending the staircase on the far-left side during this period. Finally, the entire scene becomes empty except for a momentary glimpse of a person climbing the stairs on the left just prior to the end of the recording. Throughout, the setting includes a paved plaza with shaded seating areas beneath red umbrellas, a contemporary structure featuring expansive glass panels, green slopes rising upward, distant mountain silhouettes against a cloudless sky, and consistent ambient daylight illumination.",
+      "source_clips": [
+        "0-3",
+        "3-6",
+        "6-9",
+        "9-12",
+        "12-15",
+        "15-18",
+        "18-21",
+        "21-24",
+        "24-26.95035460992908"
+      ],
+      "source_segments": [
+        {
+          "source_clip": "0-3",
+          "start_sec": 0.0,
+          "end_sec": 3.0,
+          "caption": "A person walks down the stairs on the left side of the frame. Another person walks from right to left across the upper level of the building's entrance area. A third person walks from left to right on the upper level near the right side of the frame."
+        },
+        {
+          "source_clip": "3-6",
+          "start_sec": 3.0,
+          "end_sec": 6.0,
+          "caption": "A person walks down the stairs on the left side of the frame. Another person walks up the stairs on the right side of the frame. A third person walks across the upper level near the building entrance."
+        },
+        {
+          "source_clip": "6-9",
+          "start_sec": 6.0,
+          "end_sec": 9.0,
+          "caption": "Two people are walking together across the grassy area in the middle ground of the scene. They move from the right side of the frame towards the left, passing behind a small tree. The rest of the scene remains static, with no other visible movement."
+        },
+        {
+          "source_clip": "9-12",
+          "start_sec": 9.0,
+          "end_sec": 12.0,
+          "caption": "In the courtyard area of a building complex, several people are walking around.\n\nOn the upper level, near the entrance of the main building, two individuals are standing together. One person, wearing a light-colored shirt and dark pants, walks from left to right across the frame. Another individual, wearing a blue shirt and dark pants, walks from right to left, passing behind the first person.\n\nFurther up on the grassy hill, a group of three people are standing near a table. One person in a white shirt stands with their back to the camera, while two others stand facing them. They appear to be engaged in conversation.\n\nThe foreground features multiple tables with red umbrellas, but no one is seated at them. The scene remains relatively static throughout the clip, with only the aforementioned individuals moving."
+        },
+        {
+          "source_clip": "12-15",
+          "start_sec": 12.0,
+          "end_sec": 15.0,
+          "caption": "A person walks from the right side of the frame toward the building entrance at the top center of the image. Another individual stands near the same entrance area for several moments before walking away towards the left. A third person briefly appears standing by the door as well. The scene remains otherwise still with no other discernible activity."
+        },
+        {
+          "source_clip": "15-18",
+          "start_sec": 15.0,
+          "end_sec": 18.0,
+          "caption": "A person in a light-colored shirt walks from the left side of the frame toward the building entrance in the background.\n\nAnother person in a dark shirt walks from the right side of the frame toward the building entrance in the background.\n\nA third person in a dark shirt walks from the left side of the frame toward the building entrance in the background."
+        },
+        {
+          "source_clip": "18-21",
+          "start_sec": 18.0,
+          "end_sec": 21.0,
+          "caption": "A person in a light-colored shirt and dark pants walks from the right side of the frame toward the entrance of the building in the background. Another person is briefly visible walking up the stairs on the left side of the frame. The scene remains otherwise still, with no other people or vehicles moving."
+        },
+        {
+          "source_clip": "21-24",
+          "start_sec": 21.0,
+          "end_sec": 24.0,
+          "caption": "A person wearing a white shirt and dark pants walks from the right side of the frame towards the entrance of the building in the background. They enter the building through the glass doors. The scene remains otherwise static with no other people or vehicles visible."
+        },
+        {
+          "source_clip": "24-26.95035460992908",
+          "start_sec": 24.0,
+          "end_sec": 26.95035460992908,
+          "caption": "There are no people or vehicles visible in the scene. The image shows a stationary outdoor plaza with multiple red umbrellas over tables and chairs. In the background, there is a modern building with large glass windows, a grassy hill, and mountains under a clear blue sky. A person can be seen briefly walking up the stairs on the left side of the frame."
+        }
+      ]
+    }
+  ]
+}

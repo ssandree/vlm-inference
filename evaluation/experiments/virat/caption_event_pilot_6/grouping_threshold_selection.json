@@ -1,0 +1,39 @@
+{
+  "status": "human_decision_recorded",
+  "selected_by": "human_review",
+  "not_part_of_annotation_policy_body": true,
+  "policy_file": "experiments/virat/caption_event_pilot_6/annotation_policy.json",
+  "policy_keeps_only": {
+    "temporal_overlap_ratio_min": 0.3,
+    "median_normalized_distance_max": 0.15,
+    "groups_of_three_or_more": "complete_link"
+  },
+  "compared_thresholds": {
+    "temporal": [0.3, 0.5, 0.7],
+    "spatial": [0.1, 0.15, 0.2, 0.25]
+  },
+  "also_acceptable_spatial_thresholds": [0.1],
+  "rejected_spatial_thresholds": [0.2, 0.25],
+  "temporal_overlap_ratio": "intersection_duration / min(duration_i, duration_j)",
+  "spatial_distance": "median over overlapping frames of euclidean(centroid_i, centroid_j) / frame_diagonal",
+  "rejection_example": {
+    "clip": "experiments/virat/caption_event_pilot_6/grouping_analysis/clips/T030_D015_nearest_rejected_VIRAT_S_010003_03_000219_000259_e6_e7.mp4",
+    "video_id": "VIRAT_S_010003_03_000219_000259",
+    "event_ids": ["6", "7"],
+    "median_normalized_distance": 0.1578,
+    "temporal_overlap_ratio": 1.0,
+    "why_rejected": "한 사람은 계단을 오르고 다른 사람은 반대로 이동한다. 같은 group이 아니다."
+  },
+  "why_spatial_0_20_is_rejected": "D=0.20은 위 e6/e7 pair를 farthest accepted로 통과시킨다. 그 장면은 rejected여야 한다.",
+  "why_spatial_0_25_is_rejected": "D=0.25는 D=0.20과 같이 e6/e7을 통과시킨다.",
+  "boundary_clips_dir": "experiments/virat/caption_event_pilot_6/grouping_analysis/clips",
+  "informative_boundary_clips": [
+    "T030_D015_nearest_rejected_VIRAT_S_010003_03_000219_000259_e6_e7.mp4",
+    "T030_D010_closest_accepted_VIRAT_S_010001_02_000195_000498_e63_e64.mp4",
+    "T030_D020_farthest_accepted_VIRAT_S_010003_03_000219_000259_e6_e7.mp4",
+    "T050_D020_nearest_rejected_VIRAT_S_010003_03_000219_000259_e7_e8.mp4"
+  ],
+  "full_threshold_stats": "experiments/virat/caption_event_pilot_6/grouping_analysis/threshold_stats.json",
+  "full_boundary_cases": "experiments/virat/caption_event_pilot_6/grouping_analysis/boundary_cases.json",
+  "human_selection_note": "T=0.30, D=0.15가 경계다. D=0.10도 허용된다. D=0.20과 0.25는 e6/e7을 받아들이므로 사용하지 않는다. T050_D020의 nearest rejected(e7/e8)는 이 경계가 아니다."
+}

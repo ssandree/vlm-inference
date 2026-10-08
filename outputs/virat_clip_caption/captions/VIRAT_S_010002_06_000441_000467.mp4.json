@@ -1,0 +1,41 @@
+{
+  "video": "VIRAT_S_010002_06_000441_000467.mp4",
+  "clip_duration_sec": 3,
+  "clips": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 3.0,
+      "caption": "A person walks from the right side of the frame towards the building entrance in the background. Another person is briefly visible walking up the stairs on the left side of the frame. A third person walks across the grassy area in the background from right to left. The scene remains otherwise still with no other discernible activity."
+    },
+    {
+      "start_sec": 3.0,
+      "end_sec": 6.0,
+      "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with numerous red umbrellas over tables and chairs, a grassy hill, stairs leading up to a building, and mountains in the background under a clear sky."
+    },
+    {
+      "start_sec": 6.0,
+      "end_sec": 9.0,
+      "caption": "There are no people or vehicles visible in the scene. The image shows an outdoor plaza with numerous red umbrellas over tables and chairs, a grassy hill, stairs leading up to a building, and mountains in the background under a clear sky."
+    },
+    {
+      "start_sec": 9.0,
+      "end_sec": 12.0,
+      "caption": "A person walks down the stairs on the left side of the frame. Another person walks across the upper patio area from right to left. A third person walks across the upper patio area from left to right."
+    },
+    {
+      "start_sec": 12.0,
+      "end_sec": 15.0,
+      "caption": "A person walks up the stairs on the left side of the frame. Another person walks down the stairs on the right side of the frame. A third person walks across the upper level near the building entrance. A fourth person walks from the left side of the frame towards the center, passing behind the tables. A fifth person walks from the right side of the frame towards the center, also passing behind the tables. All individuals are moving at a normal walking pace."
+    },
+    {
+      "start_sec": 15.0,
+      "end_sec": 18.0,
+      "caption": "A person walks down the stairs on the left side of the frame. Another person walks into the frame from the bottom left and moves toward the center. A third person walks up the stairs on the left side of the frame."
+    },
+    {
+      "start_sec": 18.0,
+      "end_sec": 18.523153942428035,
+      "caption": "A person walks down the stairs on the left side of the frame. Another person walks up the stairs on the right side of the frame. A man in a dark shirt walks from the bottom left towards the center of the frame. A woman walks behind him."
+    }
+  ]
+}

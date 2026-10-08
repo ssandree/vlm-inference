@@ -1,0 +1,369 @@
+{
+  "n_clips": 21,
+  "clips": [
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C050_lowest_coherence_accepted_VIRAT_S_010207_10_001549_001596_t7_t15.mp4",
+      "role": "lowest_coherence_accepted",
+      "direction_threshold": 0.5,
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "track_ids": [
+        "7",
+        "15"
+      ],
+      "overlay_lines": [
+        "이 영상: 그룹에 남은 쌍 중에서, 방향이 가장 덜 비슷한 쌍",
+        "둘은 시간이 겹치고 거리도 가깝습니다. 방향 유사도도 기준을 넘어서 같은 그룹 후보로 남았습니다.",
+        "시간 겹침 0.73 (0.30 이상이면 통과), 거리 0.067 (0.15 이하면 통과), 방향 유사도 0.68 (1이면 같은 방향, 음수면 반대, 이번 기준 0.5 이상).",
+        "track 7 (왼쪽위→오른쪽아래) / track 15 (오른쪽아래→왼쪽위). 사람이 walking인지 확인하기 전인 후보입니다."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C050_highest_coherence_rejected_VIRAT_S_010207_10_001549_001596_t7_t16.mp4",
+      "role": "highest_coherence_rejected",
+      "direction_threshold": 0.5,
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "track_ids": [
+        "7",
+        "16"
+      ],
+      "overlay_lines": [
+        "이 영상: 그룹에서 빠진 쌍 중에서, 방향이 가장 비슷한 쌍",
+        "시간과 거리는 통과했습니다. 방향 유사도가 기준보다 낮아 같은 그룹에서 빠졌습니다.",
+        "같은 기준의 '가장 덜 비슷한 통과 쌍'과 나란히 보면 방향 기준의 경계가 보입니다.",
+        "시간 겹침 0.74 (0.30 이상이면 통과), 거리 0.054 (0.15 이하면 통과), 방향 유사도 0.47 (1이면 같은 방향, 음수면 반대, 이번 기준 0.5 이상).",
+        "track 7 (왼쪽위→오른쪽아래) / track 16 (오른쪽→왼쪽)."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C070_lowest_coherence_accepted_VIRAT_S_010207_10_001549_001596_t3_t15.mp4",
+      "role": "lowest_coherence_accepted",
+      "direction_threshold": 0.7,
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "track_ids": [
+        "3",
+        "15"
+      ],
+      "overlay_lines": [
+        "이 영상: 그룹에 남은 쌍 중에서, 방향이 가장 덜 비슷한 쌍",
+        "둘은 시간이 겹치고 거리도 가깝습니다. 방향 유사도도 기준을 넘어서 같은 그룹 후보로 남았습니다.",
+        "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.063 (0.15 이하면 통과), 방향 유사도 0.97 (1이면 같은 방향, 음수면 반대, 이번 기준 0.7 이상).",
+        "track 3 (오른쪽→왼쪽) / track 15 (오른쪽아래→왼쪽위). 사람이 walking인지 확인하기 전인 후보입니다."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C070_highest_coherence_rejected_VIRAT_S_010207_10_001549_001596_t7_t15.mp4",
+      "role": "highest_coherence_rejected",
+      "direction_threshold": 0.7,
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "track_ids": [
+        "7",
+        "15"
+      ],
+      "overlay_lines": [
+        "이 영상: 그룹에서 빠진 쌍 중에서, 방향이 가장 비슷한 쌍",
+        "시간과 거리는 통과했습니다. 방향 유사도가 기준보다 낮아 같은 그룹에서 빠졌습니다.",
+        "같은 기준의 '가장 덜 비슷한 통과 쌍'과 나란히 보면 방향 기준의 경계가 보입니다.",
+        "시간 겹침 0.73 (0.30 이상이면 통과), 거리 0.067 (0.15 이하면 통과), 방향 유사도 0.68 (1이면 같은 방향, 음수면 반대, 이번 기준 0.7 이상).",
+        "track 7 (왼쪽위→오른쪽아래) / track 15 (오른쪽아래→왼쪽위)."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C080_lowest_coherence_accepted_VIRAT_S_010207_10_001549_001596_t3_t15.mp4",
+      "role": "lowest_coherence_accepted",
+      "direction_threshold": 0.8,
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "track_ids": [
+        "3",
+        "15"
+      ],
+      "overlay_lines": [
+        "이 영상: 그룹에 남은 쌍 중에서, 방향이 가장 덜 비슷한 쌍",
+        "둘은 시간이 겹치고 거리도 가깝습니다. 방향 유사도도 기준을 넘어서 같은 그룹 후보로 남았습니다.",
+        "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.063 (0.15 이하면 통과), 방향 유사도 0.97 (1이면 같은 방향, 음수면 반대, 이번 기준 0.8 이상).",
+        "track 3 (오른쪽→왼쪽) / track 15 (오른쪽아래→왼쪽위). 사람이 walking인지 확인하기 전인 후보입니다."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C080_highest_coherence_rejected_VIRAT_S_010207_10_001549_001596_t7_t15.mp4",
+      "role": "highest_coherence_rejected",
+      "direction_threshold": 0.8,
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "track_ids": [
+        "7",
+        "15"
+      ],
+      "overlay_lines": [
+        "이 영상: 그룹에서 빠진 쌍 중에서, 방향이 가장 비슷한 쌍",
+        "시간과 거리는 통과했습니다. 방향 유사도가 기준보다 낮아 같은 그룹에서 빠졌습니다.",
+        "같은 기준의 '가장 덜 비슷한 통과 쌍'과 나란히 보면 방향 기준의 경계가 보입니다.",
+        "시간 겹침 0.73 (0.30 이상이면 통과), 거리 0.067 (0.15 이하면 통과), 방향 유사도 0.68 (1이면 같은 방향, 음수면 반대, 이번 기준 0.8 이상).",
+        "track 7 (왼쪽위→오른쪽아래) / track 15 (오른쪽아래→왼쪽위)."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C090_lowest_coherence_accepted_VIRAT_S_010207_10_001549_001596_t3_t15.mp4",
+      "role": "lowest_coherence_accepted",
+      "direction_threshold": 0.9,
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "track_ids": [
+        "3",
+        "15"
+      ],
+      "overlay_lines": [
+        "이 영상: 그룹에 남은 쌍 중에서, 방향이 가장 덜 비슷한 쌍",
+        "둘은 시간이 겹치고 거리도 가깝습니다. 방향 유사도도 기준을 넘어서 같은 그룹 후보로 남았습니다.",
+        "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.063 (0.15 이하면 통과), 방향 유사도 0.97 (1이면 같은 방향, 음수면 반대, 이번 기준 0.9 이상).",
+        "track 3 (오른쪽→왼쪽) / track 15 (오른쪽아래→왼쪽위). 사람이 walking인지 확인하기 전인 후보입니다."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C090_highest_coherence_rejected_VIRAT_S_010207_10_001549_001596_t7_t15.mp4",
+      "role": "highest_coherence_rejected",
+      "direction_threshold": 0.9,
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "track_ids": [
+        "7",
+        "15"
+      ],
+      "overlay_lines": [
+        "이 영상: 그룹에서 빠진 쌍 중에서, 방향이 가장 비슷한 쌍",
+        "시간과 거리는 통과했습니다. 방향 유사도가 기준보다 낮아 같은 그룹에서 빠졌습니다.",
+        "같은 기준의 '가장 덜 비슷한 통과 쌍'과 나란히 보면 방향 기준의 경계가 보입니다.",
+        "시간 겹침 0.73 (0.30 이상이면 통과), 거리 0.067 (0.15 이하면 통과), 방향 유사도 0.68 (1이면 같은 방향, 음수면 반대, 이번 기준 0.9 이상).",
+        "track 7 (왼쪽위→오른쪽아래) / track 15 (오른쪽아래→왼쪽위)."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C050_complete_link_excluded_VIRAT_S_010207_10_001549_001596_t1_t3_t6_t7_t15_t16.mp4",
+      "role": "complete_link_excluded",
+      "direction_threshold": 0.5,
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "track_ids": [
+        "1",
+        "3",
+        "6",
+        "7",
+        "15",
+        "16"
+      ],
+      "overlay_lines": [
+        "이 영상: 3명 이상일 때, 옆 사람과만 비슷하면 전원을 한 그룹으로 넣지 않는 경우",
+        "이어진 track 1, 3, 6, 7, 15, 16. 실제로 같이 둘 수 있는 묶음은 [1, 3, 15, 16], [7, 15], [6, 7]입니다.",
+        "예를 들어 track 1과 6은 거리 0.022로 가깝지만 방향 유사도 -0.99라 서로 반대입니다.",
+        "사람이 walking인지 확인하기 전인 후보입니다."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C050_opposite_direction_rejected_VIRAT_S_010001_02_000195_000498_t8_t9.mp4",
+      "role": "opposite_direction_rejected",
+      "direction_threshold": 0.5,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_ids": [
+        "8",
+        "9"
+      ],
+      "overlay_lines": [
+        "이 영상: 가까이 있고 시간도 겹치지만, 반대 방향으로 지나가는 쌍",
+        "시간과 거리는 통과했습니다. 방향이 반대라 한 그룹으로 보지 않습니다.",
+        "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.051 (0.15 이하면 통과), 방향 유사도 -1.00 (1이면 같은 방향, 음수면 반대, 이번 기준 0.5 이상).",
+        "track 8 (왼쪽→오른쪽) / track 9 (오른쪽→왼쪽)."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C050_same_direction_spatial_rejected_VIRAT_S_010001_02_000195_000498_t8_t37.mp4",
+      "role": "same_direction_spatial_rejected",
+      "direction_threshold": 0.5,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_ids": [
+        "8",
+        "37"
+      ],
+      "overlay_lines": [
+        "이 영상: 방향은 비슷한데, 화면에서 멀리 떨어져 빠진 쌍",
+        "시간과 방향은 통과했습니다. 두 사람 사이 거리가 0.15보다 커서 같은 그룹에서 빠졌습니다.",
+        "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.167 (0.15 이하면 통과), 방향 유사도 0.98 (1이면 같은 방향, 음수면 반대, 이번 기준 0.5 이상).",
+        "track 8 (왼쪽→오른쪽) / track 37 (왼쪽→오른쪽).",
+        "track 37은 기존 VIRAT 주석에서 running인 사람입니다. walking으로 확정하지 않았습니다."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C070_opposite_direction_rejected_VIRAT_S_010001_02_000195_000498_t8_t9.mp4",
+      "role": "opposite_direction_rejected",
+      "direction_threshold": 0.7,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_ids": [
+        "8",
+        "9"
+      ],
+      "overlay_lines": [
+        "이 영상: 가까이 있고 시간도 겹치지만, 반대 방향으로 지나가는 쌍",
+        "시간과 거리는 통과했습니다. 방향이 반대라 한 그룹으로 보지 않습니다.",
+        "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.051 (0.15 이하면 통과), 방향 유사도 -1.00 (1이면 같은 방향, 음수면 반대, 이번 기준 0.7 이상).",
+        "track 8 (왼쪽→오른쪽) / track 9 (오른쪽→왼쪽)."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C070_same_direction_spatial_rejected_VIRAT_S_010001_02_000195_000498_t8_t37.mp4",
+      "role": "same_direction_spatial_rejected",
+      "direction_threshold": 0.7,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_ids": [
+        "8",
+        "37"
+      ],
+      "overlay_lines": [
+        "이 영상: 방향은 비슷한데, 화면에서 멀리 떨어져 빠진 쌍",
+        "시간과 방향은 통과했습니다. 두 사람 사이 거리가 0.15보다 커서 같은 그룹에서 빠졌습니다.",
+        "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.167 (0.15 이하면 통과), 방향 유사도 0.98 (1이면 같은 방향, 음수면 반대, 이번 기준 0.7 이상).",
+        "track 8 (왼쪽→오른쪽) / track 37 (왼쪽→오른쪽).",
+        "track 37은 기존 VIRAT 주석에서 running인 사람입니다. walking으로 확정하지 않았습니다."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C080_opposite_direction_rejected_VIRAT_S_010001_02_000195_000498_t8_t9.mp4",
+      "role": "opposite_direction_rejected",
+      "direction_threshold": 0.8,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_ids": [
+        "8",
+        "9"
+      ],
+      "overlay_lines": [
+        "이 영상: 가까이 있고 시간도 겹치지만, 반대 방향으로 지나가는 쌍",
+        "시간과 거리는 통과했습니다. 방향이 반대라 한 그룹으로 보지 않습니다.",
+        "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.051 (0.15 이하면 통과), 방향 유사도 -1.00 (1이면 같은 방향, 음수면 반대, 이번 기준 0.8 이상).",
+        "track 8 (왼쪽→오른쪽) / track 9 (오른쪽→왼쪽)."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C080_same_direction_spatial_rejected_VIRAT_S_010001_02_000195_000498_t8_t37.mp4",
+      "role": "same_direction_spatial_rejected",
+      "direction_threshold": 0.8,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_ids": [
+        "8",
+        "37"
+      ],
+      "overlay_lines": [
+        "이 영상: 방향은 비슷한데, 화면에서 멀리 떨어져 빠진 쌍",
+        "시간과 방향은 통과했습니다. 두 사람 사이 거리가 0.15보다 커서 같은 그룹에서 빠졌습니다.",
+        "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.167 (0.15 이하면 통과), 방향 유사도 0.98 (1이면 같은 방향, 음수면 반대, 이번 기준 0.8 이상).",
+        "track 8 (왼쪽→오른쪽) / track 37 (왼쪽→오른쪽).",
+        "track 37은 기존 VIRAT 주석에서 running인 사람입니다. walking으로 확정하지 않았습니다."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C090_opposite_direction_rejected_VIRAT_S_010001_02_000195_000498_t8_t9.mp4",
+      "role": "opposite_direction_rejected",
+      "direction_threshold": 0.9,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_ids": [
+        "8",
+        "9"
+      ],
+      "overlay_lines": [
+        "이 영상: 가까이 있고 시간도 겹치지만, 반대 방향으로 지나가는 쌍",
+        "시간과 거리는 통과했습니다. 방향이 반대라 한 그룹으로 보지 않습니다.",
+        "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.051 (0.15 이하면 통과), 방향 유사도 -1.00 (1이면 같은 방향, 음수면 반대, 이번 기준 0.9 이상).",
+        "track 8 (왼쪽→오른쪽) / track 9 (오른쪽→왼쪽)."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C090_same_direction_spatial_rejected_VIRAT_S_010001_02_000195_000498_t8_t37.mp4",
+      "role": "same_direction_spatial_rejected",
+      "direction_threshold": 0.9,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_ids": [
+        "8",
+        "37"
+      ],
+      "overlay_lines": [
+        "이 영상: 방향은 비슷한데, 화면에서 멀리 떨어져 빠진 쌍",
+        "시간과 방향은 통과했습니다. 두 사람 사이 거리가 0.15보다 커서 같은 그룹에서 빠졌습니다.",
+        "시간 겹침 1.00 (0.30 이상이면 통과), 거리 0.167 (0.15 이하면 통과), 방향 유사도 0.98 (1이면 같은 방향, 음수면 반대, 이번 기준 0.9 이상).",
+        "track 8 (왼쪽→오른쪽) / track 37 (왼쪽→오른쪽).",
+        "track 37은 기존 VIRAT 주석에서 running인 사람입니다. walking으로 확정하지 않았습니다."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C050_complete_link_excluded_VIRAT_S_010001_02_000195_000498_t8_t10_t37_t38_t39.mp4",
+      "role": "complete_link_excluded",
+      "direction_threshold": 0.5,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_ids": [
+        "8",
+        "10",
+        "37",
+        "38",
+        "39"
+      ],
+      "overlay_lines": [
+        "이 영상: 3명 이상일 때, 옆 사람과만 비슷하면 전원을 한 그룹으로 넣지 않는 경우",
+        "이어진 track 8, 10, 37, 38, 39. 실제로 같이 둘 수 있는 묶음은 [8, 10, 38, 39], [37, 38, 39]입니다.",
+        "그룹 안의 모든 쌍이 시간, 거리, 방향을 만족해야 한 그룹입니다.",
+        "사람이 walking인지 확인하기 전인 후보입니다.",
+        "track 37은 기존 VIRAT 주석에서 running인 사람입니다. walking으로 확정하지 않았습니다."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C070_complete_link_excluded_VIRAT_S_010001_02_000195_000498_t8_t10_t37_t38_t39.mp4",
+      "role": "complete_link_excluded",
+      "direction_threshold": 0.7,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_ids": [
+        "8",
+        "10",
+        "37",
+        "38",
+        "39"
+      ],
+      "overlay_lines": [
+        "이 영상: 3명 이상일 때, 옆 사람과만 비슷하면 전원을 한 그룹으로 넣지 않는 경우",
+        "이어진 track 8, 10, 37, 38, 39. 실제로 같이 둘 수 있는 묶음은 [8, 10, 38, 39], [37, 38, 39]입니다.",
+        "그룹 안의 모든 쌍이 시간, 거리, 방향을 만족해야 한 그룹입니다.",
+        "사람이 walking인지 확인하기 전인 후보입니다.",
+        "track 37은 기존 VIRAT 주석에서 running인 사람입니다. walking으로 확정하지 않았습니다."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C080_complete_link_excluded_VIRAT_S_010001_02_000195_000498_t8_t10_t37_t38_t39.mp4",
+      "role": "complete_link_excluded",
+      "direction_threshold": 0.8,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_ids": [
+        "8",
+        "10",
+        "37",
+        "38",
+        "39"
+      ],
+      "overlay_lines": [
+        "이 영상: 3명 이상일 때, 옆 사람과만 비슷하면 전원을 한 그룹으로 넣지 않는 경우",
+        "이어진 track 8, 10, 37, 38, 39. 실제로 같이 둘 수 있는 묶음은 [8, 10, 38, 39], [37, 38, 39]입니다.",
+        "그룹 안의 모든 쌍이 시간, 거리, 방향을 만족해야 한 그룹입니다.",
+        "사람이 walking인지 확인하기 전인 후보입니다.",
+        "track 37은 기존 VIRAT 주석에서 running인 사람입니다. walking으로 확정하지 않았습니다."
+      ]
+    },
+    {
+      "file": "experiments/virat/caption_event_pilot_6/walking_analysis/clips/C090_complete_link_excluded_VIRAT_S_010001_02_000195_000498_t8_t10_t37_t38_t39.mp4",
+      "role": "complete_link_excluded",
+      "direction_threshold": 0.9,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "track_ids": [
+        "8",
+        "10",
+        "37",
+        "38",
+        "39"
+      ],
+      "overlay_lines": [
+        "이 영상: 3명 이상일 때, 옆 사람과만 비슷하면 전원을 한 그룹으로 넣지 않는 경우",
+        "이어진 track 8, 10, 37, 38, 39. 실제로 같이 둘 수 있는 묶음은 [8, 10, 38, 39], [37, 38, 39]입니다.",
+        "그룹 안의 모든 쌍이 시간, 거리, 방향을 만족해야 한 그룹입니다.",
+        "사람이 walking인지 확인하기 전인 후보입니다.",
+        "track 37은 기존 VIRAT 주석에서 running인 사람입니다. walking으로 확정하지 않았습니다."
+      ]
+    }
+  ]
+}

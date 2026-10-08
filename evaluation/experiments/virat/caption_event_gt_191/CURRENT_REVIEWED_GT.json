@@ -1,0 +1,9 @@
+{
+  "version": "human_review_v2",
+  "ground_truth": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt_human_review_v2/evaluation_gt_v2.json",
+  "per_video_gt_root": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt_human_review_v2/gt",
+  "scoring_targets": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt_human_review_v2/scoring_targets.json",
+  "review_ledger": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/gt_human_review_v2/review_ledger.json",
+  "evaluation_report": "/home/ssandree/Motion-guided-ROI/vlm-evaluation/experiments/virat/caption_event_gt_191/llm_judge_eval/reviewed_v2/report.html",
+  "note": "Original gt/ preserved. New evaluation explicitly uses this version."
+}

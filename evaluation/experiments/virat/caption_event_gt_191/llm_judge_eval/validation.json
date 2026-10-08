@@ -1,0 +1,18 @@
+{
+  "deterministic_replay_identical": true,
+  "verified_artifacts": [
+    "judge_results.json",
+    "summary.json",
+    "summary.tsv",
+    "per_video_details.json",
+    "gt_event_details.tsv",
+    "predicted_event_details.tsv",
+    "model_ranking.json",
+    "raw_event_model_ranking.json",
+    "REPORT_ko.txt",
+    "report.html"
+  ],
+  "source_files_unchanged": true,
+  "n_source_files": 11,
+  "note": "Replay verification only; not independent semantic re-judging."
+}

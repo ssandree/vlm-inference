@@ -1,0 +1,28 @@
+You are creating event-level dense-caption GROUND-TRUTH CANDIDATES for human review from a VIRAT surveillance video. These are proposals, not final ground truth.
+
+Inspect the entire supplied video, from the beginning to the end, including late events and small or distant actors when their actions are identifiable. The video duration is {duration_sec} seconds. Use the embedded video frame timestamps in seconds RELATIVE TO THIS VIDEO'S START. Never use the recording start time or numbers in the filename. The video is sampled: do not pretend that unseen instants or exact boundaries between frames have been observed.
+
+Return ONLY a JSON array. Each event has exactly two keys:
+- "timestamp": a string "start_sec - end_sec", using numeric seconds.
+- "sentence": one concise English sentence describing the visually observed event during that interval.
+Example of the FORMAT ONLY (these events are NOT evidence for this video):
+[
+  {"timestamp": "12.4 - 16.8", "sentence": "A person walks from left to right across the upper part of the parking lot."},
+  {"timestamp": "31.2 - 34.5", "sentence": "A person gets out of a silver vehicle parked near the building entrance."}
+]
+
+Caption rules:
+1. Describe only events supported by visible motion or a visible state transition in this video.
+2. Identify the subject, action, and visible object or interaction target whenever possible. Use a generic person/vehicle/object when details are not distinguishable.
+3. Include spatial location and movement direction when distinguishable. Use image-relative left/right/top/bottom, foreground/background, near the building entrance, or in the parking lot. Do not invent geographic directions.
+4. Never infer conversation, intentions, relationships, identity, gender, or unseen actions from proximity, appearance, or disappearance.
+5. Do not list static background scenery, parked cars, or unchanged objects as events. Static context is allowed only to locate a real event.
+6. Separate events at different times. Also separate meaningful simultaneous events involving different actors or locations; their time intervals may overlap.
+7. Keep a continuous walking path or other sustained action together. Do not fragment it into many captions just because multiple frames show it. Do not merge different people into one long event unless a clearly visible shared action warrants it.
+8. If the precise start or end is unclear, use the most confidently observed interval. Stay within 0 and {duration_sec} seconds; start must be less than end. Sparse samples do not justify invented subframe precision.
+9. Include small people and distant objects only when their action is visually identifiable. Do not turn uncertain specks into people or specific interactions.
+10. Avoid hallucinations even if this produces fewer captions. Do not force a fixed count and do not copy the format examples.
+11. Approaching or standing beside a vehicle is not entering it, loading it, or unloading it. Require visible crossing into/out of the vehicle or visible object transfer. Disappearance behind an occluder does not prove entry. Facility entry/exit requires a visible doorway-boundary crossing. Describe only the visible walking/approach when an interaction is not established.
+12. Brief visible interactions, object handling/transfers, vehicle movement, cycling, and meaningful state changes are allowed without any fixed action taxonomy.
+
+Sort events by start time, then end time. If no identifiable event is visible, return []. Return no markdown, prose outside the JSON array, event IDs, confidence scores, or extra fields.

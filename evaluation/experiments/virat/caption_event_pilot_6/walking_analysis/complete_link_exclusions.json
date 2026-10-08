@@ -1,0 +1,274 @@
+{
+  "n_cases": 5,
+  "cases": [
+    {
+      "direction_threshold": 0.5,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "single_link_component": [
+        "8",
+        "10",
+        "37",
+        "38",
+        "39"
+      ],
+      "complete_link_cliques": [
+        [
+          "8",
+          "10",
+          "38",
+          "39"
+        ],
+        [
+          "37",
+          "38",
+          "39"
+        ]
+      ],
+      "excluded_pairs": [
+        {
+          "track_ids": [
+            "8",
+            "37"
+          ],
+          "temporal_overlap_ratio": 1.0,
+          "median_normalized_distance": 0.1672,
+          "direction_cosine": 0.9814
+        },
+        {
+          "track_ids": [
+            "10",
+            "37"
+          ],
+          "temporal_overlap_ratio": 1.0,
+          "median_normalized_distance": 0.1753,
+          "direction_cosine": 0.9806
+        }
+      ]
+    },
+    {
+      "direction_threshold": 0.5,
+      "video_id": "VIRAT_S_010207_10_001549_001596",
+      "single_link_component": [
+        "1",
+        "3",
+        "6",
+        "7",
+        "15",
+        "16"
+      ],
+      "complete_link_cliques": [
+        [
+          "1",
+          "3",
+          "15",
+          "16"
+        ],
+        [
+          "7",
+          "15"
+        ],
+        [
+          "6",
+          "7"
+        ]
+      ],
+      "excluded_pairs": [
+        {
+          "track_ids": [
+            "1",
+            "6"
+          ],
+          "temporal_overlap_ratio": 0.3689,
+          "median_normalized_distance": 0.0218,
+          "direction_cosine": -0.9947
+        },
+        {
+          "track_ids": [
+            "1",
+            "7"
+          ],
+          "temporal_overlap_ratio": null,
+          "median_normalized_distance": null,
+          "direction_cosine": null
+        },
+        {
+          "track_ids": [
+            "3",
+            "6"
+          ],
+          "temporal_overlap_ratio": 0.3689,
+          "median_normalized_distance": 0.0673,
+          "direction_cosine": -0.9337
+        },
+        {
+          "track_ids": [
+            "3",
+            "7"
+          ],
+          "temporal_overlap_ratio": null,
+          "median_normalized_distance": null,
+          "direction_cosine": null
+        },
+        {
+          "track_ids": [
+            "6",
+            "15"
+          ],
+          "temporal_overlap_ratio": 0.8197,
+          "median_normalized_distance": 0.0675,
+          "direction_cosine": -0.4917
+        },
+        {
+          "track_ids": [
+            "6",
+            "16"
+          ],
+          "temporal_overlap_ratio": 0.8262,
+          "median_normalized_distance": 0.0494,
+          "direction_cosine": -0.9137
+        },
+        {
+          "track_ids": [
+            "7",
+            "16"
+          ],
+          "temporal_overlap_ratio": 0.7396,
+          "median_normalized_distance": 0.0541,
+          "direction_cosine": 0.4741
+        }
+      ]
+    },
+    {
+      "direction_threshold": 0.7,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "single_link_component": [
+        "8",
+        "10",
+        "37",
+        "38",
+        "39"
+      ],
+      "complete_link_cliques": [
+        [
+          "8",
+          "10",
+          "38",
+          "39"
+        ],
+        [
+          "37",
+          "38",
+          "39"
+        ]
+      ],
+      "excluded_pairs": [
+        {
+          "track_ids": [
+            "8",
+            "37"
+          ],
+          "temporal_overlap_ratio": 1.0,
+          "median_normalized_distance": 0.1672,
+          "direction_cosine": 0.9814
+        },
+        {
+          "track_ids": [
+            "10",
+            "37"
+          ],
+          "temporal_overlap_ratio": 1.0,
+          "median_normalized_distance": 0.1753,
+          "direction_cosine": 0.9806
+        }
+      ]
+    },
+    {
+      "direction_threshold": 0.8,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "single_link_component": [
+        "8",
+        "10",
+        "37",
+        "38",
+        "39"
+      ],
+      "complete_link_cliques": [
+        [
+          "8",
+          "10",
+          "38",
+          "39"
+        ],
+        [
+          "37",
+          "38",
+          "39"
+        ]
+      ],
+      "excluded_pairs": [
+        {
+          "track_ids": [
+            "8",
+            "37"
+          ],
+          "temporal_overlap_ratio": 1.0,
+          "median_normalized_distance": 0.1672,
+          "direction_cosine": 0.9814
+        },
+        {
+          "track_ids": [
+            "10",
+            "37"
+          ],
+          "temporal_overlap_ratio": 1.0,
+          "median_normalized_distance": 0.1753,
+          "direction_cosine": 0.9806
+        }
+      ]
+    },
+    {
+      "direction_threshold": 0.9,
+      "video_id": "VIRAT_S_010001_02_000195_000498",
+      "single_link_component": [
+        "8",
+        "10",
+        "37",
+        "38",
+        "39"
+      ],
+      "complete_link_cliques": [
+        [
+          "8",
+          "10",
+          "38",
+          "39"
+        ],
+        [
+          "37",
+          "38",
+          "39"
+        ]
+      ],
+      "excluded_pairs": [
+        {
+          "track_ids": [
+            "8",
+            "37"
+          ],
+          "temporal_overlap_ratio": 1.0,
+          "median_normalized_distance": 0.1672,
+          "direction_cosine": 0.9814
+        },
+        {
+          "track_ids": [
+            "10",
+            "37"
+          ],
+          "temporal_overlap_ratio": 1.0,
+          "median_normalized_distance": 0.1753,
+          "direction_cosine": 0.9806
+        }
+      ]
+    }
+  ]
+}

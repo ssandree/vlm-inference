@@ -1,0 +1,292 @@
+review_id	video_id	kind	priority	question_ko	answer	start_sec	end_sec	actor_id	existing_gt_id	same_event_as	correction_ko
+V01-01	VIRAT_S_000001	detail	high	차량 근처로 온 한 남자가 실제로 차량 안에서 밖으로 내린다.	unsure						
+V01-02	VIRAT_S_000001	detail	high	하차한 남자의 차량이 이후 출발한다.	unsure						
+V01-03	VIRAT_S_000001	detail	high	두 사람이 대화하다가 함께 화면 오른쪽으로 걸어간다.	unsure						
+V01-04	VIRAT_S_000001	gt_omission	high	GT에 기록된 ‘차량 탑승’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V01-05	VIRAT_S_000001	gt_omission	high	GT에 기록된 ‘차량 하차’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V01-06	VIRAT_S_000001	gt_omission	high	GT에 기록된 ‘차량에 물건 싣기’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V01-07	VIRAT_S_000001	gt_omission	high	GT에 기록된 ‘차량에서 물건 꺼내기’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V01-08	VIRAT_S_000001	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V01-09	VIRAT_S_000001	predicted_claim	high	인용에 서술된 주체·장소에서 ‘대화’ 행동이 실제로 보인다.	unsure						
+V01-10	VIRAT_S_000001	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V01-11	VIRAT_S_000001	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V01-12	VIRAT_S_000001	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V02-01	VIRAT_S_000201_04_000682_000822	detail	high	나무 뒤 건물 내부의 문가에서 사람이 움직인다.	unsure						
+V02-02	VIRAT_S_000201_04_000682_000822	detail	high	그 건물로 들어간 사람이 곧 다시 밖으로 나온다.	unsure						
+V02-03	VIRAT_S_000201_04_000682_000822	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V02-04	VIRAT_S_000201_04_000682_000822	predicted_claim	high	인용에 서술된 주체·장소에서 ‘주차’ 행동이 실제로 보인다.	unsure						
+V02-05	VIRAT_S_000201_04_000682_000822	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 하차’ 행동이 실제로 보인다.	unsure						
+V02-06	VIRAT_S_000201_04_000682_000822	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 탑승’ 행동이 실제로 보인다.	unsure						
+V02-07	VIRAT_S_000201_04_000682_000822	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V02-08	VIRAT_S_000201_04_000682_000822	predicted_claim	high	인용에 서술된 주체·장소에서 ‘대화’ 행동이 실제로 보인다.	unsure						
+V02-09	VIRAT_S_000201_04_000682_000822	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 밖으로 나옴’ 행동이 실제로 보인다.	unsure						
+V02-10	VIRAT_S_000201_04_000682_000822	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 안으로 들어감’ 행동이 실제로 보인다.	unsure						
+V02-11	VIRAT_S_000201_04_000682_000822	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V02-12	VIRAT_S_000201_04_000682_000822	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V03-01	VIRAT_S_000205_02_000409_000566	gt_omission	high	GT에 기록된 ‘차량 탑승’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V03-02	VIRAT_S_000205_02_000409_000566	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V03-03	VIRAT_S_000205_02_000409_000566	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V04-01	VIRAT_S_000205_05_001092_001124	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V04-02	VIRAT_S_000205_05_001092_001124	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V04-03	VIRAT_S_000205_05_001092_001124	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V04-04	VIRAT_S_000205_05_001092_001124	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V05-01	VIRAT_S_010000_07_000827_000860	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V05-02	VIRAT_S_010000_07_000827_000860	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건을 들고 운반’ 행동이 실제로 보인다.	unsure						
+V05-03	VIRAT_S_010000_07_000827_000860	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V05-04	VIRAT_S_010000_07_000827_000860	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V06-01	VIRAT_S_010001_02_000195_000498	detail	high	유리문에서 한 사람이 나오고, 잠시 뒤 다른 두 사람이 건물 안으로 들어간다.	unsure						
+V06-02	VIRAT_S_010001_02_000195_000498	detail	high	마지막 근접 장면의 사람은 테이블 위 읽을거리를 읽고 있다.	unsure						
+V06-03	VIRAT_S_010001_02_000195_000498	gt_omission	high	GT에 기록된 ‘물건을 들고 운반’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V06-04	VIRAT_S_010001_02_000195_000498	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V06-05	VIRAT_S_010001_02_000195_000498	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V06-06	VIRAT_S_010001_02_000195_000498	gt_omission	high	GT에 기록된 ‘배회’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V06-07	VIRAT_S_010001_02_000195_000498	direction	normal	GT의 ‘물건을 들고 운반’ 주체는 화면 좌→우 방향으로 움직인다.	unsure						
+V06-08	VIRAT_S_010001_02_000195_000498	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 좌→우 방향으로 움직인다.	unsure						
+V06-09	VIRAT_S_010001_02_000195_000498	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 좌하→우상 방향으로 움직인다.	unsure						
+V06-10	VIRAT_S_010001_02_000195_000498	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 우→좌 방향으로 움직인다.	unsure						
+V06-11	VIRAT_S_010001_02_000195_000498	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 상→하 방향으로 움직인다.	unsure						
+V07-01	VIRAT_S_010001_03_000537_000563	detail	high	한 여성이 잔디밭을 가로질러 테이블이 있는 벽돌 patio 방향으로 걷는다.	unsure						
+V07-02	VIRAT_S_010001_03_000537_000563	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V07-03	VIRAT_S_010001_03_000537_000563	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V07-04	VIRAT_S_010001_03_000537_000563	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V08-01	VIRAT_S_010001_05_000649_000684	predicted_claim	high	인용에 서술된 주체·장소에서 ‘대화’ 행동이 실제로 보인다.	unsure						
+V08-02	VIRAT_S_010001_05_000649_000684	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 안으로 들어감’ 행동이 실제로 보인다.	unsure						
+V08-03	VIRAT_S_010001_05_000649_000684	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V08-04	VIRAT_S_010001_05_000649_000684	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V09-01	VIRAT_S_010001_08_000826_000893	detail	high	영상에 사람이 수행하는 동적 행동이 전혀 없다.	unsure						
+V09-02	VIRAT_S_010001_08_000826_000893	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V09-03	VIRAT_S_010001_08_000826_000893	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V09-04	VIRAT_S_010001_08_000826_000893	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V10-01	VIRAT_S_010001_09_000921_000952	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V10-02	VIRAT_S_010001_09_000921_000952	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 밖으로 나옴’ 행동이 실제로 보인다.	unsure						
+V10-03	VIRAT_S_010001_09_000921_000952	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V10-04	VIRAT_S_010001_09_000921_000952	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V11-01	VIRAT_S_010001_10_000962_001005	detail	high	한 사람이 테이블 사이의 열린 광장을 실제로 달려간다.	unsure						
+V11-02	VIRAT_S_010001_10_000962_001005	gt_omission	high	GT에 기록된 ‘물건을 들고 운반’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V11-03	VIRAT_S_010001_10_000962_001005	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V11-04	VIRAT_S_010001_10_000962_001005	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V11-05	VIRAT_S_010001_10_000962_001005	direction	normal	GT의 ‘물건을 들고 운반’ 주체는 화면 우→좌 방향으로 움직인다.	unsure						
+V11-06	VIRAT_S_010001_10_000962_001005	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V11-07	VIRAT_S_010001_10_000962_001005	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V12-01	VIRAT_S_010002_02_000174_000204	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V12-02	VIRAT_S_010002_02_000174_000204	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 밖으로 나옴’ 행동이 실제로 보인다.	unsure						
+V12-03	VIRAT_S_010002_02_000174_000204	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V12-04	VIRAT_S_010002_02_000174_000204	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V13-01	VIRAT_S_010002_03_000236_000261	gt_omission	high	GT에 기록된 ‘물건을 들고 운반’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V13-02	VIRAT_S_010002_03_000236_000261	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V13-03	VIRAT_S_010002_03_000236_000261	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 안으로 들어감’ 행동이 실제로 보인다.	unsure						
+V13-04	VIRAT_S_010002_03_000236_000261	direction	normal	GT의 ‘물건을 들고 운반’ 주체는 화면 좌→우 방향으로 움직인다.	unsure						
+V13-05	VIRAT_S_010002_03_000236_000261	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V13-06	VIRAT_S_010002_03_000236_000261	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V14-01	VIRAT_S_010002_06_000441_000467	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V14-02	VIRAT_S_010002_06_000441_000467	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V14-03	VIRAT_S_010002_06_000441_000467	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V15-01	VIRAT_S_010002_07_000522_000547	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V15-02	VIRAT_S_010002_07_000522_000547	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건을 들고 운반’ 행동이 실제로 보인다.	unsure						
+V15-03	VIRAT_S_010002_07_000522_000547	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V15-04	VIRAT_S_010002_07_000522_000547	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V16-01	VIRAT_S_010003_02_000165_000202	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V16-02	VIRAT_S_010003_02_000165_000202	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V16-03	VIRAT_S_010003_02_000165_000202	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V16-04	VIRAT_S_010003_02_000165_000202	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V17-01	VIRAT_S_010003_03_000219_000259	detail	high	배경 사람들이 실제 시설 문 경계를 통과한다.	unsure						
+V17-02	VIRAT_S_010003_03_000219_000259	gt_omission	high	GT에 기록된 ‘물건을 들고 운반’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V17-03	VIRAT_S_010003_03_000219_000259	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V17-04	VIRAT_S_010003_03_000219_000259	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 밖으로 나옴’ 행동이 실제로 보인다.	unsure						
+V17-05	VIRAT_S_010003_03_000219_000259	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 안으로 들어감’ 행동이 실제로 보인다.	unsure						
+V17-06	VIRAT_S_010003_03_000219_000259	predicted_claim	high	인용에 서술된 주체·장소에서 ‘대화’ 행동이 실제로 보인다.	unsure						
+V17-07	VIRAT_S_010003_03_000219_000259	direction	normal	GT의 ‘물건을 들고 운반’ 주체는 화면 좌→우 방향으로 움직인다.	unsure						
+V17-08	VIRAT_S_010003_03_000219_000259	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 좌→우 방향으로 움직인다.	unsure						
+V17-09	VIRAT_S_010003_03_000219_000259	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 좌하→우상 방향으로 움직인다.	unsure						
+V17-10	VIRAT_S_010003_03_000219_000259	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 우→좌 방향으로 움직인다.	unsure						
+V18-01	VIRAT_S_010003_06_000526_000560	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V18-02	VIRAT_S_010003_06_000526_000560	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V18-03	VIRAT_S_010003_06_000526_000560	predicted_claim	high	인용에 서술된 주체·장소에서 ‘대화’ 행동이 실제로 보인다.	unsure						
+V18-04	VIRAT_S_010003_06_000526_000560	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V18-05	VIRAT_S_010003_06_000526_000560	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V19-01	VIRAT_S_010003_07_000608_000636	gt_omission	high	GT에 기록된 ‘물건을 들고 운반’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V19-02	VIRAT_S_010003_07_000608_000636	predicted_claim	high	인용에 서술된 주체·장소에서 ‘대화’ 행동이 실제로 보인다.	unsure						
+V19-03	VIRAT_S_010003_07_000608_000636	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 밖으로 나옴’ 행동이 실제로 보인다.	unsure						
+V19-04	VIRAT_S_010003_07_000608_000636	direction	normal	GT의 ‘물건을 들고 운반’ 주체는 화면 우상→좌하 방향으로 움직인다.	unsure						
+V19-05	VIRAT_S_010003_07_000608_000636	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V19-06	VIRAT_S_010003_07_000608_000636	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V20-01	VIRAT_S_010003_10_000901_000934	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V20-02	VIRAT_S_010003_10_000901_000934	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V20-03	VIRAT_S_010003_10_000901_000934	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V20-04	VIRAT_S_010003_10_000901_000934	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V21-01	VIRAT_S_010005_03_000215_000270	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V21-02	VIRAT_S_010005_03_000215_000270	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V21-03	VIRAT_S_010005_03_000215_000270	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V21-04	VIRAT_S_010005_03_000215_000270	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V22-01	VIRAT_S_010005_05_000397_000430	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V22-02	VIRAT_S_010005_05_000397_000430	direction	normal	GT의 ‘건물 안으로 들어감’ 주체는 화면 좌→우 방향으로 움직인다.	unsure						
+V22-03	VIRAT_S_010005_05_000397_000430	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V22-04	VIRAT_S_010005_05_000397_000430	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V23-01	VIRAT_S_010106_00_000098_000315	detail	high	상단 중앙에서 도착한 흰 밴들이 주차 차량 사이에 정차한 뒤 계속 머문다.	unsure						
+V23-02	VIRAT_S_010106_00_000098_000315	gt_omission	high	GT에 기록된 ‘차량 탑승’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V23-03	VIRAT_S_010106_00_000098_000315	gt_omission	high	GT에 기록된 ‘차량 하차’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V23-04	VIRAT_S_010106_00_000098_000315	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V23-05	VIRAT_S_010106_00_000098_000315	predicted_claim	high	인용에 서술된 주체·장소에서 ‘주차’ 행동이 실제로 보인다.	unsure						
+V23-06	VIRAT_S_010106_00_000098_000315	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V23-07	VIRAT_S_010106_00_000098_000315	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V23-08	VIRAT_S_010106_00_000098_000315	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V24-01	VIRAT_S_010106_02_000656_000692	detail	high	보행자 외에 자전거를 타는 사람이 있으며 운동장 울타리 옆 길을 지나간다.	unsure						
+V24-02	VIRAT_S_010106_02_000656_000692	gt_omission	high	GT에 기록된 ‘몸짓/손짓’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V24-03	VIRAT_S_010106_02_000656_000692	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V24-04	VIRAT_S_010106_02_000656_000692	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 좌→우 방향으로 움직인다.	unsure						
+V24-05	VIRAT_S_010106_02_000656_000692	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 우→좌 방향으로 움직인다.	unsure						
+V25-01	VIRAT_S_010106_05_000954_000996	detail	high	검은 세단 트렁크에서 물건을 꺼낸다.	unsure						
+V25-02	VIRAT_S_010106_05_000954_000996	detail	high	꺼낸 물건을 차량 옆 바닥에 내려놓는다.	unsure						
+V25-03	VIRAT_S_010106_05_000954_000996	detail	high	사람이 떠난 뒤 차량 뒷문 또는 트렁크가 열린 상태로 남는다.	unsure						
+V25-04	VIRAT_S_010106_05_000954_000996	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량에서 물건 꺼내기’ 행동이 실제로 보인다.	unsure						
+V25-05	VIRAT_S_010106_05_000954_000996	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건 내려놓기’ 행동이 실제로 보인다.	unsure						
+V25-06	VIRAT_S_010106_05_000954_000996	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V25-07	VIRAT_S_010106_05_000954_000996	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V25-08	VIRAT_S_010106_05_000954_000996	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V26-01	VIRAT_S_010107_00_000019_000057	detail	high	보행자가 자전거 이용자와 함께 좌→우로 움직인다.	unsure						
+V26-02	VIRAT_S_010107_00_000019_000057	detail	high	왼쪽으로 움직이는 사람은 자전거를 타는 대신 카트를 밀고 있다.	unsure						
+V26-03	VIRAT_S_010107_00_000019_000057	gt_omission	high	GT에 기록된 ‘물건을 들고 운반’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V26-04	VIRAT_S_010107_00_000019_000057	gt_omission	high	GT에 기록된 ‘트렁크 열기’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V26-05	VIRAT_S_010107_00_000019_000057	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V26-06	VIRAT_S_010107_00_000019_000057	predicted_claim	high	인용에 서술된 주체·장소에서 ‘카트 밀기’ 행동이 실제로 보인다.	unsure						
+V26-07	VIRAT_S_010107_00_000019_000057	direction	normal	GT의 ‘물건을 들고 운반’ 주체는 화면 하→상 방향으로 움직인다.	unsure						
+V26-08	VIRAT_S_010107_00_000019_000057	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 우하→좌상 방향으로 움직인다.	unsure						
+V26-09	VIRAT_S_010107_00_000019_000057	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 우→좌 방향으로 움직인다.	unsure						
+V27-01	VIRAT_S_010107_02_000282_000312	detail	high	두 사람이 함께 물건이 든 카트를 좌하 방향으로 민다.	unsure						
+V27-02	VIRAT_S_010107_02_000282_000312	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V27-03	VIRAT_S_010107_02_000282_000312	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V27-04	VIRAT_S_010107_02_000282_000312	predicted_claim	high	인용에 서술된 주체·장소에서 ‘카트 밀기’ 행동이 실제로 보인다.	unsure						
+V27-05	VIRAT_S_010107_02_000282_000312	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V28-01	VIRAT_S_010109_07_000876_000910	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V28-02	VIRAT_S_010109_07_000876_000910	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V28-03	VIRAT_S_010109_07_000876_000910	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V28-04	VIRAT_S_010109_07_000876_000910	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V29-01	VIRAT_S_010110_00_000000_000021	detail	high	은색 세단 옆으로 지나가는 사람이 가방을 들고 있다.	unsure						
+V29-02	VIRAT_S_010110_00_000000_000021	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건을 들고 운반’ 행동이 실제로 보인다.	unsure						
+V29-03	VIRAT_S_010110_00_000000_000021	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V29-04	VIRAT_S_010110_00_000000_000021	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V29-05	VIRAT_S_010110_00_000000_000021	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V30-01	VIRAT_S_010110_02_000513_000566	detail	high	주차장의 차량뿐 아니라 사람도 전혀 움직이지 않는다.	unsure						
+V30-02	VIRAT_S_010110_02_000513_000566	detail	high	두 사람이 돌 옆의 흰 상자에 접근하여 잠시 상호작용한다.	unsure						
+V30-03	VIRAT_S_010110_02_000513_000566	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V30-04	VIRAT_S_010110_02_000513_000566	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V31-01	VIRAT_S_010110_05_000899_000935	detail	high	좌하 구역의 이동자는 스쿠터를 타고 좌→우로 이동한다.	unsure						
+V31-02	VIRAT_S_010110_05_000899_000935	predicted_claim	high	인용에 서술된 주체·장소에서 ‘스쿠터 주행’ 행동이 실제로 보인다.	unsure						
+V31-03	VIRAT_S_010110_05_000899_000935	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V32-01	VIRAT_S_010111_04_000718_000760	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V32-02	VIRAT_S_010111_04_000718_000760	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V32-03	VIRAT_S_010111_04_000718_000760	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V33-01	VIRAT_S_010111_05_000762_000799	detail	high	하단 오른쪽의 사람이 노란 물체를 들고 흰 수거함 옆을 걷는다.	unsure						
+V33-02	VIRAT_S_010111_05_000762_000799	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건을 들고 운반’ 행동이 실제로 보인다.	unsure						
+V33-03	VIRAT_S_010111_05_000762_000799	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V33-04	VIRAT_S_010111_05_000762_000799	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V34-01	VIRAT_S_010111_06_000820_000860	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건을 들고 운반’ 행동이 실제로 보인다.	unsure						
+V34-02	VIRAT_S_010111_06_000820_000860	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V34-03	VIRAT_S_010111_06_000820_000860	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V35-01	VIRAT_S_010111_07_000872_000909	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V35-02	VIRAT_S_010111_07_000872_000909	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V35-03	VIRAT_S_010111_07_000872_000909	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V35-04	VIRAT_S_010111_07_000872_000909	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V36-01	VIRAT_S_010111_08_000920_000954	detail	high	은색 SUV에 접근한 남자가 차 안의 사람과 상호작용한 뒤 걸어서 떠난다.	unsure						
+V36-02	VIRAT_S_010111_08_000920_000954	detail	high	운동장 울타리 옆 두 사람은 화면 왼쪽으로 걷는다.	unsure						
+V36-03	VIRAT_S_010111_08_000920_000954	gt_omission	high	GT에 기록된 ‘트렁크 닫기’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V36-04	VIRAT_S_010111_08_000920_000954	gt_omission	high	GT에 기록된 ‘차량 탑승’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V36-05	VIRAT_S_010111_08_000920_000954	gt_omission	high	GT에 기록된 ‘트렁크 열기’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V36-06	VIRAT_S_010111_08_000920_000954	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 우→좌 방향으로 움직인다.	unsure						
+V37-01	VIRAT_S_010111_09_000981_001014	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V37-02	VIRAT_S_010111_09_000981_001014	predicted_claim	high	인용에 서술된 주체·장소에서 ‘주차’ 행동이 실제로 보인다.	unsure						
+V37-03	VIRAT_S_010111_09_000981_001014	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V38-01	VIRAT_S_010113_02_000434_000479	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V38-02	VIRAT_S_010113_02_000434_000479	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V38-03	VIRAT_S_010113_02_000434_000479	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V39-01	VIRAT_S_010113_05_000776_000805	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V39-02	VIRAT_S_010113_05_000776_000805	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V39-03	VIRAT_S_010113_05_000776_000805	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V39-04	VIRAT_S_010113_05_000776_000805	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V40-01	VIRAT_S_010113_07_000965_001013	detail	high	주차장 근처 사람이 실제 차량 안에서 하차한다.	unsure						
+V40-02	VIRAT_S_010113_07_000965_001013	detail	high	수거함에 접근한 사람이 상자를 들고 와 내려놓은 후 돌아선다.	unsure						
+V40-03	VIRAT_S_010113_07_000965_001013	detail	high	좌하의 나무 옆 그늘에서 사람이 물건이 든 카트를 민다.	unsure						
+V40-04	VIRAT_S_010113_07_000965_001013	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 하차’ 행동이 실제로 보인다.	unsure						
+V40-05	VIRAT_S_010113_07_000965_001013	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 하차’ 행동이 실제로 보인다.	unsure						
+V40-06	VIRAT_S_010113_07_000965_001013	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V40-07	VIRAT_S_010113_07_000965_001013	predicted_claim	high	인용에 서술된 주체·장소에서 ‘카트 밀기’ 행동이 실제로 보인다.	unsure						
+V40-08	VIRAT_S_010113_07_000965_001013	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건을 들고 운반’ 행동이 실제로 보인다.	unsure						
+V40-09	VIRAT_S_010113_07_000965_001013	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건 내려놓기’ 행동이 실제로 보인다.	unsure						
+V40-10	VIRAT_S_010113_07_000965_001013	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V40-11	VIRAT_S_010113_07_000965_001013	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V41-01	VIRAT_S_010114_02_000765_000802	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V41-02	VIRAT_S_010114_02_000765_000802	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V41-03	VIRAT_S_010114_02_000765_000802	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V41-04	VIRAT_S_010114_02_000765_000802	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V42-01	VIRAT_S_010116_00_000061_000121	detail	high	자전거가 우→좌로 주행한다.	unsure						
+V42-02	VIRAT_S_010116_00_000061_000121	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V42-03	VIRAT_S_010116_00_000061_000121	predicted_claim	high	인용에 서술된 주체·장소에서 ‘자전거 주행’ 행동이 실제로 보인다.	unsure						
+V42-04	VIRAT_S_010116_00_000061_000121	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V43-01	VIRAT_S_010200_02_000349_000398	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V43-02	VIRAT_S_010200_02_000349_000398	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V43-03	VIRAT_S_010200_02_000349_000398	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건을 들고 운반’ 행동이 실제로 보인다.	unsure						
+V43-04	VIRAT_S_010200_02_000349_000398	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V43-05	VIRAT_S_010200_02_000349_000398	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V44-01	VIRAT_S_010201_02_000167_000197	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V44-02	VIRAT_S_010201_02_000167_000197	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V44-03	VIRAT_S_010201_02_000167_000197	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V45-01	VIRAT_S_010203_09_001010_001036	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 안으로 들어감’ 행동이 실제로 보인다.	unsure						
+V45-02	VIRAT_S_010203_09_001010_001036	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V45-03	VIRAT_S_010203_09_001010_001036	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V46-01	VIRAT_S_010204_03_000606_000632	detail	high	Student Services 쪽 유리문 입구를 실제로 통과하는 사람이 있다.	unsure						
+V46-02	VIRAT_S_010204_03_000606_000632	detail	high	꽃나무 옆 길에서 두 사람이 조깅한다.	unsure						
+V46-03	VIRAT_S_010204_03_000606_000632	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 밖으로 나옴’ 행동이 실제로 보인다.	unsure						
+V46-04	VIRAT_S_010204_03_000606_000632	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 안으로 들어감’ 행동이 실제로 보인다.	unsure						
+V46-05	VIRAT_S_010204_03_000606_000632	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V46-06	VIRAT_S_010204_03_000606_000632	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V47-01	VIRAT_S_010204_10_001372_001395	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V48-01	VIRAT_S_010205_03_000370_000395	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V48-02	VIRAT_S_010205_03_000370_000395	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V49-01	VIRAT_S_010205_04_000545_000576	detail	high	베이지색 키오스크 옆을 사람이 달려 지나간다.	unsure						
+V49-02	VIRAT_S_010205_04_000545_000576	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V49-03	VIRAT_S_010205_04_000545_000576	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건을 들고 운반’ 행동이 실제로 보인다.	unsure						
+V49-04	VIRAT_S_010205_04_000545_000576	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V49-05	VIRAT_S_010205_04_000545_000576	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V50-01	VIRAT_S_010207_02_000790_000816	detail	high	세 사람이 오른쪽으로 향한 뒤 화면 왼쪽으로 나간다.	unsure						
+V50-02	VIRAT_S_010207_02_000790_000816	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V50-03	VIRAT_S_010207_02_000790_000816	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건을 들고 운반’ 행동이 실제로 보인다.	unsure						
+V50-04	VIRAT_S_010207_02_000790_000816	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건을 들고 운반’ 행동이 실제로 보인다.	unsure						
+V50-05	VIRAT_S_010207_02_000790_000816	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V50-06	VIRAT_S_010207_02_000790_000816	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V51-01	VIRAT_S_010207_09_001484_001510	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V51-02	VIRAT_S_010207_09_001484_001510	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V52-01	VIRAT_S_010207_10_001549_001596	gt_omission	high	GT에 기록된 ‘건물 안으로 들어감’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V52-02	VIRAT_S_010207_10_001549_001596	gt_omission	high	GT에 기록된 ‘건물 밖으로 나옴’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V52-03	VIRAT_S_010207_10_001549_001596	predicted_claim	high	인용에 서술된 주체·장소에서 ‘대화’ 행동이 실제로 보인다.	unsure						
+V52-04	VIRAT_S_010207_10_001549_001596	predicted_claim	high	인용에 서술된 주체·장소에서 ‘대화’ 행동이 실제로 보인다.	unsure						
+V52-05	VIRAT_S_010207_10_001549_001596	direction	normal	GT의 ‘보행 또는 달리기’ 주체는 화면 우→좌 방향으로 움직인다.	unsure						
+V53-01	VIRAT_S_010208_09_000857_000886	detail	high	한 사람이 유리문으로 들어간 뒤 잠시 후 다시 밖으로 나온다.	unsure						
+V53-02	VIRAT_S_010208_09_000857_000886	detail	high	입구에서 멀어지는 첫 사람은 화면 왼쪽으로 이동한다.	unsure						
+V53-03	VIRAT_S_010208_09_000857_000886	detail	high	다른 사람이 가방을 들고 문을 나온 후 오른쪽으로 돌아 화면 밖으로 나간다.	unsure						
+V53-04	VIRAT_S_010208_09_000857_000886	predicted_claim	high	인용에 서술된 주체·장소에서 ‘건물 안으로 들어감’ 행동이 실제로 보인다.	unsure						
+V53-05	VIRAT_S_010208_09_000857_000886	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건을 들고 운반’ 행동이 실제로 보인다.	unsure						
+V53-06	VIRAT_S_010208_09_000857_000886	direction	normal	GT의 ‘건물 밖으로 나옴’ 주체는 화면 우→좌 방향으로 움직인다.	unsure						
+V53-07	VIRAT_S_010208_09_000857_000886	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V53-08	VIRAT_S_010208_09_000857_000886	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V54-01	VIRAT_S_040000_00_000063_000085	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V54-02	VIRAT_S_040000_00_000063_000085	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V55-01	VIRAT_S_040000_01_000042_000099	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V55-02	VIRAT_S_040000_01_000042_000099	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V55-03	VIRAT_S_040000_01_000042_000099	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V56-01	VIRAT_S_040000_02_000111_000145	detail	high	해당 영상에는 움직이는 사람이 없다.	unsure						
+V56-02	VIRAT_S_040000_02_000111_000145	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V57-01	VIRAT_S_040000_04_000532_000622	predicted_claim	high	인용에 서술된 주체·장소에서 ‘물건을 들고 운반’ 행동이 실제로 보인다.	unsure						
+V57-02	VIRAT_S_040000_04_000532_000622	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V57-03	VIRAT_S_040000_04_000532_000622	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V58-01	VIRAT_S_040005_00_000003_000058	detail	high	파란 픽업트럭에서 두 사람이 내린다.	unsure						
+V58-02	VIRAT_S_040005_00_000003_000058	detail	high	방금 내린 두 사람이 다시 그 차량을 운전하여 떠난다.	unsure						
+V58-03	VIRAT_S_040005_00_000003_000058	gt_omission	high	GT에 기록된 ‘차량 탑승’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V58-04	VIRAT_S_040005_00_000003_000058	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V58-05	VIRAT_S_040005_00_000003_000058	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 하차’ 행동이 실제로 보인다.	unsure						
+V58-06	VIRAT_S_040005_00_000003_000058	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V58-07	VIRAT_S_040005_00_000003_000058	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
+V59-01	VIRAT_S_040005_08_001225_001276	detail	high	초록 차량으로 걸어온 사람이 물러난 뒤 그 차량이 출발한다.	unsure						
+V59-02	VIRAT_S_040005_08_001225_001276	gt_omission	high	GT에 기록된 ‘차량 탑승’ 행동이 해당 구간에서 실제로 확인된다.	unsure						
+V59-03	VIRAT_S_040005_08_001225_001276	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V59-04	VIRAT_S_040005_08_001225_001276	predicted_claim	high	인용에 서술된 주체·장소에서 ‘차량 이동’ 행동이 실제로 보인다.	unsure						
+V59-05	VIRAT_S_040005_08_001225_001276	predicted_claim	normal	인용에 서술된 주체·장소에서 ‘보행 또는 달리기’ 행동이 실제로 보인다.	unsure						
