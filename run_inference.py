@@ -142,6 +142,7 @@ def parse_args() -> argparse.Namespace:
             "accumulated_motion_cap2fps",
             "burst_2fps",
             "centroid_2fps",
+            "motion_magnitude_adaptive",
         ],
         default=None,
         help="ROI motion-adaptive sampling policy (overrides experiment.roi_sampling).",

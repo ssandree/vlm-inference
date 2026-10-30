@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_040000_08_001084_001190",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T15:43:33.331281+00:00",
+  "video_duration_sec": 105.638867,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "b31570c653d0e45daae080c292712f4ec104936c805152f6259837f599310113",
+  "manifest_sha256": "54e12f77ac17802ca9d31eab2fa0a3684efc5d59330c296950235ff4a6ab7de3",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed Stage 1 observations and selected original-frame evidence, authored actor/action-specific merge groups and English captions; this script only validates and serializes those decisions. Runtime model/effort is not independently attested.",
+  "caption_language": "en",
+  "event_count": 11,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed high-angle camera overlooks a broad lawn beside a paved plaza and driveway meeting a background road, with a stop sign, sidewalks, landscaped islands, trees and a small gray gabled building on the right."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 17.0,
+        "end_sec": 39.5,
+        "caption": "A person in a light gray sleeveless top and dark shorts walks right across the paved plaza while pulling a dark wheeled suitcase."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 49.5,
+        "end_sec": 58.5,
+        "caption": "A blue pickup enters from the lower left, drives diagonally toward the upper right and stops beside the person at the junction."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 57.5,
+        "end_sec": 60.0,
+        "caption": "A person in a light gray sleeveless top and dark shorts pulls a suitcase from the curb toward the near-side front door of the stopped blue pickup."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 60.0,
+        "end_sec": 60.5,
+        "caption": "A person in a light gray sleeveless top pulls open the near-side front door of the blue pickup."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 60.5,
+        "end_sec": 61.5,
+        "caption": "A person in a light gray sleeveless top opens the smaller rear access door behind the blue pickup front door."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 62.0,
+        "end_sec": 63.5,
+        "caption": "A person in a light gray sleeveless top lifts a dark suitcase from the pavement toward the open rear cabin of the blue pickup."
+      },
+      {
+        "event_id": "E007",
+        "start_sec": 63.5,
+        "end_sec": 75.0,
+        "caption": "A person in a light gray sleeveless top repeatedly bends and reaches into the open rear cabin of the blue pickup before straightening."
+      },
+      {
+        "event_id": "E008",
+        "start_sec": 75.0,
+        "end_sec": 76.0,
+        "caption": "A person in a light gray sleeveless top swings shut the smaller rear access door of the blue pickup."
+      },
+      {
+        "event_id": "E009",
+        "start_sec": 76.5,
+        "end_sec": 78.5,
+        "caption": "A person in a light gray sleeveless top and dark shorts steps up through the open front doorway and lowers into the blue pickup cab."
+      },
+      {
+        "event_id": "E010",
+        "start_sec": 79.0,
+        "end_sec": 80.0,
+        "caption": "A person inside the blue pickup pulls its near-side front door closed."
+      },
+      {
+        "event_id": "E011",
+        "start_sec": 80.5,
+        "end_sec": 94.0,
+        "caption": "The blue pickup pulls away from the junction, turns right onto the background road and drives right out of view."
+      }
+    ]
+  },
+  "review_required_event_ids": [],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

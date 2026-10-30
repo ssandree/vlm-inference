@@ -31,13 +31,24 @@ class TubeGlobalRoiBlock:
     roi_id: int
     global_image_path: str
     sequence_paths: list[str]
+    global_timestamp: float | None = None
+    sequence_timestamps: list[float] | None = None
+
+
+@dataclass(frozen=True)
+class CombinedRoiVideo:
+    """One ROI-tube video inside a combined image + ROI videos + full-frame video sample."""
+
+    roi_id: int
+    sequence_paths: list[str]
+    sequence_timestamps: list[float]
 
 
 @dataclass
 class Sample:
     job_name: str
     sample_id: str
-    input_type: str  # "video" | "images" | "frames" | "global_then_tube_videos" | "tube_global_anchor_videos" | "tube_global_roi_videos"
+    input_type: str  # "video" | "images" | "frames" | "global_then_tube_videos" | "tube_global_anchor_videos" | "tube_global_roi_videos" | "combined_image_roi_full_video"
     paths: list[str]
     sidecar_dirs: list[Path] = field(default_factory=list)
     # Prototype packing: sparse Global images + one video frame-list per ROI tube.
@@ -57,6 +68,14 @@ class Sample:
     # when bundle is None (single-directory metadata.json).
     bundle: VideoBundleMetadata | None = None
     bundle_dir: Path | None = None
+    # One group per Qwen video item, in message order. Used only when
+    # video.timestamp_mode is source_timestamp. None keeps the legacy clock.
+    video_timestamp_groups: list[list[float]] | None = None
+    # combined_image_roi_full_video only. Unused by the existing sample types.
+    combined_start_image: str | None = None
+    combined_roi_videos: list[CombinedRoiVideo] = field(default_factory=list)
+    combined_full_paths: list[str] = field(default_factory=list)
+    combined_full_timestamps: list[float] | None = None
 
 
 def _sorted_glob(directory: Path, pattern: str) -> list[Path]:

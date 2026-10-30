@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_010003_07_000608_000636",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T15:43:33.249469+00:00",
+  "video_duration_sec": 20.650814,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "e912c110017b5fa256681fb67595125f14bb2ec2a53f93c7d0fadbbf9f3f7c87",
+  "manifest_sha256": "54e12f77ac17802ca9d31eab2fa0a3684efc5d59330c296950235ff4a6ab7de3",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed Stage 1 observations and selected original-frame evidence, authored actor/action-specific merge groups and English captions; this script only validates and serializes those decisions. Runtime model/effort is not independently attested.",
+  "caption_language": "en",
+  "event_count": 5,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed elevated camera overlooks a courtyard with tables and red umbrellas, a sloping lawn, broad stairs on the left and an upper walkway beside brick and glass building fronts."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 0,
+        "end_sec": 17.5,
+        "caption": "A person in a dark top and long trousers carries a pale turquoise item down the left staircase and exits to the left."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 2.5,
+        "end_sec": 6.5,
+        "caption": "A cyclist in dark clothing rides left along the elevated walkway toward the red wall sign."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 6,
+        "end_sec": 7.5,
+        "caption": "A cyclist in dark clothing slows and turns the bicycle around near the red wall sign."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 7,
+        "end_sec": 10.5,
+        "caption": "A cyclist in dark clothing rides right along the elevated walkway and becomes obscured by the planters and patio furniture."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 16.5,
+        "end_sec": 20.5,
+        "caption": "A person in a light shirt and dark shorts walks away from the lower-left foreground between the patio tables with a dark backpack."
+      }
+    ]
+  },
+  "review_required_event_ids": [],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

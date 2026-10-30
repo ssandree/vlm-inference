@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_010001_08_000826_000893",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T16:12:03.830862+00:00",
+  "video_duration_sec": 58.656654,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "5ca16ac27edc873e4a5a47870cccc705fc91efe94aab8cb5bfdd2d4a97110509",
+  "manifest_sha256": "034a3619483812c7f7fd6bc54b949bf1795ea7372be83897c2bfff55ea3833e0",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed Stage 1 observations and selected original-frame evidence, authored actor/action-specific merge groups, documented dispositions and English captions; this script validates and serializes those judgments. Runtime model/effort is not independently attested.",
+  "caption_language": "en",
+  "event_count": 6,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed elevated oblique view shows an outdoor courtyard with tables under red umbrellas, a broad staircase to the left, a central lawn and an upper terrace bordered by brick walls and glass entrances."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 0.0,
+        "end_sec": 6.5,
+        "caption": "A person in a burgundy top walks down the left staircase and exits at the left edge."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 0.0,
+        "end_sec": 7.0,
+        "caption": "A person in a dark top and blue jeans walks down the left staircase beside the other walker and exits to the left."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 1.0,
+        "end_sec": 8.0,
+        "caption": "A distant person in a gray patterned top and blue-purple trousers takes a few steps left and back right near the closed red umbrella and blue bin."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 6.0,
+        "end_sec": 18.0,
+        "caption": "A person in a dark striped top and dark trousers walks left along the upper terrace toward the open glass doorway."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 35.5,
+        "end_sec": 46.0,
+        "caption": "A distant person in a gray or burgundy patterned top and blue trousers walks left from the blue bin, turns and walks right behind the planter."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 57.0,
+        "end_sec": 58.5,
+        "caption": "A distant person in a green top and blue trousers emerges near the narrow upper doorway and takes a few steps right beside the blue bin."
+      }
+    ]
+  },
+  "review_required_event_ids": [
+    "E003",
+    "E005"
+  ],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

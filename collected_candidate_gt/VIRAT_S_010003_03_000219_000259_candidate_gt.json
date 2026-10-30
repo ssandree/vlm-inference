@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_010003_03_000219_000259",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T16:12:03.844373+00:00",
+  "video_duration_sec": 40.008344,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "906bbad22dc939eeb21860d12340059d96472e1a746e467f7e2d70d1397bd76e",
+  "manifest_sha256": "034a3619483812c7f7fd6bc54b949bf1795ea7372be83897c2bfff55ea3833e0",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed Stage 1 observations and selected original-frame evidence, authored actor/action-specific merge groups, documented dispositions and English captions; this script validates and serializes those judgments. Runtime model/effort is not independently attested.",
+  "caption_language": "en",
+  "event_count": 11,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed elevated camera overlooks a courtyard with umbrella-covered tables, a rectangular lawn, a broad staircase on the left and an upper walkway in front of brick buildings and glass doors."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 0.0,
+        "end_sec": 1.5,
+        "caption": "A person in pale clothing carrying a light-colored bag walks diagonally down-left and exits the frame."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 0.0,
+        "end_sec": 5.5,
+        "caption": "A distant person in a pale gray top and dark trousers walks left along the upper walkway toward the shaded entrance."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 0.0,
+        "end_sec": 14.5,
+        "caption": "A person in a pale top and blue-gray trousers carries an open dark umbrella right across the upper terrace and exits to the right."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 0.0,
+        "end_sec": 16.0,
+        "caption": "A person in a dark top and white trousers walks up the left staircase."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 12.5,
+        "end_sec": 22.5,
+        "caption": "A person in a bright red or pink top and pale trousers walks right along the upper terrace and exits to the right."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 14.0,
+        "end_sec": 31.0,
+        "caption": "A person in a dark red top and tan trousers walks left along the upper walkway past the blue bin to the top of the stairs."
+      },
+      {
+        "event_id": "E007",
+        "start_sec": 16.5,
+        "end_sec": 19.5,
+        "caption": "The person in a dark top and white trousers walks from the stair landing toward the shaded left doorway and disappears from view."
+      },
+      {
+        "event_id": "E008",
+        "start_sec": 20.5,
+        "end_sec": 31.0,
+        "caption": "A distant person in a dark top and pale lower clothing walks right along the upper walkway and disappears behind terrace furniture."
+      },
+      {
+        "event_id": "E009",
+        "start_sec": 31.5,
+        "end_sec": 39.5,
+        "caption": "The person in a dark red top and tan trousers walks down the left staircase."
+      },
+      {
+        "event_id": "E010",
+        "start_sec": 32.0,
+        "end_sec": 39.5,
+        "caption": "A person in a blue-gray top and tan lower clothing walks left onto the upper terrace from the right stairs."
+      },
+      {
+        "event_id": "E011",
+        "start_sec": 32.0,
+        "end_sec": 39.5,
+        "caption": "A person in a pale gray top and light trousers follows left onto the upper terrace from the right stairs."
+      }
+    ]
+  },
+  "review_required_event_ids": [
+    "E008"
+  ],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

@@ -63,6 +63,9 @@ class GenerateResult:
     video_inputs: list[dict[str, Any]] | None = None
     num_output_tokens: int | None = None
     hit_token_limit: bool = False
+    # Per image and per video, from processor grids. None when grids are absent.
+    # Existing num_visual_tokens stays the summed placeholder count.
+    visual_token_detail: dict[str, Any] | None = None
 
     def token_stats(self) -> dict[str, int]:
         out: dict[str, int] = {}
@@ -111,13 +114,58 @@ class PreparedInputs:
     inputs: Any
     token_stats: dict[str, int] | None
     video_inputs: list[dict[str, Any]]
+    visual_token_detail: dict[str, Any] | None = None
 
 
-def prepare_multimodal_inputs(processor: Any, messages: list[dict[str, Any]]) -> PreparedInputs:
+def _grid_visual_tokens(grid: Any, merge_size: int) -> list[int]:
+    """Tokens per grid row. Qwen replaces one placeholder by prod(thw) // merge_size**2."""
+    if grid is None:
+        return []
+    rows = grid.tolist() if hasattr(grid, "tolist") else list(grid)
+    merge = int(merge_size) ** 2
+    counts: list[int] = []
+    for row in rows:
+        product = 1
+        for value in row:
+            product *= int(value)
+        counts.append(product // merge)
+    return counts
+
+
+def visual_token_detail_from_inputs(processor: Any, inputs: Any) -> dict[str, Any] | None:
+    """Split visual tokens into one count per image and one count per video.
+
+    The order matches processor image_grid_thw, then video_grid_thw, which follows
+    message order. The summed grid count is what count_processor_tokens should match.
+    """
+    image_processor = getattr(processor, "image_processor", None)
+    video_processor = getattr(processor, "video_processor", None)
+    image_merge = getattr(image_processor, "merge_size", None)
+    video_merge = getattr(video_processor, "merge_size", None)
+    if image_merge is None or video_merge is None:
+        return None
+    image_tokens = _grid_visual_tokens(getattr(inputs, "image_grid_thw", None), int(image_merge))
+    video_tokens = _grid_visual_tokens(getattr(inputs, "video_grid_thw", None), int(video_merge))
+    return {
+        "image_visual_tokens": image_tokens,
+        "video_visual_tokens": video_tokens,
+        "num_visual_tokens_from_grids": sum(image_tokens) + sum(video_tokens),
+    }
+
+
+def prepare_multimodal_inputs(
+    processor: Any,
+    messages: list[dict[str, Any]],
+    frame_timestamps: list[list[float]] | None = None,
+) -> PreparedInputs:
     """Shared Qwen preprocessing, with measured inputs rather than requested FPS.
 
     Used by normal generate and by a processor-only pilot dry-run. Metadata comes
     from the actual reader; processor frame sampling is explicitly disabled.
+
+    ``frame_timestamps`` must align with the video items in order.
+    ``generate`` passes them only when ``video.timestamp_mode`` is
+    ``source_timestamp``. ``legacy`` passes None and keeps the fetcher clock.
     """
     text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     images, videos, kwargs = process_vision_info(
@@ -126,6 +174,11 @@ def prepare_multimodal_inputs(processor: Any, messages: list[dict[str, Any]]) ->
     tensors, metadatas, measured = None, None, []
     if videos is not None:
         tensors, metadatas = map(list, zip(*videos))
+        metadatas = [dict(item) for item in metadatas]
+        if frame_timestamps is not None:
+            from .frame_clock import rewrite_video_metadata_list
+
+            metadatas = rewrite_video_metadata_list(metadatas, frame_timestamps)
         for tensor, metadata in zip(tensors, metadatas):
             indices = [int(x) for x in metadata["frames_indices"]]
             fps = float(metadata["fps"])
@@ -154,7 +207,12 @@ def prepare_multimodal_inputs(processor: Any, messages: list[dict[str, Any]]) ->
         for row, measurement in zip(grid.tolist(), measured):
             measurement["video_grid_thw"] = [int(x) for x in row]
             measurement["model_frame_count_with_temporal_padding"] = int(row[0]) * temporal
-    return PreparedInputs(inputs, count_processor_tokens(processor, inputs.input_ids), measured)
+    return PreparedInputs(
+        inputs,
+        count_processor_tokens(processor, inputs.input_ids),
+        measured,
+        visual_token_detail_from_inputs(processor, inputs),
+    )
 
 
 class Qwen3VLCaptioner:
@@ -242,6 +300,8 @@ class Qwen3VLCaptioner:
             content.extend(self._build_tube_global_anchor_content(sample))
         elif sample.input_type == "tube_global_roi_videos":
             content.extend(self._build_tube_global_roi_content(sample))
+        elif sample.input_type == "combined_image_roi_full_video":
+            content.extend(self._build_combined_image_roi_full_content(sample))
         elif sample.input_type == "images":
             for path in sample.paths:
                 item = {"type": "image", "image": path}
@@ -361,6 +421,14 @@ class Qwen3VLCaptioner:
             video=self.cfg.video,
         )
 
+    def _build_combined_image_roi_full_content(self, sample: Sample) -> list[dict[str, Any]]:
+        """t=0 full-frame image, each ROI video, then one full-frame video."""
+        return build_combined_image_roi_full_content(
+            sample,
+            image=self.cfg.image,
+            video=self.cfg.video,
+        )
+
     def _maybe_dump_input_order(self, sample: Sample, text: str) -> None:
         """Write pre-VLM input order dump under outputs/input_order/."""
         out_dir = Path(self.cfg.output.dir) / "input_order"
@@ -424,9 +492,21 @@ class Qwen3VLCaptioner:
     def generate(
         self, sample: Sample, prompt: str, *, prepared: PreparedInputs | None = None
     ) -> GenerateResult:
-        prepared = prepared or prepare_multimodal_inputs(
-            self.processor, self._build_messages(sample, prompt)
-        )
+        if prepared is None:
+            from .frame_clock import frame_timestamps_for_generate
+
+            # This packing emits each Global as an image, so only ROI videos
+            # receive a timestamp group. SurveillanceVQA uses global_is_video=True.
+            groups = frame_timestamps_for_generate(
+                sample,
+                self.cfg.video.timestamp_mode,
+                global_is_video=False,
+            )
+            prepared = prepare_multimodal_inputs(
+                self.processor,
+                self._build_messages(sample, prompt),
+                groups,
+            )
         inputs = prepared.inputs
         token_stats = prepared.token_stats
 
@@ -456,6 +536,7 @@ class Qwen3VLCaptioner:
             num_text_tokens=(token_stats or {}).get("num_text_tokens"),
             num_total_input_tokens=(token_stats or {}).get("num_total_input_tokens"),
             video_inputs=prepared.video_inputs,
+            visual_token_detail=prepared.visual_token_detail,
             num_output_tokens=int(trimmed[0].numel()),
             hit_token_limit=(int(trimmed[0].numel()) >= gen.max_new_tokens
                              and int(trimmed[0][-1]) not in QWEN3_EOS_TOKEN_IDS),
@@ -528,6 +609,45 @@ def _apply_video_opts(
             item["nframes"] = opts.nframes
         elif opts.fps is not None:
             item["fps"] = opts.fps
+
+
+def build_combined_image_roi_full_content(
+    sample: Sample,
+    *,
+    image: ImageConfig,
+    video: VideoConfig,
+) -> list[dict[str, Any]]:
+    """One start image, then each ROI video, then the full-frame video.
+
+    No extra text tags are inserted. Timestamp groups, when requested, are the
+    ROI videos in this same order followed by the full-frame video.
+    """
+    from .frame_clock import combined_video_timestamp_groups
+
+    if not sample.combined_start_image:
+        raise ValueError("combined input needs the t=0 full-frame image")
+    if not sample.combined_roi_videos:
+        raise ValueError("combined input needs at least one ROI video")
+    if not sample.combined_full_paths:
+        raise ValueError("combined input needs the full-frame video")
+    groups = combined_video_timestamp_groups(sample)
+    explicit = sample.video_timestamp_groups
+    if explicit is not None and len(explicit) != len(groups):
+        raise ValueError(
+            f"{len(explicit)} timestamp groups for {len(groups)} combined videos"
+        )
+    content: list[dict[str, Any]] = []
+    image_item: dict[str, Any] = {"type": "image", "image": sample.combined_start_image}
+    _apply_image_opts(image_item, image)
+    content.append(image_item)
+    for roi in sample.combined_roi_videos:
+        item = {"type": "video", "video": list(roi.sequence_paths)}
+        _apply_video_opts(item, video, is_frame_list=True)
+        content.append(item)
+    full_item = {"type": "video", "video": list(sample.combined_full_paths)}
+    _apply_video_opts(full_item, video, is_frame_list=True)
+    content.append(full_item)
+    return content
 
 
 def build_tube_global_roi_content(

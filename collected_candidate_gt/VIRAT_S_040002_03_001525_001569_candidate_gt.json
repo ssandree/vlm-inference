@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_040002_03_001525_001569",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T16:12:03.804214+00:00",
+  "video_duration_sec": 43.777067,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "79982d70a3d2f33abb4bae6f494e3350475914c9a3a94181f1743359fa0b0558",
+  "manifest_sha256": "034a3619483812c7f7fd6bc54b949bf1795ea7372be83897c2bfff55ea3833e0",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed Stage 1 observations and selected original-frame evidence, authored actor/action-specific merge groups, documented dispositions and English captions; this script validates and serializes those judgments. Runtime model/effort is not independently attested.",
+  "caption_language": "en",
+  "event_count": 1,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed high-angle camera overlooks a lawn bordered by sidewalks and roads, with a parking area to the left, landscaped islands and lamp posts, fenced utility equipment in the center background and a small gray pitched-roof building to the right."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 10.5,
+        "end_sec": 32.5,
+        "caption": "A bright blue pickup enters from the lower left, curves onto the road behind the lawn and drives right out of the frame."
+      }
+    ]
+  },
+  "review_required_event_ids": [],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

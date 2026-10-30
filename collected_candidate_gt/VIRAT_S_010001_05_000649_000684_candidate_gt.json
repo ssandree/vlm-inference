@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_010001_05_000649_000684",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T23:32:00.497082+09:00",
+  "video_duration_sec": 26.950355,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "a8424e2c259dd3cbd7619b4f099de9e2b2b733ee58f4839de85c98baf94ca1d9",
+  "manifest_sha256": "a288c3472b993e52055f77278de49c0aa9e1af086398635d631020d10383f429",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed source observations and original-frame evidence, authored merge groups and English captions; this script only validates and serializes those decisions.",
+  "caption_language": "en",
+  "event_count": 8,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed elevated camera overlooks a paved courtyard with tables and red umbrellas, a sloping lawn, broad stairs on the left, and an upper walkway beside brick and glass building fronts."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 0,
+        "end_sec": 1.5,
+        "caption": "A person in a pink-red top and light lower clothing walks right out of the upper walkway."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 0,
+        "end_sec": 6.5,
+        "caption": "A person in dark clothing with a light item over one shoulder descends the left stairs."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 0,
+        "end_sec": 22.5,
+        "caption": "A person in a blue-gray patterned top and blue trousers walks left toward the red wall-mounted machine."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 6,
+        "end_sec": 26.5,
+        "caption": "A person in a light sleeveless top and dark lower clothing walks left toward the upper stair landing."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 12,
+        "end_sec": 14.5,
+        "caption": "A person in pale yellow clothing steps out through the glass entrance onto the upper walkway."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 15,
+        "end_sec": 23,
+        "caption": "A person in pale yellow clothing walks right along the upper walkway and leaves the frame."
+      },
+      {
+        "event_id": "E007",
+        "start_sec": 17,
+        "end_sec": 26.5,
+        "caption": "A distant person in dark reddish clothing walks left along the rear passage."
+      },
+      {
+        "event_id": "E008",
+        "start_sec": 23,
+        "end_sec": 26.5,
+        "caption": "A person in a blue-gray patterned top faces the red wall-mounted machine and moves an arm toward its panel."
+      }
+    ]
+  },
+  "review_required_event_ids": [
+    "E008"
+  ],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

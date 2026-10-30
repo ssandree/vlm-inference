@@ -20,6 +20,7 @@ from typing import Any, Iterable, Sequence
 
 import numpy as np
 
+from .magnitude_config import MagnitudeAdaptiveConfig
 from .metadata_format import (
     FrameRef,
     VideoBundleMetadata,
@@ -51,6 +52,7 @@ ROI_ACCUMULATED = "accumulated_motion"
 ROI_ACCUMULATED_CAP2FPS = "accumulated_motion_cap2fps"
 ROI_BURST_2FPS = "burst_2fps"
 ROI_CENTROID_2FPS = "centroid_2fps"
+ROI_MAGNITUDE_ADAPTIVE = "motion_magnitude_adaptive"
 
 VALID_ROI_SAMPLING_MODES = frozenset(
     {
@@ -64,6 +66,7 @@ VALID_ROI_SAMPLING_MODES = frozenset(
         ROI_ACCUMULATED_CAP2FPS,
         ROI_BURST_2FPS,
         ROI_CENTROID_2FPS,
+        ROI_MAGNITUDE_ADAPTIVE,
     }
 )
 
@@ -94,6 +97,7 @@ ROI_SAMPLING_METHODS: dict[str, str] = {
     "global_roi_video_start_roi_fixed_2fps": ROI_FIXED_2FPS,
     "global_roi_video_start_roi_accumulated_motion": ROI_ACCUMULATED,
     "global_roi_video_start_roi_centroid_2fps": ROI_CENTROID_2FPS,
+    "global_roi_start_only_roi_motion_magnitude_adaptive": ROI_MAGNITUDE_ADAPTIVE,
 }
 
 DEFAULT_TAU = 8.0
@@ -515,6 +519,65 @@ def select_burst_2fps(
     return selected, windows
 
 
+def _magnitude_cuts(
+    series: Sequence[MotionSample],
+    cfg: MagnitudeAdaptiveConfig,
+) -> tuple[float, float]:
+    if cfg.threshold_source == "absolute":
+        return float(cfg.low_threshold), float(cfg.high_threshold)
+    positive = [float(s.magnitude) for s in series if float(s.magnitude) > 0]
+    if len(positive) < 3:
+        return float("inf"), float("inf")
+    return _percentile(positive, cfg.low_quantile), _percentile(positive, cfg.high_quantile)
+
+
+def fps_for_magnitude(magnitude: float, low: float, high: float, cfg: MagnitudeAdaptiveConfig) -> float:
+    if float(magnitude) < float(low):
+        return float(cfg.min_fps)
+    if float(magnitude) < float(high):
+        return float(cfg.mid_fps)
+    return float(cfg.max_fps)
+
+
+def select_motion_magnitude_adaptive(
+    rec: RoiMotionRecord,
+    cfg: MagnitudeAdaptiveConfig | None = None,
+) -> list[SelectedStamp]:
+    """Keep a nested 0.5 / 1 / 2 fps grid over the whole tube.
+
+    The 0.5 fps grid is always kept, including both tube endpoints.
+    1 fps points are kept where the nearest Stage3 magnitude is at least the
+    low cut. 2 fps points are kept only at or above the high cut.
+    Short magnitude spikes therefore cannot exceed ``max_fps``.
+    Native frames are deduplicated. Flow is not recomputed.
+    """
+    cfg = cfg or MagnitudeAdaptiveConfig()
+    samples = list(rec.series)
+    if not samples:
+        return []
+    low, high = _magnitude_cuts(samples, cfg)
+    t0 = float(samples[0].timestamp)
+    t1 = float(samples[-1].timestamp)
+
+    def magnitude_at(timestamp: float) -> float:
+        nearest = min(samples, key=lambda sample: abs(float(sample.timestamp) - float(timestamp)))
+        return float(nearest.magnitude)
+
+    selected: dict[int, SelectedStamp] = {}
+    for rate in (float(cfg.min_fps), float(cfg.mid_fps), float(cfg.max_fps)):
+        for stamp in select_fixed_or_adaptive(
+            t0=t0,
+            t1=t1,
+            fps=rate,
+            native_fps=rec.native_fps,
+            frame_count=rec.frame_count,
+        ):
+            allowed = fps_for_magnitude(magnitude_at(stamp.timestamp), low, high, cfg)
+            if allowed + 1e-9 >= rate:
+                selected.setdefault(int(stamp.native_frame), stamp)
+    return sorted(selected.values(), key=lambda stamp: (float(stamp.timestamp), int(stamp.native_frame)))
+
+
 def load_tracks_payload(tracks_path: Path) -> dict[str, Any]:
     return json.loads(Path(tracks_path).read_text(encoding="utf-8"))
 
@@ -535,12 +598,46 @@ def _events_by_id(payload: dict[str, Any]) -> dict[int, dict[str, Any]]:
     return {int(ev["event_id"]): ev for ev in events if "event_id" in ev}
 
 
+def _member_score_lists(
+    tube: dict[str, Any],
+    score_map: np.ndarray,
+    t0: int,
+    t1: int,
+) -> dict[int, list[float]]:
+    """Mean inputs from stored ``MU`` at member cells. No new optical flow."""
+    volume = np.asarray(score_map)
+    found: dict[int, list[float]] = {}
+    for member in tube.get("members") or []:
+        if not all(key in member for key in ("y", "x", "t0", "t1")):
+            continue
+        y, x = int(member["y"]), int(member["x"])
+        start, end = int(member["t0"]), int(member["t1"])
+        if end < start:
+            start, end = end, start
+        start = max(start, t0)
+        end = min(end, t1)
+        if y < 0 or x < 0 or y >= volume.shape[1] or x >= volume.shape[2]:
+            continue
+        for frame_index in range(start, end + 1):
+            if frame_index < 0 or frame_index >= volume.shape[0]:
+                continue
+            value = float(volume[frame_index, y, x])
+            if math.isfinite(value):
+                found.setdefault(frame_index, []).append(value)
+    return found
+
+
 def tube_motion_series(
     tube: dict[str, Any],
     events_by_id: dict[int, dict[str, Any]],
     timeline: dict[str, np.ndarray],
+    score_map: np.ndarray | None = None,
 ) -> tuple[float, float, tuple[MotionSample, ...]]:
-    """Per-stage3-frame mean cell magnitude from member events; 0 if none."""
+    """Per-stage3-frame mean cell magnitude from member events; 0 if none.
+
+    Light tracks omit ``per_frame.magnitudes``. When ``score_map`` is the saved
+    Stage2 ``MU`` volume, those member cells are read from it instead.
+    """
     ts = timeline["timestamp_sec_curr"]
     native = timeline["frame_idx_curr"]
     n = int(ts.shape[0])
@@ -562,6 +659,8 @@ def tube_motion_series(
             if not mags:
                 continue
             mag_lists.setdefault(fi, []).extend(float(x) for x in mags)
+    if not mag_lists and score_map is not None:
+        mag_lists = _member_score_lists(tube, score_map, t0, t1)
 
     series: list[MotionSample] = []
     observed: list[float] = []
@@ -615,6 +714,7 @@ def collect_eval_roi_records(
         payload = load_tracks_payload(tracks_path)
         timeline = load_timeline(payload["fusion_npz"])
         events = _events_by_id(payload)
+        score_map = None if _events_have_magnitudes(events) else load_score_map(payload)
         tubes = {int(t["tube_id"]): t for t in (payload.get("tracks") or [])}
         video_path = Path(video_root) / f"{video_id}.mp4"
         if not video_path.is_file():
@@ -639,7 +739,9 @@ def collect_eval_roi_records(
             if tube is None:
                 logger.warning("%s: proposed ROI %s not in tracks; skipped", video_id, roi_id)
                 continue
-            score, total, series = tube_motion_series(tube, events, timeline)
+            score, total, series = tube_motion_series(
+                tube, events, timeline, score_map=score_map
+            )
             bbox = bboxes.get(int(roi_id))
             records.append(
                 RoiMotionRecord(
@@ -672,6 +774,26 @@ def apply_percentiles(records: list[RoiMotionRecord]) -> tuple[float, float]:
     return p33, p66
 
 
+def load_score_map(payload: dict[str, Any]) -> np.ndarray | None:
+    """Saved fused magnitude volume, when the tracks JSON points at one."""
+    path = payload.get("fusion_npz")
+    if not path or not Path(str(path)).is_file():
+        return None
+    key = str(payload.get("score_key") or "MU_fused")
+    with np.load(path) as data:
+        if key not in data.files:
+            return None
+        return np.asarray(data[key], dtype=np.float64)
+
+
+def _events_have_magnitudes(events_by_id: dict[int, dict[str, Any]]) -> bool:
+    for event in events_by_id.values():
+        for frame in event.get("per_frame") or []:
+            if frame.get("magnitudes"):
+                return True
+    return False
+
+
 def assign_policy(
     records: list[RoiMotionRecord],
     *,
@@ -679,6 +801,7 @@ def assign_policy(
     tau: float,
     default_fps: float = 1.0,
     intervals: list[dict[str, float]] | None = None,
+    magnitude_cfg: MagnitudeAdaptiveConfig | None = None,
 ) -> list[RoiMotionRecord]:
     mode = parse_roi_sampling_mode(mode) or mode
     for rec in records:
@@ -731,6 +854,15 @@ def assign_policy(
                 rec.assigned_fps = (len(selected) - 1) / dur
             else:
                 rec.assigned_fps = float(BURST_BG_FPS)
+        elif mode == ROI_MAGNITUDE_ADAPTIVE:
+            cfg_mag = magnitude_cfg or MagnitudeAdaptiveConfig()
+            selected = select_motion_magnitude_adaptive(rec, cfg_mag)
+            rec.selected = tuple(selected)
+            dur = float(rec.t1_sec) - float(rec.t0_sec)
+            if dur > 1e-6 and len(selected) > 1:
+                rec.assigned_fps = (len(selected) - 1) / dur
+            else:
+                rec.assigned_fps = float(cfg_mag.min_fps)
         else:
             fps = fps_for_record(mode, rec)
             rec.assigned_fps = fps
@@ -1289,9 +1421,14 @@ def prepare_motion_adaptive_sampling(
             _prepare_spatial_analysis(clones, cfg)
         if mode == ROI_CENTROID_2FPS:
             _prepare_centroid_analysis(clones, cfg)
-        assign_policy(clones, mode=mode, tau=tau,
-                      default_fps=exp.roi_sampling_default_fps,
-                      intervals=exp.roi_sampling_intervals)
+        assign_policy(
+            clones,
+            mode=mode,
+            tau=tau,
+            default_fps=exp.roi_sampling_default_fps,
+            intervals=exp.roi_sampling_intervals,
+            magnitude_cfg=getattr(exp, "magnitude_adaptive", None),
+        )
         if mode == ROI_CENTROID_2FPS:
             _write_centroid_sampling_debug(clones, cfg)
         mode_rows[mode] = clones

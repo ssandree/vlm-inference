@@ -1,2 +1,0 @@
-This is a group of frames from one video. Each image is provided with its timestamp. 
-Describe what is happening in the video. Focus on the left side of the screen.

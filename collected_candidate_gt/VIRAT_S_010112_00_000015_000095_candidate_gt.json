@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_010112_00_000015_000095",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T15:43:33.309146+00:00",
+  "video_duration_sec": 74.176053,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "48815347501d137fb144301a560c96836a895ff5ec0f9a91a19cb9a5ae8a3a74",
+  "manifest_sha256": "54e12f77ac17802ca9d31eab2fa0a3684efc5d59330c296950235ff4a6ab7de3",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed Stage 1 observations and selected original-frame evidence, authored actor/action-specific merge groups and English captions; this script only validates and serializes those decisions. Runtime model/effort is not independently attested.",
+  "caption_language": "en",
+  "event_count": 6,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed elevated camera overlooks a marked parking lot with parked cars and vans, a white service enclosure in the shaded foreground, and a far road and sidewalk beside trees, a sports-field fence and large buildings."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 0,
+        "end_sec": 31.5,
+        "caption": "A distant pedestrian walks right along the far sidewalk and becomes obscured near the building-side railings."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 0,
+        "end_sec": 36.5,
+        "caption": "A person in a dark top and pale trousers walks diagonally left across the parking lot and exits at the left edge."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 2.5,
+        "end_sec": 36.5,
+        "caption": "A small silver hatchback leaves the left parking row, curves through the aisle and exits up the diagonal background driveway."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 43.5,
+        "end_sec": 74,
+        "caption": "A distant person in a light top and dark trousers walks left along the far sidewalk past the large trees."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 44.5,
+        "end_sec": 64.5,
+        "caption": "A dark sedan drives right along the far parking-lot lane, curves left near the road and continues up the diagonal driveway."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 66,
+        "end_sec": 74,
+        "caption": "A person in dark clothing moves left along the far edge of the parking lot with both arms held forward."
+      }
+    ]
+  },
+  "review_required_event_ids": [
+    "E001",
+    "E006"
+  ],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_040000_04_000532_000622",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T16:12:03.871316+00:00",
+  "video_duration_sec": 89.7897,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "34358d65c8e33cd7fabbbf15e76df105fee6938d4be82c133e8af4886b677913",
+  "manifest_sha256": "034a3619483812c7f7fd6bc54b949bf1795ea7372be83897c2bfff55ea3833e0",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed Stage 1 observations and selected original-frame evidence, authored actor/action-specific merge groups, documented dispositions and English captions; this script validates and serializes those judgments. Runtime model/effort is not independently attested.",
+  "caption_language": "en",
+  "event_count": 8,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed high-angle camera overlooks a large lawn bordered by sidewalks, landscaped islands, lamp posts and roads, with a parking area to the left, fenced utility equipment in the center background and a small gray pitched-roof building to the right."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 14.5,
+        "end_sec": 15.5,
+        "caption": "A distant dark red car drives left along the far-right background road and disappears behind a tree."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 15.5,
+        "end_sec": 78.0,
+        "caption": "A person in a pale top and light trousers walks left along the distant path, follows the sidewalk right, then curves down-left through the parking area and exits past the blue pickup."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 18.5,
+        "end_sec": 22.0,
+        "caption": "A distant reddish car moves diagonally down-right along the road beside the gray building and leaves the visible road segment."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 26.5,
+        "end_sec": 27.0,
+        "caption": "A tiny light-colored vehicle briefly moves left behind the gray building roofline."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 56.0,
+        "end_sec": 61.0,
+        "caption": "A distant gray car drives up-left along the far-right road, curves right near the junction and exits at the right edge."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 56.5,
+        "end_sec": 57.0,
+        "caption": "A distant light-colored vehicle moves left along the far background road before disappearing behind trees."
+      },
+      {
+        "event_id": "E007",
+        "start_sec": 59.0,
+        "end_sec": 59.5,
+        "caption": "A tiny light-colored vehicle briefly moves left above the gray building roof and becomes hidden."
+      },
+      {
+        "event_id": "E008",
+        "start_sec": 60.5,
+        "end_sec": 61.0,
+        "caption": "A tiny dark or reddish vehicle moves left along the far road and disappears behind the gray building roofline."
+      }
+    ]
+  },
+  "review_required_event_ids": [
+    "E001",
+    "E002",
+    "E003",
+    "E004",
+    "E006",
+    "E007",
+    "E008"
+  ],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

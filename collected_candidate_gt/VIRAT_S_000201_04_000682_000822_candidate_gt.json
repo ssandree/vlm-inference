@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_000201_04_000682_000822",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T23:32:00.487393+09:00",
+  "video_duration_sec": 139.4,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "d9211b6b7f49691e5ffee6b2bdcbed59a0efe4fa1530f41818e80725bc0baf8f",
+  "manifest_sha256": "a288c3472b993e52055f77278de49c0aa9e1af086398635d631020d10383f429",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed source observations and original-frame evidence, authored merge groups and English captions; this script only validates and serializes those decisions.",
+  "caption_language": "en",
+  "event_count": 27,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed elevated camera overlooks a marked parking lot beside a two-lane road, with sidewalks, a curved entrance around a grass island, parked-car rows, a small white booth, trees and brick buildings in the background."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 0,
+        "end_sec": 18,
+        "caption": "A silver sedan enters the lot, curves into a space beside a dark SUV, and stops."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 0,
+        "end_sec": 40.5,
+        "caption": "A person in a bright yellow-green top and dark trousers walks toward the foreground along the parking-lot sidewalk."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 12.5,
+        "end_sec": 17.5,
+        "caption": "A white sedan drives away along the road toward the upper right and disappears behind a tree."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 18.5,
+        "end_sec": 29.5,
+        "caption": "A dark box-shaped SUV drives toward the foreground and exits through the bottom edge."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 22,
+        "end_sec": 32.5,
+        "caption": "A person beside the central silver sedan lifts and adjusts a dark flexible item around their head and upper body."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 31,
+        "end_sec": 35.5,
+        "caption": "A white compact SUV with a rear spare-wheel cover drives away toward the upper right."
+      },
+      {
+        "event_id": "E007",
+        "start_sec": 32.5,
+        "end_sec": 38,
+        "caption": "A person in a bright yellow-green vest walks around the rear of the curbside truck and forward along its road-facing side."
+      },
+      {
+        "event_id": "E008",
+        "start_sec": 33,
+        "end_sec": 37,
+        "caption": "A person beside the central silver sedan reaches and briefly leans toward its near-side front doorway."
+      },
+      {
+        "event_id": "E009",
+        "start_sec": 37.5,
+        "end_sec": 58.5,
+        "caption": "A person in dark clothing walks around the silver sedan, crosses the lot to the right, and continues away along the boundary sidewalk."
+      },
+      {
+        "event_id": "E010",
+        "start_sec": 41,
+        "end_sec": 54.5,
+        "caption": "A person in a bright yellow-green top walks diagonally across the road toward the opposite sidewalk."
+      },
+      {
+        "event_id": "E011",
+        "start_sec": 44.5,
+        "end_sec": 49.5,
+        "caption": "A distant white van moves right along the raised road and stops partly behind vegetation."
+      },
+      {
+        "event_id": "E012",
+        "start_sec": 46,
+        "end_sec": 50,
+        "caption": "The curbside open-bed work truck pulls away and drives toward the upper right."
+      },
+      {
+        "event_id": "E013",
+        "start_sec": 55.5,
+        "end_sec": 74,
+        "caption": "A distant white van moves left along the raised road, returns right, and stops partly behind vegetation."
+      },
+      {
+        "event_id": "E014",
+        "start_sec": 58,
+        "end_sec": 64.5,
+        "caption": "A dark sedan drives away along the near road toward the upper right."
+      },
+      {
+        "event_id": "E015",
+        "start_sec": 72.5,
+        "end_sec": 128,
+        "caption": "A person in a light shirt and tan-gray trousers walks around the central parking rows and right toward the red car and upright posts."
+      },
+      {
+        "event_id": "E016",
+        "start_sec": 92,
+        "end_sec": 95.5,
+        "caption": "A dark sedan passes along the road toward the upper right and disappears behind the tree."
+      },
+      {
+        "event_id": "E017",
+        "start_sec": 105,
+        "end_sec": 109.5,
+        "caption": "A black box-shaped SUV drives away along the near road toward the upper right."
+      },
+      {
+        "event_id": "E018",
+        "start_sec": 106.5,
+        "end_sec": 118,
+        "caption": "A silver minivan drives toward the foreground and exits through the bottom edge."
+      },
+      {
+        "event_id": "E019",
+        "start_sec": 106.5,
+        "end_sec": 139,
+        "caption": "A person in light clothing walks toward the foreground along the lot-side boundary sidewalk."
+      },
+      {
+        "event_id": "E020",
+        "start_sec": 110,
+        "end_sec": 114.5,
+        "caption": "A dark sedan travels away along the near road and becomes hidden by the tree."
+      },
+      {
+        "event_id": "E021",
+        "start_sec": 112,
+        "end_sec": 123.5,
+        "caption": "The leading dark SUV drives toward the foreground and exits through the bottom edge."
+      },
+      {
+        "event_id": "E022",
+        "start_sec": 113,
+        "end_sec": 118,
+        "caption": "A large beige SUV drives away along the road toward the upper right."
+      },
+      {
+        "event_id": "E023",
+        "start_sec": 114.5,
+        "end_sec": 127.5,
+        "caption": "The following dark SUV drives toward the foreground behind another SUV and exits through the bottom edge."
+      },
+      {
+        "event_id": "E024",
+        "start_sec": 117.5,
+        "end_sec": 132.5,
+        "caption": "A person in a light beige top walks away along the opposite sidewalk toward the upper right."
+      },
+      {
+        "event_id": "E025",
+        "start_sec": 128.5,
+        "end_sec": 132,
+        "caption": "A person in a light shirt raises an arm and leans toward an upright post beside the red car."
+      },
+      {
+        "event_id": "E026",
+        "start_sec": 131.5,
+        "end_sec": 138,
+        "caption": "A beige sedan drives away along the road toward the upper right."
+      },
+      {
+        "event_id": "E027",
+        "start_sec": 133.5,
+        "end_sec": 139,
+        "caption": "A dark SUV enters from the upper right and drives toward the foreground."
+      }
+    ]
+  },
+  "review_required_event_ids": [
+    "E005",
+    "E008",
+    "E025"
+  ],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

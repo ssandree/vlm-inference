@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_000207_04_000902_000934",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T15:43:33.230444+00:00",
+  "video_duration_sec": 31.266667,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "cb9552825a63bf97023fa71673982ef6ca56159023b8c50224947dfb564c0b95",
+  "manifest_sha256": "54e12f77ac17802ca9d31eab2fa0a3684efc5d59330c296950235ff4a6ab7de3",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed Stage 1 observations and selected original-frame evidence, authored actor/action-specific merge groups and English captions; this script only validates and serializes those decisions. Runtime model/effort is not independently attested.",
+  "caption_language": "en",
+  "event_count": 14,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed elevated camera overlooks a large marked parking lot beside a two-lane road and junction, with sidewalks, grass islands, guard booths, trees and brick buildings."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 0,
+        "end_sec": 1,
+        "caption": "A dark pickup drives toward the upper right and disappears behind the roadside foliage."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 0,
+        "end_sec": 4.5,
+        "caption": "A gray sedan drives down and left toward the foreground and exits at the bottom edge."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 0,
+        "end_sec": 17.5,
+        "caption": "A person in a pale blue top and red shorts walks slowly right along the roadside sidewalk with a dark backpack."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 1,
+        "end_sec": 4.5,
+        "caption": "A light silver SUV drives from the bottom edge toward the upper right along the opposite road lane."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 1.5,
+        "end_sec": 22,
+        "caption": "A cyclist in a dark top rides toward the lower left along the sidewalk and leaves the frame."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 12,
+        "end_sec": 20,
+        "caption": "A silver minivan drives down and left along the road and stops beside the pedestrian at the curb."
+      },
+      {
+        "event_id": "E007",
+        "start_sec": 17.5,
+        "end_sec": 20.5,
+        "caption": "A person in a pale blue top and red shorts approaches the curbside front door of a stopping silver minivan."
+      },
+      {
+        "event_id": "E008",
+        "start_sec": 18,
+        "end_sec": 21.5,
+        "caption": "A dark sedan drives from the bottom edge toward the upper right along the opposite road lane."
+      },
+      {
+        "event_id": "E009",
+        "start_sec": 18,
+        "end_sec": 31,
+        "caption": "A small white sedan drives left toward a guard booth, curves around and continues right along the far edge of the parking lot."
+      },
+      {
+        "event_id": "E010",
+        "start_sec": 20,
+        "end_sec": 21,
+        "caption": "A person in a pale blue top pulls open the curbside front door of the silver minivan."
+      },
+      {
+        "event_id": "E011",
+        "start_sec": 21,
+        "end_sec": 22,
+        "caption": "A person in a pale blue top and red shorts lowers into the silver minivan through its open front doorway."
+      },
+      {
+        "event_id": "E012",
+        "start_sec": 21.5,
+        "end_sec": 31,
+        "caption": "A second silver SUV follows the minivan down and left toward the road junction."
+      },
+      {
+        "event_id": "E013",
+        "start_sec": 23,
+        "end_sec": 24.0,
+        "caption": "The curbside front door of the silver minivan swings closed."
+      },
+      {
+        "event_id": "E014",
+        "start_sec": 24,
+        "end_sec": 31,
+        "caption": "The silver minivan pulls away from the curb, drives toward the foreground and turns left across the bottom junction."
+      }
+    ]
+  },
+  "review_required_event_ids": [
+    "E013"
+  ],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

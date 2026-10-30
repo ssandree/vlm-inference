@@ -1,0 +1,13 @@
+{
+  "id": "Qwen/Qwen3-VL-8B-Instruct",
+  "path": "/data1/vailab02_dir/vlm_models/Qwen3-VL-8B-Instruct/models--Qwen--Qwen3-VL-8B-Instruct/snapshots/0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "dtype": "bfloat16",
+  "attn_implementation": "sdpa",
+  "device": "cuda:0",
+  "do_sample": false,
+  "temperature": 0,
+  "max_new_tokens": 768,
+  "seed": 0,
+  "max_position_embeddings": 262144
+}

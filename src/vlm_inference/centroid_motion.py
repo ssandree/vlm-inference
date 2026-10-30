@@ -4,9 +4,12 @@ Equal-weight active-block centroid inside the fixed ROI. Consecutive valid
 centroids yield a dimensionless displacement (pixel distance / ROI diagonal).
 Missing centroids are not interpolated and are not treated as the origin.
 
-If D_t >= tau_c, the window [t - pad, t + 0.5] (clipped to the video/ROI) is
-sampled at 2fps. The rest of the tube stays at 1fps. Overlapping or touching
+If D_t >= tau_c, the window [t - pad, t + pad] (clipped to the tube) is
+sampled at high_fps. The rest of the tube stays at base_fps. The default pad
+is 0.5 s, so the default window is [t - 0.5, t + 0.5]. Overlapping or touching
 windows are unioned. There is no temporal smoothing, hysteresis, or min-duration.
+This centroid is the spatial center of active cells, not the temporal center
+of the magnitude series.
 """
 
 from __future__ import annotations

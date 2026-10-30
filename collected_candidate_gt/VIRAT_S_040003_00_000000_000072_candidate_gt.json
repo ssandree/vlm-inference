@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_040003_00_000000_000072",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T23:32:00.618627+09:00",
+  "video_duration_sec": 72.005267,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "d89df6651471db9c2811b61866eb48a0351578deb428a6ac149ee38af4ec8cbd",
+  "manifest_sha256": "a288c3472b993e52055f77278de49c0aa9e1af086398635d631020d10383f429",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed source observations and original-frame evidence, authored merge groups and English captions; this script only validates and serializes those decisions.",
+  "caption_language": "en",
+  "event_count": 8,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed high-angle camera overlooks a large lawn beside a paved parking area and intersecting roads, with landscaped islands, lampposts, trees, and a small light-colored building on the right."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 0.5,
+        "end_sec": 8.5,
+        "caption": "A person in a red top and dark trousers carries a dark bag right along the parked cars."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 4,
+        "end_sec": 24.5,
+        "caption": "A blue pickup drives left along the road, curves into the parking area, and stops beside the curb."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 12.5,
+        "end_sec": 23,
+        "caption": "A distant person in a red top walks right along the landscaped path behind the road."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 23.5,
+        "end_sec": 29.5,
+        "caption": "A person in a red top and dark trousers walks around the pickup rear to its near-side cab door."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 29.5,
+        "end_sec": 34,
+        "caption": "A person in a red top reaches for and opens the pickup near-side cab door."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 34.5,
+        "end_sec": 37,
+        "caption": "A person in a red top and dark trousers climbs into the pickup cab through the open doorway."
+      },
+      {
+        "event_id": "E007",
+        "start_sec": 37,
+        "end_sec": 37.5,
+        "caption": "The person inside the blue pickup pulls the cab door closed."
+      },
+      {
+        "event_id": "E008",
+        "start_sec": 39.5,
+        "end_sec": 60,
+        "caption": "The blue pickup leaves the curb, exits the parking area, and turns right along the road out of the frame."
+      }
+    ]
+  },
+  "review_required_event_ids": [],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

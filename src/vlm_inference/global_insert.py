@@ -48,6 +48,7 @@ ROI_GLOBAL_INSERT_METHODS: dict[str, str] = {
     "global_roi_start_only_roi_fixed_2fps": GLOBAL_INSERT_START_ONLY,
     "global_roi_start_only_roi_accumulated_motion": GLOBAL_INSERT_START_ONLY,
     "global_roi_start_only_roi_centroid_2fps": GLOBAL_INSERT_START_ONLY,
+    "global_roi_start_only_roi_motion_magnitude_adaptive": GLOBAL_INSERT_START_ONLY,
     "global_roi_video_start_roi_fixed_1fps": GLOBAL_INSERT_VIDEO_START,
     "global_roi_video_start_roi_fixed_2fps": GLOBAL_INSERT_VIDEO_START,
     "global_roi_video_start_roi_accumulated_motion": GLOBAL_INSERT_VIDEO_START,

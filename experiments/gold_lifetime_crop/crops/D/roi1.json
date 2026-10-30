@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "source_path": "/data1/vailab02_dir/Classification_DB/VIRAT/videos-04/VIRAT_S_040005_00_000003_000058.mp4",
+  "crop_path": "/home/vailab02/Motion-guided-ROI/vlm-inference/experiments/gold_lifetime_crop/crops/D/roi1.mp4",
+  "bbox": [
+    0,
+    256,
+    628,
+    424
+  ],
+  "crop_width": 628,
+  "crop_height": 424,
+  "decoded_frame_count": 1640,
+  "source_frame_count_metadata": 1640,
+  "source_duration_sec": 54.721333333333334,
+  "source_fps": 29.97002997002997,
+  "crop_width_probe": 628,
+  "crop_height_probe": 424,
+  "crop_fps": 29.97002997002997,
+  "crop_duration_sec": 54.721333333333334,
+  "crop_frame_count_metadata": 1640,
+  "pix_fmt": "yuv420p",
+  "codec": "libx264",
+  "crf": 18,
+  "preview_first": "/home/vailab02/Motion-guided-ROI/vlm-inference/experiments/gold_lifetime_crop/previews/D_roi1_first.jpg",
+  "preview_mid": "/home/vailab02/Motion-guided-ROI/vlm-inference/experiments/gold_lifetime_crop/previews/D_roi1_mid.jpg"
+}

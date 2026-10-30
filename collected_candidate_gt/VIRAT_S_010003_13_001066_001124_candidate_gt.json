@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_010003_13_001066_001124",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T23:32:00.552176+09:00",
+  "video_duration_sec": 49.770547,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "50c8d26807a5389073723641f09daad0de61444374a2328b8fae91fd4027a083",
+  "manifest_sha256": "a288c3472b993e52055f77278de49c0aa9e1af086398635d631020d10383f429",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed source observations and original-frame evidence, authored merge groups and English captions; this script only validates and serializes those decisions.",
+  "caption_language": "en",
+  "event_count": 22,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed elevated camera overlooks a paved courtyard with tables and red umbrellas, a sloping lawn, broad stairs on the left, and an upper walkway beside brick and glass building fronts."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 0,
+        "end_sec": 9.5,
+        "caption": "A person in a purple top and dark trousers descends the left staircase."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 0,
+        "end_sec": 13,
+        "caption": "A person in a dark top and blue jeans walks right along the upper passage and becomes obscured near the cream wall."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 0,
+        "end_sec": 13,
+        "caption": "A person in pale clothing walks right along the upper passage and becomes hidden near the cream wall."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 1,
+        "end_sec": 33,
+        "caption": "The leading person in a pale gray top walks left across the patio, behind vegetation, and along the elevated passage."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 1.5,
+        "end_sec": 29.5,
+        "caption": "A person in a white top and dark trousers walks left across the upper patio toward the partly hidden building passage."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 2.5,
+        "end_sec": 29.5,
+        "caption": "A person in a white top and pale trousers walks left across the patio and along the building walkway."
+      },
+      {
+        "event_id": "E007",
+        "start_sec": 3,
+        "end_sec": 29.5,
+        "caption": "A person in a bluish gray top and dark trousers walks left from the right-side patio toward the upper passage."
+      },
+      {
+        "event_id": "E008",
+        "start_sec": 4,
+        "end_sec": 38,
+        "caption": "A person in a bright red top and blue trousers walks left across the patio and along the elevated passage."
+      },
+      {
+        "event_id": "E009",
+        "start_sec": 5.5,
+        "end_sec": 39,
+        "caption": "The trailing person in a pale top and light blue trousers walks left across the patio and along the elevated passage."
+      },
+      {
+        "event_id": "E010",
+        "start_sec": 11.5,
+        "end_sec": 22.5,
+        "caption": "A person in a muted green-gray top and blue trousers climbs the left staircase."
+      },
+      {
+        "event_id": "E011",
+        "start_sec": 12,
+        "end_sec": 36,
+        "caption": "A person in a dark gray top walks left across the upper patio and along the wall toward the staircase."
+      },
+      {
+        "event_id": "E012",
+        "start_sec": 23,
+        "end_sec": 32,
+        "caption": "A person in a muted green-gray top and blue trousers walks right from the stair landing past the blue bin."
+      },
+      {
+        "event_id": "E013",
+        "start_sec": 25,
+        "end_sec": 34,
+        "caption": "A pale-clothed pedestrian near the front of the upper passage walks left behind vegetation and onto the balcony."
+      },
+      {
+        "event_id": "E014",
+        "start_sec": 25,
+        "end_sec": 35,
+        "caption": "A pale-clothed pedestrian in the middle of the upper passage walks left along the partly obscured balcony route."
+      },
+      {
+        "event_id": "E015",
+        "start_sec": 25,
+        "end_sec": 36,
+        "caption": "A gray-blue-clothed pedestrian walks left behind the upper vegetation and along the elevated balcony."
+      },
+      {
+        "event_id": "E016",
+        "start_sec": 34,
+        "end_sec": 49.5,
+        "caption": "A person in a red top and white trousers climbs the left staircase."
+      },
+      {
+        "event_id": "E017",
+        "start_sec": 36.5,
+        "end_sec": 49.5,
+        "caption": "A person in a dark gray top and dark trousers walks down the left staircase."
+      },
+      {
+        "event_id": "E018",
+        "start_sec": 38.5,
+        "end_sec": 44,
+        "caption": "A person in a white top and dark jeans carries a white bag toward the stairs with a dark backpack on their back."
+      },
+      {
+        "event_id": "E019",
+        "start_sec": 39.5,
+        "end_sec": 49.5,
+        "caption": "The first pale-topped pedestrian in the later right-moving sequence walks along the elevated balcony and upper passage."
+      },
+      {
+        "event_id": "E020",
+        "start_sec": 40,
+        "end_sec": 49.5,
+        "caption": "The second pale-topped pedestrian in the later right-moving sequence walks right behind the balcony railing."
+      },
+      {
+        "event_id": "E021",
+        "start_sec": 40.5,
+        "end_sec": 49.5,
+        "caption": "A blue-gray-topped pedestrian follows right along the elevated balcony and upper building passage."
+      },
+      {
+        "event_id": "E022",
+        "start_sec": 44.5,
+        "end_sec": 49.5,
+        "caption": "A person in a white top and dark jeans climbs the left stairs carrying a white bag and wearing a dark backpack."
+      }
+    ]
+  },
+  "review_required_event_ids": [
+    "E005",
+    "E006",
+    "E007",
+    "E013",
+    "E014",
+    "E015",
+    "E019",
+    "E020",
+    "E021"
+  ],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

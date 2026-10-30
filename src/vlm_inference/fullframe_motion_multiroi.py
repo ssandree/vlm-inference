@@ -35,6 +35,7 @@ from .model import build_tube_global_anchor_content
 from .inputs import Sample
 from .motion_adaptive import (
     _events_by_id,
+    _events_have_magnitudes,
     load_timeline,
     load_tracks_payload,
     select_fixed_or_adaptive,
@@ -340,6 +341,8 @@ def load_sweep_config(config_path: str | Path) -> AppConfig:
     raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     if not isinstance(raw, dict):
         raise ValueError(f"Config root must be a mapping: {path}")
+    from .frame_clock import normalize_timestamp_mode
+
     gen_raw = raw.get("generation") or {}
     video_raw = raw.get("video") or {}
     image_raw = raw.get("image") or {}
@@ -361,6 +364,7 @@ def load_sweep_config(config_path: str | Path) -> AppConfig:
             max_pixels=video_raw.get("max_pixels", 256 * 32 * 32),
             total_pixels=video_raw.get("total_pixels", 20480 * 32 * 32),
             sample_fps=video_raw.get("sample_fps"),
+            timestamp_mode=normalize_timestamp_mode(video_raw.get("timestamp_mode", "legacy")),
         ),
         image=ImageConfig(
             min_pixels=image_raw.get("min_pixels", 4 * 32 * 32),
@@ -1296,8 +1300,15 @@ def select_tube_motion_peaks(plan: VideoPlan) -> list[dict[str, Any]]:
         tube = tubes.get(int(tube_plan.roi_id))
         if tube is None:
             raise KeyError(f"{plan.video_id}: ROI {tube_plan.roi_id} is not in the saved tracks")
-        events = saved_events or _member_events_from_score(tube, mag)
-        _mean, _total, series = tube_motion_series(tube, events, timeline)
+        if _events_have_magnitudes(saved_events):
+            events = saved_events
+            score_map = None
+        else:
+            events = saved_events or _member_events_from_score(tube, mag)
+            score_map = mag
+        _mean, _total, series = tube_motion_series(
+            tube, events, timeline, score_map=score_map
+        )
         if not series:
             raise ValueError(f"{plan.video_id} tube {tube_plan.roi_id}: empty motion series")
         t0 = int(tube.get("t0", series[0].stage3_index))

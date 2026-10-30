@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_010005_05_000397_000430",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T15:43:33.289816+00:00",
+  "video_duration_sec": 23.279099,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "0645ee3486083d01c29fc44cf309d094cdb02976cfdf25d15521ecb6b18a0699",
+  "manifest_sha256": "54e12f77ac17802ca9d31eab2fa0a3684efc5d59330c296950235ff4a6ab7de3",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed Stage 1 observations and selected original-frame evidence, authored actor/action-specific merge groups and English captions; this script only validates and serializes those decisions. Runtime model/effort is not independently attested.",
+  "caption_language": "en",
+  "event_count": 9,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed elevated camera overlooks a courtyard with red umbrella tables, a sloping lawn and a broad staircase leading to an upper walkway along brick and glass buildings."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 0,
+        "end_sec": 5,
+        "caption": "A person in purple clothing with a pale head covering walks left along the upper walkway toward the staircase."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 0,
+        "end_sec": 10,
+        "caption": "A taller person in a bluish-gray shirt and dark knee-length bottoms walks left toward the stair landing."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 0,
+        "end_sec": 11,
+        "caption": "A shorter person in a pale patterned top and light lower clothing walks left toward the stair landing."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 0,
+        "end_sec": 13.5,
+        "caption": "A person in a light top and dark trousers carries a pale bag up the staircase to the upper landing."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 2.5,
+        "end_sec": 12.5,
+        "caption": "A distant person in blue-purple clothing walks left behind the upper patio tables and becomes obscured by the planters."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 5,
+        "end_sec": 20,
+        "caption": "A person in purple clothing with a pale head covering descends the left side of the staircase and exits to the left."
+      },
+      {
+        "event_id": "E007",
+        "start_sec": 10,
+        "end_sec": 23,
+        "caption": "A taller person in a bluish-gray shirt and dark knee-length bottoms walks down the staircase."
+      },
+      {
+        "event_id": "E008",
+        "start_sec": 11,
+        "end_sec": 23,
+        "caption": "A shorter person in a pale patterned top and light lower clothing walks down the staircase."
+      },
+      {
+        "event_id": "E009",
+        "start_sec": 13.5,
+        "end_sec": 23,
+        "caption": "A person in a light top and dark trousers turns right from the stair landing and walks along the building-side walkway carrying a pale bag."
+      }
+    ]
+  },
+  "review_required_event_ids": [],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

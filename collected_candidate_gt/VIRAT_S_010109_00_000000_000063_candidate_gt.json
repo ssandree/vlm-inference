@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_010109_00_000000_000063",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T15:43:33.269231+00:00",
+  "video_duration_sec": 63.03713,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "528743788d022011d3af7171f9e73b54fe4111659f40312a081ca5bd7e68dcea",
+  "manifest_sha256": "54e12f77ac17802ca9d31eab2fa0a3684efc5d59330c296950235ff4a6ab7de3",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed Stage 1 observations and selected original-frame evidence, authored actor/action-specific merge groups and English captions; this script only validates and serializes those decisions. Runtime model/effort is not independently attested.",
+  "caption_language": "en",
+  "event_count": 6,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed high-angle camera overlooks a broad parking lot filled with cars and vans, a white enclosure in the foreground, and a background road beside a sports-field fence, trees and large buildings."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 0,
+        "end_sec": 16.5,
+        "caption": "A dark compact vehicle drives left along the background road, turns into the diagonal driveway and disappears behind the building."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 0,
+        "end_sec": 35.5,
+        "caption": "A distant person in a light bluish top walks left along the sidewalk beside the sports-field fence and exits at the left edge."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 11,
+        "end_sec": 63,
+        "caption": "A second distant person in darker clothing walks left along the far sidewalk past the large trees."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 17.5,
+        "end_sec": 34.5,
+        "caption": "A white pickup drives down the diagonal background driveway, turns onto the main road and continues right out of view."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 36.5,
+        "end_sec": 53.5,
+        "caption": "A gray vehicle drives down the diagonal background driveway, curves onto the main road and continues right out of view."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 48,
+        "end_sec": 63,
+        "caption": "A person in a grayish top and dark trousers moves briskly right along the sidewalk nearer the parking lot."
+      }
+    ]
+  },
+  "review_required_event_ids": [],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "video_id": "VIRAT_S_040104_04_000854_000934",
+  "condition": "D",
+  "stage": 2,
+  "gt_status": "candidate",
+  "human_verified": false,
+  "created_at": "2026-10-29T15:43:33.370443+00:00",
+  "video_duration_sec": 79.8798,
+  "timestamp_axis": "Original video absolute seconds from manifest; no filename-derived offset.",
+  "sampling_fps": 2,
+  "input_raw_events_sha256": "1d4ebe89d1dd9309f38f46d8315335f6ab20e174a69fb3eb738e87fa7aac59c2",
+  "manifest_sha256": "54e12f77ac17802ca9d31eab2fa0a3684efc5d59330c296950235ff4a6ab7de3",
+  "temporal_precision": "Boundaries use sampled support at 0.5-second intervals; sub-frame action onset/offset is not asserted.",
+  "execution_method": "Active assistant manually reviewed Stage 1 observations and selected original-frame evidence, authored actor/action-specific merge groups and English captions; this script only validates and serializes those decisions. Runtime model/effort is not independently attested.",
+  "caption_language": "en",
+  "event_count": 27,
+  "level_1": {
+    "type": "scene_context",
+    "description": "A fixed elevated camera overlooks a small marked parking lot with two rows of parked cars, a roadside wooden barrier, sidewalks, grass islands and a background road beside a brick campus building and trees."
+  },
+  "level_2": {
+    "type": "dense_event_captions",
+    "events": [
+      {
+        "event_id": "E001",
+        "start_sec": 0.0,
+        "end_sec": 34.5,
+        "caption": "A distant person in a gray-brown top and dark trousers walks right along the far campus path and down the paved approach to the road."
+      },
+      {
+        "event_id": "E002",
+        "start_sec": 0.0,
+        "end_sec": 34.5,
+        "caption": "A distant person in a light top and pale blue trousers walks right along the far campus path and down the paved approach to the road."
+      },
+      {
+        "event_id": "E003",
+        "start_sec": 6.5,
+        "end_sec": 13.0,
+        "caption": "A blue pickup enters from the right, drives left across the lot and turns into a parking space beside a maroon sedan."
+      },
+      {
+        "event_id": "E004",
+        "start_sec": 16.5,
+        "end_sec": 17.5,
+        "caption": "A person in a dark gray top pushes open the near-side front door of the blue pickup from inside."
+      },
+      {
+        "event_id": "E005",
+        "start_sec": 17.5,
+        "end_sec": 19.5,
+        "caption": "A person in a dark gray top and blue jeans steps out of the blue pickup through its near-side front doorway."
+      },
+      {
+        "event_id": "E006",
+        "start_sec": 19.5,
+        "end_sec": 20.5,
+        "caption": "A person in a dark gray top pulls the near-side front door of the blue pickup shut while standing outside."
+      },
+      {
+        "event_id": "E007",
+        "start_sec": 20.5,
+        "end_sec": 30.0,
+        "caption": "A person in a dark gray top and blue jeans walks diagonally down and left away from the blue pickup into the open lot."
+      },
+      {
+        "event_id": "E008",
+        "start_sec": 24.0,
+        "end_sec": 40.5,
+        "caption": "A person in a purple top and light shorts pulls a dark wheeled suitcase diagonally right across the lot to the rear of the blue pickup."
+      },
+      {
+        "event_id": "E009",
+        "start_sec": 30.5,
+        "end_sec": 37.5,
+        "caption": "A person in a dark gray top and blue jeans turns back and walks toward the near-side front door of the blue pickup."
+      },
+      {
+        "event_id": "E010",
+        "start_sec": 34.5,
+        "end_sec": 42.0,
+        "caption": "A person in a gray-brown top and dark trousers walks diagonally across the background road from the far curb to the nearer sidewalk."
+      },
+      {
+        "event_id": "E011",
+        "start_sec": 34.5,
+        "end_sec": 42.0,
+        "caption": "A person in a light top and pale blue trousers walks diagonally across the background road from the far curb to the nearer sidewalk."
+      },
+      {
+        "event_id": "E012",
+        "start_sec": 38.0,
+        "end_sec": 39.5,
+        "caption": "A person in a dark gray top reopens the near-side front door of the blue pickup."
+      },
+      {
+        "event_id": "E013",
+        "start_sec": 39.5,
+        "end_sec": 40.5,
+        "caption": "A person in a purple top lowers the tailgate of the blue pickup to a horizontal position."
+      },
+      {
+        "event_id": "E014",
+        "start_sec": 39.5,
+        "end_sec": 41.0,
+        "caption": "A person in a dark gray top and blue jeans steps up through the open near-side front doorway and lowers into the pickup cab."
+      },
+      {
+        "event_id": "E015",
+        "start_sec": 40.5,
+        "end_sec": 42.5,
+        "caption": "A person in a purple top pivots and brings the dark suitcase upright behind the lowered pickup tailgate."
+      },
+      {
+        "event_id": "E016",
+        "start_sec": 41.0,
+        "end_sec": 41.5,
+        "caption": "A person inside the near-side front cabin pulls the blue pickup front door shut."
+      },
+      {
+        "event_id": "E017",
+        "start_sec": 42.0,
+        "end_sec": 59.0,
+        "caption": "A person in a gray-brown top and dark trousers turns right along the nearer roadside sidewalk and exits at the right edge."
+      },
+      {
+        "event_id": "E018",
+        "start_sec": 42.0,
+        "end_sec": 59.0,
+        "caption": "A person in a light top and pale blue trousers turns right along the nearer roadside sidewalk and exits at the right edge."
+      },
+      {
+        "event_id": "E019",
+        "start_sec": 42.5,
+        "end_sec": 44.5,
+        "caption": "A person in a purple top lifts a dark suitcase over the lowered tailgate and pushes it into the blue pickup bed."
+      },
+      {
+        "event_id": "E020",
+        "start_sec": 44.0,
+        "end_sec": 79.5,
+        "caption": "A distant person in dark clothing walks right along the far campus walkway, intermittently hidden by trees."
+      },
+      {
+        "event_id": "E021",
+        "start_sec": 44.5,
+        "end_sec": 46.0,
+        "caption": "A person in a purple top raises the blue pickup tailgate and pushes it shut."
+      },
+      {
+        "event_id": "E022",
+        "start_sec": 46.5,
+        "end_sec": 50.0,
+        "caption": "A person in a purple top and light shorts walks around the rear corner of the blue pickup toward its far-side cabin."
+      },
+      {
+        "event_id": "E023",
+        "start_sec": 50.0,
+        "end_sec": 50.5,
+        "caption": "A person in a purple top reaches toward the far-side cab door of the blue pickup and swings it open."
+      },
+      {
+        "event_id": "E024",
+        "start_sec": 50.5,
+        "end_sec": 51.5,
+        "caption": "A person in a purple top leans toward the open far-side cab doorway and lowers out of view behind the blue pickup."
+      },
+      {
+        "event_id": "E025",
+        "start_sec": 52.0,
+        "end_sec": 52.5,
+        "caption": "The far-side cab door of the blue pickup swings closed."
+      },
+      {
+        "event_id": "E026",
+        "start_sec": 56.5,
+        "end_sec": 66.0,
+        "caption": "The blue pickup reverses out of its parking space and curves backward across the aisle until its front points right."
+      },
+      {
+        "event_id": "E027",
+        "start_sec": 66.5,
+        "end_sec": 73.0,
+        "caption": "The blue pickup drives forward to the right across the lot and exits through the right edge."
+      }
+    ]
+  },
+  "review_required_event_ids": [
+    "E024",
+    "E025"
+  ],
+  "usage_note": "Candidate GT, not Human-verified GT; resolve review_required.json and perform human verification before treating this as a verified evaluation reference."
+}

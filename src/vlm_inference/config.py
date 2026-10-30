@@ -10,6 +10,8 @@ import yaml
 
 from .spatial_occupancy import SpatialOccupancyConfig
 from .centroid_motion import CentroidMotionConfig
+from .magnitude_config import MagnitudeAdaptiveConfig
+from .frame_clock import normalize_timestamp_mode
 
 VALID_JOB_TYPES = frozenset(
     {"video", "video_dir", "images", "image_dir", "image_dirs"}
@@ -74,6 +76,8 @@ class VideoConfig:
     max_pixels: int | None = 256 * 32 * 32
     total_pixels: int | None = 20480 * 32 * 32
     sample_fps: float | None = None  # for frame lists
+    # legacy keeps the fetcher clock. source_timestamp encodes selected times.
+    timestamp_mode: str = "legacy"
 
 
 @dataclass
@@ -124,6 +128,7 @@ class ExperimentConfig:
     # ROI temporal sampling policy (None = keep dataset ROI frames).
     spatial_occupancy: SpatialOccupancyConfig = field(default_factory=SpatialOccupancyConfig)
     centroid_motion: CentroidMotionConfig = field(default_factory=CentroidMotionConfig)
+    magnitude_adaptive: MagnitudeAdaptiveConfig = field(default_factory=MagnitudeAdaptiveConfig)
     roi_sampling: str | None = None
     roi_sampling_default_fps: float = 1.0
     roi_sampling_intervals: list[dict[str, float]] = field(default_factory=list)
@@ -366,6 +371,7 @@ def load_config(config_path: str | Path, *, allow_empty_jobs: bool = False) -> A
         max_pixels=video_raw.get("max_pixels", 256 * 32 * 32),
         total_pixels=video_raw.get("total_pixels", 20480 * 32 * 32),
         sample_fps=video_raw.get("sample_fps"),
+        timestamp_mode=normalize_timestamp_mode(video_raw.get("timestamp_mode", "legacy")),
     )
 
     image_raw = _as_dict(raw.get("image"), "image")
@@ -428,6 +434,13 @@ def load_config(config_path: str | Path, *, allow_empty_jobs: bool = False) -> A
                 key: value
                 for key, value in (exp_raw.get("centroid_motion") or {}).items()
                 if key in {f.name for f in dataclass_fields(CentroidMotionConfig)}
+            }
+        ),
+        magnitude_adaptive=MagnitudeAdaptiveConfig(
+            **{
+                key: value
+                for key, value in (exp_raw.get("magnitude_adaptive") or {}).items()
+                if key in {f.name for f in dataclass_fields(MagnitudeAdaptiveConfig)}
             }
         ),
         roi_sampling_default_fps=float(exp_raw.get("roi_sampling_default_fps", 1.0)),
