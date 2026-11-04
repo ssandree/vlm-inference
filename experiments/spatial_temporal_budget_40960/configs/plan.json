@@ -1,0 +1,9099 @@
+{
+  "created_at": "2026-10-30T22:39:59+09:00",
+  "videos": {
+    "A": {
+      "path": "/data1/vailab02_dir/Classification_DB/VIRAT/videos-00/VIRAT_S_000201_04_000682_000822.mp4",
+      "width": 1280,
+      "height": 720,
+      "native_fps": 30.0,
+      "duration_sec": 139.4,
+      "frame_count": 4182
+    },
+    "C": {
+      "path": "/data1/vailab02_dir/Classification_DB/VIRAT/videos-01/VIRAT_S_010106_05_000954_000996.mp4",
+      "width": 1280,
+      "height": 720,
+      "native_fps": 23.97,
+      "duration_sec": 27.409262,
+      "frame_count": 657
+    },
+    "D": {
+      "path": "/data1/vailab02_dir/Classification_DB/VIRAT/videos-04/VIRAT_S_040005_00_000003_000058.mp4",
+      "width": 1920,
+      "height": 1080,
+      "native_fps": 29.97002997002997,
+      "duration_sec": 54.721333,
+      "frame_count": 1640
+    },
+    "E": {
+      "path": "/data1/vailab02_dir/Classification_DB/VIRAT/videos-01/VIRAT_S_010116_00_000061_000121.mp4",
+      "width": 1280,
+      "height": 720,
+      "native_fps": 23.97,
+      "duration_sec": 58.44806,
+      "frame_count": 1401
+    }
+  },
+  "conditions": [
+    {
+      "condition_id": "A_S0_fps0p5",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S0",
+      "fps": 0.5,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 15,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            14.0,
+            44.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 15,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 5760,
+          "model_frames_with_temporal_padding": 16,
+          "temporal_padding_frame": 1
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 5760,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 5760,
+      "planned_total_visual_tokens": 5760,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S1_fps0p5",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S1",
+      "fps": 0.5,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 15,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 14.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            192,
+            320,
+            1280,
+            720
+          ],
+          "time_range": [
+            0.20000000298023224,
+            139.1999969482422
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "roi_native_size": [
+            1088,
+            400
+          ],
+          "frames": 15,
+          "input_resolution": [
+            1088,
+            384
+          ],
+          "planned_video_tokens": 3264,
+          "model_frames_with_temporal_padding": 16,
+          "temporal_padding_frame": 1
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            44.0,
+            57.400001525878906
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        },
+        {
+          "roi_id": "tube3",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            72.80000305175781,
+            85.4000015258789
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        },
+        {
+          "roi_id": "tube4",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            106.5999984741211,
+            118.5999984741211
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 3264,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 3264,
+      "planned_total_visual_tokens": 3516,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S2_fps0p5",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S2",
+      "fps": 0.5,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 15,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 14.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            200,
+            1280,
+            720
+          ],
+          "time_range": [
+            14.0,
+            44.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "roi_native_size": [
+            1280,
+            520
+          ],
+          "frames": 15,
+          "input_resolution": [
+            1280,
+            512
+          ],
+          "planned_video_tokens": 5120,
+          "model_frames_with_temporal_padding": 16,
+          "temporal_padding_frame": 1
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 5120,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 5120,
+      "planned_total_visual_tokens": 5372,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S0_fps1",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S0",
+      "fps": 1.0,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 30,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            14.0,
+            44.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 30,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 10800,
+          "model_frames_with_temporal_padding": 30,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 10800,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 10800,
+      "planned_total_visual_tokens": 10800,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S1_fps1",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S1",
+      "fps": 1.0,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 30,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 14.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            192,
+            320,
+            1280,
+            720
+          ],
+          "time_range": [
+            0.20000000298023224,
+            139.1999969482422
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "roi_native_size": [
+            1088,
+            400
+          ],
+          "frames": 30,
+          "input_resolution": [
+            1088,
+            384
+          ],
+          "planned_video_tokens": 6120,
+          "model_frames_with_temporal_padding": 30,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            44.0,
+            57.400001525878906
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        },
+        {
+          "roi_id": "tube3",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            72.80000305175781,
+            85.4000015258789
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        },
+        {
+          "roi_id": "tube4",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            106.5999984741211,
+            118.5999984741211
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 6120,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 6120,
+      "planned_total_visual_tokens": 6372,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S2_fps1",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S2",
+      "fps": 1.0,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 30,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 14.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            200,
+            1280,
+            720
+          ],
+          "time_range": [
+            14.0,
+            44.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "roi_native_size": [
+            1280,
+            520
+          ],
+          "frames": 30,
+          "input_resolution": [
+            1280,
+            512
+          ],
+          "planned_video_tokens": 9600,
+          "model_frames_with_temporal_padding": 30,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 9600,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 9600,
+      "planned_total_visual_tokens": 9852,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S0_fps2",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S0",
+      "fps": 2.0,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 60,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            14.0,
+            44.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 60,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 21600,
+          "model_frames_with_temporal_padding": 60,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 21600,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 21600,
+      "planned_total_visual_tokens": 21600,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S1_fps2",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S1",
+      "fps": 2.0,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 60,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 14.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            192,
+            320,
+            1280,
+            720
+          ],
+          "time_range": [
+            0.20000000298023224,
+            139.1999969482422
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "roi_native_size": [
+            1088,
+            400
+          ],
+          "frames": 60,
+          "input_resolution": [
+            1088,
+            384
+          ],
+          "planned_video_tokens": 12240,
+          "model_frames_with_temporal_padding": 60,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            44.0,
+            57.400001525878906
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        },
+        {
+          "roi_id": "tube3",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            72.80000305175781,
+            85.4000015258789
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        },
+        {
+          "roi_id": "tube4",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            106.5999984741211,
+            118.5999984741211
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 12240,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 12240,
+      "planned_total_visual_tokens": 12492,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S2_fps2",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S2",
+      "fps": 2.0,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 60,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 14.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            200,
+            1280,
+            720
+          ],
+          "time_range": [
+            14.0,
+            44.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "roi_native_size": [
+            1280,
+            520
+          ],
+          "frames": 60,
+          "input_resolution": [
+            1280,
+            512
+          ],
+          "planned_video_tokens": 19200,
+          "model_frames_with_temporal_padding": 60,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 19200,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 19200,
+      "planned_total_visual_tokens": 19452,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S0_fps3",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S0",
+      "fps": 3.0,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 90,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            14.0,
+            44.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 90,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 32400,
+          "model_frames_with_temporal_padding": 90,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 32400,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 32400,
+      "planned_total_visual_tokens": 32400,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S1_fps3",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S1",
+      "fps": 3.0,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 90,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 14.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            192,
+            320,
+            1280,
+            720
+          ],
+          "time_range": [
+            0.20000000298023224,
+            139.1999969482422
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "roi_native_size": [
+            1088,
+            400
+          ],
+          "frames": 90,
+          "input_resolution": [
+            1088,
+            384
+          ],
+          "planned_video_tokens": 18360,
+          "model_frames_with_temporal_padding": 90,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            44.0,
+            57.400001525878906
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        },
+        {
+          "roi_id": "tube3",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            72.80000305175781,
+            85.4000015258789
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        },
+        {
+          "roi_id": "tube4",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            106.5999984741211,
+            118.5999984741211
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 18360,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 18360,
+      "planned_total_visual_tokens": 18612,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S2_fps3",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S2",
+      "fps": 3.0,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 90,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 14.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            200,
+            1280,
+            720
+          ],
+          "time_range": [
+            14.0,
+            44.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "roi_native_size": [
+            1280,
+            520
+          ],
+          "frames": 90,
+          "input_resolution": [
+            1280,
+            512
+          ],
+          "planned_video_tokens": 28800,
+          "model_frames_with_temporal_padding": 90,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 28800,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 28800,
+      "planned_total_visual_tokens": 29052,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S0_fps4",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S0",
+      "fps": 4.0,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 120,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            14.0,
+            44.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 120,
+          "input_resolution": [
+            1120,
+            608
+          ],
+          "planned_video_tokens": 39900,
+          "model_frames_with_temporal_padding": 120,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 728177,
+        "tokens_at_vmax": 43200,
+        "binding": "budget"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 39900,
+      "planned_total_visual_tokens": 39900,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S1_fps4",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S1",
+      "fps": 4.0,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 120,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 14.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            192,
+            320,
+            1280,
+            720
+          ],
+          "time_range": [
+            0.20000000298023224,
+            139.1999969482422
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "roi_native_size": [
+            1088,
+            400
+          ],
+          "frames": 120,
+          "input_resolution": [
+            1088,
+            384
+          ],
+          "planned_video_tokens": 24480,
+          "model_frames_with_temporal_padding": 120,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            44.0,
+            57.400001525878906
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        },
+        {
+          "roi_id": "tube3",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            72.80000305175781,
+            85.4000015258789
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        },
+        {
+          "roi_id": "tube4",
+          "bbox_xyxy": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "time_range": [
+            106.5999984741211,
+            118.5999984741211
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 24480,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 24480,
+      "planned_total_visual_tokens": 24732,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "A_S2_fps4",
+      "video_id": "A",
+      "video_name": "VIRAT_S_000201_04_000682_000822",
+      "spatial": "S2",
+      "fps": 4.0,
+      "window": [
+        14.0,
+        44.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 30.0,
+      "grid_frame_count": 120,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 14.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            200,
+            1280,
+            720
+          ],
+          "time_range": [
+            14.0,
+            44.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "roi_native_size": [
+            1280,
+            520
+          ],
+          "frames": 120,
+          "input_resolution": [
+            1280,
+            512
+          ],
+          "planned_video_tokens": 38400,
+          "model_frames_with_temporal_padding": 120,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 38400,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 38400,
+      "planned_total_visual_tokens": 38652,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S0_fps0p5",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S0",
+      "fps": 0.5,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 10,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            2.0,
+            22.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 10,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 3600,
+          "model_frames_with_temporal_padding": 10,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 3600,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 3600,
+      "planned_total_visual_tokens": 3600,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S1_fps0p5",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S1",
+      "fps": 0.5,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 10,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 2.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            448,
+            384,
+            768,
+            576
+          ],
+          "time_range": [
+            0.20859406888484955,
+            24.822694778442383
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "roi_native_size": [
+            320,
+            192
+          ],
+          "frames": 10,
+          "input_resolution": [
+            320,
+            192
+          ],
+          "planned_video_tokens": 300,
+          "model_frames_with_temporal_padding": 10,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            64,
+            128,
+            1280,
+            256
+          ],
+          "time_range": [
+            3.5460991859436035,
+            27.325824737548828
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "roi_native_size": [
+            1216,
+            128
+          ],
+          "frames": 9,
+          "input_resolution": [
+            1216,
+            128
+          ],
+          "planned_video_tokens": 760,
+          "model_frames_with_temporal_padding": 10,
+          "temporal_padding_frame": 1
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 1060,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 1060,
+      "planned_total_visual_tokens": 1312,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S2_fps0p5",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S2",
+      "fps": 0.5,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 10,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 2.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            109,
+            1276,
+            489
+          ],
+          "time_range": [
+            2.0,
+            22.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "roi_native_size": [
+            1276,
+            380
+          ],
+          "frames": 10,
+          "input_resolution": [
+            1280,
+            384
+          ],
+          "planned_video_tokens": 2400,
+          "model_frames_with_temporal_padding": 10,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 2400,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 2400,
+      "planned_total_visual_tokens": 2652,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S0_fps1",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S0",
+      "fps": 1.0,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 20,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            2.0,
+            22.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 20,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 7200,
+          "model_frames_with_temporal_padding": 20,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 7200,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 7200,
+      "planned_total_visual_tokens": 7200,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S1_fps1",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S1",
+      "fps": 1.0,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 20,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 2.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            448,
+            384,
+            768,
+            576
+          ],
+          "time_range": [
+            0.20859406888484955,
+            24.822694778442383
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "roi_native_size": [
+            320,
+            192
+          ],
+          "frames": 20,
+          "input_resolution": [
+            320,
+            192
+          ],
+          "planned_video_tokens": 600,
+          "model_frames_with_temporal_padding": 20,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            64,
+            128,
+            1280,
+            256
+          ],
+          "time_range": [
+            3.5460991859436035,
+            27.325824737548828
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "roi_native_size": [
+            1216,
+            128
+          ],
+          "frames": 18,
+          "input_resolution": [
+            1216,
+            128
+          ],
+          "planned_video_tokens": 1368,
+          "model_frames_with_temporal_padding": 18,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 1968,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 1968,
+      "planned_total_visual_tokens": 2220,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S2_fps1",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S2",
+      "fps": 1.0,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 20,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 2.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            109,
+            1276,
+            489
+          ],
+          "time_range": [
+            2.0,
+            22.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "roi_native_size": [
+            1276,
+            380
+          ],
+          "frames": 20,
+          "input_resolution": [
+            1280,
+            384
+          ],
+          "planned_video_tokens": 4800,
+          "model_frames_with_temporal_padding": 20,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 4800,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 4800,
+      "planned_total_visual_tokens": 5052,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S0_fps2",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S0",
+      "fps": 2.0,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 40,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            2.0,
+            22.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 40,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 14400,
+          "model_frames_with_temporal_padding": 40,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 14400,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 14400,
+      "planned_total_visual_tokens": 14400,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S1_fps2",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S1",
+      "fps": 2.0,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 40,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 2.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            448,
+            384,
+            768,
+            576
+          ],
+          "time_range": [
+            0.20859406888484955,
+            24.822694778442383
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "roi_native_size": [
+            320,
+            192
+          ],
+          "frames": 40,
+          "input_resolution": [
+            320,
+            192
+          ],
+          "planned_video_tokens": 1200,
+          "model_frames_with_temporal_padding": 40,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            64,
+            128,
+            1280,
+            256
+          ],
+          "time_range": [
+            3.5460991859436035,
+            27.325824737548828
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "roi_native_size": [
+            1216,
+            128
+          ],
+          "frames": 36,
+          "input_resolution": [
+            1216,
+            128
+          ],
+          "planned_video_tokens": 2736,
+          "model_frames_with_temporal_padding": 36,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 3936,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 3936,
+      "planned_total_visual_tokens": 4188,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S2_fps2",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S2",
+      "fps": 2.0,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 40,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 2.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            109,
+            1276,
+            489
+          ],
+          "time_range": [
+            2.0,
+            22.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "roi_native_size": [
+            1276,
+            380
+          ],
+          "frames": 40,
+          "input_resolution": [
+            1280,
+            384
+          ],
+          "planned_video_tokens": 9600,
+          "model_frames_with_temporal_padding": 40,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 9600,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 9600,
+      "planned_total_visual_tokens": 9852,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S0_fps3",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S0",
+      "fps": 3.0,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 60,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            2.0,
+            22.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 60,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 21600,
+          "model_frames_with_temporal_padding": 60,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 21600,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 21600,
+      "planned_total_visual_tokens": 21600,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S1_fps3",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S1",
+      "fps": 3.0,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 60,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 2.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            448,
+            384,
+            768,
+            576
+          ],
+          "time_range": [
+            0.20859406888484955,
+            24.822694778442383
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "roi_native_size": [
+            320,
+            192
+          ],
+          "frames": 60,
+          "input_resolution": [
+            320,
+            192
+          ],
+          "planned_video_tokens": 1800,
+          "model_frames_with_temporal_padding": 60,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            64,
+            128,
+            1280,
+            256
+          ],
+          "time_range": [
+            3.5460991859436035,
+            27.325824737548828
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "roi_native_size": [
+            1216,
+            128
+          ],
+          "frames": 55,
+          "input_resolution": [
+            1216,
+            128
+          ],
+          "planned_video_tokens": 4256,
+          "model_frames_with_temporal_padding": 56,
+          "temporal_padding_frame": 1
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 6056,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 6056,
+      "planned_total_visual_tokens": 6308,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S2_fps3",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S2",
+      "fps": 3.0,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 60,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 2.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            109,
+            1276,
+            489
+          ],
+          "time_range": [
+            2.0,
+            22.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "roi_native_size": [
+            1276,
+            380
+          ],
+          "frames": 60,
+          "input_resolution": [
+            1280,
+            384
+          ],
+          "planned_video_tokens": 14400,
+          "model_frames_with_temporal_padding": 60,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 14400,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 14400,
+      "planned_total_visual_tokens": 14652,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S0_fps4",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S0",
+      "fps": 4.0,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 80,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            2.0,
+            22.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 80,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 28800,
+          "model_frames_with_temporal_padding": 80,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 28800,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 28800,
+      "planned_total_visual_tokens": 28800,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S1_fps4",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S1",
+      "fps": 4.0,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 80,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 2.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            448,
+            384,
+            768,
+            576
+          ],
+          "time_range": [
+            0.20859406888484955,
+            24.822694778442383
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "roi_native_size": [
+            320,
+            192
+          ],
+          "frames": 80,
+          "input_resolution": [
+            320,
+            192
+          ],
+          "planned_video_tokens": 2400,
+          "model_frames_with_temporal_padding": 80,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            64,
+            128,
+            1280,
+            256
+          ],
+          "time_range": [
+            3.5460991859436035,
+            27.325824737548828
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "roi_native_size": [
+            1216,
+            128
+          ],
+          "frames": 73,
+          "input_resolution": [
+            1216,
+            128
+          ],
+          "planned_video_tokens": 5624,
+          "model_frames_with_temporal_padding": 74,
+          "temporal_padding_frame": 1
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 8024,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 8024,
+      "planned_total_visual_tokens": 8276,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "C_S2_fps4",
+      "video_id": "C",
+      "video_name": "VIRAT_S_010106_05_000954_000996",
+      "spatial": "S2",
+      "fps": 4.0,
+      "window": [
+        2.0,
+        22.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 80,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 2.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            109,
+            1276,
+            489
+          ],
+          "time_range": [
+            2.0,
+            22.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "roi_native_size": [
+            1276,
+            380
+          ],
+          "frames": 80,
+          "input_resolution": [
+            1280,
+            384
+          ],
+          "planned_video_tokens": 19200,
+          "model_frames_with_temporal_padding": 80,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 19200,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 19200,
+      "planned_total_visual_tokens": 19452,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S0_fps0p5",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S0",
+      "fps": 0.5,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 20,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "roi_native_size": [
+            1920,
+            1080
+          ],
+          "frames": 20,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 7200,
+          "model_frames_with_temporal_padding": 20,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 7200,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 7200,
+      "planned_total_visual_tokens": 7200,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S1_fps0p5",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S1",
+      "fps": 0.5,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 20,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1920,
+          1080
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            0,
+            320,
+            576,
+            832
+          ],
+          "time_range": [
+            0.20020000636577606,
+            54.654598236083984
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "roi_native_size": [
+            576,
+            512
+          ],
+          "frames": 20,
+          "input_resolution": [
+            576,
+            512
+          ],
+          "planned_video_tokens": 2880,
+          "model_frames_with_temporal_padding": 20,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            1856,
+            192,
+            1920,
+            320
+          ],
+          "time_range": [
+            2.60260009765625,
+            7.607600212097168
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0
+          ],
+          "roi_native_size": [
+            64,
+            128
+          ],
+          "frames": 1,
+          "input_resolution": [
+            64,
+            128
+          ],
+          "planned_video_tokens": 8,
+          "model_frames_with_temporal_padding": 2,
+          "temporal_padding_frame": 1
+        },
+        {
+          "roi_id": "tube3",
+          "bbox_xyxy": [
+            1408,
+            0,
+            1536,
+            64
+          ],
+          "time_range": [
+            52.051998138427734,
+            53.85380172729492
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 2888,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 2888,
+      "planned_total_visual_tokens": 3140,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S2_fps0p5",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S2",
+      "fps": 0.5,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 20,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1920,
+          1080
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            256,
+            628,
+            680
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "roi_native_size": [
+            628,
+            424
+          ],
+          "frames": 20,
+          "input_resolution": [
+            640,
+            416
+          ],
+          "planned_video_tokens": 2600,
+          "model_frames_with_temporal_padding": 20,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 2600,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 2600,
+      "planned_total_visual_tokens": 2852,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S0_fps1",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S0",
+      "fps": 1.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 40,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "roi_native_size": [
+            1920,
+            1080
+          ],
+          "frames": 40,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 14400,
+          "model_frames_with_temporal_padding": 40,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 14400,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 14400,
+      "planned_total_visual_tokens": 14400,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S1_fps1",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S1",
+      "fps": 1.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 40,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1920,
+          1080
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            0,
+            320,
+            576,
+            832
+          ],
+          "time_range": [
+            0.20020000636577606,
+            54.654598236083984
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "roi_native_size": [
+            576,
+            512
+          ],
+          "frames": 40,
+          "input_resolution": [
+            576,
+            512
+          ],
+          "planned_video_tokens": 5760,
+          "model_frames_with_temporal_padding": 40,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            1856,
+            192,
+            1920,
+            320
+          ],
+          "time_range": [
+            2.60260009765625,
+            7.607600212097168
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0
+          ],
+          "roi_native_size": [
+            64,
+            128
+          ],
+          "frames": 1,
+          "input_resolution": [
+            64,
+            128
+          ],
+          "planned_video_tokens": 8,
+          "model_frames_with_temporal_padding": 2,
+          "temporal_padding_frame": 1
+        },
+        {
+          "roi_id": "tube3",
+          "bbox_xyxy": [
+            1408,
+            0,
+            1536,
+            64
+          ],
+          "time_range": [
+            52.051998138427734,
+            53.85380172729492
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 5768,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 5768,
+      "planned_total_visual_tokens": 6020,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S2_fps1",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S2",
+      "fps": 1.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 40,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1920,
+          1080
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            256,
+            628,
+            680
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "roi_native_size": [
+            628,
+            424
+          ],
+          "frames": 40,
+          "input_resolution": [
+            640,
+            416
+          ],
+          "planned_video_tokens": 5200,
+          "model_frames_with_temporal_padding": 40,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 5200,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 5200,
+      "planned_total_visual_tokens": 5452,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S0_fps2",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S0",
+      "fps": 2.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 80,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "roi_native_size": [
+            1920,
+            1080
+          ],
+          "frames": 80,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 28800,
+          "model_frames_with_temporal_padding": 80,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 28800,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 28800,
+      "planned_total_visual_tokens": 28800,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S1_fps2",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S1",
+      "fps": 2.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 80,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1920,
+          1080
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            0,
+            320,
+            576,
+            832
+          ],
+          "time_range": [
+            0.20020000636577606,
+            54.654598236083984
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "roi_native_size": [
+            576,
+            512
+          ],
+          "frames": 80,
+          "input_resolution": [
+            576,
+            512
+          ],
+          "planned_video_tokens": 11520,
+          "model_frames_with_temporal_padding": 80,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            1856,
+            192,
+            1920,
+            320
+          ],
+          "time_range": [
+            2.60260009765625,
+            7.607600212097168
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1
+          ],
+          "roi_native_size": [
+            64,
+            128
+          ],
+          "frames": 2,
+          "input_resolution": [
+            64,
+            128
+          ],
+          "planned_video_tokens": 8,
+          "model_frames_with_temporal_padding": 2,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube3",
+          "bbox_xyxy": [
+            1408,
+            0,
+            1536,
+            64
+          ],
+          "time_range": [
+            52.051998138427734,
+            53.85380172729492
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 11528,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 11528,
+      "planned_total_visual_tokens": 11780,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S2_fps2",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S2",
+      "fps": 2.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 80,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1920,
+          1080
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            256,
+            628,
+            680
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "roi_native_size": [
+            628,
+            424
+          ],
+          "frames": 80,
+          "input_resolution": [
+            640,
+            416
+          ],
+          "planned_video_tokens": 10400,
+          "model_frames_with_temporal_padding": 80,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 10400,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 10400,
+      "planned_total_visual_tokens": 10652,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S0_fps3",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S0",
+      "fps": 3.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 120,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "roi_native_size": [
+            1920,
+            1080
+          ],
+          "frames": 120,
+          "input_resolution": [
+            1120,
+            608
+          ],
+          "planned_video_tokens": 39900,
+          "model_frames_with_temporal_padding": 120,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 728177,
+        "tokens_at_vmax": 43200,
+        "binding": "budget"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 39900,
+      "planned_total_visual_tokens": 39900,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S1_fps3",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S1",
+      "fps": 3.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 120,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1920,
+          1080
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            0,
+            320,
+            576,
+            832
+          ],
+          "time_range": [
+            0.20020000636577606,
+            54.654598236083984
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "roi_native_size": [
+            576,
+            512
+          ],
+          "frames": 120,
+          "input_resolution": [
+            576,
+            512
+          ],
+          "planned_video_tokens": 17280,
+          "model_frames_with_temporal_padding": 120,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            1856,
+            192,
+            1920,
+            320
+          ],
+          "time_range": [
+            2.60260009765625,
+            7.607600212097168
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1
+          ],
+          "roi_native_size": [
+            64,
+            128
+          ],
+          "frames": 2,
+          "input_resolution": [
+            64,
+            128
+          ],
+          "planned_video_tokens": 8,
+          "model_frames_with_temporal_padding": 2,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube3",
+          "bbox_xyxy": [
+            1408,
+            0,
+            1536,
+            64
+          ],
+          "time_range": [
+            52.051998138427734,
+            53.85380172729492
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 17288,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 17288,
+      "planned_total_visual_tokens": 17540,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S2_fps3",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S2",
+      "fps": 3.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 120,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1920,
+          1080
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            256,
+            628,
+            680
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "roi_native_size": [
+            628,
+            424
+          ],
+          "frames": 120,
+          "input_resolution": [
+            640,
+            416
+          ],
+          "planned_video_tokens": 15600,
+          "model_frames_with_temporal_padding": 120,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 15600,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 15600,
+      "planned_total_visual_tokens": 15852,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S0_fps4",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S0",
+      "fps": 4.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 160,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "roi_native_size": [
+            1920,
+            1080
+          ],
+          "frames": 160,
+          "input_resolution": [
+            960,
+            544
+          ],
+          "planned_video_tokens": 40800,
+          "model_frames_with_temporal_padding": 160,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 553535,
+        "tokens_at_vmax": 57600,
+        "binding": "budget"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 40800,
+      "planned_total_visual_tokens": 40800,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S1_fps4",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S1",
+      "fps": 4.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 160,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1920,
+          1080
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            0,
+            320,
+            576,
+            832
+          ],
+          "time_range": [
+            0.20020000636577606,
+            54.654598236083984
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "roi_native_size": [
+            576,
+            512
+          ],
+          "frames": 160,
+          "input_resolution": [
+            576,
+            512
+          ],
+          "planned_video_tokens": 23040,
+          "model_frames_with_temporal_padding": 160,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            1856,
+            192,
+            1920,
+            320
+          ],
+          "time_range": [
+            2.60260009765625,
+            7.607600212097168
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            0,
+            1,
+            2
+          ],
+          "roi_native_size": [
+            64,
+            128
+          ],
+          "frames": 3,
+          "input_resolution": [
+            64,
+            128
+          ],
+          "planned_video_tokens": 16,
+          "model_frames_with_temporal_padding": 4,
+          "temporal_padding_frame": 1
+        },
+        {
+          "roi_id": "tube3",
+          "bbox_xyxy": [
+            1408,
+            0,
+            1536,
+            64
+          ],
+          "time_range": [
+            52.051998138427734,
+            53.85380172729492
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [],
+          "excluded": "no sampled frame inside tube lifetime ∩ window"
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 23056,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 23056,
+      "planned_total_visual_tokens": 23308,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "D_S2_fps4",
+      "video_id": "D",
+      "video_name": "VIRAT_S_040005_00_000003_000058",
+      "spatial": "S2",
+      "fps": 4.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "native_fps": 29.97002997002997,
+      "grid_frame_count": 160,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1920,
+          1080
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            256,
+            628,
+            680
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "roi_native_size": [
+            628,
+            424
+          ],
+          "frames": 160,
+          "input_resolution": [
+            640,
+            416
+          ],
+          "planned_video_tokens": 20800,
+          "model_frames_with_temporal_padding": 160,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 20800,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 20800,
+      "planned_total_visual_tokens": 21052,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S0_fps0p5",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S0",
+      "fps": 0.5,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 20,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 20,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 7200,
+          "model_frames_with_temporal_padding": 20,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 7200,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 7200,
+      "planned_total_visual_tokens": 7200,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S1_fps0p5",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S1",
+      "fps": 0.5,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 20,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            0,
+            128,
+            1280,
+            320
+          ],
+          "time_range": [
+            7.300792694091797,
+            58.406341552734375
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "roi_native_size": [
+            1280,
+            192
+          ],
+          "frames": 19,
+          "input_resolution": [
+            1280,
+            192
+          ],
+          "planned_video_tokens": 2400,
+          "model_frames_with_temporal_padding": 20,
+          "temporal_padding_frame": 1
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            896,
+            0,
+            1024,
+            64
+          ],
+          "time_range": [
+            11.889862060546875,
+            16.68752670288086
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            3,
+            4
+          ],
+          "roi_native_size": [
+            128,
+            64
+          ],
+          "frames": 2,
+          "input_resolution": [
+            128,
+            64
+          ],
+          "planned_video_tokens": 8,
+          "model_frames_with_temporal_padding": 2,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 2408,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 2408,
+      "planned_total_visual_tokens": 2660,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S2_fps0p5",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S2",
+      "fps": 0.5,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 20,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            103,
+            1280,
+            387
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "roi_native_size": [
+            1280,
+            284
+          ],
+          "frames": 20,
+          "input_resolution": [
+            1280,
+            288
+          ],
+          "planned_video_tokens": 3600,
+          "model_frames_with_temporal_padding": 20,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 3600,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 3600,
+      "planned_total_visual_tokens": 3852,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S0_fps1",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S0",
+      "fps": 1.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 40,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 40,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 14400,
+          "model_frames_with_temporal_padding": 40,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 14400,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 14400,
+      "planned_total_visual_tokens": 14400,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S1_fps1",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S1",
+      "fps": 1.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 40,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            0,
+            128,
+            1280,
+            320
+          ],
+          "time_range": [
+            7.300792694091797,
+            58.406341552734375
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "roi_native_size": [
+            1280,
+            192
+          ],
+          "frames": 39,
+          "input_resolution": [
+            1280,
+            192
+          ],
+          "planned_video_tokens": 4800,
+          "model_frames_with_temporal_padding": 40,
+          "temporal_padding_frame": 1
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            896,
+            0,
+            1024,
+            64
+          ],
+          "time_range": [
+            11.889862060546875,
+            16.68752670288086
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "roi_native_size": [
+            128,
+            64
+          ],
+          "frames": 5,
+          "input_resolution": [
+            128,
+            64
+          ],
+          "planned_video_tokens": 24,
+          "model_frames_with_temporal_padding": 6,
+          "temporal_padding_frame": 1
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 4824,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 4824,
+      "planned_total_visual_tokens": 5076,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S2_fps1",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S2",
+      "fps": 1.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 40,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            103,
+            1280,
+            387
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "roi_native_size": [
+            1280,
+            284
+          ],
+          "frames": 40,
+          "input_resolution": [
+            1280,
+            288
+          ],
+          "planned_video_tokens": 7200,
+          "model_frames_with_temporal_padding": 40,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 7200,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 7200,
+      "planned_total_visual_tokens": 7452,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S0_fps2",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S0",
+      "fps": 2.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 80,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 80,
+          "input_resolution": [
+            1152,
+            640
+          ],
+          "planned_video_tokens": 28800,
+          "model_frames_with_temporal_padding": 80,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 28800,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 28800,
+      "planned_total_visual_tokens": 28800,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S1_fps2",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S1",
+      "fps": 2.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 80,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            0,
+            128,
+            1280,
+            320
+          ],
+          "time_range": [
+            7.300792694091797,
+            58.406341552734375
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "roi_native_size": [
+            1280,
+            192
+          ],
+          "frames": 79,
+          "input_resolution": [
+            1280,
+            192
+          ],
+          "planned_video_tokens": 9600,
+          "model_frames_with_temporal_padding": 80,
+          "temporal_padding_frame": 1
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            896,
+            0,
+            1024,
+            64
+          ],
+          "time_range": [
+            11.889862060546875,
+            16.68752670288086
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "roi_native_size": [
+            128,
+            64
+          ],
+          "frames": 10,
+          "input_resolution": [
+            128,
+            64
+          ],
+          "planned_video_tokens": 40,
+          "model_frames_with_temporal_padding": 10,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 9640,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 9640,
+      "planned_total_visual_tokens": 9892,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S2_fps2",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S2",
+      "fps": 2.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 80,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            103,
+            1280,
+            387
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "roi_native_size": [
+            1280,
+            284
+          ],
+          "frames": 80,
+          "input_resolution": [
+            1280,
+            288
+          ],
+          "planned_video_tokens": 14400,
+          "model_frames_with_temporal_padding": 80,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 14400,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 14400,
+      "planned_total_visual_tokens": 14652,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S0_fps3",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S0",
+      "fps": 3.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 120,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 120,
+          "input_resolution": [
+            1120,
+            608
+          ],
+          "planned_video_tokens": 39900,
+          "model_frames_with_temporal_padding": 120,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 728177,
+        "tokens_at_vmax": 43200,
+        "binding": "budget"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 39900,
+      "planned_total_visual_tokens": 39900,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S1_fps3",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S1",
+      "fps": 3.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 120,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            0,
+            128,
+            1280,
+            320
+          ],
+          "time_range": [
+            7.300792694091797,
+            58.406341552734375
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "roi_native_size": [
+            1280,
+            192
+          ],
+          "frames": 119,
+          "input_resolution": [
+            1280,
+            192
+          ],
+          "planned_video_tokens": 14400,
+          "model_frames_with_temporal_padding": 120,
+          "temporal_padding_frame": 1
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            896,
+            0,
+            1024,
+            64
+          ],
+          "time_range": [
+            11.889862060546875,
+            16.68752670288086
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "roi_native_size": [
+            128,
+            64
+          ],
+          "frames": 15,
+          "input_resolution": [
+            128,
+            64
+          ],
+          "planned_video_tokens": 64,
+          "model_frames_with_temporal_padding": 16,
+          "temporal_padding_frame": 1
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 14464,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 14464,
+      "planned_total_visual_tokens": 14716,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S2_fps3",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S2",
+      "fps": 3.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 120,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            103,
+            1280,
+            387
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "roi_native_size": [
+            1280,
+            284
+          ],
+          "frames": 120,
+          "input_resolution": [
+            1280,
+            288
+          ],
+          "planned_video_tokens": 21600,
+          "model_frames_with_temporal_padding": 120,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 21600,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 21600,
+      "planned_total_visual_tokens": 21852,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S0_fps4",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S0",
+      "fps": 4.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 160,
+      "token_budget": 40960,
+      "global_image": null,
+      "rois": [
+        {
+          "roi_id": "full",
+          "bbox_xyxy": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "full_frame",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "roi_native_size": [
+            1280,
+            720
+          ],
+          "frames": 160,
+          "input_resolution": [
+            960,
+            544
+          ],
+          "planned_video_tokens": 40800,
+          "model_frames_with_temporal_padding": 160,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 553535,
+        "tokens_at_vmax": 57600,
+        "binding": "budget"
+      },
+      "planned_image_tokens": 0,
+      "planned_video_tokens": 40800,
+      "planned_total_visual_tokens": 40800,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S1_fps4",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S1",
+      "fps": 4.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 160,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "tube1",
+          "bbox_xyxy": [
+            0,
+            128,
+            1280,
+            320
+          ],
+          "time_range": [
+            7.300792694091797,
+            58.406341552734375
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "roi_native_size": [
+            1280,
+            192
+          ],
+          "frames": 158,
+          "input_resolution": [
+            1280,
+            192
+          ],
+          "planned_video_tokens": 18960,
+          "model_frames_with_temporal_padding": 158,
+          "temporal_padding_frame": 0
+        },
+        {
+          "roi_id": "tube2",
+          "bbox_xyxy": [
+            896,
+            0,
+            1024,
+            64
+          ],
+          "time_range": [
+            11.889862060546875,
+            16.68752670288086
+          ],
+          "source": "motion_stage3_tube",
+          "grid_idx": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "roi_native_size": [
+            128,
+            64
+          ],
+          "frames": 19,
+          "input_resolution": [
+            128,
+            64
+          ],
+          "planned_video_tokens": 80,
+          "model_frames_with_temporal_padding": 20,
+          "temporal_padding_frame": 1
+        }
+      ],
+      "roi_count_used": 2,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 19040,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 19040,
+      "planned_total_visual_tokens": 19292,
+      "budget_ok": true
+    },
+    {
+      "condition_id": "E_S2_fps4",
+      "video_id": "E",
+      "video_name": "VIRAT_S_010116_00_000061_000121",
+      "spatial": "S2",
+      "fps": 4.0,
+      "window": [
+        7.0,
+        47.0
+      ],
+      "native_resolution": [
+        1280,
+        720
+      ],
+      "native_fps": 23.97,
+      "grid_frame_count": 160,
+      "token_budget": 40960,
+      "global_image": {
+        "time_target": 7.0,
+        "native_resolution": [
+          1280,
+          720
+        ],
+        "input_resolution": [
+          672,
+          384
+        ],
+        "tokens": 252
+      },
+      "rois": [
+        {
+          "roi_id": "manual1",
+          "bbox_xyxy": [
+            0,
+            103,
+            1280,
+            387
+          ],
+          "time_range": [
+            7.0,
+            47.0
+          ],
+          "source": "gold_lifetime_bbox",
+          "grid_idx": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "roi_native_size": [
+            1280,
+            284
+          ],
+          "frames": 160,
+          "input_resolution": [
+            1280,
+            288
+          ],
+          "planned_video_tokens": 28800,
+          "model_frames_with_temporal_padding": 160,
+          "temporal_padding_frame": 0
+        }
+      ],
+      "roi_count_used": 1,
+      "allocation": {
+        "cap_pixels": 786432,
+        "tokens_at_vmax": 28800,
+        "binding": "per_frame_max_pixels_or_native"
+      },
+      "planned_image_tokens": 252,
+      "planned_video_tokens": 28800,
+      "planned_total_visual_tokens": 29052,
+      "budget_ok": true
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+condition_id,video,spatial,fps,grid_frames,rois,image_tokens,video_tokens,total_tokens,budget_ok,binding,roi_inputs
+A_S0_fps0p5,A,S0,0.5,15,1,0,5760,5760,True,per_frame_max_pixels_or_native,full:15f@1152x640
+A_S1_fps0p5,A,S1,0.5,15,1,252,3264,3516,True,per_frame_max_pixels_or_native,tube1:15f@1088x384
+A_S2_fps0p5,A,S2,0.5,15,1,252,5120,5372,True,per_frame_max_pixels_or_native,manual1:15f@1280x512
+A_S0_fps1,A,S0,1.0,30,1,0,10800,10800,True,per_frame_max_pixels_or_native,full:30f@1152x640
+A_S1_fps1,A,S1,1.0,30,1,252,6120,6372,True,per_frame_max_pixels_or_native,tube1:30f@1088x384
+A_S2_fps1,A,S2,1.0,30,1,252,9600,9852,True,per_frame_max_pixels_or_native,manual1:30f@1280x512
+A_S0_fps2,A,S0,2.0,60,1,0,21600,21600,True,per_frame_max_pixels_or_native,full:60f@1152x640
+A_S1_fps2,A,S1,2.0,60,1,252,12240,12492,True,per_frame_max_pixels_or_native,tube1:60f@1088x384
+A_S2_fps2,A,S2,2.0,60,1,252,19200,19452,True,per_frame_max_pixels_or_native,manual1:60f@1280x512
+A_S0_fps3,A,S0,3.0,90,1,0,32400,32400,True,per_frame_max_pixels_or_native,full:90f@1152x640
+A_S1_fps3,A,S1,3.0,90,1,252,18360,18612,True,per_frame_max_pixels_or_native,tube1:90f@1088x384
+A_S2_fps3,A,S2,3.0,90,1,252,28800,29052,True,per_frame_max_pixels_or_native,manual1:90f@1280x512
+A_S0_fps4,A,S0,4.0,120,1,0,39900,39900,True,budget,full:120f@1120x608
+A_S1_fps4,A,S1,4.0,120,1,252,24480,24732,True,per_frame_max_pixels_or_native,tube1:120f@1088x384
+A_S2_fps4,A,S2,4.0,120,1,252,38400,38652,True,per_frame_max_pixels_or_native,manual1:120f@1280x512
+C_S0_fps0p5,C,S0,0.5,10,1,0,3600,3600,True,per_frame_max_pixels_or_native,full:10f@1152x640
+C_S1_fps0p5,C,S1,0.5,10,2,252,1060,1312,True,per_frame_max_pixels_or_native,tube1:10f@320x192 | tube2:9f@1216x128
+C_S2_fps0p5,C,S2,0.5,10,1,252,2400,2652,True,per_frame_max_pixels_or_native,manual1:10f@1280x384
+C_S0_fps1,C,S0,1.0,20,1,0,7200,7200,True,per_frame_max_pixels_or_native,full:20f@1152x640
+C_S1_fps1,C,S1,1.0,20,2,252,1968,2220,True,per_frame_max_pixels_or_native,tube1:20f@320x192 | tube2:18f@1216x128
+C_S2_fps1,C,S2,1.0,20,1,252,4800,5052,True,per_frame_max_pixels_or_native,manual1:20f@1280x384
+C_S0_fps2,C,S0,2.0,40,1,0,14400,14400,True,per_frame_max_pixels_or_native,full:40f@1152x640
+C_S1_fps2,C,S1,2.0,40,2,252,3936,4188,True,per_frame_max_pixels_or_native,tube1:40f@320x192 | tube2:36f@1216x128
+C_S2_fps2,C,S2,2.0,40,1,252,9600,9852,True,per_frame_max_pixels_or_native,manual1:40f@1280x384
+C_S0_fps3,C,S0,3.0,60,1,0,21600,21600,True,per_frame_max_pixels_or_native,full:60f@1152x640
+C_S1_fps3,C,S1,3.0,60,2,252,6056,6308,True,per_frame_max_pixels_or_native,tube1:60f@320x192 | tube2:55f@1216x128
+C_S2_fps3,C,S2,3.0,60,1,252,14400,14652,True,per_frame_max_pixels_or_native,manual1:60f@1280x384
+C_S0_fps4,C,S0,4.0,80,1,0,28800,28800,True,per_frame_max_pixels_or_native,full:80f@1152x640
+C_S1_fps4,C,S1,4.0,80,2,252,8024,8276,True,per_frame_max_pixels_or_native,tube1:80f@320x192 | tube2:73f@1216x128
+C_S2_fps4,C,S2,4.0,80,1,252,19200,19452,True,per_frame_max_pixels_or_native,manual1:80f@1280x384
+D_S0_fps0p5,D,S0,0.5,20,1,0,7200,7200,True,per_frame_max_pixels_or_native,full:20f@1152x640
+D_S1_fps0p5,D,S1,0.5,20,2,252,2888,3140,True,per_frame_max_pixels_or_native,tube1:20f@576x512 | tube2:1f@64x128
+D_S2_fps0p5,D,S2,0.5,20,1,252,2600,2852,True,per_frame_max_pixels_or_native,manual1:20f@640x416
+D_S0_fps1,D,S0,1.0,40,1,0,14400,14400,True,per_frame_max_pixels_or_native,full:40f@1152x640
+D_S1_fps1,D,S1,1.0,40,2,252,5768,6020,True,per_frame_max_pixels_or_native,tube1:40f@576x512 | tube2:1f@64x128
+D_S2_fps1,D,S2,1.0,40,1,252,5200,5452,True,per_frame_max_pixels_or_native,manual1:40f@640x416
+D_S0_fps2,D,S0,2.0,80,1,0,28800,28800,True,per_frame_max_pixels_or_native,full:80f@1152x640
+D_S1_fps2,D,S1,2.0,80,2,252,11528,11780,True,per_frame_max_pixels_or_native,tube1:80f@576x512 | tube2:2f@64x128
+D_S2_fps2,D,S2,2.0,80,1,252,10400,10652,True,per_frame_max_pixels_or_native,manual1:80f@640x416
+D_S0_fps3,D,S0,3.0,120,1,0,39900,39900,True,budget,full:120f@1120x608
+D_S1_fps3,D,S1,3.0,120,2,252,17288,17540,True,per_frame_max_pixels_or_native,tube1:120f@576x512 | tube2:2f@64x128
+D_S2_fps3,D,S2,3.0,120,1,252,15600,15852,True,per_frame_max_pixels_or_native,manual1:120f@640x416
+D_S0_fps4,D,S0,4.0,160,1,0,40800,40800,True,budget,full:160f@960x544
+D_S1_fps4,D,S1,4.0,160,2,252,23056,23308,True,per_frame_max_pixels_or_native,tube1:160f@576x512 | tube2:3f@64x128
+D_S2_fps4,D,S2,4.0,160,1,252,20800,21052,True,per_frame_max_pixels_or_native,manual1:160f@640x416
+E_S0_fps0p5,E,S0,0.5,20,1,0,7200,7200,True,per_frame_max_pixels_or_native,full:20f@1152x640
+E_S1_fps0p5,E,S1,0.5,20,2,252,2408,2660,True,per_frame_max_pixels_or_native,tube1:19f@1280x192 | tube2:2f@128x64
+E_S2_fps0p5,E,S2,0.5,20,1,252,3600,3852,True,per_frame_max_pixels_or_native,manual1:20f@1280x288
+E_S0_fps1,E,S0,1.0,40,1,0,14400,14400,True,per_frame_max_pixels_or_native,full:40f@1152x640
+E_S1_fps1,E,S1,1.0,40,2,252,4824,5076,True,per_frame_max_pixels_or_native,tube1:39f@1280x192 | tube2:5f@128x64
+E_S2_fps1,E,S2,1.0,40,1,252,7200,7452,True,per_frame_max_pixels_or_native,manual1:40f@1280x288
+E_S0_fps2,E,S0,2.0,80,1,0,28800,28800,True,per_frame_max_pixels_or_native,full:80f@1152x640
+E_S1_fps2,E,S1,2.0,80,2,252,9640,9892,True,per_frame_max_pixels_or_native,tube1:79f@1280x192 | tube2:10f@128x64
+E_S2_fps2,E,S2,2.0,80,1,252,14400,14652,True,per_frame_max_pixels_or_native,manual1:80f@1280x288
+E_S0_fps3,E,S0,3.0,120,1,0,39900,39900,True,budget,full:120f@1120x608
+E_S1_fps3,E,S1,3.0,120,2,252,14464,14716,True,per_frame_max_pixels_or_native,tube1:119f@1280x192 | tube2:15f@128x64
+E_S2_fps3,E,S2,3.0,120,1,252,21600,21852,True,per_frame_max_pixels_or_native,manual1:120f@1280x288
+E_S0_fps4,E,S0,4.0,160,1,0,40800,40800,True,budget,full:160f@960x544
+E_S1_fps4,E,S1,4.0,160,2,252,19040,19292,True,per_frame_max_pixels_or_native,tube1:158f@1280x192 | tube2:19f@128x64
+E_S2_fps4,E,S2,4.0,160,1,252,28800,29052,True,per_frame_max_pixels_or_native,manual1:160f@1280x288

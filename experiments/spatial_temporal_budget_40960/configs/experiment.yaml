@@ -1,0 +1,40 @@
+# Spatial-Temporal Input Configuration under a Fixed Visual Token Budget (Qwen3-VL-8B-Instruct)
+experiment:
+  name: spatial_temporal_budget_40960
+  token_budget: 40960           # upper bound on image + all video visual tokens per VLM request
+  fps: [0.5, 1.0, 2.0, 3.0, 4.0]
+  spatial: [S0, S1, S2]
+  sampling: uniform, t_k = window_start + k/fps < window_end; nearest decoded frame by PTS; same grid for every spatial condition
+  timestamp_mode: source_timestamp      # absolute source PTS encoded into video metadata (frame_clock.encode_timestamps)
+video:
+  min_pixels: 4096
+  max_pixels: 786432            # per-frame cap (applied)
+  total_pixels: 41943040        # = 40960 * 32 * 32 ; enforced jointly across all videos of a request (+ image tokens)
+image:
+  min_pixels: 4096
+  max_pixels: 262144
+model:
+  id: Qwen/Qwen3-VL-8B-Instruct
+  path: /data1/vailab02_dir/vlm_models/Qwen3-VL-8B-Instruct/models--Qwen--Qwen3-VL-8B-Instruct/snapshots/0c351dd01ed87e9c1b53cbc748cba10e6187ff3b
+  revision: 0c351dd01ed87e9c1b53cbc748cba10e6187ff3b
+  dtype: bfloat16
+  attn_implementation: sdpa
+generation:
+  do_sample: false
+  repetition_penalty: 1.0
+  max_new_tokens: 256
+  seed: 0
+videos:
+  - {id: A, name: VIRAT_S_000201_04_000682_000822, start: 14, end: 44}
+  - {id: C, name: VIRAT_S_010106_05_000954_000996, start: 2,  end: 22}
+  - {id: D, name: VIRAT_S_040005_00_000003_000058, start: 7,  end: 47}
+  - {id: E, name: VIRAT_S_010116_00_000061_000121, start: 7,  end: 47}
+sources:
+  video_roots:
+    - /data1/vailab02_dir/Classification_DB/VIRAT/videos-00
+    - /data1/vailab02_dir/Classification_DB/VIRAT/videos-01
+    - /data1/vailab02_dir/Classification_DB/VIRAT/videos-04
+  motion_roi_tracks: /data1/vailab02_dir/Classification_DB/VIRAT/motion-detection-result/roi_tracks_json
+  motion_fusion_npz: /data1/vailab02_dir/Classification_DB/VIRAT/motion-detection-result/2_gap_fusion
+  manual_lifetime_bbox_manifest: experiments/gold_lifetime_crop/configs/manifest.json
+  gt: collected_candidate_gt

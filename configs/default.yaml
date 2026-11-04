@@ -3,20 +3,20 @@
 model: 8b
 
 generation:
-  max_new_tokens: 384
+  max_new_tokens: 1024
   do_sample: false
   temperature: 0.7
   top_p: 0.8
   top_k: 20
-  repetition_penalty: 1.1
+  repetition_penalty: 1.2
 
 # Video / frame preprocessing options passed into Qwen3-VL message content
 video:
   fps: 2.0
   # nframes: 32          # mutually exclusive with fps when set
   min_pixels: 4096       # 4 * 32 * 32
-  max_pixels: 262144     # 256 * 32 * 32
-  total_pixels: 20971520 # 20480 * 32 * 32
+  max_pixels: 786432     # 256 * 32 * 32
+  total_pixels: 41943040 # 20480 * 32 * 32 *2 
 
 image:
   min_pixels: 4096
